@@ -9,21 +9,22 @@ This roadmap was made upon [this](http://www.eecs.mit.edu/academics-admissions/u
 ||Course|Archives|Area|
 |---|---|---|---|
 |01|Introduction to Computer Science and Programming|||
-|02|Single Variable Calculus|||
-|03|Physics I: Classical Mechanics|||
-|04|Structure and Interpretation of Computer Programs|||
-|05|Physics II: Electricity and Magnetism|||
-|06|Multivariable Calculus|||
-|07|Linear Algebra|||
-|08|Circuits and Electronics|||
-|09|Computation Structures|||
-|10|Elements of Software Construction|||
-|11|Differential Equations|||
-|12|Introduction to Algorithms|||
-|13|Introduction to EECS II: Digital Communication Systems|||
-|14|Computer System Engineering|||
-|15|Artificial Intelligence|||
-|16|Mathematics for Computer Science|||
+|02|Mathematics for Computer Science|||
+|03|Single Variable Calculus|||
+|04|Physics I: Classical Mechanics|||
+|05|Structure and Interpretation of Computer Programs|||
+|06|Physics II: Electricity and Magnetism|||
+|07|Multivariable Calculus|||
+|08|Linear Algebra|||
+|09|Circuits and Electronics|||
+|10|Computation Structures|||
+|11|Elements of Software Construction|||
+|12|Differential Equations|||
+|13|Introduction to Algorithms|||
+|14|Introduction to EECS II: Digital Communication Systems|||
+|15|Computer System Engineering|||
+|16|Artificial Intelligence|||
+
 |17||||
 |18||||
 
