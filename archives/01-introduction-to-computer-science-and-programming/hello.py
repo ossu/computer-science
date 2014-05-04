@@ -6,3 +6,7 @@ import math
 print math.sqrt(16)
 print math.pow(3, 2)
 print math.cos(0)
+
+# exercises
+print math.pow(23, 5)
+
