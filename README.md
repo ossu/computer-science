@@ -8,22 +8,22 @@ This roadmap was made upon [this](http://www.eecs.mit.edu/academics-admissions/u
 
 ||Course|Archives|Area|
 |---|---|---|---|
-|01|Introduction to Computer Science and Programming|||
-|02|Mathematics for Computer Science|||
-|03|Single Variable Calculus|||
-|04|Physics I: Classical Mechanics|||
-|05|Structure and Interpretation of Computer Programs|||
-|06|Physics II: Electricity and Magnetism|||
-|07|Multivariable Calculus|||
-|08|Linear Algebra|||
-|09|Circuits and Electronics|||
-|10|Computation Structures|||
-|11|Elements of Software Construction|||
-|12|Differential Equations|||
-|13|Introduction to Algorithms|||
-|14|Introduction to EECS II: Digital Communication Systems|||
-|15|Computer System Engineering|||
-|16|Artificial Intelligence|||
+|01|Introduction to Computer Science and Programming|[files](https://github.com/ericdouglas/MIT-computer-science/tree/master/archives/01-introduction-to-computer-science-and-programming)||
+|02|Mathematics for Computer Science|[files]()||
+|03|Single Variable Calculus|[files]()||
+|04|Physics I: Classical Mechanics|[files]()||
+|05|Structure and Interpretation of Computer Programs|[files]()||
+|06|Physics II: Electricity and Magnetism|[files]()||
+|07|Multivariable Calculus|[files]()||
+|08|Linear Algebra|[files]()||
+|09|Circuits and Electronics|[files]()||
+|10|Computation Structures|[files]()||
+|11|Elements of Software Construction|[files]()||
+|12|Differential Equations|[files]()||
+|13|Introduction to Algorithms|[files]()||
+|14|Introduction to EECS II: Digital Communication Systems|[files]()||
+|15|Computer System Engineering|[files]()||
+|16|Artificial Intelligence|[files]()||
 
 ### Other Basic Courses
 
@@ -47,4 +47,4 @@ This roadmap was made upon [this](http://www.eecs.mit.edu/academics-admissions/u
 
 ||Course|Folder|
 |---|---|---|
-|01|Introduction to Computer Science and Programming|[Archives](https://github.com/ericdouglas/MIT-computer-science/tree/master/archives/01-introduction-to-computer-science-and-programming)|
+|01|Introduction to Computer Science and Programming|[Archives]()|
