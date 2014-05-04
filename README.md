@@ -8,22 +8,22 @@ This roadmap was made upon [this](http://www.eecs.mit.edu/academics-admissions/u
 
 ||Course|Archives|Area|
 |---|---|---|---|
-|01|Introduction to Computer Science and Programming|[files](https://github.com/ericdouglas/MIT-computer-science/tree/master/archives/01-introduction-to-computer-science-and-programming)||
-|02|Mathematics for Computer Science|[files]()||
-|03|Single Variable Calculus|[files]()||
-|04|Physics I: Classical Mechanics|[files]()||
-|05|Structure and Interpretation of Computer Programs|[files]()||
-|06|Physics II: Electricity and Magnetism|[files]()||
-|07|Multivariable Calculus|[files]()||
-|08|Linear Algebra|[files]()||
-|09|Circuits and Electronics|[files]()||
-|10|Computation Structures|[files]()||
-|11|Elements of Software Construction|[files]()||
-|12|Differential Equations|[files]()||
-|13|Introduction to Algorithms|[files]()||
-|14|Introduction to EECS II: Digital Communication Systems|[files]()||
-|15|Computer System Engineering|[files]()||
-|16|Artificial Intelligence|[files]()||
+|01|Introduction to Computer Science and Programming|[files](https://github.com/ericdouglas/MIT-computer-science/tree/master/archives/01-introduction-to-computer-science-and-programming)|`computer science`|
+|02|Mathematics for Computer Science|[files]()|`mathematics`|
+|03|Single Variable Calculus|[files]()|`mathematics`|
+|04|Physics I: Classical Mechanics|[files]()|`physics`|
+|05|Structure and Interpretation of Computer Programs|[files]()|`computer science`|
+|06|Physics II: Electricity and Magnetism|[files]()|`physics`|
+|07|Multivariable Calculus|[files]()|`mathematics`|
+|08|Linear Algebra|[files]()|`mathematics`|
+|09|Circuits and Electronics|[files]()|`physics`|
+|10|Computation Structures|[files]()|`computer science`|
+|11|Elements of Software Construction|[files]()|`computer science`|
+|12|Differential Equations|[files]()|`mathematics`|
+|13|Introduction to Algorithms|[files]()|`computer science`|
+|14|Introduction to EECS II: Digital Communication Systems|[files]()|`computer science`|
+|15|Computer System Engineering|[files]()|`computer science`|
+|16|Artificial Intelligence|[files]()|`computer science`|
 
 ### Other Basic Courses
 
@@ -43,8 +43,3 @@ This roadmap was made upon [this](http://www.eecs.mit.edu/academics-admissions/u
 * 6.837  Computer Graphics
 * 6.857  Network and Computer Security
 * 6.S096 Introduction to C and C++
-
-
-||Course|Folder|
-|---|---|---|
-|01|Introduction to Computer Science and Programming|[Archives]()|
