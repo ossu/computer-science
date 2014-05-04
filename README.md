@@ -7,7 +7,7 @@
 This roadmap was made upon [this](http://www.eecs.mit.edu/academics-admissions/undergraduate-programs/course-6-3-computer-science-and-engineering) flow chart of [this](http://www.eecs.mit.edu/academics-admissions/undergraduate-programs/course-6-3-computer-science-and-engineering) course.
 
 ||Course|Archives|Area|
-|---|---|---|---|
+|---|---|:---:|---|
 |01|Introduction to Computer Science and Programming|[files](https://github.com/ericdouglas/MIT-computer-science/tree/master/archives/01-introduction-to-computer-science-and-programming)|`computer science`|
 |02|Mathematics for Computer Science|[files]()|`mathematics`|
 |03|Single Variable Calculus|[files]()|`mathematics`|
