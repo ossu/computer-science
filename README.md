@@ -27,6 +27,9 @@ This roadmap was made upon [this](http://www.eecs.mit.edu/academics-admissions/u
 
 ### Other Basic Courses
 
+* 6.035	 Computer Language Engineering
+* 6.041	 Probabilistic Systems Analysis and Applied Probability
+* 6.045J	 Automata, Computability, and Complexity
 * 6.046J Design and Analysis of Algorithms
 * 6.080  Great Ideas in Theoretical Computer Science
 * 6.087  Practical Programming in C
