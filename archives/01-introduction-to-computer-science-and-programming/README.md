@@ -6,7 +6,7 @@
 
 ### About This Course
 
-Sstrategic goals of this course:
+Strategic goals of this course:
 
 * Help students (who may or may not intend to major in computer science) to feel justifiably confident of their ability to write small programs.
 * Map scientific problems into computational frameworks.
@@ -32,7 +32,7 @@ This means that the primary knowledge you will take away from this course is the
 ### UNIT 1
 
 ||Lesson|Archives|
-|---|---|---|
+|---|---|:---:|
 |01|INTRODUCTION|[files]()|
 |02|CORE ELEMENTS OF A PROGRAM|[files]()|
 |03|PROBLEM SOLVING|[files]()|
