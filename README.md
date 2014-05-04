@@ -25,7 +25,7 @@ This roadmap was made upon [this](http://www.eecs.mit.edu/academics-admissions/u
 |15|Computer System Engineering|||
 |16|Artificial Intelligence|||
 
-### Other Basics Courses
+### Other Basic Courses
 
 * 6.046J Design and Analysis of Algorithms
 * 6.080  Great Ideas in Theoretical Computer Science
