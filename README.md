@@ -8,7 +8,7 @@ This roadmap was made upon [this](http://www.eecs.mit.edu/academics-admissions/u
 
 ||Course|Archives|Area|
 |---|---|:---:|---|
-|01|Introduction to Computer Science and Programming|[files](https://github.com/ericdouglas/MIT-computer-science/tree/master/archives/01-introduction-to-computer-science-and-programming)|`computer science`|
+|01|[Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm)|[files](https://github.com/ericdouglas/MIT-computer-science/tree/master/archives/01-introduction-to-computer-science-and-programming)|`computer science`|
 |02|Mathematics for Computer Science|[files]()|`mathematics`|
 |03|Single Variable Calculus|[files]()|`mathematics`|
 |04|Physics I: Classical Mechanics|[files]()|`physics`|
