@@ -33,7 +33,7 @@ This means that the primary knowledge you will take away from this course is the
 
 ||Lesson|Archives|
 |---|---|:---:|
-|01|INTRODUCTION|[files]()|
+|01|INTRODUCTION|[files](https://github.com/ericdouglas/MIT-computer-science/tree/master/archives/01-introduction-to-computer-science-and-programming/archives/UNIT-01/01-introduction)|
 |02|CORE ELEMENTS OF A PROGRAM|[files]()|
 |03|PROBLEM SOLVING|[files]()|
 |04|MACHINE INTERPRETATION OF A PROGRAM|[files]()|
