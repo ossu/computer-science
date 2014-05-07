@@ -17,7 +17,7 @@ This lecture covers course expectations, introduces computer programming and its
  
 ## Check Yourself
 
-##### What is the difference between declarative and imperative knowledge?
+#### What is the difference between declarative and imperative knowledge?
 
 Declarative knowledge is statements of fact; imperative knowledge is "how to" knowledge.
 
@@ -25,9 +25,9 @@ Declarative knowledge is statements of fact; imperative knowledge is "how to" kn
 
 It's far more versatile than a fixed-program computer, since it interprets a program given to it and carries out those instructions, as opposed to being to do one thing.
 
-##### What are syntax, static semantics, and semantics of a language?
+#### What are syntax, static semantics, and semantics of a language?
 
 Syntax determines whether a string is legal, static semantics determine whether the string has meaning, and semantics assigns a meaning to a legal sentence (assuming no static semantic errors).
 
-##### What sorts of errors can occur in a program?
+#### What sorts of errors can occur in a program?
 It can crash, run forever, or give a wrong answer.
