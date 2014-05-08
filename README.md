@@ -2,6 +2,8 @@
 
 **Files of my self-taught studies on MIT Open Courseware - Computer Science and Engineering**
 
+> I'm doing the "Computer Science and Engineering" course with the MIT open courseware. In this linear approach (one course at time), I will do all exercises in the "official" programming language taught in the course, and also with JavaScript (Node.JS to be more especific).
+
 ## Basic Roadmap
 
 This roadmap was made upon [this](http://www.eecs.mit.edu/academics-admissions/undergraduate-programs/course-6-3-computer-science-and-engineering) flow chart of [this](http://www.eecs.mit.edu/academics-admissions/undergraduate-programs/course-6-3-computer-science-and-engineering) course.
