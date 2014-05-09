@@ -12,4 +12,4 @@ This lecture covers the building blocks of straight line and branching programs:
 
 ◈ [Code in Node.JS](https://github.com/ericdouglas/MIT-computer-science-and-engineering/blob/master/archives/01-introduction-to-computer-science-and-programming/archives/UNIT-01/02-core-elements-of-a-program/example.js)
 
-◈ [Code in Python]()
+◈ [Code in Python](https://github.com/ericdouglas/MIT-computer-science-and-engineering/blob/master/archives/01-introduction-to-computer-science-and-programming/archives/UNIT-01/02-core-elements-of-a-program/example.py)
