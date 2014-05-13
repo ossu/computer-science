@@ -23,3 +23,19 @@ Type are classifications of objects, which is what Python, as an OOP language, d
 ### What is an 'expression'?
 
 An expression is composed of objects (or operands) and operators, and can be interpreted into a value.
+
+### What is a type conversion?
+
+A type conversion turns one type of object into another. For example, applying str to the integer 3 results in the string '3'.
+
+### What is a keyword?
+
+Keywords are words that have special meanings within a language. Many editors will display them in special colors. These words cannot be used as variables.
+
+### What is the difference between a straight line program and a branching program?
+
+A straight line program simply goes through and carries out each step. A branching program will do different things depending on conditions set within the program.
+
+### What is a conditional?
+
+A conditional statement starts with an if statement, and can also include elif and else.
