@@ -43,3 +43,4 @@ A conditional statement starts with an if statement, and can also include elif a
 ## Problem Sets
 
 * [Problem Set 0](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-2-core-elements-of-a-program/MIT6_00SCS11_ps0.pdf)
+* [Problem Set 0 - resolution](https://github.com/ericdouglas/MIT-computer-science-and-engineering/blob/master/archives/01-introduction-to-computer-science-and-programming/archives/UNIT-01/02-core-elements-of-a-program/ps0.py)
