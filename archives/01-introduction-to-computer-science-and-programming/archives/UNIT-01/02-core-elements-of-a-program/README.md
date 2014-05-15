@@ -39,3 +39,7 @@ A straight line program simply goes through and carries out each step. A branchi
 ### What is a conditional?
 
 A conditional statement starts with an if statement, and can also include elif and else.
+
+## Problem Sets
+
+* [Problem Set 0](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-2-core-elements-of-a-program/MIT6_00SCS11_ps0.pdf)
