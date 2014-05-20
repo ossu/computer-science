@@ -1,4 +1,6 @@
-# Core Elements of a Program
+# 1.1.2 Core Elements of a Program
+
+⬅ [Back to table of contents](https://github.com/ericdouglas/MIT-computer-science/tree/master/archives/01-introduction-to-computer-science-and-programming#table-of-contents)
 
 This lecture covers the building blocks of straight line and branching programs: objects, types, operators, variables, execution, and conditional statements.
 
