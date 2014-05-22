@@ -51,4 +51,14 @@ def find(target, items):
       return True
   return False
 
+# The extreme pattern
+largest = items[0]
+for i in range(1, len(items), 1): # start comparing at index 1
+  if items[i] > largest:
+    largest = items[i]
 
+# The filter pattern
+def extractEvens(items):
+  for i in range(0, len(items), 1):
+    if (isEven(items[i])):
+      evens = evens + [items[i]] # array concatenation
