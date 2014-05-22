@@ -46,7 +46,7 @@ if abs(ans**2 - x) >= epsilon:
 else:
   print ans, ' is close to square root of ', x
 """
-
+"""
 x = 12345
 epsilon = 0.01
 numGuesses = 0
@@ -65,3 +65,20 @@ while abs(ans ** 2 - x) >= epsilon and ans <= x:
 
 print 'numGuesses = ', numGuesses
 print ans, ' is close to square root of ', x
+"""
+
+def withinEpsilon(x, y, epsilon):
+  """ x, y, epsilon all ints or floats
+      returns true if x is within epsilon of y """
+
+  return abs(x - y) <= epsilon
+
+if withinEpsilon(25, 26, 1):
+  print 'yes'
+else:
+  print 'no'
+
+if withinEpsilon(25, 26, 0.9):
+  print 'yes'
+else:
+  print 'no'
