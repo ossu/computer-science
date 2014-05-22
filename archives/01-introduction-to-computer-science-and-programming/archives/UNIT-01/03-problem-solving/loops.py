@@ -20,4 +20,17 @@ for i in range(0, len(items), 1):
   if items[i] % 2 == 0:
     count += 1
 
+# The accumulate pattern
+total = 0
+for i in range(0, len(items), 1):
+  total += items[i]
+
+# The filtered-accumulate pattern
+def sumEvens(items):
+  total = 0
+  for i in range(0, len(items), 1):
+    if items[i] % 2 == 0:
+      total += items[i]
+  return total
+
 
