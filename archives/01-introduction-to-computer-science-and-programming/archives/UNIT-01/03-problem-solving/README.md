@@ -13,7 +13,7 @@ This lecture covers the use of iteration to build programs whose execution time 
 * [Lecture 3: Problem Solving](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-3-problem-solving/#?w=535) (00:47:56)
   * **About this video**: Topics covered: Termination, decrementing functions, exhaustive enumeration, brute force, while loop, for loop, approximation, specifications, bisection search.
 * **Resources**
-  * [code in Pyhton]()
+  * [code in Pyhton](https://github.com/ericdouglas/MIT-computer-science-and-engineering/blob/master/archives/01-introduction-to-computer-science-and-programming/archives/UNIT-01/03-problem-solving/lec03.py)
 
 ## Check Yourself
 
