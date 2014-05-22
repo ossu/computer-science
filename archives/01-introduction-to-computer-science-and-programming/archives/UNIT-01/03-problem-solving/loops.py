@@ -33,4 +33,22 @@ def sumEvens(items):
       total += items[i]
   return total
 
+# The search pattern
+def find(target, items): # is target in items?
+  return occurrences(target, items) > 0
+
+def occurrences(target, items):
+  count = 0
+  for i in range(0, len(items), 1):
+    if items[i] == target:
+      count += 1
+  return count
+
+## search with short-circuit
+def find(target, items):
+  for i in range(0, len(items), 1):
+    if items[i] == target:
+      return True
+  return False
+
 
