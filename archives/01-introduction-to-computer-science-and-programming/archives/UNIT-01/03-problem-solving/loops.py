@@ -66,3 +66,33 @@ def extractEvens(items):
 
 ## Add isEven function 
 def isEven(value):
+  if value % 2 == 0:
+    return True
+  return False
+
+someValues = [1,2,4,3,5,7,8,6,9]
+
+print extractEvens(someValues)
+
+## Using append method because array concatenation is very slowly for large arrays
+def extractEvens(items):
+  evens = []
+  for i in range(0, len(items), 1):
+    if isEven(items[i]):
+      evens.append(items[i]) # method invocation
+  return evens
+
+# The map pattern
+def map(f, items):
+  result = []
+  for i in range(0, len(items), 1):
+    transformed = f(items[i])
+    result.append(transformed)
+  return result
+
+## Using this pattern
+def increment(value):
+  return value + 1
+
+someValues = [1, 2, 3, 4, 5, 6, 7]
+print map(increment, someValues)
