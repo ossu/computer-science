@@ -113,12 +113,12 @@ def shuffle2(array1, array2):
     for i in range(len(array1), 1):
       array3.append(array1[i])
       array3.append(array2[i])
-    return array3 + array2[i + 1:]
+    return array3 + array2[i+1:]
   else:
     for i in range(0, len(array2), 1):
       array3.append(array1[i])
       array3.append(array2[i])
-    return array3 + array1[i + 1:]
+    return array3 + array1[i+1:]
 
 ## using a while loop instead
 def shuffle3(array1, array2):
@@ -129,3 +129,14 @@ def shuffle3(array1, array2):
     array3.append(array2[i])
     i += 1
   return array3 + array1[i:] + array2[i:]
+
+## back to shuffle2 but adding recursion
+def shuffle4(array1, array2):
+  if len(array2) < len(array1):
+    return shuffle4(array2, array1) # arrays are flipped
+  else:
+    array3 = []
+    for i in range(0, len(array1), 1):
+      array3.append(array1[i])
+      array3.append(array2[i])
+    return array3 + array2[i+1:]
