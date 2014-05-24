@@ -96,3 +96,36 @@ def increment(value):
 
 someValues = [1, 2, 3, 4, 5, 6, 7]
 print map(increment, someValues)
+
+# The shuffle pattern
+## arrays with the same size
+def shuffle(array1, array2):
+  array3 = []
+  for i in range(0, len(array1), 1):
+    array3.append(array1[i])
+    array3.append(array2[i])
+  return array3
+
+## arrays without the same size
+def shuffle2(array1, array2):
+  array3 = []
+  if len(array1) < len(array2):
+    for i in range(len(array1), 1):
+      array3.append(array1[i])
+      array3.append(array2[i])
+    return array3 + array2[i + 1:]
+  else:
+    for i in range(0, len(array2), 1):
+      array3.append(array1[i])
+      array3.append(array2[i])
+    return array3 + array1[i + 1:]
+
+## using a while loop instead
+def shuffle3(array1, array2):
+  array3 = []
+  i = 0
+  while (i < len(array1) and i < len(array2)):
+    array3.append(array1[i])
+    array3.append(array2[i])
+    i += 1
+  return array3 + array1[i:] + array2[i:]
