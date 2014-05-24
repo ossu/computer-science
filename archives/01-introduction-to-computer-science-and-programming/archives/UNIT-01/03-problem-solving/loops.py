@@ -60,5 +60,9 @@ for i in range(1, len(items), 1): # start comparing at index 1
 # The filter pattern
 def extractEvens(items):
   for i in range(0, len(items), 1):
-    if (isEven(items[i])):
+    if isEven(items[i]):
       evens = evens + [items[i]] # array concatenation
+  return evens
+
+## Add isEven function 
+def isEven(value):
