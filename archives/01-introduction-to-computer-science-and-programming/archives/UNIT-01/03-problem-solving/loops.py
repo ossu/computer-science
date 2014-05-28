@@ -140,3 +140,24 @@ def shuffle4(array1, array2):
       array3.append(array1[i])
       array3.append(array2[i])
     return array3 + array2[i+1:]
+
+# The merge pattern
+
+def merge(array1, array2):
+  array3 = []
+  i = 0
+  j = 0
+  while (i < len(array1) and j < len(array2)):
+    if array1[i] < array2[j]:
+      array3.append(array1[i])
+      i += 1
+    else:
+      array3.append(array2[j])
+      j += 1
+  return array3 + array1[i:] + array2[j:]
+
+## using the merge pattern
+array1 = [1,3,4,6,8]
+array2 = [2,5,7,9,10]
+
+print merge(array1, array2)
