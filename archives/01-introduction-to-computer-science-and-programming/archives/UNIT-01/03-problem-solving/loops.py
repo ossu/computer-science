@@ -161,3 +161,9 @@ array1 = [1,3,4,6,8]
 array2 = [2,5,7,9,10]
 
 print merge(array1, array2)
+
+# The fossilized pattern (never end!)
+
+i = 0
+while i < n:
+  print(i)
