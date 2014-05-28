@@ -167,3 +167,10 @@ print merge(array1, array2)
 i = 0
 while i < n:
   print(i)
+
+# The missed-condition pattern (never end)
+
+i = n
+while i > 0:
+  print(i)
+  i += 1
