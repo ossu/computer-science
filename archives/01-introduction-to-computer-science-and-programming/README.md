@@ -36,7 +36,7 @@ This means that the primary knowledge you will take away from this course is the
 |01|INTRODUCTION|[files](https://github.com/ericdouglas/MIT-computer-science/tree/master/archives/01-introduction-to-computer-science-and-programming/archives/UNIT-01/01-introduction)|
 |02|CORE ELEMENTS OF A PROGRAM|[files](https://github.com/ericdouglas/MIT-computer-science-and-engineering/tree/master/archives/01-introduction-to-computer-science-and-programming/archives/UNIT-01/02-core-elements-of-a-program)|
 |03|PROBLEM SOLVING|[files](https://github.com/ericdouglas/MIT-computer-science-and-engineering/tree/master/archives/01-introduction-to-computer-science-and-programming/archives/UNIT-01/03-problem-solving)|
-|04|MACHINE INTERPRETATION OF A PROGRAM|[files]()|
+|04|MACHINE INTERPRETATION OF A PROGRAM|[files](https://github.com/ericdouglas/MIT-computer-science-and-engineering/tree/master/archives/01-introduction-to-computer-science-and-programming/archives/UNIT-01/04-machine-interpretation-of-program)|
 |05|OBJECTS IN PYTHON|[files]()|
 |06|RECURSION|[files]()|
 |07|DEBUGGING|[files]()|
