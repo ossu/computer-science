@@ -14,6 +14,10 @@ This lecture introduces the notion of decomposition and abstraction by specifica
     * [Lecture Code]()
     * [Lecture code handout (PDF)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-4-machine-interpretation-of-a-program/MIT6_00SCS11_lec04.pdf)
 
+* Recitation Videos
+  * **Recitation 2**: Loops, Tuples, Strings and Functions (00:57:42)
+  * **About this video**: Topics covered: loops, tuples, concatenating tuples and strings, string operations, immutability, range function, slicing, types of data structures, decrementing function, global and local variables, global keepers.
+
 ### Recitation Videos
 
 * [Recitation 2: Loops, Tuples, Strings and Functions](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-4-machine-interpretation-of-a-program/#?w=535) (00:57:42)
