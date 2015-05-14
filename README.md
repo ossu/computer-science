@@ -83,13 +83,22 @@
 
 ### Machine Learning
 
+1. [Practical Machine Learning](https://www.coursera.org/course/predmachlearn) - [⎙]()
+1. [Machine Learning](https://www.coursera.org/learn/machine-learning) - [⎙]()
+1. [Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets) - [⎙]()
+
 ### Natural Language Processing
+
+1. [Natural Language Processing](https://www.coursera.org/course/nlangp) - [⎙]()
+1. [Natural Language Processing](https://www.coursera.org/course/nlp) - [⎙]()
 
 ### Robotics
 
 ### Graphs
 
 ### Data Mining
+
+1. [Data Mining](https://www.coursera.org/specialization/datamining/20?utm_medium=catalog) - [⎙]()
 
 ### Parallel Programming
 
