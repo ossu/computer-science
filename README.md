@@ -1,5 +1,7 @@
 # Computer Science and Engineering
 
+![Science](http://i.imgur.com/U3Y68Ha.jpg)
+
 ## References
 
 - [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
