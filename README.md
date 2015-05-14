@@ -2,6 +2,8 @@
 
 ## [Courses](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
 
+### Computer Science
+
 1. [Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) - [⎙]()
 1. [Structure and Interpretation of Computer Programs](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/) - [⎙]()
 1. [Elements of Software Construction](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-elements-of-software-construction-fall-2011/) - [⎙]()
@@ -9,7 +11,6 @@
 1. [Computer System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2009/) - [⎙]()
 1. [Artificial Intelligence](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/) - [⎙]()
 1. [Computer Language Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-035-computer-language-engineering-spring-2010/) - [⎙]()
-1. [Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/) - [⎙]()
 1. [Automata, Computability, and Complexity](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/) - [⎙]()
 1. [Design and Analysis of Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/) - [⎙]()
 1. [Computational Biology: Genomes, Networks, Evolution](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-047-computational-biology-genomes-networks-evolution-fall-2008/) - [⎙]()
@@ -27,3 +28,7 @@
 1. [Effective Programming in C and C++](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/) - [⎙]()
 1. [Principles of Computer System Design: An Introduction](http://ocw.mit.edu/resources/res-6-004-principles-of-computer-system-design-an-introduction-spring-2009/) - [⎙]()
 1. [How to Process, Analyze and Visualize Data](http://ocw.mit.edu/resources/res-6-009-how-to-process-analyze-and-visualize-data-january-iap-2012/) - [⎙]()
+
+### Math
+
+1. [Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/) - [⎙]()
