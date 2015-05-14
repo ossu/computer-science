@@ -1,6 +1,24 @@
-![MIT](http://i.imgur.com/Dwcu84C.jpg)
+# Computer Science and Engineering
 
-## [Courses](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
+## References
+
+- [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
+- [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+
+## Topics
+
+- Computer Science
+- Software Testing
+- Math
+- Operating Systems
+- AI - Artificial Intelligence
+- Compilers
+- Cryptography
+- Parallel Programming
+- Programming Languages
+- UX Design
+
+## Courses
 
 ### Computer Science
 
