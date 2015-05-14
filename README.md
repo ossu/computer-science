@@ -4,6 +4,7 @@
 
 - [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
 - [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [Coursera](https://www.coursera.org/)
 
 ## Topics
 
