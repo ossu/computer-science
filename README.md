@@ -1,5 +1,3 @@
-# Computer Science and Engineering
-
 ![Science](http://i.imgur.com/U3Y68Ha.jpg)
 
 ## References
