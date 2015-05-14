@@ -78,7 +78,7 @@
 
 1. [Artificial Intelligence](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/) - [⎙]()
 
-### Machine Learning 
+### Machine Learning
 
 ### Natural Language Processing
 
@@ -91,6 +91,7 @@
 ### Parallel Programming
 
 1. [Parallel Computing](http://ocw.mit.edu/courses/mathematics/18-337j-parallel-computing-fall-2011/) - [⎙]()
+1. [Heterogeneous Parallel Programming](https://www.coursera.org/course/hetero) - [⎙]()
 
 ### Programming Languages
 
