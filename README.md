@@ -5,6 +5,7 @@
 - [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
 - [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [Coursera](https://www.coursera.org/)
+- [How can I prepare myself to be a software engineer?](http://qr.ae/fMbg8)
 
 ## Topics
 
@@ -52,6 +53,16 @@
 ### Math
 
 1. [Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/) - [⎙]()
+1. [Introduction to Logic](https://www.coursera.org/course/intrologic) - [⎙]()
+1. [Linear Algebra](http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) - [⎙]()
+1. [Coding the Matrix: Linear Algebra through Computer Science Applications](https://www.coursera.org/course/matrix) - [⎙]()
+1. [Calculus One](https://www.coursera.org/learn/calculus1) - [⎙]()
+1. [Calculus Two](https://www.coursera.org/learn/advanced-calculus) - [⎙]()
+1. [Linear and Discrete Optimization](https://www.coursera.org/course/linearopt) - [⎙]()
+1. [Probabilistic Graphical Models](https://www.coursera.org/course/pgm) - [⎙]()
+1. [Game Theory](https://www.coursera.org/course/gametheory) - [⎙]()
+1. [Statistics One](https://www.coursera.org/course/stats1) - [⎙]()
+1. [AP Statistics](http://stattrek.com/tutorials/ap-statistics-tutorial.aspx) - [⎙]()
 
 ### Operating Systems
 
@@ -119,3 +130,5 @@
 1. [Creating Video Games](http://ocw.mit.edu/courses/comparative-media-studies-writing/cms-611j-creating-video-games-fall-2013/) - [⎙]()
 1. [Computer Graphics](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2012/) - [⎙]()
 1. [User Interface Design and Implementation](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-831-user-interface-design-and-implementation-spring-2011/) - [⎙]()
+1. [Making Sense of Data](https://datasense.withgoogle.com/course) - [⎙]()
+1. [Data Science](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=courseDescripTop) - [⎙]()
