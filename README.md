@@ -29,6 +29,7 @@
 
 ### Computer Science
 
+1. [Computer Science 101 - Stanford](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about) / [Other files](http://web.stanford.edu/class/cs101/) - [⎙]()
 1. [Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) - [⎙]()
 1. [Structure and Interpretation of Computer Programs](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/) - [⎙]()
 1. [Elements of Software Construction](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-elements-of-software-construction-fall-2011/) - [⎙]()
