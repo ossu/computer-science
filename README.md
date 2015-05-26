@@ -31,7 +31,7 @@
 
 1. [Fundamentals of Computing](https://www.coursera.org/specialization/fundamentalscomputing2/37/certificate)
 	1. [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/course/interactivepython1) - [⎙](/computer-science/)
-	1. [https://www.coursera.org/course/interactivepython2](https://www.coursera.org/course/interactivepython2) - [⎙](/computer-science/)
+	1. [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/course/interactivepython2) - [⎙](/computer-science/)
 	1. [Principles of Computing (Part 1)](https://www.coursera.org/course/principlescomputing1) - [⎙](/computer-science/)
 	1. [Principles of Computing (Part 2)](https://www.coursera.org/course/principlescomputing2) - [⎙](/computer-science/)
 	1. [Algorithmic Thinking (Part 1)](https://www.coursera.org/course/algorithmicthink1) - [⎙](/computer-science/)
