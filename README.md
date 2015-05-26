@@ -29,7 +29,7 @@
 
 ### Computer Science
 
-1. [Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) - [⎙](/computer-science/01-introduction-to-cs-and-programming-mit)
+1. [Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) ✍ - [⎙](/computer-science/01-introduction-to-cs-and-programming-mit)
 1. [Computer Science 101 - Stanford](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about) / [Other files](http://web.stanford.edu/class/cs101/) - [⎙]()
 1. [Fundamentals of Computing](https://www.coursera.org/specialization/fundamentalscomputing2/37/certificate)
 	1. [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/course/interactivepython1) - [⎙](/computer-science/)
