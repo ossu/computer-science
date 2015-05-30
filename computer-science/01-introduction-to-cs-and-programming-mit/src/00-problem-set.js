@@ -8,7 +8,9 @@
 
 */
 
-var answers = 0;
+var answers   = 0;
+var birthDate = '';
+var lastName  = '';
 
 process.stdin.resume();
 
@@ -16,9 +18,6 @@ console.log( 'What is your birth date?' );
 process.stdin.setEncoding( 'utf8' );
 
 process.stdin.on( 'data', function( input ) {
-
-  var birthDate = '';
-  var lastName  = '';
 
   if ( answers === 0 ) {
 
@@ -32,11 +31,9 @@ process.stdin.on( 'data', function( input ) {
     lastName = input;
 
     console.log(
-      '================\n',
-      'Birth date:',
-      birthDate, '\n',
-      'Last Name:',
-      lastName, '\n',
+      '================\n<< Informations >>\n' +
+      'Birth date: ' + birthDate + '\n' +
+      'Last Name: '  + lastName + '\n' +
       'Bye!'
     );
 
