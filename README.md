@@ -31,6 +31,9 @@
 
 1. **[Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) ✍ - [⎙](/computer-science/01-introduction-to-cs-and-programming-mit)**
 1. [Computer Science 101 - Stanford](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about) / [Other files](http://web.stanford.edu/class/cs101/) - [⎙]()
+1. [Systematic Program Design - Part 1: The Core Method](https://www.edx.org/course/systematic-program-design-part-1-core-ubcx-spd1x#!)
+1. [Systematic Program Design - Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x)
+1. [Systematic Program Design - Part 3: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-3-ubcx-spd3x)
 1. [Fundamentals of Computing](https://www.coursera.org/specialization/fundamentalscomputing2/37/certificate)
 	1. [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/course/interactivepython1) - [⎙](/computer-science/)
 	1. [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/course/interactivepython2) - [⎙](/computer-science/)
@@ -133,6 +136,9 @@
 
 ### Others
 
+1. [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x#!)
+1. [Engineering Software as a Service](https://www.edx.org/course/engineering-software-service-uc-berkeleyx-cs169-1x)
+1. [Engineering Software as a Service, Part 2](https://www.edx.org/course/engineering-software-service-part-2-uc-berkeleyx-cs169-2x#!)
 1. [Automata, Computability, and Complexity](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/) - [⎙]()
 1. [Computational Biology: Genomes, Networks, Evolution](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-047-computational-biology-genomes-networks-evolution-fall-2008/) - [⎙]()
 1. [Creating Video Games](http://ocw.mit.edu/courses/comparative-media-studies-writing/cms-611j-creating-video-games-fall-2013/) - [⎙]()
