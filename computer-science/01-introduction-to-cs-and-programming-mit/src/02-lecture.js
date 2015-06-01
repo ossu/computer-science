@@ -1,5 +1,5 @@
-// // Modules
-// var prompt = require( 'prompt' );
+// Modules
+var prompt = require( 'prompt' );
 
 // // Create a variable x and assign value 3 to it
 // var x = 3;
