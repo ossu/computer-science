@@ -45,6 +45,8 @@
 1. [Elements of Software Construction](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-elements-of-software-construction-fall-2011/) - [⎙]()
 1. [Introduction to Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) - [⎙]()
 1. [Design and Analysis of Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/) - [⎙]()
+1. [Paradigms of Computer Programming – Fundamentals](https://www.edx.org/course/paradigms-computer-programming-louvainx-louv1-1x-0) - [⎙]()
+1. [Paradigms of Computer Programming – Abstraction and Concurrency](https://www.edx.org/course/paradigms-computer-programming-louvainx-louv1-2x-0) - [⎙]()
 1. [Computer System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2009/) - [⎙]()
 1. [Computer Language Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-035-computer-language-engineering-spring-2010/) - [⎙]()
 1. [Great Ideas in Theoretical Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-080-great-ideas-in-theoretical-computer-science-spring-2008/) - [⎙]()
