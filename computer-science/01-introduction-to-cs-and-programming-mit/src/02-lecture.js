@@ -53,38 +53,73 @@ var prompt = require( 'prompt' );
 
 // });
 
-// Find the lowest among three numbers
+// // Find the lowest among three numbers
+// prompt.start();
+// prompt.get([
+//   {
+//     name : 'x',
+//     description : 'Enter x'
+//   },
+//   {
+//     name : 'y',
+//     description : 'Enter y'
+//   },
+//   {
+//     name : 'z',
+//     description : 'Enter z'
+//   }
+// ], function( err, results ) {
+
+//   if ( results.x < results.y ) {
+
+//     if ( results.x < results.z ) {
+//       console.log( 'x is least' );
+//     } else {
+//       console.log( 'z is least' );
+//     }
+
+//   } else if ( results.y < results.z ) {
+
+//     console.log( 'y is least' );
+
+//   } else {
+
+//     console.log( 'z is least' );
+
+//   }
+
+// });
+
+// Find the cube root of a perfect cube
 prompt.start();
 prompt.get([
   {
-    name : 'x',
-    description : 'Enter x'
-  },
-  {
-    name : 'y',
-    description : 'Enter y'
-  },
-  {
-    name : 'z',
-    description : 'Enter z'
+    name        : 'x',
+    description : 'Enter a interger'
   }
 ], function( err, results ) {
 
-  if ( results.x < results.y ) {
+  var x   = parseInt( results.x, 10 );
+  var ans = 0;
 
-    if ( results.x < results.z ) {
-      console.log( 'x is least' );
-    } else {
-      console.log( 'z is least' );
-    }
+  while ( Math.pow( ans, 3 ) < Math.abs( x )) {
 
-  } else if ( results.y < results.z ) {
+    ans += 1;
+    console.log( 'Current guess:', ans );
 
-    console.log( 'y is least' );
+  }
 
+  if ( Math.pow( ans, 3 ) !== Math.abs( x )) {
+
+    console.log( x, 'is not a perfect cube' );
+  
   } else {
 
-    console.log( 'z is least' );
+    if ( x < 0 ) {
+      ans = -ans;
+    }
+
+    console.log( 'Cube root of ' + x.toString() + ' is ' + ans.toString());
 
   }
 
