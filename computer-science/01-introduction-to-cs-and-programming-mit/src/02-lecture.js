@@ -1,18 +1,14 @@
-// Modules
-var prompt = require( 'prompt' );
+// // Modules
+// var prompt = require( 'prompt' );
 
-// Create a variable x and assign value 3 to it
-var x = 3;
+// // Create a variable x and assign value 3 to it
+// var x = 3;
 
-// Bind x to value 9
-x *= x; // or x = x * x;
-console.log( x );
+// // Bind x to value 9
+// x *= x; // or x = x * x;
+// console.log( x );
 
 // read input data from terminal
-process.stdin.resume();
-
-console.log( '' );
-
 prompt.start();
 prompt.get({
   name        : 'number',
@@ -55,4 +51,4 @@ prompt.get({
 
 // });
 
-// Find the lowest of three numbers
+// // Find the lowest of three numbers
