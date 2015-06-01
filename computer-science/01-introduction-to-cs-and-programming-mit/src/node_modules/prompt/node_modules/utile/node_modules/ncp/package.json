@@ -1,0 +1,58 @@
+{
+  "name": "ncp",
+  "version": "0.4.2",
+  "author": {
+    "name": "AvianFlu",
+    "email": "charlie@charlieistheman.com"
+  },
+  "description": "Asynchronous recursive file copy utility.",
+  "bin": {
+    "ncp": "./bin/ncp"
+  },
+  "devDependencies": {
+    "vows": "0.6.x",
+    "rimraf": "1.0.x",
+    "read-dir-files": "0.0.x"
+  },
+  "main": "./lib/ncp.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AvianFlu/ncp.git"
+  },
+  "keywords": [
+    "cli",
+    "copy"
+  ],
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.4"
+  },
+  "scripts": {
+    "test": "vows --isolate --spec"
+  },
+  "_id": "ncp@0.4.2",
+  "dist": {
+    "shasum": "abcc6cbd3ec2ed2a729ff6e7c1fa8f01784a8574",
+    "tarball": "http://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz"
+  },
+  "_from": "ncp@0.4.x",
+  "_npmVersion": "1.2.2",
+  "_npmUser": {
+    "name": "avianflu",
+    "email": "charlie@charlieistheman.com"
+  },
+  "maintainers": [
+    {
+      "name": "avianflu",
+      "email": "charlie@charlieistheman.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "abcc6cbd3ec2ed2a729ff6e7c1fa8f01784a8574",
+  "_resolved": "https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz",
+  "bugs": {
+    "url": "https://github.com/AvianFlu/ncp/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/AvianFlu/ncp"
+}

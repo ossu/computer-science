@@ -1,0 +1,63 @@
+{
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me"
+  },
+  "name": "minimatch",
+  "description": "a glob matcher in javascript",
+  "version": "2.0.8",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/minimatch.git"
+  },
+  "main": "minimatch.js",
+  "scripts": {
+    "pretest": "standard minimatch.js test/*.js",
+    "test": "tap test/*.js",
+    "prepublish": "browserify -o browser.js -e minimatch.js --bare"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "brace-expansion": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "standard": "^3.7.2",
+    "tap": ""
+  },
+  "license": "ISC",
+  "files": [
+    "minimatch.js",
+    "browser.js"
+  ],
+  "gitHead": "0bc7d9c4b2bc816502184862b45bd090de3406a3",
+  "bugs": {
+    "url": "https://github.com/isaacs/minimatch/issues"
+  },
+  "homepage": "https://github.com/isaacs/minimatch#readme",
+  "_id": "minimatch@2.0.8",
+  "_shasum": "0bc20f6bf3570a698ef0ddff902063c6cabda6bf",
+  "_from": "minimatch@^2.0.1",
+  "_npmVersion": "2.10.0",
+  "_nodeVersion": "2.0.1",
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "isaacs@npmjs.com"
+  },
+  "dist": {
+    "shasum": "0bc20f6bf3570a698ef0ddff902063c6cabda6bf",
+    "tarball": "http://registry.npmjs.org/minimatch/-/minimatch-2.0.8.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/minimatch/-/minimatch-2.0.8.tgz",
+  "readme": "ERROR: No README data found!"
+}

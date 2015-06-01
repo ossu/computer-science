@@ -1,0 +1,46 @@
+{
+  "name": "cycle",
+  "description": "decycle your json",
+  "author": "",
+  "version": "1.0.3",
+  "main": "./cycle.js",
+  "homepage": "https://github.com/douglascrockford/JSON-js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dscape/cycle.git"
+  },
+  "bugs": {
+    "url": "http://github.com/douglascrockford/JSON-js/issues"
+  },
+  "keywords": [
+    "json",
+    "cycle",
+    "stringify",
+    "parse"
+  ],
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "readme": "Fork of https://github.com/douglascrockford/JSON-js, maintained in npm as `cycle`.\n\n# Contributors\n\n* Douglas Crockford\n* Nuno Job\n* Justin Warkentin\n\n# JSON in JavaScript\n\nDouglas Crockford\ndouglas@crockford.com\n\n2010-11-18\n\n\nJSON is a light-weight, language independent, data interchange format.\nSee http://www.JSON.org/\n\nThe files in this collection implement JSON encoders/decoders in JavaScript.\n\nJSON became a built-in feature of JavaScript when the ECMAScript Programming\nLanguage Standard - Fifth Edition was adopted by the ECMA General Assembly\nin December 2009. Most of the files in this collection are for applications\nthat are expected to run in obsolete web browsers. For most purposes, json2.js\nis the best choice.\n\n\njson2.js: This file creates a JSON property in the global object, if there\nisn't already one, setting its value to an object containing a stringify\nmethod and a parse method. The parse method uses the eval method to do the\nparsing, guarding it with several regular expressions to defend against\naccidental code execution hazards. On current browsers, this file does nothing,\nprefering the built-in JSON object.\n\njson.js: This file does everything that json2.js does. It also adds a\ntoJSONString method and a parseJSON method to Object.prototype. Use of this\nfile is not recommended.\n\njson_parse.js: This file contains an alternative JSON parse function that\nuses recursive descent instead of eval.\n\njson_parse_state.js: This files contains an alternative JSON parse function that\nuses a state machine instead of eval.\n\ncycle.js: This file contains two functions, JSON.decycle and JSON.retrocycle,\nwhich make it possible to encode cyclical structures and dags in JSON, and to\nthen recover them. JSONPath is used to represent the links.\nhttp://GOESSNER.net/articles/JsonPath/\n",
+  "readmeFilename": "README.md",
+  "_id": "cycle@1.0.3",
+  "dist": {
+    "shasum": "21e80b2be8580f98b468f379430662b046c34ad2",
+    "tarball": "http://registry.npmjs.org/cycle/-/cycle-1.0.3.tgz"
+  },
+  "_from": "cycle@1.0.x",
+  "_npmVersion": "1.2.32",
+  "_npmUser": {
+    "name": "dscape",
+    "email": "nunojobpinto@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "dscape",
+      "email": "nunojobpinto@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "21e80b2be8580f98b468f379430662b046c34ad2",
+  "_resolved": "https://registry.npmjs.org/cycle/-/cycle-1.0.3.tgz"
+}

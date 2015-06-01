@@ -1,0 +1,11 @@
+{
+  "name": "simple-app-subdir",
+  "description": "A test fixture for pkginfo",
+  "version": "0.1.0",
+  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "keywords": ["test", "fixture"],
+  "main": "./index.js",
+  "scripts": { "test": "vows test/*-test.js --spec" },
+  "engines": { "node": ">= 0.4.0" },
+  "subdironly": "true"
+}

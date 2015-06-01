@@ -1,0 +1,296 @@
+<!DOCTYPE html>  <html> <head>   <title>prompt.js</title>   <meta http-equiv="content-type" content="text/html; charset=UTF-8">   <link rel="stylesheet" media="all" href="docco.css" /> </head> <body>   <div id="container">     <div id="background"></div>          <table cellpadding="0" cellspacing="0">       <thead>         <tr>           <th class="docs">             <h1>               prompt.js             </h1>           </th>           <th class="code">           </th>         </tr>       </thead>       <tbody>                               <tr id="section-1">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-1">&#182;</a>               </div>                            </td>             <td class="code">               <div class="highlight"><pre><span class="cm">/*</span>
+<span class="cm"> * prompt.js: Simple prompt for prompting information from the command line </span>
+<span class="cm"> *</span>
+<span class="cm"> * (C) 2010, Nodejitsu Inc.</span>
+<span class="cm"> *</span>
+<span class="cm"> */</span>
+
+<span class="kd">var</span> <span class="nx">events</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;events&#39;</span><span class="p">),</span>
+    <span class="nx">async</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;async&#39;</span><span class="p">),</span>
+    <span class="nx">colors</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;colors&#39;</span><span class="p">),</span>
+    <span class="nx">winston</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;winston&#39;</span><span class="p">),</span>
+    <span class="nx">stdio</span> <span class="o">=</span> <span class="nx">process</span><span class="p">.</span><span class="nx">binding</span><span class="p">(</span><span class="s1">&#39;stdio&#39;</span><span class="p">);</span></pre></div>             </td>           </tr>                               <tr id="section-2">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-2">&#182;</a>               </div>               <h3>@private function capitalize (str)</h3>
+
+<h4>str {string} String to capitalize</h4>
+
+<p>Capitalizes the string supplied.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="kd">function</span> <span class="nx">capitalize</span><span class="p">(</span><span class="nx">str</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">str</span><span class="p">.</span><span class="nx">charAt</span><span class="p">(</span><span class="mi">0</span><span class="p">).</span><span class="nx">toUpperCase</span><span class="p">()</span> <span class="o">+</span> <span class="nx">str</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">prompt</span> <span class="o">=</span> <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">events</span><span class="p">.</span><span class="nx">EventEmitter</span><span class="p">.</span><span class="nx">prototype</span><span class="p">);</span>
+
+<span class="kd">var</span> <span class="nx">logger</span> <span class="o">=</span> <span class="nx">prompt</span><span class="p">.</span><span class="nx">logger</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">winston</span><span class="p">.</span><span class="nx">Logger</span><span class="p">({</span>
+  <span class="nx">transports</span><span class="o">:</span> <span class="p">[</span>
+    <span class="k">new</span> <span class="p">(</span><span class="nx">winston</span><span class="p">.</span><span class="nx">transports</span><span class="p">.</span><span class="nx">Console</span><span class="p">)()</span>
+  <span class="p">]</span>
+<span class="p">});</span>
+    
+<span class="nx">prompt</span><span class="p">.</span><span class="nx">started</span>    <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+<span class="nx">prompt</span><span class="p">.</span><span class="nx">paused</span>     <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+<span class="nx">prompt</span><span class="p">.</span><span class="nx">allowEmpty</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span> 
+
+<span class="kd">var</span> <span class="nx">stdin</span><span class="p">,</span> <span class="nx">stdout</span><span class="p">;</span></pre></div>             </td>           </tr>                               <tr id="section-3">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-3">&#182;</a>               </div>               <p>Create an empty object for the properties 
+known to <code>prompt</code></p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nx">prompt</span><span class="p">.</span><span class="nx">properties</span> <span class="o">=</span> <span class="p">{};</span></pre></div>             </td>           </tr>                               <tr id="section-4">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-4">&#182;</a>               </div>               <p>Setup the default winston logger to use 
+the <code>cli</code> levels and colors.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nx">logger</span><span class="p">.</span><span class="nx">cli</span><span class="p">();</span></pre></div>             </td>           </tr>                               <tr id="section-5">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-5">&#182;</a>               </div>               <h3>function start (options)</h3>
+
+<h4>@options {Object} <strong>Optional</strong> Options to consume by prompt</h4>
+
+<p>Starts the prompt by listening to the appropriate events on <code>options.stdin</code>
+and <code>options.stdout</code>. If no streams are supplied, then <code>process.stdin</code> 
+and <code>process.stdout</code> are used, respectively.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nx">prompt</span><span class="p">.</span><span class="nx">start</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">prompt</span><span class="p">.</span><span class="nx">started</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span><span class="p">;</span>
+  <span class="p">}</span>
+  
+  <span class="nx">options</span> <span class="o">=</span> <span class="nx">options</span>        <span class="o">||</span> <span class="p">{};</span>
+  <span class="nx">stdin</span>   <span class="o">=</span> <span class="nx">options</span><span class="p">.</span><span class="nx">stdin</span>  <span class="o">||</span> <span class="nx">process</span><span class="p">.</span><span class="nx">openStdin</span><span class="p">();</span>
+  <span class="nx">stdout</span>  <span class="o">=</span> <span class="nx">options</span><span class="p">.</span><span class="nx">stdout</span> <span class="o">||</span> <span class="nx">process</span><span class="p">.</span><span class="nx">stdout</span><span class="p">;</span>
+  
+  <span class="nx">prompt</span><span class="p">.</span><span class="nx">allowEmpty</span> <span class="o">=</span> <span class="nx">options</span><span class="p">.</span><span class="nx">allowEmpty</span> <span class="o">||</span> <span class="kc">false</span><span class="p">;</span>
+  
+  <span class="nx">process</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;SIGINT&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">stdout</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">&#39;\n&#39;</span><span class="p">);</span>
+    <span class="nx">process</span><span class="p">.</span><span class="nx">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+  <span class="p">})</span>
+  
+  <span class="nx">prompt</span><span class="p">.</span><span class="nx">emit</span><span class="p">(</span><span class="s1">&#39;start&#39;</span><span class="p">);</span>
+  <span class="nx">prompt</span><span class="p">.</span><span class="nx">started</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+  <span class="k">return</span> <span class="nx">prompt</span><span class="p">;</span>
+<span class="p">};</span></pre></div>             </td>           </tr>                               <tr id="section-6">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-6">&#182;</a>               </div>               <h3>function pause ()</h3>
+
+<p>Pauses input coming in from stdin</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nx">prompt</span><span class="p">.</span><span class="nx">pause</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">prompt</span><span class="p">.</span><span class="nx">started</span> <span class="o">||</span> <span class="nx">prompt</span><span class="p">.</span><span class="nx">paused</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span><span class="p">;</span>
+  <span class="p">}</span>
+  
+  <span class="nx">stdin</span><span class="p">.</span><span class="nx">pause</span><span class="p">();</span>
+  <span class="nx">prompt</span><span class="p">.</span><span class="nx">emit</span><span class="p">(</span><span class="s1">&#39;pause&#39;</span><span class="p">);</span>
+  <span class="nx">prompt</span><span class="p">.</span><span class="nx">paused</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+  <span class="k">return</span> <span class="nx">prompt</span><span class="p">;</span>
+<span class="p">};</span></pre></div>             </td>           </tr>                               <tr id="section-7">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-7">&#182;</a>               </div>               <h3>function resume ()</h3>
+
+<p>Resumes input coming in from stdin </p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nx">prompt</span><span class="p">.</span><span class="nx">resume</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">prompt</span><span class="p">.</span><span class="nx">started</span> <span class="o">||</span> <span class="o">!</span><span class="nx">prompt</span><span class="p">.</span><span class="nx">paused</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span><span class="p">;</span>
+  <span class="p">}</span>
+  
+  <span class="nx">stdin</span><span class="p">.</span><span class="nx">resume</span><span class="p">();</span>
+  <span class="nx">prompt</span><span class="p">.</span><span class="nx">emit</span><span class="p">(</span><span class="s1">&#39;resume&#39;</span><span class="p">);</span>
+  <span class="nx">prompt</span><span class="p">.</span><span class="nx">paused</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+  <span class="k">return</span> <span class="nx">prompt</span><span class="p">;</span>
+<span class="p">};</span></pre></div>             </td>           </tr>                               <tr id="section-8">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-8">&#182;</a>               </div>               <h3>function get (msg, [validator,] callback)</h3>
+
+<h4>@msg {Array|Object|string} Set of variables to get input for.</h4>
+
+<h4>@callback {function} Continuation to pass control to when complete.</h4>
+
+<p>Gets input from the user via stdin for the specified message(s) <code>msg</code>.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nx">prompt</span><span class="p">.</span><span class="nx">get</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">msg</span><span class="p">,</span> <span class="nx">callback</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">vars</span> <span class="o">=</span> <span class="o">!</span><span class="nb">Array</span><span class="p">.</span><span class="nx">isArray</span><span class="p">(</span><span class="nx">msg</span><span class="p">)</span> <span class="o">?</span> <span class="p">[</span><span class="nx">msg</span><span class="p">]</span> <span class="o">:</span> <span class="nx">msg</span><span class="p">,</span>
+      <span class="nx">result</span> <span class="o">=</span> <span class="p">{};</span>
+  
+  <span class="nx">vars</span> <span class="o">=</span> <span class="nx">vars</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">v</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">v</span> <span class="o">===</span> <span class="s1">&#39;string&#39;</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">v</span> <span class="o">=</span> <span class="nx">v</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">();</span>
+    <span class="p">}</span>
+    
+    <span class="k">return</span> <span class="nx">prompt</span><span class="p">.</span><span class="nx">properties</span><span class="p">[</span><span class="nx">v</span><span class="p">]</span> <span class="o">||</span> <span class="nx">v</span><span class="p">;</span>
+  <span class="p">});</span>
+  
+  <span class="kd">function</span> <span class="nx">get</span><span class="p">(</span><span class="nx">target</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">prompt</span><span class="p">.</span><span class="nx">getInput</span><span class="p">(</span><span class="nx">target</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">line</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nx">next</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
+      <span class="p">}</span>
+      
+      <span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="nx">target</span><span class="p">.</span><span class="nx">name</span> <span class="o">||</span> <span class="nx">target</span><span class="p">;</span>
+      <span class="nx">result</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">=</span> <span class="nx">line</span><span class="p">;</span>
+      <span class="nx">next</span><span class="p">();</span>
+    <span class="p">});</span>
+  <span class="p">}</span>
+  
+  <span class="nx">async</span><span class="p">.</span><span class="nx">forEachSeries</span><span class="p">(</span><span class="nx">vars</span><span class="p">,</span> <span class="nx">get</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">err</span> <span class="o">?</span> <span class="nx">callback</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="o">:</span> <span class="nx">callback</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="nx">result</span><span class="p">);</span>
+  <span class="p">});</span>
+  
+  <span class="k">return</span> <span class="nx">prompt</span><span class="p">;</span>
+<span class="p">};</span></pre></div>             </td>           </tr>                               <tr id="section-9">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-9">&#182;</a>               </div>               <h3>function getInput (msg, validator, callback)</h3>
+
+<h4>@msg {Object|string} Variable to get input for.</h4>
+
+<h4>@callback {function} Continuation to pass control to when complete.</h4>
+
+<p>Gets input from the user via stdin for the specified message <code>msg</code>.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nx">prompt</span><span class="p">.</span><span class="nx">getInput</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">prop</span><span class="p">,</span> <span class="nx">callback</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">name</span>   <span class="o">=</span> <span class="nx">prop</span><span class="p">.</span><span class="nx">message</span> <span class="o">||</span> <span class="nx">prop</span><span class="p">.</span><span class="nx">name</span> <span class="o">||</span> <span class="nx">prop</span><span class="p">,</span>
+      <span class="nx">raw</span>    <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;prompt&#39;</span><span class="p">,</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nx">name</span><span class="p">.</span><span class="nx">grey</span><span class="p">,</span> <span class="s1">&#39;: &#39;</span><span class="p">.</span><span class="nx">grey</span><span class="p">],</span>
+      <span class="nx">read</span>   <span class="o">=</span> <span class="nx">prop</span><span class="p">.</span><span class="nx">hidden</span> <span class="o">?</span> <span class="nx">prompt</span><span class="p">.</span><span class="nx">readLineHidden</span> <span class="o">:</span> <span class="nx">prompt</span><span class="p">.</span><span class="nx">readLine</span><span class="p">,</span>
+      <span class="nx">length</span><span class="p">,</span> <span class="nx">msg</span><span class="p">;</span>
+  
+  <span class="k">if</span> <span class="p">(</span><span class="nx">prop</span><span class="p">.</span><span class="k">default</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">raw</span><span class="p">.</span><span class="nx">splice</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39; (&#39;</span> <span class="o">+</span> <span class="nx">prop</span><span class="p">.</span><span class="k">default</span> <span class="o">+</span> <span class="s1">&#39;)&#39;</span><span class="p">);</span>
+  <span class="p">}</span>
+  </pre></div>             </td>           </tr>                               <tr id="section-10">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-10">&#182;</a>               </div>               <p>Calculate the raw length and colorize the prompt</p>             </td>             <td class="code">               <div class="highlight"><pre>  <span class="nx">length</span> <span class="o">=</span> <span class="nx">raw</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">).</span><span class="nx">length</span><span class="p">;</span>
+  <span class="nx">raw</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="nx">raw</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+  <span class="nx">msg</span> <span class="o">=</span> <span class="nx">raw</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">);</span>
+  
+  <span class="k">if</span> <span class="p">(</span><span class="nx">prop</span><span class="p">.</span><span class="nx">help</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">prop</span><span class="p">.</span><span class="nx">help</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">line</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">logger</span><span class="p">.</span><span class="nx">help</span><span class="p">(</span><span class="nx">line</span><span class="p">);</span>
+    <span class="p">});</span>
+  <span class="p">}</span>
+  
+  <span class="nx">stdout</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">msg</span><span class="p">);</span> 
+  <span class="nx">prompt</span><span class="p">.</span><span class="nx">emit</span><span class="p">(</span><span class="s1">&#39;prompt&#39;</span><span class="p">,</span> <span class="nx">prop</span><span class="p">);</span>
+  
+  <span class="nx">read</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">line</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">callback</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
+    <span class="p">}</span>
+  
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">line</span> <span class="o">||</span> <span class="nx">line</span> <span class="o">===</span> <span class="s1">&#39;&#39;</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">line</span> <span class="o">=</span> <span class="nx">prop</span><span class="p">.</span><span class="k">default</span> <span class="o">||</span> <span class="nx">line</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="k">if</span> <span class="p">(</span><span class="nx">prop</span><span class="p">.</span><span class="nx">validator</span> <span class="o">||</span> <span class="nx">prop</span><span class="p">.</span><span class="nx">empty</span> <span class="o">===</span> <span class="kc">false</span><span class="p">)</span> <span class="p">{</span>
+      <span class="kd">var</span> <span class="nx">valid</span><span class="p">;</span>
+      
+      <span class="k">if</span> <span class="p">(</span><span class="nx">prop</span><span class="p">.</span><span class="nx">validator</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">valid</span> <span class="o">=</span> <span class="nx">prop</span><span class="p">.</span><span class="nx">validator</span><span class="p">.</span><span class="nx">test</span> 
+         <span class="o">?</span> <span class="nx">prop</span><span class="p">.</span><span class="nx">validator</span><span class="p">.</span><span class="nx">test</span><span class="p">(</span><span class="nx">line</span><span class="p">)</span>
+         <span class="o">:</span> <span class="nx">prop</span><span class="p">.</span><span class="nx">validator</span><span class="p">(</span><span class="nx">line</span><span class="p">);</span>
+      <span class="p">}</span>
+      
+      <span class="k">if</span> <span class="p">(</span><span class="nx">prop</span><span class="p">.</span><span class="nx">empty</span> <span class="o">===</span> <span class="kc">false</span> <span class="o">&amp;&amp;</span> <span class="nx">valid</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">valid</span> <span class="o">=</span> <span class="nx">line</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="nx">prop</span><span class="p">.</span><span class="nx">warning</span> <span class="o">=</span> <span class="nx">prop</span><span class="p">.</span><span class="nx">warning</span> <span class="o">||</span> <span class="s1">&#39;You must supply a value.&#39;</span><span class="p">;</span>
+      <span class="p">}</span>
+      
+      <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">valid</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">logger</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="s1">&#39;Invalid input for &#39;</span> <span class="o">+</span> <span class="nx">name</span><span class="p">.</span><span class="nx">grey</span><span class="p">);</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nx">prop</span><span class="p">.</span><span class="nx">warning</span><span class="p">)</span> <span class="p">{</span>
+          <span class="nx">logger</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">prop</span><span class="p">.</span><span class="nx">warning</span><span class="p">);</span>
+        <span class="p">}</span>
+        
+        <span class="nx">prompt</span><span class="p">.</span><span class="nx">emit</span><span class="p">(</span><span class="s1">&#39;invalid&#39;</span><span class="p">,</span> <span class="nx">prop</span><span class="p">,</span> <span class="nx">line</span><span class="p">);</span>
+        <span class="k">return</span> <span class="nx">prompt</span><span class="p">.</span><span class="nx">getInput</span><span class="p">(</span><span class="nx">prop</span><span class="p">,</span> <span class="nx">callback</span><span class="p">);</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+        
+    <span class="nx">logger</span><span class="p">.</span><span class="nx">input</span><span class="p">(</span><span class="nx">line</span><span class="p">.</span><span class="nx">yellow</span><span class="p">);</span>
+    <span class="nx">callback</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="nx">line</span><span class="p">);</span>
+  <span class="p">});</span>
+
+  <span class="k">return</span> <span class="nx">prompt</span><span class="p">;</span>
+<span class="p">};</span></pre></div>             </td>           </tr>                               <tr id="section-11">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-11">&#182;</a>               </div>               <h3>function addProperties (obj, properties, callback)</h3>
+
+<h4>@obj {Object} Object to add properties to</h4>
+
+<h4>@properties {Array} List of properties to get values for</h4>
+
+<h4>@callback {function} Continuation to pass control to when complete.</h4>
+
+<p>Prompts the user for values each of the <code>properties</code> if <code>obj</code> does not already
+have a value for the property. Responds with the modified object.  </p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nx">prompt</span><span class="p">.</span><span class="nx">addProperties</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">obj</span><span class="p">,</span> <span class="nx">properties</span><span class="p">,</span> <span class="nx">callback</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">properties</span> <span class="o">=</span> <span class="nx">properties</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">prop</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">typeof</span> <span class="nx">obj</span><span class="p">[</span><span class="nx">prop</span><span class="p">]</span> <span class="o">===</span> <span class="s1">&#39;undefined&#39;</span><span class="p">;</span>
+  <span class="p">});</span>
+  
+  <span class="k">if</span> <span class="p">(</span><span class="nx">properties</span><span class="p">.</span><span class="nx">length</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">callback</span><span class="p">(</span><span class="nx">obj</span><span class="p">);</span>
+  <span class="p">}</span>
+  
+  <span class="nx">prompt</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="nx">properties</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">results</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">callback</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">results</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">callback</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="nx">obj</span><span class="p">);</span>
+    <span class="p">}</span>
+    
+    <span class="kd">function</span> <span class="nx">putNested</span> <span class="p">(</span><span class="nx">obj</span><span class="p">,</span> <span class="nx">path</span><span class="p">,</span> <span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
+      <span class="kd">var</span> <span class="nx">last</span> <span class="o">=</span> <span class="nx">obj</span><span class="p">,</span> <span class="nx">key</span><span class="p">;</span> 
+      
+      <span class="k">while</span> <span class="p">(</span><span class="nx">path</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">key</span> <span class="o">=</span> <span class="nx">path</span><span class="p">.</span><span class="nx">shift</span><span class="p">();</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">last</span><span class="p">[</span><span class="nx">key</span><span class="p">])</span> <span class="p">{</span>
+          <span class="nx">last</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">=</span> <span class="p">{};</span>
+        <span class="p">}</span>
+        
+        <span class="nx">last</span> <span class="o">=</span> <span class="nx">last</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
+      <span class="p">}</span>
+      
+      <span class="nx">last</span><span class="p">[</span><span class="nx">path</span><span class="p">.</span><span class="nx">shift</span><span class="p">()]</span> <span class="o">=</span> <span class="nx">value</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="nb">Object</span><span class="p">.</span><span class="nx">keys</span><span class="p">(</span><span class="nx">results</span><span class="p">).</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">key</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">putNested</span><span class="p">(</span><span class="nx">obj</span><span class="p">,</span> <span class="nx">key</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">),</span> <span class="nx">results</span><span class="p">[</span><span class="nx">key</span><span class="p">]);</span>
+    <span class="p">});</span>
+    
+    <span class="nx">callback</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="nx">obj</span><span class="p">);</span>
+  <span class="p">});</span>
+  
+  <span class="k">return</span> <span class="nx">prompt</span><span class="p">;</span>
+<span class="p">};</span></pre></div>             </td>           </tr>                               <tr id="section-12">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-12">&#182;</a>               </div>               <h3>function readLine (callback)</h3>
+
+<h4>@callback {function} Continuation to respond to when complete</h4>
+
+<p>Gets a single line of input from the user. </p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nx">prompt</span><span class="p">.</span><span class="nx">readLine</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">callback</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">value</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="nx">buffer</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+  <span class="nx">prompt</span><span class="p">.</span><span class="nx">resume</span><span class="p">();</span>
+  <span class="nx">stdin</span><span class="p">.</span><span class="nx">setEncoding</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">);</span>
+  <span class="nx">stdin</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">,</span> <span class="nx">callback</span><span class="p">);</span>
+  <span class="nx">stdin</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;data&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="nx">data</span> <span class="p">(</span><span class="nx">chunk</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">value</span> <span class="o">+=</span> <span class="nx">buffer</span> <span class="o">+</span> <span class="nx">chunk</span><span class="p">;</span>
+    <span class="nx">buffer</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+    <span class="nx">value</span> <span class="o">=</span> <span class="nx">value</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\r/g</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">value</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s1">&#39;\n&#39;</span><span class="p">)</span> <span class="o">!==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">value</span> <span class="o">!==</span> <span class="s1">&#39;\n&#39;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">value</span> <span class="o">=</span> <span class="nx">value</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/^\n+/</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+      <span class="p">}</span>
+      
+      <span class="nx">buffer</span> <span class="o">=</span> <span class="nx">value</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="nx">value</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s1">&#39;\n&#39;</span><span class="p">));</span>
+      <span class="nx">val</span> <span class="o">=</span> <span class="nx">value</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nx">value</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s1">&#39;\n&#39;</span><span class="p">));</span>
+      <span class="nx">prompt</span><span class="p">.</span><span class="nx">pause</span><span class="p">();</span>
+      <span class="nx">stdin</span><span class="p">.</span><span class="nx">removeListener</span><span class="p">(</span><span class="s1">&#39;data&#39;</span><span class="p">,</span> <span class="nx">data</span><span class="p">);</span>
+      <span class="nx">stdin</span><span class="p">.</span><span class="nx">removeListener</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">,</span> <span class="nx">callback</span><span class="p">);</span>
+      <span class="nx">value</span> <span class="o">=</span> <span class="nx">value</span><span class="p">.</span><span class="nx">trim</span><span class="p">();</span>
+      <span class="nx">callback</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="nx">value</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+  
+  <span class="k">return</span> <span class="nx">prompt</span><span class="p">;</span>
+<span class="p">};</span></pre></div>             </td>           </tr>                               <tr id="section-13">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-13">&#182;</a>               </div>               <h3>function readLineHidden (callback)</h3>
+
+<h4>@callback {function} Continuation to respond to when complete</h4>
+
+<p>Gets a single line of hidden input (i.e. <code>rawMode = true</code>) from the user. </p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nx">prompt</span><span class="p">.</span><span class="nx">readLineHidden</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">callback</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">value</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="nx">buffer</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+  <span class="nx">stdio</span><span class="p">.</span><span class="nx">setRawMode</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+  <span class="nx">prompt</span><span class="p">.</span><span class="nx">resume</span><span class="p">();</span>
+  <span class="nx">stdin</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">,</span> <span class="nx">callback</span><span class="p">);</span>
+  <span class="nx">stdin</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;data&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="nx">data</span> <span class="p">(</span><span class="nx">c</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">c</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span> <span class="o">+</span> <span class="nx">c</span><span class="p">;</span>
+    <span class="k">switch</span> <span class="p">(</span><span class="nx">c</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">case</span> <span class="s1">&#39;\n&#39;</span><span class="o">:</span> <span class="k">case</span> <span class="s1">&#39;\r&#39;</span><span class="o">:</span> <span class="k">case</span> <span class="s1">&#39;\r\n&#39;</span><span class="o">:</span> <span class="k">case</span> <span class="s1">&#39;\u0004&#39;</span><span class="o">:</span>
+        <span class="nx">stdio</span><span class="p">.</span><span class="nx">setRawMode</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+        <span class="nx">stdin</span><span class="p">.</span><span class="nx">removeListener</span><span class="p">(</span><span class="s1">&#39;data&#39;</span><span class="p">,</span> <span class="nx">data</span><span class="p">);</span>
+        <span class="nx">stdin</span><span class="p">.</span><span class="nx">removeListener</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">,</span> <span class="nx">callback</span><span class="p">);</span>
+        <span class="nx">value</span> <span class="o">=</span> <span class="nx">value</span><span class="p">.</span><span class="nx">trim</span><span class="p">();</span>
+        <span class="nx">stdout</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">&#39;\n&#39;</span><span class="p">);</span>
+        <span class="nx">stdout</span><span class="p">.</span><span class="nx">flush</span><span class="p">();</span>
+        <span class="nx">prompt</span><span class="p">.</span><span class="nx">pause</span><span class="p">();</span>
+        <span class="k">return</span> <span class="nx">callback</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="nx">value</span><span class="p">)</span>
+      <span class="k">case</span> <span class="s1">&#39;\u0003&#39;</span><span class="o">:</span> <span class="k">case</span> <span class="s1">&#39;\0&#39;</span><span class="o">:</span>
+        <span class="nx">stdout</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">&#39;\n&#39;</span><span class="p">);</span>
+        <span class="nx">process</span><span class="p">.</span><span class="nx">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+        <span class="k">break</span><span class="p">;</span>
+      <span class="k">default</span><span class="o">:</span>
+        <span class="nx">value</span> <span class="o">+=</span> <span class="nx">buffer</span> <span class="o">+</span> <span class="nx">c</span>
+        <span class="nx">buffer</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+        <span class="k">break</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+  
+  <span class="k">return</span> <span class="nx">prompt</span><span class="p">;</span>
+<span class="p">};</span>
+
+</pre></div>             </td>           </tr>                </tbody>     </table>   </div> </body> </html> 

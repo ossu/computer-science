@@ -1,0 +1,84 @@
+{
+  "name": "deep-equal",
+  "version": "1.0.0",
+  "description": "node's assert.deepEqual algorithm",
+  "main": "index.js",
+  "directories": {
+    "lib": ".",
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/substack/node-deep-equal.git"
+  },
+  "keywords": [
+    "equality",
+    "equal",
+    "compare"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT",
+  "testling": {
+    "files": "test/*.js",
+    "browsers": {
+      "ie": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "ff": [
+        3.5,
+        10,
+        15
+      ],
+      "chrome": [
+        10,
+        22
+      ],
+      "safari": [
+        5.1
+      ],
+      "opera": [
+        12
+      ]
+    }
+  },
+  "gitHead": "39c740ebdafed9443912a4ef1493b18693934daf",
+  "bugs": {
+    "url": "https://github.com/substack/node-deep-equal/issues"
+  },
+  "homepage": "https://github.com/substack/node-deep-equal",
+  "_id": "deep-equal@1.0.0",
+  "_shasum": "d4564f07d2f0ab3e46110bec16592abd7dc2e326",
+  "_from": "deep-equal@*",
+  "_npmVersion": "2.3.0",
+  "_nodeVersion": "0.10.35",
+  "_npmUser": {
+    "name": "substack",
+    "email": "mail@substack.net"
+  },
+  "maintainers": [
+    {
+      "name": "substack",
+      "email": "mail@substack.net"
+    }
+  ],
+  "dist": {
+    "shasum": "d4564f07d2f0ab3e46110bec16592abd7dc2e326",
+    "tarball": "http://registry.npmjs.org/deep-equal/-/deep-equal-1.0.0.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/deep-equal/-/deep-equal-1.0.0.tgz",
+  "readme": "ERROR: No README data found!"
+}

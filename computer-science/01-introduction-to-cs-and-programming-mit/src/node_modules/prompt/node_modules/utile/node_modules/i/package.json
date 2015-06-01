@@ -1,0 +1,79 @@
+{
+  "name": "i",
+  "version": "0.3.3",
+  "author": {
+    "name": "Pavan Kumar Sunkara",
+    "email": "pavan.sss1991@gmail.com",
+    "url": "pksunkara.github.com"
+  },
+  "description": "custom inflections for nodejs",
+  "main": "./lib/inflect",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pksunkara/inflect.git"
+  },
+  "keywords": [
+    "singular",
+    "plural",
+    "camelize",
+    "underscore",
+    "dasherize",
+    "demodulize",
+    "ordinalize",
+    "uncountable",
+    "pluralize",
+    "singularize",
+    "titleize",
+    "tableize",
+    "classify",
+    "foreign_key"
+  ],
+  "homepage": "http://pksunkara.github.com/inflect",
+  "scripts": {
+    "test": "vows --spec $(find test -name '*-test.js')"
+  },
+  "contributors": [
+    {
+      "name": "Pavan Kumar Sunkara",
+      "email": "pavan.sss1991@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "vows": "~0.6.1"
+  },
+  "engines": {
+    "node": ">=0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/pksunkara/inflect/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pksunkara/inflect/raw/master/LICENSE"
+    }
+  ],
+  "gitHead": "f6495e42873fe5b3ca80b060bc274662c3ed610b",
+  "_id": "i@0.3.3",
+  "_shasum": "0ff9a5eb743504aa8ac26a84f84c641287ff24cd",
+  "_from": "i@0.3.x",
+  "_npmVersion": "2.0.0",
+  "_npmUser": {
+    "name": "pksunkara",
+    "email": "pavan.sss1991@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "pksunkara",
+      "email": "pavan.sss1991@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "0ff9a5eb743504aa8ac26a84f84c641287ff24cd",
+    "tarball": "http://registry.npmjs.org/i/-/i-0.3.3.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/i/-/i-0.3.3.tgz",
+  "readme": "ERROR: No README data found!"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "inflight",
+  "version": "1.0.4",
+  "description": "Add callbacks to requests in flight to avoid async duplication",
+  "main": "inflight.js",
+  "dependencies": {
+    "once": "^1.3.0",
+    "wrappy": "1"
+  },
+  "devDependencies": {
+    "tap": "^0.4.10"
+  },
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/inflight"
+  },
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/"
+  },
+  "bugs": {
+    "url": "https://github.com/isaacs/inflight/issues"
+  },
+  "homepage": "https://github.com/isaacs/inflight",
+  "license": "ISC",
+  "gitHead": "c7b5531d572a867064d4a1da9e013e8910b7d1ba",
+  "_id": "inflight@1.0.4",
+  "_shasum": "6cbb4521ebd51ce0ec0a936bfd7657ef7e9b172a",
+  "_from": "inflight@^1.0.4",
+  "_npmVersion": "2.1.3",
+  "_nodeVersion": "0.10.32",
+  "_npmUser": {
+    "name": "othiym23",
+    "email": "ogd@aoaioxxysz.net"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    },
+    {
+      "name": "othiym23",
+      "email": "ogd@aoaioxxysz.net"
+    },
+    {
+      "name": "iarna",
+      "email": "me@re-becca.org"
+    }
+  ],
+  "dist": {
+    "shasum": "6cbb4521ebd51ce0ec0a936bfd7657ef7e9b172a",
+    "tarball": "http://registry.npmjs.org/inflight/-/inflight-1.0.4.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/inflight/-/inflight-1.0.4.tgz",
+  "readme": "ERROR: No README data found!"
+}
