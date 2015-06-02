@@ -37,34 +37,55 @@ var prompt = require( 'prompt' );
 
 // });
 
-// Find the cube root of a perfect cube
-prompt.start();
-prompt.get([
-  {
-    name        : 'x',
-    description : 'Enter a interger'
-  }
-], function( err, results ) {
+// // Find the cube root of a perfect cube
+// prompt.start();
+// prompt.get([
+//   {
+//     name        : 'x',
+//     description : 'Enter a interger'
+//   }
+// ], function( err, results ) {
 
-  var x = parseInt( results.x, 10 );
-  var ans;
+//   var x = parseInt( results.x, 10 );
+//   var ans;
 
-  for ( ans in range( 0, Math.abs( x ) + 1 )) {
+//   for ( ans in range( 0, Math.abs( x ) + 1 )) {
 
-    if ( Math.pow( ans, 3 ) === Math.abs( x )) {
-      break;
-    }
+//     if ( Math.pow( ans, 3 ) === Math.abs( x )) {
+//       break;
+//     }
 
-  }
+//   }
 
-  if ( Math.pow( ans, 3 ) !== Math.abs( x )) {
+//   if ( Math.pow( ans, 3 ) !== Math.abs( x )) {
 
-    console.log( x + ' is not a perfect cube' );
+//     console.log( x + ' is not a perfect cube' );
 
-  } else {
+//   } else {
 
-    console.log( 'Cube root of ' + x.toString() + ' is ' + ans.toString());
+//     console.log( 'Cube root of ' + x.toString() + ' is ' + ans.toString());
 
-  }
+//   }
 
-});
+// });
+
+// Find closest number to be a square root of another number
+var x          = 25;
+var epsilon    = 0.01;
+var numGuesses = 0;
+var ans        = 0;
+
+while ( Math.abs( Math.pow( ans, 2 ) - x ) >= epsilon && ans <= x ) {
+
+  ans += 0.00001;
+  numGuesses += 1;
+
+}
+
+console.log( 'numGuesses: ' + numGuesses );
+
+if ( Math.abs( Math.pow( ans, 2 ) - x >= epsilon )) {
+  console.log( 'Failed on square root of ' + x.toString());
+} else {
+  console.log( ans.toString() + ' is close to square root of ' + x.toString());
+}
