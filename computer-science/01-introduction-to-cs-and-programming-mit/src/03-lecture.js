@@ -90,31 +90,60 @@ var prompt = require( 'prompt' );
 //   console.log( ans.toString() + ' is close to square root of ' + x.toString());
 // }
 
-// Find closest number to be a square root of another number - bisection method
-var x          = 12345;
-var epsilon    = 0.01;
-var numGuesses = 0;
-var low        = 0;
-var high       = x;
-var ans        = ( high + low ) / 2;
+// // Find closest number to be a square root of another number - bisection method
+// var x          = 12345;
+// var epsilon    = 0.01;
+// var numGuesses = 0;
+// var low        = 0;
+// var high       = x;
+// var ans        = ( high + low ) / 2;
 
-while ( Math.abs( Math.pow( ans, 2 ) - x ) >= epsilon && ans <= x ) {
+// while ( Math.abs( Math.pow( ans, 2 ) - x ) >= epsilon && ans <= x ) {
 
-  numGuesses += 1;
+//   numGuesses += 1;
 
-  if ( Math.pow( ans, 2 ) < x ) {
+//   if ( Math.pow( ans, 2 ) < x ) {
 
-    low = ans;
+//     low = ans;
 
-  } else {
+//   } else {
 
-    high = ans;
+//     high = ans;
 
-  }
+//   }
 
-  ans = ( high + low ) / 2;
+//   ans = ( high + low ) / 2;
+
+// }
+
+// console.log( 'numGuesses:', numGuesses );
+// console.log( ans, 'is close to square root of', x );
+
+// Returns true or false if x is within epsilon of y
+function withinEpsilon( x, y, epsilon ) {
+
+  console.log( 'Returns true if x is within epsilon of y' );
+
+  return Math.abs( x - y ) <= epsilon;
 
 }
 
-console.log( 'numGuesses:', numGuesses );
-console.log( ans, 'is close to square root of', x );
+if ( withinEpsilon( 25, 26, 1 )) {
+
+  console.log( 'Yes' );
+
+} else {
+
+  console.log( 'No' );
+
+}
+
+if ( withinEpsilon( 25, 26, 0.9 )) {
+
+  console.log( 'Yes' );
+
+} else {
+
+  console.log( 'No' );
+
+}
