@@ -7,6 +7,10 @@
 - [Coursera](https://www.coursera.org/)
 - [How can I prepare myself to be a software engineer?](http://qr.ae/fMbg8)
 
+## Tips
+
+If you want to follow this path, [here](https://github.com/ericdouglas/computer-science-and-engineering/issues/1) are some tips! Share your tips with us too!
+
 ## Topics
 
 - [Computer Science](#computer-science)
