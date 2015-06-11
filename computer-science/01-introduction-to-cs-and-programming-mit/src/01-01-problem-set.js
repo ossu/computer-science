@@ -42,9 +42,29 @@ prompt.get([
   }
 ], function( err, results ) {
 
-  var initialBalance = results.balance;
-  var interest = results.interest;
-  var minPayment = results.minimum;
+  // constants
+  var PERIOD            = 12;
 
+  // input variables
+  var initialBalance    = results.balance;
+  var interest          = results.interest;
+  var minPayment        = results.minimum;
+  
+  // output variables
+  var month             = 1;
+  var minMonthlyPayment = 0;
+  var principalPaid     = 0;
+  var actualBalance     = 0;
+
+  while( month < PERIOD ) {
+
+    let actualMinPayment = minPayment * actualBalance;
+    let actualInterest   = ( interest / 12 ) * actualBalance;
+  
+    console.log( 'Month:', month );
+    console.log( 'Minimum monthly payment:', actualMinPayment );
+    console.log( 'Principal paid:',  );
+  
+  }
 
 });
