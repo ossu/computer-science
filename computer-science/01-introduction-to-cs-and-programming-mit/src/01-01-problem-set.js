@@ -42,23 +42,30 @@ prompt.get([
   }
 ], function( err, results ) {
 
+  console.log( results );
+
   // constants
   var PERIOD            = 12;
 
   // input variables
-  var initialBalance    = parseInt( results.balance, 10 );
-  var interest          = parseInt( results.interest, 10 );
-  var minPayment        = parseInt( results.minimum, 10 );
+  var initialBalance    = parseFloat( results.balance, 10 );
+  var interest          = parseFloat( results.interest, 10 );
+  var minPayment        = parseFloat( results.minimum, 10 );
+
+  console.log( initialBalance );
+  console.log( interest );
+  console.log( minPayment );
   
   // output variables
   var month             = 1;
   var minMonthlyPayment = 0;
   var principalPaid     = 0;
-  var actualBalance     = 0;
+  var actualBalance     = initialBalance;
 
   // helper variables
-  var actualMinPayment;
-  var actualInterest;
+  var actualMinPayment  = 0; 
+  var actualInterest    = 0;
+  var totalPaid         = 0;
 
   while( month <= PERIOD ) {
 
@@ -66,14 +73,19 @@ prompt.get([
     actualInterest   = ( interest / 12 ) * actualBalance;
     principalPaid    = actualMinPayment - actualInterest;
     actualBalance    -= principalPaid;
+    totalPaid        += actualMinPayment;
   
     console.log( 'Month:', month );
-    console.log( 'Minimum monthly payment:', actualMinPayment );
-    console.log( 'Principal paid:', principalPaid );
-    console.log( 'Remaining balance', actualBalance, '\n' );
+    console.log( 'Minimum monthly payment:', actualMinPayment.toFixed( 2 ));
+    console.log( 'Principal paid:', principalPaid.toFixed( 2 ));
+    console.log( 'Remaining balance', actualBalance.toFixed( 2 ), '\n' );
 
     month += 1;
   
   }
+
+  console.log( '======= RESULT =======');
+  console.log( 'Total amount paid:', totalPaid.toFixed( 2 ));
+  console.log( 'Remaining balance', actualBalance.toFixed( 2 ), '\n' );
 
 });
