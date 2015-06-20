@@ -30,15 +30,15 @@ prompt.start();
 prompt.get([
   {
     name : 'balance',
-    description : 'Outstanding balance'
+    description : 'Enter the outstanding balance on your credit card'
   },
   {
     name : 'interest',
-    description : 'Annual interest rate'
+    description : 'Enter the annual credit card interest rate as a decimal'
   },
   {
     name : 'minimum',
-    description : 'Minimum monthly payment rate'
+    description : 'Enter the minimum monthly payment rate as a decimal'
   }
 ], function( err, results ) {
 
@@ -46,9 +46,9 @@ prompt.get([
   var PERIOD            = 12;
 
   // input variables
-  var initialBalance    = results.balance;
-  var interest          = results.interest;
-  var minPayment        = results.minimum;
+  var initialBalance    = parseInt( results.balance, 10 );
+  var interest          = parseInt( results.interest, 10 );
+  var minPayment        = parseInt( results.minimum, 10 );
   
   // output variables
   var month             = 1;
@@ -56,14 +56,23 @@ prompt.get([
   var principalPaid     = 0;
   var actualBalance     = 0;
 
-  while( month < PERIOD ) {
+  // helper variables
+  var actualMinPayment;
+  var actualInterest;
 
-    let actualMinPayment = minPayment * actualBalance;
-    let actualInterest   = ( interest / 12 ) * actualBalance;
+  while( month <= PERIOD ) {
+
+    actualMinPayment = minPayment * actualBalance;
+    actualInterest   = ( interest / 12 ) * actualBalance;
+    principalPaid    = actualMinPayment - actualInterest;
+    actualBalance    -= principalPaid;
   
     console.log( 'Month:', month );
     console.log( 'Minimum monthly payment:', actualMinPayment );
-    console.log( 'Principal paid:',  );
+    console.log( 'Principal paid:', principalPaid );
+    console.log( 'Remaining balance', actualBalance, '\n' );
+
+    month += 1;
   
   }
 
