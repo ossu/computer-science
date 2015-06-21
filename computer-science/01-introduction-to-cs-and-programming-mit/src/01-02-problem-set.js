@@ -33,20 +33,22 @@ prompt.get([
  var interest       = parseFloat( results.interest );
 
  // helper variables
- var monthPayment = 0;
- var monthsNeeded = 0;
- var totalBalance = initialBalance;
+ var monthsNeeded  = 0;
+ var totalBalance  = initialBalance;
  var monthInterest = interest / 12;
+ var monthPayment  = Math.ceil( initialBalance * ( 1 + interest ) / 120 ) * 10;
+ // (( balance * ( interest ) / 12 ) / 10 ) * 10
 
  while ( totalBalance > 0 ) {
  
-   
+  totalBalance = ( totalBalance * ( 1 + monthInterest ) - monthPayment ).toFixed( 2 );
+  monthsNeeded += 1;
  
  }
 
  console.log( '======= RESULT =======');
- console.log( 'Monthly payment to pay off debt in 1 year:' );
- console.log( 'Number of months needed:' );
- console.log( 'Balance' );
+ console.log( 'Monthly payment to pay off debt in 1 year:', monthPayment );
+ console.log( 'Number of months needed:', monthsNeeded );
+ console.log( 'Balance', totalBalance );
 
 });
