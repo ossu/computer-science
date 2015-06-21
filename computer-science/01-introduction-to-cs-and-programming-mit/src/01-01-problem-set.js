@@ -45,20 +45,14 @@ prompt.get([
   }
 ], function( err, results ) {
 
-  console.log( results );
-
   // constants
   var PERIOD            = 12;
 
   // input variables
-  var initialBalance    = parseFloat( results.balance, 10 );
-  var interest          = parseFloat( results.interest, 10 );
-  var minPayment        = parseFloat( results.minimum, 10 );
+  var initialBalance    = parseFloat( results.balance );
+  var interest          = parseFloat( results.interest );
+  var minPayment        = parseFloat( results.minimum );
 
-  console.log( initialBalance );
-  console.log( interest );
-  console.log( minPayment );
-  
   // output variables
   var month             = 1;
   var minMonthlyPayment = 0;
