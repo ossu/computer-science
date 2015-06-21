@@ -36,19 +36,24 @@ prompt.get([
  var monthsNeeded  = 0;
  var totalBalance  = initialBalance;
  var monthInterest = interest / 12;
- var monthPayment  = Math.ceil( initialBalance * ( 1 + interest ) / 120 ) * 10;
- // (( balance * ( interest ) / 12 ) / 10 ) * 10
+ var monthPayment  = 10;
 
  while ( totalBalance > 0 ) {
  
-  totalBalance = ( totalBalance * ( 1 + monthInterest ) - monthPayment ).toFixed( 2 );
+  totalBalance = ( totalBalance * ( 1 + monthInterest ) - monthPayment );
   monthsNeeded += 1;
+
+  if ( monthsNeeded >= 12 ) {
+    monthPayment += 10;
+    totalBalance = initialBalance;
+    monthsNeeded = 0;
+  }
  
  }
 
  console.log( '======= RESULT =======');
  console.log( 'Monthly payment to pay off debt in 1 year:', monthPayment );
  console.log( 'Number of months needed:', monthsNeeded );
- console.log( 'Balance', totalBalance );
+ console.log( 'Balance', totalBalance.toFixed( 2 ));
 
 });
