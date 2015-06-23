@@ -1,7 +1,7 @@
 /*
 *
 * Author: Eric Douglas
-* Finished:
+* Finished: 2015-06-21
 *
 * Paying Debt Off In a Year 
 *
