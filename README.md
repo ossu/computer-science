@@ -33,7 +33,7 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 
 ### Computer Science
 
-1. **[Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) ✍ - [⎙](/computer-science/01-introduction-to-cs-and-programming-mit)**
+1. [Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) - [⎙](/computer-science/01-introduction-to-cs-and-programming-mit)**
 1. [Computer Science 101 - Stanford](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about) / [Other files](http://web.stanford.edu/class/cs101/) - [⎙]()
 1. [Systematic Program Design - Part 1: The Core Method](https://www.edx.org/course/systematic-program-design-part-1-core-ubcx-spd1x#!)
 1. [Systematic Program Design - Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x)
