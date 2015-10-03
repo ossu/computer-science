@@ -31,8 +31,8 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Operating Systems](#operating-systems)
 - [Networks](#networks)
 - [Databases](#databases)
-
 - [Cloud Computing](#cloud-computing)
+
 - [Cryptography](#cryptography)
 - [Compilers](#compilers)
 - [UX Design](#ux-design)
@@ -135,6 +135,11 @@ Course|Duration|Files|Status
 [Database Management Essentials](https://www.coursera.org/learn/database-management)| weeks|[⎙]()| -
 
 ### Cloud Computing
+
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Introduction to Cloud Computing](https://www.edx.org/course/introduction-cloud-computing-ieeex-cloudintro-x-0)| 4 weeks|[⎙]()| -
+[Cloud Computing Specialization](https://www.coursera.org/specializations/cloudcomputing)| - |[⎙]()| -
 
 ### Cryptography
 
