@@ -1,5 +1,5 @@
 
-![Science](http://i.imgur.com/U3Y68Ha.jpg)
+![open source society university](http://i.imgur.com/h8xjrrj.png)
 
 ## References
 
