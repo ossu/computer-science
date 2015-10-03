@@ -30,9 +30,9 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Software Engineering](#software-engineering)
 - [Operating Systems](#operating-systems)
 - [Networks](#networks)
+- [Databases](#databases)
 
 - [Cloud Computing](#cloud-computing)
-- [Databases](#databases)
 - [Cryptography](#cryptography)
 - [Compilers](#compilers)
 - [UX Design](#ux-design)
@@ -128,8 +128,13 @@ Course|Duration|Files|Status
 
 ### Databases
 
-1. [Database Systems](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-830-database-systems-fall-2010/) - [⎙]()
-1. [Database, Internet, and Systems Integration Technologies](http://ocw.mit.edu/courses/civil-and-environmental-engineering/1-264j-database-internet-and-systems-integration-technologies-fall-2013/) - [⎙]()
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Introduction to Databases](https://www.coursera.org/course/db)| - |[⎙]()| -
+[Database Design](https://www.udemy.com/database-design/#reviews)| 9 hours |[⎙]()| -
+[Database Management Essentials](https://www.coursera.org/learn/database-management)| weeks|[⎙]()| -
+
+### Cloud Computing
 
 ### Cryptography
 
