@@ -6,6 +6,7 @@
 - [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [Coursera](https://www.coursera.org/)
 - [edX](https://www.edx.org)
+- [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
 
 ## Method
 
@@ -42,6 +43,8 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Graphs](#graphs)
 - [Data Mining](#data-mining)
 - [Programming Languages](#programming-languages)
+
+---
 
 ### Introduction
 
@@ -111,8 +114,10 @@ Course|Duration|Files|Status
 
 ### Operating Systems
 
-1. [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/) - [⎙]()
-1. [Operating Systems and System Programming](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3) - [⎙]()
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - |[⎙]()| -
+[Operating Systems and System Programming](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)| - |[⎙]()| -
 
 ### Networks
 
