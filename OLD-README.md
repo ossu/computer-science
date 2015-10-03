@@ -5,14 +5,7 @@
 - [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
 - [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [Coursera](https://www.coursera.org/)
-- [edX](https://www.edx.org)
 - [How can I prepare myself to be a software engineer?](http://qr.ae/fMbg8)
-
-## Method
-
-Here we'll try to choose a maximum of **3** courses by category. After finished all courses, more categories and/or courses will be added to this list.
-
-Initially, we will also give preference for MOOC (Massive Open Online Course) type of courses because those courses were created with our style of learning in mind.
 
 ## Tips
 
@@ -20,15 +13,11 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 
 ## Topics
 
-- [Introduction](#introduction)
-- [Program Design](#program-design)
-
-- [Programming Paradigms](#programming-paradigms)
+- [Computer Science](#computer-science)
 - [Software Testing](#software-testing)
 - [Math](#math)
 - [Operating Systems](#operating-systems)
 - [Networks](#networks)
-- [Cloud Computing](#cloud-computing)
 - [Databases](#databases)
 - [Cryptography](#cryptography)
 - [Compilers](#compilers)
@@ -38,29 +27,41 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Robotics](#robotics)
 - [Graphs](#graphs)
 - [Data Mining](#data-mining)
+- [Parallel Programming](#parallel-programming)
 - [Programming Languages](#programming-languages)
+- [Others](#others)
 
-Course|Duration|Files|Status
-:--|:--:|:--:|:--:
-| weeks|[⎙]()| -
+### Computer Science
 
-### Introduction
-
-Course|Duration|Files|Status
-:--|:--:|:--:|:--:
-[Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 9 ~ 15 weeks|[⎙]()| -
-[Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks|[⎙]()| -
-[Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks|[⎙]()| -
-
-### Program Design
-
-1. [Systematic Program Design- Part 1: The Core Method](https://www.edx.org/course/systematic-program-design-part-1-core-ubcx-spd1x-0) - [⎙]()
-1. [Systematic Program Design- Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x) - [⎙]()
-1. [Systematic Program Design- Part 3: Abstraction, Search and Graphs](https://www.edx.org/course/systematic-program-design-part-3-ubcx-spd3x) - [⎙]()
-
-### Programming Paradigms
-
-
+1. [Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) - [⎙](/computer-science/01-introduction-to-cs-and-programming-mit)
+1. [Computer Science 101 - Stanford](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about) / [Other files](http://web.stanford.edu/class/cs101/) - [⎙](/computer-science/02-stanford-computer-science-101)
+1. [Systematic Program Design - Part 1: The Core Method](https://www.edx.org/course/systematic-program-design-part-1-core-ubcx-spd1x#!)
+1. [Systematic Program Design - Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x)
+1. [Systematic Program Design - Part 3: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-3-ubcx-spd3x)
+1. [Fundamentals of Computing](https://www.coursera.org/specialization/fundamentalscomputing2/37/certificate)
+	1. [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/course/interactivepython1) - [⎙](/computer-science/)
+	1. [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/course/interactivepython2) - [⎙](/computer-science/)
+	1. [Principles of Computing (Part 1)](https://www.coursera.org/course/principlescomputing1) - [⎙](/computer-science/)
+	1. [Principles of Computing (Part 2)](https://www.coursera.org/course/principlescomputing2) - [⎙](/computer-science/)
+	1. [Algorithmic Thinking (Part 1)](https://www.coursera.org/course/algorithmicthink1) - [⎙](/computer-science/)
+	1. [Algorithmic Thinking (Part 2)](https://www.coursera.org/course/algorithmicthink2) - [⎙](/computer-science/)
+1. [Structure and Interpretation of Computer Programs](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/) - [⎙]()
+1. [Elements of Software Construction](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-elements-of-software-construction-fall-2011/) - [⎙]()
+1. [Introduction to Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) - [⎙]()
+1. [Design and Analysis of Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/) - [⎙]()
+1. [Principles of Reactive Programming](https://www.coursera.org/course/reactive) - [⎙]()
+1. [Paradigms of Computer Programming – Fundamentals](https://www.edx.org/course/paradigms-computer-programming-louvainx-louv1-1x-0) - [⎙]()
+1. [Paradigms of Computer Programming – Abstraction and Concurrency](https://www.edx.org/course/paradigms-computer-programming-louvainx-louv1-2x-0) - [⎙]()
+1. [Computer System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2009/) - [⎙]()
+1. [Computer Language Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-035-computer-language-engineering-spring-2010/) - [⎙]()
+1. [Great Ideas in Theoretical Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-080-great-ideas-in-theoretical-computer-science-spring-2008/) - [⎙]()
+1. [Performance Engineering of Software Systems](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2010/) - [⎙]()
+1. [Engineering Innovation and Design](http://ocw.mit.edu/courses/engineering-systems-division/esd-051j-engineering-innovation-and-design-fall-2012/) - [⎙]()
+1. [Principles of Computer System Design: An Introduction](http://ocw.mit.edu/resources/res-6-004-principles-of-computer-system-design-an-introduction-spring-2009/) - [⎙]()
+1. [How to Process, Analyze and Visualize Data](http://ocw.mit.edu/resources/res-6-009-how-to-process-analyze-and-visualize-data-january-iap-2012/) - [⎙]()
+1. [Advanced Data Structures](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/) - [⎙]()
+1. [Advanced Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2008/) - [⎙]()
+1. [Distributed Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-852j-distributed-algorithms-fall-2009/) - [⎙]()
 
 ### Software Testing
 
