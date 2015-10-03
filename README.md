@@ -3,11 +3,9 @@
 
 ## References
 
-- [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
 - [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [Coursera](https://www.coursera.org/)
 - [edX](https://www.edx.org)
-- [How can I prepare myself to be a software engineer?](http://qr.ae/fMbg8)
 
 ## Method
 
@@ -27,8 +25,8 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Software Testing](#software-testing)
 - [Math](#math)
 - [Algorithms](#algorithms)
-
 - [Software Architecture](#software-architecture)
+
 - [Software Engineering](#software-engineering)
 - [Operating Systems](#operating-systems)
 - [Networks](#networks)
@@ -36,6 +34,7 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Databases](#databases)
 - [Cryptography](#cryptography)
 - [Compilers](#compilers)
+
 - [Artificial Intelligence](#artificial-intelligence)
 - [Machine Learning](#machine-learning)
 - [Natural Language Processing](#natural-language-processing)
@@ -43,12 +42,6 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Graphs](#graphs)
 - [Data Mining](#data-mining)
 - [Programming Languages](#programming-languages)
-
-Course|Duration|Files|Status
-:--|:--:|:--:|:--:
-[]()| weeks|[⎙]()| -
-[]()| weeks|[⎙]()| -
-[]()| weeks|[⎙]()| -
 
 ### Introduction
 
@@ -100,6 +93,13 @@ Course|Duration|Files|Status
 [Algorithms, Part I](https://www.coursera.org/course/algs4partI)| 6 weeks|[⎙]()| -
 [Algorithms, Part II](https://www.coursera.org/course/algs4partII)| 6 weeks|[⎙]()| -
 [Analysis of Algorithms](https://www.coursera.org/course/aofa)| 6 weeks|[⎙]()| -
+
+### Software Architecture
+
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Web Application Architectures](https://www.coursera.org/course/webapplications)| 6-9 hours/week|[⎙]()| -
+[Microservice Architectures TODO]()| weeks|[⎙]()| -
 
 ### Operating Systems
 
