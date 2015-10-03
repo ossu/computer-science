@@ -55,9 +55,12 @@ Course|Duration|Files|Status
 
 ### Program Design
 
-1. [Systematic Program Design- Part 1: The Core Method](https://www.edx.org/course/systematic-program-design-part-1-core-ubcx-spd1x-0) - [⎙]()
-1. [Systematic Program Design- Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x) - [⎙]()
-1. [Systematic Program Design- Part 3: Abstraction, Search and Graphs](https://www.edx.org/course/systematic-program-design-part-3-ubcx-spd3x) - [⎙]()
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Systematic Program Design- Part 1: The Core Method](https://www.edx.org/course/systematic-program-design-part-1-core-ubcx-spd1x-0)| 5 weeks|[⎙]()| -
+[Systematic Program Design- Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x)| 5 weeks|[⎙]()| -
+[Systematic Program Design- Part 3: Abstraction, Search and Graphs](https://www.edx.org/course/systematic-program-design-part-3-ubcx-spd3x)| 5 weeks|[⎙]()| -
+
 
 ### Programming Paradigms
 
