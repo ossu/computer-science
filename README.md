@@ -9,7 +9,7 @@
 
 ## Method
 
-Here we'll try to choose a maximum of **3** courses by category. After finished all courses, more categories and/or courses will be added to this list.
+Here we'll **try** to choose a maximum of **3** courses by category. After finished all courses, more categories and/or courses will be added to this list or a more advanced list.
 
 Initially, we will also give preference for MOOC (Massive Open Online Course) type of courses because those courses were created with our style of learning in mind.
 
@@ -26,8 +26,8 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Math](#math)
 - [Algorithms](#algorithms)
 - [Software Architecture](#software-architecture)
-
 - [Software Engineering](#software-engineering)
+
 - [Operating Systems](#operating-systems)
 - [Networks](#networks)
 - [Cloud Computing](#cloud-computing)
@@ -101,6 +101,14 @@ Course|Duration|Files|Status
 [Web Application Architectures](https://www.coursera.org/course/webapplications)| 6-9 hours/week|[⎙]()| -
 [Microservice Architectures TODO]()| weeks|[⎙]()| -
 
+### Software Engineering
+
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Engineering Software as a Service (SaaS), Part 1](https://www.edx.org/course/engineering-software-service-saas-part-1-uc-berkeleyx-cs169-1x)| 9 weeks|[⎙]()| -
+[Engineering Software as a Service (Saas), Part 2](https://www.edx.org/course/engineering-software-service-saas-part-2-uc-berkeleyx-cs169-2x)| 8 weeks|[⎙]()| -
+[Software Product Management Specialization](https://www.coursera.org/specializations/product-management)| 24 weeks|[⎙]()| -
+
 ### Operating Systems
 
 1. [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/) - [⎙]()
@@ -172,3 +180,7 @@ Course|Duration|Files|Status
 1. [User Interface Design and Implementation](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-831-user-interface-design-and-implementation-spring-2011/) - [⎙]()
 1. [Making Sense of Data](https://datasense.withgoogle.com/course) - [⎙]()
 1. [Data Science](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=courseDescripTop) - [⎙]()
+
+## TODO
+
+- [Adding our university page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page)
