@@ -28,14 +28,14 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Algorithms](#algorithms)
 - [Software Architecture](#software-architecture)
 - [Software Engineering](#software-engineering)
-
 - [Operating Systems](#operating-systems)
 - [Networks](#networks)
+
 - [Cloud Computing](#cloud-computing)
 - [Databases](#databases)
 - [Cryptography](#cryptography)
 - [Compilers](#compilers)
-
+- [UX Design](#ux-design)
 - [Artificial Intelligence](#artificial-intelligence)
 - [Machine Learning](#machine-learning)
 - [Natural Language Processing](#natural-language-processing)
@@ -102,7 +102,7 @@ Course|Duration|Files|Status
 Course|Duration|Files|Status
 :--|:--:|:--:|:--:
 [Web Application Architectures](https://www.coursera.org/course/webapplications)| 6-9 hours/week|[⎙]()| -
-[Microservice Architectures TODO]()| weeks|[⎙]()| -
+[Microservice Architectures TODO]()| - |[⎙]()| -
 
 ### Software Engineering
 
@@ -110,7 +110,7 @@ Course|Duration|Files|Status
 :--|:--:|:--:|:--:
 [Engineering Software as a Service (SaaS), Part 1](https://www.edx.org/course/engineering-software-service-saas-part-1-uc-berkeleyx-cs169-1x)| 9 weeks|[⎙]()| -
 [Engineering Software as a Service (Saas), Part 2](https://www.edx.org/course/engineering-software-service-saas-part-2-uc-berkeleyx-cs169-2x)| 8 weeks|[⎙]()| -
-[Software Product Management Specialization](https://www.coursera.org/specializations/product-management)| 24 weeks|[⎙]()| -
+[Software Product Management Specialization](https://www.coursera.org/specializations/product-management)| - |[⎙]()| -
 
 ### Operating Systems
 
@@ -121,9 +121,10 @@ Course|Duration|Files|Status
 
 ### Networks
 
-1. [Networks](http://ocw.mit.edu/courses/economics/14-15j-networks-fall-2009/) - [⎙]()
-1. [Network and Computer Security](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-857-network-and-computer-security-spring-2014/) - [⎙]()
-1. [Network Optimization](http://ocw.mit.edu/courses/sloan-school-of-management/15-082j-network-optimization-fall-2010/) - [⎙]()
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Computer Networks](https://www.coursera.org/course/comnetworks)| 4–12 hours/week |[⎙]()| -
+[Software Defined Networking](https://www.coursera.org/course/sdn1)| 7-10 hours/week |[⎙]()| -
 
 ### Databases
 
