@@ -24,8 +24,8 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Introduction](#introduction)
 - [Program Design](#program-design)
 - [Programming Paradigms](#programming-paradigms)
-
 - [Software Testing](#software-testing)
+
 - [Software Architectures](#software-architecture)
 - [Software Engineering](#software-engineering)
 - [Math](#math)
@@ -38,16 +38,16 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Artificial Intelligence](#artificial-intelligence)
 - [Machine Learning](#machine-learning)
 - [Natural Language Processing](#natural-language-processing)
-- [Robotics](#robotics)
+- [Internet of Things](#internet-of-things)
 - [Graphs](#graphs)
 - [Data Mining](#data-mining)
 - [Programming Languages](#programming-languages)
 
 Course|Duration|Files|Status
 :--|:--:|:--:|:--:
-| weeks|[⎙]()| -
-| weeks|[⎙]()| -
-| weeks|[⎙]()| -
+[]()| weeks|[⎙]()| -
+[]()| weeks|[⎙]()| -
+[]()| weeks|[⎙]()| -
 
 ### Introduction
 
@@ -76,8 +76,10 @@ Course|Duration|Files|Status
 
 ### Software Testing
 
-1. [Software Testing](https://www.udacity.com/course/software-testing--cs258) - [⎙]()
-1. [Software Debugging](https://www.udacity.com/course/software-debugging--cs259) - [⎙]()
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Software Testing](https://www.udacity.com/course/software-testing--cs258)| 4 weeks|[⎙]()| -
+[Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks|[⎙]()| -
 
 ### Math
 
@@ -133,7 +135,7 @@ Course|Duration|Files|Status
 1. [Natural Language Processing](https://www.coursera.org/course/nlangp) - [⎙]()
 1. [Natural Language Processing](https://www.coursera.org/course/nlp) - [⎙]()
 
-### Robotics
+### Internet of Things
 
 ### Graphs
 
