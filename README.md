@@ -25,10 +25,10 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Program Design](#program-design)
 - [Programming Paradigms](#programming-paradigms)
 - [Software Testing](#software-testing)
-
-- [Software Architectures](#software-architecture)
-- [Software Engineering](#software-engineering)
 - [Math](#math)
+
+- [Software Architecture](#software-architecture)
+- [Software Engineering](#software-engineering)
 - [Operating Systems](#operating-systems)
 - [Networks](#networks)
 - [Cloud Computing](#cloud-computing)
@@ -83,17 +83,14 @@ Course|Duration|Files|Status
 
 ### Math
 
-1. [Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/) - [⎙]()
-1. [Introduction to Logic](https://www.coursera.org/course/intrologic) - [⎙]()
-1. [Linear Algebra](http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) - [⎙]()
-1. [Coding the Matrix: Linear Algebra through Computer Science Applications](https://www.coursera.org/course/matrix) - [⎙]()
-1. [Calculus One](https://www.coursera.org/learn/calculus1) - [⎙]()
-1. [Calculus Two](https://www.coursera.org/learn/advanced-calculus) - [⎙]()
-1. [Linear and Discrete Optimization](https://www.coursera.org/course/linearopt) - [⎙]()
-1. [Probabilistic Graphical Models](https://www.coursera.org/course/pgm) - [⎙]()
-1. [Game Theory](https://www.coursera.org/course/gametheory) - [⎙]()
-1. [Statistics One](https://www.coursera.org/course/stats1) - [⎙]()
-1. [AP Statistics](http://stattrek.com/tutorials/ap-statistics-tutorial.aspx) - [⎙]()
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x)| 9 weeks|[⎙]()| -
+[Applications of Linear Algebra Part 1](https://www.edx.org/course/applications-linear-algebra-part-1-davidsonx-d003x-1#ct-read-review-widget)| 5 weeks|[⎙]()| -
+[Applications of Linear Algebra Part 2](https://www.edx.org/course/applications-linear-algebra-part-2-davidsonx-d003x-2)| 4 weeks|[⎙]()| -
+[Linear and Discrete Optimization](https://www.coursera.org/course/linearopt)| 3-6 hours/week |[⎙]()| -
+[Probabilistic Graphical Models](https://www.coursera.org/course/pgm)| 11 weeks|[⎙]()| -
+[Game Theory](https://www.coursera.org/course/gametheory)| 9 weeks|[⎙]()| -
 
 ### Operating Systems
 
