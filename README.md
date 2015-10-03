@@ -23,9 +23,11 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 
 - [Introduction](#introduction)
 - [Program Design](#program-design)
-
 - [Programming Paradigms](#programming-paradigms)
+
 - [Software Testing](#software-testing)
+- [Software Architectures](#software-architecture)
+- [Software Engineering](#software-engineering)
 - [Math](#math)
 - [Operating Systems](#operating-systems)
 - [Networks](#networks)
@@ -44,6 +46,8 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 Course|Duration|Files|Status
 :--|:--:|:--:|:--:
 | weeks|[⎙]()| -
+| weeks|[⎙]()| -
+| weeks|[⎙]()| -
 
 ### Introduction
 
@@ -61,10 +65,14 @@ Course|Duration|Files|Status
 [Systematic Program Design- Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x)| 5 weeks|[⎙]()| -
 [Systematic Program Design- Part 3: Abstraction, Search and Graphs](https://www.edx.org/course/systematic-program-design-part-3-ubcx-spd3x)| 5 weeks|[⎙]()| -
 
-
 ### Programming Paradigms
 
-
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0#ct-read-review-widget)| 7 weeks|[⎙]()| -
+[Principles of Reactive Programming](https://www.coursera.org/course/reactive)| 7 weeks|[⎙]()| -
+[Programming Languages](https://www.coursera.org/course/proglang)| 8-16 hours/week |[⎙]()| -
+[Functional Programming Principles in Scala](https://www.coursera.org/course/progfun)| 7 weeks|[⎙]()| -
 
 ### Software Testing
 
