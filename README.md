@@ -26,6 +26,7 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Programming Paradigms](#programming-paradigms)
 - [Software Testing](#software-testing)
 - [Math](#math)
+- [Algorithms](#algorithms)
 
 - [Software Architecture](#software-architecture)
 - [Software Engineering](#software-engineering)
@@ -91,6 +92,14 @@ Course|Duration|Files|Status
 [Linear and Discrete Optimization](https://www.coursera.org/course/linearopt)| 3-6 hours/week |[⎙]()| -
 [Probabilistic Graphical Models](https://www.coursera.org/course/pgm)| 11 weeks|[⎙]()| -
 [Game Theory](https://www.coursera.org/course/gametheory)| 9 weeks|[⎙]()| -
+
+### Algorithms
+
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Algorithms, Part I](https://www.coursera.org/course/algs4partI)| 6 weeks|[⎙]()| -
+[Algorithms, Part II](https://www.coursera.org/course/algs4partII)| 6 weeks|[⎙]()| -
+[Analysis of Algorithms](https://www.coursera.org/course/aofa)| 6 weeks|[⎙]()| -
 
 ### Operating Systems
 
