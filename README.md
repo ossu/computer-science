@@ -13,6 +13,8 @@
 
 ## About
 
+This is a **solid path** for you that want to graduate in a Computer Science course in your own time, **for free**, studying by courses from the **best universities** of the World. 
+
 Here we will <strike>try to</strike> choose a maximum of **3** courses for each category. Futurely, more categories and/or courses can be added to this list or in a more advanced list.
 
 Initially, we will also give preference for MOOC (Massive Open Online Course) type of courses because those courses were created with our style of learning in mind.
