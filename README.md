@@ -72,13 +72,11 @@ For those reasons we are using that strategy.
 - [Compilers](#compilers)
 - [UX Design](#ux-design)
 - [Artificial Intelligence](#artificial-intelligence)
-
 - [Machine Learning](#machine-learning)
 - [Natural Language Processing](#natural-language-processing)
 - [Internet of Things](#internet-of-things)
-- [Graphs](#graphs)
+- [Big Data](#big-data)
 - [Data Mining](#data-mining)
-- [Programming Languages](#programming-languages)
 
 ---
 
@@ -221,35 +219,22 @@ Course|Duration|Files|Status
 
 ### Internet of Things
 
-### Graphs
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[An Introduction to Programming the Internet of Things Specialization](https://www.coursera.org/specializations/iot)| - |[⎙]()| -
+[Internet of Things Specialization](https://www.coursera.org/specializations/internet-of-things)| - |[⎙]()| -
+
+### Big Data
+
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Big Data Specialization](https://www.coursera.org/specializations/big-data)| - |[⎙]()| -
 
 ### Data Mining
 
-1. [Data Mining](https://www.coursera.org/specialization/datamining/20?utm_medium=catalog) - [⎙]()
-
-### Parallel Programming
-
-1. [Parallel Computing](http://ocw.mit.edu/courses/mathematics/18-337j-parallel-computing-fall-2011/) - [⎙]()
-1. [Heterogeneous Parallel Programming](https://www.coursera.org/course/hetero) - [⎙]()
-
-### Programming Languages
-
-1. [Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/) - [⎙]()
-1. [Introduction to C Memory Management and C++ Object-Oriented Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-088-introduction-to-c-memory-management-and-c-object-oriented-programming-january-iap-2010/) - [⎙]()
-1. [Effective Programming in C and C++](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/) - [⎙]()
-
-### Others
-
-1. [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x#!)
-1. [Engineering Software as a Service](https://www.edx.org/course/engineering-software-service-uc-berkeleyx-cs169-1x)
-1. [Engineering Software as a Service, Part 2](https://www.edx.org/course/engineering-software-service-part-2-uc-berkeleyx-cs169-2x#!)
-1. [Automata, Computability, and Complexity](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/) - [⎙]()
-1. [Computational Biology: Genomes, Networks, Evolution](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-047-computational-biology-genomes-networks-evolution-fall-2008/) - [⎙]()
-1. [Creating Video Games](http://ocw.mit.edu/courses/comparative-media-studies-writing/cms-611j-creating-video-games-fall-2013/) - [⎙]()
-1. [Computer Graphics](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2012/) - [⎙]()
-1. [User Interface Design and Implementation](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-831-user-interface-design-and-implementation-spring-2011/) - [⎙]()
-1. [Making Sense of Data](https://datasense.withgoogle.com/course) - [⎙]()
-1. [Data Science](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=courseDescripTop) - [⎙]()
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Data Mining specialization](https://www.coursera.org/specializations/datamining)| - |[⎙]()| -
 
 ## Next Goals
 
