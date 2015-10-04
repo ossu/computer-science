@@ -25,24 +25,22 @@ Initially, we will also give preference for MOOC (Massive Open Online Course) ty
 
 ## Becoming an OSS student
 
-Your registration for this graduation course will be effectuated after you create your profile in our [students](/students) folder.
+Your registration for this graduation course will be effectuated after you create your profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/28) issue.
 
 > **"How can I do this?"**
 
-Just fork this repository and create a markdown file named with your **GitHub username**. It’s that simple.
+Comment in [that](https://github.com/open-source-society/computer-science-and-engineering/issues/28) issue in order to officially enrolling in our course, and make your public commitment!
 
-Use the model below to create your own file:
+Use the following model to create your profile:
 
 ```
-# Student Profile
-
 - **Name**: YOUR NAME
 - **GitHub**: [@your_username]()
 - **Twitter**: [@your_username]()
 - **Linkedin**: [link]()
 - **Website**: [yourblog.com]()
 
-# Completed Courses
+## Completed Courses
 
 **Name of the Section**
 
@@ -50,6 +48,8 @@ Course|Files
 :--|:--:
 Course Name| [link]()
 ```
+
+**IMPORTANT**: add your profile **once** and **after** you **finish** each course you can **return** here and **update** your comment.
 
 **ps**: In the *Completed Courses* section, you should link your repository that contain the files that you created in the respective course.
 
