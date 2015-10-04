@@ -65,13 +65,13 @@ For those reasons we are using that strategy.
 - [Software Architecture](#software-architecture)
 - [Software Engineering](#software-engineering)
 - [Operating Systems](#operating-systems)
-- [Networks](#networks)
+- [Computer Networks](#computer-networks)
 - [Databases](#databases)
 - [Cloud Computing](#cloud-computing)
 - [Cryptography](#cryptography)
 - [Compilers](#compilers)
-
 - [UX Design](#ux-design)
+
 - [Artificial Intelligence](#artificial-intelligence)
 - [Machine Learning](#machine-learning)
 - [Natural Language Processing](#natural-language-processing)
@@ -155,7 +155,7 @@ Course|Duration|Files|Status
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - |[⎙]()| -
 [Operating Systems and System Programming](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)| - |[⎙]()| -
 
-### Networks
+### Computer Networks
 
 Course|Duration|Files|Status
 :--|:--:|:--:|:--:
@@ -190,6 +190,13 @@ Course|Duration|Files|Status
 Course|Duration|Files|Status
 :--|:--:|:--:|:--:
 [Compilers](https://www.coursera.org/course/compilers)| 11 weeks|[⎙]()| -
+
+### UX Design
+
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Interaction Design Specialization](https://www.coursera.org/specializations/interaction-design)| - |[⎙]()| -
+[UX Design for Mobile Developers](https://www.udacity.com/course/ux-design-for-mobile-developers--ud849)| 6 weeks |[⎙]()| -
 
 ### Artificial Intelligence
 
