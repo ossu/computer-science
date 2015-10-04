@@ -8,6 +8,7 @@
 - [About](#about)
 - [Becoming an OSS student](#becoming-an-oss-student)
 - [Topics](#topics)
+- [How to use this guide](#how-to-use-this-guide)
 - [Next Goals](#next-goals)
 - [References](#references)
 
@@ -231,16 +232,55 @@ Course|Duration
 
 Course|Duration
 :--|:--:
-[Big Data Specialization](https://www.coursera.org/specializations/big-data)| - 
+[Big Data Specialization](https://www.coursera.org/specializations/big-data)| -
 
 ### Data Mining
 
 Course|Duration
 :--|:--:
-[Data Mining specialization](https://www.coursera.org/specializations/datamining)| - 
+[Data Mining specialization](https://www.coursera.org/specializations/datamining)| -
+
+## How to use this guide
+
+### Order of the classes
+
+This guide was developed to be consumed in a linear approach. What this means? That you should do one course at a time.
+
+The courses already **are** in the order that you should consume them. Just start in the **Introduction** section and after finishing the first course, start the next one.
+
+**If the course isn't open, do it anyway with the resources from the previous class.**
+
+### Should I take all courses?
+
+**Yes**! The intention is to conclude **all** the courses listed here!
+
+### Duration of the project
+
+Maybe to finish all the classes we will spend **more time** than with a regular CS course, but I can **guarantee** to you that your **reward** will be proportional to **your motivation/dedication**!
+
+### How can I track my progress?
+
+You should create a repository on GitHub to put all files that you created for each course.
+
+You can create one repository for each course, or just one repository that will contain all files for all courses. The first option is our preferred approach.
+
+### Cooperative work
+
+**We love cooperative work**! But is quite difficult manage a large base of students with specific projects. Use our channels to communicate with other fellows and to combine and create new projects.
+
+### Which programming languages should I use?
+
+My friend here is the awesome part of the liberty! You can use **any** language that you want to complete the courses.
+
+The **important** thing for each course is to **internalize** the **core concepts** and be able to use them with whatever tool (programming language) that you touch.
+
+### Stay tuned
+
+[Watch](https://help.github.com/articles/watching-repositories/) this repository for futures improvements and general information.
 
 ## Next Goals
 
+- Create a slack automatic invitation.
 - [Adding our university page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so in that way we will be able to add **OSS University** in our Linkedin profile.
 
 ## References
