@@ -49,7 +49,6 @@ Course|Files
 Course Name| [link]()
 ```
 
-<<<<<<< HEAD
 **IMPORTANT**: add your profile **once** and **after** you **finish** each course you can **return** here and **update** your comment.
 
 **ps**: In the *Completed Courses* section, you should link the repository that contains the files that you created in the respective course.
