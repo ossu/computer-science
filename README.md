@@ -142,6 +142,7 @@ Course|Duration
 Course|Duration
 :--|:--:
 [Web Application Architectures](https://www.coursera.org/course/webapplications)| 6-9 hours/week
+[Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| -
 [Microservice Architectures TODO]()| -
 
 ### Software Engineering
