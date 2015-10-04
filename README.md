@@ -303,9 +303,11 @@ Let's do it together! =)
 
 ## Community
 
-Join us in our [group]()!
+Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
 
->
+You can also interact through [GitHub issues](https://github.com/open-source-society/computer-science-and-engineering/issues).
+
+> **ps**: A forum is an ideal way to interact with other students because in that way we do not lose important discussions, as occur usually in communication via chat apps.
 
 ## Next Goals
 
