@@ -9,6 +9,7 @@
 - [Becoming an OSS student](#becoming-an-oss-student)
 - [Topics](#topics)
 - [How to use this guide](#how-to-use-this-guide)
+- [Prerequisite](#prerequisite)
 - [Next Goals](#next-goals)
 - [References](#references)
 
@@ -277,6 +278,18 @@ The **important** thing for each course is to **internalize** the **core concept
 ### Stay tuned
 
 [Watch](https://help.github.com/articles/watching-repositories/) this repository for futures improvements and general information.
+
+## Prerequisite
+
+The **only thing** that you need to know is how to use **Git** and **GitHub**. Here are some resources to learn about them:
+
+- [Try Git](https://try.github.io/levels/1/challenges/1)
+- [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
+- [GitHub Hello World](https://guides.github.com/activities/hello-world/)
+- [Git Immersion](http://gitimmersion.com/index.html)
+- [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+
+**ps**: You don't need to do all that courses. Just pick one of them, learn the minimal because the other things you will learn on the fly!
 
 ## Next Goals
 
