@@ -23,7 +23,7 @@ Initially, we will also give preference for MOOC (Massive Open Online Course) ty
 
 Your registration for this graduation course will be effectuated after you create your profile in our [students](/students) folder.
 
-> "How can I do it?"
+> "How can I do this?"
 
 Just fork this repository and create a markdown file named with your **GitHub username**. It’s that simple.
 
@@ -37,20 +37,20 @@ Use the model below to create your own file:
 **Twitter**: [@your_username]()
 **Linkedin**: [link]()
 
-# Completed courses
+# Completed Courses
 
-**Name of the section**
+**Name of the Section**
 
 Course||Files
 :--|:--:
-Course name| [link]()
+Course Name| [link]()
 ```
 
 > "Why should I do this?"
 
-Making a [public commitment](http://renewablewealth.com/articles/the-power-of-a-public-commitment/), we have much more chances to succeed in our graduation, know better our fellows and share the things that we have done.
+Making a [public commitment](http://renewablewealth.com/articles/the-power-of-a-public-commitment/), we have much more chances to **succeed** in our graduation, know better our fellows and share the things that we have done.
 
-For those reasons we are using that strategy
+For those reasons we are using that strategy.
 
 ---
 
@@ -181,12 +181,9 @@ Course|Duration|Files|Status
 
 Course|Duration|Files|Status
 :--|:--:|:--:|:--:
-[]()| weeks|[⎙]()| -
-[]()| weeks|[⎙]()| -
-[]()| weeks|[⎙]()| -
-
-1. [Cryptography I](https://www.coursera.org/course/crypto) - [⎙]()
-1. [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387) - [⎙]()
+[Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks|[⎙]()| -
+[Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks|[⎙]()| -
+[Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks|[⎙]()| -
 
 ### Compilers
 
