@@ -47,6 +47,8 @@ Course|Files
 Course Name| [link]()
 ```
 
+**ps**: In the *Completed Courses* section, you should link your repository that contain the files that you created in the respective course.
+
 > **"Why should I do this?"**
 
 Making a [public commitment](http://renewablewealth.com/articles/the-power-of-a-public-commitment/), we have much more chances to **succeed** in our graduation, know better our fellows and share the things that we have done.
