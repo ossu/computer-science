@@ -289,7 +289,7 @@ The **only thing** that you need to know is how to use **Git** and **GitHub**. H
 - [Git Immersion](http://gitimmersion.com/index.html)
 - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 
-**ps**: You don't need to do all that courses. Just pick one of them, learn the minimal because the other things you will learn on the fly!
+**ps**: You don't need to do all that courses. Just pick one of them, learn the minimal because the other things you will learn on the go!
 
 ## Next Goals
 
