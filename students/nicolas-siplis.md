@@ -10,4 +10,3 @@
 
 Course|Files
 :--|:--:
-Course Name| [link]()
