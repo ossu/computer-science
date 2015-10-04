@@ -10,6 +10,7 @@
 - [Topics](#topics)
 - [How to use this guide](#how-to-use-this-guide)
 - [Prerequisite](#prerequisite)
+- [How to collaborate](#how-to-collaborate)
 - [Next Goals](#next-goals)
 - [References](#references)
 
@@ -290,6 +291,14 @@ The **only thing** that you need to know is how to use **Git** and **GitHub**. H
 - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 
 **ps**: You don't need to do all that courses. Just pick one of them, learn the minimal because the other things you will learn on the go!
+
+## How to collaborate
+
+You can [open an issue](https://help.github.com/articles/creating-an-issue/) and give your suggestion to how we could improve this guide, or what we can do to improve the learning experience.
+
+You can also fork this project and fix any mistakes that you have found.
+
+Let's do it together! =)
 
 ## Next Goals
 
