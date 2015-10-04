@@ -71,8 +71,8 @@ For those reasons we are using that strategy.
 - [Cryptography](#cryptography)
 - [Compilers](#compilers)
 - [UX Design](#ux-design)
-
 - [Artificial Intelligence](#artificial-intelligence)
+
 - [Machine Learning](#machine-learning)
 - [Natural Language Processing](#natural-language-processing)
 - [Internet of Things](#internet-of-things)
@@ -200,13 +200,17 @@ Course|Duration|Files|Status
 
 ### Artificial Intelligence
 
-1. [Artificial Intelligence](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/) - [⎙]()
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Artificial Intelligence](https://www.edx.org/course/artificial-intelligence-uc-berkeleyx-cs188-1x#!)| 12 weeks|[⎙]()| -
 
 ### Machine Learning
 
-1. [Practical Machine Learning](https://www.coursera.org/course/predmachlearn) - [⎙]()
-1. [Machine Learning](https://www.coursera.org/learn/machine-learning) - [⎙]()
-1. [Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets) - [⎙]()
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Practical Machine Learning](https://www.coursera.org/course/predmachlearn)| 4 weeks|[⎙]()| -
+[Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks|[⎙]()| -
+[Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets)| 8 weeks|[⎙]()| -
 
 ### Natural Language Processing
 
