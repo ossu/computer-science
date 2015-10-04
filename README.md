@@ -23,7 +23,7 @@ Initially, we will also give preference for MOOC (Massive Open Online Course) ty
 
 Your registration for this graduation course will be effectuated after you create your profile in our [students](/students) folder.
 
-> "How can I do this?"
+> **"How can I do this?"**
 
 Just fork this repository and create a markdown file named with your **GitHub username**. It’s that simple.
 
@@ -46,7 +46,7 @@ Course||Files
 Course Name| [link]()
 ```
 
-> "Why should I do this?"
+> **"Why should I do this?"**
 
 Making a [public commitment](http://renewablewealth.com/articles/the-power-of-a-public-commitment/), we have much more chances to **succeed** in our graduation, know better our fellows and share the things that we have done.
 
