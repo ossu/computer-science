@@ -32,13 +32,11 @@ Use the model below to create your own file:
 ```
 # Student Profile
 
-**Name**: YOUR NAME
-
-**GitHub**: [@your_username]()
-
-**Twitter**: [@your_username]()
-
-**Linkedin**: [link]()
+- **Name**: YOUR NAME
+- **GitHub**: [@your_username]()
+- **Twitter**: [@your_username]()
+- **Linkedin**: [link]()
+- **Website**: [yourblog.com]()
 
 # Completed Courses
 
