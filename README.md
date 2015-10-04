@@ -1,7 +1,7 @@
 
 ![open source society university](http://i.imgur.com/h8xjrrj.png)
 
-:mortar_board: **Path to a self-taught graduation in Computer Science!**
+:mortar_board: **Path to a free self-taught graduation in Computer Science!**
 
 ## Contents
 
