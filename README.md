@@ -69,8 +69,8 @@ For those reasons we are using that strategy.
 - [Databases](#databases)
 - [Cloud Computing](#cloud-computing)
 - [Cryptography](#cryptography)
-
 - [Compilers](#compilers)
+
 - [UX Design](#ux-design)
 - [Artificial Intelligence](#artificial-intelligence)
 - [Machine Learning](#machine-learning)
@@ -187,7 +187,9 @@ Course|Duration|Files|Status
 
 ### Compilers
 
-1. [Compilers](https://www.coursera.org/course/compilers) - [⎙]()
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Compilers](https://www.coursera.org/course/compilers)| 11 weeks|[⎙]()| -
 
 ### Artificial Intelligence
 
