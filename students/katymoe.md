@@ -8,4 +8,5 @@
 
 # Completed Courses
 
+MMathPhil Mathematics and Philosophy (Oxford University)
 [Cryptography I](https://www.coursera.org/course/crypto)
