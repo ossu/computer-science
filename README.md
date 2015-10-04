@@ -17,11 +17,11 @@
 
 ## About
 
-This is a **solid path** for you that want to graduate in a Computer Science course in your own time, **for free**, with courses from the **best universities** of the World.
+This is a **solid path** for those of you who want to complete a Computer Science course on your own time, **for free**, with courses from the **best universities** in the World.
 
-Futurely, more categories and/or courses will be added to this list or in a more advanced/specialized list.
+In the future, more categories and/or courses will be added to this list or a more advanced/specialized list.
 
-Initially, we will also give preference for MOOC (Massive Open Online Course) type of courses because those courses were created with our style of learning in mind.
+Initially, we will also give preference to MOOC (Massive Open Online Course) type of courses because those courses were created with our style of learning in mind.
 
 ## Becoming an OSS student
 
@@ -49,15 +49,16 @@ Course|Files
 Course Name| [link]()
 ```
 
+<<<<<<< HEAD
 **IMPORTANT**: add your profile **once** and **after** you **finish** each course you can **return** here and **update** your comment.
 
-**ps**: In the *Completed Courses* section, you should link your repository that contain the files that you created in the respective course.
+**ps**: In the *Completed Courses* section, you should link the repository that contains the files that you created in the respective course.
 
 > **"Why should I do this?"**
 
-Making a [public commitment](http://renewablewealth.com/articles/the-power-of-a-public-commitment/), we have much more chances to **succeed** in our graduation, know better our fellows and share the things that we have done.
+By making a [public commitment](http://renewablewealth.com/articles/the-power-of-a-public-commitment/), we have much more chances to **succeed** in our graduation, know better our fellows and share the things that we have done.
 
-For those reasons we are using that strategy.
+For those reasons we are using this strategy.
 
 ---
 
@@ -240,9 +241,9 @@ Course|Duration
 
 ### Order of the classes
 
-This guide was developed to be consumed in a linear approach. What this means? That you should do one course at a time.
+This guide was developed to be consumed in a linear approach. What does this mean? That you should complete one course at a time.
 
-The courses already **are** in the order that you should consume them. Just start in the **Introduction** section and after finishing the first course, start the next one.
+The courses are **already** in the order that you should complete them. Just start in the **Introduction** section and after finishing the first course, start the next one.
 
 **If the course isn't open, do it anyway with the resources from the previous class.**
 
@@ -252,23 +253,23 @@ The courses already **are** in the order that you should consume them. Just star
 
 ### Duration of the project
 
-Maybe to finish all the classes we will spend **more time** than with a regular CS course, but I can **guarantee** to you that your **reward** will be proportional to **your motivation/dedication**!
+It may take longer to complete all of the classes compared to a  regular CS course, but I can **guarantee** you that your **reward** will be proportional to **your motivation/dedication**!
 
 ### How can I track my progress?
 
-You should create a repository on GitHub to put all files that you created for each course.
+You should create a repository on GitHub to put all of the files that you created for each course.
 
-You can create one repository for each course, or just one repository that will contain all files for all courses. The first option is our preferred approach.
+You can create one repository per course, or just one repository that will contain all of the files for each course. The first option is our preferred approach.
 
 ### Cooperative work
 
-**We love cooperative work**! But is quite difficult manage a large base of students with specific projects. Use our channels to communicate with other fellows and to combine and create new projects.
+**We love cooperative work**! But is quite difficult to manage a large base of students with specific projects. Use our channels to communicate with other fellows to combine and create new projects.
 
 ### Which programming languages should I use?
 
-My friend here is the awesome part of the liberty! You can use **any** language that you want to complete the courses.
+My friend, here is the best part of liberty! You can use **any** language that you want to complete the courses.
 
-The **important** thing for each course is to **internalize** the **core concepts** and be able to use them with whatever tool (programming language) that you touch.
+The **important** thing for each course is to **internalize** the **core concepts** and to be able to use them with whatever tool (programming language) that you wish.
 
 ### Stay tuned
 
@@ -276,7 +277,7 @@ The **important** thing for each course is to **internalize** the **core concept
 
 ## Prerequisite
 
-The **only thing** that you need to know is how to use **Git** and **GitHub**. Here are some resources to learn about them:
+The **only things** that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
 
 - [Try Git](https://try.github.io/levels/1/challenges/1)
 - [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
@@ -284,11 +285,11 @@ The **only thing** that you need to know is how to use **Git** and **GitHub**. H
 - [Git Immersion](http://gitimmersion.com/index.html)
 - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 
-**ps**: You don't need to do all that courses. Just pick one of them, learn the minimal because the other things you will learn on the go!
+**ps**: You don't need to do all of the courses. Just pick one and learn the basics because you will learn more on the go!
 
 ## How to collaborate
 
-You can [open an issue](https://help.github.com/articles/creating-an-issue/) and give your suggestion to how we could improve this guide, or what we can do to improve the learning experience.
+You can [open an issue](https://help.github.com/articles/creating-an-issue/) and give us your suggestions as to how we can improve this guide, or what we can do to improve the learning experience.
 
 You can also fork this project and fix any mistakes that you have found.
 
@@ -300,11 +301,11 @@ Join us in our [group](https://groups.google.com/forum/#!forum/open-source-socie
 
 You can also interact through [GitHub issues](https://github.com/open-source-society/computer-science-and-engineering/issues).
 
-> **ps**: A forum is an ideal way to interact with other students because in that way we do not lose important discussions, as occur usually in communication via chat apps.
+> **ps**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps.
 
 ## Next Goals
 
-- [Adding our university page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so in that way we will be able to add **OSS University** in our Linkedin profile.
+- [Adding our university page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so that way we will be able to add **OSS University** in our Linkedin profile.
 
 ## References
 
