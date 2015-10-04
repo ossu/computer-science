@@ -214,8 +214,10 @@ Course|Duration|Files|Status
 
 ### Natural Language Processing
 
-1. [Natural Language Processing](https://www.coursera.org/course/nlangp) - [⎙]()
-1. [Natural Language Processing](https://www.coursera.org/course/nlp) - [⎙]()
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[Natural Language Processing](https://www.coursera.org/course/nlangp)| 10 weeks|[⎙]()| -
+[Natural Language Processing](https://www.coursera.org/course/nlp)| 10 weeks|[⎙]()| -
 
 ### Internet of Things
 
