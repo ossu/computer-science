@@ -1,8 +1,8 @@
 # Student Profile
 
 - **Name**: Brendan Peillach
-- **GitHub**: [@Peillach]()
-- **Twitter**: [@BrendanPeillach]()
+- **GitHub**: [@Peillach](https://github.com/Peillach)
+- **Twitter**: [@BrendanPeillach](https://twitter.com/Peillach)
 - **Linkedin**: []()
 - **Website**: []()
 
