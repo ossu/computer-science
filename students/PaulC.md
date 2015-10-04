@@ -1,9 +1,9 @@
 # Student Profile
 
 - **Name**: Paul C.
-- **GitHub**: (https://github.com/Isbj0rn)
+- **GitHub**: [Isbj0rn](https://github.com/Isbj0rn)
 - **Twitter**: NULL
-- **Linkedin**: [NULL](https://linkedin.com)
+- **Linkedin**: NULL
 - **Website**: NULL
 
 # Completed Courses
