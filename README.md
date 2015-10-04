@@ -25,11 +25,11 @@ Initially, we will also give preference to MOOC (Massive Open Online Course) typ
 
 ## Becoming an OSS student
 
-Your registration for this graduation course will be effectuated after you create your profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/28) issue.
+Your registration for this graduation course will be effectuated after you create your profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue.
 
 > **"How can I do this?"**
 
-Comment in [that](https://github.com/open-source-society/computer-science-and-engineering/issues/28) issue in order to officially enrolling in our course, and make your public commitment!
+Comment in [that](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue in order to officially enrolling in our course, and make your public commitment!
 
 Use the following model to create your profile:
 
