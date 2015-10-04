@@ -13,7 +13,7 @@
 
 ## About
 
-This is a **solid path** for you that want to graduate in a Computer Science course in your own time, **for free**, studying by courses from the **best universities** of the World. 
+This is a **solid path** for you that want to graduate in a Computer Science course in your own time, **for free**, with courses from the **best universities** of the World.
 
 Here we will <strike>try to</strike> choose a maximum of **3** courses for each category. Futurely, more categories and/or courses can be added to this list or in a more advanced list.
 
@@ -29,7 +29,7 @@ Just fork this repository and create a markdown file named with your **GitHub us
 
 Use the model below to create your own file:
 
-```your-username.md
+```
 # Student Profile
 
 **Name**: YOUR NAME
@@ -45,6 +45,12 @@ Course||Files
 :--|:--:
 Course name| [link]()
 ```
+
+> "Why should I do this?"
+
+Making a [public commitment](http://renewablewealth.com/articles/the-power-of-a-public-commitment/), we have much more chances to succeed in our graduation, know better our fellows and share the things that we have done.
+
+For those reasons we are using that strategy
 
 ---
 
@@ -235,7 +241,7 @@ Course|Duration|Files|Status
 
 ## Next Goals
 
-- [Adding our university page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so in that way we will be able to add OSS University in our Linkedin profile.
+- [Adding our university page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so in that way we will be able to add **OSS University** in our Linkedin profile.
 
 ## References
 
