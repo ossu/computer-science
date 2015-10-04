@@ -1,2 +1,0 @@
-exports.me = 'helloWorld.js';
-

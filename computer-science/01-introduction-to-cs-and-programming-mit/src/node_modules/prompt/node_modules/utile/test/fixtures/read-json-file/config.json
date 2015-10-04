@@ -1,9 +1,0 @@
-{
-  "hello": "World",
-  "I am": ["the utile module"],
-  "thisMakesMe": {
-    "really": 1337,
-    "right?": true
-  }
-}
-
