@@ -11,6 +11,7 @@
 - [How to use this guide](#how-to-use-this-guide)
 - [Prerequisite](#prerequisite)
 - [How to collaborate](#how-to-collaborate)
+- [Community](#community)
 - [Next Goals](#next-goals)
 - [References](#references)
 
@@ -163,8 +164,8 @@ Course|Duration
 
 Course|Duration
 :--|:--:
-[Computer Networks](https://www.coursera.org/course/comnetworks)| 4–12 hours/we
-[Software Defined Networking](https://www.coursera.org/course/sdn1)| 7-10 hours/we
+[Computer Networks](https://www.coursera.org/course/comnetworks)| 4–12 hours/week
+[Software Defined Networking](https://www.coursera.org/course/sdn1)| 7-10 hours/week
 
 ### Databases
 
@@ -300,9 +301,14 @@ You can also fork this project and fix any mistakes that you have found.
 
 Let's do it together! =)
 
+## Community
+
+Join us in our [group]()!
+
+>
+
 ## Next Goals
 
-- Create a slack automatic invitation.
 - [Adding our university page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so in that way we will be able to add **OSS University** in our Linkedin profile.
 
 ## References
