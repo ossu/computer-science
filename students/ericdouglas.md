@@ -7,9 +7,3 @@
 - **Website**: [ericdouglas.github.io](http://ericdouglas.github.io/)
 
 # Completed Courses
-
-**Introduction**
-
-Course|Files
-:--|:--:
-Introduction to Computer Science| [link]()
