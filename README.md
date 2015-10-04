@@ -1,22 +1,50 @@
 
 ![open source society university](http://i.imgur.com/h8xjrrj.png)
 
-## References
+:mortar_board: **Path to a self-taught graduation in Computer Science!**
 
-- [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [Coursera](https://www.coursera.org/)
-- [edX](https://www.edx.org)
-- [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
+## Contents
 
-## Method
+- [About](#about)
+- [Becoming an OSS student](#becoming-an-oss-student)
+- [Topics](#topics)
+- [Next Goals](#next-goals)
+- [References](#references)
 
-Here we'll **try** to choose a maximum of **3** courses by category. After finished all courses, more categories and/or courses will be added to this list or a more advanced list.
+## About
+
+Here we will <strike>try to</strike> choose a maximum of **3** courses for each category. Futurely, more categories and/or courses can be added to this list or in a more advanced list.
 
 Initially, we will also give preference for MOOC (Massive Open Online Course) type of courses because those courses were created with our style of learning in mind.
 
-## Tips
+## Becoming an OSS student
 
-If you want to follow this path, [here](https://github.com/ericdouglas/computer-science-and-engineering/issues/1) are some tips! Share your tips with us too!
+Your registration for this graduation course will be effectuated after you create your profile in our [students](/students) folder.
+
+> "How can I do it?"
+
+Just fork this repository and create a markdown file named with your **GitHub username**. It’s that simple.
+
+Use the model below to create your own file:
+
+```your-username.md
+# Student Profile
+
+**Name**: YOUR NAME
+**GitHub**: [@your_username]()
+**Twitter**: [@your_username]()
+**Linkedin**: [link]()
+
+# Completed courses
+
+**Name of the section**
+
+Course||Files
+:--|:--:
+Course name| [link]()
+```
+
+---
 
 ## Topics
 
@@ -32,8 +60,8 @@ If you want to follow this path, [here](https://github.com/ericdouglas/computer-
 - [Networks](#networks)
 - [Databases](#databases)
 - [Cloud Computing](#cloud-computing)
-
 - [Cryptography](#cryptography)
+
 - [Compilers](#compilers)
 - [UX Design](#ux-design)
 - [Artificial Intelligence](#artificial-intelligence)
@@ -143,6 +171,12 @@ Course|Duration|Files|Status
 
 ### Cryptography
 
+Course|Duration|Files|Status
+:--|:--:|:--:|:--:
+[]()| weeks|[⎙]()| -
+[]()| weeks|[⎙]()| -
+[]()| weeks|[⎙]()| -
+
 1. [Cryptography I](https://www.coursera.org/course/crypto) - [⎙]()
 1. [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387) - [⎙]()
 
@@ -197,6 +231,13 @@ Course|Duration|Files|Status
 1. [Making Sense of Data](https://datasense.withgoogle.com/course) - [⎙]()
 1. [Data Science](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=courseDescripTop) - [⎙]()
 
-## TODO
+## Next Goals
 
-- [Adding our university page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page)
+- [Adding our university page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so in that way we will be able to add OSS University in our Linkedin profile.
+
+## References
+
+- [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [Coursera](https://www.coursera.org/)
+- [edX](https://www.edx.org)
+- [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
