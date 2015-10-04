@@ -81,7 +81,6 @@ For those reasons we are using that strategy.
 - [Artificial Intelligence](#artificial-intelligence)
 - [Machine Learning](#machine-learning)
 - [Natural Language Processing](#natural-language-processing)
-- [Internet of Things](#internet-of-things)
 - [Big Data](#big-data)
 - [Data Mining](#data-mining)
 
@@ -223,13 +222,6 @@ Course|Duration
 :--|:--:
 [Natural Language Processing](https://www.coursera.org/course/nlangp)| 10 weeks
 [Natural Language Processing](https://www.coursera.org/course/nlp)| 10 weeks
-
-### Internet of Things
-
-Course|Duration
-:--|:--:
-[An Introduction to Programming the Internet of Things Specialization](https://www.coursera.org/specializations/iot)| -
-[Internet of Things Specialization](https://www.coursera.org/specializations/internet-of-things)| -
 
 ### Big Data
 
