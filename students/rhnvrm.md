@@ -1,10 +1,10 @@
 # Student Profile
 
 - **Name**: Rohan Verma
-- **GitHub**: [https://github.com/rhnvrm](rhnvrm)
-- **Twitter**: [https://twitter.com/rhnvrm](rhnvrm)
-- **Linkedin**: [https://in.linkedin.com/in/rhnvrm](rhnvrm)
-- **Website**: [http://rohanverma.net](rohanverma.net)
+- **GitHub**: [@rhnvrm](https://github.com/rhnvrm)
+- **Twitter**: [@rhnvrm](https://twitter.com/rhnvrm)
+- **Linkedin**: [rhnvrm](https://in.linkedin.com/in/rhnvrm)
+- **Website**: [rohanverma.net](http://rohanverma.net)
 
 # Completed Courses
 
@@ -12,4 +12,4 @@
 
 Course|Files
 :--|:--:
-Course Name| [link]()
+Algorithms: Design and Analysis, Part 1 Coursera| [link](https://github.com/rhnvrm/algo)
