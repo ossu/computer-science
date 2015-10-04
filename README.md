@@ -33,15 +33,18 @@ Use the model below to create your own file:
 # Student Profile
 
 **Name**: YOUR NAME
+
 **GitHub**: [@your_username]()
+
 **Twitter**: [@your_username]()
+
 **Linkedin**: [link]()
 
 # Completed Courses
 
 **Name of the Section**
 
-Course||Files
+Course|Files
 :--|:--:
 Course Name| [link]()
 ```
