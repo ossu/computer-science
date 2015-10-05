@@ -312,7 +312,9 @@ Join us in our [group](https://groups.google.com/forum/#!forum/open-source-socie
 
 You can also interact through [GitHub issues](https://github.com/open-source-society/computer-science-and-engineering/issues).
 
-> **ps**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps.
+We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science-and-engineering](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science-and-engineering?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+> **ps**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps. **Please use our forum for important discussions**.
 
 ## Next Goals
 
