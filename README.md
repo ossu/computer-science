@@ -25,13 +25,11 @@ Initially, we will also give preference to MOOC (Massive Open Online Course) typ
 
 ## Becoming an OSS student
 
-Your registration for this graduation course will be effectuated after you create your profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue.
+To officially register for this course you must create a profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue.
 
 > **"How can I do this?"**
 
-Comment in [that](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue in order to officially enrolling in our course, and make your public commitment!
-
-Use the following model to create your profile:
+Comment in [this](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue using the following template:
 
 ```
 - **Name**: YOUR NAME
@@ -49,15 +47,15 @@ Course|Files
 Course Name| [link]()
 ```
 
-**IMPORTANT**: add your profile **once** and **after** you **finish** each course you can **return** in that issue and **update** your comment.
+**IMPORTANT**: add your profile **only once** and **after** you **finish** each course you can **return** to that issue and **update** your comment.
 
 **ps**: In the *Completed Courses* section, you should link the repository that contains the files that you created in the respective course.
 
 > **"Why should I do this?"**
 
-By making a [public commitment](http://renewablewealth.com/articles/the-power-of-a-public-commitment/), we have much more chances to **succeed** in our graduation, know better our fellows and share the things that we have done.
+By making a [public commitment](http://renewablewealth.com/articles/the-power-of-a-public-commitment/), we have a greater chance of **successfully** graduating, a way to get to know our peers better, and an opportunity to share the things that we have done.
 
-For those reasons we are using this strategy.
+That is why we are using this strategy.
 
 ---
 
