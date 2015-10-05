@@ -29,7 +29,7 @@ Your registration for this graduation course will be effectuated after you creat
 
 > **"How can I do this?"**
 
-Comment in [that](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue in order to officially enrolling in our course, and make your public commitment!
+Comment in [this](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue in order to officially enrol in our course, and make your public commitment!
 
 Use the following model to create your profile:
 
