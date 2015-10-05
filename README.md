@@ -173,7 +173,7 @@ Course|Duration
 :--|:--:
 [Introduction to Databases](https://www.coursera.org/course/db)| -
 [Database Design](https://www.udemy.com/database-design/#reviews)| 9 hours
-[Database Management Essentials](https://www.coursera.org/learn/database-management)| weeks
+[Database Management Essentials](https://www.coursera.org/learn/database-management)| 8 weeks
 
 ### Cloud Computing
 
