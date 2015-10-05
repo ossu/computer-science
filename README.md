@@ -7,7 +7,7 @@
 
 - [About](#about)
 - [Becoming an OSS student](#becoming-an-oss-student)
-- [Topics](#topics)
+- [Curriculum](#curriculum)
 - [How to use this guide](#how-to-use-this-guide)
 - [Prerequisite](#prerequisite)
 - [How to collaborate](#how-to-collaborate)
@@ -59,7 +59,7 @@ That is why we are using this strategy.
 
 ---
 
-## Topics
+## Curriculum
 
 - [Introduction](#introduction)
 - [Program Design](#program-design)
