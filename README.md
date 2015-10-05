@@ -5,6 +5,8 @@
 
 ## Contents
 
+[![Join the chat at https://gitter.im/open-source-society/computer-science-and-engineering](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science-and-engineering?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 - [About](#about)
 - [Becoming an OSS student](#becoming-an-oss-student)
 - [Topics](#topics)
