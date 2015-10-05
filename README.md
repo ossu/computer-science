@@ -29,7 +29,7 @@ To officially register for this course you must create a profile in our [student
 
 > **"How can I do this?"**
 
-Comment in [this](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue using the following template:
+Comment in [this](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue  (please, do **not** open a new one) using the following template:
 
 ```
 - **Name**: YOUR NAME
