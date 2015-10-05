@@ -270,6 +270,20 @@ My friend, here is the best part of liberty! You can use **any** language that y
 
 The **important** thing for each course is to **internalize** the **core concepts** and to be able to use them with whatever tool (programming language) that you wish.
 
+### Be creative!
+
+This is a **crucial** part of your journey through all those courses.
+
+You **need** to have in mind that what you are able to **create** with the concepts that you learned will be your certificate. **And this is what really matters**!
+
+In order to show that you **really** learned those things, you need to be **creative**!
+
+Here are some tips about how you can do that:
+
+- **Articles**: create blog posts to synthesize/summarize what you learned.
+- **GitHub repository**: keep your course's files organized in a GH repository, so in that way other students can use it to study with your annotations.
+- **Real projects**: you can try to develop at least **one real project** for each course that you enroll. It doesn't need to be a big project, just a **small one** to **validate** and **consolidate** your knowledge. Some project suggestions [here](https://github.com/karan/Projects) and [here](https://github.com/ericdouglas/app-specs).
+
 ### Stay tuned
 
 [Watch](https://help.github.com/articles/watching-repositories/) this repository for futures improvements and general information.
