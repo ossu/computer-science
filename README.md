@@ -263,7 +263,7 @@ You can create one repository per course, or just one repository that will conta
 
 **ps**: You should share **only** files that you are **allowed** to! **Do NOT disrespect the code of conduct** that you signed in the beginning of some courses.
 
-[Be creative](/be-creative) in order to show your progress! :smile:
+[Be creative](#be-creative) in order to show your progress! :smile:
 
 ### Cooperative work
 
