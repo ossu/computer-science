@@ -63,10 +63,10 @@ That is why we are using this strategy.
 
 - [Introduction](#introduction)
 - [Program Design](#program-design)
+- [Algorithms](#algorithms)
 - [Programming Paradigms](#programming-paradigms)
 - [Software Testing](#software-testing)
 - [Math](#math)
-- [Algorithms](#algorithms)
 - [Software Architecture](#software-architecture)
 - [Software Engineering](#software-engineering)
 - [Operating Systems](#operating-systems)
@@ -100,6 +100,14 @@ Course|Duration
 [Systematic Program Design- Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x)| 5 weeks
 [Systematic Program Design- Part 3: Abstraction, Search and Graphs](https://www.edx.org/course/systematic-program-design-part-3-ubcx-spd3x)| 5 weeks
 
+### Algorithms
+
+Course|Duration
+:--|:--:
+[Algorithms, Part I](https://www.coursera.org/course/algs4partI)| 6 weeks
+[Algorithms, Part II](https://www.coursera.org/course/algs4partII)| 6 weeks
+[Analysis of Algorithms](https://www.coursera.org/course/aofa)| 6 weeks
+
 ### Programming Paradigms
 
 Course|Duration
@@ -127,14 +135,6 @@ Course|Duration
 [Linear and Discrete Optimization](https://www.coursera.org/course/linearopt)| 3-6 hours/week
 [Probabilistic Graphical Models](https://www.coursera.org/course/pgm)| 11 weeks
 [Game Theory](https://www.coursera.org/course/gametheory)| 9 weeks
-
-### Algorithms
-
-Course|Duration
-:--|:--:
-[Algorithms, Part I](https://www.coursera.org/course/algs4partI)| 6 weeks
-[Algorithms, Part II](https://www.coursera.org/course/algs4partII)| 6 weeks
-[Analysis of Algorithms](https://www.coursera.org/course/aofa)| 6 weeks
 
 ### Software Architecture
 
