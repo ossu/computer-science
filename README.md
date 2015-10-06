@@ -105,6 +105,7 @@ Course|Duration
 Course|Duration
 :--|:--:
 [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0#ct-read-review-widget)| 7 weeks
+[Object Oriented Programming in Java](https://www.coursera.org/learn/object-oriented-java) | 6 weeks
 [Principles of Reactive Programming](https://www.coursera.org/course/reactive)| 7 weeks
 [Programming Languages](https://www.coursera.org/course/proglang)| 8-16 hours/week
 [Functional Programming Principles in Scala](https://www.coursera.org/course/progfun)| 7 weeks
