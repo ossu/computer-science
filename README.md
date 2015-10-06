@@ -253,11 +253,17 @@ The courses are **already** in the order that you should complete them. Just sta
 
 It may take longer to complete all of the classes compared to a  regular CS course, but I can **guarantee** you that your **reward** will be proportional to **your motivation/dedication**!
 
-### How can I track my progress?
+### How can I track/show my progress?
 
-You should create a repository on GitHub to put all of the files that you created for each course.
+To **track** your progress, you should update the profile that you created [here](https://github.com/open-source-society/computer-science/issues/31), adding the courses that you began or ended.
+
+To **show** your progress, you should create a repository on GitHub to put all of the files that you created for each course.
 
 You can create one repository per course, or just one repository that will contain all of the files for each course. The first option is our preferred approach.
+
+**ps**: You should share **only** files that you are **allowed** to! **Do NOT disrespect the code of conduct** that you signed in the beginning of some courses.
+
+[Be creative](/be-creative) in order to show your progress! :smile:
 
 ### Cooperative work
 
