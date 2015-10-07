@@ -27,11 +27,11 @@ Initially, we will also give preference to MOOC (Massive Open Online Course) typ
 
 ## Becoming an OSS student
 
-To officially register for this course you must create a profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue.
+To officially register for this course you must create a profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/109) issue.
 
 > **"How can I do this?"**
 
-Comment in [this](https://github.com/open-source-society/computer-science-and-engineering/issues/31) issue  (please, do **not** open a new one) using the following template:
+Comment in [this](https://github.com/open-source-society/computer-science-and-engineering/issues/109) issue  (please, do **not** open a new one) using the following template:
 
 ```
 - **Name**: YOUR NAME
@@ -268,7 +268,7 @@ You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 
 
 ### How can I track/show my progress?
 
-To **track** your progress, you should update the profile that you created [here](https://github.com/open-source-society/computer-science/issues/31), adding the courses that you began or ended.
+To **track** your progress, you should update the profile that you created and add the courses that you began or ended.
 
 To **show** your progress, you should create a repository on GitHub to put all of the files that you created for each course.
 
