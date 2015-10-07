@@ -221,7 +221,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Introduction to Big Datan](https://www.coursera.org/learn/intro-to-big-data)| 3 weeks | 5-6 hours/week
+[Introduction to Big Data](https://www.coursera.org/learn/intro-to-big-data)| 3 weeks | 5-6 hours/week
 
 ### Data Mining
 
@@ -321,7 +321,7 @@ Let's do it together! =)
 
 Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
 
-You can also interact through [GitHub issues](https://github.com/open-source-society/computer-science-and-engineering/issues).
+You can also interact through [GidtHub issues](https://github.com/open-source-society/computer-science-and-engineering/issues).
 
 We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science-and-engineering](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science-and-engineering?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
