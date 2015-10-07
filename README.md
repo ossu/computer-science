@@ -1,6 +1,8 @@
 
 ![open source society university](http://i.imgur.com/h8xjrrj.png)
 
+### Open Source Society University
+
 :mortar_board: **Path to a free self-taught graduation in Computer Science!**
 
 ## Contents
@@ -86,32 +88,32 @@ That is why we are using this strategy.
 
 ### Introduction
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 9 ~ 15 weeks
 [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks
 [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks
 
 ### Program Design
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Systematic Program Design- Part 1: The Core Method](https://www.edx.org/course/systematic-program-design-part-1-core-ubcx-spd1x-0)| 5 weeks
 [Systematic Program Design- Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x)| 5 weeks
 [Systematic Program Design- Part 3: Abstraction, Search and Graphs](https://www.edx.org/course/systematic-program-design-part-3-ubcx-spd3x)| 5 weeks
 
 ### Algorithms
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Algorithms, Part I](https://www.coursera.org/course/algs4partI)| 6 weeks
 [Algorithms, Part II](https://www.coursera.org/course/algs4partII)| 6 weeks
 [Analysis of Algorithms](https://www.coursera.org/course/aofa)| 6 weeks
 
 ### Programming Paradigms
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0#ct-read-review-widget)| 7 weeks
 [Object Oriented Programming in Java](https://www.coursera.org/learn/object-oriented-java) | 6 weeks
 [Principles of Reactive Programming](https://www.coursera.org/course/reactive)| 7 weeks
@@ -120,15 +122,15 @@ Course|Duration
 
 ### Software Testing
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Software Testing](https://www.udacity.com/course/software-testing--cs258)| 4 weeks
 [Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks
 
 ### Math
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x)| 9 weeks
 [Applications of Linear Algebra Part 1](https://www.edx.org/course/applications-linear-algebra-part-1-davidsonx-d003x-1#ct-read-review-widget)| 5 weeks
 [Applications of Linear Algebra Part 2](https://www.edx.org/course/applications-linear-algebra-part-2-davidsonx-d003x-2)| 4 weeks
@@ -138,101 +140,101 @@ Course|Duration
 
 ### Software Architecture
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Web Application Architectures](https://www.coursera.org/course/webapplications)| 6-9 hours/week
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| -
 [Microservice Architectures TODO]()| -
 
 ### Software Engineering
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Engineering Software as a Service (SaaS), Part 1](https://www.edx.org/course/engineering-software-service-saas-part-1-uc-berkeleyx-cs169-1x)| 9 weeks
 [Engineering Software as a Service (Saas), Part 2](https://www.edx.org/course/engineering-software-service-saas-part-2-uc-berkeleyx-cs169-2x)| 8 weeks
 [Software Product Management Specialization](https://www.coursera.org/specializations/product-management)| -
 
 ### Operating Systems
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| -
 [Operating Systems and System Programming](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)| -
 
 ### Computer Networks
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Computer Networks](https://www.coursera.org/course/comnetworks)| 4–12 hours/week
 [Software Defined Networking](https://www.coursera.org/course/sdn1)| 7-10 hours/week
 
 ### Databases
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Introduction to Databases](https://www.coursera.org/course/db)| -
 [Database Design](https://www.udemy.com/database-design/#reviews)| 9 hours
 [Database Management Essentials](https://www.coursera.org/learn/database-management)| 8 weeks
 
 ### Cloud Computing
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Introduction to Cloud Computing](https://www.edx.org/course/introduction-cloud-computing-ieeex-cloudintro-x-0)| 4 weeks
 [Cloud Computing Specialization](https://www.coursera.org/specializations/cloudcomputing)| -
 
 ### Cryptography
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks
 [Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks
 [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks
 
 ### Compilers
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Compilers](https://www.coursera.org/course/compilers)| 11 weeks
 
 ### UX Design
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Interaction Design Specialization](https://www.coursera.org/specializations/interaction-design)| -
 [UX Design for Mobile Developers](https://www.udacity.com/course/ux-design-for-mobile-developers--ud849)| 6 weeks
 
 ### Artificial Intelligence
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Artificial Intelligence](https://www.edx.org/course/artificial-intelligence-uc-berkeleyx-cs188-1x#!)| 12 weeks
 
 ### Machine Learning
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Practical Machine Learning](https://www.coursera.org/course/predmachlearn)| 4 weeks
 [Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks
 [Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets)| 8 weeks
 
 ### Natural Language Processing
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Natural Language Processing](https://www.coursera.org/course/nlangp)| 10 weeks
 [Natural Language Processing](https://www.coursera.org/course/nlp)| 10 weeks
 
 ### Big Data
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Big Data Specialization](https://www.coursera.org/specializations/big-data)| -
 
 ### Data Mining
 
-Course|Duration
-:--|:--:
+Course|
+:--|
 [Data Mining specialization](https://www.coursera.org/specializations/datamining)| -
 
 ## How to use this guide
@@ -252,6 +254,10 @@ The courses are **already** in the order that you should complete them. Just sta
 ### Duration of the project
 
 It may take longer to complete all of the classes compared to a  regular CS course, but I can **guarantee** you that your **reward** will be proportional to **your motivation/dedication**!
+
+You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 2 hours **every day** studying this curriculum. If you do this, **inevitably** you'll finish this curriculum.
+
+> See more about "Commit to a process, not a goal" [here](http://jamesclear.com/goals-systems).
 
 ### How can I track/show my progress?
 
