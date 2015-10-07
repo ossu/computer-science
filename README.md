@@ -83,6 +83,7 @@ That is why we are using this strategy.
 - [Natural Language Processing](#natural-language-processing)
 - [Big Data](#big-data)
 - [Data Mining](#data-mining)
+- [Internet of Things](#internet-of-things)
 
 ---
 
@@ -236,6 +237,12 @@ Course|
 Course|
 :--|
 [Data Mining specialization](https://www.coursera.org/specializations/datamining)| -
+
+### Internet of Things
+
+Course|
+:--|
+[The Internet of Things](https://www.futurelearn.com/courses/internet-of-things)
 
 ## How to use this guide
 
