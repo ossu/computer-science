@@ -242,7 +242,7 @@ Courses|
 
 Courses|
 :--|
-[The Internet of Things](https://www.futurelearn.com/courses/internet-of-things)
+[The Internet of Things](https://www.futurelearn.com/courses/internet-of-things)|
 
 ## How to use this guide
 
