@@ -89,160 +89,151 @@ That is why we are using this strategy.
 
 ### Introduction
 
-Courses|
-:--|
-[Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 9 ~ 15 weeks
-[Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks
-[Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 12 weeks | 10-20 hours/week
+[Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks | 15 hours/week
+[Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
 
 ### Program Design
 
-Courses|
-:--|
-[Systematic Program Design- Part 1: The Core Method](https://www.edx.org/course/systematic-program-design-part-1-core-ubcx-spd1x-0)| 5 weeks
-[Systematic Program Design- Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x)| 5 weeks
-[Systematic Program Design- Part 3: Abstraction, Search and Graphs](https://www.edx.org/course/systematic-program-design-part-3-ubcx-spd3x)| 5 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Systematic Program Design- Part 1: The Core Method](https://www.edx.org/course/systematic-program-design-part-1-core-ubcx-spd1x-0)| 5 weeks | 8-12 hours/week
+[Systematic Program Design- Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x)| 5 weeks | 8-12 hours/week
+[Systematic Program Design- Part 3: Abstraction, Search and Graphs](https://www.edx.org/course/systematic-program-design-part-3-ubcx-spd3x)| 5 weeks | 8-12 hours/week
 
 ### Algorithms
 
-Courses|
-:--|
-[Algorithms, Part I](https://www.coursera.org/course/algs4partI)| 6 weeks
-[Algorithms, Part II](https://www.coursera.org/course/algs4partII)| 6 weeks
-[Analysis of Algorithms](https://www.coursera.org/course/aofa)| 6 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Algorithms, Part I](https://www.coursera.org/course/algs4partI)| 6 weeks | 6-12 hours/week
+[Algorithms, Part II](https://www.coursera.org/course/algs4partII)| 6 weeks |  6-12 hours/week
+[Analysis of Algorithms](https://www.coursera.org/course/aofa)| 6 weeks | 6-8 hours/week
 
 ### Programming Paradigms
 
-Courses|
-:--|
-[Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0#ct-read-review-widget)| 7 weeks
-[Object Oriented Programming in Java](https://www.coursera.org/learn/object-oriented-java) | 6 weeks
-[Principles of Reactive Programming](https://www.coursera.org/course/reactive)| 7 weeks
-[Programming Languages](https://www.coursera.org/course/proglang)| 8-16 hours/week
-[Functional Programming Principles in Scala](https://www.coursera.org/course/progfun)| 7 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0#ct-read-review-widget)| 7 weeks |  4-6 hours/week
+[Object Oriented Programming in Java](https://www.coursera.org/learn/object-oriented-java) | 6 weeks | 4-6 hours/week
+[Principles of Reactive Programming](https://www.coursera.org/course/reactive)| 7 weeks | 5-7 hours/week
+[Functional Programming Principles in Scala](https://www.coursera.org/course/progfun)| 7 weeks | 5-7 hours/week
 
 ### Software Testing
 
-Courses|
-:--|
-[Software Testing](https://www.udacity.com/course/software-testing--cs258)| 4 weeks
-[Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Software Testing](https://www.udacity.com/course/software-testing--cs258)| 4 weeks | 6 hours/week
+[Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week
 
 ### Math
 
-Courses|
-:--|
-[Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x)| 9 weeks
-[Applications of Linear Algebra Part 1](https://www.edx.org/course/applications-linear-algebra-part-1-davidsonx-d003x-1#ct-read-review-widget)| 5 weeks
-[Applications of Linear Algebra Part 2](https://www.edx.org/course/applications-linear-algebra-part-2-davidsonx-d003x-2)| 4 weeks
-[Linear and Discrete Optimization](https://www.coursera.org/course/linearopt)| 3-6 hours/week
-[Probabilistic Graphical Models](https://www.coursera.org/course/pgm)| 11 weeks
-[Game Theory](https://www.coursera.org/course/gametheory)| 9 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x)| 9 weeks | 5 hours/week
+[Applications of Linear Algebra Part 1](https://www.edx.org/course/applications-linear-algebra-part-1-davidsonx-d003x-1#ct-read-review-widget)| 5 weeks | 12-18 hours/week
+[Applications of Linear Algebra Part 2](https://www.edx.org/course/applications-linear-algebra-part-2-davidsonx-d003x-2)| 4 weeks | 12-18 hours/week
+[Linear and Discrete Optimization](https://www.coursera.org/course/linearopt)| 7 weeks | 3-6 hours/week
+[Probabilistic Graphical Models](https://www.coursera.org/course/pgm)| 11 weeks | 15-20 hours/week
+[Game Theory](https://www.coursera.org/course/gametheory)| 9 weeks | 5-7 hours/week
 
 ### Software Architecture
 
-Courses|
-:--|
-[Web Application Architectures](https://www.coursera.org/course/webapplications)| 6-9 hours/week
-[Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| -
-[Microservice Architectures TODO]()| -
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Web Application Architectures](https://www.coursera.org/course/webapplications)| 6 weeks | 6-9 hours/week
+[Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week
 
 ### Software Engineering
 
-Courses|
-:--|
-[Engineering Software as a Service (SaaS), Part 1](https://www.edx.org/course/engineering-software-service-saas-part-1-uc-berkeleyx-cs169-1x)| 9 weeks
-[Engineering Software as a Service (Saas), Part 2](https://www.edx.org/course/engineering-software-service-saas-part-2-uc-berkeleyx-cs169-2x)| 8 weeks
-[Software Product Management Specialization](https://www.coursera.org/specializations/product-management)| -
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Engineering Software as a Service (SaaS), Part 1](https://www.edx.org/course/engineering-software-service-saas-part-1-uc-berkeleyx-cs169-1x)| 9 weeks | 12 hours/week
+[Engineering Software as a Service (Saas), Part 2](https://www.edx.org/course/engineering-software-service-saas-part-2-uc-berkeleyx-cs169-2x)| 8 weeks | 12 hours/week
+[Software Processes and Agile Practices](https://www.coursera.org/learn/software-processes-and-agile-practices)| 4 weeks | 6-8 hours/week
 
 ### Operating Systems
 
-Courses|
-:--|
-[Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| -
-[Operating Systems and System Programming](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)| -
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - | -
+[Operating Systems and System Programming](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)| - | -
 
 ### Computer Networks
 
-Courses|
-:--|
-[Computer Networks](https://www.coursera.org/course/comnetworks)| 4–12 hours/week
-[Software Defined Networking](https://www.coursera.org/course/sdn1)| 7-10 hours/week
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about) | - | 5-10 hours/week
+[Computer Networks](https://www.coursera.org/course/comnetworks)| - | 4–12 hours/week
 
 ### Databases
 
-Courses|
-:--|
-[Introduction to Databases](https://www.coursera.org/course/db)| -
-[Database Design](https://www.udemy.com/database-design/#reviews)| 9 hours
-[Database Management Essentials](https://www.coursera.org/learn/database-management)| 8 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Databases](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| 12 weeks | 8-12 hours/week
 
 ### Cloud Computing
 
-Courses|
-:--|
-[Introduction to Cloud Computing](https://www.edx.org/course/introduction-cloud-computing-ieeex-cloudintro-x-0)| 4 weeks
-[Cloud Computing Specialization](https://www.coursera.org/specializations/cloudcomputing)| -
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Introduction to Cloud Computing](https://www.edx.org/course/introduction-cloud-computing-ieeex-cloudintro-x-0)| 4 weeks | 1 hour/week
 
 ### Cryptography
 
-Courses|
-:--|
-[Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks
-[Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks
-[Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week
+[Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week
+[Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks | 6 hours/week
 
 ### Compilers
 
-Courses|
-:--|
-[Compilers](https://www.coursera.org/course/compilers)| 11 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Compilers](https://www.coursera.org/course/compilers)| 11 weeks | 8-10 hours/week
 
 ### UX Design
 
-Courses|
-:--|
-[Interaction Design Specialization](https://www.coursera.org/specializations/interaction-design)| -
-[UX Design for Mobile Developers](https://www.udacity.com/course/ux-design-for-mobile-developers--ud849)| 6 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[UX Design for Mobile Developers](https://www.udacity.com/course/ux-design-for-mobile-developers--ud849)| 6 weeks | 6 hours/week
 
 ### Artificial Intelligence
 
-Courses|
-:--|
-[Artificial Intelligence](https://www.edx.org/course/artificial-intelligence-uc-berkeleyx-cs188-1x#!)| 12 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Artificial Intelligence](https://www.edx.org/course/artificial-intelligence-uc-berkeleyx-cs188-1x#!)| 12 weeks | 15 hours/week
 
 ### Machine Learning
 
-Courses|
-:--|
-[Practical Machine Learning](https://www.coursera.org/course/predmachlearn)| 4 weeks
-[Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks
-[Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets)| 8 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | -
 
 ### Natural Language Processing
 
-Courses|
-:--|
-[Natural Language Processing](https://www.coursera.org/course/nlangp)| 10 weeks
-[Natural Language Processing](https://www.coursera.org/course/nlp)| 10 weeks
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Natural Language Processing](https://www.coursera.org/course/nlp)| 10 weeks | 8-10 hours/week
 
 ### Big Data
 
-Courses|
-:--|
-[Big Data Specialization](https://www.coursera.org/specializations/big-data)| -
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Introduction to Big Datan](https://www.coursera.org/learn/intro-to-big-data)| 3 weeks | 5-6 hours/week
 
 ### Data Mining
 
-Courses|
-:--|
-[Data Mining specialization](https://www.coursera.org/specializations/datamining)| -
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Pattern Discovery in Data Mining](https://www.coursera.org/course/patterndiscovery)| 4 weeks | 4-6 hours/week
 
 ### Internet of Things
 
-Courses|
-:--|
-[The Internet of Things](https://www.futurelearn.com/courses/internet-of-things)|
+Courses | Duration | Effort
+:-- | :--: | :--:
+[The Internet of Things](https://www.futurelearn.com/courses/internet-of-things)| 4 weeks | hours/week
 
 ## How to use this guide
 
