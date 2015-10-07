@@ -89,7 +89,7 @@ That is why we are using this strategy.
 
 ### Introduction
 
-Course|
+Courses|
 :--|
 [Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 9 ~ 15 weeks
 [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks
@@ -97,7 +97,7 @@ Course|
 
 ### Program Design
 
-Course|
+Courses|
 :--|
 [Systematic Program Design- Part 1: The Core Method](https://www.edx.org/course/systematic-program-design-part-1-core-ubcx-spd1x-0)| 5 weeks
 [Systematic Program Design- Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x)| 5 weeks
@@ -105,7 +105,7 @@ Course|
 
 ### Algorithms
 
-Course|
+Courses|
 :--|
 [Algorithms, Part I](https://www.coursera.org/course/algs4partI)| 6 weeks
 [Algorithms, Part II](https://www.coursera.org/course/algs4partII)| 6 weeks
@@ -113,7 +113,7 @@ Course|
 
 ### Programming Paradigms
 
-Course|
+Courses|
 :--|
 [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0#ct-read-review-widget)| 7 weeks
 [Object Oriented Programming in Java](https://www.coursera.org/learn/object-oriented-java) | 6 weeks
@@ -123,14 +123,14 @@ Course|
 
 ### Software Testing
 
-Course|
+Courses|
 :--|
 [Software Testing](https://www.udacity.com/course/software-testing--cs258)| 4 weeks
 [Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks
 
 ### Math
 
-Course|
+Courses|
 :--|
 [Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x)| 9 weeks
 [Applications of Linear Algebra Part 1](https://www.edx.org/course/applications-linear-algebra-part-1-davidsonx-d003x-1#ct-read-review-widget)| 5 weeks
@@ -141,7 +141,7 @@ Course|
 
 ### Software Architecture
 
-Course|
+Courses|
 :--|
 [Web Application Architectures](https://www.coursera.org/course/webapplications)| 6-9 hours/week
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| -
@@ -149,7 +149,7 @@ Course|
 
 ### Software Engineering
 
-Course|
+Courses|
 :--|
 [Engineering Software as a Service (SaaS), Part 1](https://www.edx.org/course/engineering-software-service-saas-part-1-uc-berkeleyx-cs169-1x)| 9 weeks
 [Engineering Software as a Service (Saas), Part 2](https://www.edx.org/course/engineering-software-service-saas-part-2-uc-berkeleyx-cs169-2x)| 8 weeks
@@ -157,21 +157,21 @@ Course|
 
 ### Operating Systems
 
-Course|
+Courses|
 :--|
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| -
 [Operating Systems and System Programming](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)| -
 
 ### Computer Networks
 
-Course|
+Courses|
 :--|
 [Computer Networks](https://www.coursera.org/course/comnetworks)| 4–12 hours/week
 [Software Defined Networking](https://www.coursera.org/course/sdn1)| 7-10 hours/week
 
 ### Databases
 
-Course|
+Courses|
 :--|
 [Introduction to Databases](https://www.coursera.org/course/db)| -
 [Database Design](https://www.udemy.com/database-design/#reviews)| 9 hours
@@ -179,14 +179,14 @@ Course|
 
 ### Cloud Computing
 
-Course|
+Courses|
 :--|
 [Introduction to Cloud Computing](https://www.edx.org/course/introduction-cloud-computing-ieeex-cloudintro-x-0)| 4 weeks
 [Cloud Computing Specialization](https://www.coursera.org/specializations/cloudcomputing)| -
 
 ### Cryptography
 
-Course|
+Courses|
 :--|
 [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks
 [Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks
@@ -194,26 +194,26 @@ Course|
 
 ### Compilers
 
-Course|
+Courses|
 :--|
 [Compilers](https://www.coursera.org/course/compilers)| 11 weeks
 
 ### UX Design
 
-Course|
+Courses|
 :--|
 [Interaction Design Specialization](https://www.coursera.org/specializations/interaction-design)| -
 [UX Design for Mobile Developers](https://www.udacity.com/course/ux-design-for-mobile-developers--ud849)| 6 weeks
 
 ### Artificial Intelligence
 
-Course|
+Courses|
 :--|
 [Artificial Intelligence](https://www.edx.org/course/artificial-intelligence-uc-berkeleyx-cs188-1x#!)| 12 weeks
 
 ### Machine Learning
 
-Course|
+Courses|
 :--|
 [Practical Machine Learning](https://www.coursera.org/course/predmachlearn)| 4 weeks
 [Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks
@@ -221,26 +221,26 @@ Course|
 
 ### Natural Language Processing
 
-Course|
+Courses|
 :--|
 [Natural Language Processing](https://www.coursera.org/course/nlangp)| 10 weeks
 [Natural Language Processing](https://www.coursera.org/course/nlp)| 10 weeks
 
 ### Big Data
 
-Course|
+Courses|
 :--|
 [Big Data Specialization](https://www.coursera.org/specializations/big-data)| -
 
 ### Data Mining
 
-Course|
+Courses|
 :--|
 [Data Mining specialization](https://www.coursera.org/specializations/datamining)| -
 
 ### Internet of Things
 
-Course|
+Courses|
 :--|
 [The Internet of Things](https://www.futurelearn.com/courses/internet-of-things)
 
