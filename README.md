@@ -256,7 +256,7 @@ The courses are **already** in the order that you should complete them. Just sta
 
 ### Should I take all courses?
 
-**Yes**! The intention is to conclude **all** the courses listed here!
+**Yes!** The intention is to conclude **all** the courses listed here!
 
 ### Duration of the project
 
