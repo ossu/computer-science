@@ -233,7 +233,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[The Internet of Things](https://www.futurelearn.com/courses/internet-of-things)| 4 weeks | hours/week
+[The Internet of Things](https://www.futurelearn.com/courses/internet-of-things)| 4 weeks | 2 hours/week
 
 ## How to use this guide
 
