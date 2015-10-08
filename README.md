@@ -10,6 +10,7 @@
 
 - [About](#about)
 - [Becoming an OSS student](#becoming-an-oss-student)
+- [Motivation & Preparation](#motivation--preparation)
 - [Curriculum](#curriculum)
 - [How to use this guide](#how-to-use-this-guide)
 - [Prerequisite](#prerequisite)
@@ -58,7 +59,19 @@ By making a [public commitment](http://renewablewealth.com/articles/the-power-of
 
 That is why we are using this strategy.
 
----
+## Motivation & Preparation
+
+Here are two interesting links that can make **all** the difference in your journey.
+
+The first one is a motivational video that shows a guy that went through the "MIT Challenge", that consists in learning the entire **4-year** MIT curriculum for Computer Science in **1 year**.
+
+- [MIT Challenge](http://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
+
+The second link is a MOOC course that will teach you learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. This is a **fundamental ability** to succeed in our journey.
+
+- [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
+
+**Are you ready to get started?**
 
 ## Curriculum
 
@@ -394,7 +407,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `1.0.0`
+**Curriculum Version**: `1.1.0`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
