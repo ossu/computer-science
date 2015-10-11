@@ -23,7 +23,7 @@
 
 This is a **solid path** for those of you who want to complete a **Computer Science** course on your own time, **for free**, with courses from the **best universities** in the World.
 
-In our curriculum, we gave preference to MOOC (Massive Open Online Course) type of courses because those courses were created with our style of learning in mind.
+In our curriculum, we gave preference to MOOC (Massive Open Online Course) style courses because those courses were created with our style of learning in mind.
 
 ## Becoming an OSS student
 
@@ -67,7 +67,7 @@ The first one is a motivational video that shows a guy that went through the "MI
 
 - [MIT Challenge](http://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
 
-The second link is a MOOC course that will teach you learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. This is a **fundamental ability** to succeed in our journey.
+The second link is a MOOC that will teach you learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. These are **fundamental abilities** to succeed in our journey.
 
 - [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
 
@@ -350,9 +350,9 @@ In order to show for everyone that you **successfully** finished a course, you s
 
 > "What does it mean?"
 
-After finish a course, you should think about a **real problem** that you can solve using the acquired knowledge in the course. You don't need to create a big project, but you must create something to **validate** and **consolidate** your knowledge, and also to show to the world that you are capable to create something useful with the concepts that you learned.
+After finish a course, you should think about a **real world problem** that you can solve using the acquired knowledge in the course. You don't need to create a big project, but you must create something to **validate** and **consolidate** your knowledge, and also to show to the world that you are capable to create something useful with the concepts that you learned.
 
-The projects of all students will be listed in [this](projects.md) file. Submit your project's informations in that file after you conclude it.
+The projects of all students will be listed in [this](projects.md) file. Submit your project's information in that file after you conclude it.
 
 **You can create this project alone or with other students!**
 
@@ -364,7 +364,7 @@ And you should also...
 
 This is a **crucial** part of your journey through all those courses.
 
-You **need** to have in mind that what you are able to **create** with the concepts that you learned will be your certificate. **And this is what really matters**!
+You **need** to have in mind that what you are able to **create** with the concepts that you learned will be your certificate **and this is what really matters**!
 
 In order to show that you **really** learned those things, you need to be **creative**!
 
