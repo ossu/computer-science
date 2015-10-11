@@ -398,6 +398,7 @@ You must share **only** files that you are **allowed** to! **Do NOT disrespect t
 The **only things** that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
 
 - [Try Git](https://try.github.io/levels/1/challenges/1)
+- [Git - the simple guide] (http://rogerdudler.github.io/git-guide/)
 - [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
 - [GitHub Hello World](https://guides.github.com/activities/hello-world/)
 - [Git Immersion](http://gitimmersion.com/index.html)
@@ -407,7 +408,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `1.1.1`
+**Curriculum Version**: `1.2.1`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
