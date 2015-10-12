@@ -27,11 +27,11 @@ In our curriculum, we gave preference to MOOC (Massive Open Online Course) style
 
 ## Becoming an OSS student
 
-To officially register for this course you must create a profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/109) issue.
+To officially register for this course you must create a profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/145) issue.
 
 > **"How can I do this?"**
 
-Comment in [this](https://github.com/open-source-society/computer-science-and-engineering/issues/109) issue  (please, do **not** open a new one) using the following template:
+Comment in [this](https://github.com/open-source-society/computer-science-and-engineering/issues/145) issue  (please, do **not** open a new one) using the following template:
 
 ```
 - **Name**: YOUR NAME
@@ -408,7 +408,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `1.2.1`
+**Curriculum Version**: `1.2.2`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
