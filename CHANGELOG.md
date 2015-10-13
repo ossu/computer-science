@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
+## [1.2.3] 2015-10-12
+### Changed
+- Updated the prerequisite section for more clarity
+
 
 ## [1.2.2] 2015-10-12
 ### Fixed
