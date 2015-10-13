@@ -397,6 +397,8 @@ You must share **only** files that you are **allowed** to! **Do NOT disrespect t
 
 The **only things** that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
 
+**Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started! 
+
 - [Try Git](https://try.github.io/levels/1/challenges/1)
 - [Git - the simple guide] (http://rogerdudler.github.io/git-guide/)
 - [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
@@ -404,11 +406,11 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 - [Git Immersion](http://gitimmersion.com/index.html)
 - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 
-**ps**: You don't need to do all of the courses. Just pick one and learn the basics because you will learn more on the go!
+
 
 ## Change Log
 
-**Curriculum Version**: `1.2.2`
+**Curriculum Version**: `1.2.3`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
