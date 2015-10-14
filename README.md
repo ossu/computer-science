@@ -55,9 +55,9 @@ Course Name| [link]()
 
 > **"Why should I do this?"**
 
-By making a [public commitment](http://renewablewealth.com/articles/the-power-of-a-public-commitment/), we have a greater chance of **successfully** graduating, a way to get to know our peers better, and an opportunity to share the things that we have done.
+This is a way to get to know our peers better, and an opportunity to share the things that we have done.
 
-That is why we are using this strategy.
+That is why we are using this strategy. You are free to bypass this if you're not that type.
 
 ## Motivation & Preparation
 
@@ -397,7 +397,7 @@ You must share **only** files that you are **allowed** to! **Do NOT disrespect t
 
 The **only things** that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
 
-**Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started! 
+**Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started!
 
 - [Try Git](https://try.github.io/levels/1/challenges/1)
 - [Git - the simple guide] (http://rogerdudler.github.io/git-guide/)
@@ -410,7 +410,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `1.2.3`
+**Curriculum Version**: `1.2.4`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
