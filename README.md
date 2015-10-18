@@ -405,6 +405,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 - [GitHub Hello World](https://guides.github.com/activities/hello-world/)
 - [Git Immersion](http://gitimmersion.com/index.html)
 - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+- [Git-it](https://www.npmjs.com/package/git-it)
 
 
 
