@@ -141,7 +141,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)| - | -
+[Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)| 12 weeks | 5 hours/week
 
 ### Algorithms
 
@@ -214,7 +214,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - | -
-[Operating Systems and System Programming](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)| 10 weeks | -
+[Operating Systems and System Programming](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)| 10 weeks | 2-3 hours/week
 
 ### Computer Networks
 
@@ -289,7 +289,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | -
+[Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week
 
 ### Natural Language Processing
 
@@ -454,5 +454,8 @@ Add **Open Source Society University** to your [Facebook](https://www.facebook.c
 - [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [Coursera](https://www.coursera.org/)
 - [edX](https://www.edx.org)
+- [Udacity](https://www.udacity.com/)
+- [Future Learn](https://www.futurelearn.com/)
+- [Stanford University](https://lagunita.stanford.edu/)
 - [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
 - [Obtaining a Thorough CS Background Online](http://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/)
