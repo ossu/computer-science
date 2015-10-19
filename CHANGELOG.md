@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.2.5] 2015-10-19
+### Added
+- Badge/Link to the Awesome list
+
 ## [1.2.4] 2015-10-14
 ### Removed
 - Removed citation about public commitment
