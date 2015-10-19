@@ -331,7 +331,7 @@ Search such specializations in the following platforms:
 
 This guide was developed to be consumed in a linear approach. What does this mean? That you should complete one course at a time.
 
-The courses are **already** in the order that you should complete them. Just start in the **Introduction** section and after finishing the first course, start the next one.
+The courses are **already** in the order that you should complete them. Just start in the [Introduction to Computer Science](#introduction-to-computer-science) section and after finishing the first course, start the next one.
 
 **If the course isn't open, do it anyway with the resources from the previous class.**
 
@@ -411,11 +411,9 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 - [Git Immersion](http://gitimmersion.com/index.html)
 - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 
-
-
 ## Change Log
 
-**Curriculum Version**: `1.3.4`
+**Curriculum Version**: `1.2.6`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
