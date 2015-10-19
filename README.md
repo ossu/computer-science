@@ -427,7 +427,7 @@ We also include modern topics, making this course one of the **best options** fo
 
 You can [open an issue](https://help.github.com/articles/creating-an-issue/) and give us your suggestions as to how we can improve this guide, or what we can do to improve the learning experience.
 
-You can also fork this project and fix any mistakes that you have found.
+You can also [fork this project](https://help.github.com/articles/fork-a-repo/) to fix any mistakes that you have found or add new things, and then make a [pull request](https://help.github.com/articles/using-pull-requests/).
 
 Let's do it together! =)
 
