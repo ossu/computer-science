@@ -6,7 +6,7 @@ Projects created by OSSU's students for each course of our [**Computer Science**
 
 Project Title | Description | Authors | Repository
 :-- | :-- | :--: | :--
-|  |  |
+Binary Machine | Convert decimal numbers to binary | [Eric Douglas](https://github.com/ericdouglas) | [binary-machine](https://github.com/ericdouglas/binary-machine)
 
 ### Introduction to Computer Science and Programming Using Python
 
