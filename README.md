@@ -214,7 +214,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - | -
-[Operating Systems and System Programming](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)| 10 weeks | 2-3 hours/week
+[Operating Systems and System Programming](https://www.youtube.com/view_play_list?p=-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)| 10 weeks | 2-3 hours/week
 
 ### Computer Networks
 
@@ -413,7 +413,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `1.2.6`
+**Curriculum Version**: `1.3.6`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
