@@ -104,7 +104,7 @@ The second link is a MOOC that will teach you learning techniques used by expert
 - [Parallel Computing](#parallel-computing)
 - [UX Design](#ux-design)
 - [Computer Graphics](#computer-graphics)
-- [Game Design and Development](#game-design-development)
+- [Game Design and Development](#game-design-and-development)
 - [Artificial Intelligence](#artificial-intelligence)
 - [Machine Learning](#machine-learning)
 - [Natural Language Processing](#natural-language-processing)
