@@ -104,6 +104,7 @@ The second link is a MOOC that will teach you learning techniques used by expert
 - [Parallel Computing](#parallel-computing)
 - [UX Design](#ux-design)
 - [Computer Graphics](#computer-graphics)
+- [Game Design and Development](#game-design-development)
 - [Artificial Intelligence](#artificial-intelligence)
 - [Machine Learning](#machine-learning)
 - [Natural Language Processing](#natural-language-processing)
@@ -278,6 +279,12 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)| 6 weeks | 12 hours/week
+
+### Game Design and Development
+
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Introduction to Game Design](https://www.edx.org/course/introduction-game-design-mitx-11-126x)| 6 weeks | 8 hours/week
 
 ### Artificial Intelligence
 
