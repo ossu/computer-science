@@ -14,6 +14,12 @@ Project Title | Description | Authors | Repository
 :-- | :-- | :--: | :--
 |  |  |
 
+### Programming Foundations with Python
+
+Project Title | Description | Authors | Repository
+:-- | :-- | :--: | :--
+|  |  |
+
 ### Introduction to Computational Thinking and Data Science
 
 Project Title | Description | Authors | Repository
