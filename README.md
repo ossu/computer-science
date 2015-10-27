@@ -30,7 +30,7 @@ This is a **solid path** for those of you who want to complete a **Computer Scie
 
 In our curriculum, we gave preference to MOOC (Massive Open Online Course) style courses because those courses were created with our style of learning in mind.
 
-## Becoming an OSS student
+## Becoming an OSS Student
 
 To officially register for this course you must create a profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/180) issue.
 
