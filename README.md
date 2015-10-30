@@ -5,6 +5,11 @@
 <p align="center">
   Path to a free self-taught education in Computer Science!
 </p>
+<p align="center">
+  <a href="https://github.com/sindresorhus/awesome">
+    <img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
+  </a>
+</p>
 
 ## Contents
 
@@ -27,11 +32,11 @@ In our curriculum, we gave preference to MOOC (Massive Open Online Course) style
 
 ## Becoming an OSS student
 
-To officially register for this course you must create a profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/145) issue.
+To officially register for this course you must create a profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/180) issue.
 
 > **"How can I do this?"**
 
-Comment in [this](https://github.com/open-source-society/computer-science-and-engineering/issues/145) issue  (please, do **not** open a new one) using the following template:
+Comment in [this](https://github.com/open-source-society/computer-science-and-engineering/issues/180) issue  (please, do **not** open a new one) using the following template:
 
 ```
 - **Name**: YOUR NAME
@@ -55,9 +60,9 @@ Course Name| [link]()
 
 > **"Why should I do this?"**
 
-By making a [public commitment](http://renewablewealth.com/articles/the-power-of-a-public-commitment/), we have a greater chance of **successfully** graduating, a way to get to know our peers better, and an opportunity to share the things that we have done.
+This is a way to get to know our peers better, and an opportunity to share the things that we have done.
 
-That is why we are using this strategy.
+That is why we are using this strategy. You are free to bypass this if you're not that type.
 
 ## Motivation & Preparation
 
@@ -136,7 +141,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)| - | -
+[Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)| 12 weeks | 5 hours/week
 
 ### Algorithms
 
@@ -209,7 +214,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - | -
-[Operating Systems and System Programming](https://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)| 10 weeks | -
+[Operating Systems and System Programming](https://www.youtube.com/view_play_list?p=-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)| 10 weeks | 2-3 hours/week
 
 ### Computer Networks
 
@@ -284,7 +289,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | -
+[Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week
 
 ### Natural Language Processing
 
@@ -326,7 +331,7 @@ Search such specializations in the following platforms:
 
 This guide was developed to be consumed in a linear approach. What does this mean? That you should complete one course at a time.
 
-The courses are **already** in the order that you should complete them. Just start in the **Introduction** section and after finishing the first course, start the next one.
+The courses are **already** in the order that you should complete them. Just start in the [Introduction to Computer Science](#introduction-to-computer-science) section and after finishing the first course, start the next one.
 
 **If the course isn't open, do it anyway with the resources from the previous class.**
 
@@ -397,7 +402,7 @@ You must share **only** files that you are **allowed** to! **Do NOT disrespect t
 
 The **only things** that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
 
-**Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started! 
+**Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started!
 
 - [Try Git](https://try.github.io/levels/1/challenges/1)
 - [Git - the simple guide] (http://rogerdudler.github.io/git-guide/)
@@ -406,11 +411,9 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 - [Git Immersion](http://gitimmersion.com/index.html)
 - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 
-
-
 ## Change Log
 
-**Curriculum Version**: `1.2.3`
+**Curriculum Version**: `1.3.6`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
@@ -424,7 +427,7 @@ We also include modern topics, making this course one of the **best options** fo
 
 You can [open an issue](https://help.github.com/articles/creating-an-issue/) and give us your suggestions as to how we can improve this guide, or what we can do to improve the learning experience.
 
-You can also fork this project and fix any mistakes that you have found.
+You can also [fork this project](https://help.github.com/articles/fork-a-repo/) to fix any mistakes that you have found or add new things, and then make a [pull request](https://help.github.com/articles/using-pull-requests/).
 
 Let's do it together! =)
 
@@ -451,5 +454,8 @@ Add **Open Source Society University** to your [Facebook](https://www.facebook.c
 - [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [Coursera](https://www.coursera.org/)
 - [edX](https://www.edx.org)
+- [Udacity](https://www.udacity.com/)
+- [Future Learn](https://www.futurelearn.com/)
+- [Stanford University](https://lagunita.stanford.edu/)
 - [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
 - [Obtaining a Thorough CS Background Online](http://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/)

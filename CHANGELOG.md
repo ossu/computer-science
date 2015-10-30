@@ -2,10 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
+
+
+## [1.3.6] 2015-10-22
+### Added
+- Latest version of CS 162, Operating Systems and System Programming
+
+## [1.2.6] 2015-10-19
+### Added
+- Badge/Link to the Awesome list
+
+## [1.2.5] 2015-10-16
+### Fixed
+- Fix name of the section and add a hyperlink to it.
+
+## [1.2.4] 2015-10-14
+### Removed
+- Removed citation about public commitment
+
 ## [1.2.3] 2015-10-12
 ### Changed
 - Updated the prerequisite section for more clarity
-
 
 ## [1.2.2] 2015-10-12
 ### Fixed
@@ -13,7 +30,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.2.1] 2015-10-11
 ### Added
-- Article Git - the simple guide to the prerequisite section.
+- Article Git - the simple guide to the prerequisite section
 
 ##[1.1.1] 2015-10-11
 ### Fixed
@@ -30,4 +47,4 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.0.0] 2015-10-08
 
-Release of the first **complete** version of the Computer Science curriculum.
+Release of the first **complete** version of the Computer Science curriculum
