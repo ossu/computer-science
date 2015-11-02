@@ -357,7 +357,7 @@ In order to show for everyone that you **successfully** finished a course, you s
 
 After finish a course, you should think about a **real world problem** that you can solve using the acquired knowledge in the course. You don't need to create a big project, but you must create something to **validate** and **consolidate** your knowledge, and also to show to the world that you are capable to create something useful with the concepts that you learned.
 
-The projects of all students will be listed in [this](projects.md) file. Submit your project's information in that file after you conclude it.
+The projects of all students will be listed in [this](https://github.com/open-source-society/help/blob/master/PROJECTS.md) file. Submit your project's information in that file after you conclude it.
 
 **You can create this project alone or with other students!**
 
@@ -413,7 +413,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `1.3.6`
+**Curriculum Version**: `1.3.7`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
