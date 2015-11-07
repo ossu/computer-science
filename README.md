@@ -361,7 +361,12 @@ The projects of all students will be listed in [this](https://github.com/open-so
 
 **You can create this project alone or with other students!**
 
-> Some project suggestions [here](https://github.com/karan/Projects) and [here](https://github.com/ericdouglas/app-specs).
+#### Project Suggestions
+
+- [Projects](https://github.com/karan/Projects): A list of practical projects that anyone can solve in any programming language.
+- [app-specs](https://github.com/ericdouglas/app-specs): A curated list of applications specifications and implementations to practice new technologies, improve your portfolio and sharpen your skills.
+- [FreeCodeCamp](http://www.freecodecamp.com/): Course that teaches you fullstack JavaScript development through a bunch of projects.
+- [JavaScript Projects](https://github.com/javascript-society/javascript-projects): List of projects related with the [JavaScript Path](https://github.com/javascript-society/javascript-path).
 
 And you should also...
 
@@ -413,7 +418,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `1.3.7`
+**Curriculum Version**: `1.3.8`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
