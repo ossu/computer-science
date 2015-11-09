@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.3.9] 2015-11-09
+### Fixed
+- Link for the correct Natural Language Processing course
+
 ## [1.3.8] 2015-11-07
 ### Added
 - Add "Project Suggestions" section with more references
