@@ -295,7 +295,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Natural Language Processing](https://www.coursera.org/course/nlp)| 10 weeks | 8-10 hours/week
+[Natural Language Processing](https://www.coursera.org/course/nlangp)| 10 weeks | 8-10 hours/week
 
 ### Big Data
 
@@ -418,7 +418,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `1.3.8`
+**Curriculum Version**: `1.3.9`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
