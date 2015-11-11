@@ -289,6 +289,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
+[Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning) | 1-3 days | (Optional) Hack-first, fun introduction to get you confident and motivated. Leads you to Prof. Andrew Ng's course, below.
 [Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week
 
 ### Natural Language Processing
