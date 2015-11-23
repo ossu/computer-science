@@ -32,11 +32,11 @@ In our curriculum, we gave preference to MOOC (Massive Open Online Course) style
 
 ## Becoming an OSS student
 
-To officially register for this course you must create a profile in our [students profile](https://github.com/open-source-society/computer-science-and-engineering/issues/206) issue.
+To officially register for this course you must create a profile in our [students profile](https://github.com/open-source-society/computer-science/issues/206) issue.
 
 > **"How can I do this?"**
 
-Comment in [this](https://github.com/open-source-society/computer-science-and-engineering/issues/206) issue  (please, do **not** open a new one) using the following template:
+Comment in [this](https://github.com/open-source-society/computer-science/issues/206) issue  (please, do **not** open a new one) using the following template:
 
 ```
 - **Name**: YOUR NAME
@@ -442,9 +442,9 @@ Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)
 
 Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
 
-You can also interact through [GitHub issues](https://github.com/open-source-society/computer-science-and-engineering/issues).
+You can also interact through [GitHub issues](https://github.com/open-source-society/computer-science/issues).
 
-We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science-and-engineering](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science-and-engineering?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
 
 Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
 
