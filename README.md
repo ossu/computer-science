@@ -195,6 +195,7 @@ Courses | Duration | Effort
 [Engineering Software as a Service (Saas), Part 2](https://www.edx.org/course/engineering-software-service-saas-part-2-uc-berkeleyx-cs169-2x)| 8 weeks | 12 hours/week
 [Software Processes and Agile Practices](https://www.coursera.org/learn/software-processes-and-agile-practices)| 4 weeks | 6-8 hours/week
 [Startup Engineering](https://www.coursera.org/course/startup) | 12 weeks | 2-20 hours/week
+[Programming methodology](https://see.stanford.edu/Course/CS106A) |    | 8-10 hours/week
 
 ### Math (Probability)
 
