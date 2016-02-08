@@ -70,7 +70,7 @@ Here are two interesting links that can make **all** the difference in your jour
 
 The first one is a motivational video that shows a guy that went through the "MIT Challenge", that consists in learning the entire **4-year** MIT curriculum for Computer Science in **1 year**.
 
-- [MIT Challenge](http://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
+- [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
 
 The second link is a MOOC that will teach you learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. These are **fundamental abilities** to succeed in our journey.
 
@@ -121,7 +121,7 @@ Courses | Duration | Effort
 [Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 12 weeks | 10-20 hours/week
 [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks | 15 hours/week
 [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
-[From Nand to Tetris](https://www.coursera.org/course/nand2tetris1) | 7 weeks | 5-10 hours/week
+[From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) | 7 weeks | 5-10 hours/week
 
 ### Math (Mathematical Thinking)
 
@@ -463,4 +463,4 @@ Add **Open Source Society University** to your [Facebook](https://www.facebook.c
 - [Future Learn](https://www.futurelearn.com/)
 - [Stanford University](https://lagunita.stanford.edu/)
 - [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
-- [Obtaining a Thorough CS Background Online](http://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/)
+- [Obtaining a Thorough CS Background Online](https://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/)
