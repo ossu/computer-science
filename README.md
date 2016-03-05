@@ -321,7 +321,7 @@ After finishing the courses above, start your specializations on the topics that
 
 Search such specializations in the following platforms:
 
-#### [Coursera](https://www.coursera.org/) | [edX](https://www.edx.org/) | [Udacity](https://www.udacity.com/) | [Future Learn](https://www.futurelearn.com/) | [Udemy](https://www.udemy.com)
+#### [Coursera](https://www.coursera.org/) | [edX](https://www.edx.org/) | [Udacity](https://www.udacity.com/) | [Future Learn](https://www.futurelearn.com/)
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
