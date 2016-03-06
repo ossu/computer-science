@@ -121,7 +121,8 @@ Courses | Duration | Effort
 [Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 12 weeks | 10-20 hours/week
 [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks | 15 hours/week
 [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
-[From Nand to Tetris](https://www.coursera.org/course/nand2tetris1) | 7 weeks | 5-10 hours/week
+[From Nand to Tetris (Part 1) ](https://www.coursera.org/learn/build-a-computer) | 6 weeks | 5-10 hours/week
+[From Nand to Tetris (Part 2, coming in May/June 2016) ] | -- weeks | ---- hours/week
 
 ### Math (Mathematical Thinking)
 
