@@ -192,8 +192,8 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Engineering Software as a Service (SaaS), Part 1](https://www.edx.org/course/engineering-software-service-saas-part-1-uc-berkeleyx-cs169-1x)| 9 weeks | 12 hours/week
-[Engineering Software as a Service (Saas), Part 2](https://www.edx.org/course/engineering-software-service-saas-part-2-uc-berkeleyx-cs169-2x)| 8 weeks | 12 hours/week
+[Agile Development Using Ruby on Rails - Basics](https://www.edx.org/course/agile-development-using-ruby-rails-uc-berkeleyx-cs169-1x)| 9 weeks | 12 hours/week
+[Agile Development Using Ruby on Rails - Advanced](https://www.edx.org/course/agile-development-using-ruby-rails-uc-berkeleyx-cs169-2x)| 8 weeks | 12 hours/week
 [Software Processes and Agile Practices](https://www.coursera.org/learn/software-processes-and-agile-practices)| 4 weeks | 6-8 hours/week
 [Startup Engineering](https://www.coursera.org/course/startup) | 12 weeks | 2-20 hours/week
 
