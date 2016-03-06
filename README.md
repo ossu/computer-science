@@ -320,9 +320,12 @@ Courses | Duration | Effort
 
 After finishing the courses above, start your specializations on the topics that you have more interest.
 
-Search such specializations in the following platforms:
+The following platforms currently offer specializations:
 
-#### [Coursera](https://www.coursera.org/) | [edX](https://www.edx.org/) | [Udacity](https://www.udacity.com/) | [Future Learn](https://www.futurelearn.com/)
+#### edX: [xSeries](https://www.edx.org/xseries)
+#### Coursera: [Specializations](https://www.coursera.org/specializations)
+#### Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
+#### FutureLearn: [Collections](https://www.futurelearn.com/courses/collections)
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
