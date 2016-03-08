@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.3.11] 2016-03-06
+### Fixed
+- Nand to Tetris: change name and url
+- UC Berkeley Agile development: change name and url
+- Direct links to specializations
+
+## [1.3.10] 2016-03-06
+### Fixed
+- Link from Systematic Program Design Part 2 course
+
 ## [1.3.9] 2015-11-09
 ### Fixed
 - Link for the correct Natural Language Processing course
