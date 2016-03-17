@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.0] 2016-03-17
+### Fixed
+- Program Design section course's names and links
+
+### Removed
+- **Introduction to Computer Science**: 
+	- Introduction to Computer Science
+	- Introduction to Computational Thinking and Data Science
+- **Algorithms**
+	- Analysis of Algorithms
+- **Programming Paradigms**
+	- Principles of Reactive Programming
+- **Math (Calculus)**
+	- Multivariable Calculus
+- **Software Architecture**: 
+	- Web Application Architectures
+- **Software Engineering**: 
+	- Agile Development Using Ruby on Rails - Basics
+	- Agile Development Using Ruby on Rails - Advanced
+	- Startup Engineering
+- **Computer Architecture**: 
+	- The Hardware/Software Interface
+- **Operating Systems**: 
+	- Operating System Engineering
+- **Computer Networks**: 
+	- Introduction to Computer Networking
+- **Cryptography**: 
+	- Applied Cryptography
+
+**ps**: These removed courses are now in the [extras](https://github.com/open-source-society/computer-science/tree/master/extras) section.
+
 ## [1.3.12] 2016-03-17
 ### Added
 - How to collaborate: send new links to the extras section

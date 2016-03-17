@@ -118,9 +118,7 @@ The second link is a MOOC that will teach you learning techniques used by expert
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 12 weeks | 10-20 hours/week
 [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks | 15 hours/week
-[Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
 [From Nand to Tetris (Part 1) ](https://www.coursera.org/learn/build-a-computer) | 6 weeks | 5-10 hours/week
 
 ### Math (Mathematical Thinking)
@@ -133,9 +131,9 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Systematic Program Design- Part 1: The Core Method](https://www.edx.org/course/systematic-program-design-part-1-core-ubcx-spd1x-0)| 5 weeks | 8-12 hours/week
-[Systematic Program Design- Part 2: Arbitrary Sized Data](https://www.edx.org/course/systematic-program-design-part-2-ubcx-spd2x)| 5 weeks | 8-12 hours/week
-[Systematic Program Design- Part 3: Abstraction, Search and Graphs](https://www.edx.org/course/systematic-program-design-part-3-ubcx-spd3x)| 5 weeks | 8-12 hours/week
+[How to Code: Systematic Program Design - Part 1](https://www.edx.org/course/how-code-systematic-program-design-part-ubcx-spd1x)| 5 weeks | 8-12 hours/week
+[How to Code: Systematic Program Design - Part 2](https://www.edx.org/course/how-code-systematic-program-design-part-ubcx-spd2x)| 5 weeks | 8-12 hours/week
+[How to Code: Systematic Program Design - Part 3](https://www.edx.org/course/how-code-systematic-program-design-part-ubcx-spd3x)| 5 weeks | 8-12 hours/week
 
 ### Math (Discrete Math)
 
@@ -149,14 +147,12 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Algorithms, Part I](https://www.coursera.org/course/algs4partI)| 6 weeks | 6-12 hours/week
 [Algorithms, Part II](https://www.coursera.org/course/algs4partII)| 6 weeks |  6-12 hours/week
-[Analysis of Algorithms](https://www.coursera.org/course/aofa)| 6 weeks | 6-8 hours/week
 
 ### Programming Paradigms
 
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Functional Programming Principles in Scala](https://www.coursera.org/course/progfun)| 7 weeks | 5-7 hours/week
-[Principles of Reactive Programming](https://www.coursera.org/course/reactive)| 7 weeks | 5-7 hours/week
 [Object Oriented Programming in Java](https://www.coursera.org/learn/object-oriented-java) | 6 weeks | 4-6 hours/week
 
 ### Software Testing
@@ -172,13 +168,11 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Calculus One](https://www.coursera.org/learn/calculus1)| 16 weeks | 8-10 hours/week
 [Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week
-[Multivariable Calculus](https://www.coursera.org/course/m2o2c2)| 6 weeks | 5-7 hours/week
 
 ### Software Architecture
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Web Application Architectures](https://www.coursera.org/course/webapplications)| 6 weeks | 6-9 hours/week
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week
 
 ### Theory
@@ -191,10 +185,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Agile Development Using Ruby on Rails - Basics](https://www.edx.org/course/agile-development-using-ruby-rails-uc-berkeleyx-cs169-1x)| 9 weeks | 12 hours/week
-[Agile Development Using Ruby on Rails - Advanced](https://www.edx.org/course/agile-development-using-ruby-rails-uc-berkeleyx-cs169-2x)| 8 weeks | 12 hours/week
 [Software Processes and Agile Practices](https://www.coursera.org/learn/software-processes-and-agile-practices)| 4 weeks | 6-8 hours/week
-[Startup Engineering](https://www.coursera.org/course/startup) | 12 weeks | 2-20 hours/week
 
 ### Math (Probability)
 
@@ -206,21 +197,18 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[The Hardware/Software Interface](https://www.coursera.org/course/hwswinterface)| 8 weeks | 10-15 hours/week
 [Computer Architecture](https://www.coursera.org/course/comparch)| - | 5-8 hours/week
 
 ### Operating Systems
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - | -
 [Operating Systems and System Programming](https://www.youtube.com/view_play_list?p=-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)| 10 weeks | 2-3 hours/week
 
 ### Computer Networks
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about) | - | 5-10 hours/week
 [Computer Networks](https://www.coursera.org/course/comnetworks)| - | 4–12 hours/week
 
 ### Databases
@@ -247,7 +235,6 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week
 [Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week
-[Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks | 6 hours/week
 
 ### Security
 
@@ -307,7 +294,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Pattern Discovery in Data Mining](https://www.coursera.org/course/patterndiscovery)| 4 weeks | 4-6 hours/week
+[Pattern Discovery in Data Mining](https://www.coursera.org/course/patterndiscovery) | 4 weeks | 4-6 hours/week
 
 ### Internet of Things
 
@@ -421,7 +408,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `1.3.12`
+**Curriculum Version**: `2.0.0`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
