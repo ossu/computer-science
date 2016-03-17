@@ -421,7 +421,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `1.3.11`
+**Curriculum Version**: `1.3.12`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
@@ -435,9 +435,13 @@ We also include modern topics, making this course one of the **best options** fo
 
 You can [open an issue](https://help.github.com/articles/creating-an-issue/) and give us your suggestions as to how we can improve this guide, or what we can do to improve the learning experience.
 
-You can also [fork this project](https://help.github.com/articles/fork-a-repo/) to fix any mistakes that you have found or add new things, and then make a [pull request](https://help.github.com/articles/using-pull-requests/).
+You can also [fork this project](https://help.github.com/articles/fork-a-repo/) and send a [pull request](https://help.github.com/articles/using-pull-requests/) to fix any mistakes that you have found.
 
-Let's do it together! =)
+If you want to suggest a new resource, send a pull request adding such resource to the [extras](https://github.com/open-source-society/computer-science/tree/master/extras) section.
+
+The **extras** section is a place where all of us will be able to submit interesting additional articles, books, courses and specializations, keeping our curriculum *as immutable and concise as possible*.
+
+**Let's do it together! =)**
 
 ## Community
 
