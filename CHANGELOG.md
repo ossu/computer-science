@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.3.12] 2016-03-17
+### Added
+- How to collaborate: send new links to the extras section
+
 ## [1.3.11] 2016-03-06
 ### Fixed
 - Nand to Tetris: change name and url

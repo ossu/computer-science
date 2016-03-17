@@ -32,7 +32,6 @@
 - [Big Data](#big-data)
 - [Data Mining](#data-mining)
 - [Internet of Things](#internet-of-things)
-- [Specializations](#specializations)
 
 ---
 
