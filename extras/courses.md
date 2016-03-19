@@ -40,6 +40,8 @@
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 12 weeks | 10-20 hours/week
+[An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/learn/interactive-python-1)| 5 weeks | -
+[An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/learn/interactive-python-2)| - | -
 [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
 
 ### Math (Mathematical Thinking)
