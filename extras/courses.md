@@ -129,6 +129,9 @@ Courses | Duration | Effort
 ### Computer Graphics
 
 ### Artificial Intelligence
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Discrete Optimization](https://www.coursera.org/course/optimization)| 9 weeks | 10-20 hours/week
 
 ### Machine Learning
 
