@@ -55,7 +55,6 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Analysis of Algorithms](https://www.coursera.org/course/aofa)| 6 weeks | 6-8 hours/week
-[Discrete Optimization](https://www.coursera.org/course/optimization)| 9 weeks of study | 10-20 hours/week
 
 ### Programming Paradigms
 
@@ -130,6 +129,7 @@ Courses | Duration | Effort
 ### Computer Graphics
 
 ### Artificial Intelligence
+[Discrete Optimization](https://www.coursera.org/course/optimization)| 9 weeks | 10-20 hours/week
 
 ### Machine Learning
 
