@@ -118,10 +118,11 @@ The second link is a MOOC that will teach you learning techniques used by expert
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 12 weeks | 10-20 hours/week
-[Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks | 15 hours/week
-[Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
-[From Nand to Tetris](https://www.coursera.org/course/nand2tetris1) | 7 weeks | 5-10 hours/week
+[Introduction to Computer Science (Udacity)](https://www.udacity.com/course/intro-to-computer-science--cs101)| 7 weeks | 10-20 hours/week
+[Introduction to Computer Science (Edx)](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 12 weeks | 10-20 hours/week
+[Introduction to Computer Science and Programming Using Python (Edx)](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks | 15 hours/week
+[Introduction to Computational Thinking and Data Science (Edx)](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
+[From Nand to Tetris (Coursera)](https://www.coursera.org/course/nand2tetris1) | 7 weeks | 5-10 hours/week
 
 ### Math (Mathematical Thinking)
 
