@@ -133,16 +133,13 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Discrete Optimization](https://www.coursera.org/course/optimization)| 9 weeks | 10-20 hours/week
-
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Intro to Artificial Intelligence (Udacity)](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271)| 16 weeks | 6-10 hours/week
+[Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271)| 16 weeks | 6-10 hours/week
 
 ### Machine Learning
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Intro to Machine Learning (Udacity)](https://www.udacity.com/course/intro-to-machine-learning--ud120)| 10 weeks | 6-10 hours/week
+[Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)| 10 weeks | 6-10 hours/week
 
 ### Natural Language Processing
 
