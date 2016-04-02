@@ -341,7 +341,7 @@ You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 
 
 Here in **OSS University**, you do **not** need to take exams, because we are focused on **real projects**!
 
-In order to show for everyone that you **successfully** finished a course, you should create a **"startup project"**.
+In order to show for everyone that you **successfully** finished a course, you should create a **real project**.
 
 > "What does it mean?"
 
