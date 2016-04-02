@@ -70,6 +70,8 @@ Courses | Duration | Effort
 [Advanced Operating Systems (Udacity)](https://www.udacity.com/course/advanced-operating-systems--ud189)| 5 weeks | 6 hours/week
 
 ### Computer Networks
+:-- | :--: | :--:
+[Computer Networking (Udacity)](https://www.udacity.com/course/computer-networking--ud436)| 12 weeks | 6 hours/week
 
 ### Databases
 
