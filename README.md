@@ -40,7 +40,7 @@ Just create an account on GitHub and log in with this account in our web app.
 
 The intention of this app is to offer for our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
 
-In the "My Progress" tab, you will be able to edit the status of the courses that you are taking, and also add the link of your final project for each one.
+In the "My Progress" tab, you are able to edit the status of the courses that you are taking, and also add the link of your final project for each one.
 
 ## Motivation & Preparation
 
