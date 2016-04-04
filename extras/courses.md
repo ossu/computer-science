@@ -66,13 +66,13 @@
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Introduction to Operating Systems (Udacity)](https://www.udacity.com/course/introduction-to-operating-systems--ud923)| 8 weeks | 6 hours/week
-[Advanced Operating Systems (Udacity)](https://www.udacity.com/course/advanced-operating-systems--ud189)| 5 weeks | 6 hours/week
+[Introduction to Operating Systems](https://www.udacity.com/course/introduction-to-operating-systems--ud923)| 8 weeks | 6 hours/week
+[Advanced Operating Systems](https://www.udacity.com/course/advanced-operating-systems--ud189)| 5 weeks | 6 hours/week
 
 ### Computer Networks
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Computer Networking (Udacity)](https://www.udacity.com/course/computer-networking--ud436)| 12 weeks | 6 hours/week
+[Computer Networking](https://www.udacity.com/course/computer-networking--ud436)| 12 weeks | 6 hours/week
 
 ### Databases
 
