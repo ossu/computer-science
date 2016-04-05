@@ -96,8 +96,8 @@ The second link is a MOOC that will teach you learning techniques used by expert
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks | 15 hours/week
-[From Nand to Tetris (Part 1) ](https://www.coursera.org/learn/build-a-computer) | 6 weeks | 5-10 hours/week
+[Introduction to Computer Science and Programming Using Python    (edx)](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks | 15 hours/week
+[From Nand to Tetris (Part 1) (coursera)](https://www.coursera.org/learn/build-a-computer) | 6 weeks | 5-10 hours/week
 
 ### Math (Mathematical Thinking)
 
