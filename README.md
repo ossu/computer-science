@@ -1,5 +1,5 @@
 
-![Open Source Society University (OSSU)](http://i.imgur.com/h8xjrrj.png)
+![Open Source Society University (OSSU)](http://i.imgur.com/GjEbgIJ.png)
 
 <h3 align="center">Open Source Society University</h3>
 <p align="center">
