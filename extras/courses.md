@@ -64,6 +64,9 @@ Courses | Duration | Effort
 [Principles of Reactive Programming](https://www.coursera.org/course/reactive)| 7 weeks | 5-7 hours/week
 [Introduction to Programming with Java Part 1: Starting to Code with Java](https://prod-edx-mktg-edit.edx.org/course/introduction-programming-java-part-1-uc3mx-it-1-1x-0)| 5 weeks | 5-7 hours/week
 [Introduction to Programming with Java Part 2: Writing Good Code](https://prod-edx-mktg-edit.edx.org/course/introduction-programming-java-part-2-uc3mx-it-1-2x)| 5 weeks | 5-7 hours/week
+[Introduction to Java Programming – Part 1](https://prod-edx-mktg-edit.edx.org/course/introduction-java-programming-part-1-hkustx-comp102-1x)| 5 weeks | 3-5 hours/week
+[Introduction to Java Programming – Part 2](https://prod-edx-mktg-edit.edx.org/course/introduction-java-programming-part-2-hkustx-comp102-2x-0)| 5 weeks | 3-5 hours/week
+
 
 ### Software Testing
 
