@@ -44,7 +44,7 @@ Courses | Duration | Effort
 [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/learn/interactive-python-1)| 5 weeks | -
 [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/learn/interactive-python-2)| - | -
 [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
-
+Hmm
 ### Math (Mathematical Thinking)
 
 ### Program Design
@@ -65,8 +65,6 @@ Courses | Duration | Effort
 [Introduction to Programming with Java Part 1: Starting to Code with Java](https://prod-edx-mktg-edit.edx.org/course/introduction-programming-java-part-1-uc3mx-it-1-1x-0)| 5 weeks | 5-7 hours/week
 [Introduction to Programming with Java Part 2: Writing Good Code](https://prod-edx-mktg-edit.edx.org/course/introduction-programming-java-part-2-uc3mx-it-1-2x)| 5 weeks | 5-7 hours/week
 [Introduction to Java Programming – Part 1](https://prod-edx-mktg-edit.edx.org/course/introduction-java-programming-part-1-hkustx-comp102-1x)| 5 weeks | 3-5 hours/week
-[Introduction to Java Programming – Part 2](https://prod-edx-mktg-edit.edx.org/course/introduction-java-programming-part-2-hkustx-comp102-2x-0)| 5 weeks | 3-5 hours/week
-
 
 ### Software Testing
 
