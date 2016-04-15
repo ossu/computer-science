@@ -44,7 +44,8 @@ Courses | Duration | Effort
 [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/learn/interactive-python-1)| 5 weeks | -
 [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/learn/interactive-python-2)| - | -
 [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
-
+[Introduction to Programming with Java Part 1: Starting to Code with Java](https://prod-edx-mktg-edit.edx.org/course/introduction-programming-java-part-1-uc3mx-it-1-1x-0)| 5 weeks | 5-7 hours/week
+[Introduction to Programming with Java Part 2: Writing Good Code](https://prod-edx-mktg-edit.edx.org/course/introduction-programming-java-part-2-uc3mx-it-1-2x)| 5 weeks | 5-7 hours/week
 ### Math (Mathematical Thinking)
 
 ### Program Design
@@ -100,6 +101,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - | -
+[Introduction to Linux](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-0)| 8 weeks | self paced
 
 ### Computer Networks
 
