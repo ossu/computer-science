@@ -46,6 +46,7 @@ Courses | Duration | Effort
 [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
 [Introduction to Programming with Java Part 1: Starting to Code with Java](https://prod-edx-mktg-edit.edx.org/course/introduction-programming-java-part-1-uc3mx-it-1-1x-0)| 5 weeks | 5-7 hours/week
 [Introduction to Programming with Java Part 2: Writing Good Code](https://prod-edx-mktg-edit.edx.org/course/introduction-programming-java-part-2-uc3mx-it-1-2x)| 5 weeks | 5-7 hours/week
+[CS For All: Introduction to Computer Science and Python Programming](https://www.edx.org/course/cs-all-introduction-computer-science-harveymuddx-cs005x-0)| 14 weeks | 5-7 hours/week
 ### Math (Mathematical Thinking)
 
 ### Program Design
