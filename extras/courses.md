@@ -77,6 +77,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
+[Pre-Calculus](https://www.coursera.org/course/precalculus)| 10 weeks | 10-12 hours/week
 [Multivariable Calculus](https://www.coursera.org/course/m2o2c2)| 6 weeks | 5-7 hours/week
 
 ### Software Architecture
