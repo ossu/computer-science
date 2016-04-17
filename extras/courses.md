@@ -48,6 +48,7 @@ Courses | Duration | Effort
 [Introduction to Programming with Java Part 2: Writing Good Code](https://prod-edx-mktg-edit.edx.org/course/introduction-programming-java-part-2-uc3mx-it-1-2x)| 5 weeks | 5-7 hours/week
 [CS For All: Introduction to Computer Science and Python Programming](https://www.edx.org/course/cs-all-introduction-computer-science-harveymuddx-cs005x-0)| 14 weeks | 5-7 hours/week
 [Programming Basics](https://www.edx.org/course/programming-basics-iitbombayx-cs101-1x)| 9 weeks | 8 hours/week
+[Introduction to Logic](https://www.coursera.org/course/intrologic)| 8 weeks | 4-10 hours/week
 
 ### Math (Mathematical Thinking)
 :-- | :--: | :--:
