@@ -50,6 +50,8 @@ Courses | Duration | Effort
 [Programming Basics](https://www.edx.org/course/programming-basics-iitbombayx-cs101-1x)| 9 weeks | 8 hours/week
 
 ### Math (Mathematical Thinking)
+:-- | :--: | :--:
+[Introduction to Mathematical Thinking](https://www.coursera.org/course/maththink)| 10 weeks | 8-10 hours/week
 
 ### Program Design
 
