@@ -51,6 +51,8 @@ Courses | Duration | Effort
 [Introduction to Logic](https://www.coursera.org/course/intrologic)| 8 weeks | 4-10 hours/week
 
 ### Math (Mathematical Thinking)
+
+Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to Mathematical Thinking](https://www.coursera.org/course/maththink)| 10 weeks | 8-10 hours/week
 
