@@ -129,7 +129,6 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks | 6 hours/week
 [Cryptography](https://www.coursera.org/learn/cryptography/)| 7 weeks | 4-7 hours/week
-[Cryptography I](https://www.coursera.org/learn/crypto/)| 7 weeks | 4-7 hours/week
 ### Security
 Courses | Duration | Effort
 :-- | :--: | :--:
