@@ -112,16 +112,20 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - | -
 [Introduction to Linux](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-0)| 8 weeks | 5-8 hours/week
-[CompTIA Linux+](https://www.cybrary.it/course/comptia-linux-plus/)| 4 module| 5.25 hours
+[CompTIA Linux+](https://www.cybrary.it/course/comptia-linux-plus/)| 4 modules | 5.25 hours
 ### Computer Networks
 
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about) | - | 5-10 hours/week
+[CompTIA Network+](https://www.cybrary.it/course/comptia-network-plus/) | 35 modules | 32 hours
 
 ### Databases
 
 ### Cloud Computing
+Courses | Duration | Effort
+:-- | :--: | :--:
+[CompTIA Cloud+](https://www.cybrary.it/course/comptia-cloud-plus/) | 10 modules | 2.5 hours
 
 ### Math (Linear Algebra)
 
@@ -131,7 +135,7 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks | 6 hours/week
 [Cryptography](https://www.coursera.org/learn/cryptography/)| 7 weeks | 4-7 hours/week
-[Cryptography](https://www.cybrary.it/course/cryptography/)| 3 module | 2.9 hours
+[Cryptography](https://www.cybrary.it/course/cryptography/)| 3 modules | 2.9 hours
 ### Security
 Courses | Duration | Effort
 :-- | :--: | :--:
