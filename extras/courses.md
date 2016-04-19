@@ -133,9 +133,14 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks | 6 hours/week
-
+[Cryptography](https://www.coursera.org/learn/cryptography/)| 7 weeks | 4-7 hours/week
 ### Security
-
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Usable Security](https://www.coursera.org/learn/usable-security/)| 7 weeks | 5-8 hours/week
+[Software Security](https://www.coursera.org/learn/software-security/)| 6 weeks | 3-5 hours/week
+[Cybersecurity and Its Ten Domains](https://www.coursera.org/learn/cyber-security-domain/)| 7 weeks | 4-7 hours/week
+[Designing and Executing Information Security Strategies](https://www.coursera.org/course/infosec)| 10 weeks | 4-6 hours/week
 ### Compilers
 
 ### Parallel Computing
@@ -163,3 +168,11 @@ Courses | Duration | Effort
 ### Data Mining
 
 ### Internet of Things
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Introduction to the Internet of Things and Embedded Systems](https://www.coursera.org/learn/iot/?source=phoenixCdp2016AbTest)| 4 weeks | 1-3 hours/week
+[Internet of Things: How did we get here?](https://www.coursera.org/learn/internet-of-things-history/)| 2 weeks | 2-3 hours/week
+[Internet of Things: Setting Up Your DragonBoard™ Development Platform](https://www.coursera.org/learn/internet-of-things-dragonboard/)| 10 weeks | 2-3 hours/week
+[Internet of Things: Sensing and Actuation From Devices](https://www.coursera.org/learn/internet-of-things-sensing-actuation)| 6 weeks | 3-5 hours/week
+[Internet of Things: Communication Technologies](https://www.coursera.org/learn/internet-of-things-communication)| 4 weeks | 1 hours/week
+[Internet of Things: MultimediaTechnologies](https://www.coursera.org/learn/internet-of-things-multimedia)| 3 weeks | 1-2 hours/week
