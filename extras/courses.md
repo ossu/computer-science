@@ -136,6 +136,7 @@ Courses | Duration | Effort
 [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks | 6 hours/week
 [Cryptography](https://www.coursera.org/learn/cryptography/)| 7 weeks | 4-7 hours/week
 [Cryptography](https://www.cybrary.it/course/cryptography/)| 3 modules | 2.9 hours
+
 ### Security
 Courses | Duration | Effort
 :-- | :--: | :--:
@@ -144,6 +145,8 @@ Courses | Duration | Effort
 [Cybersecurity and Its Ten Domains](https://www.coursera.org/learn/cyber-security-domain/)| 7 weeks | 4-7 hours/week
 [Designing and Executing Information Security Strategies](https://www.coursera.org/course/infosec)| 10 weeks | 4-6 hours/week
 [CompTIA Security+](https://www.cybrary.it/course/comptia-security-plus/)| 7 modules | 9.5 hours
+[Cyberwar, Surveillance and Security](https://www.edx.org/course/cyberwar-surveillance-security-adelaidex-cyber101x-0)| 6 weeks | 2-3 hours/week
+
 ### Compilers
 
 ### Parallel Computing
