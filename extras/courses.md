@@ -112,7 +112,7 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - | -
 [Introduction to Linux](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-0)| 8 weeks | 5-8 hours/week
-
+[CompTIA Linux+](https://www.cybrary.it/course/comptia-linux-plus/)| 4 module| 5.25 hours
 ### Computer Networks
 
 Courses | Duration | Effort
@@ -131,7 +131,7 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks | 6 hours/week
 [Cryptography](https://www.coursera.org/learn/cryptography/)| 7 weeks | 4-7 hours/week
-[Cryptography](https://www.cybrary.it/course/cryptography/)| 3 weeks | 6-8 hours/week
+[Cryptography](https://www.cybrary.it/course/cryptography/)| 3 module | 2.9 hours
 ### Security
 Courses | Duration | Effort
 :-- | :--: | :--:
