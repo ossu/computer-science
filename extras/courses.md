@@ -167,6 +167,7 @@ Courses | Duration | Effort
 ### Internet of Things
 Courses | Duration | Effort
 :-- | :--: | :--:
+[Introduction to the Internet of Things and Embedded Systems](https://www.coursera.org/learn/iot/?source=phoenixCdp2016AbTest)| 4 weeks | 1-3 hours/week
 [Internet of Things: How did we get here?](https://www.coursera.org/learn/internet-of-things-history/)| 2 weeks | 2-3 hours/week
 [Internet of Things: Setting Up Your DragonBoard™ Development Platform](https://www.coursera.org/learn/internet-of-things-dragonboard/)| 10 weeks | 2-3 hours/week
 [Internet of Things: Sensing and Actuation From Devices](https://www.coursera.org/learn/internet-of-things-sensing-actuation)| 6 weeks | 3-5 hours/week
