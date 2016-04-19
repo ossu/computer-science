@@ -143,6 +143,7 @@ Courses | Duration | Effort
 [Software Security](https://www.coursera.org/learn/software-security/)| 6 weeks | 3-5 hours/week
 [Cybersecurity and Its Ten Domains](https://www.coursera.org/learn/cyber-security-domain/)| 7 weeks | 4-7 hours/week
 [Designing and Executing Information Security Strategies](https://www.coursera.org/course/infosec)| 10 weeks | 4-6 hours/week
+[CompTIA Security+](https://www.cybrary.it/course/comptia-security-plus/)| 7 modules | 9.5 hours
 ### Compilers
 
 ### Parallel Computing
