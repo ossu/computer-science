@@ -1,5 +1,5 @@
 
-![Open Source Society University (OSSU)](http://i.imgur.com/h8xjrrj.png)
+![Open Source Society University (OSSU)](http://i.imgur.com/GjEbgIJ.png)
 
 <h3 align="center">Open Source Society University</h3>
 <p align="center">
@@ -32,37 +32,15 @@ In our curriculum, we gave preference to MOOC (Massive Open Online Course) style
 
 ## Becoming an OSS student
 
-To officially register for this course you must create a profile in our [students profile](https://github.com/open-source-society/computer-science/issues/259) issue.
+To officially register for this course you must create a profile in our [web app](https://ossu.firebaseapp.com).
 
 > **"How can I do this?"**
 
-Comment in [this](https://github.com/open-source-society/computer-science/issues/259) issue  (please, do **not** open a new one) using the following template:
+Just create an account on GitHub and log in with this account in our web app.
 
-```
-- **Name**: YOUR NAME
-- **GitHub**: [@your_username]()
-- **Twitter**: [@your_username]()
-- **Linkedin**: [link]()
-- **Website**: [yourblog.com]()
+The intention of this app is to offer for our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
 
-## Completed Courses
-
-**Name of the Section**
-
-Course|Files
-:--|:--:
-Course Name| [link]()
-```
-
-**IMPORTANT**: add your profile **only once** and **after** you **finish** each course you can **return** to that issue and **update** your comment.
-
-**ps**: In the *Completed Courses* section, you should link the repository that contains the files that you created in the respective course.
-
-> **"Why should I do this?"**
-
-This is a way to get to know our peers better, and an opportunity to share the things that we have done.
-
-That is why we are using this strategy. You are free to bypass this if you're not that type.
+In the "My Progress" tab, you are able to edit the status of the courses that you are taking, and also add the link of your final project for each one.
 
 ## Motivation & Preparation
 
@@ -341,7 +319,7 @@ You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 
 
 Here in **OSS University**, you do **not** need to take exams, because we are focused on **real projects**!
 
-In order to show for everyone that you **successfully** finished a course, you should create a **"startup project"**.
+In order to show for everyone that you **successfully** finished a course, you should create a **real project**.
 
 > "What does it mean?"
 
@@ -400,7 +378,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 **Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started!
 
 - [Try Git](https://try.github.io/levels/1/challenges/1)
-- [Git - the simple guide] (http://rogerdudler.github.io/git-guide/)
+- [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
 - [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
 - [GitHub Hello World](https://guides.github.com/activities/hello-world/)
 - [Git Immersion](http://gitimmersion.com/index.html)
@@ -408,7 +386,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `2.0.0`
+**Curriculum Version**: `2.0.1`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
