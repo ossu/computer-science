@@ -128,9 +128,6 @@ Courses | Duration | Effort
 [CompTIA Cloud+](https://www.cybrary.it/course/comptia-cloud-plus/) | 10 modules | 2.5 hours
 
 ### Math (Linear Algebra)
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Linear Algebra - Foundations to Frontiers (LAFF)] (https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-03x)| 15 weeks | 8 hours/week
 
 ### Cryptography
 
@@ -170,6 +167,9 @@ Courses | Duration | Effort
 ### Natural Language Processing
 
 ### Big Data
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Big Data for Smart Cities](https://www.edx.org/course/big-data-smart-cities-ieeex-introdatax)| 4 weeks | 3-5 hours/week
 
 ### Data Mining
 
