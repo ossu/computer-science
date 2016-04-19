@@ -165,3 +165,8 @@ Courses | Duration | Effort
 ### Data Mining
 
 ### Internet of Things
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Internet of Things: How did we get here?](https://www.coursera.org/learn/internet-of-things-history/)| 2 weeks | 2-3 hours/week
+[Internet of Things: Setting Up Your DragonBoard™ Development Platform](https://www.coursera.org/learn/internet-of-things-dragonboard/)| 10 weeks | 2-3 hours/week
+[Internet of Things: Sensing and Actuation From Devices](https://www.coursera.org/learn/internet-of-things-sensing-actuation)| 6 weeks | 3-5 hours/week
