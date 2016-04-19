@@ -165,7 +165,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)| 10 weeks | 6-10 hours/week
-[Machine Learning for Data Science and Analyticshttps://www.edx.org/course/machine-learning-data-science-analytics-columbiax-ds102x-0)| 5 weeks | 7-10 hours/week
+[Machine Learning for Data Science and Analytics](https://www.edx.org/course/machine-learning-data-science-analytics-columbiax-ds102x-0)| 5 weeks | 7-10 hours/week
 
 ### Natural Language Processing
 
@@ -175,8 +175,10 @@ Courses | Duration | Effort
 [Big Data for Smart Cities](https://www.edx.org/course/big-data-smart-cities-ieeex-introdatax)| 4 weeks | 3-5 hours/week
 [Processing Big Data with Azure HDInsight](https://www.edx.org/course/processing-big-data-azure-hdinsight-microsoft-dat202-1x-0)| 5 weeks | 3-4 hours/week
 
-
 ### Data Mining
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Mining Massive Datasets](https://www.coursera.org/course/mmds)| 7 weeks | 8-10 hours/week
 
 ### Internet of Things
 Courses | Duration | Effort
