@@ -114,7 +114,7 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - | -
 [Introduction to Linux](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-0)| 8 weeks | 5-8 hours/week
-[CompTIA Linux+](https://www.cybrary.it/course/comptia-linux-plus/)| 4 modules | 5.25 hours
+[CompTIA Linux+](https://www.cybrary.it/course/comptia-linux-plus/)| - | 5.25 hours
 ### Computer Networks
 
 Courses | Duration | Effort
@@ -140,7 +140,7 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks | 6 hours/week
 [Cryptography](https://www.coursera.org/learn/cryptography/)| 7 weeks | 4-7 hours/week
-[Cryptography](https://www.cybrary.it/course/cryptography/)| 3 modules | 2.9 hours
+[Cryptography](https://www.cybrary.it/course/cryptography/)| - | 2.9 hours
 
 ### Security
 Courses | Duration | Effort
@@ -149,7 +149,7 @@ Courses | Duration | Effort
 [Software Security](https://www.coursera.org/learn/software-security/)| 6 weeks | 3-5 hours/week
 [Cybersecurity and Its Ten Domains](https://www.coursera.org/learn/cyber-security-domain/)| 7 weeks | 4-7 hours/week
 [Designing and Executing Information Security Strategies](https://www.coursera.org/course/infosec)| 10 weeks | 4-6 hours/week
-[CompTIA Security+](https://www.cybrary.it/course/comptia-security-plus/)| 7 modules | 9.5 hours
+[CompTIA Security+](https://www.cybrary.it/course/comptia-security-plus/)| - | 9.5 hours
 [Cyberwar, Surveillance and Security](https://www.edx.org/course/cyberwar-surveillance-security-adelaidex-cyber101x-0)| 6 weeks | 2-3 hours/week
 
 ### Compilers
