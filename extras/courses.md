@@ -64,7 +64,9 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Analysis of Algorithms](https://www.coursera.org/course/aofa)| 6 weeks | 6-8 hours/week
+[Analysis of Algorithms (Skiena)](http://www3.cs.stonybrook.edu/~skiena/373/) | 15 weeks | 6-8 hours/week 
+[Analysis of Algorithms (Sedgewick)](https://www.coursera.org/course/aofa)| 6 weeks | 6-8 hours/week
+[Programming Challenges (Skiena)](http://www3.cs.stonybrook.edu/~skiena/392/) | 14 weeks | 6-8 hours/week
 
 ### Programming Paradigms
 
