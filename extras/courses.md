@@ -120,14 +120,14 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about) | - | 5-10 hours/week
-[CompTIA Network+](https://www.cybrary.it/course/comptia-network-plus/) | 35 modules | 32 hours
+[CompTIA Network+](https://www.cybrary.it/course/comptia-network-plus/) | - | 32 hours
 
 ### Databases
 
 ### Cloud Computing
 Courses | Duration | Effort
 :-- | :--: | :--:
-[CompTIA Cloud+](https://www.cybrary.it/course/comptia-cloud-plus/) | 10 modules | 2.5 hours
+[CompTIA Cloud+](https://www.cybrary.it/course/comptia-cloud-plus/) | - | 2.5 hours
 
 ### Math (Linear Algebra)
 Courses | Duration | Effort
