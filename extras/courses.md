@@ -114,21 +114,25 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - | -
 [Introduction to Linux](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-0)| 8 weeks | 5-8 hours/week
-
+[CompTIA Linux+](https://www.cybrary.it/course/comptia-linux-plus/)| - | 5.25 hours
 ### Computer Networks
 
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about) | - | 5-10 hours/week
+[CompTIA Network+](https://www.cybrary.it/course/comptia-network-plus/) | - | 32 hours
 
 ### Databases
 
 ### Cloud Computing
+Courses | Duration | Effort
+:-- | :--: | :--:
+[CompTIA Cloud+](https://www.cybrary.it/course/comptia-cloud-plus/) | - | 2.5 hours
 
 ### Math (Linear Algebra)
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Linear Algebra - Foundations to Frontiers (LAFF)] (https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-03x)| 15 weeks | 8 hours/week
+[Linear Algebra - Foundations to Frontiers (LAFF)](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-03x)| 15 weeks | 8 hours/week
 
 ### Cryptography
 
@@ -136,6 +140,8 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387)| 8 weeks | 6 hours/week
 [Cryptography](https://www.coursera.org/learn/cryptography/)| 7 weeks | 4-7 hours/week
+[Cryptography](https://www.cybrary.it/course/cryptography/)| - | 2.9 hours
+
 ### Security
 Courses | Duration | Effort
 :-- | :--: | :--:
@@ -143,6 +149,9 @@ Courses | Duration | Effort
 [Software Security](https://www.coursera.org/learn/software-security/)| 6 weeks | 3-5 hours/week
 [Cybersecurity and Its Ten Domains](https://www.coursera.org/learn/cyber-security-domain/)| 7 weeks | 4-7 hours/week
 [Designing and Executing Information Security Strategies](https://www.coursera.org/course/infosec)| 10 weeks | 4-6 hours/week
+[CompTIA Security+](https://www.cybrary.it/course/comptia-security-plus/)| - | 9.5 hours
+[Cyberwar, Surveillance and Security](https://www.edx.org/course/cyberwar-surveillance-security-adelaidex-cyber101x-0)| 6 weeks | 2-3 hours/week
+
 ### Compilers
 
 ### Parallel Computing
@@ -158,16 +167,23 @@ Courses | Duration | Effort
 [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271)| 16 weeks | 6-10 hours/week
 
 ### Machine Learning
-
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)| 10 weeks | 6-10 hours/week
+[Machine Learning for Data Science and Analytics](https://www.edx.org/course/machine-learning-data-science-analytics-columbiax-ds102x-0)| 5 weeks | 7-10 hours/week
 
 ### Natural Language Processing
 
 ### Big Data
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Big Data for Smart Cities](https://www.edx.org/course/big-data-smart-cities-ieeex-introdatax)| 4 weeks | 3-5 hours/week
+[Processing Big Data with Azure HDInsight](https://www.edx.org/course/processing-big-data-azure-hdinsight-microsoft-dat202-1x-0)| 5 weeks | 3-4 hours/week
 
 ### Data Mining
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Mining Massive Datasets](https://www.coursera.org/course/mmds)| 7 weeks | 8-10 hours/week
 
 ### Internet of Things
 Courses | Duration | Effort
