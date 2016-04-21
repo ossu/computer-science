@@ -134,6 +134,7 @@ Courses | Duration | Effort
 [CompTIA Cloud+](https://www.cybrary.it/course/comptia-cloud-plus/) | - | 2.5 hours
 [Cloud Computing Concepts](https://www.coursera.org/course/cloudcomputing) | 5 weeks | 4-8 hours/week
 [Cloud Computing Concepts: Part 2](https://www.coursera.org/course/cloudcomputing2) | 5 weeks | 4-8 hours/week
+[Cloud Computing Applications](https://www.coursera.org/course/cloudapplications) | 5 weeks | 10-15 hours/week
 
 ### Math (Linear Algebra)
 Courses | Duration | Effort
