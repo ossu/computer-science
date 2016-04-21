@@ -49,6 +49,7 @@ Courses | Duration | Effort
 [CS For All: Introduction to Computer Science and Python Programming](https://www.edx.org/course/cs-all-introduction-computer-science-harveymuddx-cs005x-0)| 14 weeks | 5-7 hours/week
 [Programming Basics](https://www.edx.org/course/programming-basics-iitbombayx-cs101-1x)| 9 weeks | 8 hours/week
 [Introduction to Logic](https://www.coursera.org/course/intrologic)| 8 weeks | 4-10 hours/week
+[Introduction to Programming with MATLAB](https://www.coursera.org/learn/matlab)| - | -
 
 ### Math (Mathematical Thinking)
 
@@ -101,6 +102,9 @@ Courses | Duration | Effort
 [Startup Engineering](https://www.coursera.org/course/startup) | 12 weeks | 2-20 hours/week
 
 ### Math (Probability)
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro)| - | -
 
 ### Computer Architecture
 
@@ -123,11 +127,17 @@ Courses | Duration | Effort
 [CompTIA Network+](https://www.cybrary.it/course/comptia-network-plus/) | - | 32 hours
 
 ### Databases
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Using Databases with Python](https://www.coursera.org/learn/python-databases) | 5 weeks | 2-3 hours/week
 
 ### Cloud Computing
 Courses | Duration | Effort
 :-- | :--: | :--:
 [CompTIA Cloud+](https://www.cybrary.it/course/comptia-cloud-plus/) | - | 2.5 hours
+[Cloud Computing Concepts](https://www.coursera.org/course/cloudcomputing) | 5 weeks | 4-8 hours/week
+[Cloud Computing Concepts: Part 2](https://www.coursera.org/course/cloudcomputing2) | 5 weeks | 4-8 hours/week
+[Cloud Computing Applications](https://www.coursera.org/course/cloudapplications) | 5 weeks | 10-15 hours/week
 
 ### Math (Linear Algebra)
 Courses | Duration | Effort
@@ -179,11 +189,16 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Big Data for Smart Cities](https://www.edx.org/course/big-data-smart-cities-ieeex-introdatax)| 4 weeks | 3-5 hours/week
 [Processing Big Data with Azure HDInsight](https://www.edx.org/course/processing-big-data-azure-hdinsight-microsoft-dat202-1x-0)| 5 weeks | 3-4 hours/week
+[Big Data Science with the BD2K-LINCS Data Coordination and Integration Center](https://www.coursera.org/course/bd2klincs)| 7 weeks | 4-5 hours/week
 
 ### Data Mining
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Mining Massive Datasets](https://www.coursera.org/course/mmds)| 7 weeks | 8-10 hours/week
+[Text Retrieval and Search Engines](https://www.coursera.org/learn/text-retrieval)| - | -
+[Text Mining and Analytics](https://www.coursera.org/learn/text-mining)| - | -
+[Pattern Discovery in Data Mining](https://www.coursera.org/learn/data-patterns)| - | -
+[Cluster Analysis in Data Mining](https://www.coursera.org/learn/cluster-analysis)| - | -
 
 ### Internet of Things
 Courses | Duration | Effort
