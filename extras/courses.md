@@ -124,6 +124,9 @@ Courses | Duration | Effort
 [CompTIA Network+](https://www.cybrary.it/course/comptia-network-plus/) | - | 32 hours
 
 ### Databases
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Using Databases with Python](https://www.coursera.org/learn/python-databases) | 5 weeks | 2-3 hours/week
 
 ### Cloud Computing
 Courses | Duration | Effort
@@ -185,7 +188,10 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Mining Massive Datasets](https://www.coursera.org/course/mmds)| 7 weeks | 8-10 hours/week
+[Text Retrieval and Search Engines](https://www.coursera.org/learn/text-retrieval)| - | -
 [Text Mining and Analytics](https://www.coursera.org/learn/text-mining)| - | -
+[Pattern Discovery in Data Mining](https://www.coursera.org/learn/data-patterns)| - | -
+[Cluster Analysis in Data Mining](https://www.coursera.org/learn/cluster-analysis)| - | -
 
 ### Internet of Things
 Courses | Duration | Effort
