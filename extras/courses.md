@@ -102,6 +102,9 @@ Courses | Duration | Effort
 [Startup Engineering](https://www.coursera.org/course/startup) | 12 weeks | 2-20 hours/week
 
 ### Math (Probability)
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro)| - | -
 
 ### Computer Architecture
 
