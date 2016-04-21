@@ -185,6 +185,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Mining Massive Datasets](https://www.coursera.org/course/mmds)| 7 weeks | 8-10 hours/week
+[Text Mining and Analytics](https://www.coursera.org/learn/text-mining)| - | -
 
 ### Internet of Things
 Courses | Duration | Effort
