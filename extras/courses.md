@@ -183,6 +183,7 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Big Data for Smart Cities](https://www.edx.org/course/big-data-smart-cities-ieeex-introdatax)| 4 weeks | 3-5 hours/week
 [Processing Big Data with Azure HDInsight](https://www.edx.org/course/processing-big-data-azure-hdinsight-microsoft-dat202-1x-0)| 5 weeks | 3-4 hours/week
+[Big Data Science with the BD2K-LINCS Data Coordination and Integration Center](https://www.coursera.org/course/bd2klincs)| 7 weeks | 4-5 hours/week
 
 ### Data Mining
 Courses | Duration | Effort
