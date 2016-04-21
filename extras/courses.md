@@ -49,6 +49,7 @@ Courses | Duration | Effort
 [CS For All: Introduction to Computer Science and Python Programming](https://www.edx.org/course/cs-all-introduction-computer-science-harveymuddx-cs005x-0)| 14 weeks | 5-7 hours/week
 [Programming Basics](https://www.edx.org/course/programming-basics-iitbombayx-cs101-1x)| 9 weeks | 8 hours/week
 [Introduction to Logic](https://www.coursera.org/course/intrologic)| 8 weeks | 4-10 hours/week
+[Introduction to Programming with MATLAB](https://www.coursera.org/learn/matlab)| - | -
 
 ### Math (Mathematical Thinking)
 
