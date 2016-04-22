@@ -75,6 +75,7 @@ Courses | Duration | Effort
 [Advanced Algorithms and Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity/) | - | -
 [Analysis of Algorithms](https://www.coursera.org/course/aofa) | 6 weeks | 6-8 hours/week
 [Algorithmic Thinking (Part 1)](https://www.coursera.org/learn/algorithmic-thinking-1/) | - | -
+[Algorithmic Thinking (Part 2)](https://www.coursera.org/learn/algorithmic-thinking-2/) | - | -
 
 ### Programming Paradigms
 
