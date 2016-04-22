@@ -72,6 +72,7 @@ Courses | Duration | Effort
 [Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox/) | 5 weeks | 4-8 hours/week
 [Algorithms on Graphs and Trees](https://www.coursera.org/learn/algorithms-on-graphs-and-trees/) | - | -
 [Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/) | - | -
+[Advanced Algorithms and Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity/) | - | -
 [Analysis of Algorithms](https://www.coursera.org/course/aofa) | 6 weeks | 6-8 hours/week
 
 ### Programming Paradigms
