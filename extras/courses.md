@@ -77,6 +77,7 @@ Courses | Duration | Effort
 [Algorithmic Thinking (Part 1)](https://www.coursera.org/learn/algorithmic-thinking-1/) | - | -
 [Algorithmic Thinking (Part 2)](https://www.coursera.org/learn/algorithmic-thinking-2/) | - | -
 [Statistical Mechanics: Algorithms and Computations](https://www.coursera.org/learn/statistical-mechanics/) | - | -
+[Approximation Algorithms Part I](https://www.coursera.org/learn/approximation-algorithms-part-1/) | - | -
 
 ### Programming Paradigms
 
