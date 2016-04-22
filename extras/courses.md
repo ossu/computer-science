@@ -79,6 +79,7 @@ Courses | Duration | Effort
 [Statistical Mechanics: Algorithms and Computations](https://www.coursera.org/learn/statistical-mechanics/) | - | -
 [Approximation Algorithms Part I](https://www.coursera.org/learn/approximation-algorithms-part-1/) | - | -
 [Approximation Algorithms Part II](https://www.coursera.org/learn/approximation-algorithms-part-2/) | - | -
+[Algorithms: Design and Analysis, Part 1](https://www.coursera.org/course/algo) | - | -
 
 ### Programming Paradigms
 
