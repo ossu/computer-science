@@ -68,6 +68,7 @@ Courses | Duration | Effort
 [Analysis of Algorithms (Skiena)](http://www3.cs.stonybrook.edu/~skiena/373/) | 15 weeks | 6-8 hours/week 
 [Analysis of Algorithms (Sedgewick)](https://www.coursera.org/course/aofa)| 6 weeks | 6-8 hours/week
 [Programming Challenges (Skiena)](http://www3.cs.stonybrook.edu/~skiena/392/) | 14 weeks | 6-8 hours/week
+[Mathematical Logic and Algorithms Theory](https://iversity.org/en/courses/mathematical-logic-and-algorithms-theory) | 7 weeks | 3-4 hours/week
 
 ### Programming Paradigms
 
