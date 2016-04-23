@@ -209,7 +209,6 @@ Courses | Duration | Effort
 [Mining Massive Datasets](https://www.coursera.org/course/mmds)| 7 weeks | 8-10 hours/week
 [Text Retrieval and Search Engines](https://www.coursera.org/learn/text-retrieval)| - | -
 [Text Mining and Analytics](https://www.coursera.org/learn/text-mining)| - | -
-[Pattern Discovery in Data Mining](https://www.coursera.org/learn/data-patterns)| - | -
 [Cluster Analysis in Data Mining](https://www.coursera.org/learn/cluster-analysis)| - | -
 
 ### Internet of Things
