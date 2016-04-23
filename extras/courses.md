@@ -68,6 +68,18 @@ Courses | Duration | Effort
 [Analysis of Algorithms (Skiena)](http://www3.cs.stonybrook.edu/~skiena/373/) | 15 weeks | 6-8 hours/week 
 [Analysis of Algorithms (Sedgewick)](https://www.coursera.org/course/aofa)| 6 weeks | 6-8 hours/week
 [Programming Challenges (Skiena)](http://www3.cs.stonybrook.edu/~skiena/392/) | 14 weeks | 6-8 hours/week
+[Mathematical Logic and Algorithms Theory](https://iversity.org/en/courses/mathematical-logic-and-algorithms-theory) | 7 weeks | 3-4 hours/week
+[Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox/) | 5 weeks | 4-8 hours/week
+[Algorithms on Graphs and Trees](https://www.coursera.org/learn/algorithms-on-graphs-and-trees/) | - | -
+[Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/) | - | -
+[Advanced Algorithms and Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity/) | - | -
+[Algorithmic Thinking (Part 1)](https://www.coursera.org/learn/algorithmic-thinking-1/) | - | -
+[Algorithmic Thinking (Part 2)](https://www.coursera.org/learn/algorithmic-thinking-2/) | - | -
+[Statistical Mechanics: Algorithms and Computations](https://www.coursera.org/learn/statistical-mechanics/) | - | -
+[Approximation Algorithms Part I](https://www.coursera.org/learn/approximation-algorithms-part-1/) | - | -
+[Approximation Algorithms Part II](https://www.coursera.org/learn/approximation-algorithms-part-2/) | - | -
+[Algorithms: Design and Analysis, Part 1](https://www.coursera.org/course/algo) | 6 weeks | 5-7 hours/week
+[Algorithms: Design and Analysis, Part 2](https://www.coursera.org/course/algo2) | 6 weeks | 6-10 hours/week
 
 ### Programming Paradigms
 
@@ -197,7 +209,6 @@ Courses | Duration | Effort
 [Mining Massive Datasets](https://www.coursera.org/course/mmds)| 7 weeks | 8-10 hours/week
 [Text Retrieval and Search Engines](https://www.coursera.org/learn/text-retrieval)| - | -
 [Text Mining and Analytics](https://www.coursera.org/learn/text-mining)| - | -
-[Pattern Discovery in Data Mining](https://www.coursera.org/learn/data-patterns)| - | -
 [Cluster Analysis in Data Mining](https://www.coursera.org/learn/cluster-analysis)| - | -
 
 ### Internet of Things
