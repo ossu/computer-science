@@ -114,16 +114,16 @@ Courses | Duration | Effort
 [Startup Engineering](https://www.coursera.org/course/startup) | 12 weeks | 2-20 hours/week
 
 ### Math (Probability)
+
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro)| - | -
 
 ### Computer Architecture
-:-- | :--: | :--:
-[Certified Information Systems Auditor](https://www.cybrary.it/course/cisa/#)| - |  8.5 hours
 
 Courses | Duration | Effort
 :-- | :--: | :--:
+[Certified Information Systems Auditor](https://www.cybrary.it/course/cisa/#)| - |  8.5 hours
 [The Hardware/Software Interface](https://www.coursera.org/course/hwswinterface)| 8 weeks | 10-15 hours/week
 
 ### Operating Systems
@@ -133,6 +133,7 @@ Courses | Duration | Effort
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)| - | -
 [Introduction to Linux](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-0)| 8 weeks | 5-8 hours/week
 [CompTIA Linux+](https://www.cybrary.it/course/comptia-linux-plus/)| - | 5.25 hours
+
 ### Computer Networks
 
 Courses | Duration | Effort
@@ -142,11 +143,13 @@ Courses | Duration | Effort
 [Cisco CCNA](https://www.cybrary.it/course/cisco-ccna/) | - | 15.5 hours
 
 ### Databases
+
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Using Databases with Python](https://www.coursera.org/learn/python-databases) | 5 weeks | 2-3 hours/week
 
 ### Cloud Computing
+
 Courses | Duration | Effort
 :-- | :--: | :--:
 [CompTIA Cloud+](https://www.cybrary.it/course/comptia-cloud-plus/) | - | 2.5 hours
@@ -155,6 +158,7 @@ Courses | Duration | Effort
 [Cloud Computing Applications](https://www.coursera.org/course/cloudapplications) | 5 weeks | 10-15 hours/week
 
 ### Math (Linear Algebra)
+
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Linear Algebra - Foundations to Frontiers (LAFF)](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-03x)| 15 weeks | 8 hours/week
@@ -168,6 +172,7 @@ Courses | Duration | Effort
 [Cryptography](https://www.cybrary.it/course/cryptography/)| - | 2.9 hours
 
 ### Security
+
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Usable Security](https://www.coursera.org/learn/usable-security/)| 7 weeks | 5-8 hours/week
@@ -188,12 +193,14 @@ Courses | Duration | Effort
 ### Computer Graphics
 
 ### Artificial Intelligence
+
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Discrete Optimization](https://www.coursera.org/course/optimization)| 9 weeks | 10-20 hours/week
 [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271)| 16 weeks | 6-10 hours/week
 
 ### Machine Learning
+
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)| 10 weeks | 6-10 hours/week
@@ -202,6 +209,7 @@ Courses | Duration | Effort
 ### Natural Language Processing
 
 ### Big Data
+
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Big Data for Smart Cities](https://www.edx.org/course/big-data-smart-cities-ieeex-introdatax)| 4 weeks | 3-5 hours/week
@@ -209,6 +217,7 @@ Courses | Duration | Effort
 [Big Data Science with the BD2K-LINCS Data Coordination and Integration Center](https://www.coursera.org/course/bd2klincs)| 7 weeks | 4-5 hours/week
 
 ### Data Mining
+
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Mining Massive Datasets](https://www.coursera.org/course/mmds)| 7 weeks | 8-10 hours/week
@@ -217,6 +226,7 @@ Courses | Duration | Effort
 [Cluster Analysis in Data Mining](https://www.coursera.org/learn/cluster-analysis)| - | -
 
 ### Internet of Things
+
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to the Internet of Things and Embedded Systems](https://www.coursera.org/learn/iot/?source=phoenixCdp2016AbTest)| 4 weeks | 1-3 hours/week
