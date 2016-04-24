@@ -119,6 +119,8 @@ Courses | Duration | Effort
 [Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro)| - | -
 
 ### Computer Architecture
+:-- | :--: | :--:
+[Certified Information Systems Auditor](https://www.cybrary.it/course/cisa/#)| - |  8.5 hours
 
 Courses | Duration | Effort
 :-- | :--: | :--:
@@ -137,6 +139,7 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about) | - | 5-10 hours/week
 [CompTIA Network+](https://www.cybrary.it/course/comptia-network-plus/) | - | 32 hours
+[Cisco CCNA](https://www.cybrary.it/course/cisco-ccna/) | - | 15.5 hours
 
 ### Databases
 Courses | Duration | Effort
@@ -173,6 +176,8 @@ Courses | Duration | Effort
 [Designing and Executing Information Security Strategies](https://www.coursera.org/course/infosec)| 10 weeks | 4-6 hours/week
 [CompTIA Security+](https://www.cybrary.it/course/comptia-security-plus/)| - | 9.5 hours
 [Cyberwar, Surveillance and Security](https://www.edx.org/course/cyberwar-surveillance-security-adelaidex-cyber101x-0)| 6 weeks | 2-3 hours/week
+[Computer and Hacking Forensics](https://www.cybrary.it/course/computer-hacking-forensics-analyst/)| - | 7.1 hours
+[Secure Coding](https://www.cybrary.it/course/secure-coding/)| - | 9.5 hours
 
 ### Compilers
 
