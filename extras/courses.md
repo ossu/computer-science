@@ -120,7 +120,7 @@ Courses | Duration | Effort
 
 ### Computer Architecture
 :-- | :--: | :--:
-[Certified Information Systems Auditor](https://www.cybrary.it/course/cisa/#)| - | -
+[Certified Information Systems Auditor](https://www.cybrary.it/course/cisa/#)| - |  8.5 hours
 
 Courses | Duration | Effort
 :-- | :--: | :--:
@@ -139,6 +139,7 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about) | - | 5-10 hours/week
 [CompTIA Network+](https://www.cybrary.it/course/comptia-network-plus/) | - | 32 hours
+[Cisco CCNA](https://www.cybrary.it/course/cisco-ccna/) | - | 15.5 hours
 
 ### Databases
 Courses | Duration | Effort
