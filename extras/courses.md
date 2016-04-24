@@ -119,6 +119,8 @@ Courses | Duration | Effort
 [Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro)| - | -
 
 ### Computer Architecture
+:-- | :--: | :--:
+[Certified Information Systems Auditor](https://www.cybrary.it/course/cisa/#)| - | -
 
 Courses | Duration | Effort
 :-- | :--: | :--:
