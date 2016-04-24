@@ -177,6 +177,7 @@ Courses | Duration | Effort
 [CompTIA Security+](https://www.cybrary.it/course/comptia-security-plus/)| - | 9.5 hours
 [Cyberwar, Surveillance and Security](https://www.edx.org/course/cyberwar-surveillance-security-adelaidex-cyber101x-0)| 6 weeks | 2-3 hours/week
 [Computer and Hacking Forensics](https://www.cybrary.it/course/computer-hacking-forensics-analyst/)| - | 7.1 hours
+[Secure Coding](https://www.cybrary.it/course/secure-coding/)| - | 9.5 hours
 
 ### Compilers
 
