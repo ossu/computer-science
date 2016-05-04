@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.0.0] 2016-05-04
+### Removed
+- Section: **Introduction to Computer Science**: 
+	- Introduction to Computer Science and Programming Using Python
+	- From Nand to Tetris (Part 1)
+
+### Added
+- Section: **Introduction to Computer Science**: 
+	- Introduction to Computer Science - CS50
+
 ## [2.0.1] 2016-04-04
 ### Fixed
 - Now students should enroll through our [web app](https://ossu.firebaseapp.com).
