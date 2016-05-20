@@ -142,6 +142,8 @@ Courses | Duration | Effort
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about) | - | 5-10 hours/week
 [CompTIA Network+](https://www.cybrary.it/course/comptia-network-plus/) | - | 32 hours
 [Cisco CCNA](https://www.cybrary.it/course/cisco-ccna/) | - | 15.5 hours
+[Networking for Web Developers](https://www.udacity.com/course/networking-for-web-developers--ud256) | - | 12 hours
+[Computer Networking](https://www.udacity.com/course/computer-networking--ud436) | 12 weeks | 5-8 hours/week 
 
 ### Databases
 
