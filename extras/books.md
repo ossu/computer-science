@@ -65,6 +65,11 @@
 
 ### Computer Networks
 
+Name | Author | ISBN
+:-- | :--: | :--:
+[Computer Networking: A Top-Down Approach (6th Edition)](http://www.chegg.com/textbooks/computer-networking-6th-edition-9780132856201-0132856204) | James F Kurose, Keith W Ross | 9780132856201
+[Computer Networks (5th Edition)](http://www.amazon.com/Computer-Networks-5th-Andrew-Tanenbaum/dp/0132126958/) | Andrew S. Tanenbaum, David J. Wetherall| 9780132126953
+
 ### Databases
 
 ### Cloud Computing
