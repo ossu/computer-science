@@ -43,6 +43,10 @@
 
 ### Math (Discrete Math)
 
+Name | Author | ISBN
+:-- | :--: | :--:
+[Discrete Mathematics with Applications(4th Edition)](http://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/0495391328/) | Susanna S. Epp | 9780495391326
+
 ### Algorithms
 
 Name | Author | ISBN
