@@ -43,7 +43,15 @@
 
 ### Math (Discrete Math)
 
+Name | Author | ISBN
+:-- | :--: | :--:
+[Discrete Mathematics with Applications(4th Edition)](http://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/0495391328/) | Susanna S. Epp | 9780495391326
+
 ### Algorithms
+
+Name | Author | ISBN
+:-- | :--: | :--:
+[Introduction to Algorithms(3rd Edition)](http://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/) | Thomas H. Cormen,  Charles E. Leiserson, Ronald L. Rivest, Clifford Stein | 9780262033848
 
 ### Programming Paradigms
 
@@ -63,6 +71,10 @@
 
 ### Operating Systems
 
+Name | Author | ISBN
+:-- | :--: | :--:
+[Modern Operating Systems(4th Edition)](http://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X/) | Andrew S. Tanenbaum, Herbert Bos | 9780133591620
+
 ### Computer Networks
 
 Name | Author | ISBN
@@ -81,6 +93,10 @@ Name | Author | ISBN
 ### Security
 
 ### Compilers
+
+Name | Author | ISBN
+:-- | :--: | :--:
+[Compilers: Principles, Techniques, and Tools (2nd Edition)](http://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811/) | Alfred V. Aho, Monica S. Lam, Ravi Sethi,  Jeffrey D. Ullman | 9780321486813
 
 ### Parallel Computing
 
