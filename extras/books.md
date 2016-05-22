@@ -90,6 +90,10 @@ Name | Author | ISBN
 
 ### Compilers
 
+Name | Author | ISBN
+:-- | :--: | :--:
+[Compilers: Principles, Techniques, and Tools (2nd Edition)](http://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811/) | Alfred V. Aho, Monica S. Lam, Ravi Sethi,  Jeffrey D. Ullman | 9780321486813
+
 ### Parallel Computing
 
 ### UX Design
