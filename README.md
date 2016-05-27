@@ -28,7 +28,7 @@
 
 This is a **solid path** for those of you who want to complete a **Computer Science** course on your own time, **for free**, with courses from the **best universities** in the World.
 
-In our curriculum, we gave preference to MOOC (Massive Open Online Course) style courses because those courses were created with our style of learning in mind.
+In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind.
 
 ## Becoming an OSS student
 
@@ -46,7 +46,7 @@ In the "My Progress" tab, you are able to edit the status of the courses that yo
 
 Here are two interesting links that can make **all** the difference in your journey.
 
-The first one is a motivational video that shows a guy that went through the "MIT Challenge", that consists in learning the entire **4-year** MIT curriculum for Computer Science in **1 year**.
+The first one is a motivational video that shows a guy that went through the "MIT Challenge", which consists of learning the entire **4-year** MIT curriculum for Computer Science in **1 year**.
 
 - [MIT Challenge](http://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
 
