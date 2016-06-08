@@ -48,7 +48,7 @@ Here are two interesting links that can make **all** the difference in your jour
 
 The first one is a motivational video that shows a guy that went through the "MIT Challenge", which consists of learning the entire **4-year** MIT curriculum for Computer Science in **1 year**.
 
-- [MIT Challenge](http://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
+- [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
 
 The second link is a MOOC that will teach you learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. These are **fundamental abilities** to succeed in our journey.
 
