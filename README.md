@@ -22,6 +22,7 @@
 - [How to collaborate](#how-to-collaborate)
 - [Community](#community)
 - [Next Goals](#next-goals)
+- [Team](#team)
 - [References](#references)
 
 ## About
@@ -424,6 +425,12 @@ Add **Open Source Society University** to your [Facebook](https://www.facebook.c
 ## Next Goals
 
 - [Add our University page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so in that way we will be able to add **OSS University** in our Linkedin profile.
+
+## Team
+
+* **Curriculum Founder**: [Eric Douglas](https://github.com/ericdouglas)
+* **Curriculum Maintainer**: [Eric Douglas](https://github.com/ericdouglas)
+* **Contributors**: [contributors](https://github.com/open-source-society/computer-science/graphs/contributors)
 
 ## References
 
