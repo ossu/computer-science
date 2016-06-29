@@ -46,6 +46,7 @@
 Name | Author | ISBN
 :-- | :--: | :--:
 [Discrete Mathematics with Applications(4th Edition)](http://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/0495391328/) | Susanna S. Epp | 9780495391326
+[Discrete Mathematics and its Applications(7th Edition)](https://www.amazon.com/dp/0073383090/ref=pd_lpo_sbs_dp_ss_1?pf_rd_p=1944687762&pf_rd_s=lpo-top-stripe-1&pf_rd_t=201&pf_rd_i=0072899050&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=GRS2G1Y9Q2FWXJNMSF43) | Kennth H. Rosen | 0073383090
 
 ### Algorithms
 
