@@ -1,6 +1,6 @@
 # Computer Science - Extra Resources
 
-## Courses
+## Free Courses
 
 - [Introduction to Computer Science](#introduction-to-computer-science)
 - [Math (Mathematical Thinking)](#math-mathematical-thinking)
