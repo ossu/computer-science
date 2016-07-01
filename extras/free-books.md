@@ -37,6 +37,10 @@
 
 ### Introduction to Computer Science
 
+Name | Author(s)
+:-- | :--:
+[Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sicp/full-text/book/book.html) | Hal Abelson, Jerry Sussman, Julie Sussman 
+
 ### Math (Mathematical Thinking)
 
 ### Program Design
@@ -51,6 +55,10 @@
 
 ### Math (Calculus)
 
+Name | Author(s)
+:-- | :--:
+[Calculus Made Easy](http://www.gutenberg.org/ebooks/33283) | Silvanus P. Thompson 
+
 ### Software Architecture
 
 ### Theory
@@ -58,6 +66,10 @@
 ### Software Engineering
 
 ### Math (Probability)
+
+Name | Author(s) 
+:-- | :--: 
+[Grinstead and Snell’s Introduction to Probability](https://math.dartmouth.edu/~prob/prob/prob.pdf) |Charles M. Grinstead, J. Laurie Snell
 
 ### Computer Architecture
 
@@ -76,6 +88,11 @@
 ### Security
 
 ### Compilers
+
+Name | Author(s)
+:-- | :--:
+[Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf) | Niklaus Wirth 
+
 
 ### Parallel Computing
 
