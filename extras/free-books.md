@@ -104,6 +104,10 @@ Name | Author(s)
 
 ### Machine Learning
 
+Name | Author(s)
+:-- | :--:
+[Deep Learning](http://www.deeplearningbook.org/) | Ian Goodfellow, Yoshua Bengio and Aaron Courville
+
 ### Natural Language Processing
 
 ### Big Data
