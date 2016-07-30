@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.0.0] 2016-07-30
+Due to Coursera's platform changes, we had the following updates:
+
+### Removed
+- Section: **Theory**
+  - Automata
+- Section: **Math (Linear Algebra)**
+  - Coding the Matrix: Linear Algebra through Computer Science Applications
+- Section: **Parallel Computing**
+  - Heterogeneous Parallel Programming
+- Section: **Natural Language Processing**
+  - Natural Language Processing
+
+### Fixed
+- Section: **Computer Networks**
+  - Computer Networks
+- Section: **Compilers**
+  - Compilers
+
+### Added
+- Section: **Theory**
+  - Intro to Theoretical Computer Science
+- Section: **Math (Linear Algebra)**
+  - Linear Algebra - Foundations to Frontiers
+- Section: **Parallel Computing**
+  - Parallel Computer Architecture and Programming
+- Section: **Natural Language Processing**
+  - Natural Language Processing
+
 ## [3.0.0] 2016-05-04
 ### Removed
 - Section: **Introduction to Computer Science**: 
