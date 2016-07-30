@@ -1,4 +1,3 @@
-
 ![Open Source Society University (OSSU)](http://i.imgur.com/GjEbgIJ.png)
 
 <h3 align="center">Open Source Society University</h3>
@@ -157,7 +156,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Automata](https://www.coursera.org/course/automata)| 6 weeks | 8-10 hours/week
+[Intro to Theoretical Computer Science](https://www.udacity.com/course/intro-to-theoretical-computer-science--cs313)| 9 weeks | 6 hours/week
 
 ### Software Engineering
 
@@ -187,7 +186,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Computer Networks](https://www.coursera.org/course/comnetworks)| - | 4–12 hours/week
+[Computer Networks](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week
 
 ### Databases
 
@@ -205,7 +204,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Coding the Matrix: Linear Algebra through Computer Science Applications](https://www.coursera.org/course/matrix)| 10 weeks | 7-10 hours/week
+[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!)| 15 weeks | 8 hours/week
 
 ### Cryptography
 
@@ -224,13 +223,13 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Compilers](https://www.coursera.org/course/compilers)| 9 weeks | 6-8 hours/week
+[Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week
 
 ### Parallel Computing
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Heterogeneous Parallel Programming](https://www.coursera.org/course/hetero)| 11 weeks | 8-10 hours/week
+[Parallel Computer Architecture and Programming](http://15418.courses.cs.cmu.edu/spring2016/home)| 20 weeks | -
 
 ### UX Design
 
@@ -260,7 +259,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Natural Language Processing](https://www.coursera.org/course/nlangp)| 10 weeks | 8-10 hours/week
+[Natural Language Processing](https://www.coursera.org/learn/nlp)| - | -
 
 ### Big Data
 
@@ -386,7 +385,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `3.0.0`
+**Curriculum Version**: `4.0.0`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
@@ -394,7 +393,7 @@ Now we have a **stable** version of the curriculum, which won't change anymore, 
 
 Our students can **trust** in this curriculum because it has been **carefully planned** and covers **all** the **core topics** that a conventional Computer Science course covers.
 
-We also include modern topics, making this course one of the **best options** for those who want to become a Computer Scientist and/or a Software Engineer.
+We also include modern topics, making this course one of the **best options** for those who want to become a Computer Scientist and/or a Software Engineer/Developer.
 
 ## How to collaborate
 
