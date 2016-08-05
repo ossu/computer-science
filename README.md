@@ -268,7 +268,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Introduction to Big Data](https://www.coursera.org/learn/intro-to-big-data)| 3 weeks | 5-6 hours/week
+[Introduction to Big Data](https://www.coursera.org/learn/big-data-introduction)| 3 weeks | 5-6 hours/week
 
 ### Data Mining
 
