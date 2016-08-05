@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.1.0] 2016-08-05
+Due to Coursera's platform changes, we had the following updates:
+### Fixed
+- Section: **Big Data**
+  - Introduction to Big Data
+
 ## [4.0.0] 2016-07-30
 Due to Coursera's platform changes, we had the following updates:
 
