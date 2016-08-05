@@ -268,7 +268,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Introduction to Big Data](https://www.coursera.org/learn/intro-to-big-data)| 3 weeks | 5-6 hours/week
+[Introduction to Big Data](https://www.coursera.org/learn/big-data-introduction)| 3 weeks | 5-6 hours/week
 
 ### Data Mining
 
@@ -393,7 +393,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `4.0.0`
+**Curriculum Version**: `4.1.0`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
