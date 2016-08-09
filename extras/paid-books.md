@@ -37,6 +37,10 @@
 
 ### Introduction to Computer Science
 
+Name | Author | ISBN
+:-- | :--: | :--:
+[Introduction to Computation and Programming Using Python](https://www.amazon.com/Introduction-Computation-Programming-Using-Python/dp/0262525003/) | John V. Guttag | 978-0262525008
+
 ### Math (Mathematical Thinking)
 
 ### Program Design
