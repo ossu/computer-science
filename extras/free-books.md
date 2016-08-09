@@ -40,6 +40,7 @@
 Name | Author(s)
 :-- | :--:
 [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sicp/full-text/book/book.html) | Hal Abelson, Jerry Sussman, Julie Sussman 
+[Introduction to Computing: Explorations in Language, Logic, and Machines](http://www.computingbook.org/) | David Evans
 
 ### Math (Mathematical Thinking)
 
