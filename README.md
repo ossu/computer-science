@@ -87,7 +87,6 @@ The second link is a MOOC that will teach you learning techniques used by expert
 - [Computer Graphics](#computer-graphics)
 - [Artificial Intelligence](#artificial-intelligence)
 - [Machine Learning](#machine-learning)
-- [Natural Language Processing](#natural-language-processing)
 - [Big Data](#big-data)
 - [Data Mining](#data-mining)
 - [Internet of Things](#internet-of-things)
@@ -257,12 +256,6 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week
-
-### Natural Language Processing
-
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Natural Language Processing](https://www.coursera.org/learn/nlp)| - | -
 
 ### Big Data
 
