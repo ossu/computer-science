@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.0.0] 2016-08-20
+Due to removed course, we had the following updates:
+
+### Removed
+- Section: **Natural Language Processing**
+  - Natural Language Processing
+
+### Added
+- Section: **Natural Language Processing**
+  - Introduction to Natural Language Processing
+
 ## [4.1.0] 2016-08-05
 Due to Coursera's platform changes, we had the following updates:
 ### Fixed
