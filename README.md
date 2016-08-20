@@ -87,7 +87,6 @@ The second link is a MOOC that will teach you learning techniques used by expert
 - [Computer Graphics](#computer-graphics)
 - [Artificial Intelligence](#artificial-intelligence)
 - [Machine Learning](#machine-learning)
-- [Natural Language Processing](#natural-language-processing)
 - [Big Data](#big-data)
 - [Data Mining](#data-mining)
 - [Internet of Things](#internet-of-things)
