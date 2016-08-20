@@ -258,12 +258,6 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week
 
-### Natural Language Processing
-
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Natural Language Processing](https://www.coursera.org/learn/nlp)| - | -
-
 ### Big Data
 
 Courses | Duration | Effort
