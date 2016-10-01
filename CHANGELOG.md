@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.1.0] 2016-08-20
+Update to latest version of Math for Computer Science:
+
+### Updated
+- Section: **Math (Discrete Math)**
+  - Mathematics for Computer Science
+
 ## [5.0.0] 2016-08-20
 Due to removed course, we had the following updates:
 
