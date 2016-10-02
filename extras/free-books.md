@@ -48,6 +48,9 @@ Name | Author(s)
 
 ### Math (Discrete Math)
 
+:-- | :--:
+[Applied Discrete Structures](http://faculty.uml.edu/klevasseur/asd2/) | Alan Doerr, Ken Levasseur
+
 ### Algorithms
 
 ### Programming Paradigms
