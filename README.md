@@ -16,14 +16,12 @@
 ## Contents
 
 - [About](#about)
-- [Becoming an OSS student](#becoming-an-oss-student)
 - [Motivation & Preparation](#motivation--preparation)
 - [Curriculum](#curriculum)
 - [How to use this guide](#how-to-use-this-guide)
 - [Prerequisite](#prerequisite)
 - [How to collaborate](#how-to-collaborate)
 - [Community](#community)
-- [Next Goals](#next-goals)
 - [Team](#team)
 - [References](#references)
 
@@ -32,18 +30,6 @@
 This is a **solid path** for those of you who want to complete a **Computer Science** course on your own time, **for free**, with courses from the **best universities** in the World.
 
 In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind.
-
-## Becoming an OSS student
-
-To officially register for this course you must create a profile in our [web app](https://ossu.firebaseapp.com).
-
-> **"How can I do this?"**
-
-Just create an account on GitHub and log in with this account in our web app.
-
-The intention of this app is to offer for our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
-
-In the "My Progress" tab, you are able to edit the status of the courses that you are taking, and also add the link of your final project for each one.
 
 ## Motivation & Preparation
 
@@ -64,7 +50,7 @@ The second link is a MOOC that will teach you learning techniques used by expert
 - [Introduction to Computer Science](#introduction-to-computer-science)
 - [Math (Mathematical Thinking)](#math-mathematical-thinking)
 - [Program Design](#program-design)
-- [Math (Discrete Math)](#math-discrete-math)
+- [Math (Calculus & Discrete Math)](#math-calculus-and-discrete-math)
 - [Algorithms](#algorithms)
 - [Programming Paradigms](#programming-paradigms)
 - [Software Testing](#software-testing)
@@ -115,10 +101,11 @@ Courses | Duration | Effort
 [How to Code: Systematic Program Design - Part 2](https://www.edx.org/course/how-code-systematic-program-design-part-ubcx-spd2x)| 5 weeks | 8-12 hours/week
 [How to Code: Systematic Program Design - Part 3](https://www.edx.org/course/how-code-systematic-program-design-part-ubcx-spd3x)| 5 weeks | 8-12 hours/week
 
-### Math (Discrete Math)
+### Math (Calculus and Discrete Math)
 
 Courses | Duration | Effort
 :-- | :--: | :--:
+[Calculus One](https://www.coursera.org/learn/calculus1)| 16 weeks | 8-10 hours/week
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm)| 12 weeks | 5 hours/week
 
 ### Algorithms
@@ -146,7 +133,6 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Calculus One](https://www.coursera.org/learn/calculus1)| 16 weeks | 8-10 hours/week
 [Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week
 
 ### Software Architecture
@@ -301,9 +287,27 @@ The following platforms currently offer specializations:
 
 This guide was developed to be consumed in a linear approach. What does this mean? That you should complete one course at a time.
 
-The courses are **already** in the order that you should complete them. Just start in the [Introduction to Computer Science](#introduction-to-computer-science) section and after finishing the first course, start the next one.
+The courses are **already** in the order you should complete them. Just start in the [Introduction to Computer Science](#introduction-to-computer-science) section and after finishing the first course, start the next one.
 
-**If the course isn't open, do it anyway with the resources from the previous class.**
+**OBS:** If the course is not open, do it with the archived resources or wait until next class is open.
+
+### How to track and show your progress
+
+1. Create an account in [Trello](https://trello.com/).
+1. Copy [this](https://trello.com/b/9DPXYv5f) board to your personal account. See how copy a board [here](http://blog.trello.com/you-can-copy-boards-now-finally/).
+
+Now that you have a copy of our official board, you just need to pass the cards to the `Doing` column or `Done` column as you progress in your study.
+
+We also have **labels** to help you have more control through the process. The meaning of each of these labels is:
+
+- `Main Curriculum`: cards with that label represent courses that are listed in our curriculum. 
+- `Extra Courses`: cards with that label represent courses that was added by the student.
+- `Doing`: cards with that label represent courses the student is current doing.
+- `Done`: cards with that label represent courses finished by the student. Those cards should also have the link for at least one project/article built with the knowledge acquired in such course.
+- `Section`: cards with that label represent the section that we have in our curriculum. Those cards with the `Section` label are only to help the organization of the Done column. You should put the *Course's cards* below its respective *Section's card*.
+- `Extra Sections`: cards with that label represent sections that was added by the student.
+
+The intention of this board is to provide for our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc. You can change the status of your board to be **public** or **private**. 
 
 ### Should I take all courses?
 
@@ -327,7 +331,7 @@ In order to show for everyone that you **successfully** finished a course, you s
 
 After finish a course, you should think about a **real world problem** that you can solve using the acquired knowledge in the course. You don't need to create a big project, but you must create something to **validate** and **consolidate** your knowledge, and also to show to the world that you are capable to create something useful with the concepts that you learned.
 
-The projects of all students will be listed in [this](https://github.com/open-source-society/help/blob/master/PROJECTS.md) file. Submit your project's information in that file after you conclude it.
+The projects of all students will be listed in [this](PROJECTS.md) file. **Submit your project's information in that file after you conclude it**.
 
 Put the OSSU-CS badge in the README of your repository! [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)
 
@@ -393,7 +397,7 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 ## Change Log
 
-**Curriculum Version**: `5.1.0`
+**Curriculum Version**: `6.0`
 
 To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
@@ -428,10 +432,6 @@ We also have a chat room! [![Join the chat at https://gitter.im/open-source-soci
 Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
 
 > **ps**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps. **Please use our subreddit/group for important discussions**.
-
-## Next Goals
-
-- [Add our University page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so in that way we will be able to add **OSS University** in our Linkedin profile.
 
 ## Team
 
