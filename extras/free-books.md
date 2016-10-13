@@ -87,6 +87,9 @@ Name | Author(s)
 ### Cloud Computing
 
 ### Math (Linear Algebra)
+Name | Author(s) 
+:-- | :--: 
+[Linear Algebra](https://www.amazon.com/Linear-Algebra-2nd-Kenneth-Hoffman/dp/0135367972) | Kenneth M. Hoffman
 
 ### Cryptography
 

@@ -86,6 +86,10 @@
 ### Artificial Intelligence
 
 ### Machine Learning
+Name | Provider
+:-- | :--:
+[Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) | [Coursera](https://www.coursera.org)
+[Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) | [Udacity](https://www.udacity.com)
 
 ### Natural Language Processing
 
