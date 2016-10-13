@@ -94,7 +94,6 @@ Name | Author | ISBN
 Name | Author | ISBN
 :-- | :--: | :--:
 [Linear Algebra Done Right third edition](http://www.amazon.in/Linear-Algebra-Right-Undergraduate-Mathematics/dp/0387982582) | Sheldon Axler | 0387982582
-
 [Linear Algebra and Its Applications](http://www.amazon.in/Linear-Algebra-Applications-Gilbert-Strang/dp/8131501728/) | Gilbert Strang | 8131501728
 
 ### Cryptography
