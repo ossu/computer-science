@@ -329,7 +329,7 @@ In order to show for everyone that you **successfully** finished a course, you s
 
 > "What does it mean?"
 
-After finish a course, you should think about a **real world problem** that you can solve using the acquired knowledge in the course. You don't need to create a big project, but you must create something to **validate** and **consolidate** your knowledge, and also to show to the world that you are capable to create something useful with the concepts that you learned.
+After you finish a course, you should think about a **real world problem** that you can solve using the acquired knowledge in the course. You don't need to create a big project, but you must create something to **validate** and **consolidate** your knowledge, and also to show to the world that you are capable to create something useful with the concepts that you learned.
 
 The projects of all students will be listed in [this](PROJECTS.md) file. **Submit your project's information in that file after you conclude it**.
 
