@@ -315,7 +315,7 @@ The intention of this board is to provide our students a way to track their prog
 
 ### Duration of the project
 
-It may take longer to complete all courses compared to a regular CS graduation, but I can **guarantee** you that your reward will be proportional to your extra **effort**!
+It may take longer to complete all courses compared to a regular CS graduation, but I can **guarantee** you that your **reward** will be proportional to your extra **effort**!
 
 You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 2 hours **every day** studying this curriculum. If you do this, **inevitably** you'll finish this curriculum.
 
