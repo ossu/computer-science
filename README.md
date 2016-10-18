@@ -300,14 +300,14 @@ Now that you have a copy of our official board, you just need to pass the cards 
 
 We also have **labels** to help you have more control through the process. The meaning of each of these labels is:
 
-- `Main Curriculum`: cards with that label represent courses that are listed in our curriculum. 
+- `Main Curriculum`: cards with that label represent courses that are listed in our curriculum.
 - `Extra Courses`: cards with that label represent courses that was added by the student.
 - `Doing`: cards with that label represent courses the student is current doing.
 - `Done`: cards with that label represent courses finished by the student. Those cards should also have the link for at least one project/article built with the knowledge acquired in such course.
 - `Section`: cards with that label represent the section that we have in our curriculum. Those cards with the `Section` label are only to help the organization of the Done column. You should put the *Course's cards* below its respective *Section's card*.
 - `Extra Sections`: cards with that label represent sections that was added by the student.
 
-The intention of this board is to provide for our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc. You can change the status of your board to be **public** or **private**. 
+The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc. You can change the status of your board to be **public** or **private**.
 
 ### Should I take all courses?
 
@@ -315,7 +315,7 @@ The intention of this board is to provide for our students a way to track their 
 
 ### Duration of the project
 
-It may take longer to complete all of the classes compared to a  regular CS course, but I can **guarantee** you that your **reward** will be proportional to **your motivation/dedication**!
+It may take longer to complete all courses compared to a regular CS graduation, but I can **guarantee** you that your **reward** will be proportional to your extra **effort**!
 
 You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 2 hours **every day** studying this curriculum. If you do this, **inevitably** you'll finish this curriculum.
 
@@ -325,7 +325,7 @@ You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 
 
 Here in **OSS University**, you do **not** need to take exams, because we are focused on **real projects**!
 
-In order to show for everyone that you **successfully** finished a course, you should create a **real project**.
+In order to show everyone that you **successfully** finished a course, you should create a **real project**.
 
 > "What does it mean?"
 
