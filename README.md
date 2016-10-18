@@ -287,7 +287,7 @@ The following platforms currently offer specializations:
 
 This guide was developed to be consumed in a linear approach. What does this mean? That you should complete one course at a time.
 
-The courses are **already** in the order you should complete them. Just start with the [Introduction to Computer Science](#introduction-to-computer-science) section and after finishing the first course, start the next one.
+The courses are **already** in the order you should complete them. Just start in the [Introduction to Computer Science](#introduction-to-computer-science) section and after finishing the first course, start the next one.
 
 **OBS:** If the course is not open, do it with the archived resources or wait until next class is open.
 
