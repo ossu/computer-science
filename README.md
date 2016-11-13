@@ -170,6 +170,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Operating Systems and System Programming](https://www.youtube.com/view_play_list?p=-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)| 10 weeks | 2-3 hours/week
+[Advanced Operating Systems: Structures And Implementation](https://www.youtube.com/watch?v=ToySNfwFOyc&list=PL-XXv-cvA_iB_5Q8G8kW5idSwNmXypmQE)| 10 weeks | 2-3 hours/week
 
 ### Computer Networks
 
