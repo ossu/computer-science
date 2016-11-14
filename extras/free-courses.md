@@ -66,7 +66,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Analysis of Algorithms (Skiena)](http://www3.cs.stonybrook.edu/~skiena/373/) | 15 weeks | 6-8 hours/week 
+[Analysis of Algorithms (Skiena)](http://www3.cs.stonybrook.edu/~skiena/373/) | 15 weeks | 6-8 hours/week
 [Analysis of Algorithms (Sedgewick)](https://www.coursera.org/course/aofa)| 6 weeks | 6-8 hours/week
 [Programming Challenges (Skiena)](http://www3.cs.stonybrook.edu/~skiena/392/) | 14 weeks | 6-8 hours/week
 [Mathematical Logic and Algorithms Theory](https://iversity.org/en/courses/mathematical-logic-and-algorithms-theory) | 7 weeks | 3-4 hours/week
@@ -136,6 +136,7 @@ Courses | Duration | Effort
 [CompTIA Linux+](https://www.cybrary.it/course/comptia-linux-plus/)| - | 5.25 hours
 [Introduction to Operating Systems](https://www.udacity.com/course/introduction-to-operating-systems--ud923)| 8 weeks | 5-8 hours/week
 [Advanced Operating Systems](https://www.udacity.com/course/advanced-operating-systems--ud189)| 5 weeks | 5-8 hours/week
+[Advanced Operating Systems: Structures And Implementation](https://www.youtube.com/playlist?list=PL-XXv-cvA_iB_5Q8G8kW5idSwNmXypmQE)| 10 weeks | 2-3 hours/week
 
 ### Computer Networks
 
@@ -145,7 +146,7 @@ Courses | Duration | Effort
 [CompTIA Network+](https://www.cybrary.it/course/comptia-network-plus/) | - | 32 hours
 [Cisco CCNA](https://www.cybrary.it/course/cisco-ccna/) | - | 15.5 hours
 [Networking for Web Developers](https://www.udacity.com/course/networking-for-web-developers--ud256) | - | 12 hours
-[Computer Networking](https://www.udacity.com/course/computer-networking--ud436) | 12 weeks | 5-8 hours/week 
+[Computer Networking](https://www.udacity.com/course/computer-networking--ud436) | 12 weeks | 5-8 hours/week
 
 ### Databases
 
