@@ -112,8 +112,8 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Algorithms, Part I](https://www.coursera.org/course/algs4partI)| 6 weeks | 6-12 hours/week
-[Algorithms, Part II](https://www.coursera.org/course/algs4partII)| 6 weeks |  6-12 hours/week
+[Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1)| 6 weeks | 6-12 hours/week
+[Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)| 6 weeks |  6-12 hours/week
 
 ### Programming Paradigms
 
