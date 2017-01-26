@@ -417,7 +417,7 @@ If you want to suggest a new resource, send a pull request adding such resource 
 
 The **extras** section is a place where all of us will be able to submit interesting additional articles, books, courses and specializations, keeping our curriculum *as immutable and concise as possible*.
 
-**Let's do it together! =)**
+**Let's do it together! :smile:**
 
 ## Community
 
