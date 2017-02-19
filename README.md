@@ -33,7 +33,7 @@ In our curriculum, we give preference to MOOC (Massive Open Online Course) style
 
 # Motivation & Preparation
 
-Here are two interesting links that can make **all** the difference in your journey.
+Here are two interesting links that can make all the difference in your journey.
 
 The first one is a motivational video that shows a guy that went through the "MIT Challenge", which consists of learning the entire **4-year** MIT curriculum for Computer Science in **1 year**.
 
@@ -177,15 +177,17 @@ You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 
 
 > See more about "Commit to a process, not a goal" [here](http://jamesclear.com/goals-systems).
 
-## Project Based
+## Project-based
 
-Here in **OSS University**, you do **not** need to take exams, because we are focused on **real projects**!
+**OSS University** is **project-focused**. You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use*  your knowledge to solve a real world problem.
 
-In order to show everyone that you **successfully** finished a course, you should create a **real project**.
+In order to show everyone that you successfully finished a course, you should create a **real project**.
 
 > "What does it mean?"
 
-After you finish a course, you should think about a **real world problem** that you can solve using the acquired knowledge in the course. You don't need to create a big project, but you must create something to **validate** and **consolidate** your knowledge, and also to show to the world that you are capable to create something useful with the concepts that you learned.
+After you finish a course, you should think about a problem that you can solve using the acquired knowledge in the course. It doesn't have to be a big project, but rather it should show the world that you are capable of creating something useful with the concepts that you learned.
+
+It won't make sense to do a project for *every* course, as some are purely theoretical (e.g. calculus). But anytime you gain practical skills (e.g., a new programming language), you should use it right away to **validate** and **consolidate** your knowledge.
 
 The projects of all students will be listed in [this](PROJECTS.md) file. **Submit your project's information in that file after you conclude it**.
 
@@ -209,7 +211,7 @@ And you should also...
 
 This is a **crucial** part of your journey through all those courses.
 
-You **need** to have in mind that what you are able to **create** with the concepts that you learned will be your certificate **and this is what really matters**!
+You **need** to have in mind that what you are able to create with the concepts that you learned will be your certificate **and this is what really matters**!
 
 In order to show that you **really** learned those things, you need to be **creative**!
 
@@ -224,9 +226,9 @@ Here are some tips about how you can do that:
 
 ## Which programming languages should I use?
 
-My friend, here is the best part of liberty! You can use **any** language that you want to complete the 
+My friend, here is the best part of liberty! You can use **any** language that you want to complete the project.
 
-The **important** thing for each course is to **internalize** the **core concepts** and to be able to use them with whatever tool (programming language) that you wish.
+The important thing for each course is to **internalize** the core concepts and to be able to use them with whatever tool (programming language) that you wish.
 
 ## Content Policy
 
@@ -255,13 +257,11 @@ The **only things** that you need to know are how to use **Git** and **GitHub**.
 
 **Curriculum Version**: `6.0`
 
-To show **respect** to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
+To show respect to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
 Now we have a **stable** version of the curriculum, which won't change anymore, only in exceptional cases (outdated courses, broken links, etc).
 
-Our students can **trust** in this curriculum because it has been **carefully planned** and covers **all** the **core topics** that a conventional Computer Science course covers.
-
-We also include modern topics, making this course one of the **best options** for those who want to become a Computer Scientist and/or a Software Engineer/Developer.
+Our students can trust in this curriculum because it has been **carefully planned** and covers the major **core topics** that a conventional Computer Science program covers.
 
 # How to collaborate
 
