@@ -222,7 +222,8 @@ Some of the electives are only available once in a while.
 ## How to track and show your progress
 
 1. Create an account in [Trello](https://trello.com/).
-1. Copy [this](https://trello.com/b/9DPXYv5f) board to your personal account. See how to copy a board [here](http://blog.trello.com/you-can-copy-boards-now-finally/).
+1. Copy [this](https://trello.com/b/9DPXYv5f) board to your personal account.
+See how to copy a board [here](http://blog.trello.com/you-can-copy-boards-now-finally/).
 
 Now that you have a copy of our official board, you just need to pass the cards to the `Doing` column or `Done` column as you progress in your study.
 
