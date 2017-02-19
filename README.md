@@ -74,6 +74,7 @@ Courses | Duration | Effort
 ### Core math
 Courses | Duration | Effort
 :-- | :--: | :--:
+[Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week
 [Calculus One](https://www.coursera.org/learn/calculus1)| 16 weeks | 8-10 hours/week
 [Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week
 [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week
@@ -87,6 +88,10 @@ Courses | Duration | Effort
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week
 [Databases](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| 12 weeks | 8-12 hours/week
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week
+
+The 'From Nand to Tetris' course, in part I, will have you create an entire computer architecture from scratch, but are missing key elements from computer architecture such as pipelining and memory hierarchy. A supplemental textbook is recommended for those interested in the subject: [Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269).
+
+Part II of the same course has you build the very lowest levels of an operating system on top of the computer architecture you built, however it does not go very deep into operating systems. For those interested in this subject, this free supplemental textbook is strongly recommended: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/).
 
 ### Core theory
 Courses | Duration | Effort
