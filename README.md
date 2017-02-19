@@ -56,7 +56,7 @@ These are **fundamental abilities** to succeed in our journey.
   - [Core applications](#core-applications)
   - [Advanced programming](#advanced-programming)
 - [Electives](#electives)
-- [Specializations](#specializations)
+- [Pro CS](#pro-cs)
 
 ---
 
