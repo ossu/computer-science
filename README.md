@@ -57,6 +57,7 @@ These are **fundamental abilities** to succeed in our journey.
   - [Advanced programming](#advanced-programming)
 - [Electives](#electives)
 - [Pro CS](#pro-cs)
+- [Final project](#final-project)
 
 ---
 
@@ -204,6 +205,46 @@ These aren't the only specializations you can choose. Check the following websit
 ### Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
 ### FutureLearn: [Collections](https://www.futurelearn.com/courses/collections)
 
+
+## Final project
+
+**OSS University** is **project-focused**.
+You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
+
+> "What does it mean?"
+
+After you finish the curriculum, you should think about a problem that you can solve using the knowledge you've acquired.
+Not only does real project work look great on a resume, the project will **validate** and **consolidate** your knowledge.
+
+The final projects of all students will be listed in [this](PROJECTS.md) file.
+**Submit your project's information in that file after you conclude it**.
+
+Put the OSSU-CS badge in the README of your repository!
+[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)
+
+- Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)`
+- HTML: `<a href="https://github.com/open-source-society/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
+
+### Cooperative work
+
+You can create this project alone or with other students!
+**We love cooperative work**!
+Use our [channels](#community) to communicate with other fellows to combine and create new projects!
+
+### Project Suggestions
+
+- [Projects](https://github.com/karan/Projects): A list of practical projects that anyone can solve in any programming language.
+- [app-specs](https://github.com/ericdouglas/app-specs): A curated list of applications specifications and implementations to practice new technologies, improve your portfolio and sharpen your skills.
+- [FreeCodeCamp](http://www.freecodecamp.com/): Course that teaches you fullstack JavaScript development through a bunch of projects.
+- [JavaScript Projects](https://github.com/javascript-society/javascript-projects): List of projects related with the [JavaScript Path](https://github.com/javascript-society/javascript-path).
+
+### Which programming languages should I use?
+
+My friend, here is the best part of liberty!
+You can use **any** language that you want to complete the final project.
+
+The important thing is to **internalize** the core concepts and to be able to use them with whatever tool (programming language) that you wish.
+
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
 # How to use this guide
@@ -265,64 +306,6 @@ If you do this, **inevitably** you'll finish this curriculum.
 
 ## Project-based
 
-**OSS University** is **project-focused**.
-You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
-
-In order to show everyone that you successfully finished a course, you should create a **real project**.
-
-> "What does it mean?"
-
-After you finish a course, you should think about a problem that you can solve using the acquired knowledge in the course.
-It doesn't have to be a big project, but rather it should show the world that you are capable of creating something useful with the concepts that you learned.
-
-It won't make sense to do a project for *every* course, as some have no immediate practical application.
-But anytime you gain practical skills (e.g., a new programming language), you should use it right away to **validate** and **consolidate** your knowledge.
-
-The projects of all students will be listed in [this](PROJECTS.md) file.
-**Submit your project's information in that file after you conclude it**.
-
-Put the OSSU-CS badge in the README of your repository!
-[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)
-
-- Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)`
-- HTML: `<a href="https://github.com/open-source-society/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
-
-**You can create this project alone or with other students!**
-
-### Project Suggestions
-
-- [Projects](https://github.com/karan/Projects): A list of practical projects that anyone can solve in any programming language.
-- [app-specs](https://github.com/ericdouglas/app-specs): A curated list of applications specifications and implementations to practice new technologies, improve your portfolio and sharpen your skills.
-- [FreeCodeCamp](http://www.freecodecamp.com/): Course that teaches you fullstack JavaScript development through a bunch of projects.
-- [JavaScript Projects](https://github.com/javascript-society/javascript-projects): List of projects related with the [JavaScript Path](https://github.com/javascript-society/javascript-path).
-
-And you should also...
-
-## Be creative!
-
-This is a **crucial** part of your journey through all those courses.
-
-You **need** to have in mind that what you are able to create with the concepts that you learned will be your certificate **and this is what really matters**!
-
-In order to show that you **really** learned those things, you need to be **creative**!
-
-Here are some tips about how you can do that:
-
-- **Articles**: create blog posts to synthesize/summarize what you learned.
-- **GitHub repository**: keep your course's files organized in a GH repository, so in that way other students can use it to study with your annotations.
-
-## Cooperative work
-
-**We love cooperative work**!
-Use our [channels](#community) to communicate with other fellows to combine and create new projects!
-
-## Which programming languages should I use?
-
-My friend, here is the best part of liberty!
-You can use **any** language that you want to complete the project.
-
-The important thing for each course is to **internalize** the core concepts and to be able to use them with whatever tool (programming language) that you wish.
-
 ## Content Policy
 
 You must share **only** files that you are **allowed** to!
@@ -334,7 +317,7 @@ You must share **only** files that you are **allowed** to!
 
 [Watch](https://help.github.com/articles/watching-repositories/) this repository for futures improvements and general information.
 
-# Prerequisite
+# Prerequisites
 
 This curriculum assumes the student has already taken high school math, including algebra, geometry, and pre-calculus.
 Some high school students will have taken calculus, but this is usually only about 3/4 of a college calculus class, so the calculus courses listed above are still recommended.
@@ -351,7 +334,7 @@ Apart from those, the only things that you need to know are how to use **Git** a
 - [Git Immersion](http://gitimmersion.com/index.html)
 - [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 
-# Change Log
+# Changelog
 
 **Curriculum Version**: `6.0`
 
