@@ -146,7 +146,7 @@ Courses | Duration | Effort | Prerequisites
 [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week | none
 [Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)| 12 weeks | - | Python programming
 
-## Specializations
+## Pro CS
 
 After finishing the curriculum above, you will have completed close to a full bachelor's degree in Computer Science.
 You can stop here, but if you really want to make yourself valuable, the next step to completing your studies is to develop skills and knowledge in a specific domain.
