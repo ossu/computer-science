@@ -71,7 +71,7 @@ Courses | Duration | Effort | Prerequisites
 [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b) | 3 weeks | 8-16 hours/week | Programming Languages, Part A
 [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 3 weeks | 8-16 hours/week | Programming Languages, Part B
 
-The Object-Oriented Programming in Java class is intended for students who have already taken a basic Java course, but it can still be completed by those who have only studied basic programming before in a different, Java-like language (e.g., C). The learning curve will be steep, however, so for those who find it too difficult, looking over the material in this course is recommended: [Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/index.htm).
+Note: The Object-Oriented Programming in Java class is intended for students who have already taken a basic Java course, but it can still be completed by those who have only studied basic programming before in a different, Java-like language (e.g., C). The learning curve will be steep, however, so for those who find it too difficult, looking over the material in this course is recommended: [Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/index.htm).
 
 ### Core math
 Courses | Duration | Effort | Prerequisites
@@ -91,9 +91,9 @@ Courses | Duration | Effort | Prerequisites
 [Databases](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| 12 weeks | 8-12 hours/week | some programming, basic CS
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week | probability, basic CS
 
-The 'From Nand to Tetris' course, in part I, will have you create an entire computer architecture from scratch, but are missing key elements from computer architecture such as pipelining and memory hierarchy. A supplemental textbook is recommended for those interested in the subject: [Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269).
+Note 1: The 'From Nand to Tetris' course, in part I, will have you create an entire computer architecture from scratch, but are missing key elements from computer architecture such as pipelining and memory hierarchy. A supplemental textbook is recommended for those interested in the subject: [Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269).
 
-Part II of the same course has you build the very lowest levels of an operating system on top of the computer architecture you built, however it does not go very deep into operating systems. For those interested in this subject, this free supplemental textbook is strongly recommended: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/).
+Note 2: Part II of the same course has you build the very lowest levels of an operating system on top of the computer architecture you built, however it does not go very deep into operating systems. For those interested in this subject, this free supplemental textbook is strongly recommended: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/).
 
 ### Core theory
 Courses | Duration | Effort | Prerequisites
