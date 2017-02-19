@@ -301,7 +301,7 @@ Add **Open Source Society University** to your [Facebook](https://www.facebook.c
 - [Coursera](https://www.coursera.org/)
 - [edX](https://www.edx.org)
 - [Udacity](https://www.udacity.com/)
-- [Future Learn](https://www.futurelearn.com/)
 - [Stanford University](https://lagunita.stanford.edu/)
 - [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
+- [A DIY Computer Science Education](https://bradfieldcs.com/diy/)
 - [Obtaining a Thorough CS Background Online](http://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/)
