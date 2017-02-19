@@ -172,15 +172,20 @@ Courses | Duration | Effort | Prerequisites
 ## Electives
 
 Some of these courses are offered less frequently, but you are encouraged to take them whenever they are available if you're interested.
-Compilers is recommended to any student who took a strong interest in the Programming Languages courses.
-Natural Language Processing is recommended to anyone who thinks they want to specialize in machine learning, artificial intelligence, etc.
-Cryptography is recommended to anyone who wants to learn more about zero knowledge systems and other advanced topics in cryptography.
+- Compilers is recommended to any student who took a strong interest in the Programming Languages courses.
+- Natural Language Processing is recommended to anyone who thinks they want to specialize in machine learning, artificial intelligence, etc.
+- Cryptography is recommended to anyone who wants to learn more about zero knowledge systems and other advanced topics in cryptography.
+- The Princeton Algorithms courses are highly recommended as a more practical, implementation-focused complement to the Stanford Algorithms courses recommended as part of Core CS.
+However, Part II is rarely available, so they are electives at this time.
+Note that the assignments are in Java, but don't require extensive Java experience
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week | Cryptography I
 [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week | none
 [Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)| 12 weeks | - | Python programming
+[Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) | 6 weeks | 6-12 hours/week | some programming
+[Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2) | 6 weeks | 6-12 hours/week | Algorithms, Part I
 
 ## Pro CS
 
