@@ -30,6 +30,7 @@
 This is a **solid path** for those of you who want to complete a **Computer Science** course on your own time, at **little to no cost**, with courses from the **best universities** in the world.
 
 In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind.
+The curriculum then concludes with a **final project** to show off your skills to your friends and future employers.
 
 # Motivation & Preparation
 
