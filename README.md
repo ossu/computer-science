@@ -62,68 +62,68 @@ The second link is a MOOC that will teach you learning techniques used by expert
 ## Core CS
 
 ### Core programming
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 12 weeks | 10-20 hours/week
-[How to Code: Systematic Program Design (XSeries)](https://www.edx.org/xseries/how-code-systematic-program-design) | 15 weeks | 5 hours/week
-[Object Oriented Programming in Java](https://www.coursera.org/learn/object-oriented-java) | 6 weeks | 4-6 hours/week
-[Programming Languages, Part A](https://www.coursera.org/learn/programming-languages) | 4 weeks | 8-16 hours/week
-[Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b) | 3 weeks | 8-16 hours/week
-[Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 3 weeks | 8-16 hours/week
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 12 weeks | 10-20 hours/week | none
+[How to Code: Systematic Program Design (XSeries)](https://www.edx.org/xseries/how-code-systematic-program-design) | 15 weeks | 5 hours/week | none
+[Object Oriented Programming in Java](https://www.coursera.org/learn/object-oriented-java) | 6 weeks | 4-6 hours/week | some programming
+[Programming Languages, Part A](https://www.coursera.org/learn/programming-languages) | 4 weeks | 8-16 hours/week | recommended: Java, C
+[Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b) | 3 weeks | 8-16 hours/week | Programming Languages, Part A
+[Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 3 weeks | 8-16 hours/week | Programming Languages, Part B
 
 ### Core math
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week
-[Calculus One](https://www.coursera.org/learn/calculus1)| 16 weeks | 8-10 hours/week
-[Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week
-[Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week
-[Discrete Mathematics](https://www.coursera.org/learn/discrete-mathematics) | 11 weeks | 3-5 hours/week
-[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!)| 15 weeks | 8 hours/week
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | high school math
+[Calculus One](https://www.coursera.org/learn/calculus1)| 16 weeks | 8-10 hours/week | pre-calculus
+[Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week | Calculus One
+[Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | calculus
+[Discrete Mathematics](https://www.coursera.org/learn/discrete-mathematics) | 11 weeks | 3-5 hours/week | high school math
+[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!)| 15 weeks | 8 hours/week | high school math
 
 ### Core systems
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) | 6 weeks | 7-13 hours/week
-[Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week
-[Databases](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| 12 weeks | 8-12 hours/week
-[Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) | 6 weeks | 7-13 hours/week | none
+[Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | Part I
+[Databases](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| 12 weeks | 8-12 hours/week | some programming, basic CS
+[Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week | probability, basic CS
 
 The 'From Nand to Tetris' course, in part I, will have you create an entire computer architecture from scratch, but are missing key elements from computer architecture such as pipelining and memory hierarchy. A supplemental textbook is recommended for those interested in the subject: [Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269).
 
 Part II of the same course has you build the very lowest levels of an operating system on top of the computer architecture you built, however it does not go very deep into operating systems. For those interested in this subject, this free supplemental textbook is strongly recommended: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/).
 
 ### Core theory
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer) | 4 weeks | 4-8 hours/week
-[Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures) | 4 weeks | 4-8 hours/week
-[Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy) | 4 weeks | 4-8 hours/week
-[Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete) | 4 weeks | 4-8 hours/week
-[Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about) | 8 weeks | 10 hours/week
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer) | 4 weeks | 4-8 hours/week | one programming language; proofs; probability
+[Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures) | 4 weeks | 4-8 hours/week | previous algorithms course
+[Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy) | 4 weeks | 4-8 hours/week | previous algorithms course
+[Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete) | 4 weeks | 4-8 hours/week | previous algorithms course
+[Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about) | 8 weeks | 10 hours/week | discrete mathematics
 
 ### Core applications
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week
-[Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)| 6 weeks | 12 hours/week
-[Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week | linear algebra
+[Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)| 6 weeks | 12 hours/week | C++ or Java, linear algebra
+[Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week | linear algebra; probability
 
 ### Advanced programming
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Software Testing](https://www.udacity.com/course/software-testing--cs258)| 4 weeks | 6 hours/week
-[Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week
-[Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | -
-[Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Software Testing](https://www.udacity.com/course/software-testing--cs258)| 4 weeks | 6 hours/week | some programming
+[Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming
+[Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | - | C, algorithms
+[Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | Java programming
 
 ## Electives
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week
-[Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week
-[Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)| 12 weeks | -
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week | Cryptography I
+[Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week | none
+[Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)| 12 weeks | - | Python programming
 
 ## Specializations
 
