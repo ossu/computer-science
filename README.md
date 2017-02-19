@@ -247,11 +247,14 @@ You must share **only** files that you are **allowed** to! **Do NOT disrespect t
 
 # Prerequisite
 
-The **only things** that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
+This curriculum assumes the student has already taken high school math, including algebra, geometry, and pre-calculus. Some high school students will have taken calculus, but this is usually only about 3/4 of a college calculus class, so the calculus courses listed above are still recommended.
 
-**Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started!
+Apart from that, the only things that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
+
+**Note**: Just pick one of the resources below to learn the basics. You will learn a lot more once you get started!
 
 - [Try Git](https://try.github.io/levels/1/challenges/1)
+- [Ry's Git Tutorial](http://rypress.com/tutorials/git/index)
 - [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
 - [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
 - [GitHub Hello World](https://guides.github.com/activities/hello-world/)
