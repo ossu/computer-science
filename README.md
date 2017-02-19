@@ -59,6 +59,8 @@ These are **fundamental abilities** to succeed in our journey.
 - [Pro CS](#pro-cs)
 - [Final project](#final-project)
 
+See also: [Prerequisites](#prerequisites)
+
 ---
 
 ## Core CS
@@ -284,6 +286,11 @@ You should put the *Course's cards* below its respective *Section's card*.
 The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
 You can change the status of your board to be **public** or **private**.
 
+### Content Policy
+
+If you plan on showing off some of your coursework publicly, you must share **only** files that you are **allowed** to!
+**Do NOT disrespect the code of conduct** that you signed in the beginning of some courses!
+
 ## Should I take all courses?
 
 If you are serious about getting an online education comparable to a bachelor's degree in Computer Science, you should absolutely take **all** of the courses under the 'Core CS' section.
@@ -303,15 +310,6 @@ Try to invest 1 ~ 2 hours **every day** studying this curriculum.
 If you do this, **inevitably** you'll finish this curriculum.
 
 > See more about "Commit to a process, not a goal" [here](http://jamesclear.com/goals-systems).
-
-## Project-based
-
-## Content Policy
-
-You must share **only** files that you are **allowed** to!
-**Do NOT disrespect the code of conduct** that you signed in the beginning of some courses.
-
-[Be creative](#be-creative) in order to show your progress! :smile:
 
 ## Stay tuned
 
