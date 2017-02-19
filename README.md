@@ -2,7 +2,7 @@
 
 <h3 align="center">Open Source Society University</h3>
 <p align="center">
-  Path to a free self-taught education in Computer Science!
+  Path to a self-taught education in Computer Science!
 </p>
 <p align="center">
   <a href="https://github.com/sindresorhus/awesome">
@@ -27,7 +27,7 @@
 
 ## About
 
-This is a **solid path** for those of you who want to complete a **Computer Science** course on your own time, **for free**, with courses from the **best universities** in the World.
+This is a **solid path** for those of you who want to complete a **Computer Science** course on your own time, at **little to no cost**, with courses from the **best universities** in the World.
 
 In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind.
 
