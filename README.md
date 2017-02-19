@@ -62,6 +62,8 @@ The second link is a MOOC that will teach you learning techniques used by expert
 ## Core CS
 
 ### Core programming
+**Topics covered**: imperative programming; procedural programming; C; basic data structures and algorithms; Python; SQL; HTML, CSS, JavaScript; basic testing; functional program composition; object-oriented program design; static typing; dynamic typing; common design patterns; ML-family languages (via Standard ML); Lisp-family languages (via Racket); Ruby; and more.
+
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)| 12 weeks | 10-20 hours/week | none
@@ -74,6 +76,9 @@ Courses | Duration | Effort | Prerequisites
 Note: The Object-Oriented Programming in Java class is intended for students who have already taken a basic Java course, but it can still be completed by those who have only studied basic programming before in a different, Java-like language (e.g., C). The learning curve will be steep, however, so for those who find it too difficult, looking over the material in this course is recommended: [Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/index.htm).
 
 ### Core math
+
+**Topics covered**: mathematical proofs; number theory; real analysis; differential calculus; integral calculus; sequences and series; probability theory; basic statistics; O-notation; graph theory; linear transformations; matrices; vectors; and more.
+
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | high school math
@@ -84,27 +89,36 @@ Courses | Duration | Effort | Prerequisites
 [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!)| 15 weeks | 8 hours/week | high school math
 
 ### Core systems
+
+**Topics covered**: boolean algebra; gate logic; memory; machine language; computer architecture; assembly; machine language; virtual machines; high-level languages; compilers; operating systems; relational databases; transaction processing; data modeling; network protocols; and more.
+
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) | 6 weeks | 7-13 hours/week | none
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | Part I
 [Databases](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| 12 weeks | 8-12 hours/week | some programming, basic CS
-[Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week | probability, basic CS
+[Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week | algebra, probability, basic CS
 
 Note 1: The 'From Nand to Tetris' course, in part I, will have you create an entire computer architecture from scratch, but are missing key elements from computer architecture such as pipelining and memory hierarchy. A supplemental textbook is recommended for those interested in the subject: [Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269).
 
 Note 2: Part II of the same course has you build the very lowest levels of an operating system on top of the computer architecture you built, however it does not go very deep into operating systems. For those interested in this subject, this free supplemental textbook is strongly recommended: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/).
 
 ### Core theory
+
+**Topics covered**: divide and conquer; sorting and searching; randomized algorithms; graph search; shortest paths; data structures; greedy algorithms; minimum spanning trees; dynamic programming; NP-completeness; formal languages; Turing machines; computability; and more.
+
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer) | 4 weeks | 4-8 hours/week | one programming language; proofs; probability
-[Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures) | 4 weeks | 4-8 hours/week | previous algorithms course
-[Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy) | 4 weeks | 4-8 hours/week | previous algorithms course
-[Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete) | 4 weeks | 4-8 hours/week | previous algorithms course
+[Algorithms (1/4)](https://www.coursera.org/learn/algorithms-divide-conquer) | 4 weeks | 4-8 hours/week | one programming language; proofs; probability
+[Algorithms (2/4)](https://www.coursera.org/learn/algorithms-graphs-data-structures) | 4 weeks | 4-8 hours/week | previous algorithms course
+[Algorithms (3/4)](https://www.coursera.org/learn/algorithms-greedy) | 4 weeks | 4-8 hours/week | previous algorithms course
+[Algorithms (4/4)](https://www.coursera.org/learn/algorithms-npcomplete) | 4 weeks | 4-8 hours/week | previous algorithms course
 [Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about) | 8 weeks | 10 hours/week | discrete mathematics
 
 ### Core applications
+
+**Topics covered**: neural networks; supervised learning; unsupervised learning; OpenGL; raytracing; block ciphers; authentication; public key encryption; and more.
+
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week | linear algebra
@@ -112,6 +126,9 @@ Courses | Duration | Effort | Prerequisites
 [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week | linear algebra; probability
 
 ### Advanced programming
+
+**Topics covered**: code coverage; random testing; debugging theory and practice; GPU programming; CUDA; parallel computing; object-oriented analysis and design; UML; large-scale software architecture and design; and more.
+
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Software Testing](https://www.udacity.com/course/software-testing--cs258)| 4 weeks | 6 hours/week | some programming
@@ -120,6 +137,8 @@ Courses | Duration | Effort | Prerequisites
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | Java programming
 
 ## Electives
+
+Some of these courses are offered less frequently, but are encouraged whenever they are available. Compilers is recommended to any student who took a strong interest in the Programming Languages courses.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
