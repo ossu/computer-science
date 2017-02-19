@@ -138,7 +138,7 @@ Courses | Duration | Effort | Prerequisites
 
 ## Electives
 
-Some of these courses are offered less frequently, but are encouraged whenever they are available. Compilers is recommended to any student who took a strong interest in the Programming Languages courses.
+Some of these courses are offered less frequently, but you are encouraged to take them whenever they are available if you're interested. Compilers is recommended to any student who took a strong interest in the Programming Languages courses. Natural Language Processing is recommended to anyone who thinks they want to specialize in machine learning, artificial intelligence, etc. Cryptography is recommended to anyone who wants to learn more about zero knowledge systems and other advanced topics in cryptography.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
@@ -148,9 +148,25 @@ Courses | Duration | Effort | Prerequisites
 
 ## Specializations
 
-After finishing the courses above, start your specializations on the topics that you have more interest.
+After finishing the curriculum above, you will have completed close to a full bachelor's degree in Computer Science.
+You can stop here, but if you really want to make yourself valuable, the next step to completing your studies is to develop skills and knowledge in a specific domain.
 
-The following platforms currently offer specializations:
+Choose one or more of the following specializations:
+- [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
+- [Data Mining Specialization](https://www.coursera.org/specializations/data-mining) by the University of Illinois at Urbana-Champaign
+- [Big Data Specialization](https://www.coursera.org/specializations/big-data) by the University of California at San Diego
+- [Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002) by Facebook and mongoDB
+- [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python) by the University of Michigan
+- [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) by Johns Hopkins University
+- [Mastering Software Development in R Specialization](https://www.coursera.org/specializations/r) by Johns Hopkins University
+- [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by kaggle
+- [Cybersecurity MicroMasters](https://www.edx.org/micromasters/ritx-cybersecurity) by the Rochester Institute of Technology
+- [Cloud Computing Specialization](https://www.coursera.org/specializations/cloud-computing) by the University of Illinois at Urbana-Champaign
+- [Internet of Things Specialization](https://www.coursera.org/specializations/internet-of-things) by the University of California at San Diego
+- [Full Stack Web Development Specialization](https://www.coursera.org/specializations/full-stack) by the Hong Kong University of Science and Technology
+- [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
+
+These aren't the only specializations you can choose. Check the following websites for more options:
 
 ### edX: [xSeries](https://www.edx.org/xseries)
 ### Coursera: [Specializations](https://www.coursera.org/specializations)
