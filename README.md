@@ -71,6 +71,8 @@ Courses | Duration | Effort | Prerequisites
 [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b) | 3 weeks | 8-16 hours/week | Programming Languages, Part A
 [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 3 weeks | 8-16 hours/week | Programming Languages, Part B
 
+The Object-Oriented Programming in Java class is intended for students who have already taken a basic Java course, but it can still be completed by those who have only studied basic programming before in a different, Java-like language (e.g., C). The learning curve will be steep, however, so for those who find it too difficult, looking over the material in this course is recommended: [Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/index.htm).
+
 ### Core math
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
@@ -249,7 +251,7 @@ You must share **only** files that you are **allowed** to! **Do NOT disrespect t
 
 This curriculum assumes the student has already taken high school math, including algebra, geometry, and pre-calculus. Some high school students will have taken calculus, but this is usually only about 3/4 of a college calculus class, so the calculus courses listed above are still recommended.
 
-Apart from that, the only things that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
+Apart from those, the only things that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
 
 **Note**: Just pick one of the resources below to learn the basics. You will learn a lot more once you get started!
 
