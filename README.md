@@ -120,12 +120,14 @@ Courses | Duration | Effort | Prerequisites
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week | algebra, probability, basic CS
 
 **Note 1**: The 'From Nand to Tetris' course, in part I, will have you create an entire computer architecture from scratch, but is missing key elements from computer architecture such as pipelining and memory hierarchy.
-A supplemental textbook is recommended for those interested in the subject:
+A supplemental textbook is recommended for those who wish to go deeper into the hardware:
 [Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269).
 
 **Note 2**: Part II of the same course has you build the very lowest levels of an operating system on top of the computer architecture you built, however it does not go very deep into operating systems.
 For those interested in this subject, this free supplemental textbook is strongly recommended:
 [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/).
+
+Both of the above textbooks should be considered a requirement for anyone who intends to become a *[systems programmer](https://en.wikipedia.org/wiki/System_programming)*.
 
 ### Core theory
 
