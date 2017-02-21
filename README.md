@@ -68,11 +68,22 @@ See also: [Prerequisites](#prerequisites)
 ## Core CS
 
 ### Core programming
-**Topics covered**: imperative programming; procedural programming; C;
-basic data structures and algorithms; Python; SQL; HTML, CSS, JavaScript;
-basic testing; functional program composition; object-oriented program design;
-static typing; dynamic typing; common design patterns;
-ML-family languages (via Standard ML); Lisp-family languages (via Racket); Ruby;
+**Topics covered**: imperative programming;
+procedural programming;
+C;
+basic data structures and algorithms;
+Python;
+SQL;
+HTML, CSS, JavaScript;
+basic testing;
+functional program composition;
+object-oriented program design;
+static typing;
+dynamic typing;
+common design patterns;
+ML-family languages (via Standard ML);
+Lisp-family languages (via Racket);
+Ruby;
 and more.
 
 Courses | Duration | Effort | Prerequisites
@@ -84,17 +95,27 @@ Courses | Duration | Effort | Prerequisites
 [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b) | 3 weeks | 8-16 hours/week | Programming Languages, Part A
 [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 3 weeks | 8-16 hours/week | Programming Languages, Part B
 
-Note: The Object-Oriented Programming in Java class is intended for students who have already taken a basic Java course, but it can still be completed by those
-who have only studied basic programming before in a different, Java-like language (e.g., C). The learning curve will be steep, however, so for those who
-find it too difficult, looking over the material in this course is recommended:
+Note: The Object-Oriented Programming in Java class is intended for students who have already taken a basic Java course, but it can still be completed by those who have only studied basic programming before in a different, Java-like language (e.g., C).
+The learning curve will be steep, however, so for those who find it too difficult, looking over the material in this course is recommended:
 [Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/index.htm).
 
 ### Core math
 
-**Topics covered**: mathematical proofs; number theory; real analysis;
-differential calculus; integral calculus; sequences and series;
-probability theory; basic statistics; O-notation; graph theory;
-linear transformations; matrices; vectors; and more.
+**Topics covered**:
+mathematical proofs;
+number theory;
+real analysis;
+differential calculus;
+integral calculus;
+sequences and series;
+probability theory;
+basic statistics;
+O-notation;
+graph theory;
+linear transformations;
+matrices;
+vectors;
+and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
@@ -107,10 +128,23 @@ Courses | Duration | Effort | Prerequisites
 
 ### Core systems
 
-**Topics covered**: boolean algebra; gate logic; memory; machine language;
-computer architecture; assembly; machine language; virtual machines;
-high-level languages; compilers; operating systems; relational databases;
-transaction processing; data modeling; network protocols; and more.
+**Topics covered**:
+boolean algebra;
+gate logic;
+memory;
+machine language;
+computer architecture;
+assembly;
+machine language;
+virtual machines;
+high-level languages;
+compilers;
+operating systems;
+relational databases;
+transaction processing;
+data modeling;
+network protocols;
+and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
@@ -131,10 +165,21 @@ Both of the above textbooks should be considered a requirement for anyone who in
 
 ### Core theory
 
-**Topics covered**: divide and conquer; sorting and searching;
-randomized algorithms; graph search; shortest paths; data structures;
-greedy algorithms; minimum spanning trees; dynamic programming; NP-completeness;
-formal languages; Turing machines; computability; and more.
+**Topics covered**:
+divide and conquer;
+sorting and searching;
+randomized algorithms;
+graph search;
+shortest paths;
+data structures;
+greedy algorithms;
+minimum spanning trees;
+dynamic programming;
+NP-completeness;
+formal languages;
+Turing machines;
+computability;
+and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
@@ -146,8 +191,15 @@ Courses | Duration | Effort | Prerequisites
 
 ### Core applications
 
-**Topics covered**: neural networks; supervised learning; unsupervised learning;
-OpenGL; raytracing; block ciphers; authentication; public key encryption;
+**Topics covered**:
+neural networks;
+supervised learning;
+unsupervised learning;
+OpenGL;
+raytracing;
+block ciphers;
+authentication;
+public key encryption;
 and more.
 
 Courses | Duration | Effort | Prerequisites
@@ -158,10 +210,17 @@ Courses | Duration | Effort | Prerequisites
 
 ### Advanced programming
 
-**Topics covered**: code coverage; random testing;
-debugging theory and practice; GPU programming; CUDA; parallel computing;
-object-oriented analysis and design; UML;
-large-scale software architecture and design; and more.
+**Topics covered**:
+code coverage;
+random testing;
+debugging theory and practice;
+GPU programming;
+CUDA;
+parallel computing;
+object-oriented analysis and design;
+UML;
+large-scale software architecture and design;
+and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
@@ -178,7 +237,7 @@ Some of these courses are offered less frequently, but you are encouraged to tak
 - Cryptography is recommended to anyone who wants to learn more about zero knowledge systems and other advanced topics in cryptography.
 - The Princeton Algorithms courses are highly recommended as a more practical, implementation-focused complement to the Stanford Algorithms courses recommended as part of Core CS.
 However, Part II is rarely available, so they are electives at this time.
-Note that the assignments are in Java, but don't require extensive Java experience
+Note that the assignments are in Java, but don't require extensive Java experience.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
@@ -279,14 +338,17 @@ this curriculum has specifically been designed to prioritize *quality* over low 
 Nevertheless, the reality is that the professors who have made these courses and the platforms who host them are extraordinarily generous.
 The content of virtually every course on Coursera and edX is available at no charge, but if you want graded assignments and quizzes, you may have to pay, depending on the course;
 yet, these sums of money are nothing compared to the cost of attending their prestigious instutitions.
-Coursera is the platform upon which you are most likely to encounter paywalled features, but they offer [financial aid](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid) to those eligible.
+Coursera is the platform upon which you are most likely to encounter paywalled features, but they offer
+[financial aid](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid)
+to those eligible.
 
 Some course materials are also available separate from these platforms, such as on YouTube.
 Below is a list of courses from the curriculum which have dedicated websites with freely available materials separate from the platforms:
 - [Introduction to Computer Science - CS50](https://cs50.harvard.edu/)
 - [Linear Algebra: Foundations to Frontiers](http://ulaff.net/)
 - [From Nand to Tetris: Building a Modern Computer from First Principles](http://www.nand2tetris.org/)
-- [How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/) (Note: This is the **book** upon which *How to Code: Systematic Program Design* is based, but the course is not taught by the book's author; they are completely separate)
+- [How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/)
+(Note: This is the **book** upon which *How to Code: Systematic Program Design* is based, but the course is not taught by the book's author; they are completely separate)
 - [Mooculus: Calculus One](https://mooculus.osu.edu/)
 
 Just remember that purchasing a course might save you some time and give you some extra motivation, but you cannot buy your way to success in this field.
