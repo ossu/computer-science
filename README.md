@@ -270,6 +270,28 @@ Therefore, many students will take the courses in a non-linear order, based on a
 Any course that is part of 'Core CS' section should be available either regularly, in self-paced format, or in archived form.
 Some of the electives are only available once in a while.
 
+## Cost of the classes
+
+No promises are made about the cost of any of the courses.
+
+The web is utterly filled with free educational material if you are willing to spend the time looking for it;
+this curriculum has specifically been designed to prioritize *quality* over low cost.
+Nevertheless, the reality is that the professors who have made these courses and the platforms who host them are extraordinarily generous.
+The content of virtually every course on Coursera and edX is available at no charge, but if you want graded assignments and quizzes, you may have to pay, depending on the course;
+yet, these sums of money are nothing compared to the cost of attending their prestigious instutitions.
+Coursera is the platform upon which you are most likely to encounter paywalled features, but they offer [financial aid](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid) to those eligible.
+
+Some course materials are also available separate from these platforms, such as on YouTube.
+Below is a list of courses from the curriculum which have dedicated websites with freely available materials separate from the platforms:
+- [Introduction to Computer Science - CS50](https://cs50.harvard.edu/)
+- [Linear Algebra: Foundations to Frontiers](http://ulaff.net/)
+- [From Nand to Tetris: Building a Modern Computer from First Principles](http://www.nand2tetris.org/)
+- [How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/) (Note: This is the **book** upon which *How to Code: Systematic Program Design* is based, but the course is not taught by the book's author; they are completely separate)
+
+Just remember that purchasing a course might save you some time and give you some extra motivation, but you cannot buy your way to success in this field.
+It's encouraged more as a way to thank the professor for their work.
+The most diligent students will be the most successful, regardless of how much or how little they spend.
+
 ## How to track and show your progress
 
 1. Create an account in [Trello](https://trello.com/).
