@@ -125,7 +125,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Certified Information Systems Auditor](https://www.cybrary.it/course/cisa/#)| - |  8.5 hours
-[The Hardware/Software Interface](https://www.coursera.org/course/hwswinterface)| 8 weeks | 10-15 hours/week
+[The Hardware/Software Interface](https://courses.cs.washington.edu/courses/cse351/16sp/)| 8 weeks | 10-15 hours/week
 
 ### Operating Systems
 
@@ -193,6 +193,11 @@ Courses | Duration | Effort
 [Secure Coding](https://www.cybrary.it/course/secure-coding/)| - | 9.5 hours
 
 ### Compilers
+
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week
+[Computer Language Engineering](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-035-computer-language-engineering-sma-5502-fall-2005/)| 15 weeks | -
 
 ### Parallel Computing
 

@@ -77,8 +77,11 @@ Name | Author(s)
 [Grinstead and Snell’s Introduction to Probability](https://math.dartmouth.edu/~prob/prob/prob.pdf) |Charles M. Grinstead, J. Laurie Snell
 
 ### Computer Architecture
+[The Elements of Computer Systems - From NAND to Tetris](http://www.nand2tetris.org/course.php) |Noam Nisan, Shimon Schocken
 
 ### Operating Systems
+:-- | :--: 
+[Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/) |Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau
 
 ### Computer Networks
 
