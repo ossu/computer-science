@@ -279,14 +279,19 @@ Courses | Duration | Effort | Prerequisites
 [ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
 
 **Note 1**:
-The computer engineering courses assume prior knowledge of basic physics, mechanics in particular.
+The Computation Structures courses assume prior knowledge of basic physics, mechanics in particular.
 The relevant material will be reviewed in the Rice University 'Electricity and Magnetism' course, but not systematically.
-If you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy:
+If you are struggling with the Rice courses, you can find a physics MOOC or utilize the materials from Khan Academy:
 [Khan Academy - Physics](https://www.khanacademy.org/science/physics)
 
 **Note 2**:
+The Computation Structures courses are very, very long, and very hands-on.
+A less hands-on alternative is here (note that the rerequisite physics knowledge is still the same):
+[Computer Architecture](https://www.coursera.org/learn/comparch)
+
+**Note 3**:
 ops-class.org is very, very hands-on.
-A more passive alternative is here:
+A completely passive alternative, totally lacking assignments or exams, is here:
 [Operating Systems](https://www.youtube.com/view_play_list?p=-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
 
 ### Advanced theory
