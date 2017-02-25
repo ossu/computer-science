@@ -120,7 +120,6 @@ The learning curve will be steep, however, so for those who find it too difficul
 **Topics covered**:
 mathematical proofs;
 number theory;
-real analysis;
 differential calculus;
 integral calculus;
 sequences and series;
@@ -263,9 +262,16 @@ Courses | Duration | Effort | Prerequisites
 
 ### Advanced math
 
+**Topics covered**:
+mathematical proofs;
+real analysis;
+goal-oriented programming;
+and more.
+
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | high school math
+[LAFF: Programming for Correctness](https://www.edx.org/course/laff-programming-correctness-utaustinx-ut-p4c-14-01x) | 7 weeks | 6 hours/week | linear algebra
 
 ### Advanced systems
 
