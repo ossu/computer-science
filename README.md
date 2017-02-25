@@ -63,7 +63,6 @@ These are **fundamental abilities** to succeed in our journey.
   - [Advanced systems](#advanced-systems)
   - [Advanced theory](#advanced-theory)
   - [Advanced applications](#advanced-applications)
-- [Electives](#electives)
 - [Pro CS](#pro-cs)
 - [Final project](#final-project)
 
