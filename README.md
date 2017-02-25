@@ -50,6 +50,7 @@ These are **fundamental abilities** to succeed in our journey.
 
 # Curriculum
 
+- [Intro CS](#intro-cs)
 - [Core CS](#core-cs)
   - [Core programming](#core-programming)
   - [Core math](#core-math)
@@ -65,16 +66,28 @@ See also: [Prerequisites](#prerequisites)
 
 ---
 
-## Core CS
+## Intro CS
 
-### Core programming
-**Topics covered**: imperative programming;
+Use this course to figure out if Computer Science is right for you.
+Only proceed in the curriculum if it really excites you.
+
+**Topics covered**:
+imperative programming;
 procedural programming;
 C;
 basic data structures and algorithms;
-Python;
+basic Python;
 SQL;
-HTML, CSS, JavaScript;
+basic HTML, CSS, JavaScript;
+
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) | 12 weeks | 10-20 hours/week | none
+
+## Core CS
+
+### Core programming
+**Topics covered**: 
 basic testing;
 functional program composition;
 object-oriented program design;
@@ -88,7 +101,6 @@ and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) | 12 weeks | 10-20 hours/week | none
 [How to Code: Systematic Program Design (XSeries)](https://www.edx.org/xseries/how-code-systematic-program-design) | 15 weeks | 5 hours/week | none
 [Object Oriented Programming in Java](https://www.coursera.org/learn/object-oriented-java) | 6 weeks | 4-6 hours/week | some programming
 [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages) | 4 weeks | 8-16 hours/week | recommended: Java, C
