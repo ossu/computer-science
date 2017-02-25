@@ -246,6 +246,11 @@ Unfortunately, advanced topics in computer science generally have less coverage 
 (This is because seldom few make it past beginner-level courses, there is low demand.)
 Therefore, some of these courses may not be available regularly.
 
+After completing every **single course** in Core CS, students should choose a subset of courses from Advanced CS based on interest.
+The Advanced CS study should then end with one of the Specializations under [Advanced applications](#advanced-applications).
+A Specialization's Capstone, if taken, may act as the [Final project](#final-project), if permitted by the Honor Code of the course.
+If not, or if a student chooses not to take the Capstone, then a separate Final project will need to be done to complete this curriculum.
+
 ### Advanced programming
 
 **Topics covered**:
@@ -321,6 +326,11 @@ Courses | Duration | Effort | Prerequisites
 
 ### Advanced applications
 
+All Coursera Specializations end with a Capstone project.
+Depending on the course, you may be able to utilize the Capstone as your Final Project for this Computer Science curriculum.
+Note that doing a Specialization with the Capstone at the end always costs money.
+So if you don't wish to spend money or use the Capstone as your Final, it may be possible to take the courses in the Specialization for free by manually searching for them, but not all allow this.
+
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Robotics (Specialization)](https://www.coursera.org/specializations/robotics) | 26 weeks | 2-5 hours/week | linear algebra, calculus, programming, probability
@@ -333,13 +343,13 @@ Courses | Duration | Effort | Prerequisites
   
 ## Pro CS
 
-After finishing the curriculum above, you will have completed close to a full bachelor's degree in Computer Science.
+After completing the requirements of the curriculum above, you will have completed close to a full bachelor's degree in Computer Science.
 You can stop here, but if you really want to make yourself valuable, the next step to completing your studies is to develop skills and knowledge in a specific domain.
+Many of these courses are graduate-level.
 
 Choose one or more of the following specializations:
 - [Mastering Software Development in R Specialization](https://www.coursera.org/specializations/r) by Johns Hopkins University
 - [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
-- [Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002) by Facebook and mongoDB
 - [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by kaggle
 - [Cybersecurity MicroMasters](https://www.edx.org/micromasters/ritx-cybersecurity) by the Rochester Institute of Technology
 - [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
@@ -350,7 +360,6 @@ These aren't the only specializations you can choose. Check the following websit
 ### Coursera: [Specializations](https://www.coursera.org/specializations)
 ### Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
 ### FutureLearn: [Collections](https://www.futurelearn.com/courses/collections)
-
 
 ## Final project
 
