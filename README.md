@@ -317,25 +317,25 @@ Courses | Duration | Effort | Prerequisites
 [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week | none
 [Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)| 12 weeks | - | Python programming
 [Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week | Cryptography I
-
+[Robotics (Specialization)](https://www.coursera.org/specializations/robotics) | 26 weeks | 2-5 hours/week | linear algebra, calculus, programming, probability
+[Data Mining (Specialization)](https://www.coursera.org/specializations/data-mining) | 30 weeks | 2-5 hours/week | machine learning
+[Big Data (Specialization)](https://www.coursera.org/specializations/big-data) | 30 weeks | 3-5 hours/week | none
+[Internet of Things (Specialization)](https://www.coursera.org/specializations/internet-of-things) | 30 weeks | 1-5 hours/week | strong programming
+[Cloud Computing (Specialization)](https://www.coursera.org/specializations/cloud-computing) | 30 weeks | 2-6 hours/week | C++ programming
+[Full Stack Web Development (Specialization)](https://www.coursera.org/specializations/full-stack) | 27 weeeks | 2-6 hours/week | programming, databases
+[Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none
+  
 ## Pro CS
 
 After finishing the curriculum above, you will have completed close to a full bachelor's degree in Computer Science.
 You can stop here, but if you really want to make yourself valuable, the next step to completing your studies is to develop skills and knowledge in a specific domain.
 
 Choose one or more of the following specializations:
-- [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
-- [Data Mining Specialization](https://www.coursera.org/specializations/data-mining) by the University of Illinois at Urbana-Champaign
-- [Big Data Specialization](https://www.coursera.org/specializations/big-data) by the University of California at San Diego
-- [Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002) by Facebook and mongoDB
-- [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python) by the University of Michigan
-- [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) by Johns Hopkins University
 - [Mastering Software Development in R Specialization](https://www.coursera.org/specializations/r) by Johns Hopkins University
+- [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
+- [Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002) by Facebook and mongoDB
 - [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by kaggle
 - [Cybersecurity MicroMasters](https://www.edx.org/micromasters/ritx-cybersecurity) by the Rochester Institute of Technology
-- [Cloud Computing Specialization](https://www.coursera.org/specializations/cloud-computing) by the University of Illinois at Urbana-Champaign
-- [Internet of Things Specialization](https://www.coursera.org/specializations/internet-of-things) by the University of California at San Diego
-- [Full Stack Web Development Specialization](https://www.coursera.org/specializations/full-stack) by the Hong Kong University of Science and Technology
 - [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
 
 These aren't the only specializations you can choose. Check the following websites for more options:
