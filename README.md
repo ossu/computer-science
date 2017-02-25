@@ -136,7 +136,6 @@ and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | high school math
 [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!)| 15 weeks | 8 hours/week | high school math
 [Calculus One](https://www.coursera.org/learn/calculus1)| 16 weeks | 8-10 hours/week | pre-calculus
 [Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week | Calculus One
@@ -157,9 +156,6 @@ virtual machines;
 high-level languages;
 compilers;
 operating systems;
-relational databases;
-transaction processing;
-data modeling;
 network protocols;
 and more.
 
@@ -167,7 +163,6 @@ Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) | 6 weeks | 7-13 hours/week | none
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | Part I
-[Databases](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| 12 weeks | 8-12 hours/week | some programming, basic CS
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week | algebra, probability, basic CS
 
 **Note 1**: The 'From Nand to Tetris' course, in part I, will have you create an entire computer architecture from scratch, but is missing key elements from computer architecture such as pipelining and memory hierarchy.
@@ -182,6 +177,12 @@ Both of the above textbooks should be considered a requirement for anyone who in
 
 ### Core theory
 
+The Princeton Algorithms courses are highly recommended as a more practical, implementation-focused complement to the more theory-focused Stanford Algorithms courses.
+Ideally, students would do both sets of courses since they complement each other nicely.
+However, Part II of Princeton Algorithms is rarely available, so Stanford Algorithms is the recommended choice if you cannot do both.
+Another difference is that Stanford Algorithms assignments can use any programming language;
+Princeton Algorithms assignments use Java but don't require extensive Java experience.
+
 **Topics covered**:
 divide and conquer;
 sorting and searching;
@@ -193,10 +194,9 @@ greedy algorithms;
 minimum spanning trees;
 dynamic programming;
 NP-completeness;
-formal languages;
-Turing machines;
-computability;
 and more.
+
+#### Stanford Algorithms
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
@@ -204,11 +204,20 @@ Courses | Duration | Effort | Prerequisites
 [Algorithms (2/4)](https://www.coursera.org/learn/algorithms-graphs-data-structures) | 4 weeks | 4-8 hours/week | previous algorithms course
 [Algorithms (3/4)](https://www.coursera.org/learn/algorithms-greedy) | 4 weeks | 4-8 hours/week | previous algorithms course
 [Algorithms (4/4)](https://www.coursera.org/learn/algorithms-npcomplete) | 4 weeks | 4-8 hours/week | previous algorithms course
-[Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about) | 8 weeks | 10 hours/week | discrete mathematics
+
+#### Princeton Algorithms
+
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) | 6 weeks | 6-12 hours/week | some programming
+[Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2) | 6 weeks | 6-12 hours/week | Algorithms, Part I
 
 ### Core applications
 
 **Topics covered**:
+relational databases;
+transaction processing;
+data modeling;
 neural networks;
 supervised learning;
 unsupervised learning;
@@ -221,11 +230,16 @@ and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
+[Databases](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| 12 weeks | 8-12 hours/week | some programming, basic CS
 [Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week | linear algebra
 [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)| 6 weeks | 12 hours/week | C++ or Java, linear algebra
 [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week | linear algebra; probability
 
 ## Advanced CS
+
+Unfortunately, advanced topics in computer science generally have less coverage in online courses.
+(This is because seldom few make it past beginner-level courses, there is low demand.)
+Therefore, some of these courses may not be available regularly.
 
 ### Advanced programming
 
@@ -250,29 +264,38 @@ Courses | Duration | Effort | Prerequisites
 
 ### Advanced math
 
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | high school math
+
 ### Advanced systems
-
-### Advanced theory
-
-### Advanced applications
-
-## Electives
-
-Some of these courses are offered less frequently, but you are encouraged to take them whenever they are available if you're interested.
-- Compilers is recommended to any student who took a strong interest in the Programming Languages courses.
-- Natural Language Processing is recommended to anyone who thinks they want to specialize in machine learning, artificial intelligence, etc.
-- Cryptography is recommended to anyone who wants to learn more about zero knowledge systems and other advanced topics in cryptography.
-- The Princeton Algorithms courses are highly recommended as a more practical, implementation-focused complement to the Stanford Algorithms courses recommended as part of Core CS.
-However, Part II is rarely available, so they are electives at this time.
-Note that the assignments are in Java, but don't require extensive Java experience.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week | Cryptography I
+
+### Advanced theory
+
+**Topics covered**:
+formal languages;
+Turing machines;
+computability;
+and more.
+
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about) | 8 weeks | 10 hours/week | discrete mathematics
+
+### Advanced applications
+
+Compilers is recommended to any student who took a strong interest in the Programming Languages courses.
+Natural Language Processing is recommended to anyone who thinks they want to specialize in machine learning, artificial intelligence, etc.
+Cryptography is recommended to anyone who wants to learn more about zero knowledge systems and other advanced topics in cryptography.
+
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
 [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week | none
 [Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)| 12 weeks | - | Python programming
-[Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) | 6 weeks | 6-12 hours/week | some programming
-[Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2) | 6 weeks | 6-12 hours/week | Algorithms, Part I
+[Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week | Cryptography I
 
 ## Pro CS
 
