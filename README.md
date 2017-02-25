@@ -57,7 +57,12 @@ These are **fundamental abilities** to succeed in our journey.
   - [Core systems](#core-systems)
   - [Core theory](#core-theory)
   - [Core applications](#core-applications)
+- [Advanced CS](#advanced-cs)
   - [Advanced programming](#advanced-programming)
+  - [Advanced math](#advanced-math)
+  - [Advanced systems](#advanced-systems)
+  - [Advanced theory](#advanced-theory)
+  - [Advanced applications](#advanced-applications)
 - [Electives](#electives)
 - [Pro CS](#pro-cs)
 - [Final project](#final-project)
@@ -220,6 +225,8 @@ Courses | Duration | Effort | Prerequisites
 [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)| 6 weeks | 12 hours/week | C++ or Java, linear algebra
 [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week | linear algebra; probability
 
+## Advanced CS
+
 ### Advanced programming
 
 **Topics covered**:
@@ -240,6 +247,14 @@ Courses | Duration | Effort | Prerequisites
 [Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming
 [Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | - | C, algorithms
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | Java programming
+
+### Advanced math
+
+### Advanced systems
+
+### Advanced theory
+
+### Advanced applications
 
 ## Electives
 
