@@ -227,6 +227,19 @@ Courses | Duration | Effort | Prerequisites
 [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)| 6 weeks | 12 hours/week | C++ or Java, linear algebra
 [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week | linear algebra; probability
 
+#### Optional
+
+Compilers is recommended to any student who took a strong interest in the Programming Languages courses.
+Natural Language Processing is recommended to anyone who thinks they want to specialize in machine learning, artificial intelligence, etc.
+Cryptography II is recommended to anyone who wants to learn more about zero knowledge systems and other advanced topics in cryptography.
+Unfortunately, the latter two courses are rarely available.
+
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week | none
+[Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)| 12 weeks | - | Python programming
+[Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week | Cryptography I
+
 ## Advanced CS
 
 Unfortunately, advanced topics in computer science generally have less coverage in online courses.
@@ -308,15 +321,8 @@ Courses | Duration | Effort | Prerequisites
 
 ### Advanced applications
 
-Compilers is recommended to any student who took a strong interest in the Programming Languages courses.
-Natural Language Processing is recommended to anyone who thinks they want to specialize in machine learning, artificial intelligence, etc.
-Cryptography is recommended to anyone who wants to learn more about zero knowledge systems and other advanced topics in cryptography.
-
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week | none
-[Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)| 12 weeks | - | Python programming
-[Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week | Cryptography I
 [Robotics (Specialization)](https://www.coursera.org/specializations/robotics) | 26 weeks | 2-5 hours/week | linear algebra, calculus, programming, probability
 [Data Mining (Specialization)](https://www.coursera.org/specializations/data-mining) | 30 weeks | 2-5 hours/week | machine learning
 [Big Data (Specialization)](https://www.coursera.org/specializations/big-data) | 30 weeks | 3-5 hours/week | none
