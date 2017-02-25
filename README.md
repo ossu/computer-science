@@ -35,16 +35,10 @@ The curriculum then concludes with a **final project** to show off your skills t
 
 # Motivation & Preparation
 
-Here are two interesting links that can make all the difference in your journey.
-
-The first one is a motivational video that shows a guy that went through the "MIT Challenge", which consists of learning the entire **4-year** MIT curriculum for Computer Science in **1 year**.
+Here is an interesting link that can make all the difference in your journey.
+It's a motivational video that shows a guy that went through the "MIT Challenge", which consists of learning the entire 4-year MIT curriculum for Computer Science in *1 year*.
 
 - [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
-
-The second link is a MOOC that will teach you learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines.
-These are **fundamental abilities** to succeed in our journey.
-
-- [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
 
 **Are you ready to get started?**
 
@@ -72,11 +66,11 @@ See also: [Prerequisites](#prerequisites)
 
 ## Intro CS
 
-Use these courses to figure out if Computer Science is right for you.
-Only proceed in the curriculum if they really excite you.
+Use the first course, CS50, to determine if Computer Science is right for you.
+Only proceed in the curriculum if it really excites you.
+If it does, use the second and third courses to gain the fundamental skills you need to excel at teaching yourself Computer Science.
 
 **Topics covered**:
-cardinality;
 imperative programming;
 procedural programming;
 C;
@@ -84,12 +78,15 @@ basic data structures and algorithms;
 basic Python;
 SQL;
 basic HTML, CSS, JavaScript;
+learning skills;
+cardinality;
 and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x-0) | 4 weeks | 2 hours/week | none
 [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) | 12 weeks | 10-20 hours/week | none
+[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week | none
+[Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x-0) | 4 weeks | 2 hours/week | none
 
 ## Core CS
 
