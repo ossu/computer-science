@@ -163,15 +163,9 @@ Courses | Duration | Effort | Prerequisites
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | Part I
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week | algebra, probability, basic CS
 
-**Note 1**: The 'From Nand to Tetris' course, in part I, will have you create an entire computer architecture from scratch, but is missing key elements from computer architecture such as pipelining and memory hierarchy.
-A supplemental textbook is recommended for those who wish to go deeper into the hardware:
-[Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269).
-
-**Note 2**: Part II of the same course has you build the very lowest levels of an operating system on top of the computer architecture you built, however it does not go very deep into operating systems.
+**Note**: Part II of the same course has you build the very lowest levels of an operating system on top of the computer architecture you built, however it does not go very deep into operating systems.
 For those interested in this subject, this free supplemental textbook is strongly recommended:
 [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/).
-
-Both of the above textbooks should be considered a requirement for anyone who intends to become a *[systems programmer](https://en.wikipedia.org/wiki/System_programming)*.
 
 ### Core theory
 
@@ -277,6 +271,23 @@ Courses | Duration | Effort | Prerequisites
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
+[Electricity and Magnetism, Part 1](https://www.edx.org/course/electricity-magnetism-part-1-ricex-phys102-1x-0) | 7 weeks | 8-10 hours/week | calculus, basic mechanics
+[Electricity and Magnetism, Part 2](https://www.edx.org/course/electricity-magnetism-part-2-ricex-phys102-2x-0) | 7 weeks | 8-10 hours/week | Part 1
+[Computation Structures 1: Digital Circuits](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0) | 10 weeks | 6 hours/week | electricity, magnetism
+[Computation Structures 2: Computer Architecture](https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x) | 10 weeks | 6 hours/week | previous course
+[Computation Structures 3: Computer Organization](https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0) | 10 weeks | 6 hours/week | previous course
+[ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
+
+**Note 1**:
+The computer engineering courses assume prior knowledge of basic physics, mechanics in particular.
+The relevant material will be reviewed in the Rice University 'Electricity and Magnetism' course, but not systematically.
+If you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy:
+[Khan Academy - Physics](https://www.khanacademy.org/science/physics)
+
+**Note 2**:
+ops-class.org is very, very hands-on.
+A more passive alternative is here:
+[Operating Systems](https://www.youtube.com/view_play_list?p=-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
 
 ### Advanced theory
 
