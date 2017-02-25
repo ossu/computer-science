@@ -257,6 +257,7 @@ If not, or if a student chooses not to take the Capstone, then a separate Final 
 code coverage;
 random testing;
 debugging theory and practice;
+goal-oriented programming;
 GPU programming;
 CUDA;
 parallel computing;
@@ -269,21 +270,9 @@ Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Software Testing](https://www.udacity.com/course/software-testing--cs258)| 4 weeks | 6 hours/week | some programming
 [Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming
+[LAFF: Programming for Correctness](https://www.edx.org/course/laff-programming-correctness-utaustinx-ut-p4c-14-01x) | 7 weeks | 6 hours/week | linear algebra
 [Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | - | C, algorithms
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | Java programming
-
-### Advanced math
-
-**Topics covered**:
-mathematical proofs;
-real analysis;
-goal-oriented programming;
-and more.
-
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | high school math
-[LAFF: Programming for Correctness](https://www.edx.org/course/laff-programming-correctness-utaustinx-ut-p4c-14-01x) | 7 weeks | 6 hours/week | linear algebra
 
 ### Advanced systems
 
@@ -315,14 +304,18 @@ A completely passive alternative, totally lacking assignments or exams, is here:
 ### Advanced theory
 
 **Topics covered**:
+real analysis;
 formal languages;
 Turing machines;
 computability;
+game trees;
 and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
+[Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | high school math
 [Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about) | 8 weeks | 10 hours/week | discrete mathematics
+[Game Theory](https://www.coursera.org/learn/game-theory-1) | 8 weeks | x hours/week | mathematical thinking, probability, calculus
 
 ### Advanced applications
 
