@@ -72,10 +72,11 @@ See also: [Prerequisites](#prerequisites)
 
 ## Intro CS
 
-Use this course to figure out if Computer Science is right for you.
-Only proceed in the curriculum if it really excites you.
+Use these courses to figure out if Computer Science is right for you.
+Only proceed in the curriculum if they really excite you.
 
 **Topics covered**:
+cardinality;
 imperative programming;
 procedural programming;
 C;
@@ -83,9 +84,11 @@ basic data structures and algorithms;
 basic Python;
 SQL;
 basic HTML, CSS, JavaScript;
+and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
+[Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x-0) | 4 weeks | 2 hours/week | none
 [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) | 12 weeks | 10-20 hours/week | none
 
 ## Core CS
