@@ -107,7 +107,7 @@ Courses | Duration | Effort | Prerequisites
 [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b) | 3 weeks | 8-16 hours/week | Programming Languages, Part A
 [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 3 weeks | 8-16 hours/week | Programming Languages, Part B
 
-Note: The Object-Oriented Programming in Java class is intended for students who have already taken a basic Java course, but it can still be completed by those who have only studied basic programming before in a different, Java-like language (e.g., C).
+**Note**: The Object-Oriented Programming in Java class is intended for students who have already taken a basic Java course, but it can still be completed by those who have only studied basic programming before in a different, Java-like language (e.g., C).
 The learning curve will be steep, however, so for those who find it too difficult, looking over the material in this course is recommended:
 [Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/index.htm).
 
