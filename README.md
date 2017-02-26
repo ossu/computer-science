@@ -378,10 +378,9 @@ Choose one or more of the following specializations:
 
 These aren't the only specializations you can choose. Check the following websites for more options:
 
-### edX: [xSeries](https://www.edx.org/xseries)
-### Coursera: [Specializations](https://www.coursera.org/specializations)
-### Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
-### FutureLearn: [Collections](https://www.futurelearn.com/courses/collections)
+- edX: [xSeries](https://www.edx.org/xseries)
+- Coursera: [Specializations](https://www.coursera.org/specializations)
+- Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
 
 ### Cooperative work
 
