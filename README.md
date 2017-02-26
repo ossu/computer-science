@@ -30,7 +30,8 @@
 
 This is a **solid path** for those of you who want to complete a **Computer Science** curriculum on your own time, at **little to no cost**, with courses from the **best universities** in the world.
 
-In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind.
+In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind;
+but we include readings where appropriate.
 The curriculum then concludes with a **final project** to show off your skills to your friends and future employers.
 
 # Motivation & Preparation
@@ -115,6 +116,13 @@ Courses | Duration | Effort | Prerequisites
 The learning curve will be steep, however, so for those who find it too difficult, looking over the material in this course is recommended:
 [Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/index.htm).
 
+#### Readings
+- **Required** to learn about monads, laziness, purity: [Learn You a Haskell for a Great Good!](http://learnyouahaskell.com/)
+- **Required**, to learn about logic programming, backtracking, unification, any resource on Prolog covering these topics, such as:
+  - [Prolog Programming for Artificial Intelligence](https://www.amazon.com/Programming-Artificial-Intelligence-International-Computer/dp/0321417461)
+  - [Learn Prolog Now](http://www.learnprolognow.org/)
+  - [Art of Prolog](https://mitpress.mit.edu/books/art-prolog)
+
 ### Core math
 
 **Topics covered**:
@@ -163,9 +171,9 @@ Courses | Duration | Effort | Prerequisites
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | Part I
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week | algebra, probability, basic CS
 
-**Note**: Part II of the same course has you build the very lowest levels of an operating system on top of the computer architecture you built, however it does not go very deep into operating systems.
-For those interested in this subject, this free supplemental textbook is strongly recommended:
-[Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/).
+#### Readings
+- Optional: [Computer Networking: A Top-Down Approach](https://www.amazon.com/gp/product/0133594149?pldnSite=1)
+- Recommended: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 
 ### Core theory
 
@@ -227,7 +235,12 @@ Courses | Duration | Effort | Prerequisites
 [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)| 6 weeks | 12 hours/week | C++ or Java, linear algebra
 [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week | linear algebra; probability
 
-#### Optional
+#### Readings
+- Optional: [Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)
+- Optional: [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
+- Optional: [Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
+
+#### Optional courses
 
 Compilers is recommended to any student who took a strong interest in the Programming Languages courses.
 Natural Language Processing is recommended to anyone who thinks they want to specialize in machine learning, artificial intelligence, etc.
@@ -273,6 +286,15 @@ Courses | Duration | Effort | Prerequisites
 [Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | - | C, algorithms
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | Java programming
 
+#### Readings
+- Recommended: [Design Patterns](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_1?s=books&ie=UTF8&qid=1488071249&sr=1-1&keywords=Design+Patterns)
+- Recommended: [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- Recommended: [Refactoring](https://www.refactoring.com/)
+- Recommended: [Code Complete](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
+- Recommended: [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
+- Recommended: [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
+- Recommended: [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/ref=sr_1_1?s=books&ie=UTF8&qid=1488071430&sr=1-1&keywords=Mythical+Man-Month)
+
 ### Advanced systems
 
 Courses | Duration | Effort | Prerequisites
@@ -299,6 +321,9 @@ A less hands-on alternative is here (note that the rerequisite physics knowledge
 ops-class.org is very, very hands-on.
 A completely passive alternative, totally lacking assignments or exams, is here:
 [Operating Systems](https://www.youtube.com/view_play_list?p=-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
+
+#### Readings
+- Optional: [Modern Operating Systems](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X)
 
 ### Advanced theory
 
