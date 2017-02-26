@@ -57,8 +57,8 @@ It's a motivational video that shows a guy that went through the "MIT Challenge"
   - [Advanced systems](#advanced-systems)
   - [Advanced theory](#advanced-theory)
   - [Advanced applications](#advanced-applications)
-- [Pro CS](#pro-cs)
 - [Final project](#final-project)
+- [Pro CS](#pro-cs)
 
 See also: [Prerequisites](#prerequisites)
 
@@ -340,6 +340,28 @@ Courses | Duration | Effort | Prerequisites
 [Cloud Computing (Specialization)](https://www.coursera.org/specializations/cloud-computing) | 30 weeks | 2-6 hours/week | C++ programming
 [Full Stack Web Development (Specialization)](https://www.coursera.org/specializations/full-stack) | 27 weeeks | 2-6 hours/week | programming, databases
 [Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none
+
+## Final project
+
+**OSS University** is **project-focused**.
+You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
+
+After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired.
+Not only does real project work look great on a resume, the project will **validate** and **consolidate** your knowledge.
+
+Another option is using the Capstone project from taking one of the Specializations in [Advanced applications](#advanced-applications);
+whether or not this makes sense depends on the course, the project, and whether or not the course's Honor Code permits you to display your work publicly.
+In some cases, it may not be permitted;
+do **not** violate your course's Honor Code!
+
+The final projects of all students will be listed in [this](PROJECTS.md) file.
+**Submit your project's information in that file after you conclude it**.
+
+Put the OSSU-CS badge in the README of your repository!
+[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)
+
+- Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)`
+- HTML: `<a href="https://github.com/open-source-society/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
   
 ## Pro CS
 
@@ -360,25 +382,6 @@ These aren't the only specializations you can choose. Check the following websit
 ### Coursera: [Specializations](https://www.coursera.org/specializations)
 ### Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
 ### FutureLearn: [Collections](https://www.futurelearn.com/courses/collections)
-
-## Final project
-
-**OSS University** is **project-focused**.
-You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
-
-> "What does it mean?"
-
-After you finish the curriculum, you should think about a problem that you can solve using the knowledge you've acquired.
-Not only does real project work look great on a resume, the project will **validate** and **consolidate** your knowledge.
-
-The final projects of all students will be listed in [this](PROJECTS.md) file.
-**Submit your project's information in that file after you conclude it**.
-
-Put the OSSU-CS badge in the README of your repository!
-[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)
-
-- Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)`
-- HTML: `<a href="https://github.com/open-source-society/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
 
 ### Cooperative work
 
