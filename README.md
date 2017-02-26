@@ -365,7 +365,7 @@ Put the OSSU-CS badge in the README of your repository!
   
 ## Pro CS
 
-After completing the requirements of the curriculum above, you will have completed close to a full bachelor's degree in Computer Science.
+After completing the requirements of the curriculum above, you will have completed a full bachelor's degree in Computer Science, or quite close to one.
 You can stop here, but if you really want to make yourself valuable, the next step to completing your studies is to develop skills and knowledge in a specific domain.
 Many of these courses are graduate-level.
 
@@ -377,7 +377,6 @@ Choose one or more of the following specializations:
 - [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
 
 These aren't the only specializations you can choose. Check the following websites for more options:
-
 - edX: [xSeries](https://www.edx.org/xseries)
 - Coursera: [Specializations](https://www.coursera.org/specializations)
 - Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
