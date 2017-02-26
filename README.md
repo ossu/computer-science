@@ -407,13 +407,12 @@ The important thing is to **internalize** the core concepts and to be able to us
 ## Order of the classes
 
 This guide was developed to be flexible.
-Ideally, it can be consumed in a linear approach, i.e. you complete one course at a time, but in reality different people have different preferences with regard to how many courses they wish to take at once.
+Ideally, Core CS can be consumed in a linear approach, i.e. you complete one course at a time, but in reality different people have different preferences with regard to how many courses they wish to take at once.
 Plus, different courses are available at different times and have wildly different time requirements.
 
 Therefore, many students will take the courses in a non-linear order, based on availability and how much time they have to devote to each class.
-
-Any course that is part of 'Core CS' section should be available either regularly, in self-paced format, or in archived form.
-Some of the electives are only available once in a while.
+However, with very few exceptions, everything in Core CS should be completed before you begin Advanced CS.
+Pay attention to prerequisites.
 
 ## Cost of the classes
 
