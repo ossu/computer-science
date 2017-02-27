@@ -383,24 +383,6 @@ Put the OSSU-CS badge in the README of your repository!
 
 - Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)`
 - HTML: `<a href="https://github.com/open-source-society/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
-  
-## Pro CS
-
-After completing the requirements of the curriculum above, you will have completed a full bachelor's degree in Computer Science, or quite close to one.
-You can stop here, but if you really want to make yourself valuable, the next step to completing your studies is to develop skills and knowledge in a specific domain.
-Many of these courses are graduate-level.
-
-Choose one or more of the following specializations:
-- [Mastering Software Development in R Specialization](https://www.coursera.org/specializations/r) by Johns Hopkins University
-- [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
-- [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by kaggle
-- [Cybersecurity MicroMasters](https://www.edx.org/micromasters/ritx-cybersecurity) by the Rochester Institute of Technology
-- [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
-
-These aren't the only specializations you can choose. Check the following websites for more options:
-- edX: [xSeries](https://www.edx.org/xseries)
-- Coursera: [Specializations](https://www.coursera.org/specializations)
-- Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
 
 ### Cooperative work
 
@@ -421,6 +403,24 @@ My friend, here is the best part of liberty!
 You can use **any** language that you want to complete the final project.
 
 The important thing is to **internalize** the core concepts and to be able to use them with whatever tool (programming language) that you wish.
+  
+## Pro CS
+
+After completing the requirements of the curriculum above, you will have completed a full bachelor's degree in Computer Science, or quite close to one.
+You can stop here, but if you really want to make yourself valuable, the next step to completing your studies is to develop skills and knowledge in a specific domain.
+Many of these courses are graduate-level.
+
+Choose one or more of the following specializations:
+- [Mastering Software Development in R Specialization](https://www.coursera.org/specializations/r) by Johns Hopkins University
+- [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
+- [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by kaggle
+- [Cybersecurity MicroMasters](https://www.edx.org/micromasters/ritx-cybersecurity) by the Rochester Institute of Technology
+- [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
+
+These aren't the only specializations you can choose. Check the following websites for more options:
+- edX: [xSeries](https://www.edx.org/xseries)
+- Coursera: [Specializations](https://www.coursera.org/specializations)
+- Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
