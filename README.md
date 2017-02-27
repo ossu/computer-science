@@ -285,12 +285,8 @@ Courses | Duration | Effort | Prerequisites
 
 #### Readings
 - Recommended: [Design Patterns](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_1?s=books&ie=UTF8&qid=1488071249&sr=1-1&keywords=Design+Patterns)
-- Recommended: [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 - Recommended: [Refactoring](https://www.refactoring.com/)
-- Recommended: [Code Complete](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
 - Recommended: [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
-- Recommended: [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
-- Recommended: [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/ref=sr_1_1?s=books&ie=UTF8&qid=1488071430&sr=1-1&keywords=Mythical+Man-Month)
 
 ### Advanced systems
 
@@ -407,21 +403,27 @@ The important thing is to **internalize** the core concepts and to be able to us
   
 ## Pro CS
 
-After completing the requirements of the curriculum above, you will have completed a full bachelor's degree in Computer Science, or quite close to one.
+After completing the requirements of the curriculum above, you will have completed the equivalent of a full bachelor's degree in Computer Science, or quite close to one.
 You can stop here, but if you really want to make yourself valuable, the next step to completing your studies is to develop skills and knowledge in a specific domain.
 Many of these courses are graduate-level.
 
-Choose one or more of the following specializations:
+Choose one or more of the following **specializations**:
 - [Mastering Software Development in R Specialization](https://www.coursera.org/specializations/r) by Johns Hopkins University
 - [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
 - [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by kaggle
 - [Cybersecurity MicroMasters](https://www.edx.org/micromasters/ritx-cybersecurity) by the Rochester Institute of Technology
 - [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
 
-These aren't the only specializations you can choose. Check the following websites for more options:
+These aren't the only specializations you can choose. Check the following websites for **more options**:
 - edX: [xSeries](https://www.edx.org/xseries)
 - Coursera: [Specializations](https://www.coursera.org/specializations)
 - Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
+
+After spending some time in the industry, you should also sharpen your coding and software management skills with the following **readings**:
+- Recommended: [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- Recommended: [Code Complete](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
+- Recommended: [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
+- Recommended: [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/ref=sr_1_1?s=books&ie=UTF8&qid=1488071430&sr=1-1&keywords=Mythical+Man-Month)
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
