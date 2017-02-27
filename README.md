@@ -173,6 +173,7 @@ Courses | Duration | Effort | Prerequisites
 
 ### Core theory
 
+Algorithms and data structures is the most important subject you will learn in Core CS, and there are two major course sequences for learning it.
 The Princeton Algorithms courses are highly recommended as a more practical, implementation-focused complement to the more theory-focused Stanford Algorithms courses.
 Ideally, students would do both sets of courses since they complement each other nicely.
 However, Part II of Princeton Algorithms is rarely available, so Stanford Algorithms is the recommended choice if you cannot do both.
