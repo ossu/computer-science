@@ -28,11 +28,11 @@
 
 # About
 
-This is a **solid path** for those of you who want to complete a **Computer Science** curriculum on your own time, at **little to no cost**, with courses from the **best universities** in the world.
+This is a solid path for those of you who want to complete a **Computer Science** curriculum on your own time, at little to no cost, with courses from the best universities in the world.
 
 In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind;
 but we include readings where appropriate.
-The curriculum then concludes with a **final project** to show off your skills to your friends and future employers.
+The curriculum then concludes with a final project to show off your skills to your friends and future employers.
 
 # Motivation & Preparation
 
@@ -364,11 +364,11 @@ Courses | Duration | Effort | Prerequisites
 
 ## Final project
 
-**OSS University** is **project-focused**.
+OSS University is **project-focused**.
 You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
 
 After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired.
-Not only does real project work look great on a resume, the project will **validate** and **consolidate** your knowledge.
+Not only does real project work look great on a resume, the project will *validate* and *consolidate* your knowledge.
 
 Another option is using the Capstone project from taking one of the Specializations in [Advanced applications](#advanced-applications);
 whether or not this makes sense depends on the course, the project, and whether or not the course's Honor Code permits you to display your work publicly.
@@ -484,7 +484,7 @@ You should put the *Course's cards* below its respective *Section's card*.
 - `Extra Sections`: cards with that label represent sections that was added by the student.
 
 The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
-You can change the status of your board to be **public** or **private**.
+You can change the status of your board to be *public* or *private*.
 
 ### Content Policy
 
@@ -503,11 +503,11 @@ So if you want to really complete your studies, then you should select one of th
 If you are able to devote 18-20 hours per week to this curriculum, taking 1-3 clases at a time, you could hypothetically finish the Core CS section in under 2 years.
 A specialization would then take you a few more months.
 
-It will probably take longer if you go slower, but regardless, your **reward** will be proportional to your **effort**.
+It will probably take longer if you go slower, but regardless, your reward will be proportional to your effort.
 
-You must focus on your **habit**, and **forget** about goals.
-Try to invest 1 ~ 2 hours **every day** studying this curriculum.
-If you do this, **inevitably** you'll finish this curriculum.
+You must focus on your habit, and forget about goals.
+Try to invest 1 ~ 2 hours every day studying this curriculum.
+If you do this, inevitably you'll finish this curriculum.
 
 > See more about "Commit to a process, not a goal" [here](http://jamesclear.com/goals-systems).
 
@@ -538,9 +538,9 @@ Apart from those, the only things that you need to know are how to use **Git** a
 
 To show respect to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
 
-Now we have a **stable** version of the curriculum, which won't change anymore, only in exceptional cases (outdated courses, broken links, etc).
+Now we have a stable version of the curriculum, which won't change anymore, only in exceptional cases (outdated courses, broken links, etc).
 
-Our students can trust in this curriculum because it has been **carefully planned** and covers the major **core topics** that a conventional Computer Science program covers.
+Our students can trust in this curriculum because it has been carefully planned and covers the major core topics that a conventional Computer Science program covers.
 
 # How to collaborate
 
