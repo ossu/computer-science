@@ -168,8 +168,8 @@ Courses | Duration | Effort | Prerequisites
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week | algebra, probability, basic CS
 
 #### Readings
+- **Required** since Nand2Tetris does not go deep enough into operating systems: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 - Optional: [Computer Networking: A Top-Down Approach](https://www.amazon.com/gp/product/0133594149?pldnSite=1)
-- Recommended: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 
 ### Core theory
 
