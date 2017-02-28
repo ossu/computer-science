@@ -217,6 +217,10 @@ Courses | Duration | Effort | Prerequisites
 ### Core applications
 
 **Topics covered**:
+Agile methodology;
+REST;
+software specifications;
+refactoring;
 relational databases;
 transaction processing;
 data modeling;
@@ -233,6 +237,7 @@ and more.
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Databases](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)| 12 weeks | 8-12 hours/week | some programming, basic CS
+[Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x) | 6 weeks | 8-10 hours/week | Software Construction - Object-Oriented Design
 [Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week | linear algebra
 [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)| 6 weeks | 12 hours/week | C++ or Java, linear algebra
 [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week | linear algebra; probability
@@ -244,13 +249,19 @@ Courses | Duration | Effort | Prerequisites
 
 #### Optional courses
 
+The Software Development Capstone Project is **strongly recommended** as a way to consolidate your knowledge gained throughout the Core CS curriculum;
+it involves working on a team.
+If you intend to stop at Core CS and go no further in your studies, you should consider this course to be required;
+be aware that it does cost money to get the most out of it.
+
 Compilers is recommended to any student who took a strong interest in the Programming Languages courses.
 Natural Language Processing is recommended to anyone who thinks they want to specialize in machine learning, artificial intelligence, etc.
 Cryptography II is recommended to anyone who wants to learn more about zero knowledge systems and other advanced topics in cryptography.
-Unfortunately, the latter two courses are rarely available.
+Unfortunately, the latter two courses are rarely available, which is why they are optional.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
+[Software Development Capstone Project](https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx) | 6-7 weeks | 8-10 hours/week | Software Engineering: Introduction
 [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week | none
 [Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)| 12 weeks | - | Python programming
 [Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week | Cryptography I
