@@ -263,8 +263,6 @@ If not, or if a student chooses not to take the Capstone, then a separate Final 
 ### Advanced programming
 
 **Topics covered**:
-code coverage;
-random testing;
 debugging theory and practice;
 goal-oriented programming;
 GPU programming;
@@ -277,7 +275,6 @@ and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Software Testing](https://www.udacity.com/course/software-testing--cs258)| 4 weeks | 6 hours/week | some programming
 [Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming
 [LAFF: Programming for Correctness](https://www.edx.org/course/laff-programming-correctness-utaustinx-ut-p4c-14-01x) | 7 weeks | 6 hours/week | linear algebra
 [Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | - | C, algorithms
