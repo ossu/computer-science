@@ -125,24 +125,25 @@ Programming Languages ([A](https://www.coursera.org/learn/programming-languages)
 ### Core math
 
 **Topics covered**:
+linear transformations;
+matrices;
+vectors;
 mathematical proofs;
 number theory;
 differential calculus;
 integral calculus;
 sequences and series;
-probability theory;
+discrete mathematics;
 basic statistics;
 O-notation;
 graph theory;
-linear transformations;
-matrices;
-vectors;
+probability theory;
 and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!)| 15 weeks | 8 hours/week | high school math
-[Calculus One](https://www.coursera.org/learn/calculus1)| 16 weeks | 8-10 hours/week | pre-calculus
+[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!)| 15 weeks | 8 hours/week | high school math (pre-calculus)
+[Calculus One](https://www.coursera.org/learn/calculus1)| 16 weeks | 8-10 hours/week | high school math (pre-calculus)
 [Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week | Calculus One
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) | 13 weeks | 5 hours/week | Calculus Two
 [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | calculus
