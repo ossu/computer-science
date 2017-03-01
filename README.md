@@ -252,7 +252,7 @@ Courses | Duration | Effort | Prerequisites
 
 ## Advanced CS
 
-After completing **every single course** in Core CS, students should choose a subset of courses from Advanced CS based on interest.
+After completing **every single required course** in Core CS, students should choose a subset of courses from Advanced CS based on interest.
 Not every course from a subcategory needs to be taken.
 But students should take *every* course that is relevant to the field they intend to go into.
 
@@ -279,42 +279,42 @@ Courses | Duration | Effort | Prerequisites
 [Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming
 [LAFF: Programming for Correctness](https://www.edx.org/course/laff-programming-correctness-utaustinx-ut-p4c-14-01x) | 7 weeks | 6 hours/week | linear algebra
 [Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | - | C, algorithms
-[Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | Java programming
-
-#### Readings
-- Recommended: [Design Patterns](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_1?s=books&ie=UTF8&qid=1488071249&sr=1-1&keywords=Design+Patterns)
-- Recommended: [Refactoring](https://www.refactoring.com/)
-- Recommended: [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
+[Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | software engineering in Java
 
 ### Advanced systems
 
+**Topics covered**:
+digital signaling;
+combinational logic;
+CMOS technologies;
+sequential logic;
+finite state machines;
+processor instruction sets;
+caches;
+pipelining;
+virtualization;
+parallel processing;
+virtual memory;
+synchronization primitives;
+system call interface;
+
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Electricity and Magnetism, Part 1](https://www.edx.org/course/electricity-magnetism-part-1-ricex-phys102-1x-0) | 7 weeks | 8-10 hours/week | calculus, basic mechanics
+[Electricity and Magnetism, Part 1](https://www.edx.org/course/electricity-magnetism-part-1-ricex-phys102-1x-0)<sup>1</sup> | 7 weeks | 8-10 hours/week | calculus, basic mechanics
 [Electricity and Magnetism, Part 2](https://www.edx.org/course/electricity-magnetism-part-2-ricex-phys102-2x-0) | 7 weeks | 8-10 hours/week | Part 1
-[Computation Structures 1: Digital Circuits](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0) | 10 weeks | 6 hours/week | electricity, magnetism
+[Computation Structures 1: Digital Circuits](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0)<sup>2</sup> | 10 weeks | 6 hours/week | electricity, magnetism
 [Computation Structures 2: Computer Architecture](https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x) | 10 weeks | 6 hours/week | previous course
 [Computation Structures 3: Computer Organization](https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0) | 10 weeks | 6 hours/week | previous course
 [ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
 
-**Note 1**:
-The Computation Structures courses assume prior knowledge of basic physics, mechanics in particular.
-The relevant material will be reviewed in the Rice University 'Electricity and Magnetism' course, but not systematically.
-If you are struggling with the Rice courses, you can find a physics MOOC or utilize the materials from Khan Academy:
+**<sup>1</sup> Note**:
+These courses assume knowledge of basic physics;
+if you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy:
 [Khan Academy - Physics](https://www.khanacademy.org/science/physics)
 
-**Note 2**:
-The Computation Structures courses are very, very long, and very hands-on.
-A less hands-on alternative is here (note that the rerequisite physics knowledge is still the same):
+**<sup>2</sup> Note**:
+A shorter, less intense (but still very advanced) alternative to Computation Structures is here:
 [Computer Architecture](https://www.coursera.org/learn/comparch)
-
-**Note 3**:
-ops-class.org is very, very hands-on.
-A completely passive alternative, totally lacking assignments or exams, is here:
-[Operating Systems](https://www.youtube.com/view_play_list?p=-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
-
-#### Readings
-- Supplemental: [Modern Operating Systems](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X)
 
 ### Advanced theory
 
