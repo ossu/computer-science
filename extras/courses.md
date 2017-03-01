@@ -50,6 +50,8 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
+[Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) | 6 weeks | 6-12 hours/week | some programming
+[Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2) | 6 weeks | 6-12 hours/week | Algorithms, Part I
 [Analysis of Algorithms (Skiena)](http://www3.cs.stonybrook.edu/~skiena/373/) | 15 weeks | 6-8 hours/week
 [Analysis of Algorithms (Sedgewick)](https://www.coursera.org/course/aofa)| 6 weeks | 6-8 hours/week
 [Programming Challenges (Skiena)](http://www3.cs.stonybrook.edu/~skiena/392/) | 14 weeks | 6-8 hours/week

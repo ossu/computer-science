@@ -176,13 +176,6 @@ Courses | Duration | Effort | Prerequisites
 
 ### Core theory
 
-Algorithms and data structures is the most important subject you will learn in Core CS, and there are two major course sequences for learning it.
-The Princeton Algorithms courses are highly recommended as a more practical, implementation-focused complement to the more theory-focused Stanford Algorithms courses.
-Ideally, students would do both sets of courses since they complement each other nicely.
-However, Part II of Princeton Algorithms is rarely available, so Stanford Algorithms is the recommended choice if you cannot do both.
-Another difference is that Stanford Algorithms assignments can use any programming language;
-Princeton Algorithms assignments use Java but don't require extensive Java experience.
-
 **Topics covered**:
 divide and conquer;
 sorting and searching;
@@ -196,21 +189,12 @@ dynamic programming;
 NP-completeness;
 and more.
 
-#### Stanford Algorithms
-
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Algorithms (1/4)](https://www.coursera.org/learn/algorithms-divide-conquer) | 4 weeks | 4-8 hours/week | one programming language; proofs; probability
 [Algorithms (2/4)](https://www.coursera.org/learn/algorithms-graphs-data-structures) | 4 weeks | 4-8 hours/week | previous algorithms course
 [Algorithms (3/4)](https://www.coursera.org/learn/algorithms-greedy) | 4 weeks | 4-8 hours/week | previous algorithms course
 [Algorithms (4/4)](https://www.coursera.org/learn/algorithms-npcomplete) | 4 weeks | 4-8 hours/week | previous algorithms course
-
-#### Princeton Algorithms
-
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) | 6 weeks | 6-12 hours/week | some programming
-[Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2) | 6 weeks | 6-12 hours/week | Algorithms, Part I
 
 ### Core applications
 
