@@ -138,8 +138,7 @@ basic statistics;
 O-notation;
 graph theory;
 vector calculus;
-multivariable calculus;
-probability theory;
+discrete probability;
 and more.
 
 Courses | Duration | Effort | Prerequisites
@@ -148,8 +147,6 @@ Courses | Duration | Effort | Prerequisites
 [Calculus One](https://www.coursera.org/learn/calculus1)| 16 weeks | 8-10 hours/week | pre-calculus
 [Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week | Calculus One
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) | 13 weeks | 5 hours/week | single variable calculus (Calculus Two)
-[Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week | single-variable calculus (Calculus Two)
-[Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | single- and multi-variable calculus
 
 ### Core systems
 
@@ -262,6 +259,18 @@ Courses | Duration | Effort | Prerequisites
 [Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | - | C, algorithms
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | software engineering in Java
 
+### Advanced math
+
+**Topics covered**:
+real analysis;
+multivariable integrals;
+multivariable differentials;
+probability theory;
+
+[Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | pre-calculus
+[Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week | single-variable calculus (Calculus Two)
+[Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | single- and multi-variable calculus
+
 ### Advanced systems
 
 **Topics covered**:
@@ -300,7 +309,6 @@ A shorter, less intense (but still very advanced) alternative to Computation Str
 ### Advanced theory
 
 **Topics covered**:
-real analysis;
 formal languages;
 Turing machines;
 computability;
@@ -314,7 +322,6 @@ and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | pre-calculus
 [Introduction to Logic](https://www.coursera.org/learn/logic-introduction) | 10 weeks | 4-8 hours/week | set theory
 [Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about) | 8 weeks | 10 hours/week | discrete mathematics, logic, algorithms
 [Computational Geometry](https://www.edx.org/course/computational-geometry-tsinghuax-70240183x) | 16 weeks | 8 hours/week | algorithms, C++
