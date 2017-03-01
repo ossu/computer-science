@@ -11,9 +11,9 @@ Name | Author(s)
 :-- | :--:
 [Introduction to Computation and Programming Using Python](https://www.amazon.com/Introduction-Computation-Programming-Using-Python/dp/0262525003/) | John V. Guttag
 [Discrete Mathematics with Applications (4th Edition)](http://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/0495391328/) | Susanna S. Epp
-[Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)
-[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
-[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
+[Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902) | Jim Gray, Andreas Reuter
+[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | William Kent
+[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf) | Joseph M. Hellerstein, Michael Stonebraker, James Hamilton
 [Introduction to Algorithms (3rd Edition)](http://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/) | Thomas H. Cormen,  Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
 [Modern Operating Systems (4th Edition)](http://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X/) | Andrew S. Tanenbaum, Herbert Bos
 [Computer Networking: A Top-Down Approach (6th Edition)](http://www.chegg.com/textbooks/computer-networking-6th-edition-9780132856201-0132856204) | James F Kurose, Keith W Ross
@@ -22,10 +22,10 @@ Name | Author(s)
 [The Architecture of Open Source Applications](http://aosabook.org/en/) | Michael DiBernardo (editor)
 [Compilers: Principles, Techniques, and Tools (2nd Edition)](http://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811/) | Alfred V. Aho, Monica S. Lam, Ravi Sethi,  Jeffrey D. Ullman
 [Computer Networks (5th Edition)](http://www.amazon.com/Computer-Networks-5th-Andrew-Tanenbaum/dp/0132126958/) | Andrew S. Tanenbaum, David J. Wetherall
-[Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-[Code Complete](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
-[The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
-[The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/ref=sr_1_1?s=books&ie=UTF8&qid=1488071430&sr=1-1&keywords=Mythical+Man-Month)
+[Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) | Robert Martin
+[Code Complete](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) | Steve McConnell
+[The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X) | Andrew Hunt, David Thomas
+[The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/) | Fred Brooks, Jr.
 [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sicp/full-text/book/book.html) | Hal Abelson, Jerry Sussman, Julie Sussman 
 [Introduction to Computing: Explorations in Language, Logic, and Machines](http://www.computingbook.org/) | David Evans
 [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) | Alan Doerr, Ken Levasseur
