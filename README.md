@@ -250,17 +250,6 @@ Courses | Duration | Effort | Prerequisites
 - Supplemental: [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
 - Supplemental: [Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
 
-#### Optional courses
-
-Natural Language Processing is recommended to anyone who thinks they want to specialize in machine learning, artificial intelligence, etc.
-Cryptography II is recommended to anyone who wants to learn more about zero knowledge systems and other advanced topics in cryptography.
-Unfortunately, the latter two courses are rarely available, which is why they are optional.
-
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)| 12 weeks | - | Python programming
-[Cryptography II](https://www.coursera.org/course/crypto2)| 6 weeks | 6-8 hours/week | Cryptography I
-
 ## Advanced CS
 
 After completing **every single course** in Core CS, students should choose a subset of courses from Advanced CS based on interest.
