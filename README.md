@@ -230,7 +230,7 @@ Courses | Duration | Effort | Prerequisites
 
 ## Advanced CS
 
-After completing **every single required course** in Core CS, students should choose a subset of courses from Advanced CS based on interest.
+After completing **every required course** in Core CS, students should choose a subset of courses from Advanced CS based on interest.
 Not every course from a subcategory needs to be taken.
 But students should take *every* course that is relevant to the field they intend to go into.
 
@@ -266,7 +266,10 @@ real analysis;
 multivariable integrals;
 multivariable differentials;
 probability theory;
+and more.
 
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
 [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | pre-calculus
 [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week | single-variable calculus (Calculus Two)
 [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | single- and multi-variable calculus
@@ -287,6 +290,7 @@ parallel processing;
 virtual memory;
 synchronization primitives;
 system call interface;
+and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
