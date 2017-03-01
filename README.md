@@ -173,7 +173,6 @@ Courses | Duration | Effort | Prerequisites
 
 #### Readings
 - **Required** since Nand2Tetris does not go deep enough into operating systems: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Supplemental: [Computer Networking: A Top-Down Approach](https://www.amazon.com/gp/product/0133594149?pldnSite=1)
 
 ### Core theory
 
@@ -244,11 +243,6 @@ Courses | Duration | Effort | Prerequisites
 
 \* **Required** if you intend not to go past Core CS;
 **strongly recommended** even for those who will continue on to Advanced CS.
-
-#### Readings
-- Supplemental: [Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)
-- Supplemental: [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
-- Supplemental: [Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
 
 ## Advanced CS
 
@@ -417,11 +411,14 @@ These aren't the only specializations you can choose. Check the following websit
 - Coursera: [Specializations](https://www.coursera.org/specializations)
 - Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
 
-After spending some time in the industry, you should also sharpen your coding and software management skills with the following **readings**:
-- Recommended: [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-- Recommended: [Code Complete](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
-- Recommended: [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
-- Recommended: [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/ref=sr_1_1?s=books&ie=UTF8&qid=1488071430&sr=1-1&keywords=Mythical+Man-Month)
+### Where to go next?
+
+- Look for a job as a developer!
+- Check out the [readings](extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
+- Join a local developer meetup (e.g. via [Meetups.com](https://www.meetups.com/)).
+- Pay attention to emerging technologies in the world of software development, such as:
+  - [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested BEAM VM!
+  - [Rust](https://www.rust-lang.org/), a systems language which uses borrowing and lifetimes to achieve memory safety without a garbage collector!
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
