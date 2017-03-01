@@ -173,7 +173,7 @@ Courses | Duration | Effort | Prerequisites
 
 #### Readings
 - **Required** since Nand2Tetris does not go deep enough into operating systems: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
-- Optional: [Computer Networking: A Top-Down Approach](https://www.amazon.com/gp/product/0133594149?pldnSite=1)
+- Supplemental: [Computer Networking: A Top-Down Approach](https://www.amazon.com/gp/product/0133594149?pldnSite=1)
 
 ### Core theory
 
@@ -242,9 +242,9 @@ Courses | Duration | Effort | Prerequisites
 [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week | linear algebra; probability
 
 #### Readings
-- Optional: [Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)
-- Optional: [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
-- Optional: [Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
+- Supplemental: [Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)
+- Supplemental: [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
+- Supplemental: [Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
 
 #### Optional courses
 
@@ -328,7 +328,7 @@ A completely passive alternative, totally lacking assignments or exams, is here:
 [Operating Systems](https://www.youtube.com/view_play_list?p=-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
 
 #### Readings
-- Optional: [Modern Operating Systems](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X)
+- Supplemental: [Modern Operating Systems](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X)
 
 ### Advanced theory
 
