@@ -53,20 +53,11 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Web Application Architectures](https://www.coursera.org/course/webapplications)| 6 weeks | 6-9 hours/week
-[Agile Development Using Ruby on Rails - Basics](https://www.edx.org/course/agile-development-using-ruby-rails-uc-berkeleyx-cs169-1x)| 9 weeks | 12 hours/week
-[Agile Development Using Ruby on Rails - Advanced](https://www.edx.org/course/agile-development-using-ruby-rails-uc-berkeleyx-cs169-2x)| 8 weeks | 12 hours/week
-[Startup Engineering](https://www.coursera.org/course/startup) | 12 weeks | 2-20 hours/week
 [Using Databases with Python](https://www.coursera.org/learn/python-databases) | 5 weeks | 2-3 hours/week
 [Database Systems](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22ed2ee867-9610-4bad-94af-5d12c2ea47cd%22) | - | 27 hours
 [Database Management Essentials](https://www.coursera.org/learn/database-management) | 7 weeks | 4-6 hours/week
 [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271)| 16 weeks | 6-10 hours/week
 [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)| 10 weeks | 6-10 hours/week
 [Machine Learning for Data Science and Analytics](https://www.edx.org/course/machine-learning-data-science-analytics-columbiax-ds102x-0)| 5 weeks | 7-10 hours/week
-[Big Data for Smart Cities](https://www.edx.org/course/big-data-smart-cities-ieeex-introdatax)| 4 weeks | 3-5 hours/week
 [Processing Big Data with Azure HDInsight](https://www.edx.org/course/processing-big-data-azure-hdinsight-microsoft-dat202-1x-0)| 5 weeks | 3-4 hours/week
 [Big Data Science with the BD2K-LINCS Data Coordination and Integration Center](https://www.coursera.org/course/bd2klincs)| 7 weeks | 4-5 hours/week
-[Mining Massive Datasets](https://www.coursera.org/course/mmds)| 7 weeks | 8-10 hours/week
-[Text Retrieval and Search Engines](https://www.coursera.org/learn/text-retrieval)| - | -
-[Text Mining and Analytics](https://www.coursera.org/learn/text-mining)| - | -
-[Cluster Analysis in Data Mining](https://www.coursera.org/learn/cluster-analysis)| - | -
