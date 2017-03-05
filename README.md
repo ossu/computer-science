@@ -409,9 +409,6 @@ whether or not this makes sense depends on the course, the project, and whether 
 In some cases, it may not be permitted;
 do **not** violate your course's Honor Code!
 
-The final projects of all students will be listed in [this](PROJECTS.md) file.
-**Submit your project's information in that file after you conclude it**.
-
 Put the OSSU-CS badge in the README of your repository!
 [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)
 
@@ -420,7 +417,9 @@ Put the OSSU-CS badge in the README of your repository!
 
 ### Evaluation
 
-Upon completing your final project, use our [community](#community) channels to announce it.
+Upon completing your final project, submit your project's information to [PROJECTS](PROJECTS.md)
+via a pull request and use our [community](#community) channels to announce it to your fellow students.
+
 Your peers and mentors from OSSU will then informally evaluate your project.
 You will not be "graded" in the traditional sense — everyone has their own measurements for what they consider a success.
 The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist,
