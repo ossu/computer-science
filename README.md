@@ -69,18 +69,18 @@ See also: [Prerequisites](#prerequisites)
 
 Use the first course, CS50, to determine if Computer Science is right for you.
 Only proceed in the curriculum if it really excites you.
-If it does, use the second and third courses to gain the fundamental skills you need to excel at teaching yourself Computer Science.
+Feel free to use the second and third **optional** courses to gain the fundamental skills you need to excel at teaching yourself Computer Science;
+they are very lightweight courses so it's suggested take them concurrently with another course.
 
 **Topics covered**:
 imperative programming;
 procedural programming;
 C;
+manual memory management;
 basic data structures and algorithms;
 basic Python;
 SQL;
 basic HTML, CSS, JavaScript;
-learning skills;
-cardinality;
 and more.
 
 Courses | Duration | Effort | Prerequisites
