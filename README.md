@@ -431,13 +431,6 @@ You can create this project alone or with other students!
 **We love cooperative work**!
 Use our [channels](#community) to communicate with other fellows to combine and create new projects!
 
-### Project Suggestions
-
-- [Projects](https://github.com/karan/Projects): A list of practical projects that anyone can solve in any programming language.
-- [app-specs](https://github.com/ericdouglas/app-specs): A curated list of applications specifications and implementations to practice new technologies, improve your portfolio and sharpen your skills.
-- [FreeCodeCamp](http://www.freecodecamp.com/): Course that teaches you fullstack JavaScript development through a bunch of projects.
-- [JavaScript Projects](https://github.com/javascript-society/javascript-projects): List of projects related with the [JavaScript Path](https://github.com/javascript-society/javascript-path).
-
 ### Which programming languages should I use?
 
 My friend, here is the best part of liberty!
