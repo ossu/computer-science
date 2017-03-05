@@ -9,17 +9,13 @@ or that there was an alternative that fit better into the curriculum.
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!)| 9 weeks | 15 hours/week
+[Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
 [Introduction to Computer Science (Udacity)](https://www.udacity.com/course/intro-to-computer-science--cs101)| 7 weeks | 10-20 hours/week
 [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/learn/interactive-python-1)| 5 weeks | -
 [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/learn/interactive-python-2)| - | -
-[Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
-[Introduction to Programming with Java Part 1: Starting to Code with Java](https://prod-edx-mktg-edit.edx.org/course/introduction-programming-java-part-1-uc3mx-it-1-1x-0)| 5 weeks | 5-7 hours/week
-[Introduction to Programming with Java Part 2: Writing Good Code](https://prod-edx-mktg-edit.edx.org/course/introduction-programming-java-part-2-uc3mx-it-1-2x)| 5 weeks | 5-7 hours/week
-[CS For All: Introduction to Computer Science and Python Programming](https://www.edx.org/course/cs-all-introduction-computer-science-harveymuddx-cs005x-0)| 14 weeks | 5-7 hours/week
 [Programming Basics](https://www.edx.org/course/programming-basics-iitbombayx-cs101-1x)| 9 weeks | 8 hours/week
-[Introduction to Programming with MATLAB](https://www.coursera.org/learn/matlab)| - | -
-[Principles of Reactive Programming](https://www.coursera.org/course/reactive)| 7 weeks | 5-7 hours/week
 [Object-Oriented Programming](https://www.edx.org/course/object-oriented-programming-iitbombayx-cs101-2x)| 4 weeks | 8 hours/week
+[Introduction to Programming with MATLAB](https://www.coursera.org/learn/matlab)| - | -
 [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)| 7 weeks | 4-6 hours/week
 
 ## Math
