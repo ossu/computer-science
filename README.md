@@ -70,10 +70,10 @@ Note that Coursera offers [financial aid](https://learner.coursera.help/hc/en-us
 Decide how much or how little to spend based on your own time and budget;
 just remember that you can't purchase success!
 
-**Content policy**: If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
+**Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
 *Do NOT disrespect the code of conduct* that you signed in the beginning of each course!
 
-**How to contribute**: please see [CONTRIBUTING](CONTRIBUTING.md).
+**How to contribute**. Please see [CONTRIBUTING](CONTRIBUTING.md).
 
 # Curriculum
 
