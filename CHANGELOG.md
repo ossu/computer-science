@@ -1,7 +1,13 @@
 # Change Log
 
 All notable changes to this project will be documented in this file.
-This project adheres to [Semantic Versioning](http://semver.org/).
+This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
+- "MAJOR" updates correspond to changing the topics studied
+- "MINOR" updates correspond to fulfilling a topical requirement using a different class
+- "PATCH" updates correspond to purely aesthetic and non-essential additions/removals
+
+## [7.0] 2017-03-05
+TODO
 
 ## [6.0] 2016-10-09
 ### Updated

@@ -15,36 +15,71 @@
 
 # Contents
 
-- [About](#about)
-- [Motivation & Preparation](#motivation--preparation)
+- [Summary](#summary)
 - [Curriculum](#curriculum)
-- [How to use this guide](#how-to-use-this-guide)
-- [Prerequisites](#prerequisites)
-- [Changelog](#changelog)
-- [How to collaborate](#how-to-collaborate)
+  - [Prerequisites](#prerequisites)
+  - [Intro CS](#intro-cs)
+  - [Core CS](#core-cs)
+  - [Advanced CS](#advanced-cs)
+  - [Final project](#final-project)
+  - [Pro CS](#pro-cs)
 - [Community](#community)
-- [Team](#team)
+  - [How to show your progress](#how-to-show-your-progress)
+  - [Team](#team)
 - [References](#references)
 
-# About
+# Summary
 
-This is a solid path for those of you who want to complete a **Computer Science** curriculum on your own time, at little to no cost, with courses from the best universities in the world.
+The OSSU curriculum is a **complete education in computer science** using online materials.
+It's not merely for career training or professional development.
+It's for those who want a proper, *well-rounded* grounding in concepts fundamental to all computing disciplines,
+and for those who have the discipline, will, and (most importantly!) good habits to obtain this education largely on their own,
+but with support from a worldwide community of fellow learners.
 
-In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind;
-but we include readings where appropriate.
-The curriculum then concludes with a final project to show off your skills to your friends and future employers.
+It is designed according to the degree requirements of undergraduate computer science majors, minus general education (non-CS) requirements,
+as it is assumed most of the people following this curriculum are already educated outside the field of CS.
+The courses themselves are among the very best in the world, often coming from Harvard, Princeton, MIT, etc.,
+but specifically chosen to meet the following criteria.
 
-# Motivation & Preparation
+**Courses must**:
+- Be open for enrollment
+- Run regularly (ideally in self-paced format, otherwise running at least once a month or so)
+- Fulfill the [academic requirements](REQUIREMENTS.md) of OSSU
+- Fit neatly into the progression of the curriculum with respect to topics and difficulty level
+- Be of generally high quality in teaching materials and pedagogical principles
 
-Here is an interesting link that can make all the difference in your journey.
-It's a motivational video that shows a guy that went through the "MIT Challenge", which consists of learning the entire 4-year MIT curriculum for Computer Science in *1 year*.
+When no course meets the above criteria, the coursework is supplemented with a book.
+When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
+they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/readings.md).
 
-- [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
+**Organization**. The curriculum is designed as follows:
+- *Intro CS*: for students to try out CS and see if it's right for them
+- *Core CS*: corresponds roughly to the first three years of a computer science curriculum, taking classes that all majors would be required to take
+- *Advanced CS*: corresponds roughly to the final year of a computer science curriculum, taking electives according to the student's interests
+- *Final Project*: a project for students to validate, consolidate, and display their knowledge, to be evaluated by their peers worldwide
+- *Pro CS*: graduate-level specializations students can elect to take after completing the above curriculum if they want to maximize their chances of getting a good job
 
-**Are you ready to get started?**
+**Duration**. It is possible to finish Core CS within about 2 years if you plan carefully and devote roughly 18-22 hours/week to your studies.
+Courses in Core CS should be taken linearly if possible, but since a perfectly linear progression is rarely possible,
+each class's prerequisites is specified so that you can design a logical but non-linear progression
+based on the class schedules and your own life plans.
+
+**Cost**. All or nearly all course material prior to Pro CS is available for free,
+however some courses may charge money for assignments/tests/projects to be graded.
+Note that Coursera offers [financial aid](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid).
+Decide how much or how little to spend based on your own time and budget;
+just remember that you can't purchase success!
+
+**Content policy**: If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
+*Do NOT disrespect the code of conduct* that you signed in the beginning of each course!
+
+**How to contribute**: please see [CONTRIBUTING](CONTRIBUTING.md).
 
 # Curriculum
 
+**Curriculum version**: `7.0` (see [CHANGELOG](CHANGELOG.md))
+
+- [Prerequisites](#prerequisites)
 - [Intro CS](#intro-cs)
 - [Core CS](#core-cs)
   - [Core programming](#core-programming)
@@ -61,9 +96,15 @@ It's a motivational video that shows a guy that went through the "MIT Challenge"
 - [Final project](#final-project)
 - [Pro CS](#pro-cs)
 
-See also: [Prerequisites](#prerequisites)
-
 ---
+
+## Prerequisites
+
+- [Core CS](#core-cs) assumes the student has already taken high school math and physics, including algebra, geometry, and pre-calculus.
+Some high school graduates will have already taken AP Calculus, but this is usually only about 3/4 of a college calculus class, so the calculus courses in the curriculum are still recommended.
+- [Advanced CS](#advanced-cs) assumes the student has already taken the entirety of Core CS
+and is knowledgeable enough now to decide which electives to take.
+- Note that [Advanced systems](#advanced-systems) assumes the student has taken a basic physics course (e.g. AP Physics in high school).
 
 ## Intro CS
 
@@ -85,11 +126,13 @@ and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) | 12 weeks | 10-20 hours/week | none
+[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | none
 [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week | none
 [Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x-0) | 4 weeks | 2 hours/week | none
 
 ## Core CS
+
+All coursework under Core CS is **required**, unless otherwise indicated.
 
 ### Core programming
 **Topics covered**: 
@@ -143,8 +186,8 @@ and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!)| 15 weeks | 8 hours/week | pre-calculus
-[Calculus One](https://www.coursera.org/learn/calculus1)| 16 weeks | 8-10 hours/week | pre-calculus
+[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | pre-calculus
+[Calculus One](https://www.coursera.org/learn/calculus1) ([alt](https://mooculus.osu.edu/)) | 16 weeks | 8-10 hours/week | pre-calculus
 [Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week | Calculus One
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) | 13 weeks | 5 hours/week | single variable calculus (Calculus Two)
 
@@ -167,7 +210,7 @@ and more.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) | 6 weeks | 7-13 hours/week | none
+[Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) ([alt](http://www.nand2tetris.org/)) | 6 weeks | 7-13 hours/week | none
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | From Nand to Tetris Part I
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| - | 4–12 hours/week | algebra, probability, basic CS
 
@@ -371,6 +414,17 @@ Put the OSSU-CS badge in the README of your repository!
 - Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)`
 - HTML: `<a href="https://github.com/open-source-society/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
 
+### Evaluation
+
+Upon completing your final project, use our [community](#community) channels to announce it.
+Your peers and mentors from OSSU will then informally evaluate your project.
+You will not be "graded" in the traditional sense — everyone has their own measurements for what they consider a success.
+The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist,
+and to get experience listening to feedback — both positive and negative — and taking it in stride.
+
+The final project evaluation has a second purpose: to evaluate whether OSSU,
+through its community and curriculum, is successful in its mission to guide independent learners in obtaining a world-class computer science education.
+
 ### Cooperative work
 
 You can create this project alone or with other students!
@@ -390,7 +444,7 @@ My friend, here is the best part of liberty!
 You can use **any** language that you want to complete the final project.
 
 The important thing is to **internalize** the core concepts and to be able to use them with whatever tool (programming language) that you wish.
-  
+
 ## Pro CS
 
 After completing the requirements of the curriculum above, you will have completed the equivalent of a full bachelor's degree in Computer Science, or quite close to one.
@@ -420,45 +474,18 @@ These aren't the only specializations you can choose. Check the following websit
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
-# How to use this guide
+# Community
 
-## Order of the classes
+- Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)!
+- Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
+- You can also interact through [GitHub issues](https://github.com/open-source-society/computer-science/issues).
+- We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
+- Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
 
-This guide was developed to be flexible.
-Ideally, Core CS can be consumed in a linear approach, i.e. you complete one course at a time, but in reality different people have different preferences with regard to how many courses they wish to take at once.
-Plus, different courses are available at different times and have wildly different time requirements.
+> **PS**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps.
+**Please use our subreddit/group for important discussions**.
 
-Therefore, many students will take the courses in a non-linear order, based on availability and how much time they have to devote to each class.
-However, with very few exceptions, everything in Core CS should be completed before you begin Advanced CS.
-Pay attention to prerequisites.
-
-## Cost of the classes
-
-No promises are made about the cost of any of the courses.
-
-The web is utterly filled with free educational material if you are willing to spend the time looking for it;
-this curriculum has specifically been designed to prioritize *quality* over low cost.
-Nevertheless, the reality is that the professors who have made these courses and the platforms who host them are extraordinarily generous.
-The content of virtually every course on Coursera and edX is available at no charge, but if you want graded assignments and quizzes, you may have to pay, depending on the course;
-yet, these sums of money are nothing compared to the cost of attending their prestigious instutitions.
-Coursera is the platform upon which you are most likely to encounter paywalled features, but they offer
-[financial aid](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid)
-to those eligible.
-
-Some course materials are also available separate from these platforms, such as on YouTube.
-Below is a list of courses from the curriculum which have dedicated websites with freely available materials separate from the platforms:
-- [Introduction to Computer Science - CS50](https://cs50.harvard.edu/)
-- [Linear Algebra: Foundations to Frontiers](http://ulaff.net/)
-- [From Nand to Tetris: Building a Modern Computer from First Principles](http://www.nand2tetris.org/)
-- [How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/)
-(Note: This is the **book** upon which *How to Code: Systematic Program Design* is based, but the course is not taught by the book's author; they are completely separate)
-- [Mooculus: Calculus One](https://mooculus.osu.edu/)
-
-Just remember that purchasing a course might save you some time and give you some extra motivation, but you cannot buy your way to success in this field.
-It's encouraged more as a way to thank the professor for their work.
-The most diligent students will be the most successful, regardless of how much or how little they spend.
-
-## How to track and show your progress
+## How to show your progress
 
 1. Create an account in [Trello](https://trello.com/).
 1. Copy [this](https://trello.com/b/9DPXYv5f) board to your personal account.
@@ -482,78 +509,7 @@ You should put the *Course's cards* below its respective *Section's card*.
 The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
 You can change the status of your board to be *public* or *private*.
 
-### Content Policy
-
-If you plan on showing off some of your coursework publicly, you must share **only** files that you are **allowed** to!
-**Do NOT disrespect the code of conduct** that you signed in the beginning of some courses!
-
-## Should I take all courses?
-
-If you are serious about getting an online education comparable to a bachelor's degree in Computer Science, you should absolutely take **all** of the courses under the 'Core CS' section.
-
-These courses are equivalent to about 3/4 of a full bachelor's degree in CS.
-So if you want to really complete your studies, then you should select one of the specializations to finish out your program, such as one in Artificial Intelligence or Big Data.
-
-## Duration of the project
-
-If you are able to devote 18-20 hours per week to this curriculum, taking 1-3 clases at a time, you could hypothetically finish the Core CS section in under 2 years.
-A specialization would then take you a few more months.
-
-It will probably take longer if you go slower, but regardless, your reward will be proportional to your effort.
-
-You must focus on your habit, and forget about goals.
-Try to invest 1 ~ 2 hours every day studying this curriculum.
-If you do this, inevitably you'll finish this curriculum.
-
-> See more about "Commit to a process, not a goal" [here](http://jamesclear.com/goals-systems).
-
-## Stay tuned
-
-[Watch](https://help.github.com/articles/watching-repositories/) this repository for futures improvements and general information.
-
-# Prerequisites
-
-This curriculum assumes the student has already taken high school math, including algebra, geometry, and pre-calculus.
-Some high school students will have taken calculus, but this is usually only about 3/4 of a college calculus class, so the calculus courses listed above are still recommended.
-
-Apart from those, the only things that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
-
-**Note**: Just pick one of the resources below to learn the basics. You will learn a lot more once you get started!
-
-- [Try Git](https://try.github.io/levels/1/challenges/1)
-- [Ry's Git Tutorial](http://rypress.com/tutorials/git/index)
-- [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
-- [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
-- [GitHub Hello World](https://guides.github.com/activities/hello-world/)
-- [Git Immersion](http://gitimmersion.com/index.html)
-- [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
-
-# Changelog
-
-**Curriculum Version**: `6.0`
-
-To show respect to all of our students, we will keep a [CHANGELOG](CHANGELOG.md) file that contains all the alterations that our curriculum may suffer.
-
-Now we have a stable version of the curriculum, which won't change anymore, only in exceptional cases (outdated courses, broken links, etc).
-
-Our students can trust in this curriculum because it has been carefully planned and covers the major core topics that a conventional Computer Science program covers.
-
-# Community
-
-Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)!
-
-Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
-
-You can also interact through [GitHub issues](https://github.com/open-source-society/computer-science/issues).
-
-We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
-
-Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
-
-> **PS**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps.
-**Please use our subreddit/group for important discussions**.
-
-# Team
+## Team
 
 * **Curriculum Founder**: [Eric Douglas](https://github.com/ericdouglas)
 * **Curriculum Maintainer**: [Eric Douglas](https://github.com/ericdouglas)
@@ -566,6 +522,7 @@ Add **Open Source Society University** to your [Facebook](https://www.facebook.c
 - [edX](https://www.edx.org)
 - [Udacity](https://www.udacity.com/)
 - [Stanford University](https://lagunita.stanford.edu/)
+- [Carnegie Mellon University: Computer Science Major Requirements](https://www.csd.cs.cmu.edu/academics/undergraduate/requirements)
 - [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
 - [A DIY Computer Science Education](https://bradfieldcs.com/diy/)
 - [Obtaining a Thorough CS Background Online](http://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/)
