@@ -1,6 +1,6 @@
 # OSSU Academic Requirements
 
-This document contains the subjects and projects the student must master to pass through this curriculum.
+This document contains the subjects (e.g. programming), topics (e.g. imperative programming), and projects the student must master to pass through this curriculum.
 The subject requirements are based on topics, rather than specific courses, because sometimes a certain course isn't available at the right time or doesn't fit the student's learning style.
 
 ## Subjects

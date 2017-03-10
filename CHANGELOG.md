@@ -2,12 +2,66 @@
 
 All notable changes to this project will be documented in this file.
 This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
-- "MAJOR" updates correspond to changing the topics studied
-- "MINOR" updates correspond to fulfilling a topical requirement using a different class
-- "PATCH" updates correspond to purely aesthetic and non-essential additions/removals
+- "MAJOR" updates correspond to changing the topics studied within a subject
+- "MINOR" updates correspond to changing courses without changing the topics
+- "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
 
-## [7.0] 2017-03-05
-TODO
+## [7.0] 2017-03-09
+Complete overhaul of program structure
+
+### Updated
+- Clarified contributor guidelines and moved them to separated file
+- Switched from many subjects to just four subjects with many topics
+- Consolidated free-books.md and paid-books.md into readings.md
+- Consolidated free-courses.md and paid-courses.md into courses.md
+- Replace old "How to Code" with new "How to Code" (Software Development MicroMasters)
+- Replace Princeton Algorithms (moved to [alternative courses](#extras/courses.md)) with Stanford Algorithms
+
+### Added
+- Indicate prerequisites for all courses
+- Requirements: subject/topic requirements and project requirements
+- Required readings on Haskell, Prolog, Operating Systems
+- Courses: Dan Grossman's Programming Languages
+- Courses: From Nand to Tetris
+- Elective course: Intro to Parallel Programming
+- Elective course: LAFF: Programming for Correctness
+- Elective course: Introduction to Mathematical Thinking
+- Elective courses: Electricity and Magnetism
+- Elective courses: MIT's Computation Structures
+- Elective course: Multivariable Calculus
+- Elective course: ops-class.org
+- Elective course: Automata Theory
+- Elective course: Introduction to Logic
+- Elective course: Computational Geometry
+- Elective course: Formal Concept Analysis
+- Elective course: Game Theory
+- Elective specializations:
+  - Robotics
+  - Data Minig
+  - Big Data
+  - Internet of Things
+  - Cloud Computing
+  - Full Stack Web Development
+  - Data Science
+- Pro specializations:
+  - Mastering Software Development in R
+  - Artificial Intelligence Engineer
+  - Machine Learning Engineer
+  - Cybersecurity
+  - Android Developer
+
+### Removed
+- Removed many dead links and obsolete courses
+- Removed per-course project requirement
+- Course: Object-Oriented Programming in Java
+- Course: Funtional Programming in Scala
+- Course: Computer Architecture (but left as a footnote)
+- Course: Intro to Theoretical Computer Science
+- Course: Software Processes and Agile Practices
+- Course: Operating Systems & System Programming
+- Course: Introduction to Cyber Security
+- Course: Parallel Computer Architecture and Programming
+- Course: UX Design for Mobile Developers
 
 ## [6.0] 2016-10-09
 ### Updated
