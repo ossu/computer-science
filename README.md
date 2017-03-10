@@ -266,10 +266,7 @@ Courses | Duration | Effort | Prerequisites
 [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)| 6 weeks | 12 hours/week | C++ or Java, linear algebra
 [Cryptography I](https://www.coursera.org/course/crypto)| 6 weeks | 5-7 hours/week | linear algebra, probability
 [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x) | 6 weeks | 8-10 hours/week | Software Construction - Object-Oriented Design
-[Software Development Capstone Project](https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx)**<sup>1</sup>** | 6-7 weeks | 8-10 hours/week | Software Engineering: Introduction
-
-**<sup>1</sup> Required** if you intend not to go past Core CS;
-**strongly recommended** even for those who will continue on to Advanced CS.
+[Software Development Capstone Project](https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx) | 6-7 weeks | 8-10 hours/week | Software Engineering: Introduction
 
 ## Advanced CS
 
