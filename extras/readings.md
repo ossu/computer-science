@@ -17,7 +17,7 @@ Name | Author(s)
 [Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf) | Joseph M. Hellerstein, Michael Stonebraker, James Hamilton
 [Introduction to Algorithms (3rd Edition)](http://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/) | Thomas H. Cormen,  Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
 [Modern Operating Systems (4th Edition)](http://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X/) | Andrew S. Tanenbaum, Herbert Bos
-[Computer Networking: A Top-Down Approach (6th Edition)](http://www.chegg.com/textbooks/computer-networking-6th-edition-9780132856201-0132856204) | James F Kurose, Keith W Ross
+[Computer Networking: A Top-Down Approach (6th Edition)](https://www.amazon.com/Computer-Networking-A-Top-Down-Approach/dp/1292153598/) | James F Kurose, Keith W Ross
 [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) | Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
 [Refactoring](https://www.refactoring.com/) | Martin Fowler
 [The Architecture of Open Source Applications](http://aosabook.org/en/) | Michael DiBernardo (editor)
