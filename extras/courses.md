@@ -24,6 +24,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro)| - | -
+[Linear Algebra (Strang)](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm) | - | -
 
 ## Systems
 
