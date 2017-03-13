@@ -517,5 +517,5 @@ You can change the status of your board to be *public* or *private*.
 - [Stanford University](https://lagunita.stanford.edu/)
 - [Carnegie Mellon University: Computer Science Major Requirements](https://www.csd.cs.cmu.edu/academics/undergraduate/requirements)
 - [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
-- [A DIY Computer Science Education](https://bradfieldcs.com/diy/)
+- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 - [Obtaining a Thorough CS Background Online](http://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/)
