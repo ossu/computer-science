@@ -187,9 +187,15 @@ and more.
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | pre-calculus
-[Calculus One](https://www.coursera.org/learn/calculus1) ([alt](https://mooculus.osu.edu/)) | 16 weeks | 8-10 hours/week | pre-calculus
+[Calculus One](https://www.coursera.org/learn/calculus1)<sup>*1*</sup> ([alt](https://mooculus.osu.edu/)) | 16 weeks | 8-10 hours/week | pre-calculus
 [Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week | Calculus One
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) | 13 weeks | 5 hours/week | single variable calculus (Calculus Two)
+
+**<sup>1</sup> Note**: When you are enrolled, please see this
+[list of errors](https://www.coursera.org/learn/calculus1/discussions/forums/WcY9_8ayEeSWEiIAC0wC5g/threads/CgOJwV-jEeWncxKXIFxpFQ/replies/kH6u_2FPEeWukw4fFhIvKw)
+and
+[these recommendations](https://www.coursera.org/learn/calculus1/discussions/all/threads/W5P9mFY8EeWbVQrsfyQbuw/replies/XyyJflZDEeWBRg5dvElQww/comments/l-bON17nEeW9lgqcHapJBw)
+for how to progress through the course.
 
 ### Core systems
 
