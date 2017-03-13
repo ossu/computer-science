@@ -39,6 +39,8 @@ Name | Author(s)
 [Computer Organization and Design: The Hardware/Software Interface](https://www.amazon.com/gp/product/0124077269) | David Patternson, John Hennessy
 [Computer Networks (5th Edition)](http://www.amazon.com/Computer-Networks-5th-Andrew-Tanenbaum/dp/0132126958/) | Andrew S. Tanenbaum, David J. Wetherall
 [Computer Networking: A Top-Down Approach (6th Edition)](https://www.amazon.com/Computer-Networking-A-Top-Down-Approach/dp/1292153598/) | James F Kurose, Keith W Ross
+[Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Andrew-Tanenbaum/dp/153028175X) | Andrew Tanenbaum
+[Distributed Systems Reading Group](http://dsrg.pdos.csail.mit.edu/papers/) | Various
 
 ## Theory
 
