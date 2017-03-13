@@ -54,6 +54,7 @@ Name | Author(s)
 :-- | :--:
 [Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf) | Joseph M. Hellerstein, Michael Stonebraker, James Hamilton
 [Readings in Database Systems](http://www.redbook.io/) | Peter Bailis, Joseph M. Hellerstein, Michael Stonebraker, editors
+[Database Management Systems](https://www.amazon.com/gp/product/0072465638) | Raghu Ramakrishnan, Johannes Gehrke
 [Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902) | Jim Gray, Andreas Reuter
 [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | William Kent
 [The Architecture of Open Source Applications](http://aosabook.org/en/) | Michael DiBernardo (editor)
