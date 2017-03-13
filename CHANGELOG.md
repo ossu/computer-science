@@ -6,6 +6,24 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 - "MINOR" updates correspond to changing courses without changing the topics
 - "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
 
+## [7.0.1] 2017-03-11
+### Updated
+- Fixed link to Bradfield's DIY computer science page
+
+### Added
+- Note under Calculus One with links to errata and course progression recommendations
+- Optional courses under extras:
+  - Strang's course on linear algebra
+  - Berkeley's Structure and Interpretation of Computer Programs
+- Optional readings under extras:
+  - Van Roy's advanced programming book
+  - P&H's computer architecture book
+  - Skiena's algorithms book
+  - Strang's linear algebra book
+  - Database Management Systems book
+  - Tarr's book on creating your own Domain-specific language
+  - Readings from various authors on distributed systems
+
 ## [7.0] 2017-03-09
 Complete overhaul of program structure
 
