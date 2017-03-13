@@ -17,6 +17,7 @@ Courses | Duration | Effort
 [Object-Oriented Programming](https://www.edx.org/course/object-oriented-programming-iitbombayx-cs101-2x)| 4 weeks | 8 hours/week
 [Introduction to Programming with MATLAB](https://www.coursera.org/learn/matlab)| - | -
 [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)| 7 weeks | 4-6 hours/week
+[The Structure and Interpretation of Computer Programs](http://cs61a.org/) | - | -
 
 ## Math
 
