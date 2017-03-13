@@ -52,9 +52,10 @@ Name | Author(s)
 
 Name | Author(s)
 :-- | :--:
+[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf) | Joseph M. Hellerstein, Michael Stonebraker, James Hamilton
+[Readings in Database Systems](http://www.redbook.io/) | Peter Bailis, Joseph M. Hellerstein, Michael Stonebraker, editors
 [Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902) | Jim Gray, Andreas Reuter
 [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | William Kent
-[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf) | Joseph M. Hellerstein, Michael Stonebraker, James Hamilton
 [The Architecture of Open Source Applications](http://aosabook.org/en/) | Michael DiBernardo (editor)
 [Deep Learning](http://www.deeplearningbook.org/) | Ian Goodfellow, Yoshua Bengio and Aaron Courville
 [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage) | David Barber
