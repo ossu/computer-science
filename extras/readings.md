@@ -60,6 +60,7 @@ Name | Author(s)
 [The Architecture of Open Source Applications](http://aosabook.org/en/) | Michael DiBernardo (editor)
 [Deep Learning](http://www.deeplearningbook.org/) | Ian Goodfellow, Yoshua Bengio and Aaron Courville
 [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage) | David Barber
+[Language Implementation Patterns](https://www.amazon.com/gp/product/193435645X) | Terence Parr
 [Compilers: Principles, Techniques, and Tools (2nd Edition)](http://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811/) | Alfred V. Aho, Monica S. Lam, Ravi Sethi,  Jeffrey D. Ullman
 [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf) | Niklaus Wirth 
 [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/) | Fred Brooks, Jr.
