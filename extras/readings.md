@@ -14,6 +14,7 @@ Name | Author(s)
 [Introduction to Computation and Programming Using Python](https://www.amazon.com/Introduction-Computation-Programming-Using-Python/dp/0262525003/) | John V. Guttag
 [How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/) | Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, Shriram Krishnamurthi
 [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sicp/full-text/book/book.html) | Hal Abelson, Jerry Sussman, Julie Sussman 
+[Concepts, Techniques, and Models of Computer Programming](https://www.amazon.com/gp/product/0262220695) | Peter Van Roy, Seif Haridi
 [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) | Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
 [Refactoring](https://www.refactoring.com/) | Martin Fowler
 [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) | Robert Martin
