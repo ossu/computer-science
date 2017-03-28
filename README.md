@@ -243,6 +243,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 4-6 hours/week
+[Machine Learning - Supervised, Unsupervised & Reinforcement](https://www.udacity.com/course/machine-learning--ud262)| 6 weeks | -
 
 ### Natural Language Processing
 
