@@ -90,6 +90,9 @@ Name | Author(s)
 ### Cloud Computing
 
 ### Math (Linear Algebra)
+Name | Author(s) 
+:-- | :--: 
+[Linear Algebra](http://uap.unnes.ac.id/ebook/mathematics%20ebook/Algebra/Linear%20Algebra,%202nd%20ed%20-%20Kenneth%20Hoffman,%20Ray%20Kunze,%201971.pdf) | Kenneth M. Hoffman
 
 ### Cryptography
 
