@@ -218,6 +218,7 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)| 10 weeks | 6-10 hours/week
 [Machine Learning for Data Science and Analytics](https://www.edx.org/course/machine-learning-data-science-analytics-columbiax-ds102x-0)| 5 weeks | 7-10 hours/week
+[Machine Learning](https://www.coursera.org/learn/machine-learning)| 11 weeks | 7-10 hours/week
 
 ### Natural Language Processing
 
