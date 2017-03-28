@@ -164,6 +164,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Computer Architecture](https://www.coursera.org/course/comparch)| - | 5-8 hours/week
+[From NAND to TETRIS](https://www.coursera.org/learn/build-a-computer)| 6 weeks | 5-8 hours/week
 
 ### Operating Systems
 
