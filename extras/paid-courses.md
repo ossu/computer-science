@@ -89,6 +89,10 @@
 
 ### Natural Language Processing
 
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)| 12 weeks | 10-20 hours/week
+
 ### Big Data
 
 ### Data Mining
