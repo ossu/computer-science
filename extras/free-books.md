@@ -79,6 +79,7 @@ Name | Author(s)
 ### Computer Architecture
 
 ### Operating Systems
+Name | Author(s)
 :-- | :--: 
 [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/) |Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau
 
