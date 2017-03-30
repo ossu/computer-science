@@ -156,10 +156,7 @@ Programming Languages ([A](https://www.coursera.org/learn/programming-languages)
 
 #### Readings
 - **Required** to learn about monads, laziness, purity: [Learn You a Haskell for a Great Good!](http://learnyouahaskell.com/)
-- **Required**, to learn about logic programming, backtracking, unification, any resource on Prolog covering these topics, such as:
-  - [Prolog Programming for Artificial Intelligence](https://www.amazon.com/Programming-Artificial-Intelligence-International-Computer/dp/0321417461)
-  - [Learn Prolog Now](http://www.learnprolognow.org/)
-  - [Art of Prolog](https://mitpress.mit.edu/books/art-prolog)
+- **Required**, to learn about logic programming, backtracking, unification: [Learn Prolog Now!](http://www.learnprolognow.org/)
 
 ### Core math
 
