@@ -109,9 +109,7 @@ and is knowledgeable enough now to decide which electives to take.
 ## Intro CS
 
 Use the first course, CS50, to determine if Computer Science is right for you.
-Only proceed in the curriculum if it really excites you.
-Feel free to use the second and third **optional** courses to gain the fundamental skills you need to excel at teaching yourself Computer Science;
-they are very lightweight courses so it's suggested take them concurrently with another course.
+Only proceed in the curriculum if it really excites you!
 
 **Topics covered**:
 imperative programming;
@@ -127,8 +125,6 @@ and more.
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | none
-[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week | none
-[Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x-0) | 4 weeks | 2 hours/week | none
 
 ## Core CS
 
