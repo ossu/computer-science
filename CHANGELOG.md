@@ -6,6 +6,17 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 - "MINOR" updates correspond to changing courses without changing the topics
 - "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
 
+## [7.0.2] 2017-03-30
+### Updated
+- Moved optional online learning courses to extras/courses in a new section
+- Moved alternate computer architecture course to extras/courses
+
+### Added
+- Scala specialization under Advanced applications
+
+### Removed
+- Removed all but one choice for required readings to make the curriculum simpler
+
 ## [7.0.1] 2017-03-11
 ### Updated
 - Fixed link to Bradfield's DIY computer science page
