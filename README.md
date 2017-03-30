@@ -335,7 +335,7 @@ Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Electricity and Magnetism, Part 1](https://www.edx.org/course/electricity-magnetism-part-1-ricex-phys102-1x-0)<sup>1</sup> | 7 weeks | 8-10 hours/week | calculus, basic mechanics
 [Electricity and Magnetism, Part 2](https://www.edx.org/course/electricity-magnetism-part-2-ricex-phys102-2x-0) | 7 weeks | 8-10 hours/week | Electricity and Magnetism, Part 1
-[Computation Structures 1: Digital Circuits](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0)<sup>2</sup> | 10 weeks | 6 hours/week | electricity, magnetism
+[Computation Structures 1: Digital Circuits](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0) | 10 weeks | 6 hours/week | electricity, magnetism
 [Computation Structures 2: Computer Architecture](https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x) | 10 weeks | 6 hours/week | Computation Structures 1
 [Computation Structures 3: Computer Organization](https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0) | 10 weeks | 6 hours/week | Computation Structures 2
 [ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
@@ -344,10 +344,6 @@ Courses | Duration | Effort | Prerequisites
 These courses assume knowledge of basic physics;
 if you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy:
 [Khan Academy - Physics](https://www.khanacademy.org/science/physics)
-
-**<sup>2</sup> Note**:
-A shorter, less intense (but still very advanced) alternative to Computation Structures is here:
-[Computer Architecture](https://www.coursera.org/learn/comparch)
 
 ### Advanced theory
 
