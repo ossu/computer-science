@@ -108,8 +108,8 @@ and is knowledgeable enough now to decide which electives to take.
 
 ## Intro CS
 
-Use the first course, CS50, to determine if Computer Science is right for you.
-Only proceed in the curriculum if it really excites you!
+These courses will introduce you to the world of computer science.
+Both are required, but feel free to skip straight to the second course when CS50 (the first course) moves away from C.
 
 **Topics covered**:
 imperative programming;
@@ -117,7 +117,7 @@ procedural programming;
 C;
 manual memory management;
 basic data structures and algorithms;
-basic Python;
+Python;
 SQL;
 basic HTML, CSS, JavaScript;
 and more.
@@ -125,6 +125,7 @@ and more.
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | none
+[Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) | 9 weeks | 15 hours/week | high school algebra
 
 ## Core CS
 
