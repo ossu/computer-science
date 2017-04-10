@@ -6,6 +6,14 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 - "MINOR" updates correspond to changing courses without changing the topics
 - "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
 
+## [7.1.0] 2017-04-10
+### Updated
+- Reverted reformat of programming languages course
+
+### Added
+- Reliable Distributed Algorithms courses
+- New Introduction to CS course
+
 ## [7.0.2] 2017-03-30
 ### Updated
 - Moved optional online learning courses to extras/courses in a new section
