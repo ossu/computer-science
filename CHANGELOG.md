@@ -6,6 +6,11 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 - "MINOR" updates correspond to changing courses without changing the topics
 - "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
 
+
+## [7.1.1] 2017-04-11
+### Updated
+- Final touch to release
+
 ## [7.1.0] 2017-04-10
 ### Updated
 - Reverted reformat of programming languages course
@@ -170,12 +175,12 @@ Due to Coursera's platform changes, we had the following updates:
 
 ## [3.0.0] 2016-05-04
 ### Removed
-- Section: **Introduction to Computer Science**: 
+- Section: **Introduction to Computer Science**:
 	- Introduction to Computer Science and Programming Using Python
 	- From Nand to Tetris (Part 1)
 
 ### Added
-- Section: **Introduction to Computer Science**: 
+- Section: **Introduction to Computer Science**:
 	- Introduction to Computer Science - CS50
 
 ## [2.0.1] 2016-04-04
@@ -187,7 +192,7 @@ Due to Coursera's platform changes, we had the following updates:
 - Program Design section course's names and links
 
 ### Removed
-- **Introduction to Computer Science**: 
+- **Introduction to Computer Science**:
 	- Introduction to Computer Science
 	- Introduction to Computational Thinking and Data Science
 - **Algorithms**
@@ -196,19 +201,19 @@ Due to Coursera's platform changes, we had the following updates:
 	- Principles of Reactive Programming
 - **Math (Calculus)**
 	- Multivariable Calculus
-- **Software Architecture**: 
+- **Software Architecture**:
 	- Web Application Architectures
-- **Software Engineering**: 
+- **Software Engineering**:
 	- Agile Development Using Ruby on Rails - Basics
 	- Agile Development Using Ruby on Rails - Advanced
 	- Startup Engineering
-- **Computer Architecture**: 
+- **Computer Architecture**:
 	- The Hardware/Software Interface
-- **Operating Systems**: 
+- **Operating Systems**:
 	- Operating System Engineering
-- **Computer Networks**: 
+- **Computer Networks**:
 	- Introduction to Computer Networking
-- **Cryptography**: 
+- **Cryptography**:
 	- Applied Cryptography
 
 **ps**: These removed courses are now in the [extras](https://github.com/open-source-society/computer-science/tree/master/extras) section.
