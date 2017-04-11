@@ -167,7 +167,7 @@ Courses | Duration | Effort | Prerequisites
 `linear transformations`
 `matrices`
 `vectors`
-mathematical proofs;
+`mathematical proofs`
 `number theory`
 `differential calculus`
 `integral calculus`
