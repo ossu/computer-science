@@ -1,7 +1,104 @@
 # Change Log
 
 All notable changes to this project will be documented in this file.
-This project adheres to [Semantic Versioning](http://semver.org/).
+This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
+- "MAJOR" updates correspond to changing the topics studied within a subject
+- "MINOR" updates correspond to changing courses without changing the topics
+- "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
+
+## [7.1.0] 2017-04-10
+### Updated
+- Reverted reformat of programming languages course
+
+### Added
+- Reliable Distributed Algorithms courses
+- New Introduction to CS course
+
+## [7.0.2] 2017-03-30
+### Updated
+- Moved optional online learning courses to extras/courses in a new section
+- Moved alternate computer architecture course to extras/courses
+
+### Added
+- Scala specialization under Advanced applications
+
+### Removed
+- Removed all but one choice for required readings to make the curriculum simpler
+
+## [7.0.1] 2017-03-11
+### Updated
+- Fixed link to Bradfield's DIY computer science page
+
+### Added
+- Note under Calculus One with links to errata and course progression recommendations
+- Optional courses under extras:
+  - Strang's course on linear algebra
+  - Berkeley's Structure and Interpretation of Computer Programs
+- Optional readings under extras:
+  - Van Roy's advanced programming book
+  - P&H's computer architecture book
+  - Skiena's algorithms book
+  - Strang's linear algebra book
+  - Database Management Systems book
+  - Tarr's book on creating your own Domain-specific language
+  - Readings from various authors on distributed systems
+
+## [7.0] 2017-03-09
+Complete overhaul of program structure
+
+### Updated
+- Clarified contributor guidelines and moved them to separated file
+- Switched from many subjects to just four subjects with many topics
+- Consolidated free-books.md and paid-books.md into readings.md
+- Consolidated free-courses.md and paid-courses.md into courses.md
+- Replace old "How to Code" with new "How to Code" (Software Development MicroMasters)
+- Replace Princeton Algorithms (moved to [alternative courses](#extras/courses.md)) with Stanford Algorithms
+
+### Added
+- Indicate prerequisites for all courses
+- Requirements: subject/topic requirements and project requirements
+- Required readings on Haskell, Prolog, Operating Systems
+- Courses: Dan Grossman's Programming Languages
+- Courses: From Nand to Tetris
+- Elective course: Intro to Parallel Programming
+- Elective course: LAFF: Programming for Correctness
+- Elective course: Introduction to Mathematical Thinking
+- Elective courses: Electricity and Magnetism
+- Elective courses: MIT's Computation Structures
+- Elective course: Multivariable Calculus
+- Elective course: ops-class.org
+- Elective course: Automata Theory
+- Elective course: Introduction to Logic
+- Elective course: Computational Geometry
+- Elective course: Formal Concept Analysis
+- Elective course: Game Theory
+- Elective specializations:
+  - Robotics
+  - Data Minig
+  - Big Data
+  - Internet of Things
+  - Cloud Computing
+  - Full Stack Web Development
+  - Data Science
+- Pro specializations:
+  - Mastering Software Development in R
+  - Artificial Intelligence Engineer
+  - Machine Learning Engineer
+  - Cybersecurity
+  - Android Developer
+
+### Removed
+- Removed many dead links and obsolete courses
+- Removed per-course project requirement
+- Course: Object-Oriented Programming in Java
+- Course: Funtional Programming in Scala
+- Course: Computer Architecture (but left as a footnote)
+- Course: Intro to Theoretical Computer Science
+- Course: Software Processes and Agile Practices
+- Course: Operating Systems & System Programming
+- Course: Introduction to Cyber Security
+- Course: Parallel Computer Architecture and Programming
+- Course: UX Design for Mobile Developers
 
 ## [6.0] 2016-10-09
 ### Updated
