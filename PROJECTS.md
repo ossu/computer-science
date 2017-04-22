@@ -3,6 +3,8 @@
 
 Projects created by OSSU's students for each course of our [**Computer Science**](https://github.com/open-source-society/computer-science) curriculum.
 
+For more project ideas, check the [Mega Project List](https://github.com/karan/Projects).
+
 - [Introduction to Computer Science](#introduction-to-computer-science)
 - [Programming](#programming)
 - [Math](#math)
