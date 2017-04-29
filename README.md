@@ -311,6 +311,8 @@ Courses | Duration | Effort | Prerequisites
 
 **Topics covered**:
 `real analysis`
+`parametric equations`
+`polar coordinate systems`
 `multivariable integrals`
 `multivariable differentials`
 `probability theory`
@@ -319,8 +321,9 @@ Courses | Duration | Effort | Prerequisites
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | pre-calculus
-[Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week | single-variable calculus (Calculus Two)
-[Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | single- and multi-variable calculus
+[Calculus: Parametric Equations and Polar Coordinates](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/unit-4-techniques-of-integration/part-c-parametric-equations-and-polar-coordinates/) | - | - | single-variable calculus (Calculus Two)
+[Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week | Parametric Equations and Polar Coordinates
+[Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | Multivariable Calculus
 
 ### Advanced systems
 
