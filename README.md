@@ -236,10 +236,15 @@ Courses | Duration | Effort | Prerequisites
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Algorithms (1/4)](https://www.coursera.org/learn/algorithms-divide-conquer) | 4 weeks | 4-8 hours/week | one programming language, proofs, probability
-[Algorithms (2/4)](https://www.coursera.org/learn/algorithms-graphs-data-structures) | 4 weeks | 4-8 hours/week | Algorithms (1/4)
+[Algorithms (1/4)](https://www.coursera.org/learn/algorithms-divide-conquer)<sup>1</sup> | 4 weeks | 4-8 hours/week | one programming language, proofs, probability
+[Algorithms (2/4)](https://www.coursera.org/learn/algorithms-graphs-data-structures)<sup>1</sup> | 4 weeks | 4-8 hours/week | Algorithms (1/4)
 [Algorithms (3/4)](https://www.coursera.org/learn/algorithms-greedy) | 4 weeks | 4-8 hours/week | Algorithms (2/4)
 [Algorithms (4/4)](https://www.coursera.org/learn/algorithms-npcomplete) | 4 weeks | 4-8 hours/week | Algorithms (3/4)
+
+**<sup>1</sup> Note**:
+Parts 1 and 2 of Stanford Algorithms is available as [Algorithms: Design and Analysis](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/about) through Stanford Lagunita.
+Unlike the Coursera version, quizzes and tests are auto-graded for free.
+If you are pursuing an optional certificate from Coursera, you will still need to complete parts 1 and 2 through Coursera.
 
 ### Core applications
 
