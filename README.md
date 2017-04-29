@@ -77,7 +77,7 @@ just remember that you can't purchase success!
 
 # Curriculum
 
-**Curriculum version**: `7.1.2` (see [CHANGELOG](CHANGELOG.md))
+**Curriculum version**: `7.2.0` (see [CHANGELOG](CHANGELOG.md))
 
 - [Prerequisites](#prerequisites)
 - [Introduction to Computer Science](#introduction-to-computer-science)

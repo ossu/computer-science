@@ -6,6 +6,12 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 - "MINOR" updates correspond to changing courses without changing the topics
 - "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
 
+## [7.2.0] 2017-04-28
+### Added
+- Software Testing course
+- Link to Stanford Lagunita's Algorithms: Design and Analysis
+- Added link to the section on parametric equations and polar coordinates from MIT's Single Variable Calculus course in order to properly prepare students for Multivariable Calculus
+
 ## [7.1.2] 2017-04-22
 ### Updated
 - Add link to Mega Project List in the introduction of the Projects section
