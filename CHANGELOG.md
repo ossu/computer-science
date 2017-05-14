@@ -6,6 +6,14 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 - "MINOR" updates correspond to changing courses without changing the topics
 - "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
 
+## [7.2.1] 2017-05-14
+### Updated
+- Networking course should take 8 weeks to complete
+- Fixed spelling error
+
+### Added
+- Introduction to Haskell course to [extras/courses](extras/courses.md)
+
 ## [7.2.0] 2017-04-28
 ### Added
 - Software Testing course
