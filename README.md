@@ -304,7 +304,7 @@ Courses | Duration | Effort | Prerequisites
 [Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming
 [Software Testing](https://www.udacity.com/course/software-testing--cs258) | 4 weeks | 6 hours/week | programming experience
 [LAFF: Programming for Correctness](https://www.edx.org/course/laff-programming-correctness-utaustinx-ut-p4c-14-01x) | 7 weeks | 6 hours/week | linear algebra
-[Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | - | C, algorithms
+[Introduction to Parallel Programming (Nvidia's GPU CUDA)](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | - | C, algorithms
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | software engineering in Java
 
 ### Advanced math
