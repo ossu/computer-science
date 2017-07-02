@@ -75,6 +75,8 @@ just remember that you can't purchase success!
 
 **How to contribute**. Please see [CONTRIBUTING](CONTRIBUTING.md).
 
+**Getting help**. Please check our [Frequently Asked Questions](FAQ.md), and if you cannot find the answer, file an issue or talk to our [friendly community](#community)!
+
 # Curriculum
 
 **Curriculum version**: `7.2.2` (see [CHANGELOG](CHANGELOG.md))
@@ -110,6 +112,7 @@ and is knowledgeable enough now to decide which electives to take.
 
 These courses will introduce you to the world of computer science.
 Both are required, but feel free to skip straight to the second course when CS50 (the first course) moves away from C.
+([Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50))
 
 **Topics covered**:
 `imperative programming`
@@ -247,6 +250,9 @@ Parts 1 and 2 of Stanford Algorithms is available as [Algorithms: Design and Ana
 Unlike the Coursera version, quizzes and tests are auto-graded for free.
 If you are pursuing an optional certificate from Coursera, you will still need to complete parts 1 and 2 through Coursera.
 
+In spite of what it looks like, **these courses are free to access**.
+([How?](FAQ.md#are-coursera-courses-free-to-access))
+
 ### Core applications
 
 **Topics covered**:
@@ -354,8 +360,9 @@ Courses | Duration | Effort | Prerequisites
 [ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
 
 **<sup>1</sup> Note**:
-These courses assume knowledge of basic physics;
-if you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy:
+These courses assume knowledge of basic physics.
+([Why?](FAQ.md#why-is-the-curriculum-missing-some-pre-requisites))
+If you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy:
 [Khan Academy - Physics](https://www.khanacademy.org/science/physics)
 
 ### Advanced theory
