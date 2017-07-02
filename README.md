@@ -77,7 +77,7 @@ just remember that you can't purchase success!
 
 # Curriculum
 
-**Curriculum version**: `7.2.1` (see [CHANGELOG](CHANGELOG.md))
+**Curriculum version**: `7.2.2` (see [CHANGELOG](CHANGELOG.md))
 
 - [Prerequisites](#prerequisites)
 - [Introduction to Computer Science](#introduction-to-computer-science)
@@ -159,6 +159,7 @@ Courses | Duration | Effort | Prerequisites
 
 #### Readings
 - **Required** to learn about monads, laziness, purity: [Learn You a Haskell for a Great Good!](http://learnyouahaskell.com/)
+  - **OBS**: probably the best resource to learn Haskell: [Haskell Programming from First Principles](http://haskellbook.com/) `paid`
 - **Required**, to learn about logic programming, backtracking, unification: [Learn Prolog Now!](http://www.learnprolognow.org/)
 
 ### Core math
