@@ -477,9 +477,9 @@ These aren't the only specializations you can choose. Check the following websit
 - Look for a job as a developer!
 - Check out the [readings](extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
 - Join a local developer meetup (e.g. via [meetup.com](https://www.meetup.com/)).
-- Pay attention to emerging technologies in the world of software development, such as:
-  - [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
-  - [Rust](https://www.rust-lang.org/), a systems language which uses borrowing and lifetimes to achieve memory safety without a garbage collector!
+- Pay attention to emerging technologies in the world of software development:
+  + Explore the **actor model** through [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
+  + Explore **borrowing and lifetimes** through [Rust](https://www.rust-lang.org/), a systems language which achieves memory- and thread-safety without a garbage collector!
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
