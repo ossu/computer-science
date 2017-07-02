@@ -13,7 +13,7 @@ Alternatively, you could [contribute](#CONTRIBUTING.md) an answer yourself.
 - [In what order should I take the courses?](#in-what-order-should-i-take-the-courses)
 - [Is it necessary to purchase the Verified Upgrade for edX courses?](#is-it-necessary-to-purchase-the-verified-upgrade-for-edx-courses)
 - [Why do you recommend skipping the second half of CS50?](#why-do-you-recommend-skipping-the-second-half-of-cs50)
-- [Why doesn't the curriculum cover/ignore topic X?](#why-doesnt-the-curriculum-cover-ignore-topic-x)
+- [Why doesn't the curriculum cover/ignore topic X?](#why-doesnt-the-curriculum-coverignore-topic-x)
 - [Why is the curriculum missing some pre-requisites?](#why-is-the-curriculum-missing-some-pre-requisites)
 
 ## Questions
