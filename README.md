@@ -480,6 +480,7 @@ These aren't the only specializations you can choose. Check the following websit
 - Pay attention to emerging technologies in the world of software development:
   + Explore the **actor model** through [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
   + Explore **borrowing and lifetimes** through [Rust](https://www.rust-lang.org/), a systems language which achieves memory- and thread-safety without a garbage collector!
+  + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
