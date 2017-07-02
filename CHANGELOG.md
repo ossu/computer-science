@@ -9,6 +9,8 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 ## [7.2.2] 2017-07-02
 ### Added
 - "Haskell Programming from First Principles" book as a paid alternative to learn Haskell
+- "Think Python" to extras/readings
+- FAQ entries and links under relevant courses
 
 ## [7.2.1] 2017-05-14
 ### Updated
