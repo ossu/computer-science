@@ -11,6 +11,7 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 - "Haskell Programming from First Principles" book as a paid alternative to learn Haskell
 - "Think Python" to extras/readings
 - FAQ entries and links under relevant courses
+- "Category Theory: A Gentle Introduction" to extras/readings
 
 ## [7.2.1] 2017-05-14
 ### Updated
