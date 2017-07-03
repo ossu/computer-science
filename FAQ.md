@@ -29,7 +29,7 @@ for others (especially those that are part of a specialization), you may only be
 Unfortunately, for some courses, Coursera's interface is [very aggressive](https://darkpatterns.org/) about convincing you that you have to pay.
 
 You may see something like this on the course page:
-<img src="http://i.imgur.com/KKDtDBF.png" alt="Free Trial" style="width: 250px;"/>
+<img src="http://i.imgur.com/MxOcYZv.png" alt="Free Trial" style="width: 400px;"/>
 
 When attempting to enroll in such a course:
 - Click the blue "Enroll" or "Enroll Now" button.
