@@ -42,7 +42,7 @@ Name | Author(s)
 [Computer Networking: A Top-Down Approach (6th Edition)](https://www.amazon.com/Computer-Networking-A-Top-Down-Approach/dp/1292153598/) | James F Kurose, Keith W Ross
 [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Andrew-Tanenbaum/dp/153028175X) | Andrew Tanenbaum
 [Distributed Systems Reading Group](http://dsrg.pdos.csail.mit.edu/papers/) | Various
-
+[System Design: Design large-scale systems](https://github.com/donnemartin/system-design-primer) | Various
 ## Theory
 
 Name | Author(s)
