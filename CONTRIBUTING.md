@@ -9,4 +9,4 @@ the subreddit is recommended as there people may be able to give you suggested a
 3. If you have *specific* and *substantive* criticisms of the curriculum, i.e. problems related to the progression/content of courses it would be appropriate to [open an issue](https://help.github.com/articles/creating-an-issue/) and give us your suggestions.
 4. If you have *non-substantive* updates to make to the curriculum, such as a course's URL having been moved, spelling/syntax errors, etc., please send a [pull request](https://help.github.com/articles/using-pull-requests/) to fix any mistakes that you have found.
 5. If you want to customize the curriculum for yourself, do of course [fork this project](https://help.github.com/articles/fork-a-repo/).
-6. If you want to suggest a new resource, send a pull request adding such resource to the [extras](https://github.com/open-source-society/computer-science/tree/master/extras) section.
+6. If you want to suggest a new resource, send a pull request adding such resource to the [extras](https://github.com/ossu/computer-science/tree/master/extras) section.
