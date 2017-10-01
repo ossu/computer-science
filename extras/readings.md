@@ -19,7 +19,7 @@ Name | Author(s)
 [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) | Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
 [Refactoring](https://www.refactoring.com/) | Martin Fowler
 [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) | Robert Martin
-[Code Complete](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) | Steve McConnell
+[Code Complete 2e](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) | Steve McConnell
 [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X) | Andrew Hunt, David Thomas
 
 ## Math
