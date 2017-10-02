@@ -496,6 +496,7 @@ These aren't the only specializations you can choose. Check the following websit
 
 # Community
 
+- Subscribe to our [newsletter](https://tinyletter.com/ossu)
 - Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)!
 - Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
 - You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues).
