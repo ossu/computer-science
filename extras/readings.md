@@ -19,7 +19,7 @@ Name | Author(s)
 [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) | Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
 [Refactoring](https://www.refactoring.com/) | Martin Fowler
 [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) | Robert Martin
-[Code Complete](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) | Steve McConnell
+[Code Complete 2e](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) | Steve McConnell
 [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X) | Andrew Hunt, David Thomas
 
 ## Math
@@ -42,14 +42,15 @@ Name | Author(s)
 [Computer Networking: A Top-Down Approach (6th Edition)](https://www.amazon.com/Computer-Networking-A-Top-Down-Approach/dp/1292153598/) | James F Kurose, Keith W Ross
 [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Andrew-Tanenbaum/dp/153028175X) | Andrew Tanenbaum
 [Distributed Systems Reading Group](http://dsrg.pdos.csail.mit.edu/papers/) | Various
-
+[System Design: Design large-scale systems](https://github.com/donnemartin/system-design-primer) | Various
 ## Theory
 
 Name | Author(s)
 :-- | :--:
 [Introduction to Computing: Explorations in Language, Logic, and Machines](http://www.computingbook.org/) | David Evans
-[Introduction to Algorithms (3rd Edition)](http://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/) | Thomas H. Cormen,  Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
+[Introduction to Algorithms (3rd Edition)](http://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/) | Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
 [The Algorithm Design Manual](https://www.amazon.com/gp/product/1848000693) | Steven Skiena
+[Category Theory: A Gentle Introduction](http://www.logicmatters.net/resources/pdfs/GentleIntro.pdf) | Peter Smith
 
 ## Applications
 

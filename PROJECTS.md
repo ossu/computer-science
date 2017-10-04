@@ -1,7 +1,7 @@
 # Projects
 > Here, we are providing a list curated by the community of exercises and projects to practice and reinforce the skills we try to master.
 
-Projects created by OSSU's students for each course of our [**Computer Science**](https://github.com/open-source-society/computer-science) curriculum.
+Projects created by OSSU's students for each course of our [**Computer Science**](https://github.com/ossu/computer-science) curriculum.
 
 For more project ideas, check the [Mega Project List](https://github.com/karan/Projects).
 

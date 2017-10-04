@@ -1,15 +1,18 @@
-![Open Source Society University (OSSU)](http://i.imgur.com/Cxv8DM4.png)
+![Open Source Society University (OSSU)](http://i.imgur.com/kYYCXtC.png)
 
 <h3 align="center">Open Source Society University</h3>
 <p align="center">
-  Path to a self-taught education in Computer Science!
+  Path to a free self-taught education in Computer Science!
 </p>
 <p align="center">
   <a href="https://github.com/sindresorhus/awesome">
     <img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
   </a>
-  <a href="https://github.com/open-source-society/computer-science">
+  <a href="https://github.com/ossu/computer-science">
 	<img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg">
+  </a>
+  <a href="https://www.patreon.com/ossu">
+	<img alt="Contribute with OSSU on Patreon" src="https://img.shields.io/badge/Patreon-contribute-yellow.svg">
   </a>
 </p>
 
@@ -75,6 +78,8 @@ just remember that you can't purchase success!
 
 **How to contribute**. Please see [CONTRIBUTING](CONTRIBUTING.md).
 
+**Getting help**. Please check our [Frequently Asked Questions](FAQ.md), and if you cannot find the answer, file an issue or talk to our [friendly community](#community)!
+
 # Curriculum
 
 **Curriculum version**: `7.2.2` (see [CHANGELOG](CHANGELOG.md))
@@ -110,6 +115,7 @@ and is knowledgeable enough now to decide which electives to take.
 
 These courses will introduce you to the world of computer science.
 Both are required, but feel free to skip straight to the second course when CS50 (the first course) moves away from C.
+([Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50))
 
 **Topics covered**:
 `imperative programming`
@@ -247,6 +253,9 @@ Parts 1 and 2 of Stanford Algorithms is available as [Algorithms: Design and Ana
 Unlike the Coursera version, quizzes and tests are auto-graded for free.
 If you are pursuing an optional certificate from Coursera, you will still need to complete parts 1 and 2 through Coursera.
 
+In spite of what it looks like, **these courses are free to access**.
+([How?](FAQ.md#are-coursera-courses-free-to-access))
+
 ### Core applications
 
 **Topics covered**:
@@ -354,8 +363,9 @@ Courses | Duration | Effort | Prerequisites
 [ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
 
 **<sup>1</sup> Note**:
-These courses assume knowledge of basic physics;
-if you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy:
+These courses assume knowledge of basic physics.
+([Why?](FAQ.md#why-is-the-curriculum-missing-some-pre-requisites))
+If you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy:
 [Khan Academy - Physics](https://www.khanacademy.org/science/physics)
 
 ### Advanced theory
@@ -423,10 +433,10 @@ In some cases, it may not be permitted;
 do **not** violate your course's Honor Code!
 
 Put the OSSU-CS badge in the README of your repository!
-[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)
+[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
 
-- Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)`
-- HTML: `<a href="https://github.com/open-source-society/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
+- Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)`
+- HTML: `<a href="https://github.com/ossu/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
 
 ### Evaluation
 
@@ -477,17 +487,19 @@ These aren't the only specializations you can choose. Check the following websit
 - Look for a job as a developer!
 - Check out the [readings](extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
 - Join a local developer meetup (e.g. via [meetup.com](https://www.meetup.com/)).
-- Pay attention to emerging technologies in the world of software development, such as:
-  - [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
-  - [Rust](https://www.rust-lang.org/), a systems language which uses borrowing and lifetimes to achieve memory safety without a garbage collector!
+- Pay attention to emerging technologies in the world of software development:
+  + Explore the **actor model** through [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
+  + Explore **borrowing and lifetimes** through [Rust](https://www.rust-lang.org/), a systems language which achieves memory- and thread-safety without a garbage collector!
+  + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
 # Community
 
+- Subscribe to our [newsletter](https://tinyletter.com/ossu)
 - Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)!
 - Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
-- You can also interact through [GitHub issues](https://github.com/open-source-society/computer-science/issues).
+- You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues).
 - We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
 - Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
 
@@ -521,7 +533,7 @@ You can change the status of your board to be *public* or *private*.
 
 * **Curriculum Founder**: [Eric Douglas](https://github.com/ericdouglas)
 * **Curriculum Maintainer**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
-* **Contributors**: [contributors](https://github.com/open-source-society/computer-science/graphs/contributors)
+* **Contributors**: [contributors](https://github.com/ossu/computer-science/graphs/contributors)
 
 # References
 

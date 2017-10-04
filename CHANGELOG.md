@@ -9,6 +9,9 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 ## [7.2.2] 2017-07-02
 ### Added
 - "Haskell Programming from First Principles" book as a paid alternative to learn Haskell
+- "Think Python" to extras/readings
+- FAQ entries and links under relevant courses
+- "Category Theory: A Gentle Introduction" to extras/readings
 
 ## [7.2.1] 2017-05-14
 ### Updated
@@ -237,7 +240,7 @@ Due to Coursera's platform changes, we had the following updates:
 - **Cryptography**:
 	- Applied Cryptography
 
-**ps**: These removed courses are now in the [extras](https://github.com/open-source-society/computer-science/tree/master/extras) section.
+**ps**: These removed courses are now in the [extras](https://github.com/ossu/computer-science/tree/master/extras) section.
 
 ## [1.3.12] 2016-03-17
 ### Added
