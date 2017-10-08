@@ -19,6 +19,9 @@ Courses | Duration | Effort
 [The Structure and Interpretation of Computer Programs](http://cs61a.org/) | - | -
 [Introduction to Haskell](https://www.seas.upenn.edu/~cis194/fall16/) | 14 weeks | 4 hours/week
 
+## Competitive Programming Practice Problem recommender
+[Code-Drills] (https://code-drills.com/)
+
 ## Math
 
 Courses | Duration | Effort
