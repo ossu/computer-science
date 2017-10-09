@@ -16,7 +16,7 @@
   </a>
 </p>
 
-# Contents
+## Contents
 
 - [Summary](#summary)
 - [Curriculum](#curriculum)
@@ -26,12 +26,13 @@
   - [Advanced CS](#advanced-cs)
   - [Final project](#final-project)
   - [Pro CS](#pro-cs)
+- [Code of conduct](#code-of-conduct)
 - [Community](#community)
   - [How to show your progress](#how-to-show-your-progress)
   - [Team](#team)
 - [References](#references)
 
-# Summary
+## Summary
 
 The OSSU curriculum is a **complete education in computer science** using online materials.
 It's not merely for career training or professional development.
@@ -80,7 +81,7 @@ just remember that you can't purchase success!
 
 **Getting help**. Please check our [Frequently Asked Questions](FAQ.md), and if you cannot find the answer, file an issue or talk to our [friendly community](#community)!
 
-# Curriculum
+## Curriculum
 
 **Curriculum version**: `7.2.2` (see [CHANGELOG](CHANGELOG.md))
 
@@ -103,7 +104,7 @@ just remember that you can't purchase success!
 
 ---
 
-## Prerequisites
+### Prerequisites
 
 - [Core CS](#core-cs) assumes the student has already taken high school math and physics, including algebra, geometry, and pre-calculus.
 Some high school graduates will have already taken AP Calculus, but this is usually only about 3/4 of a college calculus class, so the calculus courses in the curriculum are still recommended.
@@ -111,7 +112,7 @@ Some high school graduates will have already taken AP Calculus, but this is usua
 and is knowledgeable enough now to decide which electives to take.
 - Note that [Advanced systems](#advanced-systems) assumes the student has taken a basic physics course (e.g. AP Physics in high school).
 
-## Introduction to Computer Science
+### Introduction to Computer Science
 
 These courses will introduce you to the world of computer science.
 Both are required, but feel free to skip straight to the second course when CS50 (the first course) moves away from C.
@@ -133,11 +134,11 @@ Courses | Duration | Effort | Prerequisites
 [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | none
 [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) | 9 weeks | 15 hours/week | high school algebra
 
-## Core CS
+### Core CS
 
 All coursework under Core CS is **required**, unless otherwise indicated.
 
-### Core programming
+#### Core programming
 **Topics covered**:
 `functional programming`
 `design for testing`
@@ -163,12 +164,12 @@ Courses | Duration | Effort | Prerequisites
 [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b) | 3 weeks | 8-16 hours/week | Programming Languages, Part A
 [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 3 weeks | 8-16 hours/week | Programming Languages, Part B
 
-#### Readings
+##### Readings
 - **Required** to learn about monads, laziness, purity: [Learn You a Haskell for a Great Good!](http://learnyouahaskell.com/)
   - **OBS**: probably the best resource to learn Haskell: [Haskell Programming from First Principles](http://haskellbook.com/) `paid`
 - **Required**, to learn about logic programming, backtracking, unification: [Learn Prolog Now!](http://www.learnprolognow.org/)
 
-### Core math
+#### Core math
 
 **Topics covered**:
 `linear transformations`
@@ -200,7 +201,7 @@ and
 [these recommendations](https://www.coursera.org/learn/calculus1/discussions/all/threads/W5P9mFY8EeWbVQrsfyQbuw/replies/XyyJflZDEeWBRg5dvElQww/comments/l-bON17nEeW9lgqcHapJBw)
 for how to progress through the course.
 
-### Core systems
+#### Core systems
 
 **Topics covered**:
 `boolean algebra`
@@ -223,10 +224,10 @@ Courses | Duration | Effort | Prerequisites
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | From Nand to Tetris Part I
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| 8 weeks | 4–12 hours/week | algebra, probability, basic CS
 
-#### Readings
+##### Readings
 - **Required** since Nand2Tetris does not go deep enough into operating systems: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 
-### Core theory
+#### Core theory
 
 **Topics covered**:
 `divide and conquer`
@@ -256,7 +257,7 @@ If you are pursuing an optional certificate from Coursera, you will still need t
 In spite of what it looks like, **these courses are free to access**.
 ([How?](FAQ.md#are-coursera-courses-free-to-access))
 
-### Core applications
+#### Core applications
 
 **Topics covered**:
 `Agile methodology`
@@ -285,7 +286,7 @@ Courses | Duration | Effort | Prerequisites
 [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x) | 6 weeks | 8-10 hours/week | Software Construction - Object-Oriented Design
 [Software Development Capstone Project](https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx) | 6-7 weeks | 8-10 hours/week | Software Engineering: Introduction
 
-## Advanced CS
+### Advanced CS
 
 After completing **every required course** in Core CS, students should choose a subset of courses from Advanced CS based on interest.
 Not every course from a subcategory needs to be taken.
@@ -295,7 +296,7 @@ The Advanced CS study should then end with one of the Specializations under [Adv
 A Specialization's Capstone, if taken, may act as the [Final project](#final-project), if permitted by the Honor Code of the course.
 If not, or if a student chooses not to take the Capstone, then a separate Final project will need to be done to complete this curriculum.
 
-### Advanced programming
+#### Advanced programming
 
 **Topics covered**:
 `debugging theory and practice`
@@ -317,7 +318,7 @@ Courses | Duration | Effort | Prerequisites
 [Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) | 12 weeks | - | C, algorithms
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | software engineering in Java
 
-### Advanced math
+#### Advanced math
 
 **Topics covered**:
 `real analysis`
@@ -335,7 +336,7 @@ Courses | Duration | Effort | Prerequisites
 [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week | Parametric Equations and Polar Coordinates
 [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | Multivariable Calculus
 
-### Advanced systems
+#### Advanced systems
 
 **Topics covered**:
 `digital signaling`
@@ -368,7 +369,7 @@ These courses assume knowledge of basic physics.
 If you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy:
 [Khan Academy - Physics](https://www.khanacademy.org/science/physics)
 
-### Advanced theory
+#### Advanced theory
 
 **Topics covered**:
 `formal languages`
@@ -397,7 +398,7 @@ Courses | Duration | Effort | Prerequisites
 [Introduction to Formal Concept Analysis](https://www.coursera.org/learn/formal-concept-analysis) | 6 weeks | 4-6 hours/week | logic, probability
 [Game Theory](https://www.coursera.org/learn/game-theory-1) | 8 weeks | x hours/week | mathematical thinking, probability, calculus
 
-### Advanced applications
+#### Advanced applications
 
 These Coursera Specializations all end with a Capstone project.
 Depending on the course, you may be able to utilize the Capstone as your Final Project for this Computer Science curriculum.
@@ -415,7 +416,7 @@ Courses | Duration | Effort | Prerequisites
 [Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none
 [Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 weeks | 4-5 hours/weeks | One year programming experience
 
-## Final project
+### Final project
 
 OSS University is **project-focused**.
 You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
@@ -438,7 +439,7 @@ Put the OSSU-CS badge in the README of your repository!
 - Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)`
 - HTML: `<a href="https://github.com/ossu/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
 
-### Evaluation
+#### Evaluation
 
 Upon completing your final project, submit your project's information to [PROJECTS](PROJECTS.md)
 via a pull request and use our [community](#community) channels to announce it to your fellow students.
@@ -451,20 +452,20 @@ and to get experience listening to feedback — both positive and negative — a
 The final project evaluation has a second purpose: to evaluate whether OSSU,
 through its community and curriculum, is successful in its mission to guide independent learners in obtaining a world-class computer science education.
 
-### Cooperative work
+#### Cooperative work
 
 You can create this project alone or with other students!
 **We love cooperative work**!
 Use our [channels](#community) to communicate with other fellows to combine and create new projects!
 
-### Which programming languages should I use?
+#### Which programming languages should I use?
 
 My friend, here is the best part of liberty!
 You can use **any** language that you want to complete the final project.
 
 The important thing is to **internalize** the core concepts and to be able to use them with whatever tool (programming language) that you wish.
 
-## Pro CS
+### Pro CS
 
 After completing the requirements of the curriculum above, you will have completed the equivalent of a full bachelor's degree in Computer Science, or quite close to one.
 You can stop in the Advanced CS section, but the next step to completing your studies is to develop skills and knowledge in a specific domain.
@@ -482,7 +483,7 @@ These aren't the only specializations you can choose. Check the following websit
 - Coursera: [Specializations](https://www.coursera.org/specializations)
 - Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
 
-### Where to go next?
+#### Where to go next?
 
 - Look for a job as a developer!
 - Check out the [readings](extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
@@ -494,19 +495,21 @@ These aren't the only specializations you can choose. Check the following websit
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
-# Community
+## Code of conduct
+[OSSU's code of conduct](https://github.com/ossu/code-of-conduct).
+
+## Community
 
 - Subscribe to our [newsletter](https://tinyletter.com/ossu)
-- Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)!
-- Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
+- Use our [forum](https://github.com/ossu/forum) if you need some help.
 - You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues).
 - We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
-- Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
+- Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) and [Facebook](https://www.facebook.com/ossuniversity) profile!
 
 > **PS**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps.
-**Please use our subreddit/group for important discussions**.
+**Please use our forum for important discussions**.
 
-## How to show your progress
+### How to show your progress
 
 1. Create an account in [Trello](https://trello.com/).
 1. Copy [this](https://trello.com/b/9DPXYv5f) board to your personal account.
@@ -529,13 +532,13 @@ You should put the *Course's cards* below its respective *Section's card*.
 The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
 You can change the status of your board to be *public* or *private*.
 
-## Team
+### Team
 
-* **Curriculum Founder**: [Eric Douglas](https://github.com/ericdouglas)
-* **Curriculum Maintainer**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
+* **Curriculum Founders**: [Eric Douglas](https://github.com/ericdouglas)
+* **Curriculum Maintainers**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
 * **Contributors**: [contributors](https://github.com/ossu/computer-science/graphs/contributors)
 
-# References
+## References
 
 - [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [Coursera](https://www.coursera.org/)
