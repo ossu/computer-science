@@ -26,6 +26,7 @@
   - [Advanced CS](#advanced-cs)
   - [Final project](#final-project)
   - [Pro CS](#pro-cs)
+- [Code of conduct](#code-of-conduct)
 - [Community](#community)
   - [How to show your progress](#how-to-show-your-progress)
   - [Team](#team)
@@ -494,17 +495,19 @@ These aren't the only specializations you can choose. Check the following websit
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
+# Code of conduct
+[OSSU's code of conduct](https://github.com/ossu/code-of-conduct).
+
 # Community
 
 - Subscribe to our [newsletter](https://tinyletter.com/ossu)
-- Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)!
-- Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
+- Use our [forum](https://github.com/ossu/forum) if you need some help.
 - You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues).
 - We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
-- Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
+- Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) and [Facebook](https://www.facebook.com/ossuniversity) profile!
 
 > **PS**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps.
-**Please use our subreddit/group for important discussions**.
+**Please use our forum for important discussions**.
 
 ## How to show your progress
 
@@ -531,8 +534,8 @@ You can change the status of your board to be *public* or *private*.
 
 ## Team
 
-* **Curriculum Founder**: [Eric Douglas](https://github.com/ericdouglas)
-* **Curriculum Maintainer**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
+* **Curriculum Founders**: [Eric Douglas](https://github.com/ericdouglas)
+* **Curriculum Maintainers**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
 * **Contributors**: [contributors](https://github.com/ossu/computer-science/graphs/contributors)
 
 # References
