@@ -190,6 +190,8 @@ Courses | Duration | Effort | Prerequisites
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
+[Pre-Calculus: Functions](https://www.coursera.org/learn/pre-calculus)([alt](https://www.coursera.org/learn/pre-calculus)) | 8 weeks | 8-10 hours/week | none
+[Pre-Calculus: Trigonometry](https://www.coursera.org/learn/trigonometry)([alt](https://www.coursera.org/learn/trigonometry)) | 9 weeks " 8-10 hours/week | none
 [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | pre-calculus
 [Calculus One](https://www.coursera.org/learn/calculus1)<sup>*1*</sup> ([alt](https://mooculus.osu.edu/)) | 16 weeks | 8-10 hours/week | pre-calculus
 [Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week | Calculus One
