@@ -491,7 +491,7 @@ These aren't the only specializations you can choose. Check the following websit
 - Pay attention to emerging technologies in the world of software development:
   + Explore the **actor model** through [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
   + Explore **borrowing and lifetimes** through [Rust](https://www.rust-lang.org/), a systems language which achieves memory- and thread-safety without a garbage collector!
-  + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development
+  + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development.
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
@@ -500,7 +500,7 @@ These aren't the only specializations you can choose. Check the following websit
 
 # Community
 
-- Subscribe to our [newsletter](https://tinyletter.com/ossu)
+- Subscribe to our [newsletter](https://tinyletter.com/ossu).
 - Use our [forum](https://github.com/ossu/forum) if you need some help.
 - You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues).
 - We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
