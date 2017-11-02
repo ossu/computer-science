@@ -1,15 +1,18 @@
-![Open Source Society University (OSSU)](http://i.imgur.com/Cxv8DM4.png)
+![Open Source Society University (OSSU)](http://i.imgur.com/kYYCXtC.png)
 
 <h3 align="center">Open Source Society University</h3>
 <p align="center">
-  Path to a self-taught education in Computer Science!
+  Path to a free self-taught education in Computer Science!
 </p>
 <p align="center">
   <a href="https://github.com/sindresorhus/awesome">
     <img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
   </a>
-  <a href="https://github.com/open-source-society/computer-science">
+  <a href="https://github.com/ossu/computer-science">
 	<img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg">
+  </a>
+  <a href="https://www.patreon.com/ossu">
+	<img alt="Contribute with OSSU on Patreon" src="https://img.shields.io/badge/Patreon-contribute-yellow.svg">
   </a>
 </p>
 
@@ -23,6 +26,7 @@
   - [Advanced CS](#advanced-cs)
   - [Final project](#final-project)
   - [Pro CS](#pro-cs)
+- [Code of conduct](#code-of-conduct)
 - [Community](#community)
   - [How to show your progress](#how-to-show-your-progress)
   - [Team](#team)
@@ -219,9 +223,10 @@ Courses | Duration | Effort | Prerequisites
 [Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) ([alt](http://www.nand2tetris.org/)) | 6 weeks | 7-13 hours/week | none
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | From Nand to Tetris Part I
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| 8 weeks | 4–12 hours/week | algebra, probability, basic CS
+[ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
 
 #### Readings
-- **Required** since Nand2Tetris does not go deep enough into operating systems: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
+- **Recommended**: While Hack the Kernel recommends Modern Operating Systems as a textbook, we suggest using [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/).
 
 ### Core theory
 
@@ -355,7 +360,6 @@ Courses | Duration | Effort | Prerequisites
 [Computation Structures 1: Digital Circuits](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0) | 10 weeks | 6 hours/week | electricity, magnetism
 [Computation Structures 2: Computer Architecture](https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x) | 10 weeks | 6 hours/week | Computation Structures 1
 [Computation Structures 3: Computer Organization](https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0) | 10 weeks | 6 hours/week | Computation Structures 2
-[ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
 
 **<sup>1</sup> Note**:
 These courses assume knowledge of basic physics.
@@ -428,10 +432,10 @@ In some cases, it may not be permitted;
 do **not** violate your course's Honor Code!
 
 Put the OSSU-CS badge in the README of your repository!
-[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)
+[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
 
-- Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)`
-- HTML: `<a href="https://github.com/open-source-society/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
+- Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)`
+- HTML: `<a href="https://github.com/ossu/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
 
 ### Evaluation
 
@@ -485,20 +489,23 @@ These aren't the only specializations you can choose. Check the following websit
 - Pay attention to emerging technologies in the world of software development:
   + Explore the **actor model** through [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
   + Explore **borrowing and lifetimes** through [Rust](https://www.rust-lang.org/), a systems language which achieves memory- and thread-safety without a garbage collector!
-  + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development
+  + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development.
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
+# Code of conduct
+[OSSU's code of conduct](https://github.com/ossu/code-of-conduct).
+
 # Community
 
-- Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)!
-- Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
-- You can also interact through [GitHub issues](https://github.com/open-source-society/computer-science/issues).
+- Subscribe to our [newsletter](https://tinyletter.com/ossu).
+- Use our [forum](https://github.com/ossu/forum) if you need some help.
+- You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues).
 - We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
-- Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
+- Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) and [Facebook](https://www.facebook.com/ossuniversity) profile!
 
 > **PS**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps.
-**Please use our subreddit/group for important discussions**.
+**Please use our forum for important discussions**.
 
 ## How to show your progress
 
@@ -525,9 +532,9 @@ You can change the status of your board to be *public* or *private*.
 
 ## Team
 
-* **Curriculum Founder**: [Eric Douglas](https://github.com/ericdouglas)
-* **Curriculum Maintainer**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
-* **Contributors**: [contributors](https://github.com/open-source-society/computer-science/graphs/contributors)
+* **Curriculum Founders**: [Eric Douglas](https://github.com/ericdouglas)
+* **Curriculum Maintainers**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
+* **Contributors**: [contributors](https://github.com/ossu/computer-science/graphs/contributors)
 
 # References
 

@@ -240,7 +240,7 @@ Due to Coursera's platform changes, we had the following updates:
 - **Cryptography**:
 	- Applied Cryptography
 
-**ps**: These removed courses are now in the [extras](https://github.com/open-source-society/computer-science/tree/master/extras) section.
+**ps**: These removed courses are now in the [extras](https://github.com/ossu/computer-science/tree/master/extras) section.
 
 ## [1.3.12] 2016-03-17
 ### Added
