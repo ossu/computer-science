@@ -21,6 +21,7 @@ Name | Author(s)
 [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) | Robert Martin
 [Code Complete 2e](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) | Steve McConnell
 [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X) | Andrew Hunt, David Thomas
+[Programming Languages: Application and Interpretation](http://cs.brown.edu/~sk/Publications/Books/ProgLangs/) | Shriram Krishnamurthi
 
 ## Math
 
