@@ -22,6 +22,7 @@ Name | Author(s)
 [Code Complete 2e](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) | Steve McConnell
 [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X) | Andrew Hunt, David Thomas
 [Programming Languages: Application and Interpretation](http://cs.brown.edu/~sk/Publications/Books/ProgLangs/) | Shriram Krishnamurthi
+[Programming and Programming Languages](http://papl.cs.brown.edu/2016/) | Shriram Krishnamurthi, Benjamin S. Lerner, Joe Gibbs Politz
 
 ## Math
 
