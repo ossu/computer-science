@@ -115,8 +115,7 @@ and is knowledgeable enough now to decide which electives to take.
 ## Introduction to Computer Science
 
 These courses will introduce you to the world of computer science.
-Both are required, but feel free to skip straight to the second course when CS50 (the first course) moves away from C.
-([Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50))
+All three are required, but feel free to skip the second half of the second course, CS50 ([It gets a bit shallow after they finish teaching C](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50))
 
 **Topics covered**:
 `imperative programming`
@@ -131,6 +130,7 @@ Both are required, but feel free to skip straight to the second course when CS50
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
+[The Intuitive Guide to Data Structures and Algorithms](https://www.interviewcake.com/data-structures-and-algorithms-guide) | 1 day | ~3-6 hours total | high school algebra
 [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | none
 [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) | 9 weeks | 15 hours/week | high school algebra
 
