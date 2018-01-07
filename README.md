@@ -208,7 +208,6 @@ for how to progress through the course.
 `boolean algebra`
 `gate logic`
 `memory`
-`machine language`
 `computer architecture`
 `assembly`
 `machine language`
