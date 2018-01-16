@@ -8,6 +8,9 @@ or that there was an alternative that fit better into the curriculum.
 
 Courses | Duration | Effort
 :-- | :--: | :--:
+[Learn to Program: The Fundationtals](https://www.coursera.org/learn/learn-to-program) | 7 weeks | 3-4 hours/week
+[Learn to Program: Crafting Quality Code](https://www.coursera.org/learn/program-code) | 5 weeks | 3-4 hours/week
+[Fundamentals of Computing specialization](https://www.coursera.org/specializations/computer-fundamentals) |  6-9 months | 15 hours/weeks
 [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)| 10 weeks | 15 hours/week
 [Introduction to Computer Science (Udacity)](https://www.udacity.com/course/intro-to-computer-science--cs101)| 7 weeks | 10-20 hours/week
 [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/learn/interactive-python-1)| 5 weeks | -
@@ -23,6 +26,11 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
+
+[Calculus Applied](https://www.edx.org/course/calculus-applied-harvardx-calcapl1x) | 7-9 weeks | 3-6 hours/week
+[Introduction to Differential Equations](https://www.edx.org/course/introduction-differential-equations-mitx-18-031x) | 15 weeks | 5-8 hours/week
+[Differential Equation 2x2 System](https://www.edx.org/course/differential-equations-2x2-systems-mitx-18-032x) | 9 weeks | 2-5 hours/week
+[Differential Equations: Linear Algebra and NxN Systems of Differential Equations]() | 9 weeks | 5-8 hours/week
 [Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x-0) | 4 weeks | 2 hours/week
 [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week
 [Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro)| - | -
@@ -32,6 +40,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
+[Carnegie Mellon Computer Architecture](https://www.youtube.com/channel/UCnoYy1k6I5gLIxhlNiStrdQ) | - | - 
 [Computer Architecture](https://www.coursera.org/learn/comparch) | - | 5-8 hours/week
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/) | - | -
 [Introduction to Operating Systems](https://www.udacity.com/course/introduction-to-operating-systems--ud923)| 8 weeks | 5-8 hours/week
@@ -42,6 +51,8 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
+[Data Structures and Algorithms specialization](https://www.coursera.org/specializations/data-structures-algorithms) | 6-8 months | 4-8 hours/weeks
+[Algorithms specialization](https://www.coursera.org/specializations/algorithms) | 16 weeks | 4-8 hours/weeks
 [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) | 6 weeks | 6-12 hours/week
 [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2) | 6 weeks | 6-12 hours/week
 [Analysis of Algorithms (Sedgewick)](https://www.coursera.org/learn/analysis-of-algorithms) | 6 weeks | 6-8 hours/week
