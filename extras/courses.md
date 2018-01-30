@@ -14,6 +14,8 @@ Courses | Duration | Effort
 [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/learn/interactive-python-2)| - | -
 [Programming Basics](https://www.edx.org/course/programming-basics-iitbombayx-cs101-1x)| 9 weeks | 8 hours/week
 [Object-Oriented Programming](https://www.edx.org/course/object-oriented-programming-iitbombayx-cs101-2x)| 4 weeks | 8 hours/week
+[Object-Oriented Programming with Java (Part 1)](http://mooc.fi/courses/2013/programming-part-1/)| 6 weeks | -
+[Object-Oriented Programming with Java (Part 2)](http://mooc.fi/courses/2013/programming-part-2/)| 6 weeks | -
 [Introduction to Programming with MATLAB](https://www.coursera.org/learn/matlab)| - | -
 [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)| 7 weeks | 4-6 hours/week
 [The Structure and Interpretation of Computer Programs](http://cs61a.org/) | - | -
