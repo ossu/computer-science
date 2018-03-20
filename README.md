@@ -167,7 +167,7 @@ Courses | Duration | Effort | Prerequisites
 #### Readings
 - **Required** to learn about monads, laziness, purity: [Learn You a Haskell for a Great Good!](http://learnyouahaskell.com/)
   - **Note**: probably the best resource to learn Haskell: [Haskell Programming from First Principles](http://haskellbook.com/) `paid`
-- **Required**, to learn about logic programming, backtracking, unification: [Learn Prolog Now!](http://www.learnprolognow.org/)
+- **Required**, to learn about logic programming, backtracking, unification: [Learn Prolog Now!](http://lpn.swi-prolog.org/lpnpage.php?pageid=top)
 
 ### Core math
 
