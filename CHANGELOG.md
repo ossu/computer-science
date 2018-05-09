@@ -118,7 +118,7 @@ Complete overhaul of program structure
 - Elective course: Game Theory
 - Elective specializations:
   - Robotics
-  - Data Minig
+  - Data Mining
   - Big Data
   - Internet of Things
   - Cloud Computing
@@ -135,7 +135,7 @@ Complete overhaul of program structure
 - Removed many dead links and obsolete courses
 - Removed per-course project requirement
 - Course: Object-Oriented Programming in Java
-- Course: Funtional Programming in Scala
+- Course: Functional Programming in Scala
 - Course: Computer Architecture (but left as a footnote)
 - Course: Intro to Theoretical Computer Science
 - Course: Software Processes and Agile Practices
