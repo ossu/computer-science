@@ -28,7 +28,8 @@ Name | Author(s)
 
 Name | Author(s)
 :-- | :--:
-[Calculus Made Easy](http://www.gutenberg.org/ebooks/33283) | Silvanus P. Thompson 
+[Calculus Made Easy](http://www.gutenberg.org/ebooks/33283) | Silvanus P. Thompson
+[Ximera](https://ximera.osu.edu/): Interactive Calculus Textbooks | [Ximera team](https://ximera.osu.edu/about/team)
 [Discrete Mathematics with Applications (4th Edition)](http://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/0495391328/) | Susanna S. Epp
 [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) | Alan Doerr, Ken Levasseur
 [Grinstead and Snell’s Introduction to Probability](https://math.dartmouth.edu/~prob/prob/prob.pdf) |Charles M. Grinstead, J. Laurie Snell
