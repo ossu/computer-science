@@ -56,7 +56,7 @@ Name | Author(s)
 [Introduction to Algorithms (3rd Edition)](http://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/) | Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
 [The Algorithm Design Manual](https://www.amazon.com/gp/product/1848000693) | Steven Skiena
 [Category Theory: A Gentle Introduction](http://www.logicmatters.net/resources/pdfs/GentleIntro.pdf) | Peter Smith
-[Category Theory for Programmers: The Preface](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) | Bartosz Milewski
+[Category Theory for Programmers](https://github.com/hmemcpy/milewski-ctfp-pdf) | Bartosz Milewski
 [An Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf) | Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze
 
 ## Applications
