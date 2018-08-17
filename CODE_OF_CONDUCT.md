@@ -73,7 +73,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 9. Contact info
 
-[Contact Email Address](https://github.com/ericdouglas)
+[Contact Link](https://github.com/ericdouglas)
 
 ## 10. License and attribution
 
