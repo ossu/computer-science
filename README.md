@@ -507,7 +507,7 @@ We also have **labels** to help you have more control through the process.
 The meaning of each of these labels is:
 
 - `Main Curriculum`: cards with that label represent courses that are listed in our curriculum.
-- `Extra Resources`: cards with that label represent courses that was added by the student.
+- `Extra Resources`: cards with that label represent courses that were added by the student.
 - `Doing`: cards with that label represent courses the student is current doing.
 - `Done`: cards with that label represent courses finished by the student.
 Those cards should also have the link for at least one project/article built with the knowledge acquired in such course.
