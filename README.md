@@ -499,7 +499,7 @@ These aren't the only specializations you can choose. Check the following websit
 
 1. Create an account in [Trello](https://trello.com/).
 1. Copy [this](https://trello.com/b/9DPXYv5f) board to your personal account.
-See how to copy a board [here](http://blog.trello.com/you-can-copy-boards-now-finally/).
+See how to copy a board [here](https://help.trello.com/article/802-copying-cards-lists-or-boards).
 
 Now that you have a copy of our official board, you just need to pass the cards to the `Doing` column or `Done` column as you progress in your study.
 
