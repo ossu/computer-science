@@ -69,6 +69,7 @@ Name | Author(s)
 [Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902) | Jim Gray, Andreas Reuter
 [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | William Kent
 [The Architecture of Open Source Applications](http://aosabook.org/en/) | Michael DiBernardo (editor)
+[An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/) |  Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 [Deep Learning](http://www.deeplearningbook.org/) | Ian Goodfellow, Yoshua Bengio and Aaron Courville
 [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage) | David Barber
 [Language Implementation Patterns](https://www.amazon.com/gp/product/193435645X) | Terence Parr
