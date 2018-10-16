@@ -68,8 +68,8 @@ Courses in Core CS should be taken linearly if possible, but since a perfectly l
 each class's prerequisites is specified so that you can design a logical but non-linear progression
 based on the class schedules and your own life plans.
 
-**Cost**. All or nearly all course material prior to Pro CS is available for free,
-however some courses may charge money for assignments/tests/projects to be graded.
+**Cost**. All or nearly all course material prior to Pro CS is available for free.
+However, some courses may charge money for assignments/tests/projects to be graded.
 Note that Coursera offers [financial aid](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid).
 Decide how much or how little to spend based on your own time and budget;
 just remember that you can't purchase success!
@@ -408,7 +408,7 @@ OSS University is **project-focused**.
 You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
 
 After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired.
-Not only does real project work look great on a resume, the project will *validate* and *consolidate* your knowledge.
+Not only does real project work look great on a resume, but the project will also *validate* and *consolidate* your knowledge.
 You can create something entirely new, or you can find an existing project that needs help via websites like
 [CodeTriage](https://www.codetriage.com/)
 or
@@ -432,7 +432,7 @@ via a pull request and use our [community](#community) channels to announce it t
 
 Your peers and mentors from OSSU will then informally evaluate your project.
 You will not be "graded" in the traditional sense — everyone has their own measurements for what they consider a success.
-The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist,
+The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist
 and to get experience listening to feedback — both positive and negative — and taking it in stride.
 
 The final project evaluation has a second purpose: to evaluate whether OSSU,
