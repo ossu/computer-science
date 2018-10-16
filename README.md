@@ -120,24 +120,16 @@ and is knowledgeable enough now to decide which electives to take.
 
 ## Introduction to Computer Science
 
-These courses will introduce you to the world of computer science.
-Both are required, but feel free to skip straight to the second course when CS50 (the first course) moves away from C.
-([Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50))
+This course will introduce you to the world of computer science.
 
 **Topics covered**:
+`computation`
 `imperative programming`
-`procedural programming`
-`C`
-`manual memory management`
 `basic data structures and algorithms`
-`Python`
-`SQL`
-`basic HTML, CSS, JavaScript`
 `and more`
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | none
 [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) | 9 weeks | 15 hours/week | high school algebra
 
 ## Core CS
@@ -208,7 +200,12 @@ It is more interactive but less comprehensive, and it costs money to unlock full
 
 ### Core systems
 
+Skip to the second course (Nand2Tetris) when the first course (CS50) moves away from C.
+([Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50))
+
 **Topics covered**:
+`procedural programming`
+`manual memory management`
 `boolean algebra`
 `gate logic`
 `memory`
@@ -224,7 +221,8 @@ It is more interactive but less comprehensive, and it costs money to unlock full
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) ([alt](http://www.nand2tetris.org/)) | 6 weeks | 7-13 hours/week | none
+[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | introductory programming
+[Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) ([alt](http://www.nand2tetris.org/)) | 6 weeks | 7-13 hours/week | C-like programming language
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | one of [these programming languages](https://user-images.githubusercontent.com/2046800/35426340-f6ce6358-026a-11e8-8bbb-4e95ac36b1d7.png), From Nand to Tetris Part I
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| 8 weeks | 4–12 hours/week | algebra, probability, basic CS
 [ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
