@@ -132,6 +132,15 @@ Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) | 9 weeks | 15 hours/week | high school algebra
 
+Alternatively, complete the entire four-part course below.
+
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Computing In Python, Part I: Fundamentals and Procedural Programming](https://www.edx.org/course/computing-in-python-i-fundamentals-and-procedural-programming-0) | 5 weeks | 10 hours/week | high school algebra
+[Computing In Python, Part II: Control Structures](https://www.edx.org/course/computing-in-python-ii-control-structures-0) | 5 weeks | 10 hours/week | Computing In Python, Part I
+[Computing In Python, Part III: Data Structures](https://www.edx.org/course/computing-in-python-iii-data-structures-0) | 5 weeks | 10 hours/week | Computing In Python, Part II
+[Computing In Python, Part IV: Objects & Algorithms](https://www.edx.org/course/computing-in-python-iv-objects-algorithms-0) | 5 weeks | 10 hours/week | Computing In Python, Part III
+
 ## Core CS
 
 All coursework under Core CS is **required**, unless otherwise indicated.
