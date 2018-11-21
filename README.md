@@ -383,7 +383,7 @@ If you are struggling, you can find a physics MOOC or utilize the materials from
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Logic](https://www.coursera.org/learn/logic-introduction) | 10 weeks | 4-8 hours/week | set theory
-[Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about) | 8 weeks | 10 hours/week | discrete mathematics, logic, algorithms
+[Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+SelfPaced/about) | 7 weeks | 10 hours/week | discrete mathematics, logic, algorithms
 [Computational Geometry](https://www.edx.org/course/computational-geometry-tsinghuax-70240183x) | 16 weeks | 8 hours/week | algorithms, C++
 [Introduction to Formal Concept Analysis](https://www.coursera.org/learn/formal-concept-analysis) | 6 weeks | 4-6 hours/week | logic, probability
 [Game Theory](https://www.coursera.org/learn/game-theory-1) | 8 weeks | x hours/week | mathematical thinking, probability, calculus
