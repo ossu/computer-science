@@ -54,6 +54,7 @@ Name | Author(s)
 Name | Author(s)
 :-- | :--:
 [Introduction to Computing: Explorations in Language, Logic, and Machines](http://www.computingbook.org/) | David Evans
+[Introduction to the Theory of Computation](https://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779X) | Michael Sipser
 [Introduction to Algorithms (3rd Edition)](http://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/) | Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
 [The Algorithm Design Manual](https://www.amazon.com/gp/product/1848000693) | Steven Skiena
 [Category Theory: A Gentle Introduction](http://www.logicmatters.net/resources/pdfs/GentleIntro.pdf) | Peter Smith
