@@ -11,7 +11,7 @@ Or, if you are struggling in one of the courses, perhaps reading a book on the s
 
 Name | Author(s)
 :-- | :--:
-[Introduction to Computation and Programming Using Python 2e](https://www.amazon.com/Introduction-Computation-Programming-Using-Python-ebook/dp/B00H4D1W9E/) | John V. Guttag
+[Introduction to Computation and Programming Using Python 2e](https://www.amazon.com/Introduction-Computation-Programming-Using-Python-dp-0262525003/dp/0262525003/) | John V. Guttag
 [Think Python 2e](http://greenteapress.com/wp/think-python-2e/) | Allen B. Downey
 [How to Design Programs](https://www.htdp.org/) | Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, Shriram Krishnamurthi
 [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) | Hal Abelson, Jerry Sussman, Julie Sussman 
