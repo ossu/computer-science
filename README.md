@@ -190,9 +190,9 @@ Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | pre-calculus
 [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-to-frontiers#!) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | Essence of Linear Algebra
-[Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation-mitx-18-01-1x-0) | 13 weeks | 6-10 hours/week | pre-calculus
-[Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration-mitx-18-01-2x-0) | 13 weeks | 5-10 hours/week | Calculus 1A
-[Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-mitx-18-01-3x-0) | 13 weeks | 5-10 hours/week | Calculus 1B
+[Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | 13 weeks | 6-10 hours/week | pre-calculus
+[Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration) | 13 weeks | 5-10 hours/week | Calculus 1A
+[Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series) | 13 weeks | 5-10 hours/week | Calculus 1B
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm)<sup>**1**</sup> | 13 weeks | 5 hours/week | Calculus 1C
 
 <sup>**1**</sup>: Students struggling with MIT Math for CS can consider taking the [Discrete Mathematics Specialization](https://www.coursera.org/specializations/discrete-mathematics) first.
@@ -383,7 +383,7 @@ If you are struggling, you can find a physics MOOC or utilize the materials from
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Logic](https://www.coursera.org/learn/logic-introduction) | 10 weeks | 4-8 hours/week | set theory
-[Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about) | 8 weeks | 10 hours/week | discrete mathematics, logic, algorithms
+[Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+SelfPaced/about) | 7 weeks | 10 hours/week | discrete mathematics, logic, algorithms
 [Computational Geometry](https://www.edx.org/course/computational-geometry-tsinghuax-70240183x) | 16 weeks | 8 hours/week | algorithms, C++
 [Introduction to Formal Concept Analysis](https://www.coursera.org/learn/formal-concept-analysis) | 6 weeks | 4-6 hours/week | logic, probability
 [Game Theory](https://www.coursera.org/learn/game-theory-1) | 8 weeks | x hours/week | mathematical thinking, probability, calculus
@@ -524,9 +524,10 @@ You can change the status of your board to be *public* or *private*.
 
 ## Team
 
-* **Curriculum Founders**: [Eric Douglas](https://github.com/ericdouglas)
-* **Curriculum Maintainers**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
-* **Contributors**: [contributors](https://github.com/ossu/computer-science/graphs/contributors)
+* **[Eric Douglas](https://github.com/ericdouglas)**: founder of OSSU and co-maintainer of all its curricula
+* **[hanjiexi](https://github.com/hanjiexi)**: lead technical maintainer
+* **[waciumawanjohi](https://github.com/waciumawanjohi)**: lead academic maintainer
+* **[Contributors](https://github.com/ossu/computer-science/graphs/contributors)**
 
 # References
 
