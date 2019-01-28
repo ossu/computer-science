@@ -78,7 +78,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123) | 4 weeks | 2-3 hours/week
-[How to Use Git and GitHub](hhttps://www.udacity.com/course/how-to-use-git-and-github--ud775) | 3 weeks | 2-3 hours/week
+[How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775) | 3 weeks | 2-3 hours/week
 
 
 # Online Learning - Great Courses
