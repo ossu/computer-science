@@ -20,7 +20,7 @@ The subject requirements are based on topics, rather than specific courses, beca
 - XML/HTML
 - JavaScript and/or related language
 - An ML-family language
-- A Lisp-family langauge
+- A Lisp-family language
 - Python and/or Ruby
 
 ### Math

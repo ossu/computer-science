@@ -68,11 +68,17 @@ Courses in Core CS should be taken linearly if possible, but since a perfectly l
 each class's prerequisites is specified so that you can design a logical but non-linear progression
 based on the class schedules and your own life plans.
 
-**Cost**. All or nearly all course material prior to Pro CS is available for free,
-however some courses may charge money for assignments/tests/projects to be graded.
+**Cost**. All or nearly all course material prior to Pro CS is available for free.
+However, some courses may charge money for assignments/tests/projects to be graded.
 Note that Coursera offers [financial aid](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid).
 Decide how much or how little to spend based on your own time and budget;
 just remember that you can't purchase success!
+
+**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
+- For grouping up, please use the [cohorts repository](https://github.com/ossu/cohorts) to find or create a cohort suited to you.
+- We recommend doing all courses in Core CS, only skipping a course when you are certain that you've already learned the material previously.
+- For simplicity, we recommend working through courses (especially Core CS) in order from top to bottom, as they have already been [topologically sorted](https://en.wikipedia.org/wiki/Topological_sorting) by their prerequisites.
+- Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in, and take all the courses under that heading. You can also create your own custom subject, but we recommend getting validation from the community on the subject you choose.
 
 **Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
 *Do NOT disrespect the code of conduct* that you signed in the beginning of each course!
@@ -114,24 +120,16 @@ and is knowledgeable enough now to decide which electives to take.
 
 ## Introduction to Computer Science
 
-These courses will introduce you to the world of computer science.
-Both are required, but feel free to skip straight to the second course when CS50 (the first course) moves away from C.
-([Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50))
+This course will introduce you to the world of computer science.
 
 **Topics covered**:
+`computation`
 `imperative programming`
-`procedural programming`
-`C`
-`manual memory management`
 `basic data structures and algorithms`
-`Python`
-`SQL`
-`basic HTML, CSS, JavaScript`
 `and more`
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | none
 [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) | 9 weeks | 15 hours/week | high school algebra
 
 ## Core CS
@@ -191,10 +189,10 @@ Courses | Duration | Effort | Prerequisites
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | pre-calculus
-[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | Essence of Linear Algebra
-[Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation-mitx-18-01-1x-0) | 13 weeks | 6-10 hours/week | pre-calculus
-[Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration-mitx-18-01-2x-0) | 13 weeks | 5-10 hours/week | Calculus 1A
-[Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-mitx-18-01-3x-0) | 13 weeks | 5-10 hours/week | Calculus 1B
+[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-to-frontiers#!) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | Essence of Linear Algebra
+[Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | 13 weeks | 6-10 hours/week | pre-calculus
+[Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration) | 13 weeks | 5-10 hours/week | Calculus 1A
+[Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series) | 13 weeks | 5-10 hours/week | Calculus 1B
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm)<sup>**1**</sup> | 13 weeks | 5 hours/week | Calculus 1C
 
 <sup>**1**</sup>: Students struggling with MIT Math for CS can consider taking the [Discrete Mathematics Specialization](https://www.coursera.org/specializations/discrete-mathematics) first.
@@ -202,7 +200,12 @@ It is more interactive but less comprehensive, and it costs money to unlock full
 
 ### Core systems
 
+Skip to the second course (Nand2Tetris) when the first course (CS50) moves away from C.
+([Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50))
+
 **Topics covered**:
+`procedural programming`
+`manual memory management`
 `boolean algebra`
 `gate logic`
 `memory`
@@ -218,7 +221,8 @@ It is more interactive but less comprehensive, and it costs money to unlock full
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) ([alt](http://www.nand2tetris.org/)) | 6 weeks | 7-13 hours/week | none
+[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | introductory programming
+[Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) ([alt](http://www.nand2tetris.org/)) | 6 weeks | 7-13 hours/week | C-like programming language
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | one of [these programming languages](https://user-images.githubusercontent.com/2046800/35426340-f6ce6358-026a-11e8-8bbb-4e95ac36b1d7.png), From Nand to Tetris Part I
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| 8 weeks | 4–12 hours/week | algebra, probability, basic CS
 [ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
@@ -304,7 +308,7 @@ Courses | Duration | Effort | Prerequisites
 [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)| 9 weeks | 6-8 hours/week | none
 [Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming
 [Software Testing](https://www.udacity.com/course/software-testing--cs258) | 4 weeks | 6 hours/week | Python, programming experience
-[LAFF: Programming for Correctness](https://www.edx.org/course/laff-programming-correctness-utaustinx-ut-p4c-14-01x) | 7 weeks | 6 hours/week | linear algebra
+[LAFF - On Programming for Correctness](https://www.edx.org/course/laff-on-programming-for-correctness) | 7 weeks | 6 hours/week | linear algebra
 [Introduction to Parallel Programming](https://www.udacity.com/course/intro-to-parallel-programming--cs344) ([alt](https://www.youtube.com/playlist?list=PLGvfHSgImk4aweyWlhBXNF6XISY3um82_)) | 12 weeks | - | C, algorithms
 [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | software engineering in Java
 
@@ -379,7 +383,7 @@ If you are struggling, you can find a physics MOOC or utilize the materials from
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Logic](https://www.coursera.org/learn/logic-introduction) | 10 weeks | 4-8 hours/week | set theory
-[Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/about) | 8 weeks | 10 hours/week | discrete mathematics, logic, algorithms
+[Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+SelfPaced/about) | 7 weeks | 10 hours/week | discrete mathematics, logic, algorithms
 [Computational Geometry](https://www.edx.org/course/computational-geometry-tsinghuax-70240183x) | 16 weeks | 8 hours/week | algorithms, C++
 [Introduction to Formal Concept Analysis](https://www.coursera.org/learn/formal-concept-analysis) | 6 weeks | 4-6 hours/week | logic, probability
 [Game Theory](https://www.coursera.org/learn/game-theory-1) | 8 weeks | x hours/week | mathematical thinking, probability, calculus
@@ -400,7 +404,7 @@ Courses | Duration | Effort | Prerequisites
 [Cloud Computing (Specialization)](https://www.coursera.org/specializations/cloud-computing) | 30 weeks | 2-6 hours/week | C++ programming
 [Full Stack Web Development (Specialization)](https://www.coursera.org/specializations/full-stack) | 27 weeks | 2-6 hours/week | programming, databases
 [Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none
-[Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 weeks | 4-5 hours/weeks | One year programming experience
+[Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 weeks | 4-5 hours/week | One year programming experience
 
 ## Final project
 
@@ -408,7 +412,7 @@ OSS University is **project-focused**.
 You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
 
 After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired.
-Not only does real project work look great on a resume, the project will *validate* and *consolidate* your knowledge.
+Not only does real project work look great on a resume, but the project will also *validate* and *consolidate* your knowledge.
 You can create something entirely new, or you can find an existing project that needs help via websites like
 [CodeTriage](https://www.codetriage.com/)
 or
@@ -432,7 +436,7 @@ via a pull request and use our [community](#community) channels to announce it t
 
 Your peers and mentors from OSSU will then informally evaluate your project.
 You will not be "graded" in the traditional sense — everyone has their own measurements for what they consider a success.
-The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist,
+The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist
 and to get experience listening to feedback — both positive and negative — and taking it in stride.
 
 The final project evaluation has a second purpose: to evaluate whether OSSU,
@@ -499,7 +503,7 @@ These aren't the only specializations you can choose. Check the following websit
 
 1. Create an account in [Trello](https://trello.com/).
 1. Copy [this](https://trello.com/b/9DPXYv5f) board to your personal account.
-See how to copy a board [here](http://blog.trello.com/you-can-copy-boards-now-finally/).
+See how to copy a board [here](https://help.trello.com/article/802-copying-cards-lists-or-boards).
 
 Now that you have a copy of our official board, you just need to pass the cards to the `Doing` column or `Done` column as you progress in your study.
 
@@ -520,9 +524,10 @@ You can change the status of your board to be *public* or *private*.
 
 ## Team
 
-* **Curriculum Founders**: [Eric Douglas](https://github.com/ericdouglas)
-* **Curriculum Maintainers**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
-* **Contributors**: [contributors](https://github.com/ossu/computer-science/graphs/contributors)
+* **[Eric Douglas](https://github.com/ericdouglas)**: founder of OSSU and co-maintainer of all its curricula
+* **[hanjiexi](https://github.com/hanjiexi)**: lead technical maintainer
+* **[waciumawanjohi](https://github.com/waciumawanjohi)**: lead academic maintainer
+* **[Contributors](https://github.com/ossu/computer-science/graphs/contributors)**
 
 # References
 

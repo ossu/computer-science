@@ -11,9 +11,9 @@ Or, if you are struggling in one of the courses, perhaps reading a book on the s
 
 Name | Author(s)
 :-- | :--:
-[Introduction to Computation and Programming Using Python](https://www.amazon.com/Introduction-Computation-Programming-Using-Python/dp/0262525003/) | John V. Guttag
+[Introduction to Computation and Programming Using Python 2e](https://www.amazon.com/Introduction-Computation-Programming-Using-Python/dp/0262529629/) | John V. Guttag
 [Think Python 2e](http://greenteapress.com/wp/think-python-2e/) | Allen B. Downey
-[How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/) | Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, Shriram Krishnamurthi
+[How to Design Programs](https://www.htdp.org/) | Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, Shriram Krishnamurthi
 [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) | Hal Abelson, Jerry Sussman, Julie Sussman 
 [Concepts, Techniques, and Models of Computer Programming](https://www.amazon.com/gp/product/0262220695) | Peter Van Roy, Seif Haridi
 [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) | Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
@@ -40,6 +40,7 @@ Name | Author(s)
 
 Name | Author(s)
 :-- | :--:
+[Computer Systems: A Programmer's Perspective (3rd Edition)](http://csapp.cs.cmu.edu/) | Randal E. Bryant, David R. O'Hallaron
 [Modern Operating Systems (4th Edition)](http://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X/) | Andrew S. Tanenbaum, Herbert Bos
 [Computer Organization and Design: The Hardware/Software Interface](https://www.amazon.com/gp/product/0124077269) | David Patternson, John Hennessy
 [Computer Networks (5th Edition)](http://www.amazon.com/Computer-Networks-5th-Andrew-Tanenbaum/dp/0132126958/) | Andrew S. Tanenbaum, David J. Wetherall
@@ -53,6 +54,7 @@ Name | Author(s)
 Name | Author(s)
 :-- | :--:
 [Introduction to Computing: Explorations in Language, Logic, and Machines](http://www.computingbook.org/) | David Evans
+[Introduction to the Theory of Computation](https://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779X) | Michael Sipser
 [Introduction to Algorithms (3rd Edition)](http://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/) | Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
 [The Algorithm Design Manual](https://www.amazon.com/gp/product/1848000693) | Steven Skiena
 [Category Theory: A Gentle Introduction](http://www.logicmatters.net/resources/pdfs/GentleIntro.pdf) | Peter Smith
@@ -69,9 +71,11 @@ Name | Author(s)
 [Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902) | Jim Gray, Andreas Reuter
 [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | William Kent
 [The Architecture of Open Source Applications](http://aosabook.org/en/) | Michael DiBernardo (editor)
+[An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/) |  Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 [Deep Learning](http://www.deeplearningbook.org/) | Ian Goodfellow, Yoshua Bengio and Aaron Courville
 [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage) | David Barber
 [Language Implementation Patterns](https://www.amazon.com/gp/product/193435645X) | Terence Parr
 [Compilers: Principles, Techniques, and Tools (2nd Edition)](http://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811/) | Alfred V. Aho, Monica S. Lam, Ravi Sethi,  Jeffrey D. Ullman
 [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf) | Niklaus Wirth 
 [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/) | Fred Brooks, Jr.
+[Physically Based Rendering: From Theory To Implementation](http://www.pbr-book.org/) | Matt Pharr, Wenzel Jakob, and Greg Humphreys
