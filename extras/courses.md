@@ -73,6 +73,14 @@ Courses | Duration | Effort
 [Processing Big Data with Azure HDInsight](https://www.edx.org/course/processing-big-data-azure-hdinsight-microsoft-dat202-1x-0)| 5 weeks | 3-4 hours/week
 [Big Data Science with the BD2K-LINCS Data Coordination and Integration Center](https://www.coursera.org/course/bd2klincs)| 7 weeks | 4-5 hours/week
 
+## Tools
+
+Courses | Duration | Effort
+:-- | :--: | :--:
+[Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123) | 4 weeks | 2-3 hours/week
+[How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775) | 3 weeks | 2-3 hours/week
+
+
 # Online Learning - Great Courses
 
 Courses | Duration | Effort
