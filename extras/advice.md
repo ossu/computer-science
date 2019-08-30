@@ -4,8 +4,6 @@
 
 This page has advice for each course that is good to know before you start the course. The advice is from previous students. If you have taken one of the courses, feel free to add your own advice!
 
-# General Advice
-
 
 ## Introduction to Computer Science
 
