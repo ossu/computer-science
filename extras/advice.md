@@ -1,9 +1,18 @@
 <h3 align="center">Advice from Previous Students</h3>
 
+- [Summary](#summary)
+- [Courses](#courses)
+  - [Introduction to Computer Science](#introduction-to-computer-science)
+  - [Core CS](#core-cs)
+  - [Advanced CS](#advanced-cs)
+  - [Final project](#final-project)
+  - [Pro CS](#pro-cs)
+
 # Summary
 
 This page has advice for each course that is good to know before you start the course. The advice is from previous students. If you have taken one of the courses, feel free to add your own advice!
 
+# Courses
 
 ## Introduction to Computer Science
 
