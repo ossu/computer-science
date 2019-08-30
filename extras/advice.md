@@ -43,7 +43,7 @@ Add your advice here! |
 Add your advice here! | 
 [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 
 Add your advice here! | 
-
+ 
 
 #### Readings
 - Add your advice about the readings here!
@@ -63,8 +63,8 @@ Add your advice here! |
 Add your advice here! | 
 [Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series) | 
 Add your advice here! | 
-[Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm)<sup>**1**</sup> | 
-Add your advice here! | 
+[Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) | 
+The 2015 MIT course Mathematics for Computer Science provides no solutions to problem sets and assignments. You may follow this course structure instead: <br><br> [2015 Online Lecture videos](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/proofs/) <br> [2015 Readings](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/readings/) <br> [2010 Recitation Problems with Solutions](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/recitations/) <br> [2005 Problem Sets/Assignments](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/assignments/) <br> _Optional: [2010 Video Lectures](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/)_ <br><br> The problem sets and recitation problems from the older courses have solutions and mostly follow the same course structure. Occasionally, there may be a problem about something you have not done. In this case, use your judgement to decide if it is something that you can reasonably answer and consider returning to the problem at a later date. |
 
 
 ### Core systems
