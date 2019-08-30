@@ -78,10 +78,7 @@ Add your advice here! |
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 
 Add your advice here! | 
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| 
-There known issues with quizzes/exams. In particular, some questions ask about content from future lectures. If in doubt, search the course forum ("Piazza") for guidance.
-Specific issues: 
-Midterm, final question assumes knowledge of DHCP. You will need to complete unit 5 first.
-The second quiz in 5-5 (HTTP): Do not include the initial page request. Minus 5 from your answer. (Search "5-5" in Piazza) | 
+There known issues with quizzes/exams. In particular, some questions ask about content from future lectures. If in doubt, search the course forum ("Piazza") for guidance. <br>Specific issues: <br>Midterm, final question assumes knowledge of DHCP. You will need to complete unit 5 first. <br>The second quiz in 5-5 (HTTP): Do not include the initial page request. Minus 5 from your answer. (Search "5-5" in Piazza) | 
 [ops-class.org - Hack the Kernel](https://www.ops-class.org/) |
 Add your advice here! | 
 
