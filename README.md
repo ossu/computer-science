@@ -9,10 +9,10 @@
     <img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
   </a>
   <a href="https://github.com/ossu/computer-science">
-	<img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg">
+    <img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg">
   </a>
   <a href="https://www.patreon.com/ossu">
-	<img alt="Contribute with OSSU on Patreon" src="https://img.shields.io/badge/Patreon-contribute-yellow.svg">
+    <img alt="Contribute with OSSU on Patreon" src="https://img.shields.io/badge/Patreon-contribute-yellow.svg">
   </a>
 </p>
 
@@ -47,8 +47,8 @@ but specifically chosen to meet the following criteria.
 
 **Courses must**:
 - Be open for enrollment
-- Run regularly (ideally in self-paced format, otherwise running at least once a month or so)
-- Fulfill the [academic requirements](REQUIREMENTS.md) of OSSU
+- Run regularly (ideally in a self-paced format, otherwise running at least once a month or so)
+- Fulfil the [academic requirements](REQUIREMENTS.md) of OSSU
 - Fit neatly into the progression of the curriculum with respect to topics and difficulty level
 - Be of generally high quality in teaching materials and pedagogical principles
 
@@ -65,7 +65,7 @@ they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/r
 
 **Duration**. It is possible to finish Core CS within about 2 years if you plan carefully and devote roughly 18-22 hours/week to your studies.
 Courses in Core CS should be taken linearly if possible, but since a perfectly linear progression is rarely possible,
-each class's prerequisites is specified so that you can design a logical but non-linear progression
+each class's prerequisites are specified so that you can design a logical but non-linear progression
 based on the class schedules and your own life plans.
 
 **Cost**. All or nearly all course material prior to Pro CS is available for free.
@@ -76,12 +76,12 @@ just remember that you can't purchase success!
 
 **Process**. Students can work through the curriculum alone or in groups, in order or out of order.
 - For grouping up, please use the [cohorts repository](https://github.com/ossu/cohorts) to find or create a cohort suited to you.
-- We recommend doing all courses in Core CS, only skipping a course when you are certain that you've already learned the material previously.
+- We recommend doing all the courses in Core CS, only skipping a course when you are certain that you've already learned the material previously.
 - For simplicity, we recommend working through courses (especially Core CS) in order from top to bottom, as they have already been [topologically sorted](https://en.wikipedia.org/wiki/Topological_sorting) by their prerequisites.
 - Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in, and take all the courses under that heading. You can also create your own custom subject, but we recommend getting validation from the community on the subject you choose.
 
 **Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
-*Do NOT disrespect the code of conduct* that you signed in the beginning of each course!
+*Do NOT disrespect the code of conduct* that you signed at the beginning of each course!
 
 **How to contribute**. Please see [CONTRIBUTING](CONTRIBUTING.md).
 
@@ -403,7 +403,7 @@ Courses | Duration | Effort | Prerequisites
 ## Final project
 
 OSS University is **project-focused**.
-You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
+You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real-world problem.
 
 After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired.
 Not only does real project work look great on a resume, but the project will also *validate* and *consolidate* your knowledge.
@@ -506,14 +506,14 @@ The meaning of each of these labels is:
 
 - `Main Curriculum`: cards with that label represent courses that are listed in our curriculum.
 - `Extra Resources`: cards with that label represent courses that were added by the student.
-- `Doing`: cards with that label represent courses the student is current doing.
+- `Doing`: cards with that label represent courses the student is currently doing.
 - `Done`: cards with that label represent courses finished by the student.
 Those cards should also have the link for at least one project/article built with the knowledge acquired in such course.
 - `Section`: cards with that label represent the section that we have in our curriculum.
 Those cards with the `Section` label are only to help the organization of the Done column.
 You should put the *Course's cards* below its respective *Section's card*.
 
-The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
+The intention of this board is to provide our students with a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
 You can change the status of your board to be *public* or *private*.
 
 ## Team
