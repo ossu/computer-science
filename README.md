@@ -118,9 +118,28 @@ Some high school graduates will have already taken AP Calculus, but this is usua
 and is knowledgeable enough now to decide which electives to take.
 - Note that [Advanced systems](#advanced-systems) assumes the student has taken a basic physics course (e.g. AP Physics in high school).
 
+## Introduction to Programming
+
+If you've never written a for-loop, or don't know what a string is in programming, start here. Choose one of the two course series below. Either one will give you an introduction to programming that assumes no prior knowledge.
+
+Trying to decide between them?
+
+_Python for Everyone_ will introduce you to a popular language and will quickly move to practical programming tasks - using web APIs and databases. This will give you a taste of what many professional developers do.
+
+_Fundamentals of Computing_ will also start by introducing you to Python. It then moves on to give an introduction to academic Computer Science topics, like sorting and recursion. This will give you a taste of what the following courses will be like. (Students who complete _Fundamentals of Computing_ can skip Intro to Computer Science and begin Core CS.)
+
+**Topics covered**:
+`simple programs`
+`simple data structures`
+
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Python for Everyone](https://www.coursera.org/specializations/python) | 9 weeks | 58 hours | none
+[Fundamentals of Computing](https://www.coursera.org/specializations/computer-fundamentals) | 9 weeks | 138 hours | high school mathematics
+
 ## Introduction to Computer Science
 
-This course will introduce you to the world of computer science.
+This course will introduce you to the world of computer science. Students who have been introduced to programming, either from the courses above or through study elsewhere, should take this course for a flavor of the material to come. If you finish the course wanting more, Computer Science is likely for you!
 
 **Topics covered**:
 `computation`
