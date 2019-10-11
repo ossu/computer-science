@@ -65,7 +65,7 @@ they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/r
 
 **Duration**. It is possible to finish Core CS within about 2 years if you plan carefully and devote roughly 18-22 hours/week to your studies.
 Courses in Core CS should be taken linearly if possible, but since a perfectly linear progression is rarely possible,
-each class's prerequisites is specified so that you can design a logical but non-linear progression
+each class's prerequisites are specified so that you can design a logical but non-linear progression
 based on the class schedules and your own life plans.
 
 **Cost**. All or nearly all course material prior to Pro CS is available for free.
@@ -78,7 +78,7 @@ just remember that you can't purchase success!
 - For grouping up, please use the [cohorts repository](https://github.com/ossu/cohorts) to find or create a cohort suited to you.
 - We recommend doing all courses in Core CS, only skipping a course when you are certain that you've already learned the material previously.
 - For simplicity, we recommend working through courses (especially Core CS) in order from top to bottom, as they have already been [topologically sorted](https://en.wikipedia.org/wiki/Topological_sorting) by their prerequisites.
-- Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in, and take all the courses under that heading. You can also create your own custom subject, but we recommend getting validation from the community on the subject you choose.
+- Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in and take all the courses under that heading. You can also create your own custom subject, but we recommend getting validation from the community on the subject you choose.
 
 **Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
 *Do NOT disrespect the code of conduct* that you signed in the beginning of each course!
@@ -406,7 +406,7 @@ Courses | Duration | Effort | Prerequisites
 These Coursera Specializations all end with a Capstone project.
 Depending on the course, you may be able to utilize the Capstone as your Final Project for this Computer Science curriculum.
 Note that doing a Specialization with the Capstone at the end always costs money.
-So if you don't wish to spend money or use the Capstone as your Final, it may be possible to take the courses in the Specialization for free by manually searching for them, but not all allow this.
+So, if you don't wish to spend money or use the Capstone as your Final, it may be possible to take the courses in the Specialization for free by manually searching for them, but not all allow this.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
@@ -422,7 +422,7 @@ Courses | Duration | Effort | Prerequisites
 ## Final project
 
 OSS University is **project-focused**.
-You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real world problem.
+You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real-world problem.
 
 After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired.
 Not only does real project work look great on a resume, but the project will also *validate* and *consolidate* your knowledge.
@@ -477,7 +477,7 @@ Many of these courses are graduate-level.
 Choose one or more of the following **specializations**:
 - [Mastering Software Development in R Specialization](https://www.coursera.org/specializations/r) by Johns Hopkins University
 - [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
-- [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by kaggle
+- [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by Kaggle
 - [Cybersecurity MicroMasters](https://www.edx.org/micromasters/ritx-cybersecurity) by the Rochester Institute of Technology
 - [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
 
