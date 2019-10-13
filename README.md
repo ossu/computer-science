@@ -21,7 +21,7 @@
 - [Summary](#summary)
 - [Curriculum](#curriculum)
   - [Prerequisites](#prerequisites)
-  - [Introduction to Computer Science](#introduction-to-computer-science)
+  - [Intro CS](#intro-cs)
   - [Core CS](#core-cs)
   - [Advanced CS](#advanced-cs)
   - [Final project](#final-project)
@@ -92,7 +92,9 @@ just remember that you can't purchase success!
 **Curriculum version**: `8.0.0` (see [CHANGELOG](CHANGELOG.md))
 
 - [Prerequisites](#prerequisites)
-- [Introduction to Computer Science](#introduction-to-computer-science)
+- [Intro CS](#intro-cs)
+  - [Introduction to Programming](#introduction-to-programming)
+  - [Introduction to Computer Science](#introduction-to-computer-science)
 - [Core CS](#core-cs)
   - [Core programming](#core-programming)
   - [Core math](#core-math)
@@ -118,7 +120,9 @@ Some high school graduates will have already taken AP Calculus, but this is usua
 and is knowledgeable enough now to decide which electives to take.
 - Note that [Advanced systems](#advanced-systems) assumes the student has taken a basic physics course (e.g. AP Physics in high school).
 
-## Introduction to Programming
+## Intro CS
+
+### Introduction to Programming
 
 If you've never written a for-loop, or don't know what a string is in programming, start here. Choose one of the two course series below. Either one will give you an introduction to programming that assumes no prior knowledge.
 
@@ -137,7 +141,7 @@ Courses | Duration | Effort | Prerequisites
 [Python for Everyone](https://www.coursera.org/specializations/python) | 9 weeks | 58 hours | none
 [Fundamentals of Computing](https://www.coursera.org/specializations/computer-fundamentals) | 9 weeks | 138 hours | high school mathematics
 
-## Introduction to Computer Science
+### Introduction to Computer Science
 
 This course will introduce you to the world of computer science. Students who have been introduced to programming, either from the courses above or through study elsewhere, should take this course for a flavor of the material to come. If you finish the course wanting more, Computer Science is likely for you!
 
