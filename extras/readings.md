@@ -23,6 +23,7 @@ Name | Author(s)
 [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X) | Andrew Hunt, David Thomas
 [Programming Languages: Application and Interpretation](http://cs.brown.edu/~sk/Publications/Books/ProgLangs/) | Shriram Krishnamurthi
 [Programming and Programming Languages](https://papl.cs.brown.edu/2018/) | Shriram Krishnamurthi, Benjamin S. Lerner, Joe Gibbs Politz
+[Fundamentals of Programming C++](https://python.cs.southern.edu/cppbook/progcpp.pdf) | Richard L. Halterman
 
 ## Math
 
@@ -79,3 +80,4 @@ Name | Author(s)
 [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf) | Niklaus Wirth 
 [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/) | Fred Brooks, Jr.
 [Physically Based Rendering: From Theory To Implementation](http://www.pbr-book.org/) | Matt Pharr, Wenzel Jakob, and Greg Humphreys
+[AWS DeepRacer Developer Guide](https://docs.aws.amazon.com/deepracer/latest/developerguide/awsracerdg.pdf) | Amazon Web Services
