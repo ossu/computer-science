@@ -47,7 +47,7 @@ Yes, because we have to draw a line.
 As soon as we require paid resources in the main curriculum, we might as well tell people to pay half a million dollars to attend a university.
 We are an Internet-based community of learners, not a business, so free is the most sensible price and ensures that the only price you need pay is the price of Internet access.
 
-At the same time, we recognize that education is scarce resource and therefore requires payment to instructors to make it sustainable in the long term.
+At the same time, we recognize that education is a scarce resource and therefore requires payment to instructors to make it sustainable in the long term.
 Therefore, we respect the business model of websites like edX, which make their materials free but with some paid add-ons, like official certificates or extra interaction with course instructors.
 
 So we only require that the *learning materials* of a resource be free to access, not that every possible add-on be free.
