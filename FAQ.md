@@ -15,6 +15,7 @@ Alternatively, you could [contribute](#CONTRIBUTING.md) an answer yourself.
 - [Why do you recommend skipping the second half of CS50?](#why-do-you-recommend-skipping-the-second-half-of-cs50)
 - [Why doesn't the curriculum cover/ignore topic X?](#why-doesnt-the-curriculum-coverignore-topic-x)
 - [Why is the curriculum missing some pre-requisites?](#why-is-the-curriculum-missing-some-pre-requisites)
+- [Why is the Firebase OSSU app different/broken?](#why-is-the-Firebase-OSSU-app-different-broken)
 
 ## Questions
 
@@ -99,3 +100,12 @@ Without these assumptions, the curriculum would be out of control with trying to
 But those who for whatever reason didn't get all the way through high school math and physics are in luck: you can find the content you need on [Khan Academy](https://www.khanacademy.org/).
 
 Of course, if you find that the curriculum is missing a pre-requisite for a course that isn't part of a normal high school curriculum, please let us know!
+
+### Why is the Firebase OSSU app different/broken?
+(#why-is-the-Firebase-OSSU-app-different-broken)
+
+The OSSU curriculum and ecosystem have been collaboratively built by many individuals. The Firebase app was one such contribution. When it was written, it was with the intention of helping future OSSU students.
+
+Unfortunately, the app has not been updated in many years. It does not reflect updates to the curriculum, it contains links to courses that no longer exist, and it has known bugs that prevent students from loggining in.
+
+It is our hope that the creators of the Firebase app can bring the app up to date. Until that time, the firebase app should be considered a deprecated product that is no longer supported.

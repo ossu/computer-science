@@ -512,6 +512,7 @@ These aren't the only specializations you can choose. Check the following websit
 - You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues).
 - We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
 - Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) profile!
+- Please note that the firebase app has been deprecated and is not maintained. Read more in the [FAQ](https://github.com/ossu/computer-science/FAQ).
 
 > **PS**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps.
 **Please use our forum for important discussions**.
