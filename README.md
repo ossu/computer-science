@@ -511,7 +511,7 @@ These aren't the only specializations you can choose. Check the following websit
 - You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation.
 - Subscribe to our [newsletter](https://tinyletter.com/ossu).
 - Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) profile!
-- There is an unmaintained and deprecated firebase app that you might find when searching OSSU. You can safely ignore it. Read more in the [FAQ](https://github.com/ossu/computer-science/FAQ).
+- There is an unmaintained and deprecated firebase app that you might find when searching OSSU. You can safely ignore it. Read more in the [FAQ](./FAQ.md).
 
 ## How to show your progress
 
