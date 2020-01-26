@@ -15,7 +15,7 @@ Alternatively, you could [contribute](#CONTRIBUTING.md) an answer yourself.
 - [Why do you recommend skipping the second half of CS50?](#why-do-you-recommend-skipping-the-second-half-of-cs50)
 - [Why doesn't the curriculum cover/ignore topic X?](#why-doesnt-the-curriculum-coverignore-topic-x)
 - [Why is the curriculum missing some pre-requisites?](#why-is-the-curriculum-missing-some-pre-requisites)
-- [Why is the Firebase OSSU app different/broken?](#why-is-the-Firebase-OSSU-app-different-broken)
+- [Why is the Firebase OSSU app different/broken?](#why-is-the-firebase-ossu-app-different-or-broken)
 
 ## Questions
 
@@ -101,8 +101,7 @@ But those who for whatever reason didn't get all the way through high school mat
 
 Of course, if you find that the curriculum is missing a pre-requisite for a course that isn't part of a normal high school curriculum, please let us know!
 
-### Why is the Firebase OSSU app different/broken?
-(#why-is-the-Firebase-OSSU-app-different-broken)
+### Why is the Firebase OSSU app different or broken?
 
 The OSSU curriculum and ecosystem have been collaboratively built by many individuals. The Firebase app was one such contribution. When it was written, it was with the intention of helping future OSSU students.
 
