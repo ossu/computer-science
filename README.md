@@ -138,7 +138,7 @@ _Fundamentals of Computing_ will also start by introducing you to Python. It the
 
 Courses | Effort | Prerequisites
 :-- | :--: | :--:
-[Python for Everyone](https://www.coursera.org/specializations/python) | 58 hours | none
+[Python for Everyone](https://www.coursera.org/specializations/python) ([alt](https://www.py4e.com/)) | 58 hours | none
 [Fundamentals of Computing](https://www.coursera.org/specializations/computer-fundamentals) | 138 hours | high school mathematics
 
 ### Introduction to Computer Science
