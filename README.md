@@ -263,7 +263,7 @@ Courses | Duration | Effort | Additional Text / Assignments| Prerequisites
 `and more`
 
 Courses | Duration | Prerequisites
-:-- | :--: | :--: | :--:
+:-- | :--: | :--:
 [Algorithms](https://www.coursera.org/specializations/algorithms) | 80 hours | any programming language, Mathematics for Computer Science
 
 
