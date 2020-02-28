@@ -85,7 +85,7 @@ just remember that you can't purchase success!
 
 **How to contribute**. Please see [CONTRIBUTING](CONTRIBUTING.md).
 
-**Getting help**. Please check our [Frequently Asked Questions](FAQ.md), and if you cannot find the answer, file an issue or talk to our [friendly community](#community)!
+**Getting help**. Please check our [Frequently Asked Questions](FAQ.md), and if you cannot find the answer, file an issue or talk to our [friendly community](#community)! In particular, join in the conversation on our [Gitter](https://gitter.im/open-source-society/computer-science) (which is an online chat service, similar to Discord or IRC) where you can chat with other students and get help. [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
 
 # Curriculum
 
