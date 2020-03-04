@@ -39,6 +39,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
+[Cloud Computing / Distributed Programming](https://www.coursera.org/learn/cloud-computing) | 5 weeks | 5-10 hours/week
 [Computer Architecture](https://www.coursera.org/learn/comparch) | - | 5-8 hours/week
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/) | - | -
 [Introduction to Operating Systems](https://www.udacity.com/course/introduction-to-operating-systems--ud923)| 8 weeks | 5-8 hours/week
