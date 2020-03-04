@@ -4,7 +4,7 @@
 
 ABET, incorporated as the Accreditation Board for Engineering and Technology, Inc., is a non-governmental organization that accredits post-secondary education programs in applied and natural science, computing, engineering and engineering technology. As of October 2017, 3,852 programs are accredited, distributed over 776 universities and colleges in 31 countries. ABET is the recognized U.S. accreditor of college and university programs in applied and natural science, computing, engineering and engineering technology.
 
-[Program Criteria for Computer Science, Information Systems, and Information Technology Programs](http://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-computing-programs-2018-2019/#2)
+[Program Criteria for Computer Science, Information Systems, and Information Technology Programs](http://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-computing-programs-2019-2020/#2)
 
 ## The Association for Computing Machinery
 
