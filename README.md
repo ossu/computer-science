@@ -193,18 +193,18 @@ Courses | Duration | Effort | Prerequisites
 ### Math Electives
 **Students must choose one of the following topics**: calculus, linear algebra, logic, or probability.
 
-#### Linear Algebra
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | pre-calculus
-[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-to-frontiers-0) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | Essence of Linear Algebra
-
 #### Calculus
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | 13 weeks | 6-10 hours/week | pre-calculus
 [Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration) | 13 weeks | 5-10 hours/week | Calculus 1A
 [Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series) | 13 weeks | 5-10 hours/week | Calculus 1B
+
+#### Linear Algebra
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | pre-calculus
+[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-to-frontiers-0) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | Essence of Linear Algebra
 
 #### Logic
 Courses | Duration | Effort | Prerequisites
@@ -227,6 +227,8 @@ In addition to their math elective, students must complete the following course 
 `discrete probability`
 `and more`
 
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm)<sup>**1**</sup> | 13 weeks | 5 hours/week | Calculus 1C
 
 <sup>**1**</sup>: Students struggling with MIT Math for CS can consider taking the [Discrete Mathematics Specialization](https://www.coursera.org/specializations/discrete-mathematics) first.
