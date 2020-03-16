@@ -1,0 +1,34 @@
+{"Curriculum":[
+    {"Section Name":"Intro CS",
+    "Explanation":"",
+    "Subsections":[
+            {"Name":"Introduction to Programming",
+            "Explanation":"If you've never written a for-loop...",
+            "Topics Covered":[
+                {"Name":"simple programs"},
+                {"Name":"simple data structures"}
+            ],
+            "Courses":[
+                {"Name":"Python for Everyone",
+                "Effort":"58 hours",
+                "Prerequisites":"none"},
+                {"Name":"Fundamentals of Computing",
+                "Effort":"138 hours",
+                "Prerequisites":"high school mathematics"}
+             ]},
+             {"Name":"Introduction to Computer Science",
+             "Explanation":"This course will introduce you to the world of computer science...",
+             "Topics Covered":[
+                 {"Name":"computation"},
+                 {"Name":"imperative programming"},
+                 {"Name":"basic data structures and algorithms"}
+             ],
+             "Courses":[
+                 {"Name":"Introduction to Computer Science and Programming using Python",
+                 "Duration":"9 weeks",
+                 "Effort":"15 hours/week",
+                 "Prerequisites":"high school algebra"}
+              ]}
+        ]
+    }
+]}
