@@ -6,6 +6,11 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 - "MINOR" updates correspond to changing courses without changing the topics
 - "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
 
+## [8.1.0] 2020-03-18
+### Removed
+- Software Construction - Data Abstraction
+- Software Construction - Object-Oriented Design
+
 ## [8.0.0] 2017-11-01
 ### Added
 - extras/readings: "The System Design Primer"
