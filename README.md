@@ -211,7 +211,7 @@ Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | Multivariable Calculus
 
-### Math Core
+### Core Math
 In addition to their math elective, students must complete the following course on discrete mathematics.
 
 **Topics covered**:
