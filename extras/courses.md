@@ -17,9 +17,7 @@ Courses | Duration | Effort
 [Computing In Python, Part III: Data Structures](https://www.edx.org/course/computing-in-python-iii-data-structures-0) | 5 weeks | 10 hours/week
 [Computing In Python, Part IV: Objects & Algorithms](https://www.edx.org/course/computing-in-python-iv-objects-algorithms-0) | 5 weeks | 10 hours/week
 [Programming Basics](https://www.edx.org/course/programming-basics-iitbombayx-cs101-1x)| 9 weeks | 8 hours/week
-[Object-Oriented Programming](https://www.edx.org/course/object-oriented-programming-iitbombayx-cs101-2x)| 4 weeks | 8 hours/week
-[Object-Oriented Programming with Java (Part 1)](http://mooc.fi/courses/2013/programming-part-1/)| 6 weeks | -
-[Object-Oriented Programming with Java (Part 2)](http://mooc.fi/courses/2013/programming-part-2/)| 6 weeks | -
+[Object-Oriented Programming with Java](https://java-programming.mooc.fi/)| 14 weeks | 10 hours/week
 [Introduction to Programming with MATLAB](https://www.coursera.org/learn/matlab)| - | -
 [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)| 7 weeks | 4-6 hours/week
 [The Structure and Interpretation of Computer Programs](http://cs61a.org/) | - | -
