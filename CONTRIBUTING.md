@@ -1,18 +1,14 @@
-# Contributor guidelines
-
-This project primarily uses GitHub for collaboration, however not all discussions are appropriate for GitHub.
-Please follow these guidelines:
-1. If you need help with the *academic* content of a course or are having general technical difficulties, please do not use GitHub for this.
-The best place to ask these types of questions is on the [subreddit](https://www.reddit.com/r/opensourcesociety/).
-2. If you have general problems with the program not specific to any course, such as preferring textbook-style learning over MOOCs,
-the subreddit is recommended as there people may be able to give you suggested alternatives.
-3. If you have *specific* and *substantive* criticisms of the curriculum, i.e. problems related to the progression/content of courses it would be appropriate to [open an issue](https://help.github.com/articles/creating-an-issue/) and give us your suggestions.
-4. If you have *non-substantive* updates to make to the curriculum, such as a course's URL having been moved, spelling/syntax errors, etc., please send a [pull request](https://help.github.com/articles/using-pull-requests/) to fix any mistakes that you have found.
-5. If you want to customize the curriculum for yourself, do of course [fork this project](https://help.github.com/articles/fork-a-repo/).
-6. If you want to suggest a new resource, send a pull request adding such resource to the [extras](https://github.com/open-source-society/computer-science/tree/master/extras) section.
-
-# Learning Git
-
-To be able to create high-quality pull requests, it is recommended that you learn how to use the Git version control system.
-One of the best primers on the subject is a free ebook called [Ry's Git Tutorial](https://www.amazon.com/dp/B00QFIA5OC/).
-If you prefer a course-style introduction, try [Introduction to Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775).
+# Changing the curriculum
+OSSU thrives because of the changes made by our many contributors. Read on for details on how to help every student that follows you.
+## Non-substantive changes
+If you have non-substantive updates to make to the curriculum, such as a course's URL having been moved, spelling/syntax errors, etc., please send a [pull request](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/) to fix any mistakes that you have found.
+## Substantive changes
+If you have specific and substantive criticisms of the curriculum, i.e. problems related to the progression/content of courses it would be appropriate to [open an issue](https://help.github.com/articles/creating-an-issue/). While it is acceptable to point out problems, all successful changes naturally require a plan for fixing the problem.
+OSSU’s curricular guidelines are [here](https://github.com/ossu/computer-science/blob/master/extras/curriculum_guidelines.md). Successful critiques of the curriculum will point out ways that OSSU is failing to uphold these guidelines. Examples are:
+OSSU lists a course as required when the course topics are elective in the curricular guide.
+OSSU does not having a course to cover required topics from the curricular guide.
+OSSU lists multiple courses that cover the same topics when fewer courses could suffice.
+OSSU recommends a course to teach a topic, but there exists a higher quality course that covers the same material.
+Issues require more than just users to suggest them. Issues require active community members to read and respond to proposals. Even adding simple [emoji reactions](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) can help the community.
+# Personal Customization
+If you want to customize the curriculum for yourself, you are encouraged to [fork this project](https://help.github.com/articles/fork-a-repo/)!
