@@ -16,6 +16,7 @@ Alternatively, you could [contribute](#CONTRIBUTING.md) an answer yourself.
 - [Why doesn't the curriculum cover/ignore topic X?](#why-doesnt-the-curriculum-coverignore-topic-x)
 - [Why is the curriculum missing some pre-requisites?](#why-is-the-curriculum-missing-some-pre-requisites)
 - [Why is the Firebase OSSU app different/broken?](#why-is-the-firebase-ossu-app-different-or-broken)
+- [What is a good course to learn the language XXXX?](#what-is-a-good-course-to-learn-this-particular-language)
 
 ## Questions
 
@@ -108,3 +109,8 @@ The OSSU curriculum and ecosystem have been collaboratively built by many indivi
 Unfortunately, the app has not been updated in many years. It does not reflect updates to the curriculum, it contains links to courses that no longer exist, and it has known bugs that prevent students from loggining in.
 
 It is our hope that the creators of the Firebase app can bring the app up to date. Until that time, the firebase app should be considered a deprecated product that is no longer supported.
+
+### What is a good course to learn this particular language?
+OSSU focuses on finding the best courses to learn computer science topics, and isn’t focused on finding language specific courses. If you are looking to learn a particular language or framework there are two great resources to check.
+1. [Hackr.io](https://hackr.io/) allows users to submit and upvote learning resources for topics such as Python or the Java Spring Framework.
+2. Most languages have a community on reddit. When you find the community’s page, check to see if there is a wiki or sidebar with resources. For example, see [/r/python](https://old.reddit.com/r/Python). Note that the sidebar content can be different depending on whether you use www.reddit.com or old.reddit.com.
