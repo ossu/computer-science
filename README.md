@@ -84,6 +84,13 @@ just remember that you can't purchase success!
 
 **[Getting help](HELP.md)** (Details about our FAQ and chatroom)
 
+# Community
+
+- We have a chat room! This should be your first stop to talk with other OSSU students. Why don't you introduce yourself right now? [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
+- You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](CONTRIBUTING.md).
+- Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) profile!
+- Note: There is an unmaintained and deprecated firebase app that you might find when searching OSSU. You can safely ignore it. Read more in the [FAQ](./FAQ.md#why-is-the-firebase-ossu-app-different-or-broken).
+
 # Curriculum
 
 **Curriculum version**: `8.0.0` (see [CHANGELOG](CHANGELOG.md))
@@ -489,14 +496,6 @@ These aren't the only specializations you can choose. Check the following websit
 
 # Code of conduct
 [OSSU's code of conduct](https://github.com/ossu/code-of-conduct).
-
-# Community
-
-- We have a chat room! This should be your first stop to talk with other OSSU students. [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
-- You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation.
-- Subscribe to our [newsletter](https://tinyletter.com/ossu).
-- Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) profile!
-- There is an unmaintained and deprecated firebase app that you might find when searching OSSU. You can safely ignore it. Read more in the [FAQ](./FAQ.md#why-is-the-firebase-ossu-app-different-or-broken).
 
 ## How to show your progress
 
