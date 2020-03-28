@@ -118,8 +118,7 @@ just remember that you can't purchase success!
 
 ## Prerequisites
 
-- [Core CS](#core-cs) assumes the student has already taken high school math, including algebra, geometry, and pre-calculus.
-Some high school graduates will have already taken AP Calculus, but this is usually only about 3/4 of a college calculus class, so the calculus courses in the curriculum are still recommended.
+- [Core CS](#core-cs) assumes the student has already taken [high school math](https://www.khanacademy.org/math/high-school-math), including algebra, geometry, and pre-calculus.
 - [Advanced CS](#advanced-cs) assumes the student has already taken the entirety of Core CS
 and is knowledgeable enough now to decide which electives to take.
 - Note that [Advanced systems](#advanced-systems) assumes the student has taken a basic physics course (e.g. AP Physics in high school).
