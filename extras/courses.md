@@ -29,6 +29,9 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x-0) | 4 weeks | 2 hours/week
 [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week
+[High School Math](https://www.khanacademy.org/math/high-school-math) | - | -
+[Precalculus](https://www.futurelearn.com/courses/precalculus) | 5 weeks | 6 hours/week
+[Advanced Precalculus](https://www.futurelearn.com/courses/advanced-precalculus) | 4 weeks | 5 hours/week
 [Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro)| - | -
 [Linear Algebra (Strang)](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm) | - | -
 [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week
