@@ -22,7 +22,7 @@
   - [Core CS](#core-cs)
   - [Advanced CS](#advanced-cs)
   - [Final project](#final-project)
-  - [Pro CS](#pro-cs)
+  - [Congratulations](#congratulations)
 - [Code of conduct](#code-of-conduct)
 - [Community](#community)
   - [How to show your progress](#how-to-show-your-progress)
@@ -463,25 +463,11 @@ You can use **any** language that you want to complete the final project.
 
 The important thing is to **internalize** the core concepts and to be able to use them with whatever tool (programming language) that you wish.
 
-## Pro CS
+## Congratulations
 
-After completing the requirements of the curriculum above, you will have completed the equivalent of a full bachelor's degree in Computer Science, or quite close to one.
-You can stop in the Advanced CS section, but the next step to completing your studies is to develop skills and knowledge in a specific domain.
-Many of these courses are graduate-level.
+After completing the requirements of the curriculum above, you will have completed the equivalent of a full bachelor's degree in Computer Science. Congratulations!
 
-Choose one or more of the following **specializations**:
-- [Mastering Software Development in R Specialization](https://www.coursera.org/specializations/r) by Johns Hopkins University
-- [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai) by IBM, Amazon, and Didi
-- [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) by Kaggle
-- [Cybersecurity MicroMasters](https://www.edx.org/micromasters/ritx-cybersecurity) by the Rochester Institute of Technology
-- [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) by Google
-
-These aren't the only specializations you can choose. Check the following websites for **more options**:
-- edX: [xSeries](https://www.edx.org/xseries)
-- Coursera: [Specializations](https://www.coursera.org/specializations)
-- Udacity: [Nanodegree](https://www.udacity.com/nanodegree)
-
-### Where to go next?
+What is next for you? The possibilities are boundless and overlapping:
 
 - Look for a job as a developer!
 - Check out the [readings](extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
