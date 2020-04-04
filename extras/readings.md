@@ -41,6 +41,7 @@ Name | Author(s)
 
 Name | Author(s)
 :-- | :--:
+[But How Do It Know?](http://www.buthowdoitknow.com/) | J. Clark Scott
 [Computer Systems: A Programmer's Perspective (3rd Edition)](http://csapp.cs.cmu.edu/) | Randal E. Bryant, David R. O'Hallaron
 [Modern Operating Systems (4th Edition)](http://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X/) | Andrew S. Tanenbaum, Herbert Bos
 [Computer Organization and Design: The Hardware/Software Interface](https://www.amazon.com/gp/product/0124077269) | David Patternson, John Hennessy
