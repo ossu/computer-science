@@ -413,6 +413,7 @@ Courses | Duration | Effort | Prerequisites
 [Full Stack Web Development (Specialization)](https://www.coursera.org/specializations/full-stack) | 27 weeks | 2-6 hours/week | programming, databases
 [Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none
 [Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 weeks | 4-5 hours/week | One year programming experience
+[Game Design and Development (Specialization)](https://www.coursera.org/specializations/game-development) | 6 months | 5 hours/week | programming, interactive design
 
 ## Final project
 
