@@ -67,6 +67,7 @@ based on the class schedules and your own life plans.
 
 **Cost**. All or nearly all course material is available for free. However, some courses may charge money for assignments/tests/projects to be graded.
 Note that Coursera offers [financial aid](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid).
+
 Decide how much or how little to spend based on your own time and budget;
 just remember that you can't purchase success!
 
