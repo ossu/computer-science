@@ -58,15 +58,14 @@ they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/r
 - *Core CS*: corresponds roughly to the first three years of a computer science curriculum, taking classes that all majors would be required to take
 - *Advanced CS*: corresponds roughly to the final year of a computer science curriculum, taking electives according to the student's interests
 - *Final Project*: a project for students to validate, consolidate, and display their knowledge, to be evaluated by their peers worldwide
-- *Pro CS*: graduate-level specializations students can elect to take after completing the above curriculum if they want to maximize their chances of getting a good job
+
 
 **Duration**. It is possible to finish Core CS within about 2 years if you plan carefully and devote roughly 18-22 hours/week to your studies.
 Courses in Core CS should be taken linearly if possible, but since a perfectly linear progression is rarely possible,
 each class's prerequisites are specified so that you can design a logical but non-linear progression
 based on the class schedules and your own life plans.
 
-**Cost**. All or nearly all course material prior to Pro CS is available for free.
-However, some courses may charge money for assignments/tests/projects to be graded.
+**Cost**. All or nearly all course material is available for free. However, some courses may charge money for assignments/tests/projects to be graded.
 Note that Coursera offers [financial aid](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid).
 Decide how much or how little to spend based on your own time and budget;
 just remember that you can't purchase success!
@@ -112,7 +111,6 @@ just remember that you can't purchase success!
   - [Advanced theory](#advanced-theory)
   - [Advanced applications](#advanced-applications)
 - [Final project](#final-project)
-- [Pro CS](#pro-cs)
 
 ---
 
