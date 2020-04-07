@@ -105,6 +105,7 @@ just remember that you can't purchase success!
   - [Core systems](#core-systems)
   - [Core theory](#core-theory)
   - [Core applications](#core-applications)
+  - [Core security](#core-security)
 - [Advanced CS](#advanced-cs)
   - [Advanced programming](#advanced-programming)
   - [Advanced math](#advanced-math)
@@ -279,6 +280,29 @@ Courses | Duration | Effort | Prerequisites
 [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy) | 4 weeks | 4-8 hours/week | Graph Search, Shortest Paths, and Data Structures
 [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete) | 4 weeks | 4-8 hours/week | Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming
 
+### Core Security
+**Topics covered**
+`Confidentiality, Integrity, Availability`
+`Secure Design`
+`Defensive Programming`
+`Threats and Attacks`
+`Network Security`
+`Cryptography`
+`and more`
+
+Note: **_These courses are provisionally recommended_**. There is an open [Request For Comment](https://github.com/ossu/computer-science/issues/639) on security course selection. Contributors are encouraged to compare the various courses in the RFC and offer feedback.
+
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Information Security: Context and Introduction](https://www.coursera.org/learn/information-security-data) | 5 weeks | 3 hours/week | -
+[Principles of Secure Coding](https://www.coursera.org/learn/secure-coding-principles)| 4 weeks | 4 hours/week | -
+[Identifying Security Vulnerabilities](https://www.coursera.org/learn/identifying-security-vulnerabilities) | 4 weeks | 4 hours/week | -
+
+Choose **one** of the following:
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Identifying Security Vulnerabilities in C/C++Programming](https://www.coursera.org/learn/identifying-security-vulnerabilities-c-programming) | 4 weeks | 5 hours/week | -
+[Exploiting and Securing Vulnerabilities in Java Applications](https://www.coursera.org/learn/exploiting-securing-vulnerabilities-java-applications) | 4 weeks | 5 hours/week | -
 
 ### Core applications
 
