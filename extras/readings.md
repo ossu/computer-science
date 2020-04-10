@@ -36,6 +36,7 @@ Name | Author(s)
 [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) | Alan Doerr, Ken Levasseur
 [Grinstead and Snell’s Introduction to Probability](https://math.dartmouth.edu/~prob/prob/prob.pdf) |Charles M. Grinstead, J. Laurie Snell
 [Introduction to Linear Algebra](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) | Gilbert Strang
+[Linear Algebra Done Right (FREE)](https://link.springer.com/book/10.1007/978-3-319-11080-6) | Sheldon Axler
 
 ## Systems
 
