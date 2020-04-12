@@ -108,7 +108,6 @@ just remember that you can't purchase success!
   - [Core security](#core-security)
 - [Advanced CS](#advanced-cs)
   - [Advanced programming](#advanced-programming)
-  - [Advanced math](#advanced-math)
   - [Advanced systems](#advanced-systems)
   - [Advanced theory](#advanced-theory)
   - [Advanced applications](#advanced-applications)
