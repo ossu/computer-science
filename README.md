@@ -16,17 +16,10 @@
 # Contents
 
 - [Summary](#summary)
-- [Curriculum](#curriculum)
-  - [Prerequisites](#prerequisites)
-  - [Intro CS](#intro-cs)
-  - [Core CS](#core-cs)
-  - [Advanced CS](#advanced-cs)
-  - [Final project](#final-project)
-  - [Congratulations](#congratulations)
-- [Code of conduct](#code-of-conduct)
 - [Community](#community)
-  - [How to show your progress](#how-to-show-your-progress)
-  - [Team](#team)
+- [Curriculum](#curriculum)
+- [Code of conduct](#code-of-conduct)
+- [Team](#team)
 - [References](#references)
 
 # Summary
@@ -530,9 +523,9 @@ You should put the *Course's cards* below its respective *Section's card*.
 The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
 You can change the status of your board to be *public* or *private*.
 
-## Team
+# Team
 
-* **[Eric Douglas](https://github.com/ericdouglas)**: founder of OSSU and co-maintainer of all its curricula
+* **[Eric Douglas](https://github.com/ericdouglas)**: founder of OSSU
 * **[hanjiexi](https://github.com/hanjiexi)**: lead technical maintainer
 * **[waciumawanjohi](https://github.com/waciumawanjohi)**: lead academic maintainer
 * **[Contributors](https://github.com/ossu/computer-science/graphs/contributors)**
