@@ -170,7 +170,7 @@ All coursework under Core CS is **required**, unless otherwise indicated.
 `Ruby`
 `and more`
 
-The How to Code courses are based on the textbook [How to Design Programs](https://htdp.org/2003-09-26/). The First Edition is available for free online and includes problem sets and solutions. Students are encouraged to do these assignments.
+The How to Code courses are based on the textbook [How to Design Programs, Second Edition](https://htdp.org/2018-01-06/Book/index.html). The Second Edition is available for free online and includes problem sets and solutions. Students are encouraged to do these assignments.
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
