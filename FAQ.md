@@ -106,7 +106,7 @@ Of course, if you find that the curriculum is missing a pre-requisite for a cour
 
 The OSSU curriculum and ecosystem have been collaboratively built by many individuals. The Firebase app was one such contribution. When it was written, it was with the intention of helping future OSSU students.
 
-Unfortunately, the app has not been updated in many years. It does not reflect updates to the curriculum, it contains links to courses that no longer exist, and it has known bugs that prevent students from loggining in.
+Unfortunately, the app has not been updated in many years. It does not reflect updates to the curriculum, it contains links to courses that no longer exist, and it has known bugs that prevent students from logging in.
 
 It is our hope that the creators of the Firebase app can bring the app up to date. Until that time, the firebase app should be considered a deprecated product that is no longer supported.
 
