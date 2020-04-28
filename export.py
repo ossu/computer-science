@@ -185,17 +185,6 @@ class OssuCurriculum(object):
 class TrelloClient(object):
 
     TRELLO_ENDPOINT = 'https://api.trello.com/1'
-    BOARD_SETTINGS = {
-        'name': "OSSU - CompSci",
-        'label_colors': {
-            'curriculum': 'black',
-            'extra': 'orange',
-            # Colour of divider labels in the 'Done' list
-            'subject': 'purple',
-            # An ordered set of reserved label colours for each successive level.
-            'sections': ('sky', 'purple', 'yellow')
-        },
-    }
 
     @property
     def params(self) -> dict:
