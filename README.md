@@ -20,7 +20,6 @@
 - [Curriculum](#curriculum)
 - [Code of conduct](#code-of-conduct)
 - [Team](#team)
-- [References](#references)
 
 # Summary
 
@@ -37,10 +36,9 @@ but specifically chosen to meet the following criteria.
 
 **Courses must**:
 - Be open for enrollment
-- Run regularly (ideally in self-paced format, otherwise running at least once a month or so)
-- Fulfill the [academic requirements](REQUIREMENTS.md) of OSSU
-- Fit neatly into the progression of the curriculum with respect to topics and difficulty level
+- Run regularly (ideally in self-paced format, otherwise running multiple times per year)
 - Be of generally high quality in teaching materials and pedagogical principles
+- Match the curricular standards of the [CS 2013](CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science 
 
 When no course meets the above criteria, the coursework is supplemented with a book.
 When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
@@ -51,7 +49,6 @@ they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/r
 - *Core CS*: corresponds roughly to the first three years of a computer science curriculum, taking classes that all majors would be required to take
 - *Advanced CS*: corresponds roughly to the final year of a computer science curriculum, taking electives according to the student's interests
 - *Final Project*: a project for students to validate, consolidate, and display their knowledge, to be evaluated by their peers worldwide
-
 
 **Duration**. It is possible to finish Core CS within about 2 years if you plan carefully and devote roughly 18-22 hours/week to your studies.
 Courses in Core CS should be taken linearly if possible, but since a perfectly linear progression is rarely possible,
@@ -526,15 +523,3 @@ You can change the status of your board to be *public* or *private*.
 * **[hanjiexi](https://github.com/hanjiexi)**: lead technical maintainer
 * **[waciumawanjohi](https://github.com/waciumawanjohi)**: lead academic maintainer
 * **[Contributors](https://github.com/ossu/computer-science/graphs/contributors)**
-
-# References
-
-- [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [Coursera](https://www.coursera.org/)
-- [edX](https://www.edx.org)
-- [Udacity](https://www.udacity.com/)
-- [Stanford University](https://lagunita.stanford.edu/)
-- [Carnegie Mellon University: Computer Science Major Requirements](https://www.csd.cs.cmu.edu/academics/undergraduate/requirements)
-- [MIT Open Courseware](http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science)
-- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
-- [Obtaining a Thorough CS Background Online](http://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/)
