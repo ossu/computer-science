@@ -6,8 +6,6 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 - "MINOR" updates correspond to changing courses without changing the topics
 - "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
 
-**Note**: The curriculum is currently undergoing review for v9. This consists largely of checking our recommendations against our [curricular guidelines](CURRICULAR_GUIDELINES.md), adding missing topics and cutting redundant or out of scope courses. As Requests for Comment in this effort are completed, changes are made immediately to the curriculum. When the overall review is complete we will notate the version bump to v9.
-
 ## [8.0.0] 2017-11-01
 ### Added
 - extras/readings: "The System Design Primer"
