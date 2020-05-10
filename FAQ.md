@@ -118,3 +118,5 @@ OSSU focuses on finding the best courses to learn computer science topics, and i
 
 ### Why require experience with a sizable project before the Software Engineering courses?
 Software engineering tries to solve the problem of dealing with large programs. Building a sizable program before taking the SE courses will help you understand what SE is trying to solve. We recommend the Jack-to-VM-code compiler project from the nand2tetris course because it's the first project in the curriculum that is complex enough to see value in a SE course. That said, any sizable project will do and can come from outside of the OSSU curriculum. The idea is that you've done some large enough project where the pieces started to feel unmanageable. This experience will expose pain points and lead to a better understanding of SE.
+
+
