@@ -149,7 +149,7 @@ Courses | Duration | Effort | Prerequisites
 [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) ([alt](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)) | 9 weeks | 15 hours/week | [high school algebra](https://www.khanacademy.org/math/algebra-home)
 
 ### Introduction to CS Tools
-Understanding theory is important, but you will also be expected to create programs. There are a number of tools that are widely used to make that process easier. Learn them now to ease your future work writing programs.
+Understanding theory is important, but you will also be expected to create programs. There are a number of tools that are widely used to make that process easier. Learn them now to ease your future work writing programs. This class isn't meant to be fully completed. Watch all the videos (or read the notes), and only do the one or two exercises that seem interesting in each chapter. This class is meant to introduce you to topics so you know they exist and have a resource to learn if the need later arises. 
 
 **Topics covered**:
 `terminals and shell scripting`
