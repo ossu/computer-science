@@ -1,14 +1,239 @@
 # Change Log
 
+**Note**: The curriculum is currently undergoing review for v9. This consists largely of checking our recommendations against our [curricular guidelines](CURRICULAR_GUIDELINES.md), adding missing topics and cutting redundant or out of scope courses. As Requests for Comment in this effort are completed, changes are made immediately to the curriculum. When the overall review is complete we will notate the version bump to v9.
+
 All notable changes to this project will be documented in this file.
-This project adheres to [Semantic Versioning](http://semver.org/).
+This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
+- "MAJOR" updates correspond to changing the topics studied within a subject
+- "MINOR" updates correspond to changing courses without changing the topics
+- "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
+
+## [8.0.0] 2017-11-01
+### Added
+- extras/readings: "The System Design Primer"
+- extras/readings: "Category Theory for Programmers: The Preface"
+- extras/readings: "Programming Languages: Application and Interpretation"
+- extras/readings: "Programming and Programming Languages"
+- CONTRIBUTING: "Learning Git" section to the contributor guidelines page
+- Core Math: Added "Essence of Linear Algebra" as pre-requisite to "Linear Algebra: Foundations to Frontiers"
+
+### Updated
+- Moved "Introduction to Mathematical Thinking" to extras/courses
+- Moved "Hack the Kernel" (ops-class) from Advanced Systems to Core Systems
+- Core Systems: "Operating Systems: Three Easy Pieces" is no longer required, but is recommended as companion text to "Hack the Kernel"
+- Core Theory: Replaced Coursera with Lagunita as the host for Stanford Algorithms, since Coursera uses dark patterns to trick users into paying
+
+## [7.2.2] 2017-07-02
+### Added
+- "Haskell Programming from First Principles" book as a paid alternative to learn Haskell
+- "Think Python" to extras/readings
+- FAQ entries and links under relevant courses
+- "Category Theory: A Gentle Introduction" to extras/readings
+
+## [7.2.1] 2017-05-14
+### Updated
+- Networking course should take 8 weeks to complete
+- Fixed spelling error
+
+### Added
+- Introduction to Haskell course to [extras/courses](extras/courses.md)
+
+## [7.2.0] 2017-04-28
+### Added
+- Software Testing course
+- Link to Stanford Lagunita's Algorithms: Design and Analysis
+- Added link to the section on parametric equations and polar coordinates from MIT's Single Variable Calculus course in order to properly prepare students for Multivariable Calculus
+
+## [7.1.2] 2017-04-22
+### Updated
+- Add link to Mega Project List in the introduction of the Projects section
+
+## [7.1.1] 2017-04-11
+### Updated
+- Final touch to release
+
+## [7.1.0] 2017-04-10
+### Updated
+- Reverted reformat of programming languages course
+
+### Added
+- Reliable Distributed Algorithms courses
+- New Introduction to CS course
+
+## [7.0.2] 2017-03-30
+### Updated
+- Moved optional online learning courses to extras/courses in a new section
+- Moved alternate computer architecture course to extras/courses
+
+### Added
+- Scala specialization under Advanced applications
+
+### Removed
+- Removed all but one choice for required readings to make the curriculum simpler
+
+## [7.0.1] 2017-03-11
+### Updated
+- Fixed link to Bradfield's DIY computer science page
+
+### Added
+- Note under Calculus One with links to errata and course progression recommendations
+- Optional courses under extras:
+  - Strang's course on linear algebra
+  - Berkeley's Structure and Interpretation of Computer Programs
+- Optional readings under extras:
+  - Van Roy's advanced programming book
+  - P&H's computer architecture book
+  - Skiena's algorithms book
+  - Strang's linear algebra book
+  - Database Management Systems book
+  - Tarr's book on creating your own Domain-specific language
+  - Readings from various authors on distributed systems
+
+## [7.0] 2017-03-09
+Complete overhaul of program structure
+
+### Updated
+- Clarified contributor guidelines and moved them to separated file
+- Switched from many subjects to just four subjects with many topics
+- Consolidated free-books.md and paid-books.md into readings.md
+- Consolidated free-courses.md and paid-courses.md into courses.md
+- Replace old "How to Code" with new "How to Code" (Software Development MicroMasters)
+- Replace Princeton Algorithms (moved to [alternative courses](#extras/courses.md)) with Stanford Algorithms
+
+### Added
+- Indicate prerequisites for all courses
+- Requirements: subject/topic requirements and project requirements
+- Required readings on Haskell, Prolog, Operating Systems
+- Courses: Dan Grossman's Programming Languages
+- Courses: From Nand to Tetris
+- Elective course: Intro to Parallel Programming
+- Elective course: LAFF: Programming for Correctness
+- Elective course: Introduction to Mathematical Thinking
+- Elective courses: Electricity and Magnetism
+- Elective courses: MIT's Computation Structures
+- Elective course: Multivariable Calculus
+- Elective course: ops-class.org
+- Elective course: Automata Theory
+- Elective course: Introduction to Logic
+- Elective course: Computational Geometry
+- Elective course: Formal Concept Analysis
+- Elective course: Game Theory
+- Elective specializations:
+  - Robotics
+  - Data Mining
+  - Big Data
+  - Internet of Things
+  - Cloud Computing
+  - Full Stack Web Development
+  - Data Science
+- Pro specializations:
+  - Mastering Software Development in R
+  - Artificial Intelligence Engineer
+  - Machine Learning Engineer
+  - Cybersecurity
+  - Android Developer
+
+### Removed
+- Removed many dead links and obsolete courses
+- Removed per-course project requirement
+- Course: Object-Oriented Programming in Java
+- Course: Functional Programming in Scala
+- Course: Computer Architecture (but left as a footnote)
+- Course: Intro to Theoretical Computer Science
+- Course: Software Processes and Agile Practices
+- Course: Operating Systems & System Programming
+- Course: Introduction to Cyber Security
+- Course: Parallel Computer Architecture and Programming
+- Course: UX Design for Mobile Developers
+
+## [6.0] 2016-10-09
+### Updated
+- Put Calculus One before and together with Mathematics for Computer Science
+- Improve text in "Order of the classes"
+
+### Added
+- Create public Trello board with the new curriculum version
+- Create the section "How to track and show your progress" in "How to use this guide"
+- Add PROJECTS.md file
+- Copy all sections of curriculum to PROJECTS.md
+
+### Removed
+- Remove "Next Goals" section
+- Remove reference to OSSU web app
+
+## [5.1.0] 2016-08-20
+Update to latest version of Math for Computer Science:
+
+### Updated
+- Section: **Math (Discrete Math)**
+  - Mathematics for Computer Science
+
+## [5.0.0] 2016-08-20
+Due to removed course, we had the following updates:
+
+### Removed
+- Section: **Natural Language Processing**
+  - Natural Language Processing
+
+### Added
+- Section: **Natural Language Processing**
+  - Introduction to Natural Language Processing
+
+## [4.1.0] 2016-08-05
+Due to Coursera's platform changes, we had the following updates:
+### Fixed
+- Section: **Big Data**
+  - Introduction to Big Data
+
+## [4.0.0] 2016-07-30
+Due to Coursera's platform changes, we had the following updates:
+
+### Removed
+- Section: **Theory**
+  - Automata
+- Section: **Math (Linear Algebra)**
+  - Coding the Matrix: Linear Algebra through Computer Science Applications
+- Section: **Parallel Computing**
+  - Heterogeneous Parallel Programming
+- Section: **Natural Language Processing**
+  - Natural Language Processing
+
+### Fixed
+- Section: **Computer Networks**
+  - Computer Networks
+- Section: **Compilers**
+  - Compilers
+
+### Added
+- Section: **Theory**
+  - Intro to Theoretical Computer Science
+- Section: **Math (Linear Algebra)**
+  - Linear Algebra - Foundations to Frontiers
+- Section: **Parallel Computing**
+  - Parallel Computer Architecture and Programming
+- Section: **Natural Language Processing**
+  - Natural Language Processing
+
+## [3.0.0] 2016-05-04
+### Removed
+- Section: **Introduction to Computer Science**:
+	- Introduction to Computer Science and Programming Using Python
+	- From Nand to Tetris (Part 1)
+
+### Added
+- Section: **Introduction to Computer Science**:
+	- Introduction to Computer Science - CS50
+
+## [2.0.1] 2016-04-04
+### Fixed
+- Now students should enroll through our [web app](https://ossu.firebaseapp.com).
 
 ## [2.0.0] 2016-03-17
 ### Fixed
 - Program Design section course's names and links
 
 ### Removed
-- **Introduction to Computer Science**: 
+- **Introduction to Computer Science**:
 	- Introduction to Computer Science
 	- Introduction to Computational Thinking and Data Science
 - **Algorithms**
@@ -17,22 +242,22 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 	- Principles of Reactive Programming
 - **Math (Calculus)**
 	- Multivariable Calculus
-- **Software Architecture**: 
+- **Software Architecture**:
 	- Web Application Architectures
-- **Software Engineering**: 
+- **Software Engineering**:
 	- Agile Development Using Ruby on Rails - Basics
 	- Agile Development Using Ruby on Rails - Advanced
 	- Startup Engineering
-- **Computer Architecture**: 
+- **Computer Architecture**:
 	- The Hardware/Software Interface
-- **Operating Systems**: 
+- **Operating Systems**:
 	- Operating System Engineering
-- **Computer Networks**: 
+- **Computer Networks**:
 	- Introduction to Computer Networking
-- **Cryptography**: 
+- **Cryptography**:
 	- Applied Cryptography
 
-**ps**: These removed courses are now in the [extras](https://github.com/open-source-society/computer-science/tree/master/extras) section.
+**ps**: These removed courses are now in the [extras](https://github.com/ossu/computer-science/tree/master/extras) section.
 
 ## [1.3.12] 2016-03-17
 ### Added
