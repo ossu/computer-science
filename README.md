@@ -117,7 +117,7 @@ and is knowledgeable enough now to decide which electives to take.
 
 ### Introduction to Programming
 
-If you've never written a for-loop, or don't know what a string is in programming, start here. Choose one of the two course series below. Either one will give you an introduction to programming that assumes no prior knowledge.
+If you've never written a for-loop, or don't know what a string is in programming, start here. Choose one of the two course series below. Either one will give you an introduction to programming that assumes no prior knowledge. You can audit either for free, _in order to do so, click through to the individual courses in the specializations_.
 
 Trying to decide between them?
 
