@@ -3,7 +3,7 @@
     "Explanation":"",
     "Subsections":[
             {"Name":"Introduction to Programming",
-            "Explanation":"If you've never written a for-loop, or don't know what a string is in programming, start here. Choose one of the two course series below. Either one will give you an introduction to programming that assumes no prior knowledge.\nTrying to decide between them?\n_Python for Everyone_ will introduce you to a popular language and will quickly move to practical programming tasks - using web APIs and databases. This will give you a taste of what many professional developers do.\n_Fundamentals of Computing will also start by introducing you to Python. It then moves on to give an introduction to academic Computer Science topics, like sorting and recursion. This will give you a taste of what the following courses will be like. (Students who complete Fundamentals of Computing can skip Intro to Computer Science and begin Core CS.)_",
+            "Explanation":"If you've never written a for-loop, or don't know what a string is in programming, start here. Choose one of the two course series below. Either one will give you an introduction to programming that assumes no prior knowledge.\nTrying to decide between them?\n_Python for Everyone_ will introduce you to a popular language and will quickly move to practical programming tasks - using web APIs and databases. This will give you a taste of what many professional developers do.\n_Fundamentals of Computing will also start by introducing you to Python. It then moves on to give an introduction to academic Computer Science topics, like sorting and recursion. This will give you a taste of what the following courses will be like. (Students who complete Fundamentals of Computing can skip Intro to Computer Science and begin Introduction to CS Tools.)_",
             "Topics Covered":[
                 {"Name":"simple programs"},
                 {"Name":"simple data structures"}
@@ -19,6 +19,22 @@
                 "Effort":"138 hours",
                 "Prerequisites":"high school mathematics"}
              ]},
+            {"Name":"Introduction to CS Tools",
+            "Explanation":"Understanding theory is important, but you will also be expected to create programs. There are a number of tools that are widely used to make that process easier. Learn them now to ease your future work writing programs.",
+            "Topics Covered":[
+                {"Name":"terminals and shell scripting"},
+                {"Name":"vim"},
+                {"Name":"command line environments"},
+                {"Name":"version control"},
+                {"Name":"and more"}
+            ],
+            "Courses":[
+                {"Name":"The Missing Semester of Your CS Education",
+                    "URL":"https://missing.csail.mit.edu/",
+                    "Duration":"2 weeks",
+                    "Effort":"12 hours/week",
+                    "Prerequisites":""}
+            ]},
              {"Name":"Introduction to Computer Science",
              "Explanation":"This course will introduce you to the world of computer science. Students who have been introduced to programming, either from the courses above or through study elsewhere, should take this course for a flavor of the material to come. If you finish the course wanting more, Computer Science is likely for you!",
              "Topics Covered":[
@@ -33,7 +49,7 @@
                  "Alternative":"https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/",
                  "Duration":"9 weeks",
                  "Effort":"15 hours/week",
-                 "Prerequisites":"high school algebra"}
+                 "Prerequisites":"[high school algebra](https://www.khanacademy.org/math/algebra-home)"}
               ]}
         ]
     },
@@ -41,7 +57,7 @@
     "Explanation":"All coursework under Core CS is **required**, unless otherwise indicated.",
     "Subsections":[
             {"Name":"Core Programming",
-            "Explanation":"",
+            "Explanation":"The How to Code courses are based on the textbook [How to Design Programs](https://htdp.org/2003-09-26/). The First Edition is available for free online and includes problem sets and solutions. Students are encouraged to do these assignments.",
             "Topics Covered":[
                 {"Name":"functional programming"},
                 {"Name":"design for testing"},
@@ -68,30 +84,20 @@
                 "Duration":"6 weeks",
                 "Effort":"8-10 hours/week",
                 "Prerequisites":"How to Code: Simple Data"},
-                {"Name":"Software Construction - Data Abstraction",
-                "URL":"https://www.edx.org/course/software-construction-data-abstraction-ubcx-softconst1x",
-                "Duration":"6 weeks",
-                "Effort":"8-10 hours/week",
-                "Prerequisites":"How to Code - Complex Data"},
-                {"Name":"Software Construction - Object-Oriented Design",
-                "URL":"https://www.edx.org/course/software-construction-object-oriented-ubcx-softconst2x",
-                "Duration":"6 weeks",
-                "Effort":"8-10 hours/week",
-                "Prerequisites":"Software Construction - Data Abstraction"},
                 {"Name":"Programming Languages, Part A",
                 "URL":"https://www.coursera.org/learn/programming-languages",
-                "Duration":"4 weeks",
-                "Effort":"8-16 hours/week",
-                "Prerequisites":"recommended: Java, C"},
+                "Duration":"5 weeks",
+                "Effort":"4-8 hours/week",
+                "Prerequisites":"How to Code ([Hear instructor](https://www.coursera.org/lecture/programming-languages/recommended-background-k1yuh))"},
                 {"Name":"Programming Languages, Part B",
                 "URL":"https://www.coursera.org/learn/programming-languages-part-b",
                 "Duration":"3 weeks",
-                "Effort":"8-16 hours/week",
+                "Effort":"4-8 hours/week",
                 "Prerequisites":"Programming Languages, Part A"},
                 {"Name":"Programming Languages, Part C",
                 "URL":"https://www.coursera.org/learn/programming-languages-part-c",
                 "Duration":"3 weeks",
-                "Effort":"8-16 hours/week",
+                "Effort":"4-8 hours/week",
                 "Prerequisites":"Programming Languages, Part B"}
              ]},
              {"Name":"Math Electives",
@@ -104,7 +110,7 @@
                      "URL":"https://www.edx.org/course/calculus-1a-differentiation",
                      "Duration":"13 weeks",
                      "Effort":"6-10 hours/week",
-                     "Prerequisites":"pre-calculus"},
+                     "Prerequisites":"[pre-calculus](https://www.futurelearn.com/courses/precalculus)"},
                      {"Name":"Calculus 1B: Integration",
                      "URL":"https://www.edx.org/course/calculus-1b-integration",
                      "Duration":"13 weeks",
@@ -122,12 +128,12 @@
                      "URL":"https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
                      "Duration":" - ",
                      "Effort":" - ",
-                     "Prerequisites":"pre-calculus"},
-                     {"Name":"Linear Algebra - Foundations to Frontiers",
-                     "URL":"https://www.edx.org/course/linear-algebra-foundations-to-frontiers-0",
+                     "Prerequisites":"[pre-calculus](https://www.futurelearn.com/courses/precalculus)"},
+                     {"Name":"Linear Algebra",
+                     "URL":"https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/",
                      "Alternative":"http://ulaff.net/",
-                     "Duration":"15 weeks",
-                     "Effort":"8 hours/week",
+                     "Duration":"14 weeks",
+                     "Effort":"12 hours/week",
                      "Prerequisites":"Essence of Linear Algebra"}
                      ]},
                  {"Name":"Logic",
@@ -136,7 +142,7 @@
                      "URL":"https://www.coursera.org/learn/logic-introduction",
                      "Duration":"10 weeks",
                      "Effort":"4-8 hours/week",
-                     "Prerequisites":"set theory"}
+                     "Prerequisites":"[set theory](https://www.youtube.com/playlist?list=PL5KkMZvBpo5AH_5GpxMiryJT6Dkj32H6N)"}
                      ]},
                  {"Name":"Probability",
                  "Courses":[
@@ -144,7 +150,7 @@
                      "URL":"https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2",
                      "Duration":"18 weeks",
                      "Effort":"12 hours/week",
-                     "Prerequisites":"Multivariable Calculus"}
+                     "Prerequisites":"[Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm)"}
                      ]}
              ]},
              {"Name":"Math Core",
@@ -164,7 +170,7 @@
                  "Effort":"5 hours/week",
                  "Prerequisites":"Calculus 1C"}
              ],
-            "Notes":"Students struggling with MIT Math for CS can consider taking the [Discrete Mathematics Specialization](https://www.coursera.org/specializations/discrete-mathematics) first. It is more interactive but less comprehensive, and it costs money to unlock full interactivity."},
+            "Notes":"An alternate version with solutions to the problem sets is [here](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/assignments/). Students struggling can consider the [Discrete Mathematics Specialization](https://www.coursera.org/specializations/discrete-mathematics) first. It is more interactive but less comprehensive, and costs money to unlock full interactivity."},
             {"Name":"Core Systems",
             "Explanation":"",
             "Topics Covered":[
@@ -190,8 +196,8 @@
                 "Duration":"12 weeks",
                 "Effort":"10-20 hours/week",
                 "Additional Text / Assignments":"After the sections on C, skip to the next course. [Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50)",
-                "Prerequisites":"Introduction to Programming",
-                "Name":"Build a Modern Computer from First Principles: From Nand to Tetris",
+                "Prerequisites":"Introduction to Programming"},
+                {"Name":"Build a Modern Computer from First Principles: From Nand to Tetris",
                 "URL":"https://www.coursera.org/learn/build-a-computer",
                 "Alternative":"http://www.nand2tetris.org/",
                 "Duration":"6 weeks",
@@ -208,11 +214,11 @@
                 "Effort":"4–12 hours/week",
                 "Additional Text / Assignments":"[Assignment 1](https://github.com/PrincetonUniversity/COS461-Public/tree/master/assignments/assignment1)<br>[Assignment 2](https://www.scs.stanford.edu/10au-cs144/lab/reliable/reliable.html)<br>[Assignment 3](https://nptel.ac.in/content/storage2/courses/106105080/pdf/M2L7.pdf)<br>[Assignment 4](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v7.0.pdf)",
                 "Prerequisites":"algebra, probability, basic CS"},
-                {"Name":"ops-class.org - Hack the Kernel",
-                "URL":"https://www.ops-class.org/",
-                "Duration":"15 weeks",
+                {"Name":"Operating Systems: Three Easy Pieces",
+                "URL":"http://pages.cs.wisc.edu/~remzi/OSTEP/",
+                "Duration":"10-12 weeks",
                 "Effort":"6 hours/week",
-                "Additional Text / Assignments":"Replace course textbook with [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)",
+                "Additional Text / Assignments":"[Homework](http://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html) [Lectures](https://www.youtube.com/channel/UCGweYi6vcfHaTrkap3c1TPg/videos) [Supplement](http://pages.cs.wisc.edu/~shivaram/cs537-sp20/",
                 "Prerequisites":"algorithms"}
             ]},
             {"Name":"Core Theory",
@@ -252,6 +258,44 @@
                 "Effort":"4-8 hours/week",
                 "Prerequisites":"Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming"}
             ]},
+            {"Name":"Core Security",
+            "Explanation":"Choose **one** of the last two courses, either _Identifying Security Vulnerabilities in C/C++Programming_ or _Exploiting and Securing Vulnerabilities in Java Applications_ **_Core Security courses are provisionally recommended_**. There is an open [Request For Comment](https://github.com/ossu/computer-science/issues/639) on security course selection. Contributors are encouraged to compare the various courses in the RFC and offer feedback.",
+            "Topics Covered":[
+                {"Name":"Confidentiality, Integrity, Availability"},
+                {"Name":"Secure Design"},
+                {"Name":"Defensive Programming"},
+                {"Name":"Threats and Attacks"},
+                {"Name":"Network Security"},
+                {"Name":"Cryptography"},
+                {"Name":"and more"}
+            ],
+            "Courses":[
+                {"Name":"Information Security: Context and Introduction",
+                    "URL":"https://www.coursera.org/learn/information-security-data",
+                    "Duration":"5 weeks",
+                    "Effort":"3 hours/week",
+                    "Prerequisites":""},
+                {"Name":"Principles of Secure Coding",
+                    "URL":"https://www.coursera.org/learn/secure-coding-principles",
+                    "Duration":"4 weeks",
+                    "Effort":"4 hours/week",
+                    "Prerequisites":""},
+                {"Name":"Identifying Security Vulnerabilities",
+                    "URL":"https://www.coursera.org/learn/identifying-security-vulnerabilities",
+                    "Duration":"4 weeks",
+                    "Effort":"4 hours/week",
+                    "Prerequisites":""},
+                {"Name":"Identifying Security Vulnerabilities in C/C++Programming",
+                    "URL":"https://www.coursera.org/learn/identifying-security-vulnerabilities-c-programming",
+                    "Duration":"4 weeks",
+                    "Effort":"5 hours/week",
+                    "Prerequisites":""},
+                {"Name":"Exploiting and Securing Vulnerabilities in Java Applications",
+                    "URL":"https://www.coursera.org/learn/exploiting-securing-vulnerabilities-java-applications",
+                    "Duration":"4 weeks",
+                    "Effort":"5 hours/week",
+                    "Prerequisites":""}
+            ]},
             {"Name":"Core Applications",
             "Explanation":"",
             "Topics Covered":[
@@ -270,7 +314,7 @@
                 {"Name":"and more"}
             ],
             "Courses":[
-                {"Name":"Relational Databases Systems",
+                {"Name":"Relational Database Systems",
                 "URL":"https://www.coursera.org/learn/relational-database)| 6 weeks | 3 hours/week",
                 "Prerequisites":"-"},
                 {"Name":"Machine Learning",
@@ -283,7 +327,7 @@
                 "URL":"https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x",
                 "Duration":"6 weeks",
                 "Effort":"8-10 hours/week",
-                "Prerequisites":"Software Construction - Object-Oriented Design"},
+                "Prerequisites":"Core Programming, and a [sizable project](FAQ.md#why-require-experience-with-a-sizable-project-before-the-Software-Engineering-courses)"},
                 {"Name":"Software Development Capstone Project",
                 "URL":"https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx",
                 "Duration":"6-7 weeks",
@@ -320,6 +364,14 @@
             "Duration":"9 weeks",
             "Effort":"6-8 hours/week",
             "Prerequisites":"none"},
+            {"Name":"Introduction to Haskell",
+            "URL":"https://www.seas.upenn.edu/~cis194/fall16/",
+            "Duration":"14 weeks",
+            "Prerequisites":""},
+            {"Name":"Learn Prolog Now!",
+            "URL":"http://lpn.swi-prolog.org/lpnpage.php?pageid=top",
+            "Duration":"12 weeks",
+            "Prerequisites":""},
             {"Name":"Software Debugging",
             "URL":"https://www.udacity.com/course/software-debugging--cs259",
             "Duration":"8 weeks",
@@ -364,7 +416,7 @@
             "URL":"https://www.edx.org/course/electricity-magnetism-part-1-ricex-phys102-1x-0",
             "Duration":"7 weeks",
             "Effort":"8-10 hours/week",
-            "Prerequisites":"calculus, basic mechanics"},
+            "Prerequisites":"[calculus](https://www.khanacademy.org/math/calculus-1), [basic mechanics](https://www.khanacademy.org/science/physics)"},
             {"Name":"Electricity and Magnetism, Part 2",
             "URL":"https://www.edx.org/course/electricity-magnetism-part-2-ricex-phys102-2x-0",
             "Duration":"7 weeks",
@@ -437,7 +489,7 @@
             "URL":"https://www.coursera.org/specializations/modernrobotics",
             "Duration":"26 weeks",
             "Effort":"2-5 hours/week",
-            "Prerequisites":"freshman-level physics, linear algebra, calculus, linear ordinary differential equations"},
+            "Prerequisites":"freshman-level physics, linear algebra, calculus, [linear ordinary differential equations](https://www.khanacademy.org/math/differential-equations)"},
             {"Name":"Data Mining (Specialization)",
             "URL":"https://www.coursera.org/specializations/data-mining",
             "Duration":"30 weeks",
@@ -472,7 +524,12 @@
             "URL":"https://www.coursera.org/specializations/scala",
             "Duration":"29 weeks",
             "Effort":"4-5 hours/week",
-            "Prerequisites":"One year programming experience"}
+            "Prerequisites":"One year programming experience"},
+            {"Name":"Game Design and Development (Specialization)",
+            "URL":"https://www.coursera.org/specializations/game-development",
+            "Duration":"6 months",
+            "Effort":"5 hours/week",
+            "Prerequisites":"programming, interactive design"}
         ]}
     ]}
 ]}
