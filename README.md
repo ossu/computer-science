@@ -218,6 +218,7 @@ Courses | Duration | Effort | Prerequisites
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm)
+[Alternative: Harvard Stats110](https://projects.iq.harvard.edu/stat110/home) | 18 weeks | 12 hours/week | [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
 
 ### Core Math
 In addition to their math elective, students must complete the following course on discrete mathematics.
