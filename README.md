@@ -202,6 +202,7 @@ Courses | Duration | Effort | Prerequisites
 [Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | 13 weeks | 6-10 hours/week | [pre-calculus](https://www.futurelearn.com/courses/precalculus)
 [Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration) | 13 weeks | 5-10 hours/week | Calculus 1A
 [Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series) | 6 weeks | 5-10 hours/week | Calculus 1B
+[Alternative: Single-Variable Calculus](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/) | 32 weeks | 6-10 hours/week | This course covers all of the above Calculus courses | -
 
 #### Linear Algebra
 Courses | Duration | Effort | Prerequisites
