@@ -216,7 +216,7 @@ Courses | Duration | Effort | Prerequisites
 
 #### Probability
 Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--:
 [Harvard Stats110](https://projects.iq.harvard.edu/stat110/home) | 18 weeks | 12 hours/week | [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
 
 ### Core Math
