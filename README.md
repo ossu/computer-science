@@ -117,22 +117,15 @@ and is knowledgeable enough now to decide which electives to take.
 
 ### Introduction to Programming
 
-If you've never written a for-loop, or don't know what a string is in programming, start here. Choose one of the two course series below. Either one will give you an introduction to programming that assumes no prior knowledge. You can audit either for free, _in order to do so, click through to the individual courses in the specializations_.
-
-Trying to decide between them?
-
-_Python for Everybody_ will introduce you to a popular language and will quickly move to practical programming tasks - using web APIs and databases. This will give you a taste of what many professional developers do.
-
-_Fundamentals of Computing_ will also start by introducing you to Python. It then moves on to give an introduction to academic Computer Science topics, like sorting and recursion. This will give you a taste of what the following courses will be like. (Students who complete _Fundamentals of Computing_ can skip Intro to Computer Science and begin Introduction to CS Tools.)
+If you've never written a for-loop, or don't know what a string is in programming, start here.
 
 **Topics covered**:
 `simple programs`
 `simple data structures`
 
-Courses | Effort | Prerequisites
-:-- | :--: | :--:
-[Python for Everybody](https://www.py4e.com/) | 58 hours | none
-[Fundamentals of Computing](https://www.coursera.org/specializations/computer-fundamentals) | 138 hours | high school mathematics
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Python for Everybody](https://www.py4e.com/) | 14 weeks | 3 hours/week | none
 
 ### Introduction to Computer Science
 
