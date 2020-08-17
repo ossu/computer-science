@@ -223,7 +223,7 @@ In addition to their math elective, students must complete the following course 
 `discrete probability`
 `and more`
 
-Courses | Duration | Effort | Notes | Prerequisites
+Courses | Duration | Effort | Notes | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--: | :--:
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) | 13 weeks | 5 hours/week | An alternate version with solutions to the problem sets is [here](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/assignments/). Students struggling can consider the [Discrete Mathematics Specialization](https://www.coursera.org/specializations/discrete-mathematics) first. It is more interactive but less comprehensive, and costs money to unlock full interactivity. | Calculus 1C | [chat](https://discord.gg/EuTzNbF)
 
@@ -245,7 +245,7 @@ Courses | Duration | Effort | Notes | Prerequisites
 `network protocols`
 `and more`
 
-Courses | Duration | Effort | Additional Text / Assignments| Prerequisites
+Courses | Duration | Effort | Additional Text / Assignments| Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--: | :--:
 [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/)) | 12 weeks | 10-20 hours/week | After the sections on C, skip to the next course. [Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50) | introductory programming | [chat](https://discord.gg/NruSj5Q)
 [Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) ([alt](http://www.nand2tetris.org/)) | 6 weeks | 7-13 hours/week | - | C-like programming language | [chat](https://discord.gg/vxB2DRV)
