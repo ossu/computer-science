@@ -384,12 +384,6 @@ Courses | Duration | Effort | Prerequisites
 [Computation Structures 2: Computer Architecture](https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x) | 10 weeks | 6 hours/week | Computation Structures 1
 [Computation Structures 3: Computer Organization](https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0) | 10 weeks | 6 hours/week | Computation Structures 2
 
-**<sup>1</sup> Note**:
-These courses assume knowledge of basic physics.
-([Why?](FAQ.md#why-is-the-curriculum-missing-some-pre-requisites))
-If you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy:
-[Khan Academy - Physics](https://www.khanacademy.org/science/physics)
-
 ### Advanced theory
 
 **Topics covered**:
