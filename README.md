@@ -190,9 +190,10 @@ Courses | Duration | Effort | Prerequisites | Discussion
 **Students must choose one of the following topics**: calculus, linear algebra, logic, or probability.
 
 #### Calculus
+
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | 13 weeks | 6-10 hours/week | [pre-calculus](https://www.futurelearn.com/courses/precalculus) | [chat](https://discord.gg/mPCt45F)
+[Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | 13 weeks | 6-10 hours/week | [pre-calculus](https://www.khanacademy.org/math/high-school-math) (you only need Mathematics 1, 2, 3) [FAQ](./FAQ.md#how-can-i-review-the-math-prerequisites) | [chat](https://discord.gg/mPCt45F)
 [Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration) | 13 weeks | 5-10 hours/week | Calculus 1A | [chat](https://discord.gg/sddAsZg)
 [Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series) | 6 weeks | 5-10 hours/week | Calculus 1B | [chat](https://discord.gg/FNEcNNq)
 
