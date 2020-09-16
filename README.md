@@ -117,7 +117,7 @@ and is knowledgeable enough now to decide which electives to take.
 
 ### Introduction to Programming
 
-If you've never written a for-loop, or don't know what a string is in programming, start here.
+If you've never written a for-loop, or don't know what a string is in programming, start here. This course is self-paced, allowing you to adjust the number of hours you spend per week to meet your needs.
 
 **Topics covered**:
 `simple programs`
@@ -125,7 +125,7 @@ If you've never written a for-loop, or don't know what a string is in programmin
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Python for Everybody](https://www.py4e.com/) | 34 weeks | 3 hours/week | none | [chat](https://discord.gg/syA242Z)
+[Python for Everybody](https://www.py4e.com/) | 10 weeks | 10 hours/week | none | [chat](https://discord.gg/syA242Z)
 
 ### Introduction to Computer Science
 
