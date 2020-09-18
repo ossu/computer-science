@@ -484,7 +484,7 @@ After completing the requirements of the curriculum above, you will have complet
 
 What is next for you? The possibilities are boundless and overlapping:
 
-- Look for a job as a developer!
+- Look for a job as a developer! Try taking the tests at [Triplebyte](https://triplebyte.com/) or [Workera](https://workera.ai/) to find potential job matches.
 - Check out the [readings](extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
 - Join a local developer meetup (e.g. via [meetup.com](https://www.meetup.com/)).
 - Pay attention to emerging technologies in the world of software development:
