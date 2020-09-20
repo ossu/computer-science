@@ -8,6 +8,7 @@ Alternatively, you could [contribute](#CONTRIBUTING.md) an answer yourself.
 
 ## Contents
 
+- [Does OSSU offer a degree?](#does-ossu-offer-a-degree)
 - [How can I review the math prerequisites?](#how-can-i-review-the-math-prerequisites)
 - [What is a good course to learn a language (C++, Rust, Java, etc)?](#what-is-a-good-course-to-learn-a-particular-language)
 - [Why is the Firebase OSSU app different/broken?](#why-is-the-firebase-ossu-app-different-or-broken)
@@ -21,6 +22,9 @@ Alternatively, you could [contribute](#CONTRIBUTING.md) an answer yourself.
 - [Why require experience with a sizable project before the Software Engineering courses?](#why-require-experience-with-a-sizable-project-before-the-Software-Engineering-courses)
 
 ## Questions
+
+### Does OSSU offer a degree?
+No. OSSU creates guides to resources that will empower you to learn the curriculum of an undergraduate degree. Individuals who used to be involved in OSSU may be working with other organizations to offer degrees, but Open Source Society University is not involved in those efforts.
 
 ### How can I review the math prerequisites?
 Many OSSU students choose to review math topics that they have not studied recently.
