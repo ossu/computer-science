@@ -89,10 +89,10 @@ just remember that you can't purchase success!
 - [Intro CS](#intro-cs)
   - [Introduction to Programming](#introduction-to-programming)
   - [Introduction to Computer Science](#introduction-to-computer-science)
-  - [Introduction to CS Tools](#introduction-to-cs-tools)
 - [Core CS](#core-cs)
   - [Core programming](#core-programming)
   - [Core math](#core-math)
+  - [CS Tools](#cs-tools)
   - [Core systems](#core-systems)
   - [Core theory](#core-theory)
   - [Core applications](#core-applications)
@@ -140,21 +140,6 @@ This course will introduce you to the world of computer science. Students who ha
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) ([alt](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)) | 9 weeks | 15 hours/week | [high school algebra](https://www.khanacademy.org/math/algebra-home) | [chat](https://discord.gg/jvchSm9)
-
-### Introduction to CS Tools
-Understanding theory is important, but you will also be expected to create programs. There are a number of tools that are widely used to make that process easier. Learn them now to ease your future work writing programs.
-
-**Topics covered**:
-`terminals and shell scripting`
-`vim`
-`command line environments`
-`version control`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | 2 weeks | 12 hours/week | - | [chat](https://discord.gg/5FvKycS)
-
 
 ## Core CS
 
@@ -227,6 +212,21 @@ In addition to their math elective, students must complete the following course 
 Courses | Duration | Effort | Notes | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--: | :--:
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) | 13 weeks | 5 hours/week | An alternate version with solutions to the problem sets is [here](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/assignments/). Students struggling can consider the [Discrete Mathematics Specialization](https://www.coursera.org/specializations/discrete-mathematics) first. It is more interactive but less comprehensive, and costs money to unlock full interactivity. | Calculus 1C | [chat](https://discord.gg/EuTzNbF)
+
+
+### CS Tools
+Understanding theory is important, but you will also be expected to create programs. There are a number of tools that are widely used to make that process easier. Learn them now to ease your future work writing programs.
+
+**Topics covered**:
+`terminals and shell scripting`
+`vim`
+`command line environments`
+`version control`
+`and more`
+
+Courses | Duration | Effort | Prerequisites | Discussion
+:-- | :--: | :--: | :--: | :--:
+[The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | 2 weeks | 12 hours/week | - | [chat](https://discord.gg/5FvKycS)
 
 ### Core systems
 
