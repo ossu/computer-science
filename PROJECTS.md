@@ -40,3 +40,4 @@ Project Title | Description | Author(s) | Repository
 Project Title | Description | Author(s) | Repository
 :-- | :-- | :--: | :--
 Observatory | Interactively displays temperatures and deviations all around the world from 1975 to 2015 | [spamegg](https://github.com/spamegg1) | [ScalaCapstone](https://github.com/spamegg1/ScalaCapstone)
+Self-Driving - Lane Detection | a program to detect lanes in a video of a road | [Vipin Kumar](https://github.com/VipinindKumar) | [Lane Detection](https://github.com/VipinindKumar/Self-Driving)
