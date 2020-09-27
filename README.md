@@ -380,9 +380,9 @@ Courses | Duration | Effort | Prerequisites
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Computation Structures 1: Digital Circuits](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0) | 10 weeks | 6 hours/week | [Nand2Tetris II](https://www.coursera.org/learn/nand2tetris2)
-[Computation Structures 2: Computer Architecture](https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x) | 10 weeks | 6 hours/week | Computation Structures 1
-[Computation Structures 3: Computer Organization](https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0) | 10 weeks | 6 hours/week | Computation Structures 2
+[Computation Structures 1: Digital Circuits](https://www.edx.org/course/computation-structures-part-1-digital-circuits) | 10 weeks | 6 hours/week | [Nand2Tetris II](https://www.coursera.org/learn/nand2tetris2)
+[Computation Structures 2: Computer Architecture](https://www.edx.org/course/computation-structures-2-computer-architecture-2) | 10 weeks | 6 hours/week | Computation Structures 1
+[Computation Structures 3: Computer Organization](https://www.edx.org/course/computation-structures-3-computer-organization-2) | 10 weeks | 6 hours/week | Computation Structures 2
 
 ### Advanced theory
 
