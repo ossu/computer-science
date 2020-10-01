@@ -13,7 +13,7 @@
   </a>
 </p>
 
-# Contents
+# Contents of README
 
 - [Summary](#summary)
 - [Community](#community)
@@ -520,7 +520,7 @@ You should put the *Course's cards* below its respective *Section's card*.
 The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
 You can change the status of your board to be *public* or *private*.
 
-# Team
+# Team 
 
 * **[Eric Douglas](https://github.com/ericdouglas)**: founder of OSSU
 * **[hanjiexi](https://github.com/hanjiexi)**: lead technical maintainer
