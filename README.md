@@ -2,7 +2,7 @@
 
 <h3 align="center">Open Source Society University</h3>
 <p align="center">
-  Path to a free self-taught education in Computer Science!
+  Path to a free self-taught education in Computer Science !!!
 </p>
 <p align="center">
   <a href="https://github.com/sindresorhus/awesome">
@@ -55,7 +55,7 @@ Courses in Core CS should be taken linearly if possible, but since a perfectly l
 each class's prerequisites are specified so that you can design a logical but non-linear progression
 based on the class schedules and your own life plans.
 
-**Cost**. All or nearly all course material is available for free. However, some courses may charge money for assignments/tests/projects to be graded.
+**Cost**. All or nearly all course materials is available for free. However, some courses may charge money for assignments/tests/projects to be graded.
 Note that Coursera offers [financial aid](https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid).
 
 Decide how much or how little to spend based on your own time and budget;
@@ -83,7 +83,7 @@ just remember that you can't purchase success!
 
 # Curriculum
 
-**Curriculum version**: `8.0.0` (see [CHANGELOG](CHANGELOG.md))
+**Curriculum Version**: `8.0.0` (see [CHANGELOG](CHANGELOG.md))
 
 - [Prerequisites](#prerequisites)
 - [Intro CS](#intro-cs)
@@ -161,7 +161,7 @@ All coursework under Core CS is **required**, unless otherwise indicated.
 `Ruby`
 `and more`
 
-The How to Code courses are based on the textbook [How to Design Programs](https://htdp.org/2003-09-26/). The First Edition is available for free online and includes problem sets and solutions. Students are encouraged to do these assignments.
+The <i>How to Code</i> courses are based on the textbook [How to Design Programs](https://htdp.org/2003-09-26/). The First Edition is available for free online and includes problem sets and solutions. Students are encouraged to do these assignments.
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
