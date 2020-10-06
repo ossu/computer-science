@@ -196,7 +196,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 #### Probability
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Probability](https://projects.iq.harvard.edu/stat110/home) | 24 weeks | 12 hours/week | [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/) | [chat](https://discord.gg/UVjs9BU)
+[Probability](https://projects.iq.harvard.edu/stat110/home) | 24 weeks | 12 hours/week | [Differentiation and Integration](https://www.edx.org/course/calculus-1b-integration) | [chat](https://discord.gg/UVjs9BU)
 
 ### Core Math
 In addition to their math elective, students must complete the following course on discrete mathematics.
