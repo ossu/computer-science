@@ -20,7 +20,7 @@ The How to Code courses are based on the textbook [How to Design Programs](https
 
 **Students must choose one of the following topics**: calculus, linear algebra, logic, or probability.
 
-**Calculus**
+### **Calculus**
 
 | Courses | Duration | Effort | Prerequisites | Discussion |
 | :--- | :---: | :---: | :---: | :---: |
@@ -28,20 +28,20 @@ The How to Code courses are based on the textbook [How to Design Programs](https
 | [Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration) | 13 weeks | 5-10 hours/week | Calculus 1A | [chat](https://discord.gg/sddAsZg) |
 | [Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series) | 6 weeks | 5-10 hours/week | Calculus 1B | [chat](https://discord.gg/FNEcNNq) |
 
-**Linear Algebra**
+### **Linear Algebra**
 
 | Courses | Duration | Effort | Prerequisites | Discussion |
 | :--- | :---: | :---: | :---: | :---: |
 | [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | [high school math](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/FAQ.md#how-can-i-review-the-math-prerequisites) | [chat](https://discord.gg/m6wHbP6) |
 | [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) | 14 weeks | 12 hours/week | Essence of Linear Algebra | [chat](https://discord.gg/k7nSWJH) |
 
-**Logic**
+### **Logic**
 
 | Courses | Duration | Effort | Prerequisites | Discussion |
 | :--- | :---: | :---: | :---: | :---: |
 | [Introduction to Logic](https://www.coursera.org/learn/logic-introduction) | 10 weeks | 4-8 hours/week | [set theory](https://www.youtube.com/playlist?list=PL5KkMZvBpo5AH_5GpxMiryJT6Dkj32H6N) | [chat](https://discord.gg/MbM2Gg5) |
 
-**Probability**
+### **Probability**
 
 | Courses | Duration | Effort | Prerequisites | Discussion |
 | :--- | :---: | :---: | :---: | :---: |
