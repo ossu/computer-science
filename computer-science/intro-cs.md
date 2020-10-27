@@ -4,8 +4,6 @@
   * Introduction to Programming
   * Introduction to Computer Science
 
-
-
 ## Intro CS
 
 ### Introduction to Programming

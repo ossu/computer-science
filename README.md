@@ -1,2 +1,2 @@
-# Open Source University
+# Açık Kaynak Üniversite
 

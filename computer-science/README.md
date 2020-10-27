@@ -1,20 +1,20 @@
-# Computer Science
+# Bilgisayar Mühendisliği
 
 ![Open Source Society University \(OSSU\)](http://i.imgur.com/kYYCXtC.png)
 
 Open Source Society University
 
- Path to a free self-taught education in Computer Science!
+Path to a free self-taught education in Computer Science!
 
- [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
 
 ## Contents
 
-* [Summary]()
-* [Community]()
-* [Curriculum]()
-* [Code of conduct]()
-* [Team]()
+* [Summary](./)
+* [Community](./)
+* [Curriculum](./)
+* [Code of conduct](./)
+* [Team](./)
 
 ## Summary
 
@@ -27,9 +27,9 @@ It is designed according to the degree requirements of undergraduate computer sc
 * Be open for enrollment
 * Run regularly \(ideally in self-paced format, otherwise running multiple times per year\)
 * Be of generally high quality in teaching materials and pedagogical principles
-* Match the curricular standards of the [CS 2013](CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science 
+* Match the curricular standards of the [CS 2013](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science 
 
-When no course meets the above criteria, the coursework is supplemented with a book. When there are courses or books that don't fit into the curriculum but are otherwise of high quality, they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/readings.md).
+When no course meets the above criteria, the coursework is supplemented with a book. When there are courses or books that don't fit into the curriculum but are otherwise of high quality, they belong in [extras/courses](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/extras/courses.md) or [extras/readings](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/extras/readings.md).
 
 **Organization**. The curriculum is designed as follows:
 
@@ -52,49 +52,49 @@ Decide how much or how little to spend based on your own time and budget; just r
 
 **Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to. _Do NOT disrespect the code of conduct_ that you signed in the beginning of each course!
 
-[**How to contribute**](CONTRIBUTING.md)
+[**How to contribute**](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/CONTRIBUTING.md)
 
-[**Getting help**](HELP.md) \(Details about our FAQ and chatroom\)
+[**Getting help**](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/HELP.md) \(Details about our FAQ and chatroom\)
 
 ## Community
 
 * We have a discord server! [![Discord](https://img.shields.io/discord/744385009028431943.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/5pUhfpX) This should be your first stop to talk with other OSSU students. Why don't you introduce yourself right now? [Join the CS channel in OSSU Discord](https://discord.gg/5pUhfpX)
-* You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](CONTRIBUTING.md).
+* You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/CONTRIBUTING.md).
 * Subscribe to our [newsletter](https://tinyletter.com/ossu).
 * Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) profile!
-* Note: There is an unmaintained and deprecated firebase app that you might find when searching OSSU. You can safely ignore it. Read more in the [FAQ](FAQ.md#why-is-the-firebase-ossu-app-different-or-broken).
+* Note: There is an unmaintained and deprecated firebase app that you might find when searching OSSU. You can safely ignore it. Read more in the [FAQ](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/FAQ.md#why-is-the-firebase-ossu-app-different-or-broken).
 
 ## Curriculum
 
-**Curriculum version**: `8.0.0` \(see [CHANGELOG](CHANGELOG.md)\)
+**Curriculum version**: `8.0.0` \(see [CHANGELOG](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/CHANGELOG.md)\)
 
-* [Prerequisites]()
-* [Intro CS]()
-  * [Introduction to Programming]()
-  * [Introduction to Computer Science]()
-* [Core CS]()
-  * [Core programming]()
-  * [Core math]()
-  * [CS Tools]()
-  * [Core systems]()
-  * [Core theory]()
-  * [Core applications]()
-  * [Core security]()
-* [Advanced CS]()
-  * [Advanced programming]()
-  * [Advanced systems]()
-  * [Advanced theory]()
-  * [Advanced applications]()
-* [Final project]()
+* [Prerequisites](./)
+* [Intro CS](./)
+  * [Introduction to Programming](./)
+  * [Introduction to Computer Science](./)
+* [Core CS](./)
+  * [Core programming](./)
+  * [Core math](./)
+  * [CS Tools](./)
+  * [Core systems](./)
+  * [Core theory](./)
+  * [Core applications](./)
+  * [Core security](./)
+* [Advanced CS](./)
+  * [Advanced programming](./)
+  * [Advanced systems](./)
+  * [Advanced theory](./)
+  * [Advanced applications](./)
+* [Final project](./)
 
 ### Prerequisites
 
-* [Core CS]() assumes the student has already taken [high school math](https://github.com/ossu/computer-science/blob/master/FAQ.md#how-can-i-review-the-math-prerequisites), including algebra, geometry, and pre-calculus.
-* [Advanced CS]() assumes the student has already taken the entirety of Core CS
+* [Core CS](./) assumes the student has already taken [high school math](https://github.com/ossu/computer-science/blob/master/FAQ.md#how-can-i-review-the-math-prerequisites), including algebra, geometry, and pre-calculus.
+* [Advanced CS](./) assumes the student has already taken the entirety of Core CS
 
   and is knowledgeable enough now to decide which electives to take.
 
-* Note that [Advanced systems]() assumes the student has taken a basic physics course \(e.g. AP Physics in high school\).
+* Note that [Advanced systems](./) assumes the student has taken a basic physics course \(e.g. AP Physics in high school\).
 
 ### Intro CS
 
@@ -144,7 +144,7 @@ The How to Code courses are based on the textbook [How to Design Programs](https
 
 | Courses | Duration | Effort | Prerequisites | Discussion |
 | :--- | :---: | :---: | :---: | :---: |
-| [Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | 13 weeks | 6-10 hours/week | [high school math](FAQ.md#how-can-i-review-the-math-prerequisites) | [chat](https://discord.gg/mPCt45F) |
+| [Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) | 13 weeks | 6-10 hours/week | [high school math](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/FAQ.md#how-can-i-review-the-math-prerequisites) | [chat](https://discord.gg/mPCt45F) |
 | [Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration) | 13 weeks | 5-10 hours/week | Calculus 1A | [chat](https://discord.gg/sddAsZg) |
 | [Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series) | 6 weeks | 5-10 hours/week | Calculus 1B | [chat](https://discord.gg/FNEcNNq) |
 
@@ -152,7 +152,7 @@ The How to Code courses are based on the textbook [How to Design Programs](https
 
 | Courses | Duration | Effort | Prerequisites | Discussion |
 | :--- | :---: | :---: | :---: | :---: |
-| [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | [high school math](FAQ.md#how-can-i-review-the-math-prerequisites) | [chat](https://discord.gg/m6wHbP6) |
+| [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | [high school math](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/FAQ.md#how-can-i-review-the-math-prerequisites) | [chat](https://discord.gg/m6wHbP6) |
 | [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) | 14 weeks | 12 hours/week | Essence of Linear Algebra | [chat](https://discord.gg/k7nSWJH) |
 
 **Logic**
@@ -193,7 +193,7 @@ Understanding theory is important, but you will also be expected to create progr
 
 | Courses | Duration | Effort | Additional Text / Assignments | Prerequisites | Discussion |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) \([alt](https://cs50.harvard.edu/)\) | 12 weeks | 10-20 hours/week | After the sections on C, skip to the next course. [Why?](FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50) | introductory programming | [chat](https://discord.gg/NruSj5Q) |
+| [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) \([alt](https://cs50.harvard.edu/)\) | 12 weeks | 10-20 hours/week | After the sections on C, skip to the next course. [Why?](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50) | introductory programming | [chat](https://discord.gg/NruSj5Q) |
 | [Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) \([alt](http://www.nand2tetris.org/)\) | 6 weeks | 7-13 hours/week | - | C-like programming language | [chat](https://discord.gg/vxB2DRV) |
 | [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | - | one of [these programming languages](https://user-images.githubusercontent.com/2046800/35426340-f6ce6358-026a-11e8-8bbb-4e95ac36b1d7.png), From Nand to Tetris Part I | [chat](https://discord.gg/AsUXcPu) |
 | [Introduction to Computer Networking](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ2dr0XO_Nwa5OcdEcaaELSG) | 8 weeks | 4–12 hours/week | [Assignment 1](https://github.com/PrincetonUniversity/COS461-Public/tree/master/assignments/assignment1) [Assignment 2](https://www.scs.stanford.edu/10au-cs144/lab/reliable/reliable.html) [Assignment 3](https://nptel.ac.in/content/storage2/courses/106105080/pdf/M2L7.pdf) [Assignment 4](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v7.0.pdf) [Interactive Problems](https://gaia.cs.umass.edu/kurose_ross/interactive/index.php) | algebra, probability, basic CS | [chat](https://discord.gg/MJ9YXyV) |
@@ -240,14 +240,14 @@ Choose **one** of the following:
 | [Databases: Semistructured Data](https://www.edx.org/course/semistructured-data) | 2 weeks | 10 hours/week | core programming | [chat](https://discord.gg/duCJ3GN) |
 | [Machine Learning](https://www.coursera.org/learn/machine-learning) | 11 weeks | 4-6 hours/week | linear algebra | [chat](https://discord.gg/NcXHDjy) |
 | [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x) | 6 weeks | 12 hours/week | C++ or Java, linear algebra | [chat](https://discord.gg/68WqMNV) |
-| [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x) | 6 weeks | 8-10 hours/week | Core Programming, and a [sizable project](FAQ.md#why-require-experience-with-a-sizable-project-before-the-Software-Engineering-courses) | [chat](https://discord.gg/5Qtcwtz) |
+| [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x) | 6 weeks | 8-10 hours/week | Core Programming, and a [sizable project](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/FAQ.md#why-require-experience-with-a-sizable-project-before-the-Software-Engineering-courses) | [chat](https://discord.gg/5Qtcwtz) |
 | [Software Development Capstone Project](https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx) | 6-7 weeks | 8-10 hours/week | Software Engineering: Introduction | [chat](https://discord.gg/2FAujEZ) |
 
 ### Advanced CS
 
 After completing **every required course** in Core CS, students should choose a subset of courses from Advanced CS based on interest. Not every course from a subcategory needs to be taken. But students should take _every_ course that is relevant to the field they intend to go into.
 
-The Advanced CS study should then end with one of the Specializations under [Advanced applications](). A Specialization's Capstone, if taken, may act as the [Final project](), if permitted by the Honor Code of the course. If not, or if a student chooses not to take the Capstone, then a separate Final project will need to be done to complete this curriculum.
+The Advanced CS study should then end with one of the Specializations under [Advanced applications](./). A Specialization's Capstone, if taken, may act as the [Final project](./), if permitted by the Honor Code of the course. If not, or if a student chooses not to take the Capstone, then a separate Final project will need to be done to complete this curriculum.
 
 #### Advanced programming
 
@@ -306,7 +306,7 @@ OSS University is **project-focused**. You are encouraged to do the assignments 
 
 After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired. Not only does real project work look great on a resume, but the project will also _validate_ and _consolidate_ your knowledge. You can create something entirely new, or you can find an existing project that needs help via websites like [CodeTriage](https://www.codetriage.com/) or [First Timers Only](http://www.firsttimersonly.com/).
 
-Another option is using the Capstone project from taking one of the Specializations in [Advanced applications](); whether or not this makes sense depends on the course, the project, and whether or not the course's Honor Code permits you to display your work publicly. In some cases, it may not be permitted; do **not** violate your course's Honor Code!
+Another option is using the Capstone project from taking one of the Specializations in [Advanced applications](./); whether or not this makes sense depends on the course, the project, and whether or not the course's Honor Code permits you to display your work publicly. In some cases, it may not be permitted; do **not** violate your course's Honor Code!
 
 Put the OSSU-CS badge in the README of your repository! [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
 
@@ -315,7 +315,7 @@ Put the OSSU-CS badge in the README of your repository! [![Open Source Society U
 
 #### Evaluation
 
-Upon completing your final project, submit your project's information to [PROJECTS](PROJECTS.md) via a pull request and use our [community]() channels to announce it to your fellow students.
+Upon completing your final project, submit your project's information to [PROJECTS](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/PROJECTS.md) via a pull request and use our [community](./) channels to announce it to your fellow students.
 
 Your peers and mentors from OSSU will then informally evaluate your project. You will not be "graded" in the traditional sense — everyone has their own measurements for what they consider a success. The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist and to get experience listening to feedback — both positive and negative — and taking it in stride.
 
@@ -323,7 +323,7 @@ The final project evaluation has a second purpose: to evaluate whether OSSU, thr
 
 #### Cooperative work
 
-You can create this project alone or with other students! **We love cooperative work**! Use our [channels]() to communicate with other fellows to combine and create new projects!
+You can create this project alone or with other students! **We love cooperative work**! Use our [channels](./) to communicate with other fellows to combine and create new projects!
 
 #### Which programming languages should I use?
 
@@ -338,7 +338,7 @@ After completing the requirements of the curriculum above, you will have complet
 What is next for you? The possibilities are boundless and overlapping:
 
 * Look for a job as a developer!
-* Check out the [readings](extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
+* Check out the [readings](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
 * Join a local developer meetup \(e.g. via [meetup.com](https://www.meetup.com/)\).
 * Pay attention to emerging technologies in the world of software development:
   * Explore the **actor model** through [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
