@@ -1,6 +1,4 @@
-# CORE CS
-
-## Core CS
+# Core CS
 
 All coursework under Core CS is **required**, unless otherwise indicated.
 
@@ -22,7 +20,7 @@ The How to Code courses are based on the textbook [How to Design Programs](https
 
 **Students must choose one of the following topics**: calculus, linear algebra, logic, or probability.
 
-### **Calculus**
+**Calculus**
 
 | Courses | Duration | Effort | Prerequisites | Discussion |
 | :--- | :---: | :---: | :---: | :---: |
@@ -30,26 +28,26 @@ The How to Code courses are based on the textbook [How to Design Programs](https
 | [Calculus 1B: Integration](https://www.edx.org/course/calculus-1b-integration) | 13 weeks | 5-10 hours/week | Calculus 1A | [chat](https://discord.gg/sddAsZg) |
 | [Calculus 1C: Coordinate Systems & Infinite Series](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series) | 6 weeks | 5-10 hours/week | Calculus 1B | [chat](https://discord.gg/FNEcNNq) |
 
-### **Linear Algebra**
+**Linear Algebra**
 
 | Courses | Duration | Effort | Prerequisites | Discussion |
 | :--- | :---: | :---: | :---: | :---: |
 | [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | [high school math](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/FAQ.md#how-can-i-review-the-math-prerequisites) | [chat](https://discord.gg/m6wHbP6) |
 | [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) | 14 weeks | 12 hours/week | Essence of Linear Algebra | [chat](https://discord.gg/k7nSWJH) |
 
-### **Logic**
+**Logic**
 
 | Courses | Duration | Effort | Prerequisites | Discussion |
 | :--- | :---: | :---: | :---: | :---: |
 | [Introduction to Logic](https://www.coursera.org/learn/logic-introduction) | 10 weeks | 4-8 hours/week | [set theory](https://www.youtube.com/playlist?list=PL5KkMZvBpo5AH_5GpxMiryJT6Dkj32H6N) | [chat](https://discord.gg/MbM2Gg5) |
 
-### **Probability**
+**Probability**
 
 | Courses | Duration | Effort | Prerequisites | Discussion |
 | :--- | :---: | :---: | :---: | :---: |
 | [Probability](https://projects.iq.harvard.edu/stat110/home) | 24 weeks | 12 hours/week | [Differentiation and Integration](https://www.edx.org/course/calculus-1b-integration) | [chat](https://discord.gg/UVjs9BU) |
 
-#### Core Math
+## Core Math
 
 In addition to their math elective, students must complete the following course on discrete mathematics.
 
@@ -59,7 +57,7 @@ In addition to their math elective, students must complete the following course 
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) | 13 weeks | 5 hours/week | An alternate version with solutions to the problem sets is [here](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/assignments/). Students struggling can consider the [Discrete Mathematics Specialization](https://www.coursera.org/specializations/discrete-mathematics) first. It is more interactive but less comprehensive, and costs money to unlock full interactivity. | Calculus 1C | [chat](https://discord.gg/EuTzNbF) |
 
-#### CS Tools
+## CS Tools
 
 Understanding theory is important, but you will also be expected to create programs. There are a number of tools that are widely used to make that process easier. Learn them now to ease your future work writing programs.
 
@@ -69,7 +67,7 @@ Understanding theory is important, but you will also be expected to create progr
 | :--- | :---: | :---: | :---: | :---: |
 | [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | 2 weeks | 12 hours/week | - | [chat](https://discord.gg/5FvKycS) |
 
-#### Core systems
+## Core systems
 
 **Topics covered**: `procedural programming` `manual memory management` `boolean algebra` `gate logic` `memory` `computer architecture` `assembly` `machine language` `virtual machines` `high-level languages` `compilers` `operating systems` `network protocols` `and more`
 
@@ -81,7 +79,7 @@ Understanding theory is important, but you will also be expected to create progr
 | [Introduction to Computer Networking](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ2dr0XO_Nwa5OcdEcaaELSG) | 8 weeks | 4–12 hours/week | [Assignment 1](https://github.com/PrincetonUniversity/COS461-Public/tree/master/assignments/assignment1) [Assignment 2](https://www.scs.stanford.edu/10au-cs144/lab/reliable/reliable.html) [Assignment 3](https://nptel.ac.in/content/storage2/courses/106105080/pdf/M2L7.pdf) [Assignment 4](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v7.0.pdf) [Interactive Problems](https://gaia.cs.umass.edu/kurose_ross/interactive/index.php) | algebra, probability, basic CS | [chat](https://discord.gg/MJ9YXyV) |
 | [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/) | 10-12 weeks | 6 hours/week | - | algorithms | [chat](https://discord.gg/wZNgpep) |
 
-#### Core theory
+## Core theory
 
 **Topics covered**: `divide and conquer` `sorting and searching` `randomized algorithms` `graph search` `shortest paths` `data structures` `greedy algorithms` `minimum spanning trees` `dynamic programming` `NP-completeness` `and more`
 
@@ -92,7 +90,7 @@ Understanding theory is important, but you will also be expected to create progr
 | [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy) | 4 weeks | 4-8 hours/week | Graph Search, Shortest Paths, and Data Structures | [chat](https://discord.gg/dWVvjuz) |
 | [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete) | 4 weeks | 4-8 hours/week | Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming | [chat](https://discord.gg/dYuY78u) |
 
-#### Core Security
+## Core Security
 
 **Topics covered** `Confidentiality, Integrity, Availability` `Secure Design` `Defensive Programming` `Threats and Attacks` `Network Security` `Cryptography` `and more`
 
@@ -111,7 +109,7 @@ Choose **one** of the following:
 | [Identifying Security Vulnerabilities in C/C++Programming](https://www.coursera.org/learn/identifying-security-vulnerabilities-c-programming) | 4 weeks | 5 hours/week | - | [chat](https://discord.gg/Vbxce7A) |
 | [Exploiting and Securing Vulnerabilities in Java Applications](https://www.coursera.org/learn/exploiting-securing-vulnerabilities-java-applications) | 4 weeks | 5 hours/week | - | [chat](https://discord.gg/QxC22rR) |
 
-#### Core applications
+## Core applications
 
 **Topics covered**: `Agile methodology` `REST` `software specifications` `refactoring` `relational databases` `transaction processing` `data modeling` `neural networks` `supervised learning` `unsupervised learning` `OpenGL` `raytracing` `and more`
 
@@ -124,4 +122,3 @@ Choose **one** of the following:
 | [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x) | 6 weeks | 12 hours/week | C++ or Java, linear algebra | [chat](https://discord.gg/68WqMNV) |
 | [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x) | 6 weeks | 8-10 hours/week | Core Programming, and a [sizable project](https://github.com/Yildiz-Tecnical-University-CEIT/computer-science/tree/ef90704db21c2da027ac4f0095487635b262d22b/computer-science/FAQ.md#why-require-experience-with-a-sizable-project-before-the-Software-Engineering-courses) | [chat](https://discord.gg/5Qtcwtz) |
 | [Software Development Capstone Project](https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx) | 6-7 weeks | 8-10 hours/week | Software Engineering: Introduction | [chat](https://discord.gg/2FAujEZ) |
-
