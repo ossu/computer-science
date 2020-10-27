@@ -10,7 +10,7 @@ Path to a free self-taught education in Computer Science!
 
 ## Contents
 
-* [Summary](./)
+* [Summary](./#summary)
 * [Community](./)
 * [Curriculum](./)
 * [Code of conduct](./)
