@@ -339,8 +339,6 @@ If not, or if a student chooses not to take the Capstone, then a separate Final 
 **Topics covered**:
 `debugging theory and practice`
 `goal-oriented programming`
-`GPU programming`
-`CUDA`
 `parallel computing`
 `object-oriented analysis and design`
 `UML`
@@ -396,7 +394,6 @@ Courses | Duration | Effort | Prerequisites
 `propositional logic`
 `relational logic`
 `Herbrand logic`
-`concept lattices`
 `game trees`
 `and more`
 
@@ -404,7 +401,6 @@ Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Theory of Computation](http://aduni.org/courses/theory/index.php?view=cw) ([Lectures](https://www.youtube.com/playlist?list=PLTke5lHMAdSNmi57H0DOTzClHPK6UwSTN)) | 8 weeks | 10 hours/week | discrete mathematics, logic, algorithms
 [Computational Geometry](https://www.edx.org/course/computational-geometry-tsinghuax-70240183x) | 16 weeks | 8 hours/week | algorithms, C++
-[Introduction to Formal Concept Analysis](https://www.coursera.org/learn/formal-concept-analysis) | 6 weeks | 4-6 hours/week | logic, probability
 [Game Theory](https://www.coursera.org/learn/game-theory-1) | 8 weeks | 3 hours/week | mathematical thinking, probability, calculus
 
 ### Advanced applications
