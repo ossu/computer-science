@@ -103,7 +103,7 @@ If you just want to watch the videos, it is never necessary for any edX course o
 
 ### What are the alt links?
 
-Alternative hosts for the material. Sometimes a course is on multiple platforms that are reasonably similar in quality so we have an alt or two linked in case the main one isn't being offered at the time or you prefer the other one. Both are just as good, go with whichever you prefer or whichever is available when you want to take the course.
+Sometimes a course is on multiple platforms that are reasonably similar in quality so we have an alt or two linked in case the main one isn't being offered at the time or you prefer the other one. Both are just as good, go with whichever you prefer or whichever is available when you want to take the course.
 
 ### Why do you recommend skipping the second half of CS50?
 
