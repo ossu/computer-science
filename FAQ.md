@@ -16,6 +16,7 @@ Alternatively, you could [contribute](#CONTRIBUTING.md) an answer yourself.
 - [Does every resource in the main curriculum have to be free?](#does-every-resource-in-the-main-curriculum-have-to-be-free)
 - [Are Coursera courses free to access?](#are-coursera-courses-free-to-access)
 - [Is it necessary to purchase the Verified Upgrade for edX courses?](#is-it-necessary-to-purchase-the-verified-upgrade-for-edx-courses)
+- [What are the alt links?](#what-are-the-alt-links)
 - [Why do you recommend skipping the second half of CS50?](#why-do-you-recommend-skipping-the-second-half-of-cs50)
 - [Why doesn't the curriculum cover/ignore topic X?](#why-doesnt-the-curriculum-coverignore-topic-x)
 - [Why is the curriculum missing some pre-requisites?](#why-is-the-curriculum-missing-some-pre-requisites)
@@ -99,6 +100,10 @@ When attempting to enroll in such a course:
 ### Is it necessary to purchase the Verified Upgrade for edX courses?
 
 If you just want to watch the videos, it is never necessary for any edX course on our curriculum. Note that a number of edX courses only allow students to audit a course for the estimated number of weeks it takes to complete. Students should not begin a course until they are prepared to focus and complete the course.
+
+### What are the alt links?
+
+Alternative hosts for the material. Sometimes a course is on multiple platforms that are reasonably similar in quality so we have an alt or two linked in case the main one isn't being offered at the time or you prefer the other one. Both are just as good, go with whichever you prefer or whichever is available when you want to take the course.
 
 ### Why do you recommend skipping the second half of CS50?
 
