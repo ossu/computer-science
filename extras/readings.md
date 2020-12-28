@@ -24,6 +24,7 @@ Name | Author(s)
 [Programming Languages: Application and Interpretation](http://cs.brown.edu/~sk/Publications/Books/ProgLangs/) | Shriram Krishnamurthi
 [Programming and Programming Languages](https://papl.cs.brown.edu/2018/) | Shriram Krishnamurthi, Benjamin S. Lerner, Joe Gibbs Politz
 [Competitive Programming](https://cpbook.net/) | Steven Halim, Felix Halim
+[Practical C Programming](https://www.amazon.com/Practical-Programming-Does-Nutshell-Handbooks/dp/1565923065/) | Steve Oualline
 
 ## Math
 
