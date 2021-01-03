@@ -17,7 +17,6 @@ Alternatively, you could [contribute](#CONTRIBUTING.md) an answer yourself.
 - [Are Coursera courses free to access?](#are-coursera-courses-free-to-access)
 - [Is it necessary to purchase the Verified Upgrade for edX courses?](#is-it-necessary-to-purchase-the-verified-upgrade-for-edx-courses)
 - [What are the alt links?](#what-are-the-alt-links)
-- [Why do you recommend skipping the second half of CS50?](#why-do-you-recommend-skipping-the-second-half-of-cs50)
 - [Why doesn't the curriculum cover/ignore topic X?](#why-doesnt-the-curriculum-coverignore-topic-x)
 - [Why is the curriculum missing some pre-requisites?](#why-is-the-curriculum-missing-some-pre-requisites)
 - [Why require experience with a sizable project before the Software Engineering courses?](#why-require-experience-with-a-sizable-project-before-the-Software-Engineering-courses)
@@ -104,14 +103,6 @@ If you just want to watch the videos, it is never necessary for any edX course o
 ### What are the alt links?
 
 Sometimes a course is on multiple platforms that are reasonably similar in quality so we have an alt or two linked in case the main one isn't being offered at the time or you prefer the other one. Both are just as good, go with whichever you prefer or whichever is available when you want to take the course.
-
-### Why do you recommend skipping the second half of CS50?
-
-The strongest and most useful part of CS50 is the part where they teach C.
-We are retaining this in the curriculum for now because it is one of the few chances the student has to play with manual memory management in a (relatively) low-level language.
-By learning C, students will also have a much easier time getting through the following course, Nand2Tetris.
-
-That being said, feel free to finish CS50 if you like it and want to.
 
 ### Why doesn't the curriculum cover/ignore topic X?
 
