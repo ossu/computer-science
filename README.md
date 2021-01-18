@@ -150,7 +150,6 @@ All coursework under Core CS is **required**, unless otherwise indicated.
 `common design patterns`
 `unit testing`
 `object-oriented design`
-`Java`
 `static typing`
 `dynamic typing`
 `ML-family languages (via Standard ML)`
