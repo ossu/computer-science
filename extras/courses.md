@@ -27,7 +27,7 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x-0) | 4 weeks | 2 hours/week
+[Effective Thinking Through Mathematics](https://learning.edx.org/course/course-v1:UTAustinX+UT.9.10x+3T2016/home) | 4 weeks | 2 hours/week
 [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week
 [High School Math](https://www.khanacademy.org/math/high-school-math) | - | -
 [Precalculus](https://www.futurelearn.com/courses/precalculus) | 5 weeks | 6 hours/week
