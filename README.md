@@ -343,15 +343,15 @@ If not, or if a student chooses not to take the Capstone, then a separate Final 
 `large-scale software architecture and design`
 `and more`
 
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Parallel Programming](https://www.coursera.org/learn/parprog1)| 4 weeks | 6-8 hours/week | Scala programming
-[Compilers](https://www.edx.org/course/compilers) | 9 weeks | 6-8 hours/week | none
-[Introduction to Haskell](https://www.seas.upenn.edu/~cis194/fall16/)| 14 weeks | - | -
-[Learn Prolog Now!](http://www.learnprolognow.org/lpnpage.php?pageid=online)| 12 weeks | - | -
-[Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming
-[Software Testing](https://www.udacity.com/course/software-testing--cs258) | 4 weeks | 6 hours/week | Python, programming experience
-[Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | software engineering in Java
+Courses | Duration | Effort | Prerequisites| Text 
+:-- | :--: | :--: | :--: | ---- 
+[Parallel Programming](https://www.coursera.org/learn/parprog1)| 4 weeks | 6-8 hours/week | Scala programming| 
+[Compilers](https://www.edx.org/course/compilers) | 9 weeks | 6-8 hours/week | none| 
+[Introduction to Haskell](https://www.seas.upenn.edu/~cis194/fall16/)| 14 weeks | - | -| 
+[Learn Prolog Now!](https://www.let.rug.nl/bos/lpn//lpnpage.php?pageid=online)| 12 weeks | - | -| [book version](https://github.com/ossu/computer-science/files/6085884/lpn.pdf) by Blackburn, Bos, Striegnitz (redistributed under [CC license](http://creativecommons.org/licenses/by-sa/4.0/)) 
+[Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming| 
+[Software Testing](https://www.udacity.com/course/software-testing--cs258) | 4 weeks | 6 hours/week | Python, programming experience| 
+[Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)| 8 weeks | 6 hours/week | software engineering in Java| 
 
 ### Advanced systems
 
