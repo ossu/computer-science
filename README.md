@@ -36,7 +36,7 @@ but specifically chosen to meet the following criteria.
 
 **Courses must**:
 - Be open for enrollment
-- Run regularly (ideally in self-paced format, otherwise running multiple times per year)
+- Run regularly (ideally in a self-paced format, otherwise running multiple times per year)
 - Be of generally high quality in teaching materials and pedagogical principles
 - Match the curricular standards of the [CS 2013](CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science 
 
@@ -64,7 +64,7 @@ just remember that you can't purchase success!
 - Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in and take all the courses under that heading. You can also create your own custom subject, but we recommend getting validation from the community on the subject you choose.
 
 **Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
-*Do NOT disrespect the code of conduct* that you signed in the beginning of each course!
+*Do NOT disrespect the code of conduct* that you signed at the beginning of each course!
 
 **[How to contribute](CONTRIBUTING.md)**
 
@@ -481,8 +481,8 @@ What is next for you? The possibilities are boundless and overlapping:
 - Check out the [readings](extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
 - Join a local developer meetup (e.g. via [meetup.com](https://www.meetup.com/)).
 - Pay attention to emerging technologies in the world of software development:
-  + Explore the **actor model** through [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
-  + Explore **borrowing and lifetimes** through [Rust](https://www.rust-lang.org/), a systems language which achieves memory- and thread-safety without a garbage collector!
+  + Explore the **actor model** through [Elixir](http://elixir-lang.org/), a new functional programming language for the web-based on the battle-tested Erlang Virtual Machine!
+  + Explore **borrowing and lifetimes** through [Rust](https://www.rust-lang.org/), a systems language that achieves memory- and thread-safety without a garbage collector!
   + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development.
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
@@ -503,14 +503,14 @@ The meaning of each of these labels is:
 
 - `Main Curriculum`: cards with that label represent courses that are listed in our curriculum.
 - `Extra Resources`: cards with that label represent courses that were added by the student.
-- `Doing`: cards with that label represent courses the student is current doing.
+- `Doing`: cards with that label represent courses the student is currently doing.
 - `Done`: cards with that label represent courses finished by the student.
 Those cards should also have the link for at least one project/article built with the knowledge acquired in such course.
 - `Section`: cards with that label represent the section that we have in our curriculum.
 Those cards with the `Section` label are only to help the organization of the Done column.
 You should put the *Course's cards* below its respective *Section's card*.
 
-The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
+The intention of this board is to provide our students with a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
 You can change the status of your board to be *public* or *private*.
 
 # Team
