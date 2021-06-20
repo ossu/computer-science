@@ -1,1 +1,2 @@
-  [] Algebra foundations
+  - [] Algebra foundations
+  - [] Solving equations & inequalities
