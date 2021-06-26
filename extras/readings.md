@@ -61,6 +61,7 @@ Name | Author(s)
 [Introduction to the Theory of Computation (3rd Edition)](https://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779X) | Michael Sipser
 [Introduction to Algorithms (3rd Edition)](http://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/) | Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
 [The Algorithm Design Manual (3rd Edition)](https://www.algorist.com/) | Steven Skiena
+[Algorithms (4th Edition)](https://algs4.cs.princeton.edu/home/) | Robert Sedgewick
 [Category Theory: A Gentle Introduction](http://www.logicmatters.net/resources/pdfs/GentleIntro.pdf) | Peter Smith
 [Category Theory for Programmers: The Preface](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) | Bartosz Milewski
 [An Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf) | Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze
