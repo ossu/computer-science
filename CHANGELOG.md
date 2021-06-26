@@ -46,7 +46,7 @@ This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
 
 ## [7.1.2] 2017-04-22
 ### Updated
-- Add link to Mega Project List in the introduction of the Projects section
+- Added link to Mega Project List in the introduction of the Projects section
 
 ## [7.1.1] 2017-04-11
 ### Updated
