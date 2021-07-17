@@ -169,7 +169,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 3 weeks | 4-8 hours/week | Programming Languages, Part B | [chat](https://discord.gg/8EZUVbA)
 
 ### Core Math
-In addition to their math elective, students must complete the following course on discrete mathematics.
+Discrete math (Math for CS) is a prerequisite and closely related to the study of algorithms and data structures. Calculus both prepares students for discrete math and helps students develop mathematical maturity.
 
 **Topics covered**:
 `discrete mathematics`
