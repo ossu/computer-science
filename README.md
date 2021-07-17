@@ -100,7 +100,6 @@ just remember that you can't purchase success!
   - [Advanced systems](#advanced-systems)
   - [Advanced theory](#advanced-theory)
   - [Advanced math](#advanced-math)
-  - [Advanced applications](#advanced-applications)
 - [Final project](#final-project)
 
 ---
@@ -306,10 +305,6 @@ After completing **every required course** in Core CS, students should choose a 
 Not every course from a subcategory needs to be taken.
 But students should take *every* course that is relevant to the field they intend to go into.
 
-The Advanced CS study should then end with one of the Specializations under [Advanced applications](#advanced-applications).
-A Specialization's Capstone, if taken, may act as the [Final project](#final-project), if permitted by the Honor Code of the course.
-If not, or if a student chooses not to take the Capstone, then a separate Final project will need to be done to complete this curriculum.
-
 ### Advanced programming
 
 **Topics covered**:
@@ -389,52 +384,41 @@ Courses | Duration | Effort | Prerequisites | Discussion
 [Introduction to Logic](https://www.coursera.org/learn/logic-introduction) | 10 weeks | 4-8 hours/week | [set theory](https://www.youtube.com/playlist?list=PL5KkMZvBpo5AH_5GpxMiryJT6Dkj32H6N) | [chat](https://discord.gg/MbM2Gg5)
 [Probability](https://projects.iq.harvard.edu/stat110/home) | 24 weeks | 12 hours/week | [Differentiation and Integration](https://www.edx.org/course/calculus-1b-integration) | [chat](https://discord.gg/UVjs9BU)
 
-### Advanced applications
-
-These Coursera Specializations all end with a Capstone project.
-Depending on the course, you may be able to utilize the Capstone as your Final Project for this Computer Science curriculum.
-Note that doing a Specialization with the Capstone at the end always costs money.
-So if you don't wish to spend money or use the Capstone as your Final, it may be possible to take the courses in the Specialization for free by manually searching for them, but not all allow this.
-
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Modern Robotics (Specialization)](https://www.coursera.org/specializations/modernrobotics) | 26 weeks | 2-5 hours/week | freshman-level physics, linear algebra, calculus, [linear ordinary differential equations](https://www.khanacademy.org/math/differential-equations)
-[Data Mining (Specialization)](https://www.coursera.org/specializations/data-mining) | 30 weeks | 2-5 hours/week | machine learning
-[Big Data (Specialization)](https://www.coursera.org/specializations/big-data) | 30 weeks | 3-5 hours/week | none
-[Internet of Things (Specialization)](https://www.coursera.org/specializations/internet-of-things) | 30 weeks | 1-5 hours/week | strong programming
-[Cloud Computing (Specialization)](https://www.coursera.org/specializations/cloud-computing) | 30 weeks | 2-6 hours/week | C++ programming
-[Fullstack Open](https://fullstackopen.com/en) | 12 weeks | 6 hours/week | programming
-[Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none
-[Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 weeks | 4-5 hours/week | One year programming experience
-[Game Design and Development with Unity 2020 (Specialization)](https://www.coursera.org/specializations/game-design-and-development) | 6 months | 5 hours/week | programming, interactive design
-
 ## Final project
 
-OSS University is **project-focused**.
-You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real-world problem.
+OSS University is project-focused.
+The assignments and exams for each course are to prepare you to use your knowledge to solve real-world problems.
 
 After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired.
-Not only does real project work look great on a resume, but the project will also *validate* and *consolidate* your knowledge.
+Not only does real project work look great on a resume, but the project will also validate and consolidate your knowledge.
 You can create something entirely new, or you can find an existing project that needs help via websites like
 [CodeTriage](https://www.codetriage.com/)
 or
 [First Timers Only](http://www.firsttimersonly.com/).
 
-Another option is using the Capstone project from taking one of the Specializations in [Advanced applications](#advanced-applications);
-whether or not this makes sense depends on the course, the project, and whether or not the course's Honor Code permits you to display your work publicly.
-In some cases, it may not be permitted;
-do **not** violate your course's Honor Code!
-
-Put the OSSU-CS badge in the README of your repository!
-[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
-
-- Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)`
-- HTML: `<a href="https://github.com/ossu/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
+Students who would like more guidance in creating a project may choose to use a series of project oriented courses. Here is a sample of options (many more are available, at this point you should be capable of identifying a series that is interesting and relevant to you):
+Courses | Duration | Effort | Prerequisites
+:-- | :--: | :--: | :--:
+[Fullstack Open](https://fullstackopen.com/en) | 12 weeks | 6 hours/week | programming
+[Modern Robotics (Specialization)](https://www.coursera.org/specializations/modernrobotics) | 26 weeks | 2-5 hours/week | freshman-level physics, linear algebra, calculus, [linear ordinary differential equations](https://www.khanacademy.org/math/differential-equations)
+[Data Mining (Specialization)](https://www.coursera.org/specializations/data-mining) | 30 weeks | 2-5 hours/week | machine learning
+[Big Data (Specialization)](https://www.coursera.org/specializations/big-data) | 30 weeks | 3-5 hours/week | none
+[Internet of Things (Specialization)](https://www.coursera.org/specializations/internet-of-things) | 30 weeks | 1-5 hours/week | strong programming
+[Cloud Computing (Specialization)](https://www.coursera.org/specializations/cloud-computing) | 30 weeks | 2-6 hours/week | C++ programming
+[Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none
+[Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 weeks | 4-5 hours/week | One year programming experience
+[Game Design and Development with Unity 2020 (Specialization)](https://www.coursera.org/specializations/game-design-and-development) | 6 months | 5 hours/week | programming, interactive design
 
 ### Evaluation
 
-Upon completing your final project, submit your project's information to [PROJECTS](PROJECTS.md)
-via a pull request and use our [community](#community) channels to announce it to your fellow students.
+Upon completing your final project:
+- Submit your project's information to [PROJECTS](PROJECTS.md) via a pull request.
+- Put the OSSU-CS badge in the README of your repository!
+[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
+
+  - Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)`
+  - HTML: `<a href="https://github.com/ossu/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
+- Use our [community](#community) channels to announce it to your fellow students.
 
 Solicit feedback from your OSSU peers.
 You will not be "graded" in the traditional sense — everyone has their own measurements for what they consider a success.
