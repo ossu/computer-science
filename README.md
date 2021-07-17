@@ -436,10 +436,10 @@ Put the OSSU-CS badge in the README of your repository!
 Upon completing your final project, submit your project's information to [PROJECTS](PROJECTS.md)
 via a pull request and use our [community](#community) channels to announce it to your fellow students.
 
-Your peers and mentors from OSSU will then informally evaluate your project.
+Solicit feedback from your OSSU peers.
 You will not be "graded" in the traditional sense — everyone has their own measurements for what they consider a success.
 The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist
-and to get experience listening to feedback — both positive and negative — and taking it in stride.
+and to get experience listening to feedback — both positive and negative.
 
 The final project evaluation has a second purpose: to evaluate whether OSSU,
 through its community and curriculum, is successful in its mission to guide independent learners in obtaining a world-class computer science education.
