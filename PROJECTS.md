@@ -10,12 +10,11 @@ For more project ideas, check the [Mega Project List](https://github.com/karan/P
 - [Math](#math)
 - [Systems](#systems)
 - [Theory](#theory)
-- [Applications](#applications)
+- [Applications](#application)
 
 ## Introduction to Computer Science
 Project Title | Description | Author(s) | Repository
 :-- | :-- | :--: | :--
-Binary Machine | Convert decimal numbers to binary | [Eric Douglas](https://github.com/ericdouglas) | [binary-machine](https://github.com/ericdouglas/binary-machine)
 StalkHub | Stalk Github beautifully | [Aman Roy](https://github.com/aman-roy) | [StalkHub](https://github.com/aman-roy/StalkHub)
 Webliza | ELIZA in python with web interface | [Vipin Kumar](https://github.com/VipinindKumar) | [Webliza](https://github.com/VipinindKumar/Webliza)
 
