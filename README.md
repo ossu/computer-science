@@ -486,6 +486,6 @@ You can change the status of your board to be *public* or *private*.
 # Team
 
 * **[Eric Douglas](https://github.com/ericdouglas)**: founder of OSSU
-* **[hanjiexi](https://github.com/hanjiexi)**: lead technical maintainer
-* **[waciumawanjohi](https://github.com/waciumawanjohi)**: lead academic maintainer
+* **[Josh Hanson](https://github.com/joshmhanson)**: lead technical maintainer
+* **[Waciuma Wanjohi](https://github.com/waciumawanjohi)**: lead academic maintainer
 * **[Contributors](https://github.com/ossu/computer-science/graphs/contributors)**
