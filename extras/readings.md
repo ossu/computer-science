@@ -24,6 +24,7 @@ Name | Author(s)
 [Programming Languages: Application and Interpretation](http://cs.brown.edu/~sk/Publications/Books/ProgLangs/) | Shriram Krishnamurthi
 [Programming and Programming Languages](https://papl.cs.brown.edu/2018/) | Shriram Krishnamurthi, Benjamin S. Lerner, Joe Gibbs Politz
 [Competitive Programming](https://cpbook.net/) | Steven Halim, Felix Halim
+[Introduction to computing in Java](https://introcs.cs.princeton.edu/java/home/) | Robert Sedgewick, Kevin Wayne
 
 ## Math
 
@@ -65,6 +66,7 @@ Name | Author(s)
 [Category Theory: A Gentle Introduction](http://www.logicmatters.net/resources/pdfs/GentleIntro.pdf) | Peter Smith
 [Category Theory for Programmers: The Preface](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) | Bartosz Milewski
 [An Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf) | Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze
+[Computer Science: An interdisciplinary approach](https://introcs.cs.princeton.edu/java/cs/) | Robert Sedgewick, Kevin Wayne
 
 ## Applications
 
