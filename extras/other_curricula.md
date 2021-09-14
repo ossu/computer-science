@@ -6,6 +6,7 @@ OSSU is one of a few efforts to inform learners how they can pursue computer sci
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 - [Obtaining a Thorough CS Background Online](http://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/)
 - [P1xt](https://github.com/P1xt/p1xt-guides)
+- [Functional CS](https://functionalcs.github.io/curriculum/)
 
 What differentiates OSSU? OSSU is dedicated to how an individual can learn the undergraduate CS curriculum. This is why we use the [CS2013](../CURRICULAR_GUIDELINES.md) as our curricular guidelines. These guidelines are written by the two foremost professional organizations in computing.
 
