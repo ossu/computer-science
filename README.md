@@ -304,6 +304,7 @@ Courses | Duration | Effort | Prerequisites
 [Identifying Security Vulnerabilities](https://www.coursera.org/learn/identifying-security-vulnerabilities) | 4 weeks | 4 hours/week | -
 
 Choose **one** of the following:
+
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Identifying Security Vulnerabilities in C/C++Programming](https://www.coursera.org/learn/identifying-security-vulnerabilities-c-programming) | 4 weeks | 5 hours/week | -
