@@ -397,6 +397,7 @@ or
 [First Timers Only](http://www.firsttimersonly.com/).
 
 Students who would like more guidance in creating a project may choose to use a series of project oriented courses. Here is a sample of options (many more are available, at this point you should be capable of identifying a series that is interesting and relevant to you):
+
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Fullstack Open](https://fullstackopen.com/en) | 12 weeks | 6 hours/week | programming
