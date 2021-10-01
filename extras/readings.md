@@ -84,3 +84,10 @@ Name | Author(s)
 [Compiler Construction](https://inf.ethz.ch/personal/wirth/CompilerConstruction/index.html) | Niklaus Wirth 
 [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/) | Fred Brooks, Jr.
 [Physically Based Rendering: From Theory To Implementation](http://www.pbr-book.org/) | Matt Pharr, Wenzel Jakob, and Greg Humphreys
+
+
+## Tools
+
+Name | Author(s)
+:-- | :--:
+[The Linux Command Line](https://linuxcommand.org/tlcl.php) | by William Shotts
