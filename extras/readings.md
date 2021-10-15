@@ -45,6 +45,7 @@ Name | Author(s)
 [But How Do It Know?](http://www.buthowdoitknow.com/) | J. Clark Scott
 [Computer Systems: A Programmer's Perspective (3rd Edition)](http://csapp.cs.cmu.edu/) | Randal E. Bryant, David R. O'Hallaron
 [Modern Operating Systems (4th Edition)](http://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X/) | Andrew S. Tanenbaum, Herbert Bos
+[Crafting Interpreters](https://www.craftinginterpreters.com/contents.html) | Robert Nystrom
 [Computer Organization and Design: The Hardware/Software Interface (6th Edition)](https://www.amazon.com/Computer-Organization-Design-MIPS-Architecture/dp/0128201096/) | David Patternson, John Hennessy
 [Computer Networks (5th Edition)](http://www.amazon.com/Computer-Networks-5th-Andrew-Tanenbaum/dp/0132126958/) | Andrew S. Tanenbaum, David J. Wetherall
 [Computer Networking: A Top-Down Approach (8th Edition)](https://gaia.cs.umass.edu/kurose_ross/index.html) | James F Kurose, Keith W Ross
