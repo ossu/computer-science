@@ -127,13 +127,13 @@ Courses | Duration | Effort | Prerequisites | Discussion
 
 ### Introduction to Computer Science
 
-This course will introduce you to the world of computer science. Students who have been introduced to programming, either from the courses above or through study elsewhere, should take this course for a flavor of the material to come. If you finish the course wanting more, Computer Science is likely for you!
+This course will introduce you to the world of computer science. Students who have been introduced to programming, either from the courses above or through study elsewhere, should take this course for a flavor of the material to come. If like to complete and crave for more, Computer Science is likely for you!
 
 **Topics covered**:
 `computation`
 `imperative programming`
 `basic data structures and algorithms`
-`and more`
+`and many more`
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
@@ -304,7 +304,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 
 ## Advanced CS
 
-After completing **every required course** in Core CS, students should choose a subset of courses from Advanced CS based on interest.
+After completing **every required course** in Core CS, students should choose a subset of courses from Advanced CS based on their interest.
 Not every course from a subcategory needs to be taken.
 But students should take *every* course that is relevant to the field they intend to go into.
 
@@ -316,7 +316,7 @@ But students should take *every* course that is relevant to the field they inten
 `parallel computing`
 `object-oriented analysis and design`
 `UML`
-`large-scale software architecture and design`
+`large-scale software Architecture and Design`
 `and more`
 
 Courses | Duration | Effort | Prerequisites
