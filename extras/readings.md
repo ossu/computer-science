@@ -30,8 +30,10 @@ Name | Author(s)
 
 Name | Author(s)
 :-- | :--:
+[Calculus (4th Edition)](https://www.amazon.com/Calculus-4th-Michael-Spivak/dp/0914098918/ref=sr_1_1?crid=I8IWCMR14KTG&dchild=1&keywords=spivak+calculus&qid=1635706860&s=books&sprefix=spivak+calcul%2Cstripbooks-intl-ship%2C214&sr=1-1) | Michael Spivak
 [Calculus Made Easy](http://www.gutenberg.org/ebooks/33283) | Silvanus P. Thompson
 [Ximera](https://ximera.osu.edu/): Interactive Calculus Textbooks | [Ximera team](https://ximera.osu.edu/about/team)
+[Discrete Mathematics and Its Applications (7th Edition](https://www.amazon.com/Discrete-Mathematics-Its-Applications-Seventh/dp/0073383090) | Kenneth H. Rosen
 [Discrete Mathematics with Applications (4th Edition)](http://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/0495391328/) | Susanna S. Epp
 [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi/) | Oscar Levin
 [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) | Alan Doerr, Ken Levasseur
@@ -67,6 +69,7 @@ Name | Author(s)
 [Category Theory for Programmers: The Preface](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) | Bartosz Milewski
 [An Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf) | Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze
 [Computer Science: An interdisciplinary approach](https://introcs.cs.princeton.edu/java/cs/) | Robert Sedgewick, Kevin Wayne
+[The Art of Computer Programming](https://www.amazon.com/gp/product/B089SS3PXR?ref_=dbs_p_mng_rwt_ser_shvlr&storeType=ebooks) | Donald E. Knuth
 
 ## Applications
 
