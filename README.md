@@ -314,9 +314,9 @@ Courses | Duration | Effort | Prerequisites | Discussion
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Ethics, Technology and Engineering](https://www.coursera.org/learn/ethics-technology-engineering)| 9 weeks | 2 hours/week | - | [chat](https://discord.gg/pMFqNf4)
-[Intellectual Property Law in Digital Age](https://www.coursera.org/learn/intellectual-property-law-in-digital-age)| 4 weeks | 2 hours/week | - | [chat](https://discord.gg/P8SPPyF)
-[Data Privacy Fundamentals](https://www.coursera.org/learn/northeastern-data-privacy)| 3 weeks | 3 hours/week | - | [chat](https://discord.gg/duCJ3GN)
+[Ethics, Technology and Engineering](https://www.coursera.org/learn/ethics-technology-engineering)| 9 weeks | 2 hours/week | none | [chat](https://discord.gg/pMFqNf4)
+[Intellectual Property Law in Digital Age](https://www.coursera.org/learn/intellectual-property-law-in-digital-age)| 4 weeks | 2 hours/week | none | [chat](https://discord.gg/P8SPPyF)
+[Data Privacy Fundamentals](https://www.coursera.org/learn/northeastern-data-privacy)| 3 weeks | 3 hours/week | none | [chat](https://discord.gg/duCJ3GN)
 
 ## Advanced CS
 
