@@ -25,6 +25,7 @@ Name | Author(s)
 [Programming and Programming Languages](https://papl.cs.brown.edu/2018/) | Shriram Krishnamurthi, Benjamin S. Lerner, Joe Gibbs Politz
 [Competitive Programming](https://cpbook.net/) | Steven Halim, Felix Halim
 [Introduction to computing in Java](https://introcs.cs.princeton.edu/java/home/) | Robert Sedgewick, Kevin Wayne
+[The Go Programming Language](https://www.amazon.in/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440) | Alan A. A. Donovan and Brian W. Kernighan
 
 ## Math
 
