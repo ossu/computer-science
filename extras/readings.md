@@ -35,8 +35,9 @@ Name | Author(s)
 [Discrete Mathematics with Applications (4th Edition)](http://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/0495391328/) | Susanna S. Epp
 [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi/) | Oscar Levin
 [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) | Alan Doerr, Ken Levasseur
-[Grinstead and Snell’s Introduction to Probability](https://math.dartmouth.edu/~prob/prob/prob.pdf) |Charles M. Grinstead, J. Laurie Snell
+[Grinstead and Snell’s Introduction to Probability](https://math.dartmouth.edu/~prob/prob/prob.pdf) | Charles M. Grinstead, J. Laurie Snell
 [Introduction to Linear Algebra (5th Edition)](https://math.mit.edu/~gs/linearalgebra/) | Gilbert Strang
+[The Art of Linear Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) | Kenji Hiranabe, Gilbert Strang
 
 ## Systems
 
@@ -50,6 +51,7 @@ Name | Author(s)
 [Computer Networking: A Top-Down Approach (8th Edition)](https://gaia.cs.umass.edu/kurose_ross/index.html) | James F Kurose, Keith W Ross
 [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Andrew-Tanenbaum/dp/153028175X) | Andrew Tanenbaum
 [Operating Systems Design and Implementation](https://www.amazon.com/Operating-Systems-Design-Implementation-3rd/dp/0131429388) | Andrew S. Tanenbaum, Albert S. Woodhull
+[Crafting Interpreters](https://www.craftinginterpreters.com/contents.html) | Robert Nystrom
 [Principles of Compiler Design](https://www.amazon.com/Principles-Compiler-Addison-Wesley-information-processing/dp/0201000229) | Alfred Aho, Jeffrey Ullman
 [Distributed Systems Reading Group](http://dsrg.pdos.csail.mit.edu/papers/) | Various
 [System Design: Design large-scale systems](https://github.com/donnemartin/system-design-primer) | Various
@@ -78,7 +80,7 @@ Name | Author(s)
 [Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902) | Jim Gray, Andreas Reuter
 [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World (3rd Edition)](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | William Kent
 [The Architecture of Open Source Applications](http://aosabook.org/en/) | Michael DiBernardo (editor)
-[An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/) |  Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
+[An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/) | Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 [Deep Learning](http://www.deeplearningbook.org/) | Ian Goodfellow, Yoshua Bengio and Aaron Courville
 [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage) | David Barber
 [Language Implementation Patterns](https://www.amazon.com/gp/product/193435645X) | Terence Parr
