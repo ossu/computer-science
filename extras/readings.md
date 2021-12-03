@@ -31,7 +31,7 @@ Name | Author(s)
 Name | Author(s)
 :-- | :--:
 [Calculus Made Easy](http://www.gutenberg.org/ebooks/33283) | Silvanus P. Thompson
-[Ximera](https://ximera.osu.edu/): Interactive Calculus Textbooks | [Ximera team](https://ximera.osu.edu/about/team)
+[Ximera: Interactive Calculus Textbooks](https://ximera.osu.edu/) | [Ximera team](https://ximera.osu.edu/about/team)
 [Discrete Mathematics with Applications (4th Edition)](http://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/0495391328/) | Susanna S. Epp
 [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi/) | Oscar Levin
 [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) | Alan Doerr, Ken Levasseur
