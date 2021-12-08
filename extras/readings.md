@@ -36,7 +36,7 @@ Name | Author(s)
 [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi/) | Oscar Levin
 [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) | Alan Doerr, Ken Levasseur
 [Grinstead and Snell’s Introduction to Probability](https://math.dartmouth.edu/~prob/prob/prob.pdf) | Charles M. Grinstead, J. Laurie Snell
-[Introduction to Linear Algebra (5th Edition)](https://math.mit.edu/~gs/linearalgebra/) | Gilbert Strang
+[Linear Algebra for Everyone](https://math.mit.edu/~gs/everyone/) | Gilbert Strang
 [The Art of Linear Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) | Kenji Hiranabe, Gilbert Strang
 
 ## Systems
