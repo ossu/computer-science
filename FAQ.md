@@ -130,5 +130,7 @@ For MOOCs an excellent resource is [Class Central](https://www.classcentral.com/
 For materials from university courses that are online (but not organized)
 into a MOOC, [awesome-courses](https://github.com/prakhar1989/awesome-courses) and
 [cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
-are good resources. For learning a particular programming language or framework,
+are good resources. For textbooks, [Goodreads](https://www.goodreads.com/genres/computer-science)
+is a great platform for reader ratings and reviews.
+For learning a particular programming language or framework,
 [see this question](#what-is-a-good-course-to-learn-a-particular-language).
