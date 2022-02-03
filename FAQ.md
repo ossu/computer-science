@@ -128,6 +128,7 @@ After completing Core CS, learners are ready to pursue computer science
 topics of their own interest. How can one find a course on a given topic?
 For MOOCs an excellent resource is [Class Central](https://www.classcentral.com/).
 For materials from university courses that are online (but not organized)
-into a MOOC, [awesome-courses](https://github.com/prakhar1989/awesome-courses)
-is a good resource. For learning a particular programming language or framework,
+into a MOOC, [awesome-courses](https://github.com/prakhar1989/awesome-courses) and
+[cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
+are good resources. For learning a particular programming language or framework,
 [see this question](#what-is-a-good-course-to-learn-a-particular-language).
