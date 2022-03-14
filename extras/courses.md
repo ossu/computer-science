@@ -62,7 +62,6 @@ Courses | Duration | Effort
 [Analysis of Algorithms (Sedgewick)](https://www.coursera.org/learn/analysis-of-algorithms) | 6 weeks | 6-8 hours/week
 [Analysis of Algorithms (Skiena)](http://www3.cs.stonybrook.edu/~skiena/373/) | 15 weeks | 6-8 hours/week
 [Programming Challenges (Skiena)](http://www3.cs.stonybrook.edu/~skiena/392/) | 14 weeks | 6-8 hours/week
-[Data Structures and Algorithms (Specialization)](https://www.coursera.org/specializations/data-structures-algorithms) | 25 weeks | 3-10 hours/week
 [Algorithmic Thinking (Part 1)](https://www.coursera.org/learn/algorithmic-thinking-1/) | - | -
 [Algorithmic Thinking (Part 2)](https://www.coursera.org/learn/algorithmic-thinking-2/) | - | -
 [Statistical Mechanics: Algorithms and Computations](https://www.coursera.org/learn/statistical-mechanics/) | - | -
