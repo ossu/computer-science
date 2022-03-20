@@ -38,7 +38,7 @@ but specifically chosen to meet the following criteria.
 - Be open for enrollment
 - Run regularly (ideally in self-paced format, otherwise running multiple times per year)
 - Be of generally high quality in teaching materials and pedagogical principles
-- Match the curricular standards of the [CS 2013](CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science 
+- Match the curricular standards of the [CS 2013](CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science
 
 When no course meets the above criteria, the coursework is supplemented with a book.
 When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
@@ -95,7 +95,7 @@ just remember that you can't purchase success!
   - [Core theory](#core-theory)
   - [Core security](#core-security)
   - [Core applications](#core-applications)
-  - [Core ethics](#core-ethics) 
+  - [Core ethics](#core-ethics)
 - [Advanced CS](#advanced-cs)
   - [Advanced programming](#advanced-programming)
   - [Advanced systems](#advanced-systems)
@@ -291,7 +291,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 `supervised learning`
 `unsupervised learning`
 `OpenGL`
-`raytracing`
+`ray tracing`
 `and more`
 
 Courses | Duration | Effort | Prerequisites | Discussion
@@ -337,7 +337,7 @@ But students should take *every* course that is relevant to the field they inten
 `and more`
 
 Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--: 
+:-- | :--: | :--: | :--:
 [Parallel Programming](https://www.coursera.org/learn/scala-parallel-programming)| 4 weeks | 6-8 hours/week | Scala programming
 [Compilers](https://www.edx.org/course/compilers) | 9 weeks | 6-8 hours/week | none
 [Introduction to Haskell](https://www.seas.upenn.edu/~cis194/fall16/)| 14 weeks | - | -
@@ -494,9 +494,9 @@ The meaning of each of these labels is:
 
 - `Main Curriculum`: cards with that label represent courses that are listed in our curriculum.
 - `Extra Resources`: cards with that label represent courses that were added by the student.
-- `Doing`: cards with that label represent courses the student is current doing.
+- `Doing`: cards with that label represent courses the student is currently doing.
 - `Done`: cards with that label represent courses finished by the student.
-Those cards should also have the link for at least one project/article built with the knowledge acquired in such course.
+Those cards should also have the link for at least one project/article built with the knowledge acquired in such a course.
 - `Section`: cards with that label represent the section that we have in our curriculum.
 Those cards with the `Section` label are only to help the organization of the Done column.
 You should put the *Course's cards* below its respective *Section's card*.
