@@ -38,6 +38,7 @@ Name | Author(s)
 [Grinstead and Snell’s Introduction to Probability](https://math.dartmouth.edu/~prob/prob/prob.pdf) | Charles M. Grinstead, J. Laurie Snell
 [Linear Algebra for Everyone](https://math.mit.edu/~gs/everyone/) | Gilbert Strang
 [The Art of Linear Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) | Kenji Hiranabe, Gilbert Strang
+[The Art of Problem Solving: Calculus](https://artofproblemsolving.com/store/book/calculus) | David Patrick
 
 ## Systems
 
