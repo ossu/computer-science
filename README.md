@@ -420,7 +420,7 @@ Students who would like more guidance in creating a project may choose to use a 
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Fullstack Open](https://fullstackopen.com/en/) | 12 weeks | 6 hours/week | programming
+[Fullstack Open](https://fullstackopen.com/en/) | 12 weeks | 15 hours/week | programming
 [Modern Robotics (Specialization)](https://www.coursera.org/specializations/modernrobotics) | 26 weeks | 2-5 hours/week | freshman-level physics, linear algebra, calculus, [linear ordinary differential equations](https://www.khanacademy.org/math/differential-equations)
 [Data Mining (Specialization)](https://www.coursera.org/specializations/data-mining) | 30 weeks | 2-5 hours/week | machine learning
 [Big Data (Specialization)](https://www.coursera.org/specializations/big-data) | 30 weeks | 3-5 hours/week | none
