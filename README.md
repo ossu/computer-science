@@ -464,7 +464,7 @@ The important thing is to **internalize** the core concepts and to be able to us
 
 ## Congratulations
 
-After completing the requirements of the curriculum above, you will have completed the equivalent of a full bachelor's degree in Computer Science. Congratulations!
+After completing the requirements of the curriculum above, you will have completed the equivalent of a full bachelorx (pronounced "bachelor-ex")'s degree in Computer Science. Congratulations!
 
 What is next for you? The possibilities are boundless and overlapping:
 
