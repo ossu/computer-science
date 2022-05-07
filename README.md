@@ -56,7 +56,7 @@ they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/r
 **Cost**. All or nearly all course material is available for free. However, some courses may charge money for assignments/tests/projects to be graded.
 Note that both [Coursera](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=en_US) and [edX](https://courses.edx.org/financial-assistance/) offer financial aid.
 
-Decide how much or how little to spend based on your own time and budget;
+Decide how much or how little to spend based on your own time and budget,
 just remember that you can't purchase success!
 
 **Process**. Students can work through the curriculum alone or in groups, in order or out of order.
