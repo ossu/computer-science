@@ -20,6 +20,7 @@ Alternatively, you could [contribute](#CONTRIBUTING.md) an answer yourself.
 - [Why doesn't the curriculum cover/ignore topic X?](#why-doesnt-the-curriculum-coverignore-topic-x)
 - [Why is the curriculum missing some pre-requisites?](#why-is-the-curriculum-missing-some-pre-requisites)
 - [Why require experience with a sizable project before the Software Engineering courses?](#why-require-experience-with-a-sizable-project-before-the-Software-Engineering-courses)
+- [How can I find a course on a particular subject?](#how-can-I-find-a-course-on-a-particular-subject)
 
 ## Questions
 
@@ -121,3 +122,15 @@ Of course, if you find that the curriculum is missing a pre-requisite for a cour
 
 ### Why require experience with a sizable project before the Software Engineering courses?
 Software engineering tries to solve the problem of dealing with large programs. Building a sizable program before taking the SE courses will help you understand what SE is trying to solve. We recommend the Jack-to-VM-code compiler project from the nand2tetris course because it's the first project in the curriculum that is complex enough to see value in a SE course. That said, any sizable project will do and can come from outside of the OSSU curriculum. The idea is that you've done some large enough project where the pieces started to feel unmanageable. This experience will expose pain points and lead to a better understanding of SE.
+
+### How can I find a course on a particular subject?
+After completing Core CS, learners are ready to pursue computer science
+topics of their own interest. How can one find a course on a given topic?
+For MOOCs an excellent resource is [Class Central](https://www.classcentral.com/).
+For materials from university courses that are online (but not organized)
+into a MOOC, [awesome-courses](https://github.com/prakhar1989/awesome-courses) and
+[cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
+are good resources. For textbooks, [Goodreads](https://www.goodreads.com/genres/computer-science)
+is a great platform for reader ratings and reviews.
+For learning a particular programming language or framework,
+[see this question](#what-is-a-good-course-to-learn-a-particular-language).
