@@ -262,8 +262,6 @@ Courses | Duration | Effort | Prerequisites | Discussion
 `Cryptography`
 `and more`
 
-Note: **_These courses are provisionally recommended_**. There is an open [Request For Comment](https://github.com/ossu/computer-science/issues/639) on security course selection. Contributors are encouraged to compare the various courses in the RFC and offer feedback.
-
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 [Information Security: Context and Introduction](https://www.coursera.org/learn/information-security-data) | 5 weeks | 3 hours/week | - | [chat](https://discord.gg/8h6Rz8g)
