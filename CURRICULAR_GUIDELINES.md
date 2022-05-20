@@ -1,4 +1,4 @@
-# Curricular Guidelines
+# Curricular Guidelines:
 
 [Curriculum Guidelines for Undergraduate Programs in Computer Science](https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf)
 
