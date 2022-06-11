@@ -69,6 +69,7 @@ Name | Author(s)
 [Category Theory for Programmers: The Preface](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) | Bartosz Milewski
 [An Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf) | Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze
 [Computer Science: An interdisciplinary approach](https://introcs.cs.princeton.edu/java/cs/) | Robert Sedgewick, Kevin Wayne
+[DSA CS3: Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/OpenDSA/Books/CS3/html/) ([Coursenotes](https://opendsa-server.cs.vt.edu/OpenDSA/Books/CS3notes/html/) - [Slides](https://opendsa-server.cs.vt.edu/OpenDSA/Books/CS3slides/html/)) | The OpenDSA Project (supported by National Science Foundation)
 
 ## Applications
 
