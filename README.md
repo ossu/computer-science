@@ -35,7 +35,7 @@ The courses themselves are among the very best in the world, often coming from H
 but specifically chosen to meet the following criteria.
 
 **Courses must**:
-- Be open for enrollment
+- Be open for enrolment
 - Run regularly (ideally in self-paced format, otherwise running multiple times per year)
 - Be of generally high quality in teaching materials and pedagogical principles
 - Match the curricular standards of the [CS 2013](CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science
