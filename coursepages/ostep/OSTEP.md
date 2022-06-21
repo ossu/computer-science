@@ -33,7 +33,7 @@ You should also finish both parts of Nand2Tetris before starting this course. OS
 
 This course was originally taught as CS 537 at the University of Wisconsin by the author of the OSTEP textbook, so the projects are assigned in the course according to the best times to give UWisconsin students access to on-campus resources like recitation sections and office hours. That means they don't match up perfectly with the material being covered at that time in the lectures or textbook chapters. We recommend doing the course in the following order instead.
 
-[Reading order](readingorder.md)
+[Reading order](Reading-order.md)
 
 * Read chapters 1 and 2 of the OSTEP textbook and watch the first half (the introduction) of lecture 1.
 * Do the `initial-utilities` project; it's intended as a litmus test for you to make sure you're comfortable enough with C before taking this class. You can watch discussion 1 for help. If it takes you more than 2 hours to write the code (not counting the discussion time and any time spent debugging), you should consider spending more time learning C before moving on in the course. (If you want more practice, you can do `initial-reverse` too, but it's not required.)
@@ -106,7 +106,7 @@ git clone https://github.com/mit-pdos/xv6-public src
 
 Please don't try to learn C from sites like GeeksforGeeks, TutorialsPoint, or Hackr.io (we're not even gonna link to them here). Those are great resources for other languages, but C has way too many pitfalls, and C tutorials online are often filled with dangerous errors and bad coding practices. We looked at many C resources for the recommendations below and unfortunately found *many* bad or unsafe ones; we'll only include the best ones here, so look no further!
 
-We recommend learning C by working through (the entirety of) Jens Gustedt's [*Modern C*](https://modernc.gforge.inria.fr), which is [freely available online](https://hal.inria.fr/hal-02383654/document). This book is relatively short and will bring you up to speed on the C language itself as well as modern coding practices for it. Make sure to do all the exercises in the footnotes!
+We recommend learning C by working through (the entirety of) Jens Gustedt's *Modern C*, which is [freely available online](https://hal.inria.fr/hal-02383654/file/ModernC.pdf). This book is relatively short and will bring you up to speed on the C language itself as well as modern coding practices for it. Make sure to do all the exercises in the footnotes!
 
 While the book above is our default recommendation, we also recommend K.N. King's [*C Programming: A Modern Approach*](http://www.knking.com/books/c2/) as a second, more beginner-friendly option. It has some disadvantages: it's much longer (almost 850 pages), it's not available for free (and copies can be hard to find), and it's not quite as recent as *Modern C* (but still relevant nonetheless). That said, it has more exercises if you want extra practice, and the Q&A sections at the end of each chapter are filled with pearls of C wisdom and answers to C FAQs. It also covers almost the entirety of the C language and standard library, so it doubles as a reference book.
 
@@ -114,7 +114,6 @@ CS 50 doesn't quite cover enough C for OSTEP, but if you've already taken CS 50,
 
 Additional (***optional***) resources include:
 * [CS 50 Manual Pages](https://manual.cs50.io): a great reference for looking up C library functions; most functions include both the usual manual as well as a beginner-friendly "less comfortable" option (just note that the "less comfortable" version uses `string` as an alias for `char *`.)
-* [comp.lang.c FAQs](c-faq.com): answers to all of your questions about C minutiae.
 * [cdecl](https://cdecl.org): a tool to translate C gibberish into English.
 * [C track on exercism.io](https://exercism.io/tracks/C): additional practice exercises.
 * [Secure Coding Practices in C and C++](https://www.amazon.com/dp/0321822137): if you want to understand why other C resources are so unsafe.
@@ -135,8 +134,8 @@ The easiest way to do that is by watching a subset of the lectures from the *Com
 
 Additional (***optional***) resources include:
 * [CPU Registers x86](https://wiki.osdev.org/CPU_Registers_x86): good for looking up specific registers.
-* [*PC Assembly Language*](https://pdos.csail.mit.edu/6.828/readings/pcasm-book.pdf): a short book on x86 assembly.
-* [GCC Inline Assembly HOWTO](https://wwww.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html): a guide to writing assembly code inside a C program.
+* [*PC Assembly Language*](https://pdos.csail.mit.edu/6.828/2018/readings/pcasm-book.pdf): a short book on x86 assembly.
+* [GCC Inline Assembly HOWTO](https://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html): a guide to writing assembly code inside a C program.
 * [*Intel 80386 Programmer's Reference Manual*](https://pdos.csail.mit.edu/6.828/2018/readings/i386.pdf): the official (and huge) resourcefrom Intel.
 
 ### xv6
