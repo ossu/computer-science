@@ -96,7 +96,7 @@ git clone https://github.com/mit-pdos/xv6-public src
 - `initial-reverse`: the error messages that are needed to pass the tests were wrong! The provided text said `"error: ..."` but the tests expected `"reverse: ..."` so make sure to match the tests' expectations in your code.
 - `processes-shell`: I had to edit `/tests/3.pre` to use `/bin/ls` due to how it's set up on my system, in order to pass all the tests. Alternatively you can add `export PATH="/bin:$PATH"` to your `.profile` or `.bashrc` file.
 - [hints for Project 1B: `initial-xv6`](Project-1B-initial-xv6.md)
-- [hints for `scheduling-xv6-lottery`](scheduling-xv6-lottery.md)
+- [hints for `scheduling-xv6-lottery`](Scheduling-xv6-lottery.md)
 - [hints for `vm-xv6-intro`](vm-xv6-intro.md)
 </details>
 
