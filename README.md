@@ -404,13 +404,6 @@ Courses | Duration | Effort | Prerequisites
 [Secure Software Development: Implementation](https://www.edx.org/course/secure-software-development-implementation) | 7 weeks | 1-2 hours/week | Secure Software Development: Requirements, Design, and Reuse
 [Secure Software Development: Verification and More Specialized Topics](https://www.edx.org/course/secure-software-development-verification-and-more-specialized-topics) | 7 weeks | 1-2 hours/week | Secure Software Development: Implementation
 
-Students who want to pursue a professional IT security course and examination can go through Systems Security Certified Practitioner (SSCP) examination.
-Read More about SSCP examination here: [Systems Security Certified Practitioner](https://www.isc2.org/Certifications/SSCP). The specialization provided below is a collection of paid courses  and prepares you for SSCP examination 
-
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[(ISC)² Systems Security Certified Practitioner (SSCP)](https://www.coursera.org/specializations/sscp-training) | 16 weeks | 8-10 hours/week | Core Programming and Core Security
-
 ### Advanced math
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
