@@ -100,6 +100,7 @@ just remember that you can't purchase success!
   - [Advanced programming](#advanced-programming)
   - [Advanced systems](#advanced-systems)
   - [Advanced theory](#advanced-theory)
+  - [Advanced information security](#advanced-information-security)
   - [Advanced math](#advanced-math)
 - [Final project](#final-project)
 
