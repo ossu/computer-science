@@ -1,8 +1,8 @@
-![Open Source Society University (OSSU)](https://i.imgur.com/kYYCXtC.png)
+![NXFury Information Security](https://i.imgur.com/kYYCXtC.png)
 
-<h3 align="center">Open Source Society University</h3>
+<h3 align="center">NXFury Information Security</h3>
 <p align="center">
-  Path to a free self-taught education in Computer Science!
+  Path to a free self-taught education in Information Security!
 </p>
 <p align="center">
   <a href="https://github.com/sindresorhus/awesome">
@@ -23,24 +23,24 @@
 
 # Summary
 
-The OSSU curriculum is a **complete education in computer science** using online materials.
+The NXFury curriculum is a **complete education in information security** using online materials.
 It's not merely for career training or professional development.
-It's for those who want a proper, *well-rounded* grounding in concepts fundamental to all computing disciplines,
+It's for those who want a proper, *well-rounded* grounding in concepts fundamental to all information security disciplines,
 and for those who have the discipline, will, and (most importantly!) good habits to obtain this education largely on their own,
 but with support from a worldwide community of fellow learners.
 
-It is designed according to the degree requirements of undergraduate computer science majors, minus general education (non-CS) requirements,
-as it is assumed most of the people following this curriculum are already educated outside the field of CS.
-The courses themselves are among the very best in the world, often coming from Harvard, Princeton, MIT, etc.,
-but specifically chosen to meet the following criteria.
+It is designed based on the Open Source Society's Computer Science curriculum,
+and it is assumed most of the people following this curriculum are already vaguely familiar with the world of computing.
+The courses themselves are hand selected for the highest quality, but specifically chosen to meet the following criteria.
 
 **Courses must**:
 - Be open for enrollment
 - Run regularly (ideally in self-paced format, otherwise running multiple times per year)
 - Be of generally high quality in teaching materials and pedagogical principles
-- Match the curricular standards of the [CS 2013](CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science
 
 When no course meets the above criteria, the coursework is supplemented with a book.
+When a student wishes to pursue industry, level certifications, the curriculum shall
+include opportunities to substitute training for those in place of pre-existing course materials.
 When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
 they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/readings.md).
 
