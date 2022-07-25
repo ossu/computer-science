@@ -31,12 +31,13 @@ but with support from a worldwide community of fellow learners.
 
 It is designed according to the degree requirements of undergraduate computer science majors, minus general education (non-CS) requirements,
 as it is assumed most of the people following this curriculum are already educated outside the field of CS.
-The courses themselves are among the very best in the world, often coming from Harvard, Princeton, MIT, etc.,
+The courses are among the best in the world, often coming from Harvard, Princeton, MIT, etc., 
 but specifically chosen to meet the following criteria.
+
 
 **Courses must**:
 - Be open for enrollment
-- Run regularly (ideally in self-paced format, otherwise running multiple times per year)
+- Run regularly (ideally in self-spaced format, otherwise running multiple times per year)
 - Be of generally high quality in teaching materials and pedagogical principles
 - Match the curricular standards of the [CS 2013](CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science
 
@@ -51,13 +52,13 @@ they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/r
 - *Final Project*: a project for students to validate, consolidate, and display their knowledge, to be evaluated by their peers worldwide
 
 **Duration**. It is possible to finish within about 2 years if you plan carefully and devote roughly 20 hours/week to your studies. Learners can use [this spread
-](https://docs.google.com/spreadsheets/d/1bkUU90y4rKYQHwY5AR2iX6iiPTrPEsYs75GkCAkrgm4/copy) to estimate their end date. Make a copy and input your start date and expected hours per week in the `Timeline` sheet. As you work through courses you can enter your actual course completion dates in the `Curriculum Data` sheet and get updated completion estimates.
+](https://docs.google.com/spreadsheets/d/1bkUU90y4rKYQHwY5AR2iX6iiPTrPEsYs75GkCAkrgm4/copy) to estimate their end date. Make a copy and input your start date and expected hours per week in the `Timeline` sheet. As you work through courses, you can enter your actual course completion dates in the `Curriculum Data` sheet and get updated completion estimates.
 
-**Cost**. All or nearly all course material is available for free. However, some courses may charge money for assignments/tests/projects to be graded.
+**Cost**. All or nearly all course material is available for free. However, some courses may charge money for graded assignments/tests/projects.
 Note that both [Coursera](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=en_US) and [edX](https://courses.edx.org/financial-assistance/) offer financial aid.
 
 Decide how much or how little to spend based on your own time and budget;
-just remember that you can't purchase success!
+just remember that you can't purchase a success!
 
 **Process**. Students can work through the curriculum alone or in groups, in order or out of order.
 - We recommend doing all courses in Core CS, only skipping a course when you are certain that you've already learned the material previously.
@@ -454,7 +455,7 @@ Upon completing your final project:
 Solicit feedback from your OSSU peers.
 You will not be "graded" in the traditional sense — everyone has their own measurements for what they consider a success.
 The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist
-and to get experience listening to feedback — both positive and negative.
+and to get experience listening to positive and negative feedback.
 
 The final project evaluation has a second purpose: to evaluate whether OSSU,
 through its community and curriculum, is successful in its mission to guide independent learners in obtaining a world-class computer science education.
