@@ -46,6 +46,9 @@ After taking an assessment, you should have a clear idea what topics to study, a
 OSSU focuses on finding the best courses to learn computer science topics, and isn’t focused on finding language specific courses. If you are looking to learn a particular language or framework there are two great resources to check.
 1. [Hackr.io](https://hackr.io/) allows users to submit and upvote learning resources for topics such as Python or the Java Spring Framework.
 2. Most languages have a community on reddit. When you find the community’s page, check to see if there is a wiki or sidebar with resources. For example, see [/r/python](https://old.reddit.com/r/Python). Note that the sidebar content can be different depending on whether you use www.reddit.com or old.reddit.com.
+3. [Scaler Topics](https://www.scaler.com/topics/) gives free tutorials to Understand how programming works. Learn Python, Java, Data Structure, C/C++ and other popular programming languages with easy to follow tutorials and example programs.
+
+
 
 ### Why is the Firebase OSSU app different or broken?
 
