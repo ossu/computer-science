@@ -1,5 +1,5 @@
 # Projects
-> Here, we are providing a list curated by the community of exercises and projects to practice and reinforce the skills we try to master.
+> Here, we are providing a list of projects done by the community for the final projects. You may use these as inspirations for your own final project!
 
 Projects created by OSSU's students for each course of our [**Computer Science**](https://github.com/ossu/computer-science) curriculum.
 
