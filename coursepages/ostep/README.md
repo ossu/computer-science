@@ -113,7 +113,7 @@ CS 50 doesn't quite cover enough C for OSTEP, but if you've already taken CS 50,
 Additional (***optional***) resources include:
 * [CS 50 Manual Pages](https://manual.cs50.io): a great reference for looking up C library functions; most functions include both the usual manual as well as a beginner-friendly "less comfortable" option (just note that the "less comfortable" version uses `string` as an alias for `char *`.)
 * [cdecl](https://cdecl.org): a tool to translate C gibberish into English.
-* [C track on exercism.io](https://exercism.io/tracks/C): additional practice exercises.
+* [C track on exercism.io](https://exercism.org/tracks/C): additional practice exercises.
 * [Secure Coding Practices in C and C++](https://www.amazon.com/dp/0321822137): if you want to understand why other C resources are so unsafe.
 * [*The C Programming Language*](https://www.amazon.com/dp/0131103628): the original book on C by its creators. Too outdated for OSTEP, but a good read if you manage to find a copy.
 
