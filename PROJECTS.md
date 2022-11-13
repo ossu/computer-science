@@ -39,3 +39,4 @@ Project Title | Description | Author(s) | Repository
 Project Title | Description | Author(s) | Repository
 :-- | :-- | :--: | :--
 Observatory | Interactively displays temperatures and deviations all around the world from 1975 to 2015 | [spamegg](https://github.com/spamegg1) | [ScalaCapstone](https://github.com/spamegg1/ScalaCapstone)
+Cloud Project | Analyzing airline traffic data with batch and stream processing using cloud technology | [MartinOvington](https://github.com/MartinOvington) | [CloudCapstone](https://github.com/MartinOvington/cloud-specialization)
