@@ -55,7 +55,7 @@ Courses | Duration | Effort
 [Introduction to Operating Systems](https://www.udacity.com/course/introduction-to-operating-systems--ud923)| 8 weeks | 5-8 hours/week
 [Advanced Operating Systems](https://www.udacity.com/course/advanced-operating-systems--ud189)| 5 weeks | 5-8 hours/week
 [Computer Networking](https://www.udacity.com/course/computer-networking--ud436) | 12 weeks | 5-8 hours/week
-Distributed Systems - [Playlist](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB), [Course site](http://nil.csail.mit.edu/6.824/2020/), [Self-studying 6.824](https://lieuzhenghong.com/mit_6.824_self_study/) | - | -
+Distributed Systems - [Playlist](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB), [Course site](http://nil.csail.mit.edu/6.824/2020/schedule.html)), [Self-studying 6.824](https://lieuzhenghong.com/mit_6.824_self_study/) | - | -
 
 ## Theory
 
