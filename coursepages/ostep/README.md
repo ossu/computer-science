@@ -146,7 +146,7 @@ However, that book glosses over a lot of the details in the code that you might 
 
 [Here](https://github.com/YehudaShapira/xv6-explained) is another in-depth explanation of the xv6 code.
 
-Also [here](https://www.youtube.com/playlist?list=PLbtzT1TYeoMhTPzyTZboW_j7TPAnjv9XB) is an excellent video series walking through much of the xv6 code, and 
+Also [here](https://www.youtube.com/playlist?list=PLbtzT1TYeoMhTPzyTZboW_j7TPAnjv9XB) is an excellent video series walking through much of the xv6 code.
 
 ### Miscellaneous
 
