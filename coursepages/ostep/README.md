@@ -18,9 +18,18 @@ This should take about 8 weeks, 10 hours/week. That's all you need to do!
 
 You will need a Unix/Linux system, some basic command line tools, and a C compiler (such as GCC or Clang). On Windows, you can install Ubuntu in a virtual machine, or use WSL (Windows Subsystem for Linux). Mac OS is Unix-like, so it should be OK to use.
 
-Question: I see some C code in this book. How much C do I need to know?
+### Course Links
 
-Answer: You'll need to read and understand some C code in this book. You'll need basic understanding of arrays, pointers and print formatting. You can consult the free book Modern C by Jen Gustadt. The CS50 Manual pages are also helpful to look up functions. You shouldn't spend too much time on learning C.
+* [Book](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+* [Homework](https://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html)
+* [Homework Source Code Repo](https://github.com/remzi-arpacidusseau/ostep-homework)
+* [Homework Solutions](https://github.com/xxyzz/ostep-hw)
+
+### C
+
+**Question**: I see some C code in this book. How much C do I need to know?
+
+**Answer**: You'll need to read and understand some C code in this book. You'll need basic understanding of arrays, pointers and print formatting. You can consult the free book [Modern C](https://hal.inria.fr/hal-02383654/file/ModernC.pdf) by [Jen Gustadt](https://gustedt.gitlabpages.inria.fr/modern-c/). The [CS50 Manual pages](https://manual.cs50.io) are also helpful to look up functions. You shouldn't spend too much time on learning C.
 
 The code you'll read is fairly simple and presented in short fragments. The book helps you out quite a bit by manually introducing many C APIs such as the Process API, the Thread API, and so on. You can type, compile and run the code fragments, and read the corresponding explanations. The book explains them in great detail in a conversational style that's fun to read.
 
@@ -48,7 +57,8 @@ You should also finish both parts of Nand2Tetris before starting this course. OS
 * [Book](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 * [Lecture videos](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Discussion/videos.html)
 * [Homework](https://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html)
-* [Homework repo](https://github.com/remzi-arpacidusseau/ostep-homework)
+* [Homework Source Code Repo](https://github.com/remzi-arpacidusseau/ostep-homework)
+* [Homework Solutions](https://github.com/xxyzz/ostep-hw)
 * [Projects](https://github.com/remzi-arpacidusseau/ostep-projects)
 * [xv6](https://github.com/mit-pdos/xv6-public)
 
