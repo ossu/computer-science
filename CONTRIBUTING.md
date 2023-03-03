@@ -7,7 +7,7 @@ If you have specific and substantive criticisms of the curriculum, i.e. problems
 OSSU’s curricular guidelines are [here](https://github.com/ossu/computer-science/blob/master/CURRICULAR_GUIDELINES.md). Successful critiques of the curriculum will point out ways that OSSU is failing to uphold these guidelines. Examples are:
 
 * OSSU lists a course as required when the course topics are elective in the curricular guide.
-* OSSU does not having a course to cover required topics from the curricular guide.
+* OSSU not having a course to cover required topics from the curricular guide.
 * OSSU lists multiple courses that cover the same topics when fewer courses could suffice.
 * OSSU recommends a course to teach a topic, but there exists a higher quality course that covers the same material.
 ## Other ways to contribute
