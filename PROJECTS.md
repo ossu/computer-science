@@ -17,6 +17,7 @@ Project Title | Description | Author(s) | Repository
 :-- | :-- | :--: | :--
 StalkHub | Stalk Github beautifully | [Aman Roy](https://github.com/aman-roy) | [StalkHub](https://github.com/aman-roy/StalkHub)
 Webliza | ELIZA in python with web interface | [Vipin Kumar](https://github.com/VipinindKumar) | [Webliza](https://github.com/VipinindKumar/Webliza)
+PWControl | A simple password generator and manager | [Thai Huu Tri](https://github.com/thaitri2005) | [PWControl](https://github.com/thaitri2005/PWControl)
 
 
 ## Programming
