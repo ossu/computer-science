@@ -2,7 +2,9 @@
 
 [Curriculum Guidelines for Undergraduate Programs in Computer Science](https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf)
 
-Our curricular guidelines are from the 2013 report of the Association for Computing Machinery and the Institute of Electrical and Electronics Engineers. This report is the most recent in a series of such reports outlining the expectations of undergraduate degrees in Computer Science. The report outlines critical Knowledge Areas and topics within them. It drills down further to outline specific learning goals, going so far as to outline what concepts a student must be able to explain vs concepts a student must be able to demonstrate using in practice. 
+Our curricular guidelines are from the 2013 report of the Association for Computing Machinery and the Institute of Electrical and Electronics Engineers. This report is the most recent in a series of such reports outlining the expectations of undergraduate degrees in Computer Science. The report outlines critical Knowledge Areas and topics within them. It drills down further to outline specific learning goals, going so far as to outline what concepts a student must be able to explain vs concepts a student must be able to demonstrate using in practice.
+
+The CS2023 is currently under development. Track its progress to release [here](https://csed.acm.org/).
 
 ## Organizations publishing:
 
