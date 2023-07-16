@@ -87,6 +87,7 @@ just remember that you can't purchase success!
 - [Intro CS](#intro-cs)
   - [Introduction to Programming](#introduction-to-programming)
   - [Introduction to Computer Science](#introduction-to-computer-science)
+  - [Intro to Computer Science Harvard CS50](#https://cs50.harvard.edu/x/2023/)
 - [Core CS](#core-cs)
   - [Core programming](#core-programming)
   - [Core math](#core-math)
