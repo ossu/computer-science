@@ -87,7 +87,7 @@ just remember that you can't purchase success!
 - [Intro CS](#intro-cs)
   - [Introduction to Programming](#introduction-to-programming)
   - [Introduction to Computer Science](#introduction-to-computer-science)
-  - [Intro to Computer Science Harvard CS50](#https://cs50.harvard.edu/x/2023/)
+  - [Introduction to Computer Science Harvard CS50](#introduction-to-computer-science-harvard-cs50)
 - [Core CS](#core-cs)
   - [Core programming](#core-programming)
   - [Core math](#core-math)
@@ -141,6 +141,15 @@ This course will introduce you to the world of computer science. Students who ha
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 [Introduction to Computer Science and Programming using Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) ([alt](https://www.edx.org/course/introduction-to-computer-science-and-programming-7)) | 9 weeks | 15 hours/week | [high school algebra](https://www.khanacademy.org/math/algebra-home) | [chat](https://discord.gg/jvchSm9)
+
+
+### Introduction to computer science Harvard CS50
+
+THis course is one of the best course available by best of harvard facilty to do .it is best cource for intro to  computer science .
+
+courses | duration |prerequisites
+:-- | :--: | :--:
+[introduction to computer science Harvard CS50](https://cs50.harvard.edu/x/2023/) ([youtube](https://www.youtube.com/watch?v=IDDmrzzB14M&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4))| 10 weeks | 2 hours /week |none 
 
 ## Core CS
 
