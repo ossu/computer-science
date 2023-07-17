@@ -145,7 +145,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 
 ### Introduction to computer science Harvard CS50
 
-THis course is one of the best course available by best of harvard facilty to do .it is best cource for intro to  computer science .
+THis course is one of the best course available by best of harvard facilty  .it is best cource for introduction to  computer science .this cover all your basic requirements to do core cs. 
 
 courses | duration | Effort |prerequisites
 :-- | :--: | :--: | :--:
