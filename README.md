@@ -147,9 +147,9 @@ Courses | Duration | Effort | Prerequisites | Discussion
 
 THis course is one of the best course available by best of harvard facilty to do .it is best cource for intro to  computer science .
 
-courses | duration |prerequisites
-:-- | :--: | :--:
-[introduction to computer science Harvard CS50](https://cs50.harvard.edu/x/2023/) ([youtube](https://www.youtube.com/watch?v=IDDmrzzB14M&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4))| 10 weeks | 2 hours /week |none 
+courses | duration | Effort |prerequisites
+:-- | :--: | :--: | :--:
+[introduction to computer science Harvard CS50](https://cs50.harvard.edu/x/2023/) ([alt](https://www.youtube.com/watch?v=IDDmrzzB14M&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4))| 10 weeks | 2 hours /week |none 
 
 ## Core CS
 
