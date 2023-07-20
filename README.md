@@ -87,7 +87,7 @@ just remember that you can't purchase success!
 - [Intro CS](#intro-cs)
   - [Introduction to Programming](#introduction-to-programming)
   - [Introduction to Computer Science](#introduction-to-computer-science)
-  - [Introduction to Computer Science Harvard CS50](#introduction-to-computer-science-harvard-cs50)
+  - [Introduction to Computer Science Harvard CS50 (optional)](#introduction-to-computer-science-harvard-cs50)
 - [Core CS](#core-cs)
   - [Core programming](#core-programming)
   - [Core math](#core-math)
@@ -145,11 +145,25 @@ Courses | Duration | Effort | Prerequisites | Discussion
 
 ### Introduction to computer science Harvard CS50
 
-THis course is one of the best course available by best of harvard facilty to do .it is best cource for intro to  computer science .
+This is CS50, Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming, for concentrators and non-concentrators alike, with or without prior programming experience.This course teaches you how to solve problems, both with and without code, with an emphasis on correctness, design, and style.(This is optional and for quick review of basics cs concepts)
 
-courses | duration | Effort |prerequisites
-:-- | :--: | :--: | :--:
-[introduction to computer science Harvard CS50](https://cs50.harvard.edu/x/2023/) ([alt](https://www.youtube.com/watch?v=IDDmrzzB14M&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4))| 10 weeks | 2 hours /week |none 
+**Topics covered**:
+`Scratch`
+`C`
+`Arrays`
+`Algorithms`
+`Memory`
+`Data Structures`
+`Python`
+`SQL`
+`HTML, CSS, JavaScript`
+`Flask`
+`Emoji`
+`and more`
+
+courses | duration | Effort |prerequisites |Discussion
+:-- | :--: | :--: | :--: | :--:
+[Introduction to computer science Harvard CS50](https://cs50.harvard.edu/x/2023/) ([alt](https://www.youtube.com/watch?v=IDDmrzzB14M&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4))| 10 weeks | 3 hours/week |none 
 
 ## Core CS
 
