@@ -144,8 +144,11 @@ Courses | Duration | Effort | Prerequisites | Discussion
 
 
 ### Introduction to computer science Harvard CS50
-
+   
+   
 This is CS50, Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming, for concentrators and non-concentrators alike, with or without prior programming experience.This course teaches you how to solve problems, both with and without code, with an emphasis on correctness, design, and style.(This is optional and for quick review of basics cs concepts)
+
+
 
 **Topics covered**:
 `Scratch`
