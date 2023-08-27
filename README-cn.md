@@ -323,203 +323,203 @@ OSSU 的课程是利用在线教材进行的 **完整的计算机科学教育**�
 
 ## 高级CS
 
-After completing **every required course** in Core CS, students should choose a subset of courses from Advanced CS based on interest.
-Not every course from a subcategory needs to be taken.
-But students should take *every* course that is relevant to the field they intend to go into.
+在完成核心 CS 的**所有必修课程**后，学生应根据兴趣从高级 CS 中选择一个子课程集。
+并非每个子类别中的每门课程都需要选修。
+但学生应该选修与他们打算进入的领域相关的每一门课程。
 
-### Advanced programming
+### 高级编程
 
-**Topics covered**:
-`debugging theory and practice`
-`goal-oriented programming`
-`parallel computing`
-`object-oriented analysis and design`
+**所涉主题**:
+`调试理论与实践`
+`调试理论与实践`
+`并行计算`
+`面向对象的分析和设计`
 `UML`
-`large-scale software architecture and design`
-`and more`
+`大型软件架构和设计`
+`更多`
 
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Parallel Programming](https://www.coursera.org/learn/scala-parallel-programming)| 4 weeks | 6-8 hours/week | Scala programming
-[Compilers](https://www.edx.org/course/compilers) | 9 weeks | 6-8 hours/week | none
-[Introduction to Haskell](https://www.seas.upenn.edu/~cis194/fall16/)| 14 weeks | - | -
-[Learn Prolog Now!](https://www.let.rug.nl/bos/lpn//lpnpage.php?pageid=online) ([alt](https://github.com/ossu/computer-science/files/6085884/lpn.pdf))*| 12 weeks | - | -
-[Software Debugging](https://www.udacity.com/course/software-debugging--cs259)| 8 weeks | 6 hours/week | Python, object-oriented programming
-[Software Testing](https://www.udacity.com/course/software-testing--cs258) | 4 weeks | 6 hours/week | Python, programming experience
+课程 | 时间 | 精力 | 先决条件
+:-- | :--:| :--:| :--:
+[并行编程](https://www.coursera.org/learn/scala-parallel-programming)| 4 周 | 6-8 小时/周 | Scala 编程
+[编译器](https://www.edx.org/course/compilers) | 9 周 | 6-8 小时/周 | 无
+[Haskell 入门](https://www.seas.upenn.edu/~cis194/fall16/)| 14 周 | - | -
+[立即学习 Prolog！](https://www.let.rug.nl/bos/lpn//lpnpage.php?pageid=online) ([替代](https://github.com/ossu/computer-science/files/6085884/lpn.pdf))*| 12 周 | - | -
+[软件调试](https://www.udacity.com/course/software-debugging--cs259)| 8 周 | 6 小时/周 | Python、面向对象编程
+[软件测试](https://www.udacity.com/course/software-testing--cs258) | 4 周 | 6 小时/周 | Python、编程经验
 
-(*) book by Blackburn, Bos, Striegnitz (compiled from [source](https://github.com/LearnPrologNow/lpn), redistributed under [CC license](https://creativecommons.org/licenses/by-sa/4.0/))
+(*) Blackburn、Bos、Striegnitz 著 (编译自 [源码](https://github.com/LearnPrologNow/lpn)，根据 [CC license](https://creativecommons.org/licenses/by-sa/4.0/) 重新发布)
 
-### Advanced systems
+### 高级系统
 
-**Topics covered**:
-`digital signaling`
-`combinational logic`
-`CMOS technologies`
-`sequential logic`
-`finite state machines`
-`processor instruction sets`
-`caches`
-`pipelining`
-`virtualization`
-`parallel processing`
-`virtual memory`
-`synchronization primitives`
-`system call interface`
-`and more`
+**所涉主题**:
+`数字信号`
+`组合逻辑`
+`CMOS 技术`
+`顺序逻辑`
+`有限状态机`
+`处理器指令集`
+`缓存`
+`流水线`
+`虚拟化`
+`并行处理`
+`虚拟内存`
+`同步原语`
+`系统调用接口`
+`更多`
 
-Courses | Duration | Effort | Prerequisites | Notes
-:-- | :--: | :--: | :--: | :--:
-[Computation Structures 1: Digital Circuits](https://learning.edx.org/course/course-v1:MITx+6.004.1x_3+3T2016) [alt1](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/) [alt2 ](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/) | 10 weeks | 6 hours/week | [Nand2Tetris II](https://www.coursera.org/learn/nand2tetris2) | Alternate links contain all 3 courses.
-[Computation Structures 2: Computer Architecture](https://learning.edx.org/course/course-v1:MITx+6.004.2x+3T2015) | 10 weeks | 6 hours/week | Computation Structures 1 |
-[Computation Structures 3: Computer Organization](https://learning.edx.org/course/course-v1:MITx+6.004.3x_2+1T2017) | 10 weeks | 6 hours/week | Computation Structures 2 |
+课程 | 时间 | 精力 | 先决条件 | 备注
+:-- | :--:| :--:| :--:| :--:
+[计算结构 1：数字电路](https://learning.edx.org/course/course-v1:MITx+6.004.1x_3+3T2016) [替代 1](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/) [替代 2 ](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/) | 10 周 | 6 小时/周 | [Nand2Tetris II](https://www.coursera.org/learn/nand2tetris2) | 备用链接包含所有 3 门课程。
+[计算结构 2：计算机体系结构](https://learning.edx.org/course/course-v1:MITx+6.004.2x+3T2015) | 10 周 | 6 小时/周 | 计算结构 1 | 6 小时/周
+[计算结构 3：计算机组织](https://learning.edx.org/course/course-v1:MITx+6.004.3x_2+1T2017) | 10 周 | 6 小时/周 | 计算结构 2 | 6 小时/周
 
-### Advanced theory
+### 高级理论
 
-**Topics covered**:
-`formal languages`
-`Turing machines`
-`computability`
-`event-driven concurrency`
+**所涉主题**:
+`正式语言`
+`图灵机`
+`可计算性`
+`事件驱动并发`
 `automata`
-`distributed shared memory`
-`consensus algorithms`
-`state machine replication`
-`computational geometry theory`
-`propositional logic`
-`relational logic`
-`Herbrand logic`
-`game trees`
-`and more`
+`分布式共享内存`
+`共识算法`
+`状态机复制`
+`计算几何理论`
+`命题逻辑`
+`关系逻辑`
+`Herbrand 逻辑`
+`游戏树`
+`更多`
 
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Theory of Computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) ([alt](http://aduni.org/courses/theory/index.php?view=cw)) | 13 weeks | 10 hours/week | [Mathematics for Computer Science](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about), logic, algorithms
-[Computational Geometry](https://www.edx.org/course/computational-geometry) | 16 weeks | 8 hours/week | algorithms, C++
-[Game Theory](https://www.coursera.org/learn/game-theory-1) | 8 weeks | 3 hours/week | mathematical thinking, probability, calculus
+课程 | 时间 | 精力 | 先决条件
+:-- | :--:| :--:| :--:
+[计算理论](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) ([替代](http://aduni.org/courses/theory/index.php?view=cw))| 13 周 | 10 小时/周 | [计算机科学数学](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about)、逻辑、算法
+[计算几何](https://www.edx.org/course/computational-geometry) | 16 周 | 8 小时/周 | 算法、C++
+[博弈论](https://www.coursera.org/learn/game-theory-1) | 8 周 | 3 小时/周 | 数学思维、概率、微积分
 
-### Advanced Information Security
+### 高级信息安全
 
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Web Security Fundamentals](https://www.edx.org/course/web-security-fundamentals) | 5 weeks | 4-6 hours/week | understanding basic web technologies
-[Security Governance & Compliance](https://www.coursera.org/learn/security-governance-compliance) | 3 weeks | 3 hours/week | -
-[Digital Forensics Concepts](https://www.coursera.org/learn/digital-forensics-concepts) | 3 weeks | 2-3 hours/week | Core Security
-[Secure Software Development: Requirements, Design, and Reuse](https://www.edx.org/course/secure-software-development-requirements-design-and-reuse) | 7 weeks | 1-2 hours/week | Core Programming and Core Security
-[Secure Software Development: Implementation](https://www.edx.org/course/secure-software-development-implementation) | 7 weeks | 1-2 hours/week | Secure Software Development: Requirements, Design, and Reuse
-[Secure Software Development: Verification and More Specialized Topics](https://www.edx.org/course/secure-software-development-verification-and-more-specialized-topics) | 7 weeks | 1-2 hours/week | Secure Software Development: Implementation
+课程 | 时间 | 精力 | 先决条件
+:-- | :--:| :--:| :--:
+[网络安全基础](https://www.edx.org/course/web-security-fundamentals) | 5 周 | 4-6 小时/周 | 了解基本网络技术
+[安全治理与合规](https://www.coursera.org/learn/security-governance-compliance) | 3 周 | 3 小时/周 | -
+[数字取证概念](https://www.coursera.org/learn/digital-forensics-concepts) | 3 周 | 2-3 小时/周 | 核心安全
+[安全软件开发：需求、设计和重用](https://www.edx.org/course/secure-software-development-requirements-design-and-reuse) | 7 周 | 1-2 小时/周 | 核心编程和核心安全
+[安全软件开发：实施](https://www.edx.org/course/secure-software-development-implementation) | 7 周 | 1-2 小时/周 | 安全软件开发：需求、设计和重用
+[安全软件开发：验证和更多专业主题](https://www.edx.org/course/secure-software-development-verification-and-more-specialized-topics)| 7 周 | 1-2 小时/周 | 安全软件开发：实施
 
-### Advanced math
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | [high school math](FAQ.md#how-can-i-review-the-math-prerequisites) | [chat](https://discord.gg/m6wHbP6)
-[Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) | 14 weeks | 12 hours/week | corequisite: Essence of Linear Algebra | [chat](https://discord.gg/k7nSWJH)
-[Introduction to Numerical Methods](https://ocw.mit.edu/courses/mathematics/18-335j-introduction-to-numerical-methods-spring-2019/index.htm)| 14 weeks | 12 hours/week | [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) | [chat](https://discord.gg/FNEcNNq)
-[Introduction to Formal Logic](https://forallx.openlogicproject.org/) | 10 weeks | 4-8 hours/week | [Set Theory](https://www.youtube.com/playlist?list=PL5KkMZvBpo5AH_5GpxMiryJT6Dkj32H6N) | [chat](https://discord.gg/MbM2Gg5)
-[Probability](https://projects.iq.harvard.edu/stat110/home) | 15 weeks | 5-10 hours/week | [Differentiation and Integration](https://www.edx.org/course/calculus-1b-integration) | [chat](https://discord.gg/UVjs9BU)
+### 高级数学
+课程 | 时间 | 精力 | 先决条件 | 讨论
+:-- | :--:| :--:| :--:| :--:
+[线性代数精髓](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | [高中数学](FAQ.md#how-can-i-review-the-math-prerequisites) | [聊天](https://discord.gg/m6wHbP6)
+[线性代数](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) | 14 周 | 12 小时/周 | 先修课程：线性代数精要| [聊天](https://discord.gg/k7nSWJH)
+[数值方法导论](https://ocw.mit.edu/courses/mathematics/18-335j-introduction-to-numerical-methods-spring-2019/index.htm)｜14 周 | 12 小时/周 | [线性代数](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) | [聊天](https://discord.gg/FNEcNNq)
+[形式逻辑导论](https://forallx.openlogicproject.org/) | 10 周 | 4-8 小时/周 | [集合论](https://www.youtube.com/playlist?list=PL5KkMZvBpo5AH_5GpxMiryJT6Dkj32H6N) | [聊天](https://discord.gg/MbM2Gg5)
+[概率论](https://projects.iq.harvard.edu/stat110/home) | 15周 | 5-10小时/周 | [微分与积分](https://www.edx.org/course/calculus-1b-integration) | [聊天](https://discord.gg/UVjs9BU)
 
-## Final project
+## 最终项目
 
-OSS University is project-focused.
-The assignments and exams for each course are to prepare you to use your knowledge to solve real-world problems.
+开源社会大学以项目为中心。
+每门课程的作业和考试都是为了培养你运用所学知识解决实际问题的能力。
 
-After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired.
-Not only does real project work look great on a resume, but the project will also validate and consolidate your knowledge.
-You can create something entirely new, or you can find an existing project that needs help via websites like
-[CodeTriage](https://www.codetriage.com/)
+在你学完所有核心 CS 课程和高级 CS 课程中与你相关的部分后，你应该思考一个你能用所学知识解决的问题。
+真实的项目工作不仅在简历上看起来很不错，而且还能验证和巩固你的知识。
+您可以创建一个全新的项目，也可以通过以下网站找到需要帮助的现有项目
+[代码分类](https://www.codetriage.com/)
 or
-[First Timers Only](https://www.firsttimersonly.com/).
+[仅限首次体验者](https://www.firsttimersonly.com/).
 
-Students who would like more guidance in creating a project may choose to use a series of project oriented courses. Here is a sample of options (many more are available, at this point you should be capable of identifying a series that is interesting and relevant to you):
+希望在创建项目时得到更多指导的学生可以选择一系列以项目为导向的课程。以下是一些可供选择的课程示例（还有更多可供选择的课程，此时你应该能够确定一个你感兴趣且与你相关的系列课程）：
 
-Courses | Duration | Effort | Prerequisites
-:-- | :--: | :--: | :--:
-[Fullstack Open](https://fullstackopen.com/en/) | 12 weeks | 15 hours/week | programming
-[Modern Robotics (Specialization)](https://www.coursera.org/specializations/modernrobotics) | 26 weeks | 2-5 hours/week | freshman-level physics, linear algebra, calculus, [linear ordinary differential equations](https://www.khanacademy.org/math/differential-equations)
-[Data Mining (Specialization)](https://www.coursera.org/specializations/data-mining) | 30 weeks | 2-5 hours/week | machine learning
-[Big Data (Specialization)](https://www.coursera.org/specializations/big-data) | 30 weeks | 3-5 hours/week | none
-[Internet of Things (Specialization)](https://www.coursera.org/specializations/internet-of-things) | 30 weeks | 1-5 hours/week | strong programming
-[Cloud Computing (Specialization)](https://www.coursera.org/specializations/cloud-computing) | 30 weeks | 2-6 hours/week | C++ programming
-[Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none
-[Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 weeks | 4-5 hours/week | One year programming experience
-[Game Design and Development with Unity 2020 (Specialization)](https://www.coursera.org/specializations/game-design-and-development) | 6 months | 5 hours/week | programming, interactive design
+课程 | 时间 | 精力 | 先决条件
+:-- | :--:| :--:| :--:
+[Fullstack Open](https://fullstackopen.com/en/) | 12 周 | 15 小时/周 | 编程
+[现代机器人（专业）](https://www.coursera.org/specializations/modernrobotics) | 26 周 | 2-5 小时/周 | 大一物理、线性代数、微积分、[线性常微分方程](https://www.khanacademy.org/math/differential-equations)
+[数据挖掘（专业）](https://www.coursera.org/specializations/data-mining) | 30 周 | 2-5 小时/周 | 机器学习
+[大数据（专业）](https://www.coursera.org/specializations/big-data) | 30 周 | 3-5 小时/周 | 无
+[物联网（专业）](https://www.coursera.org/specializations/internet-of-things) | 30 周 | 1-5 小时/周 | 强编程
+[云计算（专业）](https://www.coursera.org/specializations/cloud-computing) | 30 周 | 2-6 小时/周 | C++ 编程
+[数据科学（专业）](https://www.coursera.org/specializations/jhu-data-science) | 43 周 | 1-6 小时/周 | 无
+[Scala 功能编程（专业）](https://www.coursera.org/specializations/scala) | 29 周 | 4-5 小时/周 | 一年编程经验
+[Unity 2020 游戏设计与开发（专业）](https://www.coursera.org/specializations/game-design-and-development) | 6 个月 | 5 小时/周 | 编程、互动设计
 
-### Evaluation
+### 评价
 
-Upon completing your final project:
-- Submit your project's information to [PROJECTS](PROJECTS.md) via a pull request.
-- Put the OSSU-CS badge in the README of your repository!
-[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
+完成毕业设计后
+- 通过拉取请求将项目信息提交到 [项目](PROJECTS.md)。
+- 将 OSSU-CS 徽章放在你的资源库的 README 中！
+[!![开源社会大学-计算机科学](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
 
-  - Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)`
-  - HTML: `<a href="https://github.com/ossu/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
-- Use our [community](#community) channels to announce it to your fellow students.
+ - Markdown：`[[开源社会大学-计算机科学](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)`[!
+ - HTML：`<a href="https://github.com/ossu/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
+- 使用我们的 [community](#community) 频道向同学们宣布。
 
-Solicit feedback from your OSSU peers.
-You will not be "graded" in the traditional sense — everyone has their own measurements for what they consider a success.
-The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist
-and to get experience listening to feedback — both positive and negative.
+征求 OSSU 同行的反馈意见。
+您将不会得到传统意义上的 "评分"--每个人都有自己衡量成功的标准。
+评估的目的是向全世界宣布你是一名计算机科学家。
+并获得听取反馈的经验，包括正面和负面反馈。
 
-The final project evaluation has a second purpose: to evaluate whether OSSU,
-through its community and curriculum, is successful in its mission to guide independent learners in obtaining a world-class computer science education.
+最后的项目评估还有第二个目的：评估 OSSU 是否有能力帮助你完成项目、
+是否通过其社区和课程成功地完成了引导独立学习者获得世界一流计算机科学教育的使命。
 
-### Cooperative work
+### 合作工作
 
-You can create this project alone or with other students!
-**We love cooperative work**!
-Use our [channels](#community) to communicate with other fellows to combine and create new projects!
+您可以单独或与其他学生一起制作这个项目！
+**我们热爱合作**!
+使用我们的 [频道]（#社区）与其他研究员交流，以组合和创建新项目！
 
-### Which programming languages should I use?
+### 我应该使用哪些编程语言？
 
-My friend, here is the best part of liberty!
-You can use **any** language that you want to complete the final project.
+朋友，这就是自由的精华所在！
+你可以使用**任何**语言来完成最终项目。
 
-The important thing is to **internalize** the core concepts and to be able to use them with whatever tool (programming language) that you wish.
+重要的是，要将核心概念**内化**，并能够使用任何工具（编程语言）。
 
-## Congratulations
+## 祝贺你
 
-After completing the requirements of the curriculum above, you will have completed the equivalent of a full bachelor's degree in Computer Science. Congratulations!
+完成上述课程要求后，你将获得计算机科学学士学位。祝贺你
 
-What is next for you? The possibilities are boundless and overlapping:
+你的下一步是什么？可能性是无限的，重叠的：
 
-- Look for a job as a developer!
-- Check out the [readings](extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
-- Join a local developer meetup (e.g. via [meetup.com](https://www.meetup.com/)).
-- Pay attention to emerging technologies in the world of software development:
-  + Explore the **actor model** through [Elixir](https://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
-  + Explore **borrowing and lifetimes** through [Rust](https://www.rust-lang.org/), a systems language which achieves memory- and thread-safety without a garbage collector!
-  + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development.
+- 找一份开发人员的工作！
+- 查看 [readings](extras/readings.md)，了解你可以阅读的经典书籍，这些书籍可以提高你的技能，扩展你的知识面。
+- 加入当地的开发者聚会（例如通过 [meetup.com](https://www.meetup.com/) ）。
+- 关注软件开发领域的新兴技术：
++ 通过 [Elixir](https://elixir-lang.org/)探索角色模型，这是一种基于久经考验的 Erlang 虚拟机的新型网络函数式编程语言！
++ 通过[Rust](https://www.rust-lang.org/)探索借用和生命周期，这是一种无需垃圾收集器即可实现内存和线程安全的系统语言！
++ 通过[Idris](https://www.idris-lang.org/)探索依赖类型系统，这是一种受哈斯克尔启发的新语言，对类型驱动开发提供了前所未有的支持。
 
 ![keep learning](https://i.imgur.com/REQK0VU.jpg)
 
-# Code of conduct
-[OSSU's code of conduct](https://github.com/ossu/code-of-conduct).
+# 行为准则
+[OSSU 行为准则](https://github.com/ossu/code-of-conduct).
 
-## How to show your progress
+## 如何展示你的进步
 
-1. Create an account in [Trello](https://trello.com/).
-1. Copy [this](https://trello.com/b/IScNSzsI/ossu-compsci) board to your personal account.
-See how to copy a board [here](https://help.trello.com/article/802-copying-cards-lists-or-boards).
+1.在 [Trello](https://trello.com/) 中创建一个账户。
+1.复制 [this](https://trello.com/b/IScNSzsI/ossu-compsci) 板到您的个人账户。
+请参阅如何复制板块 [此处](https://help.trello.com/article/802-copying-cards-lists-or-boards)。
 
-Now that you have a copy of our official board, you just need to pass the cards to the `Doing` column or `Done` column as you progress in your study.
+现在您已经有了我们的正式黑板，您只需根据学习进度将卡片传到 "正在 "栏或 "完成 "栏即可。
 
-We also have **labels** to help you have more control through the process.
-The meaning of each of these labels is:
+我们还提供**标签**，帮助您更好地控制整个过程。
+每个标签的含义是：
 
-- `Main Curriculum`: cards with that label represent courses that are listed in our curriculum.
-- `Extra Resources`: cards with that label represent courses that were added by the student.
-- `Doing`: cards with that label represent courses the student is currently doing.
-- `Done`: cards with that label represent courses finished by the student.
-Those cards should also have the link for at least one project/article built with the knowledge acquired in such a course.
-- `Section`: cards with that label represent the section that we have in our curriculum.
-Those cards with the `Section` label are only to help the organization of the Done column.
-You should put the *Course's cards* below its respective *Section's card*.
+- `Main Curriculum`：带有该标签的卡片代表我们课程表中列出的课程。
+- `Extra Resources`：带有该标签的卡片代表学生添加的课程。
+- `Doing`：带有该标签的卡片代表学生目前正在学习的课程。
+- `Done`：带有该标签的卡片表示学生已完成的课程。
+这些卡片上还应该有至少一个项目/文章的链接，这些项目/文章都是用该课程中获得的知识构建的。
+- `Section`：带有该标签的卡片代表我们课程中的章节。
+带有 `Section` 标签的卡片只是为了帮助组织 "Done "栏。
+你应该将*课程的卡片*放在其相应*章节的卡片*下方。
 
-The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
-You can change the status of your board to be *public* or *private*.
+设立这个板块的目的是为我们的学生提供一个跟踪自己进步的途径，同时也能通过一个公共页面向朋友、家人、雇主等展示自己的进步。
+您可以将论坛状态更改为*公开*或*私有*。
 
-# Team
+# 团队
 
-* **[Eric Douglas](https://github.com/ericdouglas)**: founder of OSSU
-* **[Josh Hanson](https://github.com/joshmhanson)**: lead technical maintainer
-* **[Waciuma Wanjohi](https://github.com/waciumawanjohi)**: lead academic maintainer
-* **[Contributors](https://github.com/ossu/computer-science/graphs/contributors)**
+* **[Eric Douglas](https://github.com/ericdouglas)**：OSSU 创始人
+* **[Josh Hanson](https://github.com/joshmhanson)**：首席技术维护者
+* **[Waciuma Wanjohi](https://github.com/waciumawanjohi)**：首席学术维护者
+* **[贡献者](https://github.com/ossu/computer-science/graphs/contributors)**
