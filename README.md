@@ -1,8 +1,3 @@
-# OSSU 2023 Survey
-Hi OSSUnians,
-OSSU is conducting our first census. [Will you take 15 minutes to fill out the survey?](https://docs.google.com/forms/d/e/1FAIpQLSfrON-YAh5nza6R0wpRkkhTOke5v9xSrZ3DXzec8f93KVSXjw/viewform?usp=sf_link)
-Your responses will help us understand your learning context and needs. All responses are anonymous. All responses shape the future of OSSU. The survey will be open for 2 weeks.
-
 ![Open Source Society University (OSSU)](https://i.imgur.com/kYYCXtC.png)
 
 <h3 align="center">Open Source Society University</h3>
