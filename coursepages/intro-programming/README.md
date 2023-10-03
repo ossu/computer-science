@@ -2,25 +2,25 @@
 
 If you've never written a for-loop, or don't know what a string is in programming, start here. These courses are self-paced, allowing you to adjust the number of hours you spend per week to meet your needs.
 
-We are currently looking for volunteers to try out both of the following two courses and analyze them in different ways so as which one is better suited to be included in our  curriculum. We suggest you to flip a coin to decide which one to take first, so that you avoid an ordering bias. Once you have completed both the course, please provide your analyisis on [this RFC](https://github.com/ossu/computer-science/issues/1164).
+We are currently looking for volunteers to try out both of the following two courses and analyze them in different ways to determine which one is better suited to be included in our  curriculum. We suggest that you flip a coin to decide which one to take first, so that you avoid an ordering bias. Once you have completed both courses, please provide your analysis of [this RFC](https://github.com/ossu/computer-science/issues/1164).
 
-If you don't have time or do not want to volunteer, you are required to do **only ONE** of the follwing courses.
+If you don't have time or do not want to volunteer, you are required to do **only ONE** of the following courses.
 
 ## CS50P: Introduction to Programming with Python
 
-This course has been made by the CS50 team at Harvard University.
+This course has been developed by the CS50 team at Harvard University.
 > An introduction to programming using a language called Python. Learn how to read and write code as well as how to test and "debug" it. Designed for students with or without prior programming experience who'd like to learn Python specifically. Learn about functions, arguments, and return values (oh my!); variables and types; conditionals and Boolean expressions; and loops. Learn how to handle exceptions, find and fix bugs, and write unit tests; use third-party libraries; validate and extract data with regular expressions; model real-world entities with classes, objects, methods, and properties; and read and write files. Hands-on opportunities for lots of practice. Exercises inspired by real-world programming problems. No software required except for a web browser, or you can write code on your own PC or Mac.
 
 **Link**: <https://cs50.harvard.edu/python/>
 
-**Note**: This course is *different* from CS50 or CS50x. CS50 is not a part of OSSU curriculum. That being said, if you have completed CS50, you can skip this course and move on to the next one.
+**Note**: This course is *different* from CS50 or CS50x. CS50 is not part of the OSSU curriculum. That being said, if you have completed CS50, you can skip this course and move on to the next one.
 
 ### Instructions
 
- - If you want to follow along with the instructior, log in to the [CS50 "codespace"](https://cs50.dev) and watch [this video](https://cs50.harvard.edu/python/2022/shorts/visual_studio_code_for_cs50/) to get started.
+ - If you want to follow along with the instructor, log in to the [CS50 "codespace"](https://cs50.dev) and watch [this video](https://cs50.harvard.edu/python/2022/shorts/visual_studio_code_for_cs50/) to get started.
  - Watch each lecture and complete the respective problem set. Read the lecture notes to revise things.
  - If you are struck somewhere, feel free to ask questions. You can join the OSSU chat for this course here: <https://discord.gg/syA242Z>.
- - You can also join the CS50 discord server and ask questions there: <https://discord.gg/cs50>, but note that it is not affliated to or maintained by OSSU.
+ - You can also join the CS50 discord server and ask questions there: <https://discord.gg/cs50>, but note that it is not affiliated with or maintained by OSSU.
 
 ### Course Materials
 
@@ -37,7 +37,7 @@ This course has been made by the CS50 team at Harvard University.
 
 ## Python for Everyone
 
-This course has been created by professor Charles Severance from University of Michigan.
+This course has been created by Professor Charles Severance from the University of Michigan.
 > Learn to Program and Analyze Data with Python. Develop programs to gather, clean, analyze, and visualize data.
 
 **Link**: https://www.py4e.com/lessons
@@ -48,11 +48,11 @@ This course has been created by professor Charles Severance from University of M
 
 ### Instructions
 
-- You need to [sign in](https://www.py4e.com/) to the course website using your google account to access the assignments.
+- You need to [sign in](https://www.py4e.com/) to the course website using your Google account to access the assignments.
 - Watch all the videos of a lesson and then do its assignments.
 - If you prefer reading books, you can read the HTML version of the chapter related to the lesson linked on the lesson's page, or you can download the whole book in different formats from [this page](https://www.py4e.com/book).
-- If you face any problem, feel free to ask questions. You can join the OSSU chat for this course here: <https://discord.gg/syA242Z>.
-- You only need to complete the course upto the Regular Expressions lesson. The rest of the course is optional.
+- If you face any problems, feel free to ask questions. You can join the OSSU chat for this course here: <https://discord.gg/syA242Z>.
+- You only need to complete the course up to the Regular Expressions lesson. The rest of the course is optional.
 
 ### Course Materials
 
@@ -76,7 +76,7 @@ This course has been created by professor Charles Severance from University of M
 
 ### Fixes
 
-1. If you're doing the BeautifulSoup4 lesson, there is an issue with Python 3.10+ that will give you an error referencing the Collections library. We have a fix for you. We don't expect you to understand it, just put this in front of your code, in the imports block:
+1. If you're doing the BeautifulSoup4 lesson, there is an issue with Python 3.10+ that will give you an error referencing the Collections library. We have a fix for you. We don't expect you to understand it, just put this in front of your code in the imports block:
 
 ```python
 import collections
