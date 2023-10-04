@@ -125,7 +125,7 @@ If you've never written a for-loop, or don't know what a string is in programmin
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Python for Everybody](https://www.py4e.com/lessons) | 10 weeks | 10 hours/week | none | [chat](https://discord.gg/syA242Z)
+[Introduction to programming](coursepages/intro-programming/README.md) | 10 weeks | 10 hours/week | none | [chat](https://discord.gg/syA242Z)
 
 ### Introduction to Computer Science
 
