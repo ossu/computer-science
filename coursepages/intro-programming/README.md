@@ -35,7 +35,7 @@ This course has been developed by the CS50 team at Harvard University.
 8. [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/) — [Notes](https://cs50.harvard.edu/python/2022/notes/8/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/0/)
 9. [Et Cetera](https://cs50.harvard.edu/python/2022/weeks/9/) — [Notes](https://cs50.harvard.edu/python/2022/notes/9/) — [Final Project](https://cs50.harvard.edu/python/2022/project/)
 
-## Python for Everyone
+## Python for Everybody
 
 This course has been created by Professor Charles Severance from the University of Michigan.
 > Learn to Program and Analyze Data with Python. Develop programs to gather, clean, analyze, and visualize data.
