@@ -23,6 +23,7 @@ PWControl | A simple password generator and manager | [Thai Huu Tri](https://git
 ## Programming
 Project Title | Description | Author(s) | Repository
 :-- | :-- | :--: | :--
+CS Algorithms | Classic algorithms including Fizz Buzz, Bubble Sort, the Fibonacci Sequence, a Sudoku solver, and more. | [Justin Time](https://github.com/justintime50) | [Algorithms](https://github.com/Justintime50/algorithms) 
 
 ## Math
 Project Title | Description | Author(s) | Repository
