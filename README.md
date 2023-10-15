@@ -61,11 +61,11 @@ just remember that you can't purchase success!
 
 **Process**. Students can work through the curriculum alone or in groups, in order or out of order.
 - We recommend doing all courses in Core CS, only skipping a course when you are certain that you've already learned the material previously.
-- For simplicity, we recommend working through courses (especially Core CS) in order from top to bottom, as they have already been [topologically sorted](https://en.wikipedia.org/wiki/Topological_sorting) by their prerequisites.
-- Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in and take all the courses under that heading. You can also create your own custom subject, but we recommend getting validation from the community on the subject you choose.
+- For simplicity, we recommend working through courses (especially Core CS) in order from top to bottom. Some students choose to study multiple courses at a time in order to vary the material they are working on is a day/week. A popular option is to take the math courses in parallel with the introductory courses. Course prerequisites are listed to help you determine if you are prepared for a given course.
+- Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in and take all the courses under that heading. You can also create your own custom subject; the discord community may provide feedback on your planned subject.
 
 **Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
-*Do NOT disrespect the code of conduct* that you signed in the beginning of each course!
+*Respect the code of conduct* that you signed in the beginning of each course!
 
 **[How to contribute](CONTRIBUTING.md)**
 
