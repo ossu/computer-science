@@ -19,20 +19,20 @@ This course has been developed by the CS50 team at Harvard University.
 
  - If you want to follow along with the instructor, log in to the [CS50 "codespace"](https://cs50.dev) and watch [this video](https://cs50.harvard.edu/python/2022/shorts/visual_studio_code_for_cs50/) to get started.
  - Watch each lecture and complete the respective problem set. Read the lecture notes to revise things.
- - If you are struck somewhere, feel free to ask questions. You can join the OSSU chat for this course here: <https://discord.gg/syA242Z>.
+ - If you are struck somewhere, feel free to ask questions. You can join the OSSU chat for this course here: <https://discord.gg/7aME9RDa>.
  - You can also join the CS50 discord server and ask questions there: <https://discord.gg/cs50>, but note that it is not affiliated with or maintained by OSSU.
 
 ### Course Materials
 
 0. [Functions, Variables](https://cs50.harvard.edu/python/2022/weeks/0/) — [Notes](https://cs50.harvard.edu/python/2022/notes/0/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/0/)
-1. [Conditionals](https://cs50.harvard.edu/python/2022/weeks/1/) — [Notes](https://cs50.harvard.edu/python/2022/notes/1/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/0/)
-2. [Loops](https://cs50.harvard.edu/python/2022/weeks/2/) — [Notes](https://cs50.harvard.edu/python/2022/notes/2/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/0/)
-3. [Exceptions](https://cs50.harvard.edu/python/2022/weeks/3/) — [Notes](https://cs50.harvard.edu/python/2022/notes/3/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/0/)
-4. [Libraries](https://cs50.harvard.edu/python/2022/weeks/4/) — [Notes](https://cs50.harvard.edu/python/2022/notes/4/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/0/)
-5. [Unit Tests](https://cs50.harvard.edu/python/2022/weeks/5/) — [Notes](https://cs50.harvard.edu/python/2022/notes/5/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/0/)
-6. [File I/O](https://cs50.harvard.edu/python/2022/weeks/6/) — [Notes](https://cs50.harvard.edu/python/2022/notes/6/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/0/)
-7. [Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/) — [Notes](https://cs50.harvard.edu/python/2022/notes/7/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/0/)
-8. [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/) — [Notes](https://cs50.harvard.edu/python/2022/notes/8/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/0/)
+1. [Conditionals](https://cs50.harvard.edu/python/2022/weeks/1/) — [Notes](https://cs50.harvard.edu/python/2022/notes/1/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/1/)
+2. [Loops](https://cs50.harvard.edu/python/2022/weeks/2/) — [Notes](https://cs50.harvard.edu/python/2022/notes/2/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/2/)
+3. [Exceptions](https://cs50.harvard.edu/python/2022/weeks/3/) — [Notes](https://cs50.harvard.edu/python/2022/notes/3/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/3/)
+4. [Libraries](https://cs50.harvard.edu/python/2022/weeks/4/) — [Notes](https://cs50.harvard.edu/python/2022/notes/4/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/4/)
+5. [Unit Tests](https://cs50.harvard.edu/python/2022/weeks/5/) — [Notes](https://cs50.harvard.edu/python/2022/notes/5/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/5/)
+6. [File I/O](https://cs50.harvard.edu/python/2022/weeks/6/) — [Notes](https://cs50.harvard.edu/python/2022/notes/6/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/6/)
+7. [Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/) — [Notes](https://cs50.harvard.edu/python/2022/notes/7/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/7/)
+8. [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/) — [Notes](https://cs50.harvard.edu/python/2022/notes/8/) — [Problem Set](https://cs50.harvard.edu/python/2022/psets/8/)
 9. [Et Cetera](https://cs50.harvard.edu/python/2022/weeks/9/) — [Notes](https://cs50.harvard.edu/python/2022/notes/9/) — [Final Project](https://cs50.harvard.edu/python/2022/project/)
 
 ## Python for Everybody
