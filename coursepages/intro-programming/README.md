@@ -19,7 +19,7 @@ This course has been developed by the CS50 team at Harvard University.
 
  - If you want to follow along with the instructor, log in to the [CS50 "codespace"](https://cs50.dev) and watch [this video](https://cs50.harvard.edu/python/2022/shorts/visual_studio_code_for_cs50/) to get started.
  - Watch each lecture and complete the respective problem set. Read the lecture notes to revise things.
- - If you are struck somewhere, feel free to ask questions. You can join the OSSU chat for this course here: <https://discord.gg/7aME9RDa>.
+ - If you are stuck somewhere, feel free to ask questions. You can join the OSSU chat for this course here: <https://discord.gg/7aME9RDa>.
  - You can also join the CS50 discord server and ask questions there: <https://discord.gg/cs50>, but note that it is not affiliated with or maintained by OSSU.
 
 ### Course Materials
