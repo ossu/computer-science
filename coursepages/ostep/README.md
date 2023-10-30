@@ -77,7 +77,7 @@ This course was originally taught as CS 537 at the University of Wisconsin by th
 * Watch discussion 5, then do the `scheduling-xv6-lottery` project.
 * Watch discussion 7, then do the `vm-xv6-intro` project.
 * Watch lectures 6 through 9 (and optionally, the review lecture) and read chapters 25 through 34; again, you're encouraged to do the homework.
-* Watch discussion 10, then do the `concurency-xv6-threads` project.
+* Watch discussion 10, then do the `concurrency-xv6-threads` project.
 * Watch discussions 11 and 12, then do the `concurrency-mapreduce` project.
 * Watch lectures 10 through 14 (and optionally, the second review lecture) and read chapters 35 through 47; remember to do the homework along with the lectures or chapters.
 * Do the `filesystems-checker` project.
