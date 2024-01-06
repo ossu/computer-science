@@ -1,4 +1,5 @@
 ![Open Source Society University (OSSU)](https://i.imgur.com/kYYCXtC.png)
+[![ReadMeSupportPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg)](https://github.com/Safouene1/support-palestine-banner)
 
 <h3 align="center">Open Source Society University</h3>
 <p align="center">
