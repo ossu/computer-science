@@ -53,6 +53,9 @@ they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/r
 **Duration**. It is possible to finish within about 2 years if you plan carefully and devote roughly 20 hours/week to your studies. Learners can use [this spreadsheet
 ](https://docs.google.com/spreadsheets/d/1bkUU90y4rKYQHwY5AR2iX6iiPTrPEsYs75GkCAkrgm4/copy) to estimate their end date. Make a copy and input your start date and expected hours per week in the `Timeline` sheet. As you work through courses you can enter your actual course completion dates in the `Curriculum Data` sheet and get updated completion estimates.
 
+> [!WARNING]  
+> While the spreadsheet is a useful tool to estimate the time you need to complete this curriculum, it may not be up-to-date with the curriculum. We suggest you to only use the spreadsheet to estimate the time you need, and use this repo, or the [OSSU CS website](https://cs.ossu.dev) to see what courses to do.
+
 **Cost**. All or nearly all course material is available for free. However, some courses may charge money for assignments/tests/projects to be graded.
 Note that both [Coursera](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=en_US) and [edX](https://courses.edx.org/financial-assistance/) offer financial aid.
 
@@ -77,7 +80,12 @@ just remember that you can't purchase success!
 - You can also interact through GitHub issues. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](CONTRIBUTING.md).
 - Subscribe to our [newsletter](https://tinyletter.com/OpenSourceSocietyUniversity).
 - Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) profile!
-- Note: There is an unmaintained and deprecated firebase app that you might find when searching OSSU. You can safely ignore it. Read more in the [FAQ](./FAQ.md#why-is-the-firebase-ossu-app-different-or-broken).
+
+> [!WARNING]
+> There are a few third-party/deprecated/outdated material that you might find when searching for OSSU. We recommend you to ignore them, and only use this GitHub repo, or the [OSSU CS website](https://cs.ossu.dev). Some known outdated material are:
+>  - An unmaintained and deprecated firebase app. Read more in the [FAQ](./FAQ.md#why-is-the-firebase-ossu-app-different-or-broken).
+>  - An unmaintained and deprecated trello board
+>  - Third-party notion templates
 
 # Curriculum
 
@@ -491,26 +499,7 @@ What is next for you? The possibilities are boundless and overlapping:
 
 ## How to show your progress
 
-1. Create an account in [Trello](https://trello.com/).
-1. Copy [this](https://trello.com/b/IScNSzsI/ossu-compsci) board to your personal account.
-See how to copy a board [here](https://help.trello.com/article/802-copying-cards-lists-or-boards).
-
-Now that you have a copy of our official board, you just need to pass the cards to the `Doing` column or `Done` column as you progress in your study.
-
-We also have **labels** to help you have more control through the process.
-The meaning of each of these labels is:
-
-- `Main Curriculum`: cards with that label represent courses that are listed in our curriculum.
-- `Extra Resources`: cards with that label represent courses that were added by the student.
-- `Doing`: cards with that label represent courses the student is currently doing.
-- `Done`: cards with that label represent courses finished by the student.
-Those cards should also have the link for at least one project/article built with the knowledge acquired in such a course.
-- `Section`: cards with that label represent the section that we have in our curriculum.
-Those cards with the `Section` label are only to help the organization of the Done column.
-You should put the *Course's cards* below its respective *Section's card*.
-
-The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
-You can change the status of your board to be *public* or *private*.
+Fork the GitHub repo into your own GitHub account and put ✅ next to the stuff you've completed as you complete it. Do not waste time making kanban boards or similar things. That time can be better utilized by doing the courses.
 
 # Team
 
