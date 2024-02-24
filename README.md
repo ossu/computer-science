@@ -505,3 +505,4 @@ What is next for you? The possibilities are boundless and overlapping:
 * **[Josh Hanson](https://github.com/joshmhanson)**: lead technical maintainer
 * **[Waciuma Wanjohi](https://github.com/waciumawanjohi)**: lead academic maintainer
 * **[Contributors](https://github.com/ossu/computer-science/graphs/contributors)**
+* **[Engr. Md Shagor](https://github.com/mdshagor369)**
