@@ -41,3 +41,4 @@ Project Title | Description | Author(s) | Repository
 :-- | :-- | :--: | :--
 Observatory | Interactively displays temperatures and deviations all around the world from 1975 to 2015 | [spamegg](https://github.com/spamegg1) | [ScalaCapstone](https://github.com/spamegg1/ScalaCapstone)
 Cloud Data Processing | Querying airline traffic data with batch and stream processing on cloud services | [MartinOvington](https://github.com/MartinOvington) | [CloudCapstone](https://github.com/MartinOvington/cloud-specialization)
+Full Stack Open | Single-page app + microservice displaying and scraping data from GitHub repositories | [pcolt](https://github.com/pcolt/) | [Final Project](https://github.com/pcolt/react-scraper)
