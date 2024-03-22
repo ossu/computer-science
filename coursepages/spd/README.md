@@ -17,7 +17,7 @@ Alternative Links:
 
 - The course does not have a homepage on Edx, but don't worry about it. Open the [link](https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015) given above, log in (if you are not logged in) and then enroll in the course.
 - Work through Week 1A to Week 6A as given in the course overview. Watch the videos, do the exercises, and then solve the problems from the problem bank.
-- After you complete, Week 6A, do the [space invaders problem](space-invaders-starter.rkt).
+- After you complete, Week 6A, do the [space invaders problem](space-invaders-starter.rkt). You can find further instructions here: [Space Invaders Instructions](space-invaders-instructions.png). You can watch a sample run of the game [here](https://www.youtube.com/shorts/wUg3psZl7vM).
 - Then, work through Week 6B onwards. Watch the videos, do the exercises, and then solve the problems from the problem bank.
 - After you complete all the modules in the course, do the [TA solver problem](ta-solver-starter.rkt). You will find the instructions in the starter file.
 - The problem bank tab has many additional problems. We suggest you to solve all of them to boost your understanding.
@@ -33,7 +33,7 @@ Alternative Links:
 
 - Dr. Racket defaults to using the newer notation `#true #false '()`. You can configure Dr. Racket to use the notation used by the course by clicking in menu bar on Language > Choose Language. Then choose the required language (BSL, ISL or other variants). Then click on "Show details" in the bottom left of the window. Then choose `true false empty` in "Constant Style" field. Run your file again to make sure it uses the new configuration.
 
-<img src="https://github.com/pulkitkrishna00/computer-science/assets/72264063/8c495b4a-bfbf-4850-a4cf-fc09c45353e7" width="600" alt="The language choosing dialog of Dr. Racket" />
+<img src="change-dr-racket-notation.png" width="600" alt="The language choosing dialog of Dr. Racket" />
 
 ## FAQ
 
@@ -74,3 +74,15 @@ TL;DR:
 
     If you're in it for the knowledge, take SPD -- it's free but inactive
     If you're in it for the certificate, take and pay for How To Code -- it's still an active course
+
+### Can I do this course is another programming language?
+
+This course has really integrated with the programming languages it uses. We suggest you to use the language specified by the course. While, the concepts you learn from this course are applicable anywhere, trying to do the course with another language is not really sensible, and would just lead to wastage of time.
+
+### Can I use another IDE? I don't like Dr. Racket.
+
+The programs in this course embed pictures and rich-text blocks in the code, which means, the files cannot be opened by other IDEs. While it is possible to prepare the starter files for use with other IDEs, you need Dr. Racket for that, and the time needed to do that can be better utilized in learning the concepts taught by the course.
+
+## Credits
+
+The problem starter files and the space invaders instructions were taken from the course ["Systematic Program Design" on Edx](https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015), licensed under [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
