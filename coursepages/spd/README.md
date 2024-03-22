@@ -4,12 +4,12 @@ This course has been developed by UBC and is available from Edx. We recommend yo
 
 > This programming course takes a unique approach, as it focuses on learning a systematic programming method rather than a programming language. This practical approach will help you channel your creativity so that you can program well in any language.
 
-**Course Link:** https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015
+**Course Link:** <https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015>
 
 Alternative Links:
 
-- https://www.edx.org/course/how-to-code-simple-data (Up to Week 6A)
-- https://www.edx.org/course/how-to-code-complex-data (Week 6B onwards)
+- <https://www.edx.org/course/how-to-code-simple-data> (Up to Week 6A)
+- <https://www.edx.org/course/how-to-code-complex-data> (Week 6B onwards)
 
 ## Instructions
 
@@ -26,8 +26,8 @@ Alternative Links:
 - You won't be able to submit the problem bank problems, but they provide sample solutions. You can match your solution with it.
 - While there are ways to do this course in other IDEs, we suggest you to use Dr. Racket, as configuring the problem starter files for other IDEs is not worth the effort. 
 - If you are stuck somewhere, feel free to ask questions. You can join the OSSU chat for this course here:
-  - Chat for discussions up to Week 6A: https://discord.gg/RfqAmGJ
-  - Chat for discussions from Week 6B onwards: https://discord.gg/kczJzpm
+  - Chat for discussions up to Week 6A: <https://discord.gg/RfqAmGJ>
+  - Chat for discussions from Week 6B onwards: <https://discord.gg/kczJzpm>
 
 ## Notes
 
