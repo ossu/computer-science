@@ -19,7 +19,7 @@ This course has been developed by the CS50 team at Harvard University.
 
  - If you want to follow along with the instructor, log in to the [CS50 "codespace"](https://cs50.dev) and watch [this video](https://cs50.harvard.edu/python/2022/shorts/visual_studio_code_for_cs50/) to get started.
  - Watch each lecture and complete the respective problem set. Read the lecture notes to revise things.
- - If you are stuck somewhere, feel free to ask questions. You can join the OSSU chat for this course here: <https://discord.gg/7aME9RDa>.
+ - If you are stuck somewhere, feel free to ask questions. You can join the OSSU chat for this course here: <https://discord.gg/cBkssaJy5g>.
  - You can also join the CS50 discord server and ask questions there: <https://discord.gg/cs50>, but note that it is not affiliated with or maintained by OSSU.
 
 ### Course Materials
@@ -40,7 +40,7 @@ This course has been developed by the CS50 team at Harvard University.
 This course has been created by Professor Charles Severance from the University of Michigan.
 > Learn to Program and Analyze Data with Python. Develop programs to gather, clean, analyze, and visualize data.
 
-**Link**: https://www.py4e.com/lessons
+**Link**: <https://www.py4e.com/lessons>
 
 **Textbook**: [PDF](http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf) / [EPUB](http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.epub) / [HTML](https://www.py4e.com/html3) / [Buy hardcopy](https://www.py4e.com/book)
 
