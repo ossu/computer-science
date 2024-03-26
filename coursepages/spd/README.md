@@ -17,11 +17,11 @@ Alternative Links:
 
 - The course does not have a homepage on Edx, but don't worry about it. Open the [link](https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015) given above, log in (if you are not logged in) and then enroll in the course.
 - Work through Week 1A to Week 6A as given in the course overview. Watch the videos, do the exercises, and then solve the problems from the problem bank.
-- After you complete, Week 6A, do the [space invaders problem](space-invaders-starter.rkt). You can find further instructions here: [Space Invaders Instructions](space-invaders-instructions.png). You can watch a sample run of the game [here](https://www.youtube.com/shorts/wUg3psZl7vM).
+- After you complete, Week 6A, do the [space invaders problem](https://github.com/ossu/spd-starters/blob/main/final/space-invaders-starter.rkt). You can find further instructions here: [Space Invaders Instructions](space-invaders-instructions.png). You can watch a sample run of the game [here](https://www.youtube.com/shorts/wUg3psZl7vM).
 - Then, work through Week 6B onwards. Watch the videos, do the exercises, and then solve the problems from the problem bank.
-- After you complete all the modules in the course, do the [TA solver problem](ta-solver-starter.rkt). You will find the instructions in the starter file.
+- After you complete all the modules in the course, do the [TA solver problem](https://github.com/ossu/spd-starters/blob/main/final/ta-solver-starter.rkt). You will find the instructions in the starter file.
 - The problem bank tab has many additional problems. We suggest you to solve all of them to boost your understanding.
-- Some links to starter files in the course are no longer working. You can download a zip file of all the starter files up to Week 6A from here: [htc-simple.zip](htc-simple.zip), and for Week 6B onwards from here: [HTC2X.zip](HTC2X.zip).
+- Some links to starter files in the course are no longer working. You can download the starter files from this github repository: <https://github.com/ossu/spd-starters>. You can download a zip file of all the starter files using [this link](https://github.com/ossu/spd-starters/archive/refs/heads/main.zip).
 - You won't be able to submit your responses for the exercises, but you can see their answers by clicking on "Show Answer". Check your answers honestly.
 - You won't be able to submit the problem bank problems, but they provide sample solutions. You can match your solution with it.
 - While there are ways to do this course in other IDEs, we suggest you to use Dr. Racket, as configuring the problem starter files for other IDEs is not worth the effort. 
