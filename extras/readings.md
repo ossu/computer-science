@@ -25,6 +25,7 @@ Name | Author(s)
 [Programming and Programming Languages](https://papl.cs.brown.edu/2018/) | Shriram Krishnamurthi, Benjamin S. Lerner, Joe Gibbs Politz
 [Competitive Programming](https://cpbook.net/) | Steven Halim, Felix Halim
 [Introduction to computing in Java](https://introcs.cs.princeton.edu/java/home/) | Robert Sedgewick, Kevin Wayne
+[How to Design Programs, Second Edition](https://htdp.org/2023-8-14/Book/index.html) | Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, Shriram Krishnamurthi
 
 ## Math
 
