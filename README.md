@@ -1,10 +1,10 @@
-![Open Source Society University (OSSU)](https://i.imgur.com/kYYCXtC.png)
-
-<h3 align="center">Open Source Society University</h3>
-<p align="center">
+<div style="text-align: center">
+<img src="http://i.imgur.com/kYYCXtC.png" alt="Open Source Society logo"/>
+<h3>Open Source Society University</h3>
+<p>
   Path to a free self-taught education in Computer Science!
 </p>
-<p align="center">
+<p>
   <a href="https://github.com/sindresorhus/awesome">
     <img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"
   ></a>
@@ -12,6 +12,7 @@
     <img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"
   ></a>
 </p>
+</div>
 
 # Contents
 
