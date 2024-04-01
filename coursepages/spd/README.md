@@ -35,6 +35,10 @@ Alternative Links:
 
 <img src="change-dr-racket-notation.png" width="600" alt="The language choosing dialog of Dr. Racket" />
 
+- You can enable automatic closing of parentheses, brackets, and quotes. Click on Edit in the Menu Bar > Preferences > Go to Editing Tab > Go to General Editing Sub-tab > Check the "Enable automatic parentheses, square brackets, and quotes" checkbox.
+
+<img src="automatic-parentheses.png" width="600" alt="Enable automatic closing of parentheses" />
+
 ## FAQ
 
 ### This course is boring. Can I skip it?
