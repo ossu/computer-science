@@ -22,7 +22,6 @@ Courses | Duration | Effort
 [Introduction to Programming with MATLAB](https://www.coursera.org/learn/matlab)| - | -
 [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)| 7 weeks | 4-6 hours/week
 [The Structure and Interpretation of Computer Programs (2022, Python)](http://cs61a.org/) | - | -
-[The Structure and Interpretation of Computer Programs (2021, JavaScript)](https://sourceacademy.org/sicpjs/index) | - | -
 [The Structure and Interpretation of Computer Programs (2011, Scheme)](https://romanbird.github.io/sicp/) | - | -
 [Introduction to Haskell](https://www.seas.upenn.edu/~cis194/fall16/) | 14 weeks | 4 hours/week
 
