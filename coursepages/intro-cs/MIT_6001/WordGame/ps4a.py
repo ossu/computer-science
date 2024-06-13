@@ -323,8 +323,26 @@ def playGame(wordList):
     2) When done playing the hand, repeat from step 1    
     """
     # TO DO ... <-- Remove this comment when you code this function
-    user_input = input("please enter n, r, or e to play a new hand, ")
+     
     #print("playGame not yet implemented.") # <-- Remove this line when you code the function
+    
+    user_input = 'a'
+    hand = dealHand(HAND_SIZE)
+    while user_input != 'e':
+        print(f"your current hand is {hand}")
+        while user_input != 'n' and user_input != 'r' and user_input != 'e':
+            user_input = input("enter n for new hand, r to use the current hand, or e to exit the game: ")
+            if user_input != 'n' and user_input != 'r' and user_input != 'e':
+                print("invalid input, please try again")
+            elif user_input == 'n':
+                hand = dealHand(HAND_SIZE)
+                print(f"your current hand is {hand}")
+                user_input = 'a'
+            elif user_input == 'e':
+                break
+            else:
+                playHand(hand, wordList, HAND_SIZE)
+                user_input = 'a'
    
 
 
