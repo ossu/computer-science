@@ -1,0 +1,9 @@
+ipywidgets==8.1.2
+matplotlib==3.8.4
+pandas==2.2.2
+torch==2.3.0
+torchvision==0.18.0
+tqdm==4.66.4
+seaborn==0.13.2
+kaggle==1.6.14
+coremltools==7.2
