@@ -39,6 +39,10 @@ Alternative Links:
 
 <img src="automatic-parentheses.png" width="600" alt="Enable automatic closing of parentheses" />
 
+- You can use Ctrl + I to reindent the whole file.
+
+- If you are on Windows or Linux, use Alt + Backspace to delete whole words.
+
 ## FAQ
 
 ### This course is boring. Can I skip it?
