@@ -89,26 +89,26 @@ just remember that you can't purchase success!
 
 **Curriculum version**: `8.0.0` (see [CHANGELOG](CHANGELOG.md))
 
-- [Prerequisites](#prerequisites)
-- [Intro CS](#intro-cs)
-  - [Introduction to Programming](#introduction-to-programming)
-  - [Introduction to Computer Science](#introduction-to-computer-science)
-- [Core CS](#core-cs)
-  - [Core programming](#core-programming)
-  - [Core math](#core-math)
-  - [CS Tools](#cs-tools)
-  - [Core systems](#core-systems)
-  - [Core theory](#core-theory)
-  - [Core security](#core-security)
-  - [Core applications](#core-applications)
-  - [Core ethics](#core-ethics)
-- [Advanced CS](#advanced-cs)
-  - [Advanced programming](#advanced-programming)
-  - [Advanced systems](#advanced-systems)
-  - [Advanced theory](#advanced-theory)
-  - [Advanced information security](#advanced-information-security)
-  - [Advanced math](#advanced-math)
-- [Final project](#final-project)
+- [ ] [Prerequisites](#prerequisites)
+- [ ] [Intro CS](#intro-cs)
+  - [ ] [Introduction to Programming](#introduction-to-programming)
+  - [ ] [Introduction to Computer Science](#introduction-to-computer-science)
+- [ ] [Core CS](#core-cs)
+  - [ ] [Core programming](#core-programming)
+  - [ ] [Core math](#core-math)
+  - [ ] [CS Tools](#cs-tools)
+  - [ ] [Core systems](#core-systems)
+  - [ ] [Core theory](#core-theory)
+  - [ ] [Core security](#core-security)
+  - [ ] [Core applications](#core-applications)
+  - [ ] [Core ethics](#core-ethics)
+- [ ] [Advanced CS](#advanced-cs)
+  - [ ] [Advanced programming](#advanced-programming)
+  - [ ] [Advanced systems](#advanced-systems)
+  - [ ] [Advanced theory](#advanced-theory)
+  - [ ] [Advanced information security](#advanced-information-security)
+  - [ ] [Advanced math](#advanced-math)
+- [ ] [Final project](#final-project)
 
 ---
 
@@ -131,7 +131,7 @@ If you've never written a for-loop, or don't know what a string is in programmin
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Introduction to programming](coursepages/intro-programming/README.md) | 10 weeks | 10 hours/week | none | [chat](https://discord.gg/syA242Z)
+- [ ] [Introduction to programming](coursepages/intro-programming/README.md) | 10 weeks | 10 hours/week | none | [chat](https://discord.gg/syA242Z)
 
 ### Introduction to Computer Science
 
