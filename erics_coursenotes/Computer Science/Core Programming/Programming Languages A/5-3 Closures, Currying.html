@@ -1,0 +1,803 @@
+
+				<!DOCTYPE html>
+				<html>
+					<head>
+						<meta charset="UTF-8">
+						<meta name="viewport" content="width=device-width, initial-scale=1" />
+						<link rel="stylesheet" href="pluginAssets/highlight.js/atom-one-light.css">
+						<title>5-3 Closures, Currying</title>
+					</head>
+					<body>
+						<div class="exported-note"><div class="exported-note-title">5-3 Closures, Currying</div>
+
+<style>
+		/* https://necolas.github.io/normalize.css/ */
+		html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+		article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}
+		pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}
+		b,strong{font-weight:bolder}small{font-size:80%}img{border-style:none}
+
+		body {
+			font-size: 15px;
+			color: #32373F;
+			word-wrap: break-word;
+			line-height: 1.6em;
+			background-color: #ffffff;
+			font-family: 'Avenir Next', 'Avenir', 'Arial', sans-serif;
+			padding-bottom: 0px;
+			padding-top: 0px;
+		}
+		kbd {
+			border: 1px solid rgb(220, 220, 220);
+			box-shadow: inset 0 -1px 0 rgb(220, 220, 220);
+			padding: 2px 4px;
+			border-radius: 3px;
+			background-color: rgb(243, 243, 243);
+		}
+		::-webkit-scrollbar {
+			width: 7px;
+			height: 7px;
+		}
+		::-webkit-scrollbar-corner {
+			background: none;
+		}
+		::-webkit-scrollbar-track {
+			border: none;
+		}
+		::-webkit-scrollbar-thumb {
+			background: rgba(100, 100, 100, 0.3); 
+			border-radius: 5px;
+		}
+		::-webkit-scrollbar-track:hover {
+			background: rgba(0, 0, 0, 0.1); 
+		}
+		::-webkit-scrollbar-thumb:hover {
+			background: rgba(100, 100, 100, 0.7); 
+		}
+
+		
+
+		/* Remove top padding and margin from first child so that top of rendered text is aligned to top of text editor text */
+
+		#rendered-md > h1:first-child,
+		#rendered-md > h2:first-child,
+		#rendered-md > h3:first-child,
+		#rendered-md > h4:first-child,
+		#rendered-md > ul:first-child,
+		#rendered-md > ol:first-child,
+		#rendered-md > table:first-child,
+		#rendered-md > blockquote:first-child,
+		#rendered-md > img:first-child,
+		#rendered-md > p:first-child {
+			margin-top: 0;
+			padding-top: 0;
+		}
+		
+		p, h1, h2, h3, h4, h5, h6, ul, table {
+			margin-top: .6em;
+			margin-bottom: 1.35em;
+
+			/*
+				Adds support for RTL text in the note body. It automatically detects the direction using the content.
+				Issue: https://github.com/laurent22/joplin/issues/3991
+			*/
+			unicode-bidi: plaintext;
+		}
+
+		h1, h2, h3, h4, h5, h6, ul, table {
+			margin-bottom: 0.65em;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			line-height: 1.5em;
+		}
+		h1 {
+			font-size: 1.5em;
+			font-weight: bold;
+			border-bottom: 1px solid #dddddd;
+			padding-bottom: .3em;
+		}
+		h2 {
+			font-size: 1.3em;
+			font-weight: bold;
+			padding-bottom: .1em; */
+		}
+		h3 {
+			font-size: 1.1em;
+			font-weight: bold;
+		}
+		h4, h5, h6 {
+			font-size: 1em;
+			font-weight: bold;
+		}
+
+		.exported-note-title {
+			font-size: 2em;
+			font-weight: bold;
+			margin-bottom: 0.8em;
+			line-height: 1.5em;
+			padding-bottom: .35em;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		a {
+			color: #155BDA;
+		}
+		ul, ol {
+			padding-left: 0;
+			margin-left: 1.7em;
+		}
+		li {
+			margin-bottom: .4em;
+		}
+		li p {
+			margin-top: 0.2em;
+			margin-bottom: 0;
+		}
+
+		.resource-icon {
+			display: inline-block;
+			position: relative;
+			top: 0.3em;
+			text-decoration: none;
+			width: 1.2em;
+			height: 1.4em;
+			margin-right: 0.4em;
+			background-color:  #155BDA;
+		}
+    /* These icons are obtained from the wonderful ForkAwesome project by copying the src svgs 
+     * into the css classes below.
+     * svgs are obtained from https://github.com/ForkAwesome/Fork-Awesome/tree/master/src/icons/svg
+     * instead of the svg width, height property you must use a viewbox here, 0 0 1536 1792 is typically the actual size of the icon
+     * each line begins with the pre-amble -webkit-mask: url("data:image/svg+xml;utf8,
+     * and of course finishes with ");
+     * to prevent artifacts it is also necessary to include -webkit-mask-repeat: no-repeat;
+     * on the following line
+     * */
+		.fa-joplin {
+			/* Awesome Font file */
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M373.834 128C168.227 128 0 296.223 0 501.834v788.336C0 1495.778 168.227 1664 373.834 1664h788.336c205.608 0 373.83-168.222 373.83-373.83V501.834C1536 296.224 1367.778 128 1162.17 128zm397.222 205.431h417.424a7.132 7.132 0 0 1 7.132 7.133v132.552c0 4.461-3.619 8.073-8.077 8.073h-57.23c-24.168 0-43.768 19.338-44.284 43.374v2.377h-.017v136.191h-.053l-.466 509.375c-5.02 77.667-39.222 149.056-96.324 201.046-60.28 54.834-141.948 85.017-229.962 85.017-12.45 0-25.208-.61-37.907-1.785-92.157-8.682-181.494-48.601-251.662-112.438-71.99-65.517-117.147-150.03-127.164-238-11.226-98.763 23.42-192.783 95.045-257.937 81.99-74.637 198.185-101.768 316.613-75.704 5.574 1.227 9.55 6.282 9.55 11.997v199.52c-.199 2.625-1.481 6.599-8.183 2.896-.663-.365-1.194-.511-1.653-.531-21.987-10.587-45.159-17.57-68.559-19.916-.38-.04-.757-.124-1.138-.163-.537-.048-1.034-.033-1.556-.075-4.13-.354-8.183-.517-12.203-.58-.87-.011-1.771-.127-2.641-.127-.486 0-.951.05-1.437.057-1.464.011-2.886.115-4.33.163-2.76.102-5.497.211-8.182.448-.273.024-.547.07-.835.097-25.509 2.4-47.864 11.104-65.012 25.47-.954.802-1.974 1.53-2.9 2.36a1.34 1.34 0 0 1-.168.146c-23.96 21.8-34.881 53.872-30.726 90.316 4.62 40.737 26.94 81.156 62.841 113.823 35.908 32.67 80.335 52.977 125.113 57.186 35.118 3.36 66.547-3.919 89.899-20.461a97.255 97.255 0 0 0 9.365-7.501c2.925-2.661 5.569-5.5 8.086-8.416.3-.348.672-.673.975-1.024 8.253-9.864 14.222-21.067 17.996-33.148.639-2.034 1.051-4.148 1.564-6.227.381-1.563.81-3.106 1.112-4.693.555-2.784.923-5.632 1.253-8.49.086-.709.183-1.414.237-2.128.492-4.893.693-9.858.55-14.91h.013V521.623c-2.01-22.626-20.78-40.434-43.928-40.434h-57.23a8.071 8.071 0 0 1-8.077-8.073V340.564a7.132 7.132 0 0 1 7.136-7.133z'/></svg>");
+		}
+		.fa-file-image {
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1468 380c37 37 68 111 68 164v1152c0 53-43 96-96 96H96c-53 0-96-43-96-96V96C0 43 43 0 96 0h896c53 0 127 31 164 68zm-444-244v376h376c-6-17-15-34-22-41l-313-313c-7-7-24-16-41-22zm384 1528V640H992c-53 0-96-43-96-96V128H128v1536h1280zm-128-448v320H256v-192l192-192 128 128 384-384zm-832-192c-106 0-192-86-192-192s86-192 192-192 192 86 192 192-86 192-192 192z'/></svg>");
+      -webkit-mask-repeat: no-repeat;
+		}
+		.fa-file-pdf {
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1468 380c37 37 68 111 68 164v1152c0 53-43 96-96 96H96c-53 0-96-43-96-96V96C0 43 43 0 96 0h896c53 0 127 31 164 68zm-444-244v376h376c-6-17-15-34-22-41l-313-313c-7-7-24-16-41-22zm384 1528V640H992c-53 0-96-43-96-96V128H128v1536h1280zm-514-593c25 20 53 38 84 56 42-5 81-7 117-7 67 0 152 8 177 49 7 10 13 28 2 52-1 1-2 3-3 4v1c-3 18-18 38-71 38-64 0-161-29-245-73-139 15-285 46-392 83-103 176-182 262-242 262-10 0-19-2-28-7l-24-12c-3-1-4-3-6-5-5-5-9-16-6-36 10-46 64-123 188-188 8-5 18-2 23 6 1 1 2 3 2 4 31-51 67-116 107-197 45-90 80-178 104-262-32-109-42-221-24-287 7-25 22-40 42-40h22c15 0 27 5 35 15 12 14 15 36 9 68-1 3-2 6-4 8 1 3 1 5 1 8v30c-1 63-2 123-14 192 35 105 87 190 146 238zm-576 411c30-14 73-57 137-158-75 58-122 124-137 158zm398-920c-10 28-10 76-2 132 3-16 5-31 7-44 2-17 5-31 7-43 1-3 2-5 4-8-1-1-1-3-2-5-1-18-7-29-13-36 0 2-1 3-1 4zm-124 661c88-35 186-63 284-81-10-8-20-15-29-23-49-43-93-103-127-176-19 61-47 126-83 197-15 28-30 56-45 83zm646-16c-5-5-31-24-140-24 49 18 94 28 124 28 9 0 14 0 18-1 0-1-1-2-2-3z'/></svg>");
+      -webkit-mask-repeat: no-repeat;
+		}
+		.fa-file-word {
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1468 380c37 37 68 111 68 164v1152c0 53-43 96-96 96H96c-53 0-96-43-96-96V96C0 43 43 0 96 0h896c53 0 127 31 164 68zm-444-244v376h376c-6-17-15-34-22-41l-313-313c-7-7-24-16-41-22zm384 1528V640H992c-53 0-96-43-96-96V128H128v1536h1280zM233 768v107h70l164 661h159l128-485c5-15 8-30 10-46 1-8 2-16 2-24h4l3 24c3 14 4 30 9 46l128 485h159l164-661h70V768h-300v107h90l-99 438c-4 16-6 33-7 46l-2 21h-4c0-6-2-14-3-21-3-13-5-30-9-46L825 768H711l-144 545c-4 16-5 33-8 46l-4 21h-4l-2-21c-1-13-3-30-7-46l-99-438h90V768H233z'/></svg>");
+      -webkit-mask-repeat: no-repeat;
+		}
+		.fa-file-powerpoint {
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1468 380c37 37 68 111 68 164v1152c0 53-43 96-96 96H96c-53 0-96-43-96-96V96C0 43 43 0 96 0h896c53 0 127 31 164 68zm-444-244v376h376c-6-17-15-34-22-41l-313-313c-7-7-24-16-41-22zm384 1528V640H992c-53 0-96-43-96-96V128H128v1536h1280zm-992-234v106h327v-106h-93v-167h137c43 0 82-2 118-15 90-31 146-124 146-233s-54-193-137-228c-38-15-84-19-130-19H416v107h92v555h-92zm353-280H650V882h120c35 0 62 6 83 18 36 21 56 62 56 115 0 56-20 99-62 120-21 10-47 15-78 15z'/></svg>");
+      -webkit-mask-repeat: no-repeat;
+		}
+		.fa-file-excel {
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1468 380c37 37 68 111 68 164v1152c0 53-43 96-96 96H96c-53 0-96-43-96-96V96C0 43 43 0 96 0h896c53 0 127 31 164 68zm-444-244v376h376c-6-17-15-34-22-41l-313-313c-7-7-24-16-41-22zm384 1528V640H992c-53 0-96-43-96-96V128H128v1536h1280zm-979-234v106h281v-106h-75l103-161c12-19 18-34 21-34h2c1 4 3 7 5 10 4 8 10 14 17 24l107 161h-76v106h291v-106h-68l-192-273 195-282h67V768H828v107h74l-103 159c-12 19-21 34-21 33h-2c-1-4-3-7-5-10-4-7-9-14-17-23L648 875h76V768H434v107h68l189 272-194 283h-68z'/></svg>");
+      -webkit-mask-repeat: no-repeat;
+		}
+		.fa-file-audio {
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1468 380c37 37 68 111 68 164v1152c0 53-43 96-96 96H96c-53 0-96-43-96-96V96C0 43 43 0 96 0h896c53 0 127 31 164 68zm-444-244v376h376c-6-17-15-34-22-41l-313-313c-7-7-24-16-41-22zm384 1528V640H992c-53 0-96-43-96-96V128H128v1536h1280zM620 850c12 5 20 17 20 30v544c0 13-8 25-20 30-4 1-8 2-12 2-8 0-16-3-23-9l-166-167H288c-18 0-32-14-32-32v-192c0-18 14-32 32-32h131l166-167c10-9 23-12 35-7zm417 689c19 0 37-8 50-24 83-102 129-231 129-363s-46-261-129-363c-22-28-63-32-90-10-28 23-32 63-9 91 65 80 100 178 100 282s-35 202-100 282c-23 28-19 68 9 90 12 10 26 15 40 15zm-211-148c17 0 34-7 47-20 56-60 87-137 87-219s-31-159-87-219c-24-26-65-27-91-3-25 24-27 65-2 91 33 36 52 82 52 131s-19 95-52 131c-25 26-23 67 2 91 13 11 29 17 44 17z'/></svg>");
+      -webkit-mask-repeat: no-repeat;
+		}
+		.fa-file-video {
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1468 380c37 37 68 111 68 164v1152c0 53-43 96-96 96H96c-53 0-96-43-96-96V96C0 43 43 0 96 0h896c53 0 127 31 164 68zm-444-244v376h376c-6-17-15-34-22-41l-313-313c-7-7-24-16-41-22zm384 1528V640H992c-53 0-96-43-96-96V128H128v1536h1280zM768 768c70 0 128 58 128 128v384c0 70-58 128-128 128H384c-70 0-128-58-128-128V896c0-70 58-128 128-128h384zm492 2c12 5 20 17 20 30v576c0 13-8 25-20 30-4 1-8 2-12 2-8 0-17-3-23-9l-265-266v-90l265-266c6-6 15-9 23-9 4 0 8 1 12 2z'/></svg>");
+      -webkit-mask-repeat: no-repeat;
+		}
+		.fa-file-archive {
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M640 384V256H512v128h128zm128 128V384H640v128h128zM640 640V512H512v128h128zm128 128V640H640v128h128zm700-388c37 37 68 111 68 164v1152c0 53-43 96-96 96H96c-53 0-96-43-96-96V96C0 43 43 0 96 0h896c53 0 127 31 164 68zm-444-244v376h376c-6-17-15-34-22-41l-313-313c-7-7-24-16-41-22zm384 1528V640H992c-53 0-96-43-96-96V128H768v128H640V128H128v1536h1280zM781 943c85 287 107 349 107 349 5 17 8 34 8 52 0 111-108 192-256 192s-256-81-256-192c0-18 3-35 8-52 0 0 21-62 120-396V768h128v128h79c29 0 54 19 62 47zm-141 465c71 0 128-29 128-64s-57-64-128-64-128 29-128 64 57 64 128 64z'/></svg>");
+      -webkit-mask-repeat: no-repeat;
+		}
+		.fa-file-code {
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1468 380c37 37 68 111 68 164v1152c0 53-43 96-96 96H96c-53 0-96-43-96-96V96C0 43 43 0 96 0h896c53 0 127 31 164 68zm-444-244v376h376c-6-17-15-34-22-41l-313-313c-7-7-24-16-41-22zm384 1528V640H992c-53 0-96-43-96-96V128H128v1536h1280zM480 768c11-14 31-17 45-6l51 38c14 11 17 31 6 45l-182 243 182 243c11 14 8 34-6 45l-51 38c-14 11-34 8-45-6l-226-301c-8-11-8-27 0-38zm802 301c8 11 8 27 0 38l-226 301c-11 14-31 17-45 6l-51-38c-14-11-17-31-6-45l182-243-182-243c-11-14-8-34 6-45l51-38c14-11 34-8 45 6zm-620 461c-18-3-29-20-26-37l138-831c3-18 20-29 37-26l63 10c18 3 29 20 26 37l-138 831c-3 18-20 29-37 26z'/></svg>");
+      -webkit-mask-repeat: no-repeat;
+		}
+		.fa-file-alt, .fa-file-csv {
+      /* fork-awesome doesn't have csv so we use the text icon */
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1468 380c37 37 68 111 68 164v1152c0 53-43 96-96 96H96c-53 0-96-43-96-96V96C0 43 43 0 96 0h896c53 0 127 31 164 68zm-444-244v376h376c-6-17-15-34-22-41l-313-313c-7-7-24-16-41-22zm384 1528V640H992c-53 0-96-43-96-96V128H128v1536h1280zM384 800c0-18 14-32 32-32h704c18 0 32 14 32 32v64c0 18-14 32-32 32H416c-18 0-32-14-32-32v-64zm736 224c18 0 32 14 32 32v64c0 18-14 32-32 32H416c-18 0-32-14-32-32v-64c0-18 14-32 32-32h704zm0 256c18 0 32 14 32 32v64c0 18-14 32-32 32H416c-18 0-32-14-32-32v-64c0-18 14-32 32-32h704z'/></svg>");
+      -webkit-mask-repeat: no-repeat;
+		}
+		.fa-file {
+			-webkit-mask: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1536 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1468 380c37 37 68 111 68 164v1152c0 53-43 96-96 96H96c-53 0-96-43-96-96V96C0 43 43 0 96 0h896c53 0 127 31 164 68zm-444-244v376h376c-6-17-15-34-22-41l-313-313c-7-7-24-16-41-22zm384 1528V640H992c-53 0-96-43-96-96V128H128v1536h1280z'/></svg>");
+      -webkit-mask-repeat: no-repeat;
+		}
+		blockquote {
+			border-left: 4px solid rgb(220, 220, 220);
+			padding-left: 1.2em;
+			margin-left: 0;
+			opacity: 0.7;
+		}
+
+		.jop-tinymce table,
+		table {
+			text-align: left;
+			border-collapse: collapse;
+			border: 1px solid rgb(220, 220, 220);
+			background-color: #ffffff;
+		}
+
+		.jop-tinymce table td, .jop-tinymce table th,
+		table td, th {
+			text-align: left;
+			padding: .5em 1em .5em 1em;
+			font-size: 15;
+			color: #32373F;
+			font-family: 'Avenir Next', 'Avenir', 'Arial', sans-serif;
+		}
+
+		.jop-tinymce table td,
+		table td {
+			border: 1px solid rgb(220, 220, 220);
+		}
+
+		.jop-tinymce table th,
+		table th {
+			border: 1px solid rgb(220, 220, 220);
+			border-bottom: 2px solid rgb(220, 220, 220);
+			background-color: rgb(247, 247, 247);
+		}
+
+		.jop-tinymce table tr:nth-child(even),
+		table tr:nth-child(even) {
+			background-color: rgb(247, 247, 247);
+		}
+
+		.jop-tinymce table tr:hover,
+		table tr:hover {
+			background-color: #e5e5e5;
+		}
+
+		hr {
+			border: none;
+			border-bottom: 2px solid #dddddd;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		
+		.inline-code,
+		.mce-content-body code {
+			border: 1px solid rgb(220, 220, 220);
+			background-color: rgb(243, 243, 243);
+			padding-right: .2em;
+			padding-left: .2em;
+			border-radius: .25em;
+			color: rgb(0,0,0);
+			font-size: .9em;
+		}
+
+		.highlighted-keyword {
+			background-color: #F3B717;
+			color: black;
+		}
+
+		.not-loaded-resource img {
+			width: 1.15em;
+			height: 1.15em;
+			background: white;
+			padding: 2px !important;
+			border-radius: 2px;
+			box-shadow: 0 1px 3px #000000aa;
+		}
+
+		a.not-loaded-resource img {
+			margin-right: .2em;
+		}
+
+		a.not-loaded-resource {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.md-checkbox input[type=checkbox]:checked {
+			opacity: 0.7;
+		}
+
+		.jop-tinymce ul.joplin-checklist .checked,
+		.md-checkbox .checkbox-label-checked {
+			opacity: 0.5;
+		}
+
+		.exported-note {
+			padding: 1em;
+		}
+
+		.joplin-editable .joplin-source {
+			display: none;
+		}
+
+		mark {
+			background: #F7D26E;
+			color: black;
+		}
+
+		/* =============================================== */
+		/* For TinyMCE */
+		/* =============================================== */
+
+		.mce-content-body {
+			/* Note: we give a bit more padding at the bottom, to allow scrolling past the end of the document */
+			padding: 5px 10px 10em 0;
+		}
+
+		/*
+		.mce-content-body code {
+			background-color: transparent;
+		}
+		*/
+
+		.mce-content-body [data-mce-selected=inline-boundary] {
+			background-color: transparent;
+		}
+
+		.mce-content-body .joplin-editable {
+			cursor: pointer !important;
+		}
+
+		.mce-content-body.mce-content-readonly {
+			opacity: 0.5;
+		}
+
+		/* We need that to make sure click events have the A has a target */
+		.katex a span {
+			pointer-events: none;
+		}
+
+		.media-player {
+			width: 100%;
+			margin-top: 10px;
+		}
+
+		.media-player.media-pdf {
+			min-height: 35rem;
+			width: 100%;
+			max-width: 1000px;
+			margin: 0;
+			border: 0;
+			display: block;
+		}
+
+		/* Clear the CODE style if the element is within a joplin-editable block */
+		.mce-content-body .joplin-editable code {
+			border: none;
+			background: none;
+			padding: 0;
+			color: inherit;
+			font-size: inherit;
+		}
+
+		/* To make code blocks horizontally scrollable */
+		/* https://github.com/laurent22/joplin/issues/5740 */
+		pre.hljs {
+			overflow-x: auto;
+		}
+
+		.joplin-table-wrapper{
+			overflow-x: auto;
+			overflow-y: hidden;
+		}
+
+		/* =============================================== */
+		/* For TinyMCE */
+		/* =============================================== */
+
+		@media print {
+			body {
+				height: auto !important;
+			}
+
+			pre {
+				white-space: pre-wrap;
+			}
+
+			.code, .inline-code {
+				border: 1px solid #CBCBCB;
+			}
+
+			#joplin-container-content {
+				/* The height of the content is set dynamically by JavaScript (in updateBodyHeight) to go
+				   around various issues related to scrolling. However when printing we don't want this
+				   fixed size as that would crop the content. So we set it to auto here. "important" is
+				   needed to override the style set by JavaScript at the element-level. */
+				height: auto !important;
+			}
+		}
+	
+
+				/*
+					FOR THE MARKDOWN EDITOR
+				*/
+
+				/* Remove the indentation from the checkboxes at the root of the document
+				   (otherwise they are too far right), but keep it for their children to allow
+				   nested lists. Make sure this value matches the UL margin. */
+
+				li.md-checkbox {
+					list-style-type: none;
+				}
+
+				li.md-checkbox input[type=checkbox] {
+					margin-left: -1.71em;
+					margin-right: 0.7em;
+				}
+				
+				ul.joplin-checklist {
+					list-style:none;
+				}
+
+				/*
+					FOR THE RICH TEXT EDITOR
+				*/
+
+				ul.joplin-checklist li::before {
+					content:"\f14a";
+					font-family:"Font Awesome 5 Free";
+					background-size: 16px 16px;
+					pointer-events: all;
+					cursor: pointer;
+					width: 1em;
+					height: 1em;
+					margin-left: -1.3em;
+					position: absolute;
+					color: #32373F;
+				}
+
+				.joplin-checklist li:not(.checked)::before {
+					content:"\f0c8";
+				}
+.mermaid { width: 640px; }
+pre.mermaid > svg { white-space: unset; }
+.mermaid-export-graph {
+					opacity: 0;
+					height: 0;
+					z-index: 1;
+					position: relative;
+				} 
+				.joplin-editable:hover .mermaid-export-graph,
+				.joplin-editable .mermaid-export-graph:has(:focus-visible) {
+					opacity: 1;
+				}
+				.mermaid-export-graph > button:hover {
+					background-color: #CBDAF1 !important;
+				}</style><div id="rendered-md"><h2 id="closures-and-recomputation">Closures and Recomputation</h2>
+<p>We know so far:</p>
+<ul>
+<li>Function body not evaluated until function called.</li>
+<li>Body is re-evaluated every time function is called (using args for that call)</li>
+<li>A variable binding evaluates its expression once when binding evaluating, not each time it's used.</li>
+</ul>
+<p>With closures - we can use this to avoid repeating computation that do not depend on function arguments.</p>
+<p>Increased performance by saving value, to 'i' to save recomputation.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">fun allShorterThan1 (xs,s) = 
+    filter (fn x =&gt; String.size x &lt; (print &quot;!&quot;; String.size s), xs)
+
+fun allShorterThan2 (xs,s) =
+    let val i = (print &quot;!&quot;; String.size s)
+    in
+    filter(fn x =&gt; String.size x &lt; i, xs)
+    end</pre><pre class="hljs"><code><span class="hljs-keyword">fun</span> allShorterThan1 (xs,s) = 
+    filter (<span class="hljs-keyword">fn</span> x =&gt; <span class="hljs-type">String</span>.size x &lt; (print <span class="hljs-string">&quot;!&quot;</span>; <span class="hljs-type">String</span>.size s), xs)
+
+<span class="hljs-keyword">fun</span> allShorterThan2 (xs,s) =
+    <span class="hljs-keyword">let</span> <span class="hljs-keyword">val</span> i = (print <span class="hljs-string">&quot;!&quot;</span>; <span class="hljs-type">String</span>.size s)
+    <span class="hljs-keyword">in</span>
+    filter(<span class="hljs-keyword">fn</span> x =&gt; <span class="hljs-type">String</span>.size x &lt; i, xs)
+    <span class="hljs-keyword">end</span></code></pre></div>
+<hr>
+<h2 id="fold-and-closures">Fold and Closures</h2>
+<p>Higher order that travels recursively over data structures.<br>
+'Fold' similar to others like 'reduce' or 'inject' =&gt; Take a list =&gt; a single answer<br>
+fold(f,acc,list) =&gt; pass in function, initial value of accumulator, and a list<br>
+Apply f to accumulator, and x1. Then f to that result and x2....<br>
+<code class="inline-code">f(f(f(f(acc,x1),x2),x3),x4)</code></p>
+<p>This version 'folds left'. Another version folds right.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">fun fold (f, acc, xs) =
+  case xs of
+    [] =&gt; acc
+    | x::xs =&gt; fold(f,f(acc,x),xs)</pre><pre class="hljs"><code><span class="hljs-keyword">fun</span> fold (f, acc, xs) =
+  <span class="hljs-keyword">case</span> xs <span class="hljs-keyword">of</span>
+    <span class="hljs-literal">[]</span> =&gt; acc
+    | x::xs =&gt; fold(f,f(acc,x),xs)</code></pre></div>
+<p>Type is <code class="inline-code">val fold = fn: ('a*'b -&gt; 'a) * 'a * 'b list =&gt; 'a</code></p>
+<p>Almost like an iterator.</p>
+<ul>
+<li>Can stop halfway down the list in some case. But not for us.</li>
+<li>Can If over list, tree, array, graph etc. Can fold over that as well.</li>
+</ul>
+<p>Separation over concern.</p>
+<ol>
+<li>One group worry about writing fold for a data structure</li>
+<li>Another how to compute for a particular result.<br>
+If change later to other than list, just need a new 'fold'. Conversely many people can use fold for list...</li>
+</ol>
+<hr>
+<h3 id="fold-examples">Fold examples</h3>
+<p><code class="inline-code">fun f1 xs = fold ((fn (x,y) =&gt; x+y), 0, xs)</code><br>
+One line example of 'sum'.<br>
+<code class="inline-code">fun f2 xs = fold ((fn (x,y) =&gt; x andalso y &gt;= 0), true, xs)</code> =&gt; Are all list elements non-negative?</p>
+<p>Example with Private data:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">fun f3 (xs,lo,hi) = 
+    fold ((fn (x,y) =&gt; 
+          x + (if y &gt;= lo andalso y &lt;= hi then 1 else 0)),
+          0, xs)</pre><pre class="hljs"><code><span class="hljs-keyword">fun</span> f3 (xs,lo,hi) = 
+    fold ((<span class="hljs-keyword">fn</span> (x,y) =&gt; 
+          x + (<span class="hljs-keyword">if</span> y &gt;= lo <span class="hljs-keyword">andalso</span> y &lt;= hi <span class="hljs-keyword">then</span> <span class="hljs-number">1</span> <span class="hljs-keyword">else</span> <span class="hljs-number">0</span>)),
+          <span class="hljs-number">0</span>, xs)</code></pre></div>
+<p>Counting number of elements between lo and hi inclusive.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">fun f4 (xs,s) =
+    let 
+    val i = String.size s
+    in
+    fold((fn (x,y) =&gt; x andalso String.size y &lt; i), true, xs)
+    end
+
+fun f5 (g,xs) = fold((fn(x,y) =&gt; x andalso g y), true, xs)
+
+fun f4again (xs,s) =
+    let
+    val i = String.size s
+    in
+    f5(fn y =&gt; String.size y &lt; i, xs)
+    end</pre><pre class="hljs"><code><span class="hljs-keyword">fun</span> f4 (xs,s) =
+    <span class="hljs-keyword">let</span> 
+    <span class="hljs-keyword">val</span> i = <span class="hljs-type">String</span>.size s
+    <span class="hljs-keyword">in</span>
+    fold((<span class="hljs-keyword">fn</span> (x,y) =&gt; x <span class="hljs-keyword">andalso</span> <span class="hljs-type">String</span>.size y &lt; i), <span class="hljs-literal">true</span>, xs)
+    <span class="hljs-keyword">end</span>
+
+<span class="hljs-keyword">fun</span> f5 (g,xs) = fold((<span class="hljs-keyword">fn</span>(x,y) =&gt; x <span class="hljs-keyword">andalso</span> g y), <span class="hljs-literal">true</span>, xs)
+
+<span class="hljs-keyword">fun</span> f4again (xs,s) =
+    <span class="hljs-keyword">let</span>
+    <span class="hljs-keyword">val</span> i = <span class="hljs-type">String</span>.size s
+    <span class="hljs-keyword">in</span>
+    f5(<span class="hljs-keyword">fn</span> y =&gt; <span class="hljs-type">String</span>.size y &lt; i, xs)
+    <span class="hljs-keyword">end</span></code></pre></div>
+<p>Map, filter, fold more powerful thanks to closure and lexical scope.</p>
+<ul>
+<li>Pass in any private data in its environment.</li>
+</ul>
+<hr>
+<h2 id="closure-idioms-combining-functions">Closure Idioms - Combining Functions</h2>
+<p><img src="../../../_resources/bfb9ef25b5554f95a2239e1adeeed4aa.png" alt="7ffc0c078859d713f64328c5b2d27b82.png"></p>
+<p><code class="inline-code">fun compose(f,g) = fn x =&gt; f(g x)</code><br>
+Idea is: <code class="inline-code">(* ('b-&gt;'c) * ('a-&gt;'b) -&gt; ('a-&gt;'c *)</code><br>
+compose is an infix argument (lowercase 'o').<br>
+<code class="inline-code">f o g</code></p>
+<p>Want to take abs of i, then convert to real number. Then Sqrt.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">fun sqrt_of_abs i = (Math.sqrt o Real.fromInt o abs) i
+
+val sqrt_of_abs = Math.sqrt o Real.fromInt o abs</pre><pre class="hljs"><code><span class="hljs-keyword">fun</span> sqrt_of_abs i = (<span class="hljs-type">Math</span>.sqrt o <span class="hljs-type">Real</span>.fromInt o abs) i
+
+<span class="hljs-keyword">val</span> sqrt_of_abs = <span class="hljs-type">Math</span>.sqrt o <span class="hljs-type">Real</span>.fromInt o abs</code></pre></div>
+<p>Also <code class="inline-code">(* |&gt; or !&gt; *)</code><br>
+Make own infix operator:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">(* definition of the pipeline operator *)
+fun x !&gt; f = f x
+
+fun sqrt_of_abs i = i !&gt; abs !&gt; Real.fromInt !&gt; Math.sqrt</pre><pre class="hljs"><code><span class="hljs-comment">(* definition of the pipeline operator *)</span>
+<span class="hljs-keyword">fun</span> x !&gt; f = f x
+
+<span class="hljs-keyword">fun</span> sqrt_of_abs i = i !&gt; abs !&gt; <span class="hljs-type">Real</span>.fromInt !&gt; <span class="hljs-type">Math</span>.sqrt</code></pre></div>
+<p>Above makes it easier to read =&gt; a pipeline.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">fun backup1 (f,g) = fn x =&gt; case f x of NONE =&gt; g x | SOME y =&gt; y
+
+fun backup2 (f,g) = fn x =&gt; f x handle _ =&gt; g x</pre><pre class="hljs"><code><span class="hljs-keyword">fun</span> backup1 (f,g) = <span class="hljs-keyword">fn</span> x =&gt; <span class="hljs-keyword">case</span> f x <span class="hljs-keyword">of</span> <span class="hljs-type">NONE</span> =&gt; g x | <span class="hljs-type">SOME</span> y =&gt; y
+
+<span class="hljs-keyword">fun</span> backup2 (f,g) = <span class="hljs-keyword">fn</span> x =&gt; f x <span class="hljs-keyword">handle</span> _ =&gt; g x</code></pre></div>
+<p>Example above does: pattern match on<br>
+Either return f result (option stripped off) or result of g.<br>
+backup2 is using exceptions instead.</p>
+<hr>
+<h1 id="currying">Currying</h1>
+<p>New way to deal with multi-argument functions.<br>
+Before had exactly 1 argument. Used n-arguments via n-tuples.</p>
+<ul>
+<li>Instead, take 1 argument and return a function that takes another argument.</li>
+</ul>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">(* old way to get the effect of multiple arguments *)
+fun sorted3_tupled (x,y,z) = z &gt;= y andalso y &gt;= x
+val t1 = sorted3_tupled (7,9,11)
+
+(* new way: currying *)
+val sorted3 = fn x =&gt; fn y =&gt; fn z =&gt; z &gt;= y andalso y &gt;= x
+val sorted3_nicer x y z = z&gt;=y andalso y&gt;=x</pre><pre class="hljs"><code><span class="hljs-comment">(* old way to get the effect of multiple arguments *)</span>
+<span class="hljs-keyword">fun</span> sorted3_tupled (x,y,z) = z &gt;= y <span class="hljs-keyword">andalso</span> y &gt;= x
+<span class="hljs-keyword">val</span> t1 = sorted3_tupled (<span class="hljs-number">7</span>,<span class="hljs-number">9</span>,<span class="hljs-number">11</span>)
+
+<span class="hljs-comment">(* new way: currying *)</span>
+<span class="hljs-keyword">val</span> sorted3 = <span class="hljs-keyword">fn</span> x =&gt; <span class="hljs-keyword">fn</span> y =&gt; <span class="hljs-keyword">fn</span> z =&gt; z &gt;= y <span class="hljs-keyword">andalso</span> y &gt;= x
+<span class="hljs-keyword">val</span> sorted3_nicer x y z = z&gt;=y <span class="hljs-keyword">andalso</span> y&gt;=x</code></pre></div>
+<p>Then call valt2= (((sorted3 7) 9) 11)</p>
+<p>When called sorted3 7 =&gt;<br>
+Got code and environment =  a closure.</p>
+<ul>
+<li>Code <code class="inline-code">fn y =&gt; fn z =&gt; z &gt;= y andalso y&gt;= x</code></li>
+<li>Environment: x=7<br>
+Then next closure with 9 returns closure:</li>
+<li>Code <code class="inline-code">fn z =&gt; z &gt;=y andalso y&gt;=x</code></li>
+<li>Environment maps x=7, y=9<br>
+Then ...</li>
+<li>Call last closure with 11 returns 'true'</li>
+</ul>
+<p><strong>Nicer Currying Syntax</strong></p>
+<p><code class="inline-code">fun sorted3_nicer x y z = z &gt;= y andalso y &gt;= x</code></p>
+<ul>
+<li>sorted3 7 9 11<br>
+If it's Curried, must call with the spaces. 1 2 3<br>
+If tupled, need call with tuple (1,2,3)</li>
+</ul>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">(* a more useful example *)
+fun fold f acc xs = (* means fun fold f = fn acc =&gt; fn xs =&gt; *)
+  case xs of
+    []     =&gt; acc
+  | x::xs' =&gt; fold f (f(acc,x)) xs'
+(* Note: foldl in the ML standard library is very similar, but 
+   the two arguments for the function f are in the opposite order. 
+   The order is, naturally, a matter of taste.
+*)
+
+(* a call to curried fold: will improve this call next *)
+fun sum xs = fold (fn (x,y) =&gt; x+y) 0 xs</pre><pre class="hljs"><code><span class="hljs-comment">(* a more useful example *)</span>
+<span class="hljs-keyword">fun</span> fold f acc xs = <span class="hljs-comment">(* means fun fold f = fn acc =&gt; fn xs =&gt; *)</span>
+  <span class="hljs-keyword">case</span> xs <span class="hljs-keyword">of</span>
+    <span class="hljs-literal">[]</span>     =&gt; acc
+  | x::xs&#x27; =&gt; fold f (f(acc,x)) xs&#x27;
+<span class="hljs-comment">(* Note: foldl in the ML standard library is very similar, but 
+   the two arguments for the function f are in the opposite order. 
+   The order is, naturally, a matter of taste.
+*)</span>
+
+<span class="hljs-comment">(* a call to curried fold: will improve this call next *)</span>
+<span class="hljs-keyword">fun</span> sum xs = fold (<span class="hljs-keyword">fn</span> (x,y) =&gt; x+y) <span class="hljs-number">0</span> xs</code></pre></div>
+<hr>
+<h3 id="partial-application">Partial Application</h3>
+<p>'too few arguments' with a curried function.<br>
+Get a closure 'waiting' for the remaining arguments.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">val is_nonnegative = sorted3 0 0
+val sum = fold (fn (x,y) =&gt; x+y) 0</pre><pre class="hljs"><code><span class="hljs-keyword">val</span> is_nonnegative = sorted3 <span class="hljs-number">0</span> <span class="hljs-number">0</span>
+<span class="hljs-keyword">val</span> sum = fold (<span class="hljs-keyword">fn</span> (x,y) =&gt; x+y) <span class="hljs-number">0</span></code></pre></div>
+<p>Use the above - avoid unnecessary function wrapping like below:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">fun is_nonnegative_inferior x = sorted3 0 0 x
+fun sum_inferior xs = fold (fn (x,y) =&gt; x+y) 0 xs</pre><pre class="hljs"><code><span class="hljs-keyword">fun</span> is_nonnegative_inferior x = sorted3 <span class="hljs-number">0</span> <span class="hljs-number">0</span> x
+<span class="hljs-keyword">fun</span> sum_inferior xs = fold (<span class="hljs-keyword">fn</span> (x,y) =&gt; x+y) <span class="hljs-number">0</span> xs</code></pre></div>
+<hr>
+<p>Range 3 6 =&gt; makes [3,4,5,6]<br>
+If start with just Range 1 =&gt; makes fn ready to count up from 1.<br>
+<code class="inline-code">val countup = range 1</code></p>
+<p>Iterators often in curried form.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">fun exists predicate xs =
+    case xs of
+      [] =&gt; false
+    | x::xs' =&gt; predicate x orelse exists predicate xs'</pre><pre class="hljs"><code><span class="hljs-keyword">fun</span> exists predicate xs =
+    <span class="hljs-keyword">case</span> xs <span class="hljs-keyword">of</span>
+      <span class="hljs-literal">[]</span> =&gt; <span class="hljs-literal">false</span>
+    | x::xs&#x27; =&gt; predicate x <span class="hljs-keyword">orelse</span> exists predicate xs&#x27;</code></pre></div>
+<p>Above exists is similar to 'any?' in Ruby.<br>
+<code class="inline-code">val hasZero exists (fn x=&gt; x=0)</code></p>
+<p>Also <code class="inline-code">List.map</code> is curried.<br>
+val incrementAll = List.map (fn x=&gt;x+1)</p>
+<p>If use polymorphic curried functions...<br>
+'value restriction' =&gt; Warning about 'type vars not generalized'.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">(* This threw an error: 
+val pairWithOne = List.map (fn x =&gt; (x,1)) *) 
+
+(* Workaround *)
+fun pairWithOne xs = List.map (fn x =&gt; (x,1)) xs
+(* 'a list -&gt; ('a * int) 'list *)
+
+</pre><pre class="hljs"><code><span class="hljs-comment">(* This threw an error: 
+val pairWithOne = List.map (fn x =&gt; (x,1)) *)</span> 
+
+<span class="hljs-comment">(* Workaround *)</span>
+<span class="hljs-keyword">fun</span> pairWithOne xs = <span class="hljs-type">List</span>.map (<span class="hljs-keyword">fn</span> x =&gt; (x,<span class="hljs-number">1</span>)) xs
+<span class="hljs-comment">(* &#x27;a list -&gt; (&#x27;a * int) &#x27;list *)</span>
+
+</code></pre></div>
+<p>Example:</p>
+<ul>
+<li>Function</li>
+</ul>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">fun curry f x y = f (x,y)
+fun uncurry f (x,y) = f x y
+
+fun other_curry1 f = fn x =&gt; fn y =&gt; f y x
+fun other_curry2 f x y = f y x
+</pre><pre class="hljs"><code><span class="hljs-keyword">fun</span> curry f x y = f (x,y)
+<span class="hljs-keyword">fun</span> uncurry f (x,y) = f x y
+
+<span class="hljs-keyword">fun</span> other_curry1 f = <span class="hljs-keyword">fn</span> x =&gt; <span class="hljs-keyword">fn</span> y =&gt; f y x
+<span class="hljs-keyword">fun</span> other_curry2 f x y = f y x
+</code></pre></div>
+<p><img src="../../../_resources/c774cd51b1734d1a804860bddf1ca45e.png" alt="7a16d26c0d6429af3ed34a90d02508a0.png"></p>
+<p>Efficiency?<br>
+Faster: tupling vs currying multiple arguments?<br>
+Both constant time operations. It doesn't matter.</p>
+<p>For small zero part where efficiency matters:</p>
+<ul>
+<li>SML/NJ compiles tuples more efficiently</li>
+<li>Other functional-language implementations better with currying (OCaml, F#, Haskell).</li>
+</ul>
+<hr>
+<h2 id="mutable-references">Mutable References</h2>
+<p>Separate construct for 'reference'<br>
+<code class="inline-code">t ref</code> where t is a type.<br>
+<code class="inline-code">ref e</code> =&gt; create reference with initial contents e<br>
+<code class="inline-code">e1 := e2</code> =&gt; update contents<br>
+<code class="inline-code">!e</code> =&gt; retrieve contents</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">val x = ref 42
+val y = ref 42 
+val z = x
+val _ = x := 43
+val w = (!y) + (!z) (* 85 *)
+(* x + 1 does not type-check *)</pre><pre class="hljs"><code><span class="hljs-keyword">val</span> x = <span class="hljs-built_in">ref</span> <span class="hljs-number">42</span>
+<span class="hljs-keyword">val</span> y = <span class="hljs-built_in">ref</span> <span class="hljs-number">42</span> 
+<span class="hljs-keyword">val</span> z = x
+<span class="hljs-keyword">val</span> _ = x := <span class="hljs-number">43</span>
+<span class="hljs-keyword">val</span> w = (!y) + (!z) <span class="hljs-comment">(* 85 *)</span>
+<span class="hljs-comment">(* x + 1 does not type-check *)</span></code></pre></div>
+<p>Think of it as 'first-class values'. Can pass ref to function, like a one-field mutable object.</p>
+<hr>
+<h1 id="callbacks">Callbacks</h1>
+<p>Library takes functions to apply later, when an event occurs.</p>
+<ul>
+<li>When key pressed, mouse moves, data arrives</li>
+<li>When program enters some state (turn in game)</li>
+</ul>
+<p>Library may accept multiple callbacks.</p>
+<ul>
+<li>Diff callbacks may need diff private data with different types</li>
+<li>Fortunately a function type does not include type of binding in its environments</li>
+<li>Need to be closures, so can use private data (bindings where defined)</li>
+</ul>
+<p>Use Mutable state in library.</p>
+<ul>
+<li>Track all callbacks when registered, change when function to register a callback is called.</li>
+<li>Our library to maintain mutable state for what callbacks are there &amp; provides a function for accepting new ones.</li>
+</ul>
+<p><code class="inline-code">val onKeyEvent : (int-&gt;unit) -&gt; unit</code><br>
+Give back int to what was pressed.</p>
+<p><img src="../../../_resources/bc072e6a15a34eeabd84f332bc0873c8.png" alt="15c8480f7f06e5f63fba4d408014bd0d.png"></p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">val cbs : (int -&gt; unit) list ref = ref []
+fun onEvent i =
+   let fun loop fs =
+        case fs of 
+          [] =&gt; ()
+        | f::fs' =&gt; (f i; loop fs')
+    in loop (!cbs) end</pre><pre class="hljs"><code><span class="hljs-keyword">val</span> cbs : (<span class="hljs-built_in">int</span> -&gt; <span class="hljs-built_in">unit</span>) <span class="hljs-built_in">list</span> <span class="hljs-built_in">ref</span> = <span class="hljs-built_in">ref</span> <span class="hljs-literal">[]</span>
+<span class="hljs-keyword">fun</span> onEvent i =
+   <span class="hljs-keyword">let</span> <span class="hljs-keyword">fun</span> loop fs =
+        <span class="hljs-keyword">case</span> fs <span class="hljs-keyword">of</span> 
+          <span class="hljs-literal">[]</span> =&gt; <span class="hljs-literal">()</span>
+        | f::fs&#x27; =&gt; (f i; loop fs&#x27;)
+    <span class="hljs-keyword">in</span> loop (!cbs) <span class="hljs-keyword">end</span></code></pre></div>
+<p>Example client:</p>
+<ul>
+<li>Only can register an int-&gt;unit so if other data is needed, must be closure's environment.<br>
+Define a callback so each time called, that is logging count of key presses.</li>
+</ul>
+<hr>
+<h1 id="standard-library-documentation">Standard Library Documentation</h1>
+<p>Functions in std libraries.</p>
+<ul>
+<li>Things you cannot implement on your own (file opening, timers)</li>
+<li>Common standard definitions: List.map, string concatenations.</li>
+</ul>
+<p><a data-from-md title='https://www.standardml.org/Basis/manpages.html' href='https://www.standardml.org/Basis/manpages.html'>https://www.standardml.org/Basis/manpages.html</a></p>
+<p>Organized into structures, which have signatures.<br>
+Hwk3 to use a few functions under STRING, Char, List, ListPair<br>
+List.map, String.isSubstring etc.</p>
+<p>Can look at the methods on a struct:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="SML" data-joplin-source-open="```SML&#10;" data-joplin-source-close="&#10;```">structure X = List; (* saves the structure here *)
+signature X = LIST; (* =&gt; gives you the list of methods in this module. *)
+``</pre><pre class="hljs"><code><span class="hljs-keyword">structure</span> <span class="hljs-type">X</span> = <span class="hljs-type">List</span>; <span class="hljs-comment">(* saves the structure here *)</span>
+<span class="hljs-keyword">signature</span> <span class="hljs-type">X</span> = <span class="hljs-type">LIST</span>; <span class="hljs-comment">(* =&gt; gives you the list of methods in this module. *)</span>
+``</code></pre></div>
+</div></div>
+					</body>
+				</html>
+			
