@@ -5,10 +5,10 @@
 						<meta charset="UTF-8">
 						<meta name="viewport" content="width=device-width, initial-scale=1" />
 						<link rel="stylesheet" href="pluginAssets/highlight.js/atom-one-light.css">
-						<title>Overview</title>
+						<title>4 Sameness and Abstraction</title>
 					</head>
 					<body>
-						<div class="exported-note"><div class="exported-note-title">Overview</div>
+						<div class="exported-note"><div class="exported-note-title">4 Sameness and Abstraction</div>
 
 <style>
 		/* https://necolas.github.io/normalize.css/ */
@@ -463,28 +463,165 @@ pre.mermaid > svg { white-space: unset; }
 				}
 				.mermaid-export-graph > button:hover {
 					background-color: #CBDAF1 !important;
-				}</style><div id="rendered-md"><p>Note:</p>
-<p>Install Ruby 2.7.6 to match ZA app.</p>
-<p>3 Weeks of Content:<br>
-Week 1 - Ruby basics, Ruby as Object oriented language and dynamically typed language. Blocks (similar to functions closures). Subclassing, inheritance and method overriding.</p>
-<p>Week 2 - compare and contrast functional programming and OOP. Compare and contrast 3 related 'advanced' features for OOP: Multiple inheritance, Ruby mixins, Java style interfaces. Hwk more challenging - port small interpreter for domain specific language from ML to Ruby</p>
-<p>Week 3- Conceptual/theoretical, subtyping, and how arises in statically typed Obj oriented languages.  Contrast with ML polymorphism (generic types) and how can be combined with generics synergistically.</p>
-<hr>
-<p>Overview:</p>
+				}</style><div id="rendered-md"><p>4 Sameness and Abstraction</p>
+<p>Lec11-12.</p>
+<p>Sameness -<br>
+Not sure how to define if they are the same.<br>
+&quot;If no way to tell them apart&quot;,</p>
 <ul>
-<li>Essence of OOP: inheritance and overriding</li>
-<li>Contrasting functional programming and OOP</li>
-<li>more advanced OOP feature and idioms</li>
-<li>subtyping and contrast with ML polymorphism</li>
+<li>Reflexivity: every object should be the same as itself</li>
+<li>Symmetry: if object x is the same as object y =&gt; then  y is the same as x
+<ul>
+<li>if x <mark>y, then y</mark>x</li>
 </ul>
-<p>Part C:<br>
-8. Dynamically typed OOP<br>
-- Blocks, classes, methods, much more<br>
-- More dynamic than Racket<br>
-- Pure OOP<br>
-9. OOP vs Functional decomposition (aha moment!) - advanced OOP topics (mixins, double dispatch)<br>
-10. Subtyping: generics vs subtyping</p>
+</li>
+<li>Transitivity: if two objects are both the same as a third object they are the same as each other
+<ul>
+<li>If x<mark>z &amp;&amp; y</mark>z =&gt; then x == y</li>
+</ul>
+</li>
+<li>Totality: we can compare any two objects of the same type, and obtain a correct answer.</li>
+</ul>
+<p>Built in using: ==<br>
+Don't do it for doubles - instead: 4.333 - 4.333 &lt; 0.001, true<br>
+Think of acceptable margin of error definition due to double calculation being imprecise</p>
+<p>String comparison: .equals =&gt;  &quot;hello&quot;.equals(&quot;hel&quot;+&quot;lo&quot;)</p>
 <hr>
+<h2 id="for-structured-data">For structured data:</h2>
+<p>In a defined class Book (with constructor <code class="inline-code">Book(String title, String author)</code>)<br>
+If two properties of title and author are equal, they are the same.<br>
+Thus:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">boolean sameBook(Book that) {
+    return this.title.equals(that.title) &amp;&amp;
+        this.author.equals(that.author);
+}</pre><pre class="hljs"><code><span class="hljs-type">boolean</span> <span class="hljs-title function_">sameBook</span><span class="hljs-params">(Book that)</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>.title.equals(that.title) &amp;&amp;
+        <span class="hljs-built_in">this</span>.author.equals(that.author);
+}</code></pre></div>
+<p>For Union Data (e.g. IShape implemented by Circle and Rect).<br>
+For circle, compare the x, y and radius.<br>
+For Rect, x,y,w,h =&gt; width, height.</p>
+<p>But that's only for within the class (Circle vs Circle).<br>
+&quot;Casting&quot; attempt: <code class="inline-code">return this.sameCircle((Circle)that);</code><br>
+<code class="inline-code">(Type)anObject</code> is trying to cast anObject as a 'Type' class.<br>
+Dynamically (at runtime), will check the given value is an instance of the specified type. If cast succeeds, the program continues. Otherwise fails with <code class="inline-code">ClassCastException</code></p>
+<p>Test casting ahead of time with: instanceof =&gt; tests against class or interface type, get boolean.<br>
+So now:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">// In Circle
+public boolean sameShape(IShape that) {
+  if (that instanceof Circle) {
+    // that is-a Circle -- we can safely cast!
+    return this.sameCircle((Circle)that);
+  }
+  else {
+    // that is not a Circle
+    return false;
+  }
+}</pre><pre class="hljs"><code><span class="hljs-comment">// In Circle</span>
+<span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameShape</span><span class="hljs-params">(IShape that)</span> {
+  <span class="hljs-keyword">if</span> (that <span class="hljs-keyword">instanceof</span> Circle) {
+    <span class="hljs-comment">// that is-a Circle -- we can safely cast!</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>.sameCircle((Circle)that);
+  }
+  <span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">// that is not a Circle</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+  }
+}</code></pre></div>
+<p>However with subclassing: Square extends Rectangle example.<br>
+A square with same dimensions as Rectangle do not act the same.<br>
+They aren't, since they are a different type (distinguished by instanceof Square or instanceof Rect)</p>
+<h2 id="double-dispatch">Double Dispatch</h2>
+<p>Use this instead.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">interface IShape {
+  boolean sameShape(IShape that);
+  boolean sameCircle(Circle that);
+  boolean sameRect(Rect that);
+  boolean sameSquare(Square that);
+}</pre><pre class="hljs"><code><span class="hljs-keyword">interface</span> <span class="hljs-title class_">IShape</span> {
+  <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameShape</span><span class="hljs-params">(IShape that)</span>;
+  <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameCircle</span><span class="hljs-params">(Circle that)</span>;
+  <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameRect</span><span class="hljs-params">(Rect that)</span>;
+  <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameSquare</span><span class="hljs-params">(Square that)</span>;
+}</code></pre></div>
+<p>IShape defines these sameness methods.<br>
+If we are in Circle, and passed an 'IShape that' =&gt; so call that.sameCircle(this);</p>
+<p>Rect vs Square case:<br>
+To compare s1.sameShape(r1):</p>
+<ul>
+<li>s1 is a Square, so we invoke the sameShape method defined in Square, inside of which this is s1 and that is r1.</li>
+<li>This method immediately invokes sameSquare on that, and passes it this. Because that is r1, and r1 is a Rect, we invoke the sameSquare method defined in the Rect class, inside of which this will be r1 and that will be s1 — they’ve swapped roles.</li>
+<li>sameSquare in Rect returns false. They're never the same.</li>
+</ul>
+<p>Clean up code with abstraction recipe:<br>
+For n variants, there are n * n helper methods, of which n * (n - 1) of them should always return false.<br>
+Set to false by default in the Abstract Class ... then override with true when needed:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">abstract class AFoo implements IFoo {
+  public boolean sameX(X that) { return false; }
+  public boolean sameY(Y that) { return false; }
+  public boolean sameZ(Z that) { return false; }
+}
+class X extends AFoo {
+  public boolean sameFoo(IFoo that) { return that.sameX(this); }
+  public boolean sameX(X that) { ... compares two X values ... }
+}
+class Y extends AFoo {
+  public boolean sameFoo(IFoo that) { return that.sameY(this); }
+  public boolean sameY(Y that) { ... compares two Y values ... }
+}
+class Z extends AFoo {
+  public boolean sameFoo(IFoo that) { return that.sameZ(this); }
+  public boolean sameZ(Z that) { ... compares two Z values ... }
+}</pre><pre class="hljs"><code><span class="hljs-keyword">abstract</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AFoo</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">IFoo</span> {
+  <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameX</span><span class="hljs-params">(X that)</span> { <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>; }
+  <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameY</span><span class="hljs-params">(Y that)</span> { <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>; }
+  <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameZ</span><span class="hljs-params">(Z that)</span> { <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>; }
+}
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">X</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">AFoo</span> {
+  <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameFoo</span><span class="hljs-params">(IFoo that)</span> { <span class="hljs-keyword">return</span> that.sameX(<span class="hljs-built_in">this</span>); }
+  <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameX</span><span class="hljs-params">(X that)</span> { ... compares two X values ... }
+}
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Y</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">AFoo</span> {
+  <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameFoo</span><span class="hljs-params">(IFoo that)</span> { <span class="hljs-keyword">return</span> that.sameY(<span class="hljs-built_in">this</span>); }
+  <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameY</span><span class="hljs-params">(Y that)</span> { ... compares two Y values ... }
+}
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Z</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">AFoo</span> {
+  <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameFoo</span><span class="hljs-params">(IFoo that)</span> { <span class="hljs-keyword">return</span> that.sameZ(<span class="hljs-built_in">this</span>); }
+  <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameZ</span><span class="hljs-params">(Z that)</span> { ... compares two Z values ... }
+}</code></pre></div>
+<p>And also extends with Combo shapes:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">//in IShape
+interface IShape {
+    // ...
+    // NEW:
+  boolean sameCombo(Combo that);
+}
+
+//in AShape
+public boolean sameCombo(Combo that) { return false; }
+
+//In Combo:
+public boolean sameShape(IShape that) { return that.sameCombo(this); }
+public boolean sameCombo(Combo that) {
+  return this.left.sameShape(that.left) &amp;&amp;
+         this.right.sameShape(that.right);
+}</pre><pre class="hljs"><code><span class="hljs-comment">//in IShape</span>
+<span class="hljs-keyword">interface</span> <span class="hljs-title class_">IShape</span> {
+    <span class="hljs-comment">// ...</span>
+    <span class="hljs-comment">// NEW:</span>
+  <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameCombo</span><span class="hljs-params">(Combo that)</span>;
+}
+
+<span class="hljs-comment">//in AShape</span>
+<span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameCombo</span><span class="hljs-params">(Combo that)</span> { <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>; }
+
+<span class="hljs-comment">//In Combo:</span>
+<span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameShape</span><span class="hljs-params">(IShape that)</span> { <span class="hljs-keyword">return</span> that.sameCombo(<span class="hljs-built_in">this</span>); }
+<span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">sameCombo</span><span class="hljs-params">(Combo that)</span> {
+  <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>.left.sameShape(that.left) &amp;&amp;
+         <span class="hljs-built_in">this</span>.right.sameShape(that.right);
+}</code></pre></div>
+<p>Recursive call with sameness comparison.</p>
 </div></div>
 					</body>
 				</html>

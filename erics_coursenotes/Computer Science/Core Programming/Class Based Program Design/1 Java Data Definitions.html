@@ -5,10 +5,10 @@
 						<meta charset="UTF-8">
 						<meta name="viewport" content="width=device-width, initial-scale=1" />
 						<link rel="stylesheet" href="pluginAssets/highlight.js/atom-one-light.css">
-						<title>Overview</title>
+						<title>1 Java Data Definitions</title>
 					</head>
 					<body>
-						<div class="exported-note"><div class="exported-note-title">Overview</div>
+						<div class="exported-note"><div class="exported-note-title">1 Java Data Definitions</div>
 
 <style>
 		/* https://necolas.github.io/normalize.css/ */
@@ -463,28 +463,255 @@ pre.mermaid > svg { white-space: unset; }
 				}
 				.mermaid-export-graph > button:hover {
 					background-color: #CBDAF1 !important;
-				}</style><div id="rendered-md"><p>Note:</p>
-<p>Install Ruby 2.7.6 to match ZA app.</p>
-<p>3 Weeks of Content:<br>
-Week 1 - Ruby basics, Ruby as Object oriented language and dynamically typed language. Blocks (similar to functions closures). Subclassing, inheritance and method overriding.</p>
-<p>Week 2 - compare and contrast functional programming and OOP. Compare and contrast 3 related 'advanced' features for OOP: Multiple inheritance, Ruby mixins, Java style interfaces. Hwk more challenging - port small interpreter for domain specific language from ML to Ruby</p>
-<p>Week 3- Conceptual/theoretical, subtyping, and how arises in statically typed Obj oriented languages.  Contrast with ML polymorphism (generic types) and how can be combined with generics synergistically.</p>
+				}</style><div id="rendered-md"><p>Quick Syntax:<br>
+e.g. <code class="inline-code">boolean isDaytime = true;</code><br>
+<code class="inline-code">String courseName = &quot;Fundies II&quot;;</code><br>
+<code class="inline-code">int ten = 10;</code><br>
+<code class="inline-code">double pointSix = 0.6;</code></p>
+<p>Defining Structs</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">// A Book uses String, Author, Number)
+// to represent a book in a bookstore
+class Book {
+  String title;
+  Author author;
+  int price;
+ 
+  // the constructor
+  Book(String title, Author author, int price) {
+    this.title = title;
+    this.author = author;
+    this.price = price;
+  }
+}
+ 
+// to represent a author of a book in a bookstore
+class Author {
+  String name;
+  int yob;
+ 
+  // the constructor
+  Author(String name, int yob) {
+    this.name = name;
+    this.yob = yob;
+  }
+}
+</pre><pre class="hljs"><code><span class="hljs-comment">// A Book uses String, Author, Number)</span>
+<span class="hljs-comment">// to represent a book in a bookstore</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Book</span> {
+  String title;
+  Author author;
+  <span class="hljs-type">int</span> price;
+ 
+  <span class="hljs-comment">// the constructor</span>
+  Book(String title, Author author, <span class="hljs-type">int</span> price) {
+    <span class="hljs-built_in">this</span>.title = title;
+    <span class="hljs-built_in">this</span>.author = author;
+    <span class="hljs-built_in">this</span>.price = price;
+  }
+}
+ 
+<span class="hljs-comment">// to represent a author of a book in a bookstore</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Author</span> {
+  String name;
+  <span class="hljs-type">int</span> yob;
+ 
+  <span class="hljs-comment">// the constructor</span>
+  Author(String name, <span class="hljs-type">int</span> yob) {
+    <span class="hljs-built_in">this</span>.name = name;
+    <span class="hljs-built_in">this</span>.yob = yob;
+  }
+}
+</code></pre></div>
+<p><img src="../../../_resources/0174455e34cd4fec85c9535f8375f8aa.png" alt="0f74be3b5c599f9a21ef3ee5653ae0b5.png"></p>
 <hr>
-<p>Overview:</p>
-<ul>
-<li>Essence of OOP: inheritance and overriding</li>
-<li>Contrasting functional programming and OOP</li>
-<li>more advanced OOP feature and idioms</li>
-<li>subtyping and contrast with ML polymorphism</li>
-</ul>
-<p>Part C:<br>
-8. Dynamically typed OOP<br>
-- Blocks, classes, methods, much more<br>
-- More dynamic than Racket<br>
-- Pure OOP<br>
-9. OOP vs Functional decomposition (aha moment!) - advanced OOP topics (mixins, double dispatch)<br>
-10. Subtyping: generics vs subtyping</p>
+<h2 id="unions">Unions</h2>
+<p><img src="../../../_resources/bd635c01ffb34c12b2ac681fa9db9cc4.png" alt="8c4b4ffcc4bf6696f20d948c7afc933d.png"></p>
+<p>Represented the above with</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">// to represent a train station
+interface IStation {
+}
+ 
+// to represent a subway station
+class TStop implements IStation {
+  String name;
+  String line;
+  double price;
+ 
+  TStop(String name, String line, double price) {
+    this.name = name;
+    this.line = line;
+    this.price = price;
+  }
+}
+ 
+// to represent a stop on a commuter line
+class CommStation implements IStation {
+  String name;
+  String line;
+  boolean express;
+ 
+  CommStation(String name, String line, boolean express) {
+    this.name = name;
+    this.line = line;
+    this.express = express;
+  }
+}</pre><pre class="hljs"><code><span class="hljs-comment">// to represent a train station</span>
+<span class="hljs-keyword">interface</span> <span class="hljs-title class_">IStation</span> {
+}
+ 
+<span class="hljs-comment">// to represent a subway station</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">TStop</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">IStation</span> {
+  String name;
+  String line;
+  <span class="hljs-type">double</span> price;
+ 
+  TStop(String name, String line, <span class="hljs-type">double</span> price) {
+    <span class="hljs-built_in">this</span>.name = name;
+    <span class="hljs-built_in">this</span>.line = line;
+    <span class="hljs-built_in">this</span>.price = price;
+  }
+}
+ 
+<span class="hljs-comment">// to represent a stop on a commuter line</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">CommStation</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">IStation</span> {
+  String name;
+  String line;
+  <span class="hljs-type">boolean</span> express;
+ 
+  CommStation(String name, String line, <span class="hljs-type">boolean</span> express) {
+    <span class="hljs-built_in">this</span>.name = name;
+    <span class="hljs-built_in">this</span>.line = line;
+    <span class="hljs-built_in">this</span>.express = express;
+  }
+}</code></pre></div>
 <hr>
+<h2 id="methods-for-simple-classes">Methods for Simple Classes</h2>
+<p>Sample class definition<br>
+The purpose statement for the class precedes the class definition, just as it would precede a struct definition in Racket<br>
+The class definition starts with the field declarations, followed by the constructor.<br>
+After the constructor comes the template (described in more detail below).</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">// to represent a book in a bookstore
+class Book {
+ String title;
+ String author;
+ int price; // in dollars
+
+ // the constructor
+ Book(String title, String author, int price) {
+   this.title = title;
+   this.author = author;
+   this.price = price;
+ }
+
+ /* TEMPLATE will go here */
+ /* TEMPLATE:
+  Fields:
+  ... this.title ...        -- String
+  ... this.author ...       -- Author
+  ... this.price ...        -- int
+
+  Methods:
+  ... this.salePrice(int) ...   -- int
+  ... this.sameAuthor(Book) ... -- boolean
+
+  Methods for fields:
+  ... this.author.mmm(??) ...    -- ??
+ */
+
+ /* METHOD DEFINITIONS will go here. */
+   in salePrice(int discount) {
+   	return this.price - (this.price * discount) / 100;
+   }
+}</pre><pre class="hljs"><code><span class="hljs-comment">// to represent a book in a bookstore</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Book</span> {
+ String title;
+ String author;
+ <span class="hljs-type">int</span> price; <span class="hljs-comment">// in dollars</span>
+
+ <span class="hljs-comment">// the constructor</span>
+ Book(String title, String author, <span class="hljs-type">int</span> price) {
+   <span class="hljs-built_in">this</span>.title = title;
+   <span class="hljs-built_in">this</span>.author = author;
+   <span class="hljs-built_in">this</span>.price = price;
+ }
+
+ <span class="hljs-comment">/* TEMPLATE will go here */</span>
+ <span class="hljs-comment">/* TEMPLATE:
+  Fields:
+  ... this.title ...        -- String
+  ... this.author ...       -- Author
+  ... this.price ...        -- int
+
+  Methods:
+  ... this.salePrice(int) ...   -- int
+  ... this.sameAuthor(Book) ... -- boolean
+
+  Methods for fields:
+  ... this.author.mmm(??) ...    -- ??
+ */</span>
+
+ <span class="hljs-comment">/* METHOD DEFINITIONS will go here. */</span>
+   in <span class="hljs-title function_">salePrice</span><span class="hljs-params">(<span class="hljs-type">int</span> discount)</span> {
+   	<span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>.price - (<span class="hljs-built_in">this</span>.price * discount) / <span class="hljs-number">100</span>;
+   }
+}</code></pre></div>
+<p>Sample test writing:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">class ExamplesBooks {
+  ExamplesBooks() {}
+ 
+  // examples of books
+  Book htdp = new Book(&quot;HtDP&quot;, &quot;Felleisen et al.&quot;, 60);
+  Book ror = new Book(&quot;Realm of Racket&quot;, &quot;Bice et al.&quot;, 20);
+ 
+  // test the method salePrice for the class Book
+  boolean testSalePrice(Tester t) {
+    return t.checkExpect(this.htdp.salePrice(30), 42)
+        &amp;&amp; t.checkExpect(this.ror.salePrice(20), 16);
+  }
+}</pre><pre class="hljs"><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">ExamplesBooks</span> {
+  ExamplesBooks() {}
+ 
+  <span class="hljs-comment">// examples of books</span>
+  <span class="hljs-type">Book</span> <span class="hljs-variable">htdp</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Book</span>(<span class="hljs-string">&quot;HtDP&quot;</span>, <span class="hljs-string">&quot;Felleisen et al.&quot;</span>, <span class="hljs-number">60</span>);
+  <span class="hljs-type">Book</span> <span class="hljs-variable">ror</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Book</span>(<span class="hljs-string">&quot;Realm of Racket&quot;</span>, <span class="hljs-string">&quot;Bice et al.&quot;</span>, <span class="hljs-number">20</span>);
+ 
+  <span class="hljs-comment">// test the method salePrice for the class Book</span>
+  <span class="hljs-type">boolean</span> <span class="hljs-title function_">testSalePrice</span><span class="hljs-params">(Tester t)</span> {
+    <span class="hljs-keyword">return</span> t.checkExpect(<span class="hljs-built_in">this</span>.htdp.salePrice(<span class="hljs-number">30</span>), <span class="hljs-number">42</span>)
+        &amp;&amp; t.checkExpect(<span class="hljs-built_in">this</span>.ror.salePrice(<span class="hljs-number">20</span>), <span class="hljs-number">16</span>);
+  }
+}</code></pre></div>
+<hr>
+<p>Writing Samples test methods:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">boolean testIShapeArea(Tester t) {
+    //return t.checkInexact(actual, expected, tolerance);
+    return t.checkInexact(s1.area(), 900.0, 0.01) &amp;&amp; t.checkInexact(c1.area(), 314.0, 0.1) &amp;&amp; t.checkInexact(t1.area(), 25.0, 0.01);
+}
+
+// test the method salePrice for the class Book
+boolean testSalePrice(Tester t) {
+  return t.checkExpect(this.htdp.salePrice(30), 42)
+      &amp;&amp; t.checkExpect(this.ror.salePrice(20), 16);
+}
+
+</pre><pre class="hljs"><code><span class="hljs-type">boolean</span> <span class="hljs-title function_">testIShapeArea</span><span class="hljs-params">(Tester t)</span> {
+    <span class="hljs-comment">//return t.checkInexact(actual, expected, tolerance);</span>
+    <span class="hljs-keyword">return</span> t.checkInexact(s1.area(), <span class="hljs-number">900.0</span>, <span class="hljs-number">0.01</span>) &amp;&amp; t.checkInexact(c1.area(), <span class="hljs-number">314.0</span>, <span class="hljs-number">0.1</span>) &amp;&amp; t.checkInexact(t1.area(), <span class="hljs-number">25.0</span>, <span class="hljs-number">0.01</span>);
+}
+
+<span class="hljs-comment">// test the method salePrice for the class Book</span>
+<span class="hljs-type">boolean</span> <span class="hljs-title function_">testSalePrice</span><span class="hljs-params">(Tester t)</span> {
+  <span class="hljs-keyword">return</span> t.checkExpect(<span class="hljs-built_in">this</span>.htdp.salePrice(<span class="hljs-number">30</span>), <span class="hljs-number">42</span>)
+      &amp;&amp; t.checkExpect(<span class="hljs-built_in">this</span>.ror.salePrice(<span class="hljs-number">20</span>), <span class="hljs-number">16</span>);
+}
+
+</code></pre></div>
+<p>Inexact for comparing doubles.Tolerance (0.01 -&gt; what degree to allow).</p>
+<p>Dynamic Dispatch used for area() via interfaces for all implementations here. Save code repetition, via methods in interfaces, using composition.</p>
+<hr>
+<p>General Patterns established so far:<br>
+Interfaces used to create structs from Racket. Implement them for the 'sub structures'.<br>
+Only methods can be defined on the interfaces.</p>
 </div></div>
 					</body>
 				</html>

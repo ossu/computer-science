@@ -5,10 +5,10 @@
 						<meta charset="UTF-8">
 						<meta name="viewport" content="width=device-width, initial-scale=1" />
 						<link rel="stylesheet" href="pluginAssets/highlight.js/atom-one-light.css">
-						<title>Overview</title>
+						<title>2 Java Lists+Accumulators</title>
 					</head>
 					<body>
-						<div class="exported-note"><div class="exported-note-title">Overview</div>
+						<div class="exported-note"><div class="exported-note-title">2 Java Lists+Accumulators</div>
 
 <style>
 		/* https://necolas.github.io/normalize.css/ */
@@ -463,28 +463,234 @@ pre.mermaid > svg { white-space: unset; }
 				}
 				.mermaid-export-graph > button:hover {
 					background-color: #CBDAF1 !important;
-				}</style><div id="rendered-md"><p>Note:</p>
-<p>Install Ruby 2.7.6 to match ZA app.</p>
-<p>3 Weeks of Content:<br>
-Week 1 - Ruby basics, Ruby as Object oriented language and dynamically typed language. Blocks (similar to functions closures). Subclassing, inheritance and method overriding.</p>
-<p>Week 2 - compare and contrast functional programming and OOP. Compare and contrast 3 related 'advanced' features for OOP: Multiple inheritance, Ruby mixins, Java style interfaces. Hwk more challenging - port small interpreter for domain specific language from ML to Ruby</p>
-<p>Week 3- Conceptual/theoretical, subtyping, and how arises in statically typed Obj oriented languages.  Contrast with ML polymorphism (generic types) and how can be combined with generics synergistically.</p>
+				}</style><div id="rendered-md"><h1 id="1-2-java-listsaccumulators">1-2 Java Lists+Accumulators</h1>
+<p>Lec 5-8</p>
+<p>List example below:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">import tester.Tester;
+class Book {
+    String title;
+    String author;
+    int price;
+    //has title, author and price (string, string, int)
+    Book(String title, String author, int price) {
+        //Constructor
+        this.title = title;
+        this.author = author;
+        this.price = price;
+    }
+}
+
+interface ILoBook {
+    //List of Books
+    int count();
+}
+
+class ConsLoBook implements ILoBook {
+    Book first;
+    ILoBook rest;
+
+  //Construct List of Books
+    ConsLoBook(Book a, ILoBook b) {
+        this.first = a;
+        this.rest = b;
+    }
+    
+    public int count() {
+        return 1 + rest.count();
+    }
+}
+
+ConsLoBook myList = ConsoLoBook(new Book(&quot;HP1&quot;,&quot;JKR&quot;,10), new MtLoBook())
+
+class MtLoBook implements ILoBook {
+    MtLoBook() {}
+    
+    public int count() {
+        return 0;
+    }
+}
+
+class ILoBooksExample {
+    ILokBooksExample() {}
+    Book hp1 = new Book(&quot;HP1&quot;,&quot;JKR&quot;, 20);
+    Book hp2 = new Book(&quot;HP2&quot;,&quot;JKR&quot;, 30);
+    Book hp3 = new Book(&quot;HP3&quot;,&quot;JKR&quot;, 40);
+    ILoBook hpList3 = new ConsLoBook ( hp1, new ConsLoBook(hp2, new ConsLoBook ( hp3, new MtLoBook)));
+    ILoBook emptyList = new MtLoBook;
+    
+    boolean testILoBookCount(Tester t) {
+        return t.checkExpect( hpList3.count(), 3) &amp;&amp; t.checkExpect(emptyList.count(),0);
+    }
+}</pre><pre class="hljs"><code><span class="hljs-keyword">import</span> tester.Tester;
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Book</span> {
+    String title;
+    String author;
+    <span class="hljs-type">int</span> price;
+    <span class="hljs-comment">//has title, author and price (string, string, int)</span>
+    Book(String title, String author, <span class="hljs-type">int</span> price) {
+        <span class="hljs-comment">//Constructor</span>
+        <span class="hljs-built_in">this</span>.title = title;
+        <span class="hljs-built_in">this</span>.author = author;
+        <span class="hljs-built_in">this</span>.price = price;
+    }
+}
+
+<span class="hljs-keyword">interface</span> <span class="hljs-title class_">ILoBook</span> {
+    <span class="hljs-comment">//List of Books</span>
+    <span class="hljs-type">int</span> <span class="hljs-title function_">count</span><span class="hljs-params">()</span>;
+}
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">ConsLoBook</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">ILoBook</span> {
+    Book first;
+    ILoBook rest;
+
+  <span class="hljs-comment">//Construct List of Books</span>
+    ConsLoBook(Book a, ILoBook b) {
+        <span class="hljs-built_in">this</span>.first = a;
+        <span class="hljs-built_in">this</span>.rest = b;
+    }
+    
+    <span class="hljs-keyword">public</span> <span class="hljs-type">int</span> <span class="hljs-title function_">count</span><span class="hljs-params">()</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-number">1</span> + rest.count();
+    }
+}
+
+<span class="hljs-type">ConsLoBook</span> <span class="hljs-variable">myList</span> <span class="hljs-operator">=</span> ConsoLoBook(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Book</span>(<span class="hljs-string">&quot;HP1&quot;</span>,<span class="hljs-string">&quot;JKR&quot;</span>,<span class="hljs-number">10</span>), <span class="hljs-keyword">new</span> <span class="hljs-title class_">MtLoBook</span>())
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">MtLoBook</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">ILoBook</span> {
+    MtLoBook() {}
+    
+    <span class="hljs-keyword">public</span> <span class="hljs-type">int</span> <span class="hljs-title function_">count</span><span class="hljs-params">()</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+    }
+}
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">ILoBooksExample</span> {
+    ILokBooksExample() {}
+    <span class="hljs-type">Book</span> <span class="hljs-variable">hp1</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Book</span>(<span class="hljs-string">&quot;HP1&quot;</span>,<span class="hljs-string">&quot;JKR&quot;</span>, <span class="hljs-number">20</span>);
+    <span class="hljs-type">Book</span> <span class="hljs-variable">hp2</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Book</span>(<span class="hljs-string">&quot;HP2&quot;</span>,<span class="hljs-string">&quot;JKR&quot;</span>, <span class="hljs-number">30</span>);
+    <span class="hljs-type">Book</span> <span class="hljs-variable">hp3</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Book</span>(<span class="hljs-string">&quot;HP3&quot;</span>,<span class="hljs-string">&quot;JKR&quot;</span>, <span class="hljs-number">40</span>);
+    <span class="hljs-type">ILoBook</span> <span class="hljs-variable">hpList3</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">ConsLoBook</span> ( hp1, <span class="hljs-keyword">new</span> <span class="hljs-title class_">ConsLoBook</span>(hp2, <span class="hljs-keyword">new</span> <span class="hljs-title class_">ConsLoBook</span> ( hp3, <span class="hljs-keyword">new</span> <span class="hljs-title class_">MtLoBook</span>)));
+    <span class="hljs-type">ILoBook</span> <span class="hljs-variable">emptyList</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MtLoBook</span>;
+    
+    <span class="hljs-type">boolean</span> <span class="hljs-title function_">testILoBookCount</span><span class="hljs-params">(Tester t)</span> {
+        <span class="hljs-keyword">return</span> t.checkExpect( hpList3.count(), <span class="hljs-number">3</span>) &amp;&amp; t.checkExpect(emptyList.count(),<span class="hljs-number">0</span>);
+    }
+}</code></pre></div>
+<h2 id="accumulator-methods">Accumulator Methods</h2>
+<p>Revisiting IAT / Ancestry Tree. IAT implemented by Unknown and Person class.</p>
+<p>Idea of counting total known ancestors.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">public int count() {
+    return this.mom.counterHelper() + this.dad.countHelper();
+}
+public int countHelper() {
+    return 1+this.mom.countHelper()+this.dad.counterHelper();
+}</pre><pre class="hljs"><code><span class="hljs-keyword">public</span> <span class="hljs-type">int</span> <span class="hljs-title function_">count</span><span class="hljs-params">()</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>.mom.counterHelper() + <span class="hljs-built_in">this</span>.dad.countHelper();
+}
+<span class="hljs-keyword">public</span> <span class="hljs-type">int</span> <span class="hljs-title function_">countHelper</span><span class="hljs-params">()</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>+<span class="hljs-built_in">this</span>.mom.countHelper()+<span class="hljs-built_in">this</span>.dad.counterHelper();
+}</code></pre></div>
+<p>Idea above is that 1+... on the count() method would double count the root node. Off by one.<br>
+The helper here computes the value for a single person, whereas the count() is the aggregator intended to be called directly for the end result.</p>
+<p>Accumulator methods added to the interface, then the unknown/blank also implements but with empty case / 0. The list case does logic to compute if should increment the helper / accumulator.</p>
 <hr>
-<p>Overview:</p>
-<ul>
-<li>Essence of OOP: inheritance and overriding</li>
-<li>Contrasting functional programming and OOP</li>
-<li>more advanced OOP feature and idioms</li>
-<li>subtyping and contrast with ML polymorphism</li>
-</ul>
-<p>Part C:<br>
-8. Dynamically typed OOP<br>
-- Blocks, classes, methods, much more<br>
-- More dynamic than Racket<br>
-- Pure OOP<br>
-9. OOP vs Functional decomposition (aha moment!) - advanced OOP topics (mixins, double dispatch)<br>
-10. Subtyping: generics vs subtyping</p>
+<p>Example of WellFormed:<br>
+WellFormed used as a validation function.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">public boolean wellFormed() {
+    return this.mom.wellFormedHelper(this.yob) &amp;&amp;
+        this.dad.wellFormedHelper(this.yob)
+}
+public boolean wellFormedHelper(int childYob) {
+    return this.yob &lt; childYob &amp;&amp;
+        this.mom.wellFormedHelper(this.yob) &amp;&amp;
+        this.dad.wellFormedHelper(this.yob)
+}</pre><pre class="hljs"><code><span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">wellFormed</span><span class="hljs-params">()</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>.mom.wellFormedHelper(<span class="hljs-built_in">this</span>.yob) &amp;&amp;
+        <span class="hljs-built_in">this</span>.dad.wellFormedHelper(<span class="hljs-built_in">this</span>.yob)
+}
+<span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">wellFormedHelper</span><span class="hljs-params">(<span class="hljs-type">int</span> childYob)</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>.yob &lt; childYob &amp;&amp;
+        <span class="hljs-built_in">this</span>.mom.wellFormedHelper(<span class="hljs-built_in">this</span>.yob) &amp;&amp;
+        <span class="hljs-built_in">this</span>.dad.wellFormedHelper(<span class="hljs-built_in">this</span>.yob)
+}</code></pre></div>
+<h3 id="more-accumulators">More accumulators:</h3>
+<p>Example of youngest ancester at a given generation:<br>
+Need a helper function for younger for 2 entities first. In the blank one, return the other always.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">public IAT youngerIAT(IAT other) { return other; }
+IAT youngerIATHelp(IAT other, int otherYob) { return other; }</pre><pre class="hljs"><code><span class="hljs-keyword">public</span> IAT <span class="hljs-title function_">youngerIAT</span><span class="hljs-params">(IAT other)</span> { <span class="hljs-keyword">return</span> other; }
+IAT <span class="hljs-title function_">youngerIATHelp</span><span class="hljs-params">(IAT other, <span class="hljs-type">int</span> otherYob)</span> { <span class="hljs-keyword">return</span> other; }</code></pre></div>
+<p>Person case:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">//under class Person
+public IAT youngerIAT(IAT other) {
+    return other.youngerIATHelp(this, this.yob);
+}
+IAT youngerIATHelp(IAT other, int yob) {
+    if (this.yob &gt; yob) {
+        return this;
+    } else {
+        return other;
+    }
+}
+</pre><pre class="hljs"><code><span class="hljs-comment">//under class Person</span>
+<span class="hljs-keyword">public</span> IAT <span class="hljs-title function_">youngerIAT</span><span class="hljs-params">(IAT other)</span> {
+    <span class="hljs-keyword">return</span> other.youngerIATHelp(<span class="hljs-built_in">this</span>, <span class="hljs-built_in">this</span>.yob);
+}
+IAT <span class="hljs-title function_">youngerIATHelp</span><span class="hljs-params">(IAT other, <span class="hljs-type">int</span> yob)</span> {
+    <span class="hljs-keyword">if</span> (<span class="hljs-built_in">this</span>.yob &gt; yob) {
+        <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>;
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">return</span> other;
+    }
+}
+</code></pre></div>
+<p>Use of accumulator here is to allow dynamic dispatch to determine whether the other is a Person or Unknown. Calling <code class="inline-code">other.youngerIATHelp</code> implemenetation does this.</p>
+<p>Youngest Ancestor at Generation 'gen' representating 'generations above current':</p>
+<p>Unknown:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">public IAT youngestAncInGen(int gen) {
+    if (gen == 0) {
+        return this;
+    } else {
+        return new Unknown();
+    }
+}</pre><pre class="hljs"><code><span class="hljs-keyword">public</span> IAT <span class="hljs-title function_">youngestAncInGen</span><span class="hljs-params">(<span class="hljs-type">int</span> gen)</span> {
+    <span class="hljs-keyword">if</span> (gen == <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>;
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Unknown</span>();
+    }
+}</code></pre></div>
+<p>Person:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">public IAT youngestAncInGen(int gen) {
+    if (gen == 0) {
+        return this;
+    } else{
+        return this.mom.youngestAncInGen(gen-1).youngerIAT(
+            this.dad.youngestAncInGen(gen-1));
+    }
+}</pre><pre class="hljs"><code><span class="hljs-keyword">public</span> IAT <span class="hljs-title function_">youngestAncInGen</span><span class="hljs-params">(<span class="hljs-type">int</span> gen)</span> {
+    <span class="hljs-keyword">if</span> (gen == <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>;
+    } <span class="hljs-keyword">else</span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>.mom.youngestAncInGen(gen-<span class="hljs-number">1</span>).youngerIAT(
+            <span class="hljs-built_in">this</span>.dad.youngestAncInGen(gen-<span class="hljs-number">1</span>));
+    }
+}</code></pre></div>
 <hr>
+<h2 id="design-practice">Design Practice</h2>
+<p>Interface ICitation (implemented by book and wikipedia classes)<br>
+Book: publishers, author, title, bibliography<br>
+WikiArticle: URL, author, title, bibliography<br>
+ICitation methods: isEqual</p>
+<p>Bibliography: a list of Citations composed of books and Wikipedia articles. Represent by list of ICitations.<br>
+Bibliography is represented by ILoCitation<br>
+ILoCitation is implemented by MtCitation (empty) and ConsLoCitation<br>
+ILoCitation Methods: insert(ICitation), sort() =&gt; calls helper with MtCitation, sortHelper(ILoCitation accumulator)</p>
+<p>Sort needs insert function that inserts an entry into sorted array.<br>
+Then initiate sort with MtCitation<br>
+Insert only inserts if not found already (check for author and title match) using isEqual(ICitation).</p>
+<p>Bibliography derived from your list of sources - a method called on bi.<br>
+To deliver the bibliography use listSources()</p>
 </div></div>
 					</body>
 				</html>

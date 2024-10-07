@@ -5,10 +5,10 @@
 						<meta charset="UTF-8">
 						<meta name="viewport" content="width=device-width, initial-scale=1" />
 						<link rel="stylesheet" href="pluginAssets/highlight.js/atom-one-light.css">
-						<title>Overview</title>
+						<title>Quicker Summary</title>
 					</head>
 					<body>
-						<div class="exported-note"><div class="exported-note-title">Overview</div>
+						<div class="exported-note"><div class="exported-note-title">Quicker Summary</div>
 
 <style>
 		/* https://necolas.github.io/normalize.css/ */
@@ -463,28 +463,57 @@ pre.mermaid > svg { white-space: unset; }
 				}
 				.mermaid-export-graph > button:hover {
 					background-color: #CBDAF1 !important;
-				}</style><div id="rendered-md"><p>Note:</p>
-<p>Install Ruby 2.7.6 to match ZA app.</p>
-<p>3 Weeks of Content:<br>
-Week 1 - Ruby basics, Ruby as Object oriented language and dynamically typed language. Blocks (similar to functions closures). Subclassing, inheritance and method overriding.</p>
-<p>Week 2 - compare and contrast functional programming and OOP. Compare and contrast 3 related 'advanced' features for OOP: Multiple inheritance, Ruby mixins, Java style interfaces. Hwk more challenging - port small interpreter for domain specific language from ML to Ruby</p>
-<p>Week 3- Conceptual/theoretical, subtyping, and how arises in statically typed Obj oriented languages.  Contrast with ML polymorphism (generic types) and how can be combined with generics synergistically.</p>
-<hr>
-<p>Overview:</p>
+				}</style><div id="rendered-md"><p><a data-from-md title='https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/#uml-class-notation' href='https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/#uml-class-notation'>https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/#uml-class-notation</a></p>
+<p><img src="../../../_resources/a2741d53830e43c5a26d56efbfe33410.png" alt="4dfcc9e80b3bdbbecc5d72ec67a97110.png"></p>
 <ul>
-<li>Essence of OOP: inheritance and overriding</li>
-<li>Contrasting functional programming and OOP</li>
-<li>more advanced OOP feature and idioms</li>
-<li>subtyping and contrast with ML polymorphism</li>
+<li>Association:
+<ul>
+<li>e.g. A Library contains multiple books, each book belongs to a specific Library</li>
 </ul>
-<p>Part C:<br>
-8. Dynamically typed OOP<br>
-- Blocks, classes, methods, much more<br>
-- More dynamic than Racket<br>
-- Pure OOP<br>
-9. OOP vs Functional decomposition (aha moment!) - advanced OOP topics (mixins, double dispatch)<br>
-10. Subtyping: generics vs subtyping</p>
-<hr>
+</li>
+<li>Directed Association: solid arrow
+<ul>
+<li>e.g. Teacher teaches a course. There is a directionality to it. The course needs a teacher to be teaching it.</li>
+</ul>
+</li>
+<li>Aggregation: Whole class (empty diamond) to Contained Class
+<ul>
+<li>e.g. Company has many employees, but employees can still exist without a company.</li>
+</ul>
+</li>
+<li>Composition: Whole Class (solid diamond) to Contained Class
+<ul>
+<li>e.g. An airplane is made of components, but they cease to exist after the airplane is destroyed (assuming individual components are not reusable).</li>
+</ul>
+</li>
+<li>Generalization(Inheritance): solid line, triangle head arrow pointing to superclass
+<ul>
+<li>e.g. Savings Account inherits from Bank Account superclass.</li>
+</ul>
+</li>
+<li>Realization (Interface Implmentation): dotted line, triangle head arrow pointing to interface
+<ul>
+<li>e.g. Person and Corporation both 'realize' or implement the Interface 'Owner'.</li>
+</ul>
+</li>
+<li>Dependency Relationship: client dotted line pointing to supplier class
+<ul>
+<li>One class relies on another, but relationship not as strong as association or inheritance</li>
+<li>e.g. Person depends on Book class</li>
+</ul>
+</li>
+<li>Usage Relationship: dotted line with text &quot;Use&quot; pointing to used component
+<ul>
+<li>e.g. Car depends on FuelTank</li>
+</ul>
+</li>
+</ul>
+<p>Note also visibility notation:<br>
+Visibility Notation indicate the access level of attributes and methods. Common visibility notations include:<br>
++ for public (visible to all classes)<br>
+- for private (visible only within the class)<br>
+# for protected (visible to subclasses)<br>
+~ for package or default visibility (visible to classes in the same package)</p>
 </div></div>
 					</body>
 				</html>

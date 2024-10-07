@@ -5,10 +5,10 @@
 						<meta charset="UTF-8">
 						<meta name="viewport" content="width=device-width, initial-scale=1" />
 						<link rel="stylesheet" href="pluginAssets/highlight.js/atom-one-light.css">
-						<title>Overview</title>
+						<title>2-1 Object Oriented Modeling</title>
 					</head>
 					<body>
-						<div class="exported-note"><div class="exported-note-title">Overview</div>
+						<div class="exported-note"><div class="exported-note-title">2-1 Object Oriented Modeling</div>
 
 <style>
 		/* https://necolas.github.io/normalize.css/ */
@@ -463,28 +463,142 @@ pre.mermaid > svg { white-space: unset; }
 				}
 				.mermaid-export-graph > button:hover {
 					background-color: #CBDAF1 !important;
-				}</style><div id="rendered-md"><p>Note:</p>
-<p>Install Ruby 2.7.6 to match ZA app.</p>
-<p>3 Weeks of Content:<br>
-Week 1 - Ruby basics, Ruby as Object oriented language and dynamically typed language. Blocks (similar to functions closures). Subclassing, inheritance and method overriding.</p>
-<p>Week 2 - compare and contrast functional programming and OOP. Compare and contrast 3 related 'advanced' features for OOP: Multiple inheritance, Ruby mixins, Java style interfaces. Hwk more challenging - port small interpreter for domain specific language from ML to Ruby</p>
-<p>Week 3- Conceptual/theoretical, subtyping, and how arises in statically typed Obj oriented languages.  Contrast with ML polymorphism (generic types) and how can be combined with generics synergistically.</p>
-<hr>
-<p>Overview:</p>
+				}</style><div id="rendered-md"><p>Languages Evolution</p>
+<p>Four Design Principles (21 mins)</p>
 <ul>
-<li>Essence of OOP: inheritance and overriding</li>
-<li>Contrasting functional programming and OOP</li>
-<li>more advanced OOP feature and idioms</li>
-<li>subtyping and contrast with ML polymorphism</li>
+<li>Abstraction
+<ul>
+<li>Simply a concept in problem domain to essentials. Ignore unimportant details</li>
+<li>Determine it's behavior</li>
 </ul>
-<p>Part C:<br>
-8. Dynamically typed OOP<br>
-- Blocks, classes, methods, much more<br>
-- More dynamic than Racket<br>
-- Pure OOP<br>
-9. OOP vs Functional decomposition (aha moment!) - advanced OOP topics (mixins, double dispatch)<br>
-10. Subtyping: generics vs subtyping</p>
+</li>
+<li>Encapsulation
+<ul>
+<li>Form self-contained object by bundle data and functions requires to work, expose interface other objects can use to interact with it, restrict other inside details.</li>
+</ul>
+</li>
+<li>Decomposition
+<ul>
+<li>Take a whole thing and divide into parts, and/or take functionalities and combine together to form a whole. Break down problems into pieces easier to understand and solve</li>
+<li>Has one, has many, belongs to...</li>
+<li>Fixed vs dynamic parts</li>
+</ul>
+</li>
+<li>Generalization</li>
+</ul>
 <hr>
+<p>Really consider these 4 instead:<br>
+<a data-from-md title='https://www.geeksforgeeks.org/understanding-encapsulation-inheritance-polymorphism-abstraction-in-oops/' href='https://www.geeksforgeeks.org/understanding-encapsulation-inheritance-polymorphism-abstraction-in-oops/'>https://www.geeksforgeeks.org/understanding-encapsulation-inheritance-polymorphism-abstraction-in-oops/</a></p>
+<ul>
+<li>Abstraction</li>
+<li>Encapsulation</li>
+<li>Polymorphism</li>
+<li>Inheritance</li>
+</ul>
+<p>Expressing Design Structure in Java and UML Class Diagrams</p>
+<p>UML ## Class Diagram:</p>
+<h2 id="crc-card">CRC Card:</h2>
+<p><img src="../../../_resources/38068d009d744d598096f454d425d1cc.png" alt="84d8ea7e9687b2b723621ebe435016eb.png"></p>
+<p>3 Sections:<br>
+Class Name (at top)<br>
+Middle: Properties - member variables<br>
+Bottom: Operations (methods in the class)</p>
+<h2 id="class-diagrams">Class Diagrams:</h2>
+<p>Closer to code</p>
+<p>Decomposition:</p>
+<ul>
+<li>Association: Loose relationship between two objects. e.g. Person and Airline =&gt; Person can interact with airline...</li>
+<li>Aggregation: 'has-a' where a whole has parts that belong to it. May be sharing of parts. Parts can belong to wholes but can exist independently. e.g. Airline and Crew.</li>
+<li>Composition: e.g. A plane is made of wings, engines.</li>
+</ul>
+<p>Association:<br>
+<img src="../../../_resources/93d6fbcd54a24e23bc349da446569a6f.png" alt="5a543c2972e2bdbf517273c8d93c150c.png"></p>
+<p>0..* =&gt; 0 or more</p>
+<p>Aggregation:<br>
+<img src="../../../_resources/7b70200099c94563bb1d255b0f97da90.png" alt="ffd5b02079643a25d9f1eb2b1fa52134.png"><br>
+Diamond is symbol for aggregation</p>
+<p>Composition:<br>
+<img src="../../../_resources/2e12818268ac4e78ba0655db63e34fae.png" alt="3e85cef59eb2a696c068a9a932b2d84e.png"><br>
+Filled diamond =&gt; &quot;has a&quot; relationship is strong</p>
+<ul>
+<li>Exclusive containment of parts</li>
+<li>Cannot exist without those parts</li>
+<li>If whole is destroyed then all parts are destroyed too. Can only access parts from whole usually</li>
+<li>Contained parts are exclusive to the whole</li>
+<li>e..g one plane has one engine.</li>
+</ul>
+<p>Generalization + Inheritance:<br>
+Two classes with -&gt;<br>
+<img src="../../../_resources/2b83ba03f6cd4227964f56ef95aee78c.png" alt="db0c90ff2576d4dafa8c65e8f5cecce9.png"><br>
+Superclasses towards top, subclasses towards bottom</p>
+<p><img src="../../../_resources/75ef30ca230b4f04bd3b92ed3d702473.png" alt="1c72a72e5aa5df3967ae25b55ecec115.png"><br>
+Java only single implementation inheritance allowed (no multi-inheritance)<br>
+Java uses 'extends' keyword for inheritance.</p>
+<p>Interface only declare method sigs, no constructor, attributes, methods.<br>
+Like a contract to be fulfilled.<br>
+IAnimal =&gt; Put &quot;I&quot; in front<br>
+Java uses 'implements' keyword for interfaces.</p>
+<p>UML uses &lt;&lt;Interface&gt;&gt;<br>
+<img src="../../../_resources/6c8250ab8f6f492d9f25c14e4250a1ea.png" alt="8ee5d7e789caa17e7432526698d36100.png"></p>
+<p>Interfaces are a means to implement polymorphism (abstract classes are too, but via inheritance).</p>
+<hr>
+<h2 id="coupling-and-cohesion">Coupling and Cohesion</h2>
+<p>Module:</p>
+<p>Coupling: on complexity between a module and other modules<br>
+Cohesion: complexity within a module</p>
+<p>&quot;Tight coupling&quot; - highly reliant on other modules e.g. puzzle pieces</p>
+<p>&quot;loose coupled&quot; - easy to connect to other modules e.g. legos</p>
+<p>Ideally loose or low coupling</p>
+<hr>
+<p>Cohesion: clarity of module's responsibilities<br>
+Module has clear purpose =&gt; High cohesion<br>
+Module responsibility unclear/varies in pieces =&gt; low cohesion</p>
+<hr>
+<p>Separation of Concerns</p>
+<ul>
+<li>Some that matters in solving the problem, accept payments.</li>
+<li>Use new classes to handle specific 'concerns' e.g. camera from phone, wireless connection from phone interface.</li>
+</ul>
+<p>Information Hiding:</p>
+<ul>
+<li>Protected, private etc.</li>
+<li>Default Access Modifier: allow access to attributes and methods to subclasses or lcasses part of same package or encapsulation.</li>
+<li>Private Access Modifier: cannot be accessed by other classes other than encapsulating class itself. Cannot access attribute directly.</li>
+</ul>
+<hr>
+<p>Inheritance Pitfalls:</p>
+<ul>
+<li>Share attributes or behavior without adding anything special to subclasses</li>
+<li>No need for subclass to exist</li>
+</ul>
+<p>Liskov Substitution Principle:<br>
+A subclass can replace a superclass if and only if subclass does not change functionality of the superclass.</p>
+<h2 id="sequence-diagram">Sequence Diagram</h2>
+<p>Follow messaging person to person<br>
+<img src="../../../_resources/ff69a745ec424670af0870710fd5783e.png" alt="dce671ee36afe42b098dd480e42efdc2.png"></p>
+<p>Describes how your objects in diagram interact to complete a specific task.<br>
+Actors typically at the top boxes (often representing classes)<br>
+Vertical dotted line to show object as time passes.<br>
+Messages</p>
+<h2 id="state-diagram">State Diagram</h2>
+<p>Describe a single object and illustrate how object behaves in response to series of events in system.</p>
+<p>Can transition from one state to another.<br>
+State: way an object exists in point in time. Determined by values of attributes.</p>
+<p>Filled circle for 'starting state'<br>
+States as rounded rectangle with state name, variable and activities.<br>
+Activity: entry, exit and do.</p>
+<ul>
+<li>Entry: when entering state</li>
+<li>Exit: when exited</li>
+<li>Do: occur once or multiple times when in a state</li>
+</ul>
+<p><img src="../../../_resources/2e981a76791a4711b00dbc899ff05556.png" alt="43e951c122339aac510383cd05c83c1d.png"></p>
+<p>Event Transitions with arrow from one state to another.<br>
+May have condition/guard event.</p>
+<p><img src="../../../_resources/c83d724e54e745adbbb60d463cd20540.png" alt="be403757f38ae65ccbf204a66c584a37.png"></p>
+<p><img src="../../../_resources/b464409b81d14ca8a0173ef520cc4e93.png" alt="e1a09cf090786c1781dc8dbc1da74ee1.png"></p>
+<p>Termination: object being destroyed:<br>
+<img src="../../../_resources/036a55482bb74b81b56ea268e5a79249.png" alt="f12c9340f341373c86836b7af01b806e.png"></p>
 </div></div>
 					</body>
 				</html>

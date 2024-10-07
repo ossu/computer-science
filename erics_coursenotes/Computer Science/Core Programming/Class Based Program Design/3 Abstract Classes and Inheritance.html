@@ -5,10 +5,10 @@
 						<meta charset="UTF-8">
 						<meta name="viewport" content="width=device-width, initial-scale=1" />
 						<link rel="stylesheet" href="pluginAssets/highlight.js/atom-one-light.css">
-						<title>Overview</title>
+						<title>3 Abstract Classes and Inheritance</title>
 					</head>
 					<body>
-						<div class="exported-note"><div class="exported-note-title">Overview</div>
+						<div class="exported-note"><div class="exported-note-title">3 Abstract Classes and Inheritance</div>
 
 <style>
 		/* https://necolas.github.io/normalize.css/ */
@@ -463,28 +463,256 @@ pre.mermaid > svg { white-space: unset; }
 				}
 				.mermaid-export-graph > button:hover {
 					background-color: #CBDAF1 !important;
-				}</style><div id="rendered-md"><p>Note:</p>
-<p>Install Ruby 2.7.6 to match ZA app.</p>
-<p>3 Weeks of Content:<br>
-Week 1 - Ruby basics, Ruby as Object oriented language and dynamically typed language. Blocks (similar to functions closures). Subclassing, inheritance and method overriding.</p>
-<p>Week 2 - compare and contrast functional programming and OOP. Compare and contrast 3 related 'advanced' features for OOP: Multiple inheritance, Ruby mixins, Java style interfaces. Hwk more challenging - port small interpreter for domain specific language from ML to Ruby</p>
-<p>Week 3- Conceptual/theoretical, subtyping, and how arises in statically typed Obj oriented languages.  Contrast with ML polymorphism (generic types) and how can be combined with generics synergistically.</p>
+				}</style><div id="rendered-md"><p>1-3 Abstract Classes and Inheritance</p>
+<p>Lec covering through L9-L12</p>
+<h2 id="abstract-classes-and-inheritance">Abstract Classes and Inheritance</h2>
+<p>Lec 9</p>
+<p>IShape interface already implemented but want to extend.</p>
+<p><img src="../../../_resources/50ccf0e8c3d44537bd408fc36f8e6f1b.png" alt="9f88417507b59476483fd4d3b4f6365c.png"></p>
+<p>Have written Circle, Square and Rectangle Classes.<br>
+Noting duplication in this implementation though. All have location, color,</p>
+<p>Writing new Abstract 'AShape' class.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">abstract class AShape implements IShape {
+    CartPt location;
+    String color;
+    
+    AShape(CartPt location, String color) {
+        this.location = location;
+        this.color = color;
+    }
+}</pre><pre class="hljs"><code><span class="hljs-keyword">abstract</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AShape</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">IShape</span> {
+    CartPt location;
+    String color;
+    
+    AShape(CartPt location, String color) {
+        <span class="hljs-built_in">this</span>.location = location;
+        <span class="hljs-built_in">this</span>.color = color;
+    }
+}</code></pre></div>
+<p>Class AShape not tied to interface, still an IShape but an incomplete one. Thus abstract: cannot be created. Note: the methods in the interface not required on the abstract class.</p>
+<p>Example of extending with this abstract class:<br>
+Note the constructor uses super to call the superclass' constructor.</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">class Circle extends AShape {
+    int radius;
+    //no longer has color and location defined, as it's inherited
+    
+    Circle(CartPt center, int radius, String color) {
+        super(center, color);
+        this.radius = radius;
+    }
+}</pre><pre class="hljs"><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Circle</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">AShape</span> {
+    <span class="hljs-type">int</span> radius;
+    <span class="hljs-comment">//no longer has color and location defined, as it&#x27;s inherited</span>
+    
+    Circle(CartPt center, <span class="hljs-type">int</span> radius, String color) {
+        <span class="hljs-built_in">super</span>(center, color);
+        <span class="hljs-built_in">this</span>.radius = radius;
+    }
+}</code></pre></div>
+<p>In methods can still call this.location (since will inherit that property).</p>
+<h2 id="abstract-methods">Abstract Methods</h2>
+<p>When we cannot define the methods in the abstract class, but want to make sure all subclasses implement the method, we define its header and declare the method to be abstract (see area, grow, contains)</p>
+<p>Contrast this with the 'concrete' methods in the abstract class that actually implemented a method (distTo0 and biggerThan).</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">// to represent a geometric shape
+abstract class AShape implements IShape {
+  //... properties and constructor here
+ 
+  // to compute the area of this shape
+  public abstract double area();
+ 
+  // to compute the distance form this shape to the origin
+  public double distTo0() {
+    return this.loc.distTo0();
+  } // Note this implementation is used in shapes EXCEPT where overrided (e.g circle)
+ 
+  // to increase the size of this shape by the given increment
+  public abstract IShape grow(int inc);
+ 
+  // is the area of this shape is bigger than the area of the given shape?
+  public boolean biggerThan(IShape that) {
+    return this.area() &gt;= that.area();
+  }
+ 
+  // does this shape (including the boundary) contain the given point?
+  public abstract boolean contains(CartPt pt);
+}</pre><pre class="hljs"><code><span class="hljs-comment">// to represent a geometric shape</span>
+<span class="hljs-keyword">abstract</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AShape</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">IShape</span> {
+  <span class="hljs-comment">//... properties and constructor here</span>
+ 
+  <span class="hljs-comment">// to compute the area of this shape</span>
+  <span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-type">double</span> <span class="hljs-title function_">area</span><span class="hljs-params">()</span>;
+ 
+  <span class="hljs-comment">// to compute the distance form this shape to the origin</span>
+  <span class="hljs-keyword">public</span> <span class="hljs-type">double</span> <span class="hljs-title function_">distTo0</span><span class="hljs-params">()</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>.loc.distTo0();
+  } <span class="hljs-comment">// Note this implementation is used in shapes EXCEPT where overrided (e.g circle)</span>
+ 
+  <span class="hljs-comment">// to increase the size of this shape by the given increment</span>
+  <span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> IShape <span class="hljs-title function_">grow</span><span class="hljs-params">(<span class="hljs-type">int</span> inc)</span>;
+ 
+  <span class="hljs-comment">// is the area of this shape is bigger than the area of the given shape?</span>
+  <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">biggerThan</span><span class="hljs-params">(IShape that)</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">this</span>.area() &gt;= that.area();
+  }
+ 
+  <span class="hljs-comment">// does this shape (including the boundary) contain the given point?</span>
+  <span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">contains</span><span class="hljs-params">(CartPt pt)</span>;
+}</code></pre></div>
+<p>Key Point: why both interface and superclass?<br>
+Because sometimes you want to inherit the interface without using the method definitions from the superclass. Separation of implementation / concerns here.</p>
 <hr>
-<p>Overview:</p>
+<h2 id="customizing-constructors">Customizing Constructors</h2>
+<p>Lec10</p>
+<p>Before - typically:</p>
 <ul>
-<li>Essence of OOP: inheritance and overriding</li>
-<li>Contrasting functional programming and OOP</li>
-<li>more advanced OOP feature and idioms</li>
-<li>subtyping and contrast with ML polymorphism</li>
+<li>Constructor takes one parameter for each field defined in the class, with the same name as the field.</li>
+<li>The constructor takes one parameter for each field inherited from any base classes, (usually) with the same name as the field.</li>
+<li>If the constructor derives from some base class, the first line of the constructor invokes the super constructor with any parameters needed by the base class’ constructor.</li>
+<li>The rest of the constructor is a list of initializer statements, this.field = param, that initialize each field of this class with the relevant parameter.</li>
 </ul>
-<p>Part C:<br>
-8. Dynamically typed OOP<br>
-- Blocks, classes, methods, much more<br>
-- More dynamic than Racket<br>
-- Pure OOP<br>
-9. OOP vs Functional decomposition (aha moment!) - advanced OOP topics (mixins, double dispatch)<br>
-10. Subtyping: generics vs subtyping</p>
-<hr>
+<p>Other version:</p>
+<ol>
+<li>Constructor with Default Options:</li>
+</ol>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">  ATetrisPiece(int x, int y) {
+    this.xPos = x;
+    this.yPos = y;
+  }
+  // NEW CONSTRUCTOR
+  ATetrisPiece(int x) {
+    this.xPos = x;
+    this.yPos = 30; // screen height
+  }</pre><pre class="hljs"><code>  ATetrisPiece(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y) {
+    <span class="hljs-built_in">this</span>.xPos = x;
+    <span class="hljs-built_in">this</span>.yPos = y;
+  }
+  <span class="hljs-comment">// NEW CONSTRUCTOR</span>
+  ATetrisPiece(<span class="hljs-type">int</span> x) {
+    <span class="hljs-built_in">this</span>.xPos = x;
+    <span class="hljs-built_in">this</span>.yPos = <span class="hljs-number">30</span>; <span class="hljs-comment">// screen height</span>
+  }</code></pre></div>
+<p>Example secondary constructor that throws in the int y defaulted to 30.<br>
+Defining two constructors for the same class, but with different signatures (i.e., the number and types of parameters), is called <strong>overloading</strong>. Java determines which constructor to invoke by examining the types of the arguments passed in the call.</p>
+<p>This is very different from dynamic dispatch: Java can determine statically which constructor to call just by looking at the static types of the parameters, rather than by waiting until runtime to figure out what kind of object is being used to invoke a method.</p>
+<ul>
+<li>There should be only one place in the code that does any particular task, known as a “single point of control”.<br>
+This case calls the other constructor:</li>
+</ul>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">abstract class ATetrisPiece implements ITetrisPiece {
+  ...
+  ATetrisPiece(int x, int y) {
+    this.xPos = x;
+    this.yPos = y;
+  }
+  // NEW CONSTRUCTOR
+  ATetrisPiece(int x) {
+    // invokes the other constructor
+    this(x, 30); // screen height
+  }
+}</pre><pre class="hljs"><code><span class="hljs-keyword">abstract</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ATetrisPiece</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">ITetrisPiece</span> {
+  ...
+  ATetrisPiece(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y) {
+    <span class="hljs-built_in">this</span>.xPos = x;
+    <span class="hljs-built_in">this</span>.yPos = y;
+  }
+  <span class="hljs-comment">// NEW CONSTRUCTOR</span>
+  ATetrisPiece(<span class="hljs-type">int</span> x) {
+    <span class="hljs-comment">// invokes the other constructor</span>
+    <span class="hljs-built_in">this</span>(x, <span class="hljs-number">30</span>); <span class="hljs-comment">// screen height</span>
+  }
+}</code></pre></div>
+<p>The 'this(x,30)' calls the other constructor. =&gt; &quot;This&quot; itself is overloaded.</p>
+<ol start="2">
+<li>
+<p>Constants<br>
+Example <code class="inline-code">int SCREEN_HEIGHT = 30;</code> for constants declaration.</p>
+</li>
+<li>
+<p>Constructor enforce data integrity: Exceptions</p>
+</li>
+</ol>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">  else {
+    throw new IllegalArgumentException(&quot;Invalid year: &quot; + Integer.toString(year));
+  }</pre><pre class="hljs"><code>  <span class="hljs-keyword">else</span> {
+    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(<span class="hljs-string">&quot;Invalid year: &quot;</span> + Integer.toString(year));
+  }</code></pre></div>
+<p>The IllegalArgumentException class is a subclass of RuntimeException, which is a subclass of the Exception class.<br>
+If the program ever executes a statement like: <code class="inline-code">throw new ???Exception(&quot;... message ...&quot;);</code><br>
+Java stops the program and signals the error through the constructed instance of the ???Exception (where the ??? are replaced by the name of whichever particular exception is desired).</p>
+<ol start="4">
+<li>Remove redundancy with utility class:</li>
+</ol>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">class Utils {
+  int checkRange(int val, int min, int max, String msg) {
+    if (val &gt;= min &amp;&amp; val &lt;= max) {
+      return val;
+    }
+    else {
+      throw new IllegalArgumentException(msg);
+    }
+  }
+}
+
+// In class Date
+Date(int year, int month, int day) {
+  this.year = new Utils().checkRange(year, 1500, 2100,
+    &quot;Invalid year: &quot; + Integer.toString(year));
+  this.month = new Utils().checkRange(month, 1, 12,
+    &quot;Invalid month &quot; + Integer.toString(month));
+  this.day = new Utils().checkRange(day, 1, 31,
+    &quot;Invalid day: &quot; + Integer.toString(day));
+}</pre><pre class="hljs"><code><span class="hljs-keyword">class</span> <span class="hljs-title class_">Utils</span> {
+  <span class="hljs-type">int</span> <span class="hljs-title function_">checkRange</span><span class="hljs-params">(<span class="hljs-type">int</span> val, <span class="hljs-type">int</span> min, <span class="hljs-type">int</span> max, String msg)</span> {
+    <span class="hljs-keyword">if</span> (val &gt;= min &amp;&amp; val &lt;= max) {
+      <span class="hljs-keyword">return</span> val;
+    }
+    <span class="hljs-keyword">else</span> {
+      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(msg);
+    }
+  }
+}
+
+<span class="hljs-comment">// In class Date</span>
+Date(<span class="hljs-type">int</span> year, <span class="hljs-type">int</span> month, <span class="hljs-type">int</span> day) {
+  <span class="hljs-built_in">this</span>.year = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Utils</span>().checkRange(year, <span class="hljs-number">1500</span>, <span class="hljs-number">2100</span>,
+    <span class="hljs-string">&quot;Invalid year: &quot;</span> + Integer.toString(year));
+  <span class="hljs-built_in">this</span>.month = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Utils</span>().checkRange(month, <span class="hljs-number">1</span>, <span class="hljs-number">12</span>,
+    <span class="hljs-string">&quot;Invalid month &quot;</span> + Integer.toString(month));
+  <span class="hljs-built_in">this</span>.day = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Utils</span>().checkRange(day, <span class="hljs-number">1</span>, <span class="hljs-number">31</span>,
+    <span class="hljs-string">&quot;Invalid day: &quot;</span> + Integer.toString(day));
+}</code></pre></div>
+<p>Added a validator function to help here.</p>
+<ol start="5">
+<li>Test exception in constructors<br>
+Definition:</li>
+</ol>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">// In Tester
+boolean checkConstructorException(Exception e,
+                                    String className,
+                                    ... constr args ...);</pre><pre class="hljs"><code><span class="hljs-comment">// In Tester</span>
+<span class="hljs-type">boolean</span> <span class="hljs-title function_">checkConstructorException</span><span class="hljs-params">(Exception e,
+                                    String className,
+                                    ... constr args ...)</span>;</code></pre></div>
+<p>Example:</p>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">t.checkConstructorException(
+     new IllegalArgumentException(&quot;Invalid year: 53000&quot;),
+     &quot;Date&quot;,
+     53000, 12, 30);</pre><pre class="hljs"><code>t.checkConstructorException(
+     <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(<span class="hljs-string">&quot;Invalid year: 53000&quot;</span>),
+     <span class="hljs-string">&quot;Date&quot;</span>,
+     <span class="hljs-number">53000</span>, <span class="hljs-number">12</span>, <span class="hljs-number">30</span>);</code></pre></div>
+<ol start="6">
+<li>Combine convenience with correctness:<br>
+Use <code class="inline-code">this.(...)</code> notation =&gt; avoid having to redefine more error processing pieces.</li>
+</ol>
+<div class="joplin-editable"><pre class="joplin-source" data-joplin-language="Java" data-joplin-source-open="```Java&#10;" data-joplin-source-close="&#10;```">// In class Date
+    Date(int month, int day) {
+      this(2022, month, day);
+    }</pre><pre class="hljs"><code><span class="hljs-comment">// In class Date</span>
+    Date(<span class="hljs-type">int</span> month, <span class="hljs-type">int</span> day) {
+      <span class="hljs-built_in">this</span>(<span class="hljs-number">2022</span>, month, day);
+    }</code></pre></div>
+<p>Now, trying to create new Date(14, -30) will raise the same exception complaining about invalid months as would new Date(2022, 14, -30).</p>
 </div></div>
 					</body>
 				</html>

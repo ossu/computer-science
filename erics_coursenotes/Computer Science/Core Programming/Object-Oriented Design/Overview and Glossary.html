@@ -5,10 +5,10 @@
 						<meta charset="UTF-8">
 						<meta name="viewport" content="width=device-width, initial-scale=1" />
 						<link rel="stylesheet" href="pluginAssets/highlight.js/atom-one-light.css">
-						<title>Overview</title>
+						<title>Overview and Glossary</title>
 					</head>
 					<body>
-						<div class="exported-note"><div class="exported-note-title">Overview</div>
+						<div class="exported-note"><div class="exported-note-title">Overview and Glossary</div>
 
 <style>
 		/* https://necolas.github.io/normalize.css/ */
@@ -463,28 +463,86 @@ pre.mermaid > svg { white-space: unset; }
 				}
 				.mermaid-export-graph > button:hover {
 					background-color: #CBDAF1 !important;
-				}</style><div id="rendered-md"><p>Note:</p>
-<p>Install Ruby 2.7.6 to match ZA app.</p>
-<p>3 Weeks of Content:<br>
-Week 1 - Ruby basics, Ruby as Object oriented language and dynamically typed language. Blocks (similar to functions closures). Subclassing, inheritance and method overriding.</p>
-<p>Week 2 - compare and contrast functional programming and OOP. Compare and contrast 3 related 'advanced' features for OOP: Multiple inheritance, Ruby mixins, Java style interfaces. Hwk more challenging - port small interpreter for domain specific language from ML to Ruby</p>
-<p>Week 3- Conceptual/theoretical, subtyping, and how arises in statically typed Obj oriented languages.  Contrast with ML polymorphism (generic types) and how can be combined with generics synergistically.</p>
+				}</style><div id="rendered-md"><p>OOP Design Link:<br>
+<a data-from-md title='https://www.coursera.org/learn/object-oriented-design' href='https://www.coursera.org/learn/object-oriented-design'>https://www.coursera.org/learn/object-oriented-design</a></p>
+<p>Modules</p>
+<ol>
+<li>Object Oriented Analysis and Design</li>
+<li>Object Oriented Modeling</li>
+<li>Design Principles</li>
+<li>Capstone Challenge</li>
+</ol>
+<p>Possibily replacing this course with:<br>
+<a data-from-md title='https://github.com/ossu/computer-science/issues/1168' href='https://github.com/ossu/computer-science/issues/1168'>https://github.com/ossu/computer-science/issues/1168</a><br>
+Going to speed run OOD then go through the new RFC courses.</p>
+<p>Design Patterns<br>
+Software Architecture</p>
+<p><a data-from-md title='https://course.ccs.neu.edu/cs2510sp22/index.html' href='https://course.ccs.neu.edu/cs2510sp22/index.html'>https://course.ccs.neu.edu/cs2510sp22/index.html</a><br>
+<a data-from-md title='https://course.ccs.neu.edu/cs3500f19/' href='https://course.ccs.neu.edu/cs3500f19/'>https://course.ccs.neu.edu/cs3500f19/</a></p>
 <hr>
-<p>Overview:</p>
-<ul>
-<li>Essence of OOP: inheritance and overriding</li>
-<li>Contrasting functional programming and OOP</li>
-<li>more advanced OOP feature and idioms</li>
-<li>subtyping and contrast with ML polymorphism</li>
-</ul>
-<p>Part C:<br>
-8. Dynamically typed OOP<br>
-- Blocks, classes, methods, much more<br>
-- More dynamic than Racket<br>
-- Pure OOP<br>
-9. OOP vs Functional decomposition (aha moment!) - advanced OOP topics (mixins, double dispatch)<br>
-10. Subtyping: generics vs subtyping</p>
-<hr>
+<p>Glossary</p>
+<p>abstract - in object-oriented design, a class that cannot be instantiated directly, but must be subclassed</p>
+<p>abstract data types - data types that are defined by the their behaviour as opposed to their structure. Defined by the developer rather than the programming language</p>
+<p>access modifiers - keywords that control which other classes can access a variable or method in a class. In Java these include public, protected, private, and no keyword, sometimes called default.</p>
+<p>abstraction - the act of simplifying a concept in context. In object-oriented design, it is the simplification of the real world entity into its most important attributes and behaviours for the purpose of the software.</p>
+<p>attribute - a property that object of a class must have, even though their values may be different. For example, two student objects each have a grade attribute, even though one has an 'A' and the other has a 'B.'</p>
+<p>behaviours - the actions that an object can take</p>
+<p>boundary object - an object whose role is to interface with an external component, such as a user or an adjacent system</p>
+<p>class diagram - a UML diagram for showing the behaviours, attributes, inheritance, and connections of classes</p>
+<p>code review - systematic reviews of written code done by the development team. Not only to find mistakes, but to get developers using the same conventions, constructs, design principles, etc.</p>
+<p>cohesion - describing the complexity within a module, e.g. a class or a method. high cohesion describes a module that has a clear purpose and is no more complex than it needs to be. low cohesion describes a module which has an unclear purpose or which is overly complex.</p>
+<p>component - a discrete part that has a particular role or function, called a responsibility. From a design perspective, a component will eventually be turned into an object, function, or group of subcomponents</p>
+<p>conceptual integrity - the consistency of software. Software with conceptual integrity will seem like it is programmed by one developer, even if it was programmed by a team</p>
+<p>concern - a general term, referring to some action or role that is part of the solution to the problem.</p>
+<p>control object - an object whose role is to manage other objects or control their interactions</p>
+<p>counterexamples - during model checking, counterexamples are instances wherein the system did not behave as expected</p>
+<p>coupling - describing of the complexity of connections between modules. tightly coupled modules are highly dependent on each other and difficult to reuse in other contexts. loosely coupled modules are less dependent and easier to reuse.</p>
+<p>CRC - stands for class responsibility collaborator: a technique for summarizing and mapping objects in an object-oriented design.</p>
+<p>deadlock - a situation in which the system can never continue because subprocesses need other subprocesses to act before they can continue</p>
+<p>decomposition - breaking an entity into parts that can be implemented separately</p>
+<p>degree - when talking about coupling, degree is the number of connections between the two modules of interest. This is one dimension of how coupled these modules are.</p>
+<p>design - the process of planning a software solution, taking the requirements and constraints into account. Divided into higher-level conceptual design and more specific technical design.</p>
+<p>design patterns - established solutions to common coding problems. Characterized by their general form and function rather than by specific code</p>
+<p>ease - when talking about coupling, ease is how obvious connections are between modules. This is one dimension of how coupled these modules are.</p>
+<p>encapsulation - bundling attributes and behaviours into an object, exposing features of that object to other objects as necessary, and restricting the remaining features</p>
+<p>entity - the role or behaviour that is being represented by a software object or process</p>
+<p>flexibility - when talking about coupling, flexibility is how easily a module can be swapped for a different module. This is one dimension of coupling.</p>
+<p>getter - a method for getting the value of a class variable which is not directly accessible</p>
+<p>generalization - factoring out common features of classes or functions that can be reused in other places. Allows for more code reuse</p>
+<p>global variable - a variable that is accessible by any subroutine or subcomponent</p>
+<p>flexibility - the ability of a design to adapt to changes or be adapted to different purposes</p>
+<p>implementation  - the process of creating a working program from the design</p>
+<p>information hiding - designing classes so that the information that other classes do not need is hidden away from them.</p>
+<p>inheritance - attributes or behaviours that subclasses inherit from a superclass or implement through an interface</p>
+<p>instantiate - to create an object of a class</p>
+<p>interface inheritance - a method of inheritance wherein if a class implements an interface, it must define all the methods specified in the interface</p>
+<p>Liskov substitution principle - a principle stating that a superclass should be able to be replaced by its subclass without changing behaviour significantly</p>
+<p>local variable - a variable accessible only to one class or subroutine</p>
+<p>maintenance - modifying software after delivery to fix, improve, or change features</p>
+<p>maintainable - the ability of code to be changed</p>
+<p>model - an abstract representation of the key concepts and relationships that make up a software solution</p>
+<p>model checking - a systematic check of all of the system's states. Consists of several steps: modeling phase, running phase, and analysis phase</p>
+<p>module - general term to refer to a programming unit, like a class or a method.</p>
+<p>namespace - an abstract container for a group of related modules, given a unique identifier.</p>
+<p>object-oriented modelling - modelling a software solution using concepts from object-oriented languages such as Java. Characterized by representing key concepts with software objects.</p>
+<p>override - a subclass may have a method that is already in the superclass, in which case the subclass' method will be used instead.</p>
+<p>package - a means of organizing related classes into the same namespace.</p>
+<p>polymorphism - the ability to interact with objects of different types in the same way. Usually achieved through inheritance or through interfaces in Java</p>
+<p>programming paradigm - the style or way in which programming achieves its objectives, which can vary by language and toolset</p>
+<p>quality attributes - properties of a software system that indicate its quality</p>
+<p>requirements - the requirements that the software will be designed to fulfill. These could be functional requirements such as providing some result, or business requirements such as being user-friendly, or meeting budgetary restrictions</p>
+<p>responsibility - the purpose or function of a component of the software</p>
+<p>reusable - the ability of code to be reused in different contexts</p>
+<p>rule of least astonishment - a design principle dictating that a component should behave as one would expect it to behave</p>
+<p>separation of concerns - a principle dictating that different concerns should be in different modules</p>
+<p>service-oriented architecture - a type of architecture characterized by providing services to external clients. The clients do not know how these services are provided.</p>
+<p>sequence diagram - a UML diagram that shows the sequence of actions that form one process</p>
+<p>setter - a method for setting the value of a class variable which is not directly accessible. Allows for gatekeeping e.g. restricting the values to which the variable can be set</p>
+<p>software architecture - the higher-level structure of a software system; how various components are arranged into a coherent and functional whole</p>
+<p>state diagram - a UML diagram that shows the different states of a system</p>
+<p>tradeoff - a decision between alternatives that each provide benefits and downsides</p>
+<p>Unified Modelling Language - a visual design language encompassing many different diagrams that depict software in different ways</p>
+<p>verification - confirming that the software solution meets the requirements</p>
 </div></div>
 					</body>
 				</html>
