@@ -39,6 +39,10 @@ Alternative Links:
 
 <img src="automatic-parentheses.png" width="600" alt="Enable automatic closing of parentheses" />
 
+- You can use Ctrl + I to reindent the whole file.
+
+- If you are on Windows or Linux, use Alt + Backspace to delete whole words.
+
 ## FAQ
 
 ### This course is boring. Can I skip it?
@@ -79,7 +83,7 @@ TL;DR:
     If you're in it for the knowledge, take SPD -- it's free but inactive
     If you're in it for the certificate, take and pay for How To Code -- it's still an active course
 
-### Can I do this course is another programming language?
+### Can I do this course in another programming language?
 
 This course has really integrated with the programming languages it uses. We suggest you to use the language specified by the course. While, the concepts you learn from this course are applicable anywhere, trying to do the course with another language is not really sensible, and would just lead to wastage of time.
 
