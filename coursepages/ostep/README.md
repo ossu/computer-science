@@ -29,7 +29,7 @@ You will need a Unix/Linux system, some basic command line tools, and a C compil
 
 **Question**: I see some C code in this book. How much C do I need to know?
 
-**Answer**: You'll need to read and understand some C code in this book. You'll need basic understanding of arrays, pointers and print formatting. You can consult the free book [Modern C](https://hal.inria.fr/hal-02383654/file/ModernC.pdf) by [Jen Gustadt](https://gustedt.gitlabpages.inria.fr/modern-c/). The [CS50 Manual pages](https://manual.cs50.io) are also helpful to look up functions. You shouldn't spend too much time on learning C.
+**Answer**: You'll need to read and understand some C code in this book. You'll need basic understanding of arrays, pointers and print formatting. You can consult the free book [Modern C](https://inria.hal.science/hal-02383654v2/file/modernC.pdf) by [Jen Gustadt](https://gustedt.gitlabpages.inria.fr/modern-c/). The [CS50 Manual pages](https://manual.cs50.io) are also helpful to look up functions. You shouldn't spend too much time on learning C.
 
 The code you'll read is fairly simple and presented in short fragments. The book helps you out quite a bit by manually introducing many C APIs such as the Process API, the Thread API, and so on. You can type, compile and run the code fragments, and read the corresponding explanations. The book explains them in great detail in a conversational style that's fun to read.
 
@@ -136,7 +136,7 @@ git clone https://github.com/mit-pdos/xv6-public src
 
 Please don't try to learn C from sites like GeeksforGeeks, TutorialsPoint, or Hackr.io (we're not even gonna link to them here). Those are great resources for other languages, but C has way too many pitfalls, and C tutorials online are often filled with dangerous errors and bad coding practices. We looked at many C resources for the recommendations below and unfortunately found *many* bad or unsafe ones; we'll only include the best ones here, so look no further!
 
-We recommend learning C by working through (the entirety of) Jens Gustedt's *Modern C*, which is [freely available online](https://hal.inria.fr/hal-02383654/file/ModernC.pdf). This book is relatively short and will bring you up to speed on the C language itself as well as modern coding practices for it. Make sure to do all the exercises in the footnotes!
+We recommend learning C by working through (the entirety of) Jens Gustedt's *Modern C*, which is [freely available online](https://inria.hal.science/hal-02383654v2/file/modernC.pdf). This book is relatively short and will bring you up to speed on the C language itself as well as modern coding practices for it. Make sure to do all the exercises in the footnotes!
 
 While the book above is our default recommendation, we also recommend K.N. King's [*C Programming: A Modern Approach*](http://www.knking.com/books/c2/) as a second, more beginner-friendly option. It has some disadvantages: it's much longer (almost 850 pages), it's not available for free (and copies can be hard to find), and it's not quite as recent as *Modern C* (but still relevant nonetheless). That said, it has more exercises if you want extra practice, and the Q&A sections at the end of each chapter are filled with pearls of C wisdom and answers to C FAQs. It also covers almost the entirety of the C language and standard library, so it doubles as a reference book.
 
