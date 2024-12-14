@@ -35,7 +35,7 @@ Name | Author(s)
 [Calculus Made Easy](http://www.gutenberg.org/ebooks/33283) | Silvanus P. Thompson
 [Ximera: Interactive Calculus Textbooks](https://ximera.osu.edu/) | [Ximera team](https://ximera.osu.edu/about/team)
 [Discrete Mathematics with Applications (4th Edition)](http://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/0495391328/) | Susanna S. Epp
-[Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi/) | Oscar Levin
+[Discrete Mathematics: An Open Introduction](https://discrete.openmathbooks.org/dmoi4/frontmatter.html) | Oscar Levin
 [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) | Alan Doerr, Ken Levasseur
 [Grinstead and Snell’s Introduction to Probability](https://math.dartmouth.edu/~prob/prob/prob.pdf) | Charles M. Grinstead, J. Laurie Snell
 [Linear Algebra for Everyone](https://math.mit.edu/~gs/everyone/) | Gilbert Strang
