@@ -1,3 +1,9 @@
+![Visits Badge](https://badges.pufler.dev/visits/bshongwe/bshongwe)
+![GitHub Repo Stars](https://img.shields.io/github/stars/bshongwe/bshongwe)
+![GitHub Forks](https://img.shields.io/github/forks/bshongwe/bshongwe)
+![GitHub Issues](https://img.shields.io/github/issues/bshongwe/bshongwe)
+![GitHub License](https://img.shields.io/github/license/bshongwe/bshongwe)
+
 <div align="center" style="text-align: center">
 <img src="http://i.imgur.com/kYYCXtC.png" alt="Open Source Society logo"/>
 <h3>Open Source Society University</h3>
