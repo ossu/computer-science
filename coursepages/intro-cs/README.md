@@ -10,7 +10,7 @@ This course has been developed by MIT and is available on [MIT's OCW](https://oc
 
 ## ⚠️ Under Review
 
-This course is under review. The course has been designed to accommodate people completely new to programming. However, if you find the course difficult to follow, you can try doing one of the [Intro to Programming courses](coursepages/intro-programming/README.md) and then return to this course. We would like to hear your feedback regarding this course, and whether you needed to do the [Intro to Programming courses](coursepages/intro-programming/README.md) first. Please provide your feedback on this RFC: <https://github.com/ossu/computer-science/issues/1266>.
+This course is under review. The course has been designed to accommodate people completely new to programming. However, if you find the course difficult to follow, you can try doing one of the [Intro to Programming courses](/coursepages/intro-programming/README.md) and then return to this course. We would like to hear your feedback regarding this course, and whether you needed to do the [Intro to Programming courses](/coursepages/intro-programming/README.md) first. Please provide your feedback on this RFC: <https://github.com/ossu/computer-science/issues/1266>.
 
 ## Instructions
 
