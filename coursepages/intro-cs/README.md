@@ -2,7 +2,7 @@
 
 This course will introduce you to the world of computer science and programming, giving you a flavor of the material to come. If you finish the course wanting more, Computer Science is likely for you!
 
-This course has been developed by MIT and is available on [MIT's OCW](https://ocw.mit.ed) platform.
+This course has been developed by MIT and is available on [MIT's OCW](https://ocw.mit.edu) platform.
 
 > Introduction to Computer Science and Programming in Python is intended for students with little or no programming experience. It aims to provide students with an understanding of the role computation can play in solving problems and to help students, regardless of their major, feel justifiably confident of their ability to write small programs that allow them to accomplish useful goals. The class uses the Python programming language.
 
