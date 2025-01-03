@@ -2,7 +2,7 @@
 
 This course will introduce you to the world of computer science and programming, giving you a flavor of the material to come. If you finish the course wanting more, Computer Science is likely for you!
 
-This course has been developed by MIT and is available on [MIT's OCW](https://ocw.mit.ed) platform.
+This course has been developed by MIT and is available on [MIT's OCW](https://ocw.mit.edu) platform.
 
 > Introduction to Computer Science and Programming in Python is intended for students with little or no programming experience. It aims to provide students with an understanding of the role computation can play in solving problems and to help students, regardless of their major, feel justifiably confident of their ability to write small programs that allow them to accomplish useful goals. The class uses the Python programming language.
 
@@ -10,11 +10,11 @@ This course has been developed by MIT and is available on [MIT's OCW](https://oc
 
 ## ⚠️ Under Review
 
-This course is under review. The course has been designed to accommodate people completely new to programming. However, if you find the course difficult to follow, you can try doing one of the [Intro to Programming courses](/coursepages/intro-programming/README.md) and then return to this course. We would like to hear your feedback regarding this course, and whether you needed to do the [Intro to Programming courses](/coursepages/intro-programming/README.md) first. Please provide your feedback on this RFC: <https://github.com/ossu/computer-science/issues/1266>.
+This course is under review. The course has been designed to accommodate people completely new to programming. However, if you find the course difficult to follow, you can try doing one of the [Intro to Programming courses](../intro-programming/README.md) and then return to this course. We would like to hear your feedback regarding this course, and whether you needed to do the [Intro to Programming courses](../intro-programming/README.md) first. Please provide your feedback on this RFC: <https://github.com/ossu/computer-science/issues/1266>.
 
 ## Instructions
 
-- Open the [course link](https://learning.edx.org/course/course-v1:MITx+6.00.1x+2T2018/home) given above. You will see a list of Lectures.
+- Open the [course link](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/) given above. You will see a list of Lectures.
 - Clicking on the link of a particular lecture will present all the materials from that lecture to you.
 - Work through all the course lectures as given in the link above. Watch the videos, do the finger exercises, and then solve the problem sets.
 - There are links to solution of finger exercises on each lecture page. Match your answers to the given solutions to grade yourself.

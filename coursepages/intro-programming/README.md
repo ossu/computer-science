@@ -1,6 +1,6 @@
 # Introduction to Programming
 
-If you find the [Intro CS course](/coursepages/intro-cs/README.md) difficult to follow, start here. These courses are self-paced, allowing you to adjust the number of hours you spend per week to meet your needs.
+If you find the [Intro CS course](../intro-cs/README.md) difficult to follow, start here. These courses are self-paced, allowing you to adjust the number of hours you spend per week to meet your needs.
 
 You need to do **only ONE** of the following courses.
 
