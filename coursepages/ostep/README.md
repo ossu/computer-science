@@ -34,7 +34,6 @@ You will need a Unix/Linux system, some basic command line tools, and a C compil
 The code you'll read is fairly simple and presented in short fragments. The book helps you out quite a bit by manually introducing many C APIs such as the Process API, the Thread API, and so on. You can type, compile and run the code fragments, and read the corresponding explanations. The book explains them in great detail in a conversational style that's fun to read.
 
 You will also write a little bit of C code. Only a minority of the chapters (about 10 out of 50) ask you to write some C code (while the other chapters require you to run provided simulation code and answer questions). These are usually simple, short C programs that imitate the code that was presented in that chapter, with small modifications.
-After you have studied some C from Dive into Systems, start by the projects by doing the [reverse project] (https://github.com/billmei/ostep-projects/tree/billmei/patch-1/initial-reverse) This is a good intro project to see if your ready to start doing the hw. *Note:For the rest of the hw projects use the link above, this link is to a unmerged patch in the OSTEP repo, fixing an error.
 
 If you are getting stuck on these, please don't spend too much time on them. There is a great solution set [here](https://github.com/xxyzz/ostep-hw). There is no honor code for this, so you are free to use the solutions. If you find yourself spending too much time, feel free to read and understand the solutions instead. Your main priority should be to gain understanding of operating systems concepts, not to master C coding.
 
@@ -57,7 +56,6 @@ You should also finish both parts of Nand2Tetris before starting this course. OS
 * [Course website](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/)
 * [Book](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 * [Lecture videos](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Discussion/videos.html)
-* [Alternative Lecture videos](https://m.youtube.com/playlist?list=PLzBbfbHQmjyuqBFJ8KpDdcvnLNkvPXbS-)
 * [Homework](https://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html)
 * [Homework Source Code Repo](https://github.com/remzi-arpacidusseau/ostep-homework)
 * [Homework Solutions](https://github.com/xxyzz/ostep-hw)
