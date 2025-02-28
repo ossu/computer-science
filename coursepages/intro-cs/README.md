@@ -17,10 +17,19 @@ This course is under review. The course has been designed to accommodate people 
 1. Open the [course link](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/) given above. You will see a list of Lectures.
 2. Clicking on the link of a particular lecture will present all the materials from that lecture to you.
 3. Work through all the course lectures as given in the link above. Watch the videos, do the finger exercises, and then solve the problem sets.
-4. There are links to solution of finger exercises on each lecture page. Match your answers to the given solutions to grade yourself.
-5. Each problem set come with a script and instructions to check your solution. Use them to grade yourself.
-6. You don't need to install the full Anaconda distribution to do this course. See the notes section below for more information.
-7. If you are stuck somewhere, feel free to ask questions. You can join the OSSU chat for this course here: <https://discord.gg/jvchSm9>.
+4. You are not supposed to complete the problem sets as soon as they appear on a lecture page. You are supposed to start thinking about it from that point. The actual due dates, according to the [course calendar](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/calendar/) are:
+
+   - PSET 0 - Before lecture 1
+   - PSET 1 - Before lecture 9
+   - PSET 2 - Before lecture 12
+   - PSET 3 - Before lecture 16
+   - PSET 4 - Before lecture 20
+   - PSET 5 - Before lecture 25
+
+6. There are links to solution of finger exercises on each lecture page. Match your answers to the given solutions to grade yourself.
+7. Each problem set come with a script and instructions to check your solution. Use them to grade yourself.
+8. You don't need to install the full Anaconda distribution to do this course. See the notes section below for more information.
+9. If you are stuck somewhere, feel free to ask questions. You can join the OSSU chat for this course here: <https://discord.gg/jvchSm9>.
 
 ## Notes
 
@@ -32,4 +41,4 @@ This course is under review. The course has been designed to accommodate people 
 
 ## Extra Practice
 
-1. https://introcomp.mit.edu/spring25/practice
+1. [https://introcomp.mit.edu/spring25/practice](https://introcomp.mit.edu/spring25/practice)
