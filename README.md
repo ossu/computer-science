@@ -1,5 +1,5 @@
 <div align="center" style="text-align: center">
-<img src="http://i.imgur.com/kYYCXtC.png" alt="Open Source Society logo"/>
+<img src="images/ossu-logo.webp" alt="Open Source Society logo"/>
 <h3>Open Source Society University</h3>
 <p>
   Path to a free self-taught education in Computer Science!
@@ -86,8 +86,6 @@ just remember that you can't purchase success!
 >  - Third-party notion templates
 
 # Curriculum
-
-**Curriculum version**: `8.0.0` (see [CHANGELOG](CHANGELOG.md))
 
 - [Prerequisites](#prerequisites)
 - [Intro CS](#intro-cs)
@@ -443,7 +441,7 @@ What is next for you? The possibilities are boundless and overlapping:
   + Explore **borrowing and lifetimes** through [Rust](https://www.rust-lang.org/), a systems language which achieves memory- and thread-safety without a garbage collector!
   + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development.
 
-![keep learning](https://i.imgur.com/REQK0VU.jpg)
+![keep learning](images/keep-learning.webp)
 
 # Code of conduct
 [OSSU's code of conduct](https://github.com/ossu/code-of-conduct).

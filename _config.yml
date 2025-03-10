@@ -1,1 +1,7 @@
 title: Computer Science
+remote_theme: "jekyll/minima"
+minima:
+  skin: auto
+  nav_pages:
+    - FAQ.md
+    - HELP.md
