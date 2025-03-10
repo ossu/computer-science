@@ -65,6 +65,36 @@ public class Karatsuba {
 		
 	}
 	
+	public int intFragmenter(int x, int y) {
+		String xStr =  Integer.toString(x);
+		String yStr =  Integer.toString(y);
+		
+		
+		return 0;
+	}
+	
+	public String[] stringNormalizer(String xStr, String yStr) {
+		// This method exists to add left zeroes to the strings to make their size even and equal
+		int xSize = xStr.length();
+		int ySize = yStr.length();
+		
+		while (!isEven(xSize) || !isEven(ySize) || xSize != ySize) {
+			if (!isEven(xSize) || (xSize > ySize)) {
+				xStr = addLeftZero(xStr);
+			} 
+			if (!isEven(ySize) || (ySize > xSize)) {
+				yStr = addLeftZero(yStr);
+			}
+			xSize = xStr.length();
+			ySize = yStr.length();
+		}
+		return new String[] {xStr, yStr};
+	}
+	
+	public String addLeftZero(String str) {
+		return "";
+	}
+	
 	public boolean isEven(int numb) {
 		if (numb/2==0) {
 			return false;
