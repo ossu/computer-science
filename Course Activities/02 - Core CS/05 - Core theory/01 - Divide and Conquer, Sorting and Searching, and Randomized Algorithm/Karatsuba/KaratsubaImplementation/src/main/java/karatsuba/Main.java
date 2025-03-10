@@ -8,7 +8,5 @@ public class Main {
 		Karatsuba karatsuba = new Karatsuba();
 		int result = karatsuba.multiply(x, y);
 		System.out.println(result);
-		
 	}
-	
 }

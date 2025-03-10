@@ -3,39 +3,16 @@ package karatsuba;
 public class Karatsuba {
 	
 	public int multiply(int x, int y) {
-		int xSize = Integer.toString(x).length();
-		int ySize = Integer.toString(y).length();
-		int n = xSize;
-
-		if (ySize > xSize) {
-			n = ySize;
-		}
-		if (xSize==1 && ySize==1)  {
+		if (x < 10 && y < 10) {
 			return x*y;
 		}
-		int a;
-		int b;
-		int c;
-		int d;
-		int[] splitX = new int[2];
-		int[] splitY = new int[2];
-		if (xSize > 1) {
-			splitX = intFragmenter(x);
-			a = splitX[0];
-			b = splitX[1];
-		} else {
-			a = 0;
-			b = x;
-		}
-		if (ySize > 1) {
-			splitY = intFragmenter(y);
-			c = splitY[0];
-			d = splitY[1];
-		} else {
-			c = 0;
-			d = y;
-		}
-		
+		String[] xyStr = intNormalizer(x, y);
+		int n = xyStr[0].length();
+		int[] abcd = intFragmenter(xyStr, n);
+		int a = abcd[0];
+		int b = abcd[1];
+		int c = abcd[2];
+		int d = abcd[3];
 		
 		int ac = multiply(a, c);
 		int bd = multiply(b, d);
@@ -48,70 +25,49 @@ public class Karatsuba {
 		return firstFactor + secondFactor + bd;
 	}
 	
-	public int[] intFragmenter(int numb) {
-		String numbStr = Integer.toString(numb);
-		int numbSize = numbStr.length();
-		boolean sizeIsEven = this.isEven(numbSize);
-		int strHalfPoint = numbSize/2;
-		
-		if (numbSize==1) {
-			return null;
-		}
-		if (!sizeIsEven) {
-			strHalfPoint = (numbSize-1)/2;
-		}
-		
-		return this.parseStringIntoTwoIntArray(numbStr, strHalfPoint);
-		
+	public int[] intFragmenter(String[] xyStr, int n) {
+		int strHalfPoint = n/2;
+		if (strHalfPoint == 1) {
+			int a = Integer.parseInt(String.valueOf(xyStr[0].charAt(0)));
+			int b = Integer.parseInt(String.valueOf(xyStr[0].charAt(1)));
+			int c = Integer.parseInt(String.valueOf(xyStr[1].charAt(0)));
+			int d = Integer.parseInt(String.valueOf(xyStr[1].charAt(1)));
+			return new int[] {a, b, c, d};
+		} 
+		int a = Integer.parseInt(xyStr[0].substring(0, strHalfPoint-1));
+		int b = Integer.parseInt(xyStr[0].substring(strHalfPoint));
+		int c = Integer.parseInt(xyStr[1].substring(0, strHalfPoint-1));
+		int d = Integer.parseInt(xyStr[1].substring(strHalfPoint));
+		return new int[] {a, b, c, d};
 	}
 	
-	public int intFragmenter(int x, int y) {
+	// This method exists to add left zeroes to the strings to make their size even and equal
+	public String[] intNormalizer(int x, int y) {
 		String xStr =  Integer.toString(x);
 		String yStr =  Integer.toString(y);
-		
-		
-		return 0;
-	}
-	
-	public String[] stringNormalizer(String xStr, String yStr) {
-		// This method exists to add left zeroes to the strings to make their size even and equal
 		int xSize = xStr.length();
 		int ySize = yStr.length();
 		
 		while (!isEven(xSize) || !isEven(ySize) || xSize != ySize) {
-			if (!isEven(xSize) || (xSize > ySize)) {
+			if (!isEven(xSize) || (xSize < ySize)) {
 				xStr = addLeftZero(xStr);
+				xSize = xStr.length();
 			} 
-			if (!isEven(ySize) || (ySize > xSize)) {
+			if (!isEven(ySize) || (ySize < xSize)) {
 				yStr = addLeftZero(yStr);
+				ySize = yStr.length();
 			}
-			xSize = xStr.length();
-			ySize = yStr.length();
 		}
 		return new String[] {xStr, yStr};
 	}
 	
 	public String addLeftZero(String str) {
-		return "";
+		return "0" + str;
 	}
-	
 	public boolean isEven(int numb) {
 		if (numb/2==0) {
 			return false;
 		}
 		return true;
-	}
-	
-	public int[] parseStringIntoTwoIntArray(String str, int strHalfPoint) {
-		int a;
-		int b;
-		if (strHalfPoint == 1) {
-			a = Integer.parseInt(String.valueOf(str.charAt(0)));
-			b = Integer.parseInt(String.valueOf(str.charAt(1)));
-		} else {
-			a = Integer.parseInt(str.substring(0, strHalfPoint-1));
-			b = Integer.parseInt(str.substring(strHalfPoint));
-		}
-		return new int[] {a, b};
 	}
 }
