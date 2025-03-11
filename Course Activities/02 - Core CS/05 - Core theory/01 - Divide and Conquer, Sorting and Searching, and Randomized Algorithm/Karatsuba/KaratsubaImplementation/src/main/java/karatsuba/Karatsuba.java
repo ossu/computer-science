@@ -3,8 +3,10 @@ package karatsuba;
 public class Karatsuba {
 	
 	public int multiply(int x, int y) {
+		int result;
 		if (x < 10 && y < 10) {
-			return x*y;
+			result = x*y;
+			return result;
 		}
 		String[] xyStr = intNormalizer(x, y);
 		int n = xyStr[0].length();
@@ -22,9 +24,11 @@ public class Karatsuba {
 		int firstFactor = tenFactorOne*ac;
 		int secondFactor = tenFactorTwo*ADPlusBC;
 				// 10^nAC + 10^(n/2)(AD + BC) + BD
-		return firstFactor + secondFactor + bd;
+		result = firstFactor + secondFactor + bd;
+		return result;
 	}
 	
+	// this method returns an array that contains abcd for the karatsuba formula
 	public int[] intFragmenter(String[] xyStr, int n) {
 		int strHalfPoint = n/2;
 		if (strHalfPoint == 1) {
@@ -34,9 +38,9 @@ public class Karatsuba {
 			int d = Integer.parseInt(String.valueOf(xyStr[1].charAt(1)));
 			return new int[] {a, b, c, d};
 		} 
-		int a = Integer.parseInt(xyStr[0].substring(0, strHalfPoint-1));
+		int a = Integer.parseInt(xyStr[0].substring(0, strHalfPoint));
 		int b = Integer.parseInt(xyStr[0].substring(strHalfPoint));
-		int c = Integer.parseInt(xyStr[1].substring(0, strHalfPoint-1));
+		int c = Integer.parseInt(xyStr[1].substring(0, strHalfPoint));
 		int d = Integer.parseInt(xyStr[1].substring(strHalfPoint));
 		return new int[] {a, b, c, d};
 	}
