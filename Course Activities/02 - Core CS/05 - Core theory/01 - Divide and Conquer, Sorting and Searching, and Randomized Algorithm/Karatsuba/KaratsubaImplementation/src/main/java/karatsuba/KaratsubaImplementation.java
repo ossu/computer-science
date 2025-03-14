@@ -1,6 +1,32 @@
 package karatsuba;
 
-public class KaratsubaImplementation implements Karatsuba {
+public class KaratsubaImplementation<T> implements Karatsuba {
+	
+	public KaratsubaImplementation() {
+		
+	}
+	
+	public KaratsubaImplementation(T x, T y) {
+		// byte, double, float, int, long, and short
+		// accept any number type, converts to int, makes manipulations and then return same number type
+		// convert it all to long
+		// if nSum is 2, convert to byte and make operations there
+		// if nSum is 3 to 4 convert to short
+		// if nSum is 5 to 9 convert to int
+		// if nSum is 10 to 18 or 20 (check to see max value)
+		// convert to bigInteger or bigdecimal if that is the case
+		
+		//check how to do it if its a decimal too
+			
+		// versioning and packaging with maven
+		// integrated tests with maven
+		// testing
+		// logging
+		// auto documentation
+		
+		
+		// return type will be always object but with another type inside
+	}
 	
 	@Override
 	public int multiply(int x, int y) {
