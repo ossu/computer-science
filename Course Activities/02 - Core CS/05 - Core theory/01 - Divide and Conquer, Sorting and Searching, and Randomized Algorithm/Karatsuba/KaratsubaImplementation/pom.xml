@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Karatsuba</groupId>
   <artifactId>KaratsubaImplementation</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1.0-alpha-SNAPSHOT</version>
   <name>Karatsuba implementation</name>
   <description>Karatsuba implementation</description>
   <dependencies>
@@ -14,4 +14,16 @@
 		    <scope>test</scope>
 		</dependency>
   </dependencies>
+  <build>
+  	<plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>17</source>
+                <target>17</target>
+            </configuration>
+        </plugin>
+    </plugins>
+  </build>
 </project>
