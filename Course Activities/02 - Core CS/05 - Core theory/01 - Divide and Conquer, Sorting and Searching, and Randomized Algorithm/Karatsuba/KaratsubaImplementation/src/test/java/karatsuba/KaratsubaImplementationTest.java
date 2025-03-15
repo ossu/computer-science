@@ -4,29 +4,26 @@ import org.junit.Test;
 
 
 public class KaratsubaImplementationTest {
-
-	private Karatsuba karatsuba = new KaratsubaImplementation();
+	
+	private Injector injector = new KaratsubaInjector();
+	private Karatsuba karatsuba = injector.getKaratsuba();
 	
 	@Test
 	public void singleDigitMultiplication() {
 		assertEquals(karatsuba.multiply(4, 7), 28);
 	}
-	
 	@Test
 	public void doubleDigitMultiplication() {
 		assertEquals(karatsuba.multiply(21, 89), 1869);
 	}
-	
 	@Test
 	public void tripleDigitMultiplication() {
 		assertEquals(karatsuba.multiply(313, 862), 269806);
 	}
-	
 	@Test
 	public void quadDigitMultiplication() {
 		assertEquals(karatsuba.multiply(1234, 5678), 7006652);
 	}
-	
 	@Test
 	public void quadDigitMultiplicationInverse() {
 		assertEquals(karatsuba.multiply(5678, 1234), 7006652);
