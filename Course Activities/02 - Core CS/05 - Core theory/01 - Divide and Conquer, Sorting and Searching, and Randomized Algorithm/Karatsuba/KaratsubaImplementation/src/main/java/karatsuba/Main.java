@@ -13,7 +13,7 @@ public class Main {
 		logger.info("Main class is running.");
 		int x = 1234;
 		int y = 5678;
-		Karatsuba karatsuba = new KaratsubaImplementation();
+		Karatsuba karatsuba = new Karatsuba();
 		karatsuba.multiply(x, y);
 	}
 }
