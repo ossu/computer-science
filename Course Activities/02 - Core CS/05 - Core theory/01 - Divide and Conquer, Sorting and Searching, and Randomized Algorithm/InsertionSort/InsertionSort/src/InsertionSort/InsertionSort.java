@@ -7,11 +7,11 @@ public class InsertionSort {
 			int j = limiter;
 			int border = arr[limiter];
 			while (limiter>=i && border < arr[limiter-i]) {
-				arr[j] = arr[j-1];
-				arr[j-1] = border;
+				arr[j] = arr[limiter-i];
 				i++;
 				j--;
 			}
+			arr[j] = border;
 		}
 		
 		return arr;
