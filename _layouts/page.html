@@ -1,0 +1,10 @@
+---
+layout: base
+---
+<article class="post">
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
