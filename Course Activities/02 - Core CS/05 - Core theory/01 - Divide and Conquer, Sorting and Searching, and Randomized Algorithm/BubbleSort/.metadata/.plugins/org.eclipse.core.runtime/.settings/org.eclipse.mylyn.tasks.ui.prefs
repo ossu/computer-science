@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+migrated.task.repositories.secure.store=true
+org.eclipse.mylyn.tasks.ui.filters.nonmatching=true
+org.eclipse.mylyn.tasks.ui.filters.nonmatching.encouraged=true
+org.eclipse.mylyn.tasks.ui.welcome.message=true

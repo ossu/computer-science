@@ -1,0 +1,11 @@
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
+eclipse.preferences.version=1
+org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END=248,248,248
+org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=248,248,248
+org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_TEXT_COLOR=0,0,0
+org.eclipse.ui.workbench.ACTIVE_TAB_BG_END=248,248,248
+org.eclipse.ui.workbench.ACTIVE_TAB_BG_START=248,248,248
+org.eclipse.ui.workbench.INACTIVE_TAB_BG_END=248,248,248
+org.eclipse.ui.workbench.INACTIVE_TAB_BG_START=248,248,248
+org.eclipse.ui.workbench.INACTIVE_TAB_TEXT_COLOR=0,0,0
