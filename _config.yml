@@ -5,3 +5,4 @@ minima:
   nav_pages:
     - FAQ.md
     - HELP.md
+include: ['CONTRIBUTING.md']
