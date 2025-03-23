@@ -4,7 +4,7 @@ This page answers some questions that we frequently receive about the curriculum
 If you have questions that aren't answered here, try asking through one of our [community channels](README.md#community).
 If it seems important enough or we get asked that question a lot, we will probably add it here.
 
-Alternatively, you could [contribute](#CONTRIBUTING.md) an answer yourself.
+Alternatively, you could [contribute](CONTRIBUTING.md) an answer yourself.
 
 ## Contents
 
@@ -19,8 +19,8 @@ Alternatively, you could [contribute](#CONTRIBUTING.md) an answer yourself.
 - [What are the alt links?](#what-are-the-alt-links)
 - [Why doesn't the curriculum cover/ignore topic X?](#why-doesnt-the-curriculum-coverignore-topic-x)
 - [Why is the curriculum missing some pre-requisites?](#why-is-the-curriculum-missing-some-pre-requisites)
-- [Why require experience with a sizable project before the Software Engineering courses?](#why-require-experience-with-a-sizable-project-before-the-Software-Engineering-courses)
-- [How can I find a course on a particular subject?](#how-can-I-find-a-course-on-a-particular-subject)
+- [Why require experience with a sizable project before the Software Engineering courses?](#why-require-experience-with-a-sizable-project-before-the-software-engineering-courses)
+- [How can I find a course on a particular subject?](#how-can-i-find-a-course-on-a-particular-subject)
 
 ## Questions
 
@@ -47,7 +47,7 @@ Practice what you have not mastered by:
 2. Rewatching Professor Leonard's video on the subject, working through the examples with him.
 3. Searching [YouTube](https://www.youtube.com/) for another POV on the topic, again working through the examples with them. [Khan Academy](https://www.youtube.com/@khanacademy) & [Organic Chemistry Tutor](https://www.youtube.com/@TheOrganicChemistryTutor) are great resources for this.
 4. Doing the section exercises in your textbook.
-5. Asking for help in the relevant [Discord channel](https://discord.com/channels/744385009028431943/744971809056751687).
+5. Asking for help in the relevant [Discord channel](https://discord.gg/mS4GnBCdZk).
 
 ### What is a good course to learn a particular language?
 OSSU focuses on finding the best courses to learn computer science topics, and isn’t focused on finding language specific courses. If you are looking to learn a particular language or framework there are two great resources to check.
@@ -89,7 +89,7 @@ For some courses, all course features are available for free;
 for others (especially those that are part of a specialization), you may only be able to access the lecture videos.
 (If you find the policies have changed for any courses on our curriculum, please tell us!)
 
-Unfortunately, for some courses, Coursera's interface is [very aggressive](https://darkpatterns.org/) about convincing you that you have to pay.
+Unfortunately, for some courses, Coursera's interface is [very aggressive](https://www.deceptive.design/) about convincing you that you have to pay.
 
 You may see something like this on the course page:
 
