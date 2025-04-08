@@ -1,7 +1,8 @@
 title: Computer Science
-remote_theme: "jekyll/minima"
+remote_theme: "jekyll/minima@7d91bb5"
 minima:
   skin: auto
   nav_pages:
     - FAQ.md
     - HELP.md
+include: ['CONTRIBUTING.md']
