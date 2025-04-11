@@ -29,7 +29,7 @@ No. OSSU creates guides to resources that will empower you to learn the curricul
 
 ### How can I review the math prerequisites?
 Many OSSU students choose to review math topics that they have not studied recently.
-OSSU recommends to use a few resources for such a review: [Professor Leonard](https://www.youtube.com/@ProfessorLeonard/playlists) for lectures, [OpenStax](https://openstax.org/subjects/math) for textbooks, and [Khan Academy](https://www.khanacademy.org/) for assesments.
+OSSU recommends to use a few resources for such a review: [Professor Leonard](https://www.youtube.com/@ProfessorLeonard/playlists) for lectures, [OpenStax](https://openstax.org/subjects/math) for textbooks, and [Khan Academy](https://www.khanacademy.org/) for assessments.
 After taking an assessment, you should have a clear idea of what topics to study and where you should start with the resources below.
 
 | Courses     | Lectures                                                                                                             | Textbooks                                                                                                                                                                                                          | Tutoring & Assessments                                                                                                          |
@@ -50,9 +50,9 @@ Practice what you have not mastered by:
 5. Asking for help in the relevant [Discord channel](https://discord.gg/mS4GnBCdZk).
 
 ### What is a good course to learn a particular language?
-OSSU focuses on finding the best courses to learn computer science topics, and isn’t focused on finding language specific courses. If you are looking to learn a particular language or framework there are two great resources to check.
+OSSU focuses on finding the best courses to learn computer science topics, and isn’t focused on finding language-specific courses. If you are looking to learn a particular language or framework there are two great resources to check.
 1. [Hackr.io](https://hackr.io/) allows users to submit and upvote learning resources for topics such as Python or the Java Spring Framework.
-2. Most languages have a community on reddit. When you find the community’s page, check to see if there is a wiki or sidebar with resources. For example, see [/r/python](https://old.reddit.com/r/Python). Note that the sidebar content can be different depending on whether you use www.reddit.com or old.reddit.com.
+2. Most languages have a community on Reddit. When you find the community’s page, check to see if there is a wiki or sidebar with resources. For example, see [/r/python](https://old.reddit.com/r/Python). Note that the sidebar content can be different depending on whether you use www.reddit.com or old.reddit.com.
 
 ### Why is the Firebase OSSU app different or broken?
 
@@ -128,7 +128,7 @@ For those who want to study math pre-requisites, read more [here](#how-can-i-rev
 Of course, if you find that the curriculum is missing a pre-requisite for a course that isn't part of a normal high school curriculum, please let us know!
 
 ### Why require experience with a sizable project before the Software Engineering courses?
-Software engineering tries to solve the problem of dealing with large programs. Building a sizable program before taking the SE courses will help you understand what SE is trying to solve. We recommend the Jack-to-VM-code compiler project from the nand2tetris course because it's the first project in the curriculum that is complex enough to see value in a SE course. That said, any sizable project will do and can come from outside of the OSSU curriculum. The idea is that you've done some large enough project where the pieces started to feel unmanageable. This experience will expose pain points and lead to a better understanding of SE.
+Software engineering tries to solve the problem of dealing with large programs. Building a sizable program before taking the SE courses will help you understand what SE is trying to solve. We recommend the Jack-to-VM-code compiler project from the nand2tetris course because it's the first project in the curriculum that is complex enough to see value in an SE course. That said, any sizable project will do and can come from outside of the OSSU curriculum. The idea is that you've done some large enough project where the pieces started to feel unmanageable. This experience will expose pain points and lead to a better understanding of SE.
 
 ### How can I find a course on a particular subject?
 After completing Core CS, learners are ready to pursue computer science
