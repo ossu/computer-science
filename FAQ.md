@@ -29,7 +29,7 @@ No. OSSU creates guides to resources that will empower you to learn the curricul
 
 ### How can I review the math prerequisites?
 
-See our [Pre-College Math](https://ossu.dev/precollege-math/) curriculum for a list of resources to use for reviewing the math prerequisites.
+See our [Pre-College Math](https://ossu.dev/precollege-math) curriculum for a list of resources to use for reviewing the math prerequisites.
 
 ### What is a good course to learn a particular language?
 OSSU focuses on finding the best courses to learn computer science topics, and isn’t focused on finding language-specific courses. If you are looking to learn a particular language or framework there are two great resources to check.
