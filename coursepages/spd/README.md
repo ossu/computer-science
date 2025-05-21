@@ -4,7 +4,7 @@ This course has been developed by UBC and is available from Edx. We recommend yo
 
 > This programming course takes a unique approach, as it focuses on learning a systematic programming method rather than a programming language. This practical approach will help you channel your creativity so that you can program well in any language.
 
-**Course Link:** <https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015>
+**Course Link (Recommended):** <https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015>
 
 Alternative Links:
 
