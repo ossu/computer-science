@@ -49,7 +49,7 @@ Courses | Duration | Effort
 [Cloud Computing / Distributed Programming](https://www.coursera.org/learn/cloud-computing) | 5 weeks | 5-10 hours/week
 [Introduction to Parallel Programming](https://www.udacity.com/course/--cs344) ([alt](https://www.youtube.com/playlist?list=PLGvfHSgImk4aweyWlhBXNF6XISY3um82_)) ([HW](https://colab.research.google.com/github/depctg/udacity-cs344-colab))| 12 weeks | 8-10 hours/week
 [Intro to Computer Systems](http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15213-f15/www/) ([Labs](http://csapp.cs.cmu.edu/3e/labs.html)) | 15 weeks | 12 hours/week
-[Great Ideas in Computer Architecture (Machine Structures)](https://inst.eecs.berkeley.edu/~cs61c/fa14/) ([Lectures](https://archive.org/details/ucberkeley_webcast_itunesu_915550404)) | 15 weeks | 12 hours/week
+[Great Ideas in Computer Architecture (Machine Structures)](https://web.archive.org/web/20190919235114/https://inst.eecs.berkeley.edu/~cs61c/fa14/) ([Lectures](https://archive.org/details/ucberkeley_webcast_itunesu_915550404)) | 15 weeks | 12 hours/week
 [Computer Architecture](https://www.coursera.org/learn/comparch) | - | 5-8 hours/week
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/) | - | -
 [Introduction to Operating Systems](https://www.udacity.com/course/operating-systems--ud923)| 8 weeks | 5-8 hours/week
