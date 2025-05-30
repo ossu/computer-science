@@ -79,7 +79,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Using Databases with Python](https://www.coursera.org/learn/python-databases) | 5 weeks | 2-3 hours/week
-[Database Systems](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22ed2ee867-9610-4bad-94af-5d12c2ea47cd%22) | - | 27 hours
+[Database Systems](https://15721.courses.cs.cmu.edu/spring2016/) | 15 weeks | 12 hours/week
 [Database Management Essentials](https://www.coursera.org/learn/database-management) | 7 weeks | 4-6 hours/week
 [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271)| 16 weeks | 6-10 hours/week
 [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)| 10 weeks | 6-10 hours/week
