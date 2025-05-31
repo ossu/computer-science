@@ -47,14 +47,14 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Cloud Computing / Distributed Programming](https://www.coursera.org/learn/cloud-computing) | 5 weeks | 5-10 hours/week
-[Introduction to Parallel Programming](https://classroom.udacity.com/courses/cs344) ([alt](https://www.youtube.com/playlist?list=PLGvfHSgImk4aweyWlhBXNF6XISY3um82_)) ([HW](https://colab.research.google.com/github/depctg/udacity-cs344-colab))| 12 weeks | 8-10 hours/week
+[Introduction to Parallel Programming](https://www.udacity.com/course/--cs344) ([alt](https://www.youtube.com/playlist?list=PLGvfHSgImk4aweyWlhBXNF6XISY3um82_)) ([HW](https://colab.research.google.com/github/depctg/udacity-cs344-colab))| 12 weeks | 8-10 hours/week
 [Intro to Computer Systems](http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15213-f15/www/) ([Labs](http://csapp.cs.cmu.edu/3e/labs.html)) | 15 weeks | 12 hours/week
-[Great Ideas in Computer Architecture (Machine Structures)](https://inst.eecs.berkeley.edu/~cs61c/fa14/) ([Lectures](https://archive.org/details/ucberkeley_webcast_itunesu_915550404)) | 15 weeks | 12 hours/week
+[Great Ideas in Computer Architecture (Machine Structures)](https://web.archive.org/web/20190919235114/https://inst.eecs.berkeley.edu/~cs61c/fa14/) ([Lectures](https://archive.org/details/ucberkeley_webcast_itunesu_915550404)) | 15 weeks | 12 hours/week
 [Computer Architecture](https://www.coursera.org/learn/comparch) | - | 5-8 hours/week
 [Operating System Engineering](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/) | - | -
-[Introduction to Operating Systems](https://www.udacity.com/course/introduction-to-operating-systems--ud923)| 8 weeks | 5-8 hours/week
-[Advanced Operating Systems](https://www.udacity.com/course/advanced-operating-systems--ud189)| 5 weeks | 5-8 hours/week
-[Computer Networking](https://www.udacity.com/course/computer-networking--ud436) | 12 weeks | 5-8 hours/week
+[Introduction to Operating Systems](https://www.udacity.com/course/operating-systems--ud923)| 8 weeks | 5-8 hours/week
+[Advanced Operating Systems](https://www.udacity.com/course/ai-deep-learning--ud189)| 5 weeks | 5-8 hours/week
+[Networking for Web Developers](https://www.udacity.com/course/computer-networking--ud436) | 12 weeks | 5-8 hours/week
 Distributed Systems - [Playlist](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB), [Course site](http://nil.csail.mit.edu/6.824/2020/schedule.html), [Self-studying 6.824](https://lieuzhenghong.com/mit_6.824_self_study/) [6.824 Discord group for further help](https://discord.gg/KbhkEqpBqC) | - | -
 
 ## Theory
@@ -79,7 +79,7 @@ Courses | Duration | Effort
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Using Databases with Python](https://www.coursera.org/learn/python-databases) | 5 weeks | 2-3 hours/week
-[Database Systems](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22ed2ee867-9610-4bad-94af-5d12c2ea47cd%22) | - | 27 hours
+[Database Systems](https://15721.courses.cs.cmu.edu/spring2016/) | 15 weeks | 12 hours/week
 [Database Management Essentials](https://www.coursera.org/learn/database-management) | 7 weeks | 4-6 hours/week
 [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271)| 16 weeks | 6-10 hours/week
 [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)| 10 weeks | 6-10 hours/week
