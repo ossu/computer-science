@@ -50,6 +50,7 @@ Name | Author(s)
 [Computer Organization and Design: The Hardware/Software Interface (6th Edition)](https://www.amazon.com/Computer-Organization-Design-MIPS-Architecture/dp/0128201096/) | David Patternson, John Hennessy
 [Computer Networks (5th Edition)](http://www.amazon.com/Computer-Networks-5th-Andrew-Tanenbaum/dp/0132126958/) | Andrew S. Tanenbaum, David J. Wetherall
 [Computer Networking: A Top-Down Approach (8th Edition)](https://gaia.cs.umass.edu/kurose_ross/index.html) | James F Kurose, Keith W Ross
+[Computer Networks: A Systems Approach](https://book.systemsapproach.org/) | Larry Peterson and Bruce Davie
 [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Andrew-Tanenbaum/dp/153028175X) | Andrew Tanenbaum
 [Operating Systems Design and Implementation](https://www.amazon.com/Operating-Systems-Design-Implementation-3rd/dp/0131429388) | Andrew S. Tanenbaum, Albert S. Woodhull
 [Crafting Interpreters](https://www.craftinginterpreters.com/contents.html) | Robert Nystrom
