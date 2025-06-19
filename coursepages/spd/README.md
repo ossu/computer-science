@@ -8,8 +8,8 @@ This course has been developed by UBC and is available from Edx. We recommend yo
 
 Alternative Links:
 
-- <https://www.edx.org/course/how-to-code-simple-data> (Up to Week 6A)
-- <https://www.edx.org/course/how-to-code-complex-data> (Week 6B onwards)
+- <https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-simple-data> (Up to Week 6A)
+- <https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-complex-data> (Week 6B onwards)
 
 ## Instructions
 
