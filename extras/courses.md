@@ -8,19 +8,19 @@ or that there was an alternative that fit better into the curriculum.
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2#!)([alt](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/))| 10 weeks | 15 hours/week
-[Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/x/)) | 12 weeks | 10-20 hours/week
+[Introduction to Computational Thinking and Data Science](https://www.edx.org/learn/computer-science/massachusetts-institute-of-technology-introduction-to-computational-thinking-and-data-science#!)([alt](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/))| 10 weeks | 15 hours/week
+[Introduction to Computer Science - CS50](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science#!) ([alt](https://cs50.harvard.edu/x/)) | 12 weeks | 10-20 hours/week
 [Introduction to Computer Science (Udacity)](https://www.udacity.com/course/intro-to-computer-science--cs101)| 7 weeks | 10-20 hours/week
 [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/learn/interactive-python-1)| 5 weeks | -
 [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/learn/interactive-python-2)| - | -
-[Computing In Python, Part I: Fundamentals and Procedural Programming](https://www.edx.org/course/computing-in-python-i-fundamentals-and-procedural-programming-0) | 5 weeks | 10 hours/week
-[Computing In Python, Part II: Control Structures](https://www.edx.org/course/computing-in-python-ii-control-structures-0) | 5 weeks | 10 hours/week
-[Computing In Python, Part III: Data Structures](https://www.edx.org/course/computing-in-python-iii-data-structures-0) | 5 weeks | 10 hours/week
-[Computing In Python, Part IV: Objects & Algorithms](https://www.edx.org/course/computing-in-python-iv-objects-algorithms-0) | 5 weeks | 10 hours/week
-[Programming Basics](https://www.edx.org/course/programming-basics-iitbombayx-cs101-1x)| 9 weeks | 8 hours/week
+[Computing In Python, Part I: Fundamentals and Procedural Programming](https://www.edx.org/learn/python/the-georgia-institute-of-technology-computing-in-python-i-fundamentals-and-procedural-programming) | 5 weeks | 10 hours/week
+[Computing In Python, Part II: Control Structures](https://www.edx.org/learn/python/the-georgia-institute-of-technology-computing-in-python-ii-control-structures) | 5 weeks | 10 hours/week
+[Computing In Python, Part III: Data Structures](https://www.edx.org/learn/python/the-georgia-institute-of-technology-computing-in-python-iii-data-structures) | 5 weeks | 10 hours/week
+[Computing In Python, Part IV: Objects & Algorithms](https://www.edx.org/learn/python/the-georgia-institute-of-technology-computing-in-python-iv-objects-algorithms) | 5 weeks | 10 hours/week
+[Programming Basics](https://www.edx.org/learn/computer-programming/iitbombay-programming-basics)| 9 weeks | 8 hours/week
 [Object-Oriented Programming with Java](https://java-programming.mooc.fi/)| 14 weeks | 10 hours/week
 [Introduction to Programming with MATLAB](https://www.coursera.org/learn/matlab)| - | -
-[Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0)| 7 weeks | 4-6 hours/week
+[Introduction to Functional Programming](https://www.edx.org/learn/computer-programming/delft-university-of-technology-introduction-to-functional-programming)| 7 weeks | 4-6 hours/week <!-- currently 404's as of 2025-06-23 but redirects and search results on edx point to this URL -->
 [The Structure and Interpretation of Computer Programs (2022, Python)](http://cs61a.org/) | - | -
 [The Structure and Interpretation of Computer Programs (2011, Scheme)](https://romanbird.github.io/sicp/) | - | -
 [Introduction to Haskell](https://www.seas.upenn.edu/~cis194/fall16/) | 14 weeks | 4 hours/week
@@ -29,17 +29,17 @@ Courses | Duration | Effort
 
 Courses | Duration | Effort
 :-- | :--: | :--:
-[Effective Thinking Through Mathematics](https://www.edx.org/course/effective-thinking-through-mathematics-2) | 4 weeks | 2 hours/week
+[Effective Thinking Through Mathematics](https://www.edx.org/learn/math/the-university-of-texas-at-austin-effective-thinking-through-mathematics-2) | 4 weeks | 2 hours/week
 [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week
 [High School Math](https://www.khanacademy.org/math/high-school-math) | - | -
 [Precalculus](https://www.futurelearn.com/courses/precalculus) | 5 weeks | 6 hours/week
 [Advanced Precalculus](https://www.futurelearn.com/courses/advanced-precalculus) | 4 weeks | 5 hours/week
-[Calculus Applied!](https://www.edx.org/course/calculus-applied) | 10 Weeks | 6hours/week
+[Calculus Applied!](https://www.edx.org/learn/calculus/harvard-university-calculus-applied) | 10 Weeks | 6hours/week
 [Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro)| - | -
 [Linear Algebra (Strang)](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm) | - | -
 [Introduction to Computational Thinking](https://computationalthinking.mit.edu/Spring21/#introduction_to_computational_thinking) | - | -
 [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week
-[Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm)
+[Introduction to Probability - The Science of Uncertainty](https://www.edx.org/learn/probability/massachusetts-institute-of-technology-probability-the-science-of-uncertainty-and-data) | 18 weeks | 12 hours/week
 [Matrix Methods In Data Analysis, Signal Processing, And Machine Learning](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/) | - | -
 
 ## Systems
@@ -83,7 +83,6 @@ Courses | Duration | Effort
 [Database Management Essentials](https://www.coursera.org/learn/database-management) | 7 weeks | 4-6 hours/week
 [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271)| 16 weeks | 6-10 hours/week
 [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)| 10 weeks | 6-10 hours/week
-[Machine Learning for Data Science and Analytics](https://www.edx.org/course/machine-learning-data-science-analytics-columbiax-ds102x-0)| 5 weeks | 7-10 hours/week
 [Big Data Science with the BD2K-LINCS Data Coordination and Integration Center](https://www.coursera.org/course/bd2klincs)| 7 weeks | 4-5 hours/week
 
 ## Tools
