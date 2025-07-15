@@ -99,3 +99,4 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
 [Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
+[Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
