@@ -13,7 +13,7 @@ Alternative Links:
 
 ## Instructions
 
-**Note:** These instructions are for the archived version of the course on Edx, which we recommend. They don't apply to other versions of the course.
+**Note:** These instructions are for the alternative version of the course on Edx. They don't apply to other versions of the course.
 
 - The course does not have a homepage on Edx, but don't worry about it. Open the [link](https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015) given above, log in (if you are not logged in) and then enroll in the course.
 - Work through Week 1A to Week 6A as given in the course overview. Watch the videos, do the exercises, and then solve the problems from the problem bank.
