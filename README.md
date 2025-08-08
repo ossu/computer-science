@@ -122,7 +122,7 @@ This course will introduce you to the world of computer science and programming.
 `computation`
 `imperative programming`
 `basic data structures and algorithms`
-`and more`
+and more
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
@@ -145,7 +145,7 @@ All coursework under Core CS is **required**, unless otherwise indicated.
 `ML-family languages (via Standard ML)`
 `Lisp-family languages (via Racket)`
 `Ruby`
-`and more`
+and more
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
@@ -166,7 +166,7 @@ Discrete math (Math for CS) is a prerequisite and closely related to the study o
 `basic statistics`
 `O-notation`
 `discrete probability`
-`and more`
+and more
 
 Courses | Duration | Effort | Notes | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--: | :--:
@@ -184,7 +184,7 @@ Understanding theory is important, but you will also be expected to create progr
 `vim`
 `command line environments`
 `version control`
-`and more`
+and more
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
@@ -206,7 +206,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 `compilers`
 `operating systems`
 `network protocols`
-`and more`
+and more
 
 Courses | Duration | Effort | Additional Text / Assignments| Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--: | :--:
@@ -228,7 +228,7 @@ Courses | Duration | Effort | Additional Text / Assignments| Prerequisites | Dis
 `minimum spanning trees`
 `dynamic programming`
 `NP-completeness`
-`and more`
+and more
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
@@ -245,7 +245,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 `Threats and Attacks`
 `Network Security`
 `Cryptography`
-`and more`
+and more
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
@@ -275,7 +275,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 `unsupervised learning`
 `OpenGL`
 `ray tracing`
-`and more`
+and more
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
@@ -294,7 +294,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 `Professional Ethics`
 `Intellectual Property`
 `Privacy and Civil Liberties`
-`and more`
+and more
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
@@ -317,7 +317,7 @@ But students should take *every* course that is relevant to the field they inten
 `object-oriented analysis and design`
 `UML`
 `large-scale software architecture and design`
-`and more`
+and more
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
@@ -346,7 +346,7 @@ Courses | Duration | Effort | Prerequisites
 `virtual memory`
 `synchronization primitives`
 `system call interface`
-`and more`
+and more
 
 Courses | Duration | Effort | Prerequisites | Notes
 :-- | :--: | :--: | :--: | :--:
@@ -370,7 +370,7 @@ Courses | Duration | Effort | Prerequisites | Notes
 `relational logic`
 `Herbrand logic`
 `game trees`
-`and more`
+and more
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
