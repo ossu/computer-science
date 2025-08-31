@@ -3,6 +3,7 @@ remote_theme: "jekyll/minima@7d91bb5"
 minima:
   skin: auto
   nav_pages:
+    - mindmap.md
     - FAQ.md
     - HELP.md
 include: ['CONTRIBUTING.md']
