@@ -1,35 +1,45 @@
-name: Delete empty issues
+name: Issue Cleanup
+
 on:
   issues:
-    types:
-      - opened
+    types: [opened]
+
+concurrency:
+  group: "issue-cleanup"
+  cancel-in-progress: false
+
 jobs:
   label_issues:
+    name: Handle empty or invalid issues
     runs-on: ubuntu-latest
     permissions:
       issues: write
 
     if: github.event.issue.body == '' || contains(github.event.issue.body, 'Give a 1 sentence description of a problem with the current OSSU Curriculum. Successful critiques of the curriculum will point out ways that OSSU is failing to uphold')
+
     steps:
-      - name: Create comment
+      - name: Add explanatory comment
         uses: actions-cool/issues-helper@v3
         with:
-          actions: 'create-comment'
+          actions: create-comment
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.issue.number }}
           body: |
-            Hello @${{ github.event.issue.user.login }}.
-            It looks like you've opened an empty issue or one without a unique problem description.
-            Please understand that this is a popular project, useful to many learners, and empty issues distract maintainers that are trying to help others.
-            If you would like practice with issues, you can follow github documentation to create your own repo:
-            https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
-            And then in that repo practice creating and editing issues:
-            https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart
+            Hello @${{ github.event.issue.user.login }} 👋
 
-            We look forward to your future contributions to OSSU, when you are contributing to improve computer science education for learners all over the world!
-      - name: Close issue
+            It looks like you've opened an empty issue or one without a clear problem description.  
+            Please understand that OSSU is a popular project used by many learners, and empty issues create extra work for maintainers.  
+
+            If you want to practice creating issues, you can try it in your own repository:  
+            - [Create a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)  
+            - [Practice creating and editing issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart)
+
+            We look forward to your future contributions to OSSU that help improve computer science education worldwide 🌍
+
+      - name: Close the issue
         uses: actions-cool/issues-helper@v3
         with:
-          actions: 'close-issue'
+          actions: close-issue
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.issue.number }}
+
