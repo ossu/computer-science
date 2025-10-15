@@ -1,0 +1,46 @@
+(define H4
+  (shared ((-A- (make-room "A" (list -B- -D-)))
+           (-B- (make-room "B" (list -C- -E-)))
+           (-C- (make-room "C" (list -B-)))
+           (-D- (make-room "D" (list -E-)))
+           (-E- (make-room "E" (list -F- -A-)))
+           (-F- (make-room "F" (list))))
+    -A-))
+
+Start with:
+
+room  exits to
+----  --------
+A     B D
+B     C E
+C     B
+D     E
+E     F A
+F     NOTHING
+
+we need function like template, but add another thing
+(room, number-of-exits-TO-this-room): (Room, Natural)
+
+fn-for-room is like:
+(fn-for-room room todo visited list-of-rooms-and-number-of-exits-TO-them)
+
+we start with fn-for-room A empty empty empty
+Then we keep updating...
+
+function      room  todo   visited    counts
+fn-for-room    A    empty   empty     empty
+fn-for-lor     _    B,D       A       (B,1),(D,1)
+fn-for-room    B    D         A       (B,1),(D,1)
+fn-for-lor     _    D,C,E    A,B      (B,1),(D,1),(C,1),(E,1)
+fn-for-room    D    C,E      A,B      (B,1),(D,1),(C,1),(E,1)
+fn-for-lor     _    C,E     A,B,D     (B,1),(D,1),(C,1),(E,2)
+fn-for-room    C    E       A,B,D     (B,1),(D,1),(C,1),(E,2)
+fn-for-lor     _    E      A,B,D,C    (B,2),(D,1),(C,1),(E,2)
+fn-for-room    E    empty  A,B,D,C    (B,2),(D,1),(C,1),(E,2)
+fn-for-lor     _    F     A,B,C,D,E   (B,2),(D,1),(C,1),(E,2),(F,1),(A,1)
+fn-for-room    F    empty A,B,D,C,E   (B,2),(D,1),(C,1),(E,2),(F,1),(A,1)
+fn-for-lor     _    empty A,B,C,D,E,F (B,2),(D,1),(C,1),(E,2),(F,1),(A,1)
+
+Then take this output
+    (B,2),(D,1),(C,1),(E,2),(F,1),(A,1)
+and pick room with max exits TO it (either B or E)
