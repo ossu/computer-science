@@ -1,0 +1,72 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname quiz-iconbouncing) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+;; ========
+;; Constants
+
+(require 2htdp/image)
+(require 2htdp/universe)
+
+(define WIDTH 600)
+(define HEIGHT 300)
+
+(define ICON-IMAGE false)
+(define ICON-WIDTH false)
+(define ICON-HEIGHT false)
+
+(define SPIN 1)
+(define MAX-VELOCITY 5)
+
+(define MTS (empty-scene WIDTH HEIGHT))
+
+
+;; ===========
+;; Data Definitions
+(define-struct icon (x dx y dy))
+;; icon is (make-icon Natural[0, WIDTH], Integer, Natural[0, HEIGHT] Integer)
+;; interp. (make-icon x dx y dy) is an icon on the screen at coordinates x, y with a velocity vector of dx, dy 
+;;    - x, y is the center of the icon
+;;    - dx, dy is the velocity of the icon in pixles per inch
+
+(define I1 (make-icon 0 3 0 3)) ;Icon at the top left with a downward right trajectory
+(define I2 (make-icon 250 -3 150 4)) ;icon arount the middle of the screen with a downward left trajectory
+
+(define (fn-for-icon i)
+  ( ... (icon-x  i)
+		(icon-dx i)
+		(icon-y  i)
+		(icon-dy i)))
+
+
+;; =============
+;; Functions
+
+;; Icon -> Icon
+;; start the world with (main (make-icon 0 3 0 3))
+
+(define (main i)
+  (big-bang i
+    (on-tick next-icon)
+    (to-draw render-icon)
+    (on-key handle-key)))
+
+;; Icon -> Icon
+;; produce the next icon by advancing x by dx and y by dy
+;; !!!
+
+(define (next-icon i) i) ;stub
+
+;; Icon -> Image
+;; place the icon at the appropriate location on MTS at icon-x and icon-y
+;; !!!
+
+(define (render-icon i) MTS) ;stub
+
+;; Icon -> Icon
+;; add some randomness to the bounce by increasing or decreasing velocity by +/- spin staying below the max velocity
+
+;; Icon KeyEvent -> Icon
+;; reverses the direction of the icon with spin
+;; !!!
+
+(define (handle-key i ke) i) ;stub
