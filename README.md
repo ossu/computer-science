@@ -275,6 +275,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 `unsupervised learning`
 `OpenGL`
 `ray tracing`
+`Intro to LLMs`
 `and more`
 
 Courses | Duration | Effort | Prerequisites | Discussion
@@ -283,6 +284,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 [Databases: Relational Databases and SQL](https://www.edx.org/learn/relational-databases/stanford-university-databases-relational-databases-and-sql)| 2 weeks | 10 hours/week | core programming | [chat](https://discord.gg/P8SPPyF)
 [Databases: Semistructured Data](https://www.edx.org/learn/relational-databases/stanford-university-databases-semistructured-data)| 2 weeks | 10 hours/week | core programming | [chat](https://discord.gg/duCJ3GN)
 [Machine Learning](https://www.coursera.org/specializations/machine-learning-introduction)| 11 weeks | 9 hours/week | Basic coding | [chat](https://discord.gg/NcXHDjy)
+[Intro to LLMs](https://lcs2-iitd.github.io/ELL881-AIL821-2401/)| 14 weeks | 9 hours/week | Machine Learning |
 [Computer Graphics](https://www.edx.org/learn/computer-graphics/the-university-of-california-san-diego-computer-graphics) ([alternative](https://cseweb.ucsd.edu/~viscomp/classes/cse167/wi22/schedule.html))| 6 weeks | 12 hours/week | C++ or Java, [Basic Linear Algebra](https://ossu.dev/precollege-math/coursepages/precalculus) | [chat](https://discord.gg/68WqMNV)
 [Software Engineering: Introduction](https://www.edx.org/learn/software-engineering/university-of-british-columbia-software-engineering-introduction) ([alternative](https://github.com/ubccpsc/310/blob/main/resources/README.md)) | 6 weeks | 8-10 hours/week | Core Programming, and a [sizable project](FAQ.md#why-require-experience-with-a-sizable-project-before-the-Software-Engineering-courses) | [chat](https://discord.gg/5Qtcwtz)
 
@@ -369,6 +371,7 @@ Courses | Duration | Effort | Prerequisites | Notes
 `propositional logic`
 `relational logic`
 `Herbrand logic`
+`Advanced LLMs`
 `game trees`
 `and more`
 
