@@ -27,43 +27,22 @@ class Book {
 	}
 }
 
-/*
- * GOAL: Represent a bunch of books, and be able to compute - their total price
- * - how many books we have - all the books published before the given year - a
- * sorted list of books
- */
-
-/*
- * A list of books is one of empty (cons book list-of-books)
- */
-
-// DYNAMIC DISPATCH: deciding which method definition to invoke (in which class)
-// based on the information available at runtime of the object that's invoking
-// the method
-
 interface ILoBook {
 	// to compute the total price of all books in this list of books
 	double totalPrice();
-
 	// to count how many books are in this list of books
 	int count();
-
 	// to return a list of all the books in this list of books
 	// published before the given year
 	ILoBook allBooksBefore(int year);
-
 	// to construct a list of books that contains the same books as
 	// this list of books, but sorted increasing by price
 	ILoBook sortByPrice();
-
 	ILoBook insert(Book b);
-
 	// returns list of books lexicographically before given book
 	ILoBook titleBefore(String name);
-
 	// sorts list lexicographically
 	ILoBook sortByTitle();
-
 	ILoBook insertByTitle(Book b);
 }
 
@@ -71,37 +50,29 @@ class MtLoBook implements ILoBook {
 	MtLoBook() {
 		// nothing to do!
 	}
-
 	public double totalPrice() {
 		return 0;
 	}
-
 	public int count() {
 		return 0;
 	}
-
 	public ILoBook allBooksBefore(int year) {
 		return this;
 		// return new MtLoBook();
 	}
-
 	public ILoBook sortByPrice() {
 		return this;
 		// return new MtLoBook();
 	}
-
 	public ILoBook insert(Book b) {
 		return new ConsLoBook(b, this);
 	}
-
 	public ILoBook titleBefore(String name) {
 		return this;
 	}
-
 	public ILoBook sortByTitle() {
 		return this;
 	}
-
 	public ILoBook insertByTitle(Book b) {
 		return new ConsLoBook(b, this);
 	}
@@ -136,8 +107,7 @@ class ConsLoBook implements ILoBook {
 	public ILoBook allBooksBefore(int year) {
 		if (this.first.year < year) {
 			return new ConsLoBook(this.first, this.rest.allBooksBefore(year));
-		}
-		else {
+		} else {
 			return this.rest.allBooksBefore(year);
 		}
 	}
@@ -154,8 +124,7 @@ class ConsLoBook implements ILoBook {
 	public ILoBook insert(Book b) {
 		if (this.first.getPrice() > b.getPrice()) {
 			return new ConsLoBook(this.first, this.rest.insert(b));
-		}
-		else {
+		} else {
 			return new ConsLoBook(b, this);
 		}
 	}
@@ -163,8 +132,7 @@ class ConsLoBook implements ILoBook {
 	public ILoBook titleBefore(String name) {
 		if (this.first.name.compareTo(name) < 1) {
 			return new ConsLoBook(this.first, this.rest.titleBefore(name));
-		}
-		else {
+		} else {
 			return this.rest.titleBefore(name);
 		}
 
@@ -177,8 +145,7 @@ class ConsLoBook implements ILoBook {
 	public ILoBook insertByTitle(Book b) {
 		if (this.first.name.compareTo(b.name) > 1) {
 			return new ConsLoBook(this.first, this.rest.insertByTitle(b));
-		}
-		else {
+		} else {
 			return new ConsLoBook(b, this);
 		}
 	}
