@@ -3,3 +3,6 @@
 *.swo
 .direnv/
 .envrc
+.DS_Store
+**/._.DS_Store
+.gitignore
