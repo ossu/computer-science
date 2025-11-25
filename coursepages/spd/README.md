@@ -10,6 +10,8 @@ Alternative Links:
 
 - <https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-simple-data> (Up to Week 6A)
 - <https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-complex-data> (Week 6B onwards)
+- **Systematic Program Design, Part 2:** <https://courses.edx.org/courses/course-v1:BCx+SPD1x+3T2015/course/>
+- **Systematic Program Design, Part 3:** <https://courses.edx.org/courses/course-v1:BCx+SPD3x+3T2015/course/>
 
 ## Instructions
 
@@ -27,8 +29,8 @@ Alternative Links:
 - You won't be able to submit the problem bank problems, but they provide sample solutions. You can match your solution with it.
 - While there are ways to do this course in other IDEs, we suggest you to use Dr. Racket, as configuring the problem starter files for other IDEs is not worth the effort. 
 - If you are stuck somewhere, feel free to ask questions. You can join the OSSU chat for this course here:
-  - Chat for discussions up to Week 6A: <https://discord.gg/RfqAmGJ>
-  - Chat for discussions from Week 6B onwards: <https://discord.gg/kczJzpm>
+  - Chat for discussions up to Week 6A: <https://discord.gg/RfqAmGJ>
+  - Chat for discussions from Week 6B onwards: <https://discord.gg/kczJzpm>
 
 ## Notes
 
@@ -58,7 +60,7 @@ This is an intentional choice, and here's why:
 
 1. Lisp is the lingua franca of computer scientists -- by which we mean, PhD algorithm researchers. There are some good and some merely historical reasons for this, but it's a fact of life, so if you want to read white papers you're going to want to read Lisp. BSL is a good introduction, and frankly once you get over the parenthesis hell and once you know any Lisp you know how to read them all.
 
-2. This is the first computer science course in most people's curricula that isn't centered around teaching you how to use a language. Because the point of computer science isn't to teach you a language. Or to teach you to code. Or to teach you to be a fullstack software engineer. Computer Science is a very narrowly-applied applied math with wide-ranging practical usage.  But if you strip away all the qualifying language, it's math. Which means it has certain overarching rules that are completely, totally independent of your implementation language.
+2. This is the first computer science course in most people's curricula that isn't centered around teaching you how to use a language. Because the point of computer science isn't to teach you a language. Or to teach you to code. Or to teach you to be a fullstack software engineer. Computer Science is a very narrowly-applied applied math with wide-ranging practical usage.  But if you strip away all the qualifying language, it's math. Which means it has certain overarching rules that are completely, totally independent of your implementation language.
 
 This course is built in a throwaway student language, specifically so you don't focus on the language and instead focus on what you're doing with the language. We don't care about public static void main or PEP8 style. We want to see ways to structure a program in any language. So we focus not on the things that make Java unique, and not on the things that make Python unique, and instead focus on the things that make code better.
 
@@ -83,8 +85,8 @@ But you don't need to pay for anything in OSSU. We suggest you take SPD because 
 
 TL;DR:
 
-    If you're in it for the knowledge, take SPD -- it's free but inactive
-    If you're in it for the certificate, take and pay for How To Code -- it's still an active course
+    If you're in it for the knowledge, take SPD -- it's free but inactive
+    If you're in it for the certificate, take and pay for How To Code -- it's still an active course
 
 ### Can I do this course in another programming language?
 
