@@ -132,7 +132,10 @@ class Examples {
 
 	void testConstructors(Tester t) {
 		initCond();
-		t.checkException(new RuntimeException("Only one instructor can be added to course"),
-				c2, "addInstructor", i2);
+		t.checkException(
+				new RuntimeException("Only one instructor can be added to course"),
+				c2,
+				"addInstructor",
+				i2);
 	}
 }
