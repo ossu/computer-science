@@ -1,3 +1,4 @@
+Зміни внесла Буряченко Юлія
 <div align="center" style="text-align: center">
 <img src="images/ossu-logo.webp" alt="Open Source Society logo"/>
 <h3>Open Source Society University</h3>
