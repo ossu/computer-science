@@ -6,3 +6,4 @@
 .DS_Store
 **/._.DS_Store
 .gitignore
+*.rkt~
