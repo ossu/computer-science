@@ -4,12 +4,19 @@ This course has been developed by UBC and is available from Edx. We recommend yo
 
 > This programming course takes a unique approach, as it focuses on learning a systematic programming method rather than a programming language. This practical approach will help you channel your creativity so that you can program well in any language.
 
-**Course Link (Recommended):** <https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015>
+**Course Link (Recommended):**
+
+- <https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015>
+- <https://learning.edx.org/course/course-v1:UBCx+SPD2x+2T2015>
+- <https://learning.edx.org/course/course-v1:UBCx+SPD3x+3T2015>
+
 
 Alternative Links:
 
 - <https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-simple-data> (Up to Week 6A)
 - <https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-complex-data> (Week 6B onwards)
+
+Please see the FAQ below for explanation for different course versions.
 
 ## Instructions
 
