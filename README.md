@@ -51,7 +51,7 @@ they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/r
 - *Advanced CS*: corresponds roughly to the final year of a computer science curriculum, taking electives according to the student's interests
 - *Final Project*: a project for students to validate, consolidate, and display their knowledge, to be evaluated by their peers worldwide
 
-**Duration**. It is possible to finish within about 2 years if you plan carefully and devote roughly 20 hours/week to your studies. Learners can use [this spreadsheet](https://docs.google.com/spreadsheets/u/3/d/1Std_G_5dnajzm289vlsthIJPFnuxN5yOYNDOoiz9Juc/copy) to estimate their end date. Make a copy and input your start date and expected hours per week in the `Timeline` sheet. As you work through courses you can enter your actual course completion dates in the `Curriculum Data` sheet and get updated completion estimates.
+**Duration**. It is possible to finish within about 2 years if you plan carefully and devote roughly 20 hours/week to your studies. Learners can use [this spreadsheet](https://docs.google.com/spreadsheets/d/1y2kMsIg9VaHMVmw35x_aH1hpty3V-ZMuV2jA13P_Cgo/copy) to estimate their end date. Make a copy and input your start date and expected hours per week in the `Timeline` sheet. As you work through courses you can enter your actual course completion dates in the `Curriculum Data` sheet and get updated completion estimates.
   
 > **Warning:** While the spreadsheet is a useful tool to estimate the time you need to complete this curriculum, it may not always be up-to-date with the curriculum. Use the [OSSU CS website](https://cs.ossu.dev) or [the repo](https://github.com/ossu/computer-science) to see what courses to do.
 
