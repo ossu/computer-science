@@ -10,6 +10,24 @@ OSSU’s curricular guidelines are [here](CURRICULAR_GUIDELINES.md). Successful 
 * OSSU not having a course to cover required topics from the curricular guide.
 * OSSU lists multiple courses that cover the same topics when fewer courses could suffice.
 * OSSU recommends a course to teach a topic, but there exists a higher quality course that covers the same material.
+
+## Submitting a Pull Request
+
+We welcome pull requests from contributors of all experience levels. To help us review your contribution efficiently, please follow these guidelines:
+
+1. **Fork the repository** and create a new branch from `master` (or the current default branch) for your change.
+2. **Make a focused change**:
+   - Non-substantive changes (typos, broken links, formatting, small clarifications) should be limited in scope.
+   - If your change is substantive, please ensure there is an open issue discussing it before submitting a pull request.
+3. **Use clear commit messages** that describe *what* was changed and *why*.
+4. **Reference relevant issues** in your pull request description, if applicable (e.g., `Fixes #123`).
+5. **Explain your reasoning** in the pull request description, especially for curriculum-related changes.
+6. Ensure that all links work and formatting renders correctly in Markdown.
+
+Please note that review may take time. Maintainers are volunteers, and thoughtful, well-scoped pull requests are more likely to be reviewed and merged quickly.
+
+Thank you for helping improve OSSU for future students!
+
 ## Other ways to contribute
 ### Responding to Issues
 Issues require more than just users to suggest them. Issues require active community members to read and respond to proposals. Even adding simple [emoji reactions](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) can help the community.
