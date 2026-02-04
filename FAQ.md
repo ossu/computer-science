@@ -33,7 +33,7 @@ See our [Pre-College Math](https://ossu.dev/precollege-math) curriculum for a li
 
 ### What is a good course to learn a particular language?
 OSSU focuses on finding the best courses to learn computer science topics, and isn’t focused on finding language-specific courses. If you are looking to learn a particular language or framework there are two great resources to check.
-1. [Hackr.io](https://hackr.io/) allows users to submit and upvote learning resources for topics such as Python or the Java Spring Framework.
+1. [Hackr.io](https://hackr.io/tutorials/) allows users to submit and upvote learning resources for topics such as Python or the Java Spring Framework.
 2. Most languages have a community on Reddit. When you find the community’s page, check to see if there is a wiki or sidebar with resources. For example, see [/r/python](https://old.reddit.com/r/Python). Note that the sidebar content can be different depending on whether you use www.reddit.com or old.reddit.com.
 
 ### Why is the Firebase OSSU app different or broken?
