@@ -99,3 +99,15 @@ Name | Author(s)
 Name | Author(s)
 :-- | :--:
 [The Linux Command Line](https://linuxcommand.org/tlcl.php) | by William Shotts
+
+## Hackerdom
+
+What is a hacker? For those interested in vibrant community and shared
+culture dating back to the first time-sharing minicomputers and the
+earliest ARPAnet experiments.
+
+Name | Author(s)
+:-- | :--:
+[How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html) | Eric Steven Raymond
+[The Hacker Community and Ethics](https://www.gnu.org/philosophy/rms-hack.html) | Tere Vadén and Richard Stallman
+[Revolution OS](https://en.wikipedia.org/wiki/Revolution_OS) (_documentary film_)| 	J. T. S. Moore; Starring Richard Stallman, Linus Torvalds, Eric S. Raymond, Bruce Perens
