@@ -65,26 +65,15 @@ It would be ideal if graded assignments were always free. In the event that free
 
 ### Are Coursera courses free to access?
 
-Some courses that require payment to access probably do exist on Coursera, but we don't put those on our curriculum.
-All Coursera courses that we put on the curriculum must, at minimum, be **free to audit**.
-For some courses, all course features are available for free;
-for others (especially those that are part of a specialization), you may only be able to access the lecture videos.
-(If you find the policies have changed for any courses on our curriculum, please tell us!)
+Short answer: No. Not anymore.
 
-Unfortunately, for some courses, Coursera's interface is [very aggressive](https://www.deceptive.design/) about convincing you that you have to pay.
+In [July of 2025, Coursera removed audit access](https://www.classcentral.com/report/coursera-preview-mode-paywall/) for the vast majority of their courses, including all of the Coursera courses that OSSU included in its curriculum at the time.
 
-You may see something like this on the course page:
+Unless something changes at Coursera, OSSU will no longer be recommending their courses.  We are currently reviewing options for free resources that can replace the Coursera courses that are still in the curriculum.
 
-<img src="http://i.imgur.com/MxOcYZv.png" alt="Free Trial" style="width: 400px;"/>
+We ask that you help overcome this challenge by finding replacements and engaging with RFC discussions in the [Issues tab](https://github.com/ossu/computer-science/issues) where we are discussing alternatives.
 
-When attempting to enroll in such a course:
-- Click the blue "Enroll" or "Enroll Now" button.
-- A pop-up will appear.
-- **Do not click** "Start Free Trial", unless you do want to pay.
-- Find the text that says "Audit this course" at the bottom.
-- Click **Audit**.
-
-![Audit this course](https://user-images.githubusercontent.com/3349406/27321369-95ca12e6-55cc-11e7-9b5c-f8fedd8fd643.png)
+We may have more up-to-date recommendations in the [Discord channel](https://discord.gg/wuytwK5s9h) so please do check there as well.
 
 ### Is it necessary to purchase the Verified Upgrade for edX courses?
 
