@@ -57,6 +57,7 @@ Name | Author(s)
 [Principles of Compiler Design](https://www.amazon.com/Principles-Compiler-Addison-Wesley-information-processing/dp/0201000229) | Alfred Aho, Jeffrey Ullman
 [Distributed Systems Reading Group](http://dsrg.pdos.csail.mit.edu/papers/) | Various
 [System Design: Design large-scale systems](https://github.com/donnemartin/system-design-primer) | Various
+[Code: The Hidden Language of Computer Hardware and Software](https://codehiddenlanguage.com/Chapter00/) | Charles Petzold
 
 ## Theory
 
