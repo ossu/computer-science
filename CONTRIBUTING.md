@@ -15,5 +15,8 @@ OSSU’s curricular guidelines are [here](CURRICULAR_GUIDELINES.md). Successful 
 Issues require more than just users to suggest them. Issues require active community members to read and respond to proposals. Even adding simple [emoji reactions](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) can help the community.
 ### Engaging with other students
 Learning is enhanced by engaged peers. You can be that peer for someone new to OSSU. When you see a new person posting in Discord, ask them a question about themselves. When you see a cohort starting at _almost_ the right time, join in. Doing so will make OSSU a stronger program for everyone, including you.
+
+### Support Open Source Contributions!
+If you are looking for simple, actionable ways to start contributing to this repository or any other open-source project, please refer to our [Open Source Contribution Notes](OPEN_SOURCE_NOTES.md). We highly encourage and support new contributors exploring open source!
 # Personal Customization
 If you want to customize the curriculum for yourself, you are encouraged to [fork this project](https://help.github.com/articles/fork-a-repo/)!

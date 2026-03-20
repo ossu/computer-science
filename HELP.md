@@ -7,3 +7,6 @@ Please check our [Frequently Asked Questions](FAQ.md) to see if your question ha
 If you need help successfully completing the content of a course or are having general technical difficulties, first reach out to the resources provided by the course (e.g. the course forum on Coursera, edX, etc). If you need additional help after that, post in Discord. **In your post, mention what steps you have already taken to try and solve the problem**.
 ### General problems
 If you have general problems with the program not specific to any course, such as preferring textbook-style learning over MOOCs, Discord is a good place to reach out to people who may have great suggestions. You might form a working group that makes the next improvement to OSSU CS! Read more about contributing [here](CONTRIBUTING.md).
+
+## Support Open Source Contributions!
+If you've received help from the community, consider giving back! Open source thrives on collaborative efforts. You can read up on actionable ideas to contribute to OSSU or other projects in our [Open Source Contribution Notes](OPEN_SOURCE_NOTES.md).
