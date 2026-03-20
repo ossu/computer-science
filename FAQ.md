@@ -21,6 +21,7 @@ Alternatively, you could [contribute](CONTRIBUTING.md) an answer yourself.
 - [Why is the curriculum missing some pre-requisites?](#why-is-the-curriculum-missing-some-pre-requisites)
 - [Why require experience with a sizable project before the Software Engineering courses?](#why-require-experience-with-a-sizable-project-before-the-software-engineering-courses)
 - [How can I find a course on a particular subject?](#how-can-i-find-a-course-on-a-particular-subject)
+- [How can I start contributing to open source?](#how-can-i-start-contributing-to-open-source)
 
 ## Questions
 
@@ -112,3 +113,8 @@ are good resources. For textbooks, [Goodreads](https://www.goodreads.com/genres/
 is a great platform for reader ratings and reviews.
 For learning a particular programming language or framework,
 [see this question](#what-is-a-good-course-to-learn-a-particular-language).
+
+### How can I start contributing to open source?
+Contributing to open source is an excellent way to give back to the community and build your skills! You don't have to be a senior developer to start. You can fix typos, improve documentation, write tests, or help others in the community. 
+
+For simple and actionable ideas to get started, please check out our [Open Source Contribution Notes](OPEN_SOURCE_NOTES.md). We highly encourage newcomers to participate!
