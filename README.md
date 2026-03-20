@@ -450,4 +450,5 @@ What is next for you? The possibilities are boundless and overlapping:
 * **[Eric Douglas](https://github.com/ericdouglas)**: founder of OSSU
 * **[Josh Hanson](https://github.com/joshmhanson)**: lead technical maintainer
 * **[Waciuma Wanjohi](https://github.com/waciumawanjohi)**: lead academic maintainer
+* **[Siddharth S](https://github.com/codeXsidd)**: curriculum contributor
 * **[Contributors](https://github.com/ossu/computer-science/graphs/contributors)**
