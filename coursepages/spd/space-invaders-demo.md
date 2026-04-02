@@ -1,9 +1,5 @@
 # Space Invaders Demo
 
-<div style="display: flex; justify-content: center;">
-  <video controls height="100%" style="max-width: 800px;">
-    <source src="./Space_Invaders.webm" type="video/webm">
-  </video>
-</div>
+[Space_Invaders.webm](https://github.com/user-attachments/assets/a19d6e31-c931-475c-8ab5-647d2caa050f)
 
 [Back to coursepage](../spd)
