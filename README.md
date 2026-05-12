@@ -105,7 +105,7 @@ just remember that you can't purchase success!
   - [Advanced math](#advanced-math)
 - [Final project](#final-project)
 
----
+✅---
 
 ## Prerequisites
 
