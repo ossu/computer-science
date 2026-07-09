@@ -32,8 +32,9 @@ The original schedule is available [here](https://course.ccs.neu.edu/cs2510sp22/
 
 - Lecture 30 appears out of order.  This is in line with the original class schedule.
 - Some of the lectures may appear to be missing.  If you review the website, you will find that this matches what is available on the course website and all materials are linked above.
-- The original videos for Lecture 22, Lecture 28, and Lecture 30 on the course website are broken. A YouTube archive is currently listed only for Lecture 28:
+- The original videos for Lecture 22, Lecture 28, and Lecture 30 on the course website are broken. YouTube archives are currently listed for Lecture 28 and Lecture 30:
   - [Lecture 28](https://youtube.com/playlist?list=PL_N7YxtCMPydJ-aBr4Ku9-q--D6vheOnp&si=XnBXaZKbBhqdUJgJ)
+  - [Lecture 30](https://www.youtube.com/watch?v=6WZo7sFFFlQ&list=PL_N7YxtCMPyea2YC3e-1s7SR_S3oWGjdb&index=1)
 - The assignments above are slightly out of order compared to the true class schedule.  This was done to better align the material in lectures and labs with the material covered in the assignments.  In the actual course, they gave the students a few days between learning the material in lecture and the due date for that assignment.  If you find any misordering where an assignment needs material from a lecture listed after that assignment, please submit a PR to fix the ordering.
 - The schedule above should not be treated as a replacement for the course website.  There is essential documentation on the course website that is not reflected in the schedule above.
 - Ensure that you use Java 11 for this course.  Using the incorrect version will cause issues with the required libraries provided in this course.
