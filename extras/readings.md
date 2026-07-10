@@ -100,3 +100,9 @@ Name | Author(s)
 Name | Author(s)
 :-- | :--:
 [The Linux Command Line](https://linuxcommand.org/tlcl.php) | by William Shotts
+
+## Cognition & reasoning practice
+
+Name | Description
+:-- | :--:
+[IntelligenceMax](https://intelligencemax.ai) | Live reasoning gym with adaptive distinction items and honest scoring; [guide](https://intelligencemax.ai/guide) and [science](https://intelligencemax.ai/science) pages
