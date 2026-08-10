@@ -12,7 +12,7 @@ jobs:
     if: github.event.issue.body == '' || contains(github.event.issue.body, 'Give a 1 sentence description of a problem with the current OSSU Curriculum. Successful critiques of the curriculum will point out ways that OSSU is failing to uphold')
     steps:
       - name: Create comment
-        uses: actions-cool/issues-helper@v3
+        uses: actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0 # v3
         with:
           actions: 'create-comment'
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -28,7 +28,7 @@ jobs:
 
             We look forward to your future contributions to OSSU, when you are contributing to improve computer science education for learners all over the world!
       - name: Close issue
-        uses: actions-cool/issues-helper@v3
+        uses: actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0 # v3
         with:
           actions: 'close-issue'
           token: ${{ secrets.GITHUB_TOKEN }}
