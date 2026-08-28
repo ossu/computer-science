@@ -163,7 +163,7 @@ The easiest way to do that is by watching a subset of the lectures from the *Com
 * [Machine-Level Programming V: Advanced Topics](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f0bf9ca-d640-4798-b91a-73aed656a10a)
 * [Linking](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0aef84fc-a53b-49c6-bb43-14cb2b175249)
 
-Furthermore, it is recommened to do the following labs. These labs are meant to teach you how to work with assembly:
+Furthermore, it is recommended to do the following labs. These labs are meant to teach you how to work with assembly:
 * **Bomb Lab**: [Writeup](http://csapp.cs.cmu.edu/3e/bomblab.pdf), [self-study handout](https://csapp.cs.cmu.edu/3e/bomb.tar).
   > A "binary bomb" is a program provided to students as an object code file. When run, it prompts the user to type in 6 different strings. If any of these is incorrect, the  bomb "explodes," printing an error message and logging the event on a grading server. Students must "defuse" their own unique bomb by disassembling and reverse engineering the program to determine what the 6 strings should be. The lab teaches students to understand assembly language, and also forces them to learn how to use a debugger. It's also great fun. A legendary lab among the CMU undergrads.
 * **Attack Lab**: [Writeup](http://csapp.cs.cmu.edu/3e/attacklab.pdf), [self-study handout](https://csapp.cs.cmu.edu/3e/target1.tar).
@@ -173,7 +173,7 @@ Additional (***optional***) resources include:
 * [CPU Registers x86](https://wiki.osdev.org/CPU_Registers_x86): good for looking up specific registers.
 * [*PC Assembly Language*](https://pdos.csail.mit.edu/6.828/2018/readings/pcasm-book.pdf): a short book on x86 assembly.
 * [GCC Inline Assembly HOWTO](https://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html): a guide to writing assembly code inside a C program.
-* [*Intel 80386 Programmer's Reference Manual*](https://pdos.csail.mit.edu/6.828/2018/readings/i386.pdf): the official (and huge) resourcefrom Intel.
+* [*Intel 80386 Programmer's Reference Manual*](https://pdos.csail.mit.edu/6.828/2018/readings/i386.pdf): the official (and huge) resource from Intel.
 
 #### xv6
 
