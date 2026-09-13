@@ -26,6 +26,7 @@ Name | Author(s)
 [Programming and Programming Languages](https://papl.cs.brown.edu/2018/) | Shriram Krishnamurthi, Benjamin S. Lerner, Joe Gibbs Politz
 [Competitive Programming](https://cpbook.net/) | Steven Halim, Felix Halim
 [Introduction to computing in Java](https://introcs.cs.princeton.edu/java/home/) | Robert Sedgewick, Kevin Wayne
+[The Concise TypeScript Book](https://github.com/gibbok/typescript-book) | Simone Poggiali
 
 ## Math
 
