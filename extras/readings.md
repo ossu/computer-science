@@ -1,15 +1,15 @@
-# Computer Science - Great Readings
+# Ciencias de la Computación - Grandes Lecturas
 
-This document consists of great books or articles on computer science.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.
+Este documento consiste en grandes libros o artículos sobre ciencias de la computación.
+Algunos están aquí porque existe un curso que cubre el mismo material;
+algunos simplemente son grandes libros que deberías leer en algún momento de tu carrera.
 
-Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.
+Una vez que hayas avanzado en la mayor parte del plan de estudios, decidir si un libro vale tu tiempo se volverá más fácil.
+O, si estás teniendo dificultades en uno de los cursos, tal vez leer un libro sobre el tema te ayude.
 
-## Programming
+## Programación
 
-Name | Author(s)
+Nombre | Autor(es)
 :-- | :--:
 [Introduction to Computation and Programming Using Python 3e](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-third-edition) | John V. Guttag
 [Think Python 2e](http://greenteapress.com/wp/think-python-2e/) | Allen B. Downey
@@ -27,12 +27,12 @@ Name | Author(s)
 [Competitive Programming](https://cpbook.net/) | Steven Halim, Felix Halim
 [Introduction to computing in Java](https://introcs.cs.princeton.edu/java/home/) | Robert Sedgewick, Kevin Wayne
 
-## Math
+## Matemáticas
 
-Name | Author(s)
+Nombre | Autor(es)
 :-- | :--:
 [Calculus Made Easy](http://www.gutenberg.org/ebooks/33283) | Silvanus P. Thompson
-[Ximera: Interactive Calculus Textbooks](https://ximera.osu.edu/) | [Ximera team](https://ximera.osu.edu/about/team)
+[Ximera: Interactive Calculus Textbooks](https://ximera.osu.edu/) | [equipo de Ximera](https://ximera.osu.edu/about/team)
 [Discrete Mathematics with Applications (4th Edition)](http://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/0495391328/) | Susanna S. Epp
 [Discrete Mathematics: An Open Introduction](https://discrete.openmathbooks.org/dmoi4/frontmatter.html) | Oscar Levin
 [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) | Alan Doerr, Ken Levasseur
@@ -40,9 +40,9 @@ Name | Author(s)
 [Linear Algebra for Everyone](https://math.mit.edu/~gs/everyone/) | Gilbert Strang
 [The Art of Linear Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) | Kenji Hiranabe, Gilbert Strang
 
-## Systems
+## Sistemas
 
-Name | Author(s)
+Nombre | Autor(es)
 :-- | :--:
 [But How Do It Know?](http://www.buthowdoitknow.com/) | J. Clark Scott
 [Computer Systems: A Programmer's Perspective (3rd Edition)](http://csapp.cs.cmu.edu/) | Randal E. Bryant, David R. O'Hallaron
@@ -55,13 +55,13 @@ Name | Author(s)
 [Operating Systems Design and Implementation](https://www.amazon.com/Operating-Systems-Design-Implementation-3rd/dp/0131429388) | Andrew S. Tanenbaum, Albert S. Woodhull
 [Crafting Interpreters](https://www.craftinginterpreters.com/contents.html) | Robert Nystrom
 [Principles of Compiler Design](https://www.amazon.com/Principles-Compiler-Addison-Wesley-information-processing/dp/0201000229) | Alfred Aho, Jeffrey Ullman
-[Distributed Systems Reading Group](http://dsrg.pdos.csail.mit.edu/papers/) | Various
-[System Design: Design large-scale systems](https://github.com/donnemartin/system-design-primer) | Various
+[Distributed Systems Reading Group](http://dsrg.pdos.csail.mit.edu/papers/) | Varios
+[System Design: Design large-scale systems](https://github.com/donnemartin/system-design-primer) | Varios
 [Code: The Hidden Language of Computer Hardware and Software](https://codehiddenlanguage.com/Chapter00/) | Charles Petzold
 
-## Theory
+## Teoría
 
-Name | Author(s)
+Nombre | Autor(es)
 :-- | :--:
 [Introduction to Computing: Explorations in Language, Logic, and Machines](http://www.computingbook.org/) | David Evans
 [Introduction to the Theory of Computation (3rd Edition)](https://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779X) | Michael Sipser
@@ -73,14 +73,14 @@ Name | Author(s)
 [Category Theory for Programmers: The Preface](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) | Bartosz Milewski
 [An Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf) | Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze
 [Computer Science: An interdisciplinary approach](https://introcs.cs.princeton.edu/java/cs/) | Robert Sedgewick, Kevin Wayne
-[DSA CS3: Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/OpenDSA/Books/CS3/html/) ([Coursenotes](https://opendsa-server.cs.vt.edu/OpenDSA/Books/CS3notes/html/) - [Slides](https://opendsa-server.cs.vt.edu/OpenDSA/Books/CS3slides/html/)) | The OpenDSA Project (supported by National Science Foundation)
+[DSA CS3: Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/OpenDSA/Books/CS3/html/) ([Notas del curso](https://opendsa-server.cs.vt.edu/OpenDSA/Books/CS3notes/html/) - [Diapositivas](https://opendsa-server.cs.vt.edu/OpenDSA/Books/CS3slides/html/)) | The OpenDSA Project (respaldado por la National Science Foundation)
 
-## Applications
+## Aplicaciones
 
-Name | Author(s)
+Nombre | Autor(es)
 :-- | :--:
 [Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf) | Joseph M. Hellerstein, Michael Stonebraker, James Hamilton
-[Readings in Database Systems (5th Edition)](http://www.redbook.io/) | Peter Bailis, Joseph M. Hellerstein, Michael Stonebraker, editors
+[Readings in Database Systems (5th Edition)](http://www.redbook.io/) | Peter Bailis, Joseph M. Hellerstein, Michael Stonebraker, editores
 [Database Management Systems (3rd Edition)](https://www.amazon.com/gp/product/0072465638) | Raghu Ramakrishnan, Johannes Gehrke
 [Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902) | Jim Gray, Andreas Reuter
 [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World (3rd Edition)](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | William Kent
@@ -95,8 +95,8 @@ Name | Author(s)
 [Physically Based Rendering: From Theory To Implementation](http://www.pbr-book.org/) | Matt Pharr, Wenzel Jakob, and Greg Humphreys
 
 
-## Tools
+## Herramientas
 
-Name | Author(s)
+Nombre | Autor(es)
 :-- | :--:
-[The Linux Command Line](https://linuxcommand.org/tlcl.php) | by William Shotts
+[The Linux Command Line](https://linuxcommand.org/tlcl.php) | de William Shotts

@@ -1,331 +1,331 @@
-# Change Log
+# Registro de Cambios
 
-**Note**: The curriculum is currently undergoing review for v9. This consists largely of checking our recommendations against our [curricular guidelines](CURRICULAR_GUIDELINES.md), adding missing topics and cutting redundant or out of scope courses. As Requests for Comment in this effort are completed, changes are made immediately to the curriculum. When the overall review is complete we will notate the version bump to v9.
+**Nota**: El plan de estudios está actualmente en revisión para la v9. Esto consiste en gran parte en verificar nuestras recomendaciones contra nuestras [directrices curriculares](CURRICULAR_GUIDELINES.md), agregar temas faltantes y eliminar cursos redundantes o fuera de alcance. A medida que se completan los Requests for Comment de este esfuerzo, los cambios se realizan de inmediato en el plan de estudios. Cuando la revisión general esté completa, anotaremos el salto de versión a la v9.
 
-All notable changes to this project will be documented in this file.
-This project adheres *in spirit* to [Semantic Versioning](http://semver.org/):
-- "MAJOR" updates correspond to changing the topics studied within a subject
-- "MINOR" updates correspond to changing courses without changing the topics
-- "PATCH" updates correspond to aesthetic and non-essential additions/removals or changing order of classes for better progression
+Todos los cambios notables de este proyecto se documentarán en este archivo.
+Este proyecto se adhiere *en espíritu* a [Versionamiento Semántico](http://semver.org/):
+- Las actualizaciones "MAJOR" corresponden a cambiar los temas estudiados dentro de una asignatura
+- Las actualizaciones "MINOR" corresponden a cambiar cursos sin cambiar los temas
+- Las actualizaciones "PATCH" corresponden a adiciones/eliminaciones estéticas y no esenciales, o a cambiar el orden de las clases para una mejor progresión
 
 ## [8.0.0] 2017-11-01
-### Added
+### Agregado
 - extras/readings: "The System Design Primer"
 - extras/readings: "Category Theory for Programmers: The Preface"
 - extras/readings: "Programming Languages: Application and Interpretation"
 - extras/readings: "Programming and Programming Languages"
-- CONTRIBUTING: "Learning Git" section to the contributor guidelines page
-- Core Math: Added "Essence of Linear Algebra" as pre-requisite to "Linear Algebra: Foundations to Frontiers"
+- CONTRIBUTING: sección "Learning Git" en la página de directrices para colaboradores
+- Core Math: se agregó "Essence of Linear Algebra" como requisito previo de "Linear Algebra: Foundations to Frontiers"
 
-### Updated
-- Moved "Introduction to Mathematical Thinking" to extras/courses
-- Moved "Hack the Kernel" (ops-class) from Advanced Systems to Core Systems
-- Core Systems: "Operating Systems: Three Easy Pieces" is no longer required, but is recommended as companion text to "Hack the Kernel"
-- Core Theory: Replaced Coursera with Lagunita as the host for Stanford Algorithms, since Coursera uses dark patterns to trick users into paying
+### Actualizado
+- Se movió "Introduction to Mathematical Thinking" a extras/courses
+- Se movió "Hack the Kernel" (ops-class) de Sistemas Avanzados a Sistemas Básicos
+- Core Systems: "Operating Systems: Three Easy Pieces" ya no es obligatorio, pero se recomienda como texto complementario de "Hack the Kernel"
+- Core Theory: se reemplazó Coursera por Lagunita como alojamiento de Stanford Algorithms, ya que Coursera usa patrones oscuros para engañar a los usuarios y hacerlos pagar
 
 ## [7.2.2] 2017-07-02
-### Added
-- "Haskell Programming from First Principles" book as a paid alternative to learn Haskell
-- "Think Python" to extras/readings
-- FAQ entries and links under relevant courses
-- "Category Theory: A Gentle Introduction" to extras/readings
+### Agregado
+- Libro "Haskell Programming from First Principles" como alternativa de pago para aprender Haskell
+- "Think Python" en extras/readings
+- Entradas y enlaces de la FAQ bajo los cursos relevantes
+- "Category Theory: A Gentle Introduction" en extras/readings
 
 ## [7.2.1] 2017-05-14
-### Updated
-- Networking course should take 8 weeks to complete
-- Fixed spelling error
+### Actualizado
+- El curso de redes debería tomar 8 semanas en completarse
+- Se corrigió un error ortográfico
 
-### Added
-- Introduction to Haskell course to [extras/courses](extras/courses.md)
+### Agregado
+- Curso Introduction to Haskell en [extras/courses](extras/courses.md)
 
 ## [7.2.0] 2017-04-28
-### Added
-- Software Testing course
-- Link to Stanford Lagunita's Algorithms: Design and Analysis
-- Added link to the section on parametric equations and polar coordinates from MIT's Single Variable Calculus course in order to properly prepare students for Multivariable Calculus
+### Agregado
+- Curso de pruebas de software
+- Enlace a Algorithms: Design and Analysis de Stanford Lagunita
+- Se agregó un enlace a la sección de ecuaciones paramétricas y coordenadas polares del curso de Cálculo de una Variable del MIT para preparar adecuadamente a los estudiantes para Cálculo Multivariable
 
 ## [7.1.2] 2017-04-22
-### Updated
-- Add link to Mega Project List in the introduction of the Projects section
+### Actualizado
+- Se agregó un enlace a la Mega Project List en la introducción de la sección de Proyectos
 
 ## [7.1.1] 2017-04-11
-### Updated
-- Final touch to release
+### Actualizado
+- Toque final para la publicación
 
 ## [7.1.0] 2017-04-10
-### Updated
-- Reverted reformat of programming languages course
+### Actualizado
+- Se revirtió el reformato del curso de lenguajes de programación
 
-### Added
-- Reliable Distributed Algorithms courses
-- New Introduction to CS course
+### Agregado
+- Cursos de Algoritmos Distribuidos Confiables
+- Nuevo curso de Introducción a las Ciencias de la Computación
 
 ## [7.0.2] 2017-03-30
-### Updated
-- Moved optional online learning courses to extras/courses in a new section
-- Moved alternate computer architecture course to extras/courses
+### Actualizado
+- Se movieron los cursos opcionales de aprendizaje en línea a extras/courses en una nueva sección
+- Se movió el curso alternativo de arquitectura de computadoras a extras/courses
 
-### Added
-- Scala specialization under Advanced applications
+### Agregado
+- Especialización en Scala dentro de Aplicaciones Avanzadas
 
-### Removed
-- Removed all but one choice for required readings to make the curriculum simpler
+### Eliminado
+- Se eliminaron todas las opciones menos una para las lecturas obligatorias a fin de simplificar el plan de estudios
 
 ## [7.0.1] 2017-03-11
-### Updated
-- Fixed link to Bradfield's DIY computer science page
+### Actualizado
+- Se corrigió el enlace a la página de ciencias de la computación DIY de Bradfield
 
-### Added
-- Note under Calculus One with links to errata and course progression recommendations
-- Optional courses under extras:
-  - Strang's course on linear algebra
-  - Berkeley's Structure and Interpretation of Computer Programs
-- Optional readings under extras:
-  - Van Roy's advanced programming book
-  - P&H's computer architecture book
-  - Skiena's algorithms book
-  - Strang's linear algebra book
-  - Database Management Systems book
-  - Tarr's book on creating your own Domain-specific language
-  - Readings from various authors on distributed systems
+### Agregado
+- Nota bajo Calculus One con enlaces a erratas y recomendaciones de progresión del curso
+- Cursos opcionales dentro de extras:
+  - Curso de Strang sobre álgebra lineal
+  - Structure and Interpretation of Computer Programs de Berkeley
+- Lecturas opcionales dentro de extras:
+  - Libro avanzado de programación de Van Roy
+  - Libro de arquitectura de computadoras de P&H
+  - Libro de algoritmos de Skiena
+  - Libro de álgebra lineal de Strang
+  - Libro de Database Management Systems
+  - Libro de Tarr sobre cómo crear tu propio lenguaje específico de dominio
+  - Lecturas de diversos autores sobre sistemas distribuidos
 
 ## [7.0] 2017-03-09
-Complete overhaul of program structure
+Reestructuración completa de la estructura del programa
 
-### Updated
-- Clarified contributor guidelines and moved them to separated file
-- Switched from many subjects to just four subjects with many topics
-- Consolidated free-books.md and paid-books.md into readings.md
-- Consolidated free-courses.md and paid-courses.md into courses.md
-- Replace old "How to Code" with new "How to Code" (Software Development MicroMasters)
-- Replace Princeton Algorithms (moved to [alternative courses](#extras/courses.md)) with Stanford Algorithms
+### Actualizado
+- Se aclararon las directrices para colaboradores y se movieron a un archivo separado
+- Se pasó de muchas asignaturas a solo cuatro asignaturas con muchos temas
+- Se consolidaron free-books.md y paid-books.md en readings.md
+- Se consolidaron free-courses.md y paid-courses.md en courses.md
+- Se reemplazó el antiguo "How to Code" por el nuevo "How to Code" (Software Development MicroMasters)
+- Se reemplazó Princeton Algorithms (movido a [alternative courses](#extras/courses.md)) por Stanford Algorithms
 
-### Added
-- Indicate prerequisites for all courses
-- Requirements: subject/topic requirements and project requirements
-- Required readings on Haskell, Prolog, Operating Systems
-- Courses: Dan Grossman's Programming Languages
-- Courses: From Nand to Tetris
-- Elective course: Intro to Parallel Programming
-- Elective course: LAFF: Programming for Correctness
-- Elective course: Introduction to Mathematical Thinking
-- Elective courses: Electricity and Magnetism
-- Elective courses: MIT's Computation Structures
-- Elective course: Multivariable Calculus
-- Elective course: ops-class.org
-- Elective course: Automata Theory
-- Elective course: Introduction to Logic
-- Elective course: Computational Geometry
-- Elective course: Formal Concept Analysis
-- Elective course: Game Theory
-- Elective specializations:
-  - Robotics
-  - Data Mining
+### Agregado
+- Se indican los requisitos previos de todos los cursos
+- Requisitos: requisitos de asignatura/tema y requisitos de proyectos
+- Lecturas obligatorias sobre Haskell, Prolog, Sistemas Operativos
+- Cursos: Programming Languages de Dan Grossman
+- Cursos: From Nand to Tetris
+- Curso optativo: Intro to Parallel Programming
+- Curso optativo: LAFF: Programming for Correctness
+- Curso optativo: Introduction to Mathematical Thinking
+- Cursos optativos: Electricidad y Magnetismo
+- Cursos optativos: Computation Structures del MIT
+- Curso optativo: Multivariable Calculus
+- Curso optativo: ops-class.org
+- Curso optativo: Automata Theory
+- Curso optativo: Introduction to Logic
+- Curso optativo: Computational Geometry
+- Curso optativo: Formal Concept Analysis
+- Curso optativo: Game Theory
+- Especializaciones optativas:
+  - Robótica
+  - Minería de datos
   - Big Data
-  - Internet of Things
-  - Cloud Computing
-  - Full Stack Web Development
-  - Data Science
-- Pro specializations:
+  - Internet de las cosas
+  - Computación en la nube
+  - Desarrollo web full stack
+  - Ciencia de datos
+- Especializaciones profesionales:
   - Mastering Software Development in R
   - Artificial Intelligence Engineer
   - Machine Learning Engineer
-  - Cybersecurity
+  - Ciberseguridad
   - Android Developer
 
-### Removed
-- Removed many dead links and obsolete courses
-- Removed per-course project requirement
-- Course: Object-Oriented Programming in Java
-- Course: Functional Programming in Scala
-- Course: Computer Architecture (but left as a footnote)
-- Course: Intro to Theoretical Computer Science
-- Course: Software Processes and Agile Practices
-- Course: Operating Systems & System Programming
-- Course: Introduction to Cyber Security
-- Course: Parallel Computer Architecture and Programming
-- Course: UX Design for Mobile Developers
+### Eliminado
+- Se eliminaron muchos enlaces muertos y cursos obsoletos
+- Se eliminó el requisito de proyecto por curso
+- Curso: Object-Oriented Programming in Java
+- Curso: Functional Programming in Scala
+- Curso: Computer Architecture (pero se dejó como una nota al pie)
+- Curso: Intro to Theoretical Computer Science
+- Curso: Software Processes and Agile Practices
+- Curso: Operating Systems & System Programming
+- Curso: Introduction to Cyber Security
+- Curso: Parallel Computer Architecture and Programming
+- Curso: UX Design for Mobile Developers
 
 ## [6.0] 2016-10-09
-### Updated
-- Put Calculus One before and together with Mathematics for Computer Science
-- Improve text in "Order of the classes"
+### Actualizado
+- Se colocó Calculus One antes y junto con Mathematics for Computer Science
+- Se mejoró el texto en "Orden de las clases"
 
-### Added
-- Create public Trello board with the new curriculum version
-- Create the section "How to track and show your progress" in "How to use this guide"
-- Add PROJECTS.md file
-- Copy all sections of curriculum to PROJECTS.md
+### Agregado
+- Se creó un tablero público de Trello con la nueva versión del plan de estudios
+- Se creó la sección "Cómo seguir y mostrar tu progreso" en "Cómo usar esta guía"
+- Se agregó el archivo PROJECTS.md
+- Se copiaron todas las secciones del plan de estudios a PROJECTS.md
 
-### Removed
-- Remove "Next Goals" section
-- Remove reference to OSSU web app
+### Eliminado
+- Se eliminó la sección "Next Goals"
+- Se eliminó la referencia a la aplicación web de OSSU
 
 ## [5.1.0] 2016-08-20
-Update to latest version of Math for Computer Science:
+Actualización a la última versión de Mathematics for Computer Science:
 
-### Updated
-- Section: **Math (Discrete Math)**
+### Actualizado
+- Sección: **Matemáticas (Matemáticas Discretas)**
   - Mathematics for Computer Science
 
 ## [5.0.0] 2016-08-20
-Due to removed course, we had the following updates:
+Debido a un curso eliminado, tuvimos las siguientes actualizaciones:
 
-### Removed
-- Section: **Natural Language Processing**
+### Eliminado
+- Sección: **Procesamiento de Lenguaje Natural**
   - Natural Language Processing
 
-### Added
-- Section: **Natural Language Processing**
+### Agregado
+- Sección: **Procesamiento de Lenguaje Natural**
   - Introduction to Natural Language Processing
 
 ## [4.1.0] 2016-08-05
-Due to Coursera's platform changes, we had the following updates:
-### Fixed
-- Section: **Big Data**
+Debido a los cambios de plataforma de Coursera, tuvimos las siguientes actualizaciones:
+### Corregido
+- Sección: **Big Data**
   - Introduction to Big Data
 
 ## [4.0.0] 2016-07-30
-Due to Coursera's platform changes, we had the following updates:
+Debido a los cambios de plataforma de Coursera, tuvimos las siguientes actualizaciones:
 
-### Removed
-- Section: **Theory**
+### Eliminado
+- Sección: **Teoría**
   - Automata
-- Section: **Math (Linear Algebra)**
+- Sección: **Matemáticas (Álgebra Lineal)**
   - Coding the Matrix: Linear Algebra through Computer Science Applications
-- Section: **Parallel Computing**
+- Sección: **Computación Paralela**
   - Heterogeneous Parallel Programming
-- Section: **Natural Language Processing**
+- Sección: **Procesamiento de Lenguaje Natural**
   - Natural Language Processing
 
-### Fixed
-- Section: **Computer Networks**
+### Corregido
+- Sección: **Redes de Computadoras**
   - Computer Networks
-- Section: **Compilers**
+- Sección: **Compiladores**
   - Compilers
 
-### Added
-- Section: **Theory**
+### Agregado
+- Sección: **Teoría**
   - Intro to Theoretical Computer Science
-- Section: **Math (Linear Algebra)**
+- Sección: **Matemáticas (Álgebra Lineal)**
   - Linear Algebra - Foundations to Frontiers
-- Section: **Parallel Computing**
+- Sección: **Computación Paralela**
   - Parallel Computer Architecture and Programming
-- Section: **Natural Language Processing**
+- Sección: **Procesamiento de Lenguaje Natural**
   - Natural Language Processing
 
 ## [3.0.0] 2016-05-04
-### Removed
-- Section: **Introduction to Computer Science**:
+### Eliminado
+- Sección: **Introducción a las Ciencias de la Computación**:
 	- Introduction to Computer Science and Programming Using Python
 	- From Nand to Tetris (Part 1)
 
-### Added
-- Section: **Introduction to Computer Science**:
+### Agregado
+- Sección: **Introducción a las Ciencias de la Computación**:
 	- Introduction to Computer Science - CS50
 
 ## [2.0.1] 2016-04-04
-### Fixed
-- Now students should enroll through our [web app](https://ossu.firebaseapp.com).
+### Corregido
+- Ahora los estudiantes deben inscribirse a través de nuestra [aplicación web](https://ossu.firebaseapp.com).
 
 ## [2.0.0] 2016-03-17
-### Fixed
-- Program Design section course's names and links
+### Corregido
+- Nombres y enlaces de los cursos de la sección Program Design
 
-### Removed
-- **Introduction to Computer Science**:
+### Eliminado
+- **Introducción a las Ciencias de la Computación**:
 	- Introduction to Computer Science
 	- Introduction to Computational Thinking and Data Science
-- **Algorithms**
+- **Algoritmos**:
 	- Analysis of Algorithms
-- **Programming Paradigms**
+- **Paradigmas de Programación**:
 	- Principles of Reactive Programming
-- **Math (Calculus)**
+- **Matemáticas (Cálculo)**:
 	- Multivariable Calculus
-- **Software Architecture**:
+- **Arquitectura de Software**:
 	- Web Application Architectures
-- **Software Engineering**:
+- **Ingeniería de Software**:
 	- Agile Development Using Ruby on Rails - Basics
 	- Agile Development Using Ruby on Rails - Advanced
 	- Startup Engineering
-- **Computer Architecture**:
+- **Arquitectura de Computadoras**:
 	- The Hardware/Software Interface
-- **Operating Systems**:
+- **Sistemas Operativos**:
 	- Operating System Engineering
-- **Computer Networks**:
+- **Redes de Computadoras**:
 	- Introduction to Computer Networking
-- **Cryptography**:
+- **Criptografía**:
 	- Applied Cryptography
 
-**ps**: These removed courses are now in the [extras](https://github.com/ossu/computer-science/tree/master/extras) section.
+**pd**: Estos cursos eliminados ahora están en la sección [extras](https://github.com/ossu/computer-science/tree/master/extras).
 
 ## [1.3.12] 2016-03-17
-### Added
-- How to collaborate: send new links to the extras section
+### Agregado
+- Cómo colaborar: enviar nuevos enlaces a la sección de extras
 
 ## [1.3.11] 2016-03-06
-### Fixed
-- Nand to Tetris: change name and url
-- UC Berkeley Agile development: change name and url
-- Direct links to specializations
+### Corregido
+- Nand to Tetris: cambio de nombre y url
+- UC Berkeley Agile development: cambio de nombre y url
+- Enlaces directos a las especializaciones
 
 ## [1.3.10] 2016-03-06
-### Fixed
-- Link from Systematic Program Design Part 2 course
+### Corregido
+- Enlace del curso Systematic Program Design Part 2
 
 ## [1.3.9] 2015-11-09
-### Fixed
-- Link for the correct Natural Language Processing course
+### Corregido
+- Enlace al curso correcto de Natural Language Processing
 
 ## [1.3.8] 2015-11-07
-### Added
-- Add "Project Suggestions" section with more references
+### Agregado
+- Se agregó la sección "Project Suggestions" con más referencias
 
 ## [1.3.7] 2015-11-01
-### Removed
-- Removed project.md file, moved to **help** repo
+### Eliminado
+- Se eliminó el archivo project.md, movido al repositorio **help**
 
 ## [1.3.6] 2015-10-22
-### Added
-- Latest version of CS 162, Operating Systems and System Programming
+### Agregado
+- Última versión de CS 162, Operating Systems and System Programming
 
 ## [1.2.6] 2015-10-19
-### Added
-- Badge/Link to the Awesome list
+### Agregado
+- Insignia/enlace a la lista Awesome
 
 ## [1.2.5] 2015-10-16
-### Fixed
-- Fix name of the section and add a hyperlink to it.
+### Corregido
+- Se corrigió el nombre de la sección y se agregó un hipervínculo a ella.
 
 ## [1.2.4] 2015-10-14
-### Removed
-- Removed citation about public commitment
+### Eliminado
+- Se eliminó la citación sobre el compromiso público
 
 ## [1.2.3] 2015-10-12
-### Changed
-- Updated the prerequisite section for more clarity
+### Cambiado
+- Se actualizó la sección de requisitos previos para mayor claridad
 
 ## [1.2.2] 2015-10-12
-### Fixed
-- New link to issue intended for students' enrollment
+### Corregido
+- Nuevo enlace a la issue destinada a la inscripción de estudiantes
 
 ## [1.2.1] 2015-10-11
-### Added
-- Article Git - the simple guide to the prerequisite section
+### Agregado
+- Artículo Git - the simple guide en la sección de requisitos previos
 
 ##[1.1.1] 2015-10-11
-### Fixed
-- Fix typos
-  - As MOOC is a "Massive Open Online Course" MOOC course is redundant
-  - Elaborated on "real problem"
-  - Fixed a few small grammatical and wording errors
+### Corregido
+- Se corrigieron erratas
+  - Dado que MOOC significa "Massive Open Online Course", decir curso MOOC es redundante
+  - Se amplió la explicación de "real problem"
+  - Se corrigieron algunos pequeños errores gramaticales y de redacción
 
 ## [1.1.0] 2015-10-08
-### Added
-- Motivation & Preparation section (optional resources)
-  - Article: MIT Challenge
-  - Course: Learning How to Learn
+### Agregado
+- Sección de Motivación y Preparación (recursos opcionales)
+  - Artículo: MIT Challenge
+  - Curso: Learning How to Learn
 
 ## [1.0.0] 2015-10-08
 
-Release of the first **complete** version of the Computer Science curriculum
+Publicación de la primera versión **completa** del plan de estudios de Ciencias de la Computación

@@ -1,44 +1,44 @@
-# Computer Science - Puzzles, Practice and Plods
+# Ciencias de la Computación - Acertijos, Práctica y Pegas
 
-**Some OSSUnians value sites that allow them to practice coding problems disconnected from a course.**
+**A algunos OSSUnians les resultan valiosos los sitios que les permiten practicar problemas de programación desconectados de un curso.**
 
-> Solving "textbook" problems is easy because we've been prepped for them by the course. Solving a "real world" example is much more difficult because there is no hand-holding.
+> Resolver problemas de "libro de texto" es fácil porque el curso ya nos preparó para ellos. Resolver un ejemplo del "mundo real" es mucho más difícil porque no hay nadie que nos lleve de la mano.
 
 [link](https://github.com/ossu/computer-science/issues/783#issuecomment-694187743)
 
-> So give us a problem where the parameters are laid out in x,y fashion, and we'll be able to code for it. But confront us with another problem, and it might stump us since we're still not practiced with thinking algorithmically or what have you.
+> Así que denos un problema donde los parámetros se presentan de forma x,y, y podremos programarlo. Pero si se nos confronta con otro problema, puede dejarnos sin saber qué hacer, ya que todavía no hemos practicado el pensamiento algorítmico ni cosas por el estilo.
 
 [link](https://github.com/ossu/computer-science/issues/783#issuecomment-694176898)
 
-**Others feel that its important not to get distracted by anxieties and puzzles.**
+**Otros sienten que es importante no dejarse distraer por ansiedades y acertijos.**
 
-> Consider this a love letter to all the beginners out there.
+> Considérenlo una carta de amor para todos los principiantes que están ahí fuera.
 
-> I think that when you are still in the beginner stages, it FEELS like you do not have enough competence to contributing to a project.
-  It FEELS like taking classes, doing programming assignments etc. are not good enough in your eyes to be considered worthy of a "project".
-  They feel too small and insignificant. You're not quite satisfied.
-  (Part of the reason might be that early stuff is too easy for you, and you haven't taken a course that kicked your ass and wiped the floor with you yet.)
-  Since this is online learning and there is nobody/nothing holding you back, the natural tendency is to spread wide and try to do many things all at once, get distracted.
-  I'VE BEEN THERE, trust me.
-  And naturally you are in a rush to become competent as fast as possible.
-  You keep thinking, "when will I be ready to do something BIG?" And you don't want to wait.
-  Similar to how children always seem like they are in a hurry to grow up and start imitating adults.
-  The dissatisfaction and the impatience make for an uncomfortable combination.
-  Let's call this: beginner's mind.
+> Creo que cuando todavía estás en las etapas de principiante, SIENTES que no tienes la competencia suficiente para contribuir a un proyecto.
+  SIENTES que tomar clases, hacer tareas de programación, etc., no son lo suficientemente buenas a tus ojos para ser consideradas dignas de un "proyecto".
+  Se sienten demasiado pequeñas e insignificantes. No estás del todo satisfecho.
+  (Parte de la razón podría ser que lo temprano es demasiado fácil para ti, y aún no has tomado un curso que te haya dado una paliza y te haya arrasado.)
+  Dado que esto es aprendizaje en línea y no hay nadie/nada que te frene, la tendencia natural es dispersarse e intentar hacer muchas cosas a la vez, y distraerse.
+  YO HE ESTADO AHÍ, créeme.
+  Y naturalmente tienes prisa por volverte competente lo más rápido posible.
+  Sigues pensando, "¿cuándo estaré listo para hacer algo GRANDE?" Y no quieres esperar.
+  Algo similar a cómo los niños siempre parecen tener prisa por crecer y empezar a imitar a los adultos.
+  La insatisfacción y la impaciencia forman una combinación incómoda.
+  Lenguémosle: mente de principiante.
 
-> The fact is, you have to be patient.
-  I would argue that early on in your studies, arguably, is NOT when it is most critical for you to contribute to a project...
+> La realidad es que tienes que ser paciente.
+  Yo diría que al principio de tus estudios, probablemente NO es cuando es más crítico que contribuyas a un proyecto...
 
-> I would recommend the slow, steady and patient approach of OSSU over the distracted, all over the place style of learning lots of others use, with various uncoordinated resources on the internet.
- Looking for a project? How about THE NEXT COURSE?
+> Recomendaría el enfoque lento, constante y paciente de OSSU sobre el estilo distraído, disperso y caótico de aprendizaje que usan muchos otros, con los diversos recursos descoordinados de internet.
+  ¿Buscas un proyecto? ¿Qué tal el SIGUIENTE CURSO?
 
->  So I think that the problem is not really a problem, but a need to adjust expectations.
-  I would recommend a shift in thinking, away from beginner's mind.
-  Think long term, so that those small, insignificant exercises and programming assignments in each course should feel like they are crucial parts of your biggest, long-term project: YOU
+>  Así que creo que el problema no es realmente un problema, sino una necesidad de ajustar expectativas.
+  Recomendaría un cambio en la forma de pensar, alejándote de la mente de principiante.
+  Piensa a largo plazo, para que esos ejercicios pequeños e insignificantes y esas tareas de programación de cada curso se sientan como partes cruciales de tu proyecto más grande y a largo plazo: TÚ
 
 [link](https://github.com/ossu/computer-science/issues/783#issuecomment-690023645)
 
-So OSSUnian, read the above and then consider how much time you wish to put into these resources:
+Así que, OSSUnian, lee lo anterior y luego considera cuánto tiempo deseas dedicarle a estos recursos:
 - [Exercism](https://exercism.io/)
 - [LeetCode](https://leetcode.com/)
 - [HackerRank](https://www.hackerrank.com/)
@@ -46,4 +46,4 @@ So OSSUnian, read the above and then consider how much time you wish to put into
 - [100+ Python Coding Problems with Solutions](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions)
 - [Rosalind](http://rosalind.info/problems/locations/)
 - [Advent of Code](https://adventofcode.com/)
-- [GitHub projects for beginners](https://github.com/MunGell/awesome-for-beginners) - Projects that are specifically geared towards beginners to GitHub. Possibly intermediate to advanced coding issues to be solved.
+- [GitHub projects for beginners](https://github.com/MunGell/awesome-for-beginners) - Proyectos diseñados específicamente para principiantes en GitHub. Posiblemente problemas de programación de nivel intermedio a avanzado por resolver.

@@ -1,93 +1,93 @@
 # Operating Systems: Three Easy Pieces
 
-Credit goes to [palladian](https://github.com/palladian1)
-## Introduction
+Agradecimientos a [palladian](https://github.com/palladian1)
+## Introducción
 
-First, we should be frank: it's really hard to find a good self-contained online course on operating systems. OSTEP is the best course we've found so far. We describe below two approaches to the course, a "Base" approach which is suitable for most students, and an "Extended" approach, which is appropriate for students intending to specialize in systems programming.
+Primero, seamos francos: es realmente difícil encontrar un buen curso en línea y autocontenido sobre sistemas operativos. OSTEP es el mejor curso que hemos encontrado hasta ahora. Describimos a continuación dos enfoques del curso: un enfoque "Base", adecuado para la mayoría de los estudiantes, y un enfoque "Extendido", apropiado para estudiantes que desean especializarse en programación de sistemas.
 
-The "base" approach covers all of our operating system curriculum requirements and should take about 80 hours of work.
+El enfoque "base" cubre todos los requisitos de nuestro currículo de sistemas operativos y debería llevar unas 80 horas de trabajo.
 
-The "extended" approach contains all of the work of the base approach and more. It involves learning very serious C and x86 assembly, and delving deep into kernel programming. It takes significantly more time (over 200 hours) and is much more challenging. For those students interested in this area of computing it is also highly rewarding.
+El enfoque "extendido" contiene todo el trabajo del enfoque base y más. Implica aprender C y ensamblador x86 muy serios, y adentrarse a fondo en la programación de kernels. Toma bastante más tiempo (más de 200 horas) y es mucho más desafiante. Para esos estudiantes interesados en esta área de la computación, también es muy gratificante.
 
-## Base Approach
+## Enfoque base
 
-1. Read through the free online textbook Operating Systems: Three Easy Pieces
-2. Complete the homework questions at the end of each chapter. (There is an associated [Github repository](https://github.com/remzi-arpacidusseau/ostep-homework) for the homeworks.)
+1. Lee el libro de texto en línea gratuito Operating Systems: Three Easy Pieces
+2. Completa las preguntas de tarea al final de cada capítulo. (Hay un [repositorio de Github](https://github.com/remzi-arpacidusseau/ostep-homework) asociado para las tareas.)
 
-This should take about 8 weeks, 10 hours/week. That's all you need to do!
+Esto debería llevar unas 8 semanas, 10 horas/semana. ¡Eso es todo lo que necesitas hacer!
 
-You will need a Unix/Linux system, some basic command line tools, and a C compiler (such as GCC or Clang). On Windows, you can install Ubuntu in a virtual machine, or use WSL (Windows Subsystem for Linux). Mac OS is Unix-like, so it should be OK to use.
+Necesitarás un sistema Unix/Linux, algunas herramientas básicas de línea de comandos y un compilador de C (como GCC o Clang). En Windows, puedes instalar Ubuntu en una máquina virtual o usar WSL (Windows Subsystem for Linux). Mac OS es tipo Unix, así que debería funcionar bien usarlo.
 
-### Course Links
+### Enlaces del curso
 
-* [Book](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-* [Homework](https://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html)
-* [Homework Source Code Repo](https://github.com/remzi-arpacidusseau/ostep-homework)
-* [Homework Solutions](https://github.com/xxyzz/ostep-hw)
+* [Libro](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+* [Tareas](https://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html)
+* [Repositorio de código fuente de las tareas](https://github.com/remzi-arpacidusseau/ostep-homework)
+* [Soluciones de las tareas](https://github.com/xxyzz/ostep-hw)
 
 ### C
 
-**Question**: I see some C code in this book. How much C do I need to know?
+**Pregunta**: Veo algo de código C en este libro. ¿Cuánto C necesito saber?
 
-**Answer**: You'll need to read and understand some C code in this book. You'll need basic understanding of arrays, pointers and print formatting. You can consult the free book [Dive into Systems: Chapter 1 and 2](https://diveintosystems.org/book/C1-C_intro/index.html). The [CS50 Manual pages](https://manual.cs50.io) are also helpful to look up functions. You shouldn't spend too much time on learning C.
+**Respuesta**: Necesitarás leer y entender algo de código C en este libro. Necesitarás una comprensión básica de arreglos, punteros y formato de impresión. Puedes consultar el libro gratuito [Dive into Systems: Capítulo 1 y 2](https://diveintosystems.org/book/C1-C_intro/index.html). Las [páginas del manual de CS50](https://manual.cs50.io) también son útiles para buscar funciones. No deberías dedicar demasiado tiempo a aprender C.
 
-The code you'll read is fairly simple and presented in short fragments. The book helps you out quite a bit by manually introducing many C APIs such as the Process API, the Thread API, and so on. You can type, compile and run the code fragments, and read the corresponding explanations. The book explains them in great detail in a conversational style that's fun to read.
+El código que leerás es bastante simple y se presenta en fragmentos cortos. El libro te ayuda bastante presentando manualmente muchas APIs de C, como la Process API, la Thread API, y así sucesivamente. Puedes escribir, compilar y ejecutar los fragmentos de código y leer las explicaciones correspondientes. El libro los explica con gran detalle, en un estilo conversacional que es divertido de leer.
 
-You will also write a little bit of C code. Only a minority of the chapters (about 10 out of 50) ask you to write some C code (while the other chapters require you to run provided simulation code and answer questions). These are usually simple, short C programs that imitate the code that was presented in that chapter, with small modifications.
-When you're ready to start the homework, start with the [reverse project](https://github.com/billmei/ostep-projects/tree/billmei/patch-1/initial-reverse) this will be a good test to see if you're ready for the rest of the projects. For the rest of the hw projects use the link under course links.
+También escribirás un poco de código C. Solo una minoría de los capítulos (unos 10 de 50) te piden escribir algo de código C (mientras que los demás capítulos requieren que ejecutes el código de simulación proporcionado y respondas preguntas). Estos suelen ser programas C simples y cortos que imitan el código presentado en ese capítulo, con pequeñas modificaciones.
+Cuando estés listo para empezar la tarea, empieza con el [proyecto reverse](https://github.com/billmei/ostep-projects/tree/billmei/patch-1/initial-reverse); esta será una buena prueba para ver si estás listo para el resto de los proyectos. Para el resto de los proyectos de tarea, usa el enlace que está bajo los enlaces del curso.
 
-If you are getting stuck on these, please don't spend too much time on them. There is a great solution set [here](https://github.com/xxyzz/ostep-hw). There is no honor code for this, so you are free to use the solutions. If you find yourself spending too much time, feel free to read and understand the solutions instead. Your main priority should be to gain understanding of operating systems concepts, not to master C coding.
+Si te atascas en estos, por favor no dediques demasiado tiempo. Hay un excelente conjunto de soluciones [aquí](https://github.com/xxyzz/ostep-hw). No hay código de honor para esto, así que eres libre de usar las soluciones. Si te encuentras dedicando demasiado tiempo, siéntete libre de leer y entender las soluciones. Tu prioridad principal debe ser comprender los conceptos de los sistemas operativos, no dominar la codificación en C.
 
-## Extended Approach
+## Enfoque extendido
 
-If you've chosen this option, then this is the first course in the OSSU curriculum for which you'll need to learn some prerequisites on your own before starting it, in addition to the courses that come before it in the curriculum. You might also run into some issues running the scripts for homework demos and for testing your solutions to the projects (although we hope we've solved most of those by now).
+Si has elegido esta opción, entonces este es el primer curso del OSSU curriculum para el que necesitarás aprender algunos prerrequisitos por tu cuenta antes de empezarlo, además de los cursos que lo anteceden en el currículo. También podrías encontrar algunos problemas al ejecutar los scripts de demostración de las tareas y para probar tus soluciones a los proyectos (aunque esperamos haber resuelto la mayoría de ellos para ahora).
 
-That said, if you're able to commit the time required for the prerequisites, we believe the reward is well worth the effort: this course is exciting, interesting, and quite useful for other fields of computer science and programming. One big attraction of this course is the opportunity to see a simplified but fully-functional Unix-like operating system in action and understand the concepts and design decisions that went into it as well as the low-level implementation details.
+Dicho esto, si puedes destinar el tiempo requerido a los prerrequisitos, creemos que la recompensa merece mucho el esfuerzo: este curso es emocionante, interesante y bastante útil para otros campos de la ciencia de la computación y la programación. Una de las grandes atracciones de este curso es la oportunidad de ver un sistema operativo tipo Unix simplificado pero totalmente funcional en acción, y comprender los conceptos y las decisiones de diseño que se aplicaron en él, así como los detalles de implementación de bajo nivel.
 
-You should either watch all the lecture videos or read chapters 1 through 47 in the textbook (don't worry, the chapters are usually just a few pages long) as well as finish the projects listed below. We also strongly encourage you to do the homework exercises as they're assigned on the course website or in the book chapters; think of these like the "check-your-understanding" questions that pop up in the middle of lecture videos on sites like Coursera or edX.
+Deberías ver todos los videos de las clases o leer los capítulos 1 a 47 del libro de texto (no te preocupes, los capítulos suelen tener solo unas pocas páginas), así como terminar los proyectos listados abajo. También te animamos encarecidamente a hacer los ejercicios de tarea tal como se asignan en el sitio web del curso o en los capítulos del libro; piensa en ellos como las preguntas de "verifica tu comprensión" que aparecen en medio de los videos de clases en sitios como Coursera o edX.
 
-### Prerequisites
+### Prerrequisitos
 
-This class requires a lot of experience programming in C. You should finish one of the C books listed in the [resources below](#c-1) *before* starting this course; if you try to learn C at the same time as the course material, you're likely to feel overwhelmed. If you haven't used C before, you should expect to spend a lot of time on this; it's hard to predict how long it might take for each person, but a rough estimate might be 8-10 hours per week for 3-5 weeks. You can always learn C alongside another OSSU course or even redo the exercises for other courses in C to gain practice with it.
+Esta clase requiere mucha experiencia programando en C. Debes terminar uno de los libros de C listados en los [recursos a continuación](#c-1) *antes* de empezar este curso; si intentas aprender C al mismo tiempo que el material del curso, probablemente te sentirás abrumado. Si nunca has usado C antes, espera dedicarle mucho tiempo; es difícil prever cuánto tiempo le llevará a cada persona, pero una estimación aproximada podría ser de 8 a 10 horas por semana durante 3 a 5 semanas. Siempre puedes aprender C junto con otro curso de OSSU o incluso volver a hacer los ejercicios de otros cursos en C para ganar práctica con él.
 
-You should also finish both parts of Nand2Tetris before starting this course. OSTEP focuses on the real-world x86 and x86_64 architectures, so you'll have to fill in some gaps in order to translate the concepts you learned in Nand2Tetris to a new architecture. You can do that with the x86 resources below, but note that they all assume you know C, so learn that first. This should take around 6-8 hours in total.
+También deberías terminar las dos partes de Nand2Tetris antes de empezar este curso. OSTEP se centra en las arquitecturas reales x86 y x86_64, así que tendrás que llenar algunos vacíos para trasladar los conceptos que aprendiste en Nand2Tetris a una nueva arquitectura. Puedes hacerlo con los recursos de x86 listados abajo, pero ten en cuenta que todos asumen que sabes C, así que aprende eso primero. Esto debería llevar alrededor de 6 a 8 horas en total.
 
-### Course Links
+### Enlaces del curso
 
-* [Course website](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/)
-* [Book](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-* [Lecture videos](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Discussion/videos.html)
-* [Homework](https://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html)
-* [Homework Source Code Repo](https://github.com/remzi-arpacidusseau/ostep-homework)
-* [Homework Solutions](https://github.com/xxyzz/ostep-hw)
-* [Projects](https://github.com/remzi-arpacidusseau/ostep-projects)
+* [Sitio web del curso](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/)
+* [Libro](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+* [Videos de las clases](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Discussion/videos.html)
+* [Tareas](https://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html)
+* [Repositorio de código fuente de las tareas](https://github.com/remzi-arpacidusseau/ostep-homework)
+* [Soluciones de las tareas](https://github.com/xxyzz/ostep-hw)
+* [Proyectos](https://github.com/remzi-arpacidusseau/ostep-projects)
 * [xv6](https://github.com/mit-pdos/xv6-public)
 
-### Roadmap
+### Hoja de ruta
 
-This course was originally taught as CS 537 at the University of Wisconsin by the author of the OSTEP textbook, so the projects are assigned in the course according to the best times to give UWisconsin students access to on-campus resources like recitation sections and office hours. That means they don't match up perfectly with the material being covered at that time in the lectures or textbook chapters. We recommend doing the course in the following order instead.
+Este curso fue impartido originalmente como CS 537 en la University of Wisconsin por el autor del libro de texto de OSTEP, por lo que los proyectos se asignan en el curso de acuerdo con los mejores momentos para dar a los estudiantes de UWisconsin acceso a recursos del campus como secciones de recitación y horas de oficina. Eso significa que no coinciden perfectamente con el material que se cubre en ese momento en las clases o en los capítulos del libro. Recomendamos hacer el curso en el siguiente orden.
 
 [Reading order](Reading-order.md)
 
-* Read chapters 1 and 2 of the OSTEP textbook and watch the first half (the introduction) of lecture 1.
-* Do the `initial-utilities` project; it's intended as a litmus test for you to make sure you're comfortable enough with C before taking this class. You can watch discussion 1 for help. If it takes you more than 2 hours to write the code (not counting the discussion time and any time spent debugging), you should consider spending more time learning C before moving on in the course. (If you want more practice, you can do `initial-reverse` too, but it's not required.)
-* Watch lectures 1 through 5 and read chapters 3 through 24 of the OSTEP textbook. We recommend doing the homework assignments as they come up in the course calendar or book chapters.
-* Watch discussion 3 and reread chapter 5, then do the `processes-shell` project.
-* Read the annotated guide to xv6 linked in the resources section below, starting from the beginning and stopping after the `System Calls: Processes` section.
-* Watch discussion 2, then do the `initial-xv6` project.
-* Watch discussion 5, then do the `scheduling-xv6-lottery` project.
-* Watch discussion 7, then do the `vm-xv6-intro` project.
-* Watch lectures 6 through 9 (and optionally, the review lecture) and read chapters 25 through 34; again, you're encouraged to do the homework.
-* Watch discussion 10, then do the `concurrency-xv6-threads` project.
-* Watch discussions 11 and 12, then do the `concurrency-mapreduce` project.
-* Watch lectures 10 through 14 (and optionally, the second review lecture) and read chapters 35 through 47; remember to do the homework along with the lectures or chapters.
-* Do the `filesystems-checker` project.
+* Lee los capítulos 1 y 2 del libro de texto de OSTEP y mira la primera mitad (la introducción) de la clase 1.
+* Haz el proyecto `initial-utilities`; está pensado como una prueba para que compruebes que estás suficientemente cómodo con C antes de tomar esta clase. Puedes ver la discusión 1 para ayudarte. Si te lleva más de 2 horas escribir el código (sin contar el tiempo de la discusión ni el tiempo de depuración), deberías considerar dedicar más tiempo a aprender C antes de continuar en el curso. (Si quieres más práctica, también puedes hacer `initial-reverse`, pero no es obligatorio.)
+* Mira las clases 1 a 5 y lee los capítulos 3 a 24 del libro de texto de OSTEP. Recomendamos hacer las tareas a medida que aparecen en el calendario del curso o en los capítulos del libro.
+* Mira la discusión 3 y vuelve a leer el capítulo 5, y luego haz el proyecto `processes-shell`.
+* Lee la guía anotada de xv6 enlazada en la sección de recursos de abajo, empezando desde el principio y deteniéndote después de la sección `System Calls: Processes`.
+* Mira la discusión 2 y luego haz el proyecto `initial-xv6`.
+* Mira la discusión 5 y luego haz el proyecto `scheduling-xv6-lottery`.
+* Mira la discusión 7 y luego haz el proyecto `vm-xv6-intro`.
+* Mira las clases 6 a 9 (y opcionalmente, la clase de repaso) y lee los capítulos 25 a 34; de nuevo, se te anima a hacer las tareas.
+* Mira la discusión 10 y luego haz el proyecto `concurrency-xv6-threads`.
+* Mira las discusiones 11 y 12 y luego haz el proyecto `concurrency-mapreduce`.
+* Mira las clases 10 a 14 (y opcionalmente, la segunda clase de repaso) y lee los capítulos 35 a 47; recuerda hacer las tareas junto con las clases o los capítulos.
+* Haz el proyecto `filesystems-checker`.
 
-### Running the Projects
+### Ejecución de los proyectos
 
-This course was originally taught as CS 537 at the University of Wisconsin by the author of the OSTEP textbook, which means that the homework and projects were written with those students as a target audience and designed to be run on UWisconsin lab computers with specific software versions pre-installed for students. We hope this section fixes that so you can run them on other computers, but we haven't tested this on every computer, so if you run into other issues, let us know on the [Discord channel](https://discord.gg/MJ9YXyV) and we'll try to help out.
+Este curso fue impartido originalmente como CS 537 en la University of Wisconsin por el autor del libro de texto de OSTEP, lo que significa que las tareas y los proyectos fueron escritos con esos estudiantes como público objetivo y diseñados para ejecutarse en las computadoras del laboratorio de UWisconsin con versiones de software específicas preinstaladas para los estudiantes. Esperamos que esta sección resuelva eso para que puedas ejecutarlos en otras computadoras, pero no lo hemos probado en todas, así que si encuentras otros problemas, avísanos en el [canal de Discord](https://discord.gg/MJ9YXyV) e intentaremos ayudarte.
 
-In order to run the homework and projects on Linux or macOS, you'll need to have all of the following programs installed:
+Para ejecutar las tareas y los proyectos en Linux o macOS, necesitarás tener instalados todos los siguientes programas:
 
 * `gcc`
 * `gas`
@@ -103,58 +103,58 @@ In order to run the homework and projects on Linux or macOS, you'll need to have
 * `expect`
 * `git`
 
-You will also need to install `qemu`, but we recommend using the patched version provided by the xv6 authors; see [this link](https://pdos.csail.mit.edu/6.828/2018/tools.html) for details.
+También necesitarás instalar `qemu`, pero recomendamos usar la versión parchada proporcionada por los autores de xv6; consulta [este enlace](https://pdos.csail.mit.edu/6.828/2018/tools.html) para más detalles.
 
-On macOS, you'll need to install a cross-compiler `gcc` suite capable of producing x86 ELF binaries; see the link above for details as well.
+En macOS, necesitarás instalar un conjunto de compilador cruzado `gcc` capaz de producir binarios ELF de x86; consulta el enlace de arriba para los detalles también.
 
-On Windows, you can use a Linux virtual machine for the homework and projects. Some of these packages are not yet supported on Apple M1 computers, and virtual machine software has not yet been ported to the new processor architecture; some students have used a VPS to do the homework and projects instead.
+En Windows, puedes usar una máquina virtual de Linux para las tareas y los proyectos. Algunos de estos paquetes aún no están soportados en computadoras Apple M1, y el software de máquinas virtuales aún no ha sido portado a la nueva arquitectura de procesadores; algunos estudiantes han usado un VPS para hacer las tareas y los proyectos.
 
-Next, clone the `ostep-homework` and `ostep-projects` repositories:
+A continuación, clona los repositorios `ostep-homework` y `ostep-projects`:
 ```sh
 git clone https://github.com/remzi-arpacidusseau/ostep-homework/
 git clone https://github.com/remzi-arpacidusseau/ostep-projects/
 cd ostep-projects
 ```
 
-You'll have to clone [the `xv6-public` repository](https://github.com/mit-pdos/xv6-public) into the directory for each xv6-related OSTEP project. You could use the same copy for all the projects, but we recommend using separate copies to avoid previous projects causing bugs for later ones. Run the following commands in *each* of the `initial-xv6`, `scheduling-xv6-lottery`, `vm-xv6-intro`, `concurrency-xv6-threads`, and `filesystems-checker` directories.
+Tendrás que clonar [el repositorio `xv6-public`](https://github.com/mit-pdos/xv6-public) dentro del directorio de cada proyecto de OSTEP relacionado con xv6. Podrías usar la misma copia para todos los proyectos, pero recomendamos usar copias separadas para evitar que los proyectos anteriores causen errores en los posteriores. Ejecuta los siguientes comandos en *cada* uno de los directorios `initial-xv6`, `scheduling-xv6-lottery`, `vm-xv6-intro`, `concurrency-xv6-threads` y `filesystems-checker`.
 
 ```sh
 mkdir src
 git clone https://github.com/mit-pdos/xv6-public src
 ```
 
-### Hints and tips for Projects
+### Pistas y consejos para los proyectos
 
-- `initial-reverse`: the error messages that are needed to pass the tests were wrong! The provided text said `"error: ..."` but the tests expected `"reverse: ..."` so make sure to match the tests' expectations in your code.
-- [hints and tips for `processes-shell`](Project-2A-processes-shell.md)
-- [hints for Project 1B: `initial-xv6`](Project-1B-initial-xv6.md)
-- [hints for `scheduling-xv6-lottery`](Scheduling-xv6-lottery.md)
-- [hints for `vm-xv6-intro`](vm-xv6-intro.md)
+- `initial-reverse`: ¡los mensajes de error que se necesitaban para pasar las pruebas estaban mal! El texto proporcionado decía `"error: ..."` pero las pruebas esperaban `"reverse: ..."`, así que asegúrate de cumplir las expectativas de las pruebas en tu código.
+- [pistas y consejos para `processes-shell`](Project-2A-processes-shell.md)
+- [pistas para el Proyecto 1B: `initial-xv6`](Project-1B-initial-xv6.md)
+- [pistas para `scheduling-xv6-lottery`](Scheduling-xv6-lottery.md)
+- [pistas para `vm-xv6-intro`](vm-xv6-intro.md)
 
-### Resources
+### Recursos
 
 #### C
 
-Please don't try to learn C from sites like GeeksforGeeks, TutorialsPoint, or Hackr.io (we're not even gonna link to them here). Those are great resources for other languages, but C has way too many pitfalls, and C tutorials online are often filled with dangerous errors and bad coding practices. We looked at many C resources for the recommendations below and unfortunately found *many* bad or unsafe ones; we'll only include the best ones here, so look no further!
+Por favor, no intentes aprender C de sitios como GeeksforGeeks, TutorialsPoint o Hackr.io (ni siquiera vamos a enlazarlos aquí). Esos son excelentes recursos para otros lenguajes, pero C tiene demasiados peligros, y los tutoriales de C en línea a menudo están llenos de errores peligrosos y malas prácticas de codificación. Revisamos muchos recursos de C para las recomendaciones de abajo y desafortunadamente encontramos *muchos* malos o inseguros; solo incluiremos los mejores aquí, ¡así que no busques más!
 
-We recommend learning C by working through (the entirety of) Jens Gustedt's *Modern C*, which is [freely available online](https://inria.hal.science/hal-02383654v2/file/modernC.pdf). This book is relatively short and will bring you up to speed on the C language itself as well as modern coding practices for it. Make sure to do all the exercises in the footnotes!
+Recomendamos aprender C trabajando (a fondo) *Modern C* de Jens Gustedt, que está [disponible gratuitamente en línea](https://inria.hal.science/hal-02383654v2/file/modernC.pdf). Este libro es relativamente corto y te pondrá al día tanto en el lenguaje C en sí como en las prácticas de codificación modernas para él. ¡Asegúrate de hacer todos los ejercicios en las notas al pie!
 
-While the book above is our default recommendation, we also recommend K.N. King's [*C Programming: A Modern Approach*](http://www.knking.com/books/c2/) as a second, more beginner-friendly option. It has some disadvantages: it's much longer (almost 850 pages), it's not available for free (and copies can be hard to find), and it's not quite as recent as *Modern C* (but still relevant nonetheless). That said, it has more exercises if you want extra practice, and the Q&A sections at the end of each chapter are filled with pearls of C wisdom and answers to C FAQs. It also covers almost the entirety of the C language and standard library, so it doubles as a reference book.
+Aunque el libro de arriba es nuestra recomendación por defecto, también recomendamos [*C Programming: A Modern Approach*](http://www.knking.com/books/c2/) de K.N. King como una segunda opción, más amigable para principiantes. Tiene algunas desventajas: es mucho más largo (casi 850 páginas), no está disponible de forma gratuita (y las copias pueden ser difíciles de encontrar), y no es tan reciente como *Modern C* (aunque sigue siendo relevante). Dicho esto, tiene más ejercicios si quieres práctica extra, y las secciones de preguntas y respuestas al final de cada capítulo están llenas de joyas de sabiduría sobre C y de respuestas a las preguntas frecuentes de C. También cubre casi la totalidad del lenguaje C y de la biblioteca estándar, así que también sirve como libro de referencia.
 
-CS 50 doesn't quite cover enough C for OSTEP, but if you've already taken CS 50, you can supplement it with the books above.
+CS 50 no cubre suficiente C para OSTEP, pero si ya has cursado CS 50, puedes complementarlo con los libros de arriba.
 
-Additional (***optional***) resources include:
-* [CS 50 Manual Pages](https://manual.cs50.io): a great reference for looking up C library functions; most functions include both the usual manual as well as a beginner-friendly "less comfortable" option (just note that the "less comfortable" version uses `string` as an alias for `char *`.)
-* [cdecl](https://cdecl.org): a tool to translate C gibberish into English.
-* [C track on exercism.org](https://exercism.org/tracks/C): additional practice exercises.
-* [Secure Coding Practices in C and C++](https://www.amazon.com/dp/0321822137): if you want to understand why other C resources are so unsafe.
-* [*The C Programming Language*](https://www.amazon.com/dp/0131103628): the original book on C by its creators. Too outdated for OSTEP, but a good read if you manage to find a copy.
+Recursos adicionales (***opcionales***) incluyen:
+* [CS 50 Manual Pages](https://manual.cs50.io): una gran referencia para buscar funciones de la biblioteca de C; la mayoría de las funciones incluyen tanto el manual habitual como una opción más amigable para principiantes, "less comfortable" (simplemente ten en cuenta que la versión "less comfortable" usa `string` como alias de `char *`.)
+* [cdecl](https://cdecl.org): una herramienta para traducir acertijos de C al inglés.
+* [C track on exercism.org](https://exercism.org/tracks/C): ejercicios de práctica adicionales.
+* [Secure Coding Practices in C and C++](https://www.amazon.com/dp/0321822137): si quieres entender por qué otros recursos de C son tan inseguros.
+* [*The C Programming Language*](https://www.amazon.com/dp/0131103628): el libro original sobre C, escrito por sus creadores. Demasiado anticuado para OSTEP, pero una buena lectura si logras encontrar una copia.
 
-#### x86 Architecture and Assembly Language
+#### Arquitectura x86 y lenguaje ensamblador
 
-Nand2Tetris has already introduced most of the concepts you'll need to understand systems and computer architectures, so now you just need to port that knowledge to the real-world (32-bit) x86 architecture.
+Nand2Tetris ya ha introducido la mayoría de los conceptos que necesitarás para entender los sistemas y las arquitecturas de computadoras, así que ahora solo necesitas trasladar ese conocimiento a la arquitectura x86 real (de 32 bits).
 
-The easiest way to do that is by watching a subset of the lectures from the *Computer Systems: A Programmer's Perspective* course (or reading the matching chapters in the [textbook](https://www.amazon.com/dp/013409266X) of the same name). The lectures you'll need are:
+La forma más fácil de hacerlo es viendo un subconjunto de las clases del curso *Computer Systems: A Programmer's Perspective* (o leyendo los capítulos correspondientes del [libro](https://www.amazon.com/dp/013409266X) del mismo nombre). Las clases que necesitarás son:
 
 * [Machine-Level Programming I: Basics](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e410255-3858-4e85-89c7-812c5845d197)
 * [Machine-Level Programming II: Control](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fc93c499-8fc9-4652-9a99-711058054afb)
@@ -163,36 +163,36 @@ The easiest way to do that is by watching a subset of the lectures from the *Com
 * [Machine-Level Programming V: Advanced Topics](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f0bf9ca-d640-4798-b91a-73aed656a10a)
 * [Linking](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0aef84fc-a53b-49c6-bb43-14cb2b175249)
 
-Furthermore, it is recommened to do the following labs. These labs are meant to teach you how to work with assembly:
-* **Bomb Lab**: [Writeup](http://csapp.cs.cmu.edu/3e/bomblab.pdf), [self-study handout](https://csapp.cs.cmu.edu/3e/bomb.tar).
-  > A "binary bomb" is a program provided to students as an object code file. When run, it prompts the user to type in 6 different strings. If any of these is incorrect, the  bomb "explodes," printing an error message and logging the event on a grading server. Students must "defuse" their own unique bomb by disassembling and reverse engineering the program to determine what the 6 strings should be. The lab teaches students to understand assembly language, and also forces them to learn how to use a debugger. It's also great fun. A legendary lab among the CMU undergrads.
-* **Attack Lab**: [Writeup](http://csapp.cs.cmu.edu/3e/attacklab.pdf), [self-study handout](https://csapp.cs.cmu.edu/3e/target1.tar).
-  > Students are given a pair of unique custom-generated x86-64 binary executables, called targets, that have buffer overflow bugs. One target is vulnerable to code injection attacks. The other is vulnerable to return-oriented programming attacks. Students are asked to modify the behavior of the targets by developing exploits based on either code injection or return-oriented programming. This lab teaches the students about the stack discipline and teaches them about the danger of writing code that is vulnerable to buffer overflow attacks. **Note:** run the targets with the -q flag to prevent them from trying to contact a non-existent grading server.
+Además, se recomienda hacer los siguientes labs. Estos labs están pensados para enseñarte a trabajar con ensamblador:
+* **Bomb Lab**: [Guía](http://csapp.cs.cmu.edu/3e/bomblab.pdf), [material para estudio independiente](https://csapp.cs.cmu.edu/3e/bomb.tar).
+  > Una "bomba binaria" es un programa que se proporciona a los estudiantes como un archivo de código objeto. Al ejecutarse, le pide al usuario que escriba 6 cadenas diferentes. Si alguna de ellas es incorrecta, la bomba "explota", imprimiendo un mensaje de error y registrando el evento en un servidor de calificación. Los estudiantes deben "desactivar" su propia bomba única mediante el desensamblado del programa y la ingeniería inversa, para determinar cuáles deben ser las 6 cadenas. El lab enseña a los estudiantes a entender el lenguaje ensamblador y también los obliga a aprender a usar un debugger. También es muy divertido. Un lab legendario entre los estudiantes de pregrado de la CMU.
+* **Attack Lab**: [Guía](http://csapp.cs.cmu.edu/3e/attacklab.pdf), [material para estudio independiente](https://csapp.cs.cmu.edu/3e/target1.tar).
+  > Se les da a los estudiantes un par de ejecutables binarios únicos de x86-64 generados de forma personalizada, llamados targets, que tienen errores de desbordamiento de búfer. Un target es vulnerable a ataques de inyección de código. El otro es vulnerable a ataques de programación orientada a retornos. Se les pide a los estudiantes modificar el comportamiento de los targets desarrollando exploits basados en inyección de código o en programación orientada a retornos. Este lab enseña a los estudiantes la disciplina de la pila y les enseña el peligro de escribir código vulnerable a ataques de desbordamiento de búfer. **Nota:** ejecuta los targets con la bandera -q para evitar que intenten contactar con un servidor de calificación inexistente.
 
-Additional (***optional***) resources include:
-* [CPU Registers x86](https://wiki.osdev.org/CPU_Registers_x86): good for looking up specific registers.
-* [*PC Assembly Language*](https://pdos.csail.mit.edu/6.828/2018/readings/pcasm-book.pdf): a short book on x86 assembly.
-* [GCC Inline Assembly HOWTO](https://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html): a guide to writing assembly code inside a C program.
-* [*Intel 80386 Programmer's Reference Manual*](https://pdos.csail.mit.edu/6.828/2018/readings/i386.pdf): the official (and huge) resourcefrom Intel.
+Recursos adicionales (***opcionales***) incluyen:
+* [CPU Registers x86](https://wiki.osdev.org/CPU_Registers_x86): bueno para buscar registros específicos.
+* [*PC Assembly Language*](https://pdos.csail.mit.edu/6.828/2018/readings/pcasm-book.pdf): un corto libro sobre ensamblador x86.
+* [GCC Inline Assembly HOWTO](https://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html): una guía para escribir código de ensamblador dentro de un programa en C.
+* [*Intel 80386 Programmer's Reference Manual*](https://pdos.csail.mit.edu/6.828/2018/readings/i386.pdf): el recurso oficial (y enorme) de Intel.
 
 #### xv6
 
-You don't need to read anything about xv6 until after you start OSTEP; in fact, we recommend holding off on the xv6-related projects until you've finished the entire section on virtualization. After that, you'll need a guide to walk you through the source code.
+No necesitas leer nada sobre xv6 hasta después de empezar OSTEP; de hecho, recomendamos dejar los proyectos relacionados con xv6 para cuando hayas terminado toda la sección de virtualización. Después de eso, necesitarás una guía que te acompañe a través del código fuente.
 
-The xv6 authors provide a [book](https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf) that you can read alongside the source code. There's also a handy line-numbered [PDF version](https://pdos.csail.mit.edu/6.828/2018/xv6/xv6-rev11.pdf) of the code with an index to see exactly where each function or constant gets used.
+Los autores de xv6 proporcionan un [libro](https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf) que puedes leer junto con el código fuente. También hay una práctica [versión en PDF](https://pdos.csail.mit.edu/6.828/2018/xv6/xv6-rev11.pdf) del código, con números de línea y un índice para ver exactamente dónde se usa cada función o constante.
 
-However, that book glosses over a lot of the details in the code that you might find challenging, including the advanced C features used, the x86 architecture- specific instructions, and the concurrency aspects (if you haven't finished that section of OSTEP before starting the xv6 projects). To solve this problem, we provide an [annotated guide to xv6](https://github.com/palladian1/xv6-annotated) that goes over the entire xv6 code and analyzes it line-by-line with explanations of the C features, hardware specs, and x86 conventions used. That means it's longer than the official xv6 book, so you don't have to read all of it (and you can probably skip the optional sections unless you care about device drivers), but you can use it as a reference if you're scratching your head about some part of the code.
+Sin embargo, ese libro pasa por alto muchos de los detalles del código que podrían parecerte desafiantes, incluidas las funciones avanzadas de C que se usan, las instrucciones específicas de la arquitectura x86 y los aspectos de concurrencia (si no has terminado esa sección de OSTEP antes de empezar los proyectos de xv6). Para resolver este problema, proporcionamos una [guía anotada de xv6](https://github.com/palladian1/xv6-annotated) que recorre todo el código de xv6 y lo analiza línea por línea, con explicaciones de las funciones de C, las especificaciones del hardware y las convenciones de x86 que se usan. Eso significa que es más larga que el libro oficial de xv6, así que no tienes que leerla toda (y probablemente puedas omitir las secciones opcionales, a menos que te interesen los controladores de dispositivos), pero puedes usarla como referencia si te rascas la cabeza con alguna parte del código.
 
-[Here](https://github.com/YehudaShapira/xv6-explained) is another in-depth explanation of the xv6 code.
+[Aquí](https://github.com/YehudaShapira/xv6-explained) hay otra explicación en profundidad del código de xv6.
 
-Also [here](https://www.youtube.com/playlist?list=PLbtzT1TYeoMhTPzyTZboW_j7TPAnjv9XB) is an excellent video series walking through much of the xv6 code.
+También [aquí](https://www.youtube.com/playlist?list=PLbtzT1TYeoMhTPzyTZboW_j7TPAnjv9XB) hay una excelente serie de videos que recorre gran parte del código de xv6.
 
-#### Miscellaneous
+#### Misceláneos
 
-You'll need a general sense of how Makefiles work in order to use the Makefile for xv6. [This tutorial](https://makefiletutorial.com) covers much more than you need; just read the "Getting Started" and "Targets" sections and come back to the rest later if you need to look something up (but you shouldn't have to).
+Necesitarás una noción general de cómo funcionan los Makefiles para poder usar el Makefile de xv6. [Este tutorial](https://makefiletutorial.com) cubre mucho más de lo que necesitas; solo lee las secciones "Getting Started" y "Targets" y vuelve al resto más adelante si necesitas buscar algo (aunque no debería ser necesario).
 
-Additional (optional) resources include:
-* [GCC Command Options](https://gcc.gnu.org/onlinedocs/gcc-11.1.0/gcc/Invoking-GCC.html#Invoking-GCC): a guide to command-line flags for the GNU C compiler `gcc`.
-* [Linker Scripts](https://sourceware.org/binutils/docs/ld/Scripts.html#Scripts): a guide to writing scripts for the GNU linker `ld`.
-* [OSDev Wiki](https://wiki.osdev.org): a great resource for all kinds of OS concepts and implementation details.
-* [*Linux Kernel Development*](https://www.amazon.com/dp/0672329468): if you want to apply your xv6 knowledge toward contributing to the Linux kernel, this is a great read after OSTEP.
+Recursos adicionales (opcionales) incluyen:
+* [GCC Command Options](https://gcc.gnu.org/onlinedocs/gcc-11.1.0/gcc/Invoking-GCC.html#Invoking-GCC): una guía de los indicadores de línea de comandos para el compilador de C de GNU `gcc`.
+* [Linker Scripts](https://sourceware.org/binutils/docs/ld/Scripts.html#Scripts): una guía para escribir scripts para el enlazador de GNU `ld`.
+* [OSDev Wiki](https://wiki.osdev.org): un gran recurso para todo tipo de conceptos de sistemas operativos y detalles de implementación.
+* [*Linux Kernel Development*](https://www.amazon.com/dp/0672329468): si quieres aplicar tu conocimiento de xv6 para contribuir al kernel de Linux, esta es una gran lectura después de OSTEP.
