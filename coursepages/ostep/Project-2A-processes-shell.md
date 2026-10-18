@@ -1,45 +1,45 @@
-## Project 2A
-### all thanks to [Palladian](https://github.com/palladian1/)
+## Proyecto 2A
+### agradecimientos a [Palladian](https://github.com/palladian1/)
 
-- [x] Interactive mode
-- [x] Batch mode
+- [x] Modo interactivo
+- [x] Modo por lotes
 - [x] exit
 - [x] cd
 - [x] path
-- [x] Redirection
-- [x] Parallel commands
+- [x] Redirección
+- [x] Comandos en paralelo
 
-### Tips
+### Consejos
 
-* Watch the video for discussion 3 on the Unix shell.
-* Read chapter 5 in the OSTEP book.
-* Start by implementing a shell that only does one thing: prints the prompt, then exits when you type `exit`. Then add `cd`, then `path`. Then implement the ability to execute commands with `execv`, then add batch mode, then redirection, and finally parallel commands.
-* All of the test scripts will use batch mode and redirection, so until you've got those done, you'll have to test your shell manually.
-* When you implement the `path` command, make sure you can handle both absolute and relative paths (i.e., `path tests` as well as `path /usr/bin`.
-* It's tricky to get the errors down right, so just add error messages wherever it seems reasonable, then run the test scripts and modify your code until you're reporting errors exactly when you're supposed to. If you're running test `i`, you can check `tests/i.err` and `tests/i.rc` to see how many errors your shell should generate and compare to `tests-out/i.err` and `tests-out/i.rc`.
-* If you run into issues with test 3 where the test expects something like `ls: cannot access ...` and your shell outputs `/bin/ls: cannot access ...` or `/usr/bin/ls: cannot access ...`, try modifying your $PATH environment variable to start with `/bin`. If that doesn't work, just modify `tests/3.err` to match the output your system gives. You can't modify your system's output without messing with the implementation of `ls` and/or `execv`, so it's okay to skip this test as long as it's working in spirit.
-* I had to edit `/tests/3.pre` to use `/bin/ls` due to how it's set up on my system, in order to pass all the tests. Alternatively you can add `export PATH="/bin:$PATH"` to your `.profile` or `.bashrc` file.
+* Mira el video de la discusión 3 sobre el shell de Unix.
+* Lee el capítulo 5 del libro de OSTEP.
+* Empieza implementando un shell que solo haga una cosa: imprime el prompt y luego sale cuando escribes `exit`. Luego agrega `cd`, luego `path`. Luego implementa la capacidad de ejecutar comandos con `execv`, luego agrega el modo por lotes, luego la redirección y finalmente los comandos en paralelo.
+* Todos los scripts de pruebas usarán el modo por lotes y la redirección, así que, hasta que los tengas listos, tendrás que probar tu shell manualmente.
+* Cuando implementes el comando `path`, asegúrate de poder manejar tanto rutas absolutas como relativas (es decir, `path tests` así como `path /usr/bin`.
+* Es difícil acertar con los mensajes de error, así que simplemente agrega mensajes de error donde parezca razonable, luego ejecuta los scripts de pruebas y modifica tu código hasta que reportes los errores exactamente cuando debas. Si estás ejecutando la prueba `i`, puedes revisar `tests/i.err` y `tests/i.rc` para ver cuántos errores debe generar tu shell y compararlos con `tests-out/i.err` y `tests-out/i.rc`.
+* Si encuentras problemas con la prueba 3, donde la prueba espera algo como `ls: cannot access ...` y tu shell produce `/bin/ls: cannot access ...` o `/usr/bin/ls: cannot access ...`, intenta modificar tu variable de entorno $PATH para que empiece con `/bin`. Si eso no funciona, simplemente modifica `tests/3.err` para que coincida con la salida que da tu sistema. No puedes modificar la salida de tu sistema sin alterar la implementación de `ls` y/o `execv`, así que está bien omitir esta prueba siempre que funcione como corresponde.
+* Tuve que editar `/tests/3.pre` para usar `/bin/ls` debido a cómo está configurado en mi sistema, a fin de pasar todas las pruebas. Alternativamente, puedes agregar `export PATH="/bin:$PATH"` a tu archivo `.profile` o `.bashrc`.
 
-### Memory Management Traps and Pitfalls
+### Trampas y peligros de la gestión de memoria
 
-* This assignment makes it really easy to create pointers to stack variables that will no longer exist once they're out of scope, thus causing a segmentation fault. Make sure that if you set a pointer to point to a string, that string is something you allocated on the heap, and not on the stack.
+* Esta tarea hace que sea muy fácil crear punteros a variables de la pila que dejarán de existir una vez que salgan de su ámbito, causando así una violación de segmento. Asegúrate de que, si asignas un puntero para que apunte a una cadena, esa cadena sea algo que asignaste en el heap y no en la pila.
 
-* That said, if you do use a string on the stack, you can copy it into a heap-allocated string using `strcpy()`, `strncpy()`, `strcat()`, and `strncat()`.
+* Dicho esto, si usas una cadena en la pila, puedes copiarla en una cadena asignada en el heap usando `strcpy()`, `strncpy()`, `strcat()` y `strncat()`.
 
-* Only use `strcpy()` and `strcat()` for fixed-size strings and make sure the buffer you're copying into has enough space to hold the string, plus an extra character for `\0`.
+* Usa `strcpy()` y `strcat()` solo con cadenas de tamaño fijo y asegúrate de que el buffer al que copias tenga suficiente espacio para contener la cadena, más un carácter extra para `\0`.
 
-* For `strncpy()` and `strncat()`, make sure `n` is large enough to fit the `\0` terminator, or add it manually.
+* Para `strncpy()` y `strncat()`, asegúrate de que `n` sea lo suficientemente grande para alojar el terminador `\0`, o agrégalo manualmente.
 
-* Watch out for use-after-frees, especially in the implementation of `path`.
+* Cuidado con los use-after-free, especialmente en la implementación de `path`.
 
-* Make sure you free any strings from `getline()` and `strdup()`, but watch out for double-frees, e.g. don't free a substring of a string you already freed.
+* Asegúrate de liberar cualquier cadena proveniente de `getline()` y `strdup()`, pero cuidado con los dobles liberados; por ejemplo, no liberes una subcadena de una cadena que ya liberaste.
 
-* Avoid the C library function `strtok()`; it's not thread-safe. Use `strsep()` instead.
+* Evita la función de la biblioteca de C `strtok()`; no es segura entre hilos. Usa `strsep()` en su lugar.
 
-* When you use `strsep()`, make sure you keep a copy of the original pointer to the string around so that you can free it later, because `strsep()` will modify the pointer, so if you free that later on, you'll corrupt the page table.
+* Cuando uses `strsep()`, asegúrate de conservar una copia del puntero original a la cadena para poder liberarla más tarde, porque `strsep()` modificará el puntero; si lo liberas después, corromperás la tabla de páginas.
 
-* After calling `strsep(&buf, delim)`, check whether `buf` is `NULL` before dereferencing it.
-* General C coding practice: if you allocate memory for a data structure inside a function, you should free it in the same function. If you allocate memory in a dedicated `create_xxx` function, you should have a corresponding `destroy_xxx` function. That way, you always allocate and free memory at the same function depth, which makes it easier to avoid memory errors.
-* After every call to `malloc`, `calloc`, or `realloc`, check whether the result is `NULL`.
-* Use `calloc` instead of `malloc` if you're creating an array of pointers to avoid creating pointers to garbage values.
-* in `update_path` I had to fix that issue where most of the tests do `path /bin /usr/bin`, but one of them did `path tests`. So i just assumed that if your path starts with a slash, it's an absolute path and you should copy it in as is; if it doesn't, it's a relative path and you should add a ./ at the beginning.
+* Después de llamar a `strsep(&buf, delim)`, comprueba si `buf` es `NULL` antes de desreferenciarlo.
+* Práctica general de codificación en C: si asignas memoria para una estructura de datos dentro de una función, deberías liberarla en la misma función. Si asignas memoria en una función dedicada `create_xxx`, deberías tener una función `destroy_xxx` correspondiente. Así, siempre asignas y liberas memoria a la misma profundidad de función, lo que facilita evitar errores de memoria.
+* Después de cada llamada a `malloc`, `calloc` o `realloc`, comprueba si el resultado es `NULL`.
+* Usa `calloc` en lugar de `malloc` si estás creando un arreglo de punteros, para evitar crear punteros a valores basura.
+* en `update_path` tuve que corregir ese problema donde la mayoría de las pruebas hacen `path /bin /usr/bin`, pero una de ellas hacía `path tests`. Así que simplemente asumí que si tu path empieza con una barra es una ruta absoluta y debes copiarla tal como está; si no lo es, es una ruta relativa y debes agregar un ./ al principio.

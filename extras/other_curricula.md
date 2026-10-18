@@ -1,6 +1,6 @@
-# Other curricula
+# Otros planes de estudio
 
-OSSU is one of a few efforts to inform learners how they can pursue computer science independently. Below are a few other such efforts.
+OSSU es uno de los pocos esfuerzos que informan a los estudiantes cómo pueden cursar ciencias de la computación de forma independiente. A continuación se presentan algunos otros esfuerzos de este tipo.
 
 - [Google - Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
@@ -8,6 +8,6 @@ OSSU is one of a few efforts to inform learners how they can pursue computer sci
 - [P1xt](https://github.com/P1xt/p1xt-guides)
 - [Functional CS](https://functionalcs.github.io/curriculum/)
 
-What differentiates OSSU? OSSU is dedicated to how an individual can learn the undergraduate CS curriculum. This is why we use the [CS2013](../CURRICULAR_GUIDELINES.md) as our curricular guidelines. These guidelines are written by the two foremost professional organizations in computing.
+¿Qué diferencia a OSSU? OSSU se dedica a cómo una persona puede aprender el plan de estudios de pregrado en ciencias de la computación. Es por ello que usamos las [CS2013](../CURRICULAR_GUIDELINES.md) como nuestras directrices curriculares. Estas directrices están escritas por las dos organizaciones profesionales más importantes en computación.
 
-This approach has the benefit of clarifying to others the extent of a student's study and understanding. Students have gone from OSSU study into both tech industry employment and into Computer Science graduate school. We look forward to helping you do the same.
+Este enfoque tiene la ventaja de aclarar a otros el alcance del estudio y la comprensión del estudiante. Estudiantes han pasado del estudio en OSSU tanto a empleos en la industria tecnológica como a posgrados en Ciencias de la Computación. Esperamos poder ayudarte a hacer lo mismo.

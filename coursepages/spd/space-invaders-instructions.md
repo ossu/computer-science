@@ -1,15 +1,15 @@
-## Week 6A: Space Invaders Project
+## Semana 6A: Proyecto Space Invaders
 
-[Click here](https://github.com/ossu/spd-starters/blob/main/final/space-invaders-starter.rkt) to access the project starter file.
+[Haz clic aquí](https://github.com/ossu/spd-starters/blob/main/final/space-invaders-starter.rkt) para acceder al archivo inicial del proyecto.
 
-In this final project, you will complete the design of the classic arcade game Space Invaders. If you've never played it before, you can get an idea of how it works [here](https://freeinvaders.org/).
+En este proyecto final, completarás el diseño del juego de arcade clásico Space Invaders. Si nunca lo has jugado antes, puedes hacerte una idea de cómo funciona [aquí](https://freeinvaders.org/).
 
-There are many different versions of Space Invaders. For this project, your Space Invaders game should have the following behavior:
+Hay muchas versiones diferentes de Space Invaders. Para este proyecto, tu juego de Space Invaders debe tener el siguiente comportamiento:
 
-- The tank should move right and left at the bottom of the screen when you press the arrow keys. If you press the left arrow key, it will continue to move left at a constant speed until you press the right arrow key.
-- The tank should fire missiles straight up from its current position when you press the space bar.
-- The invaders should appear randomly along the top of the screen and move at a 45 degree angle. When they hit a wall they will bounce off and continue at a 45 degree angle in the other direction.
-- When an invader reaches the bottom of the screen, the game is over.
-- This is an example of what the gameplay should look like: [Space_Invaders.webm](https://github.com/user-attachments/assets/a19d6e31-c931-475c-8ab5-647d2caa050f)
+- El tanque debe moverse a la derecha y a la izquierda en la parte inferior de la pantalla cuando presiones las teclas de flecha. Si presionas la tecla de flecha izquierda, seguirá moviéndose a la izquierda a velocidad constante hasta que presiones la tecla de flecha derecha.
+- El tanque debe disparar misiles directamente hacia arriba desde su posición actual cuando presiones la barra espaciadora.
+- Los invasores deben aparecer aleatoriamente a lo largo de la parte superior de la pantalla y moverse en un ángulo de 45 grados. Cuando golpeen una pared, rebotarán y continuarán en un ángulo de 45 grados en la otra dirección.
+- Cuando un invasor llegue a la parte inferior de la pantalla, el juego termina.
+- Este es un ejemplo de cómo debería verse la jugabilidad: [Space_Invaders.webm](https://github.com/user-attachments/assets/a19d6e31-c931-475c-8ab5-647d2caa050f)
 
-Designing this program will require many of the things you have learned throughout the course, and it will be the largest program you have worked on. Before downloading the starter file, take some time to become acquainted with the game and complete the domain analysis for the program.
+Diseñar este programa requerirá muchas de las cosas que has aprendido a lo largo del curso, y será el programa más grande en el que has trabajado. Antes de descargar el archivo inicial, tómate un tiempo para familiarizarte con el juego y completa el análisis de dominio del programa.
